@@ -130,5 +130,17 @@
     "capa_musica": "assets/capamusica/brisaadiracao.jpg",
     "categoria": "Bossa",
     "data_cadastro": "2026-07-20"
+  },
+  {
+      "id": 13,
+    "titulo": "Fé na Luta",
+    "artista": "AdoraPlay",
+    "album": "HipHop",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/hap/Fe_na_luta.mp3",
+    "capa": "assets/capas/hiphop.png",
+    "capa_musica": "assets/capamusica/fenaluta.jpg",
+    "categoria": "HipHop",
+    "data_cadastro": "2026-07-20"
   }
+  
 ]
