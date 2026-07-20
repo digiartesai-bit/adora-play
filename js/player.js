@@ -314,6 +314,12 @@ if (progressBar) {
 function toggleFavorito() {
     if (!playlist || !playlist[musicaAtual]) return;
     const musica = playlist[musicaAtual];
+
+    const musicaParaSalvar = {
+        ...musica,
+        capa: obterCapaMusica(musica),
+        capa_musica: obterCapaMusica(musica)
+    };
     
     let favoritos = JSON.parse(localStorage.getItem('favoritos')) || [];
     const index = favoritos.findIndex(f => f.titulo.trim() === musica.titulo.trim());
@@ -321,7 +327,7 @@ function toggleFavorito() {
     if (index > -1) {
         favoritos.splice(index, 1);
     } else {
-        favoritos.push(musica);
+        favoritos.push(musicaParaSalvar);
     }
     
     localStorage.setItem('favoritos', JSON.stringify(favoritos));
