@@ -2,10 +2,10 @@
 // RANKING MUNDIAL - ADORAPLAY
 // ==========================================
 
-let musicas = window.musicas || [];
+window.musicas = window.musicas || [];
 
 async function carregarRanking() {
-    musicas = window.musicas || [];
+    window.musicas = window.musicas || [];
 
     const secao = document.getElementById("secaoMaisOuvidas");
     const container = document.getElementById("maisOuvidas");
@@ -43,10 +43,10 @@ async function carregarRanking() {
         const medalhas = ["🥇", "🥈", "🥉"];
 
         ranking.forEach((item, posicao) => {
-            const musica = musicas.find(m => Number(m.id) === Number(item.id));
+            const musica = window.musicas.find(m => Number(m.id) === Number(item.id));
             if (!musica) return;
 
-            const indice = musicas.findIndex(m => Number(m.id) === Number(item.id));
+            const indice = window.musicas.findIndex(m => Number(m.id) === Number(item.id));
             if (indice === -1) return;
 
             container.innerHTML += `
