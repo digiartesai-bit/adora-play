@@ -777,7 +777,7 @@ body {
    =================================================== */
 
 /* Seleciona os contêineres onde o JS injeta os cards */
-#albuns, #continueOuvindo, #favoritosHorizontal {
+#albuns, #continueOuvindo, #favoritosHorizontal, #maisOuvidas {
     display: flex !important;       /* Força o layout em linha */
     flex-wrap: nowrap !important;   /* Proíbe terminantemente a quebra de linha */
     overflow-x: auto !important;    /* Ativa a rolagem horizontal */
@@ -791,7 +791,7 @@ body {
 }
 
 /* Ajusta o comportamento dos cards inseridos pelo JavaScript */
-#albuns .card, #continueOuvindo .card, #favoritosHorizontal .card {
+#albuns .card, #continueOuvindo .card, #favoritosHorizontal .card, #maisOuvidas .card {
     display: block !important;     /* Altera de inline-block para bloco flexível */
     flex-shrink: 0 !important;     /* Impede que o card encolha e suma */
     margin-right: 0 !important;    /* Reseta a margem antiga que controlava o espaço */
