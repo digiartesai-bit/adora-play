@@ -1,0 +1,799 @@
+/* RESET E FONTES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Fonte mais moderna */
+    -webkit-tap-highlight-color: transparent; /* Remove aquele quadrado azul ao clicar no celular */
+}
+
+/* OCULTAR SCROLLBAR NATIVA PARA CARROSSEIS MAIS LIMPOS */
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background: linear-gradient(180deg, #0d233a 0%, #050e16 100%);
+    background-attachment: fixed;
+    color: #ffffff;
+    padding-bottom: 120px; /* Espaço pro player e menu */
+    min-height: 100vh;
+}
+
+/* CABEÇALHO - AJUSTADO PARA IMAGEM DE FUNDO */
+
+/*html {
+    background: #050e16;
+    overscroll-behavior-y: none;
+}
+
+body {
+    background: linear-gradient(180deg, #0d233a 0%, #050e16 100%);
+    background-attachment: fixed;
+    color: #ffffff;
+    padding-bottom: 100px;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overscroll-behavior-y: none;
+}*/
+
+/*.topo{
+    width:100%;
+    height:220px;
+    max-height:220px;
+    background-image:url('../assets/topo.png');
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    overflow:hidden;
+    position:relative;
+}
+
+.header-controls{
+    position:absolute;
+    top:16px;
+    left:16px;
+    right:16px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index:20;
+}*/
+
+/* BOTÃO INSTALAR */
+/*.btn-instalar-topo{
+    display:none;                 /* JS muda para flex quando necessário 
+    align-items:center;
+    gap:10px;
+    padding:10px 16px;
+    background:#12304a;
+    border:1px solid rgba(212,175,55,.25);
+    border-radius:24px;
+    color:#D4AF37;
+    font-size:14px;
+    font-weight:600;
+    cursor:pointer;
+    box-shadow:0 4px 14px rgba(0,0,0,.35);
+    transition:.25s;
+}
+
+.btn-instalar-topo:hover{
+    background:#173b5b;
+}
+
+.btn-instalar-topo img{
+    width:18px;
+    height:18px;
+    flex-shrink:0;
+    filter:brightness(0)
+           saturate(100%)
+           invert(83%)
+           sepia(36%)
+           saturate(716%)
+           hue-rotate(356deg)
+           brightness(93%)
+           contrast(91%);
+}
+
+.btn-instalar-topo span{
+    color:#D4AF37;
+    white-space:nowrap;
+}
+    
+    /*
+.btn-instalar-topo{
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+
+.btn-instalar-topo img{
+    width:22px;
+    height:22px;
+    flex-shrink:0;
+} */
+
+/* Removidos estilos de .logo h1 e .logo p que não existem mais no HTML */
+/* CABEÇALHO - AJUSTADO PARA IMAGEM DE FUNDO */
+.topo {
+    width: 100%;
+    height: 220px;
+    max-height: 220px;
+    background-image: url('../assets/topo.png');
+    /* ALTERADO: Alinha a imagem pela base, subindo o conteúdo importante */
+    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+}
+
+/* CORRIGIDO: Chave de fechamento adicionada no fim desta classe */
+.header-controls {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 20;
+}
+
+/* BOTÃO INSTALAR (Agora fora e isolado corretamente) */
+.btn-instalar-topo {
+    display: none;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 10px;
+    background: #12304a;
+    border: 1px solid rgba(212,175,55,.25);
+    border-radius: 24px;
+    color: #D4AF37;
+    font-size: 11px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,.35);
+    transition: .25s;
+} /* ✅ FECHAMENTO ADICIONADO */
+
+.btn-instalar-topo:hover {
+    background: #173b5b;
+}
+
+.btn-instalar-topo img {
+    width: 10px;
+    height: 10px;
+    flex-shrink: 0;
+    filter: brightness(0)
+           saturate(100%)
+           invert(83%)
+           sepia(36%)
+           saturate(716%)
+           hue-rotate(356deg)
+           brightness(93%)
+           contrast(91%);
+}
+
+.btn-instalar-topo span {
+    color: #D4AF37;
+    white-space: nowrap;
+}
+.perfil {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3); /* Fundo ligeiramente escuro para contraste */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    backdrop-filter: blur(5px);
+    z-index: 10;
+}
+
+/* BANNER DE DESTAQUE - REDUZIDO */
+.banner {
+    margin: 10px 20px;
+    padding: 14px 18px; /* Espaçamento interno mais compacto */
+    border-radius: 16px;
+    background: linear-gradient(135deg, #1f4f77 0%, #12304a 100%);
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.banner small {
+    display: inline-block;
+    background: rgba(212, 175, 55, 0.2);
+    color: #D4AF37;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+
+.banner h2 {
+    color: #ffffff;
+    font-size: 17px; /* Título menor */
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+.banner p {
+    color: #cbd5e1;
+    font-size: 12px; /* Texto menor */
+    margin-bottom: 12px;
+    line-height: 1.3;
+    max-width: 85%;
+}
+
+.banner button {
+    background: #D4AF37;
+    color: #081826;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.banner button img {
+    width: 12px;
+    height: 12px;
+    filter: brightness(0) saturate(100%) invert(8%) sepia(21%) saturate(2326%) hue-rotate(167deg) brightness(96%) contrast(97%);
+}
+
+.banner button:active {
+    transform: scale(0.95);
+}
+
+/* SEÇÕES GERAIS */
+.secao {
+    margin: 30px 0;
+}
+
+.secao-header {
+    padding: 0 20px;
+    margin-bottom: 15px;
+}
+
+.secao h3 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* ===========================
+   BARRA DE PESQUISA
+=========================== */
+
+.search-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    padding:18px 20px;
+}
+
+.search-wrapper{
+    position:relative;
+    width:100%;
+    max-width:520px;
+}
+
+.search-icon{
+    position:absolute;
+    left:16px;
+    top:50%;
+    transform:translateY(-50%);
+    width:20px;
+    height:20px;
+    opacity:.65;
+    pointer-events:none;
+    filter:invert(78%) sepia(12%) saturate(260%) hue-rotate(178deg);
+}
+
+#search-input {
+    width: 100%;
+    height: 50px;
+    padding: 0 18px 0 48px;
+    outline: none;
+    border-radius: 12px;
+    color: #ffffff !important;
+    font-size: 15px;
+    transition: all 0.25s ease;
+    
+    /* Remove qualquer estilo e sombra nativa do sistema operacional (Safari/Chrome) */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    /* FORÇANDO O ESTADO INICIAL: Força o fundo escuro transparente usando background puro */
+    background: rgba(255, 255, 255, 0.06) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, .25) !important;
+}
+
+#search-input::placeholder {
+    color: #a8b7c7;
+}
+
+/* ESTADO QUANDO ESTÁ ATIVO / SELECIONADO */
+#search-input:focus {
+    background: rgba(255, 255, 255, 0.12) !important;
+    border-color: rgba(212, 175, 55, 0.4) !important;
+    box-shadow: 0 4px 20px rgba(212, 175, 55, 0.15) !important;
+}
+
+/* BLINDAGEM EXTRA: Evita que o preenchimento automático do Chrome/Edge mude a cor para branco */
+#search-input:-webkit-autofill,
+#search-input:-webkit-autofill:hover, 
+#search-input:-webkit-autofill:focus {
+    -webkit-text-fill-color: #ffffff !important;
+    -webkit-box-shadow: 0 0 0px 1000px rgba(19, 43, 68, 0.9) inset !important;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+/* LISTA SUSPENSA: Alinhada exatamente com a mesma cor do input */
+.resultados-sugestao {
+    position: absolute;
+    top: 54px;
+    left: 0;
+    right: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    z-index: 99999 !important;
+    
+    /* IGUAL AO INPUT: Fundo escuro semi-transparente e borda sutil */
+    background: rgba(19, 43, 68, 0.85) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    
+    /* O SEGREDO DO VIDRO: Efeito borrado elegante */
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important; /* Suporte para iOS/Safari */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4) !important;
+}
+
+/* 🔥 O SEGREDO: Se a div estiver sem filhos/vazia, ela some 100% da tela */
+.resultados-sugestao:empty {
+    display: none !important;
+    border: none !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+}
+.resultados-sugestao div{
+    padding:6px 14px;
+    line-height:1.2;
+    cursor:pointer;
+    display: flex;
+    justify-content: space-between; /* Empurra o título para a esquerda e o estilo para a direita */
+    align-items: center;
+    gap: 12px;
+}
+
+/* TÍTULO DA MÚSICA: Leve redução se necessário */
+.resultados-sugestao div span:first-child {
+    font-size: 13px; /* Garante que o título não seja muito grande */
+    color: #ffffff;
+}
+
+/* Pequeno ajuste para destacar o estilo da música de forma discreta */
+.resultados-sugestao .busca-estilo {
+    font-size: 10px;
+    color: #D4AF37; /* Dourado do seu app para dar destaque */
+    background: rgba(212, 175, 55, 0.08);
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-weight: 500;
+      letter-spacing: 0.5px;  /* MUDADO: Letras ligeiramente mais espaçadas para legibilidade */
+    text-transform: uppercase;
+    flex-shrink: 0; /* Impede que a tag esmague em títulos muito longos. adicionado 10/07 21:10 */
+} 
+
+.resultados-sugestao div:hover{
+    background:rgba(255,255,255,.01) !important;
+}
+
+
+/* CARDS */
+.card {
+    min-width: 130px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 16px;
+    padding: 12px;
+    transition: background 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.card:active {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+/* mudado dia 18/07 - 20:10 para testar auto relevo */
+/*.card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}*/
+/* ===================================================
+   EFEITO ALTO RELEVO 3D NAS CAPAS (ALBUM E MUSICA)
+   =================================================== */
+
+.card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 12px;
+    
+    /* ALTERADO: Adiciona o efeito de alto relevo (Neumorfismo) */
+    /* Sombra Clara (Luz) + Sombra Escura (Sombra) */
+    box-shadow: 
+        -3px -3px 7px rgba(255, 255, 255, 0.05), /* Luz sutil no topo/esquerda */
+        3px 3px 10px rgba(0, 0, 0, 0.5);          /* Sombra projetada na base/direita */
+        
+    /* Transição suave para a animação de clique */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Efeito de "Afundar" ao clicar (Opcional, mas recomendado) */
+.card:active img {
+    transform: scale(0.97); /* Diminui ligeiramente o tamanho */
+    
+    /* Inverte ou suaviza as sombras para simular que o objeto foi pressionado */
+    box-shadow: 
+        -1px -1px 3px rgba(255, 255, 255, 0.03), 
+        1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+.card p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* LISTA DE MÚSICAS (VERTICAL) */
+#listaMusicas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 20px;
+}
+
+.musica strong{
+    color:#ffffff;
+    font-size:15px;
+    font-weight:600;
+}
+
+.musica small{
+    color:#b8c4d2;
+    font-size:13px;
+}
+
+.musica {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 12px 15px;
+    border-radius: 14px;
+    transition: background 0.2s;
+    border: 1px solid rgba(255, 255, 255, 0.02);
+}
+
+.musica:active {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.musica button {
+    border: none;
+    background: #D4AF37;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(212, 175, 55, 0.2);
+}
+
+.musica button img {
+    width: 12px;
+    height: 12px;
+    filter: brightness(0) saturate(100%) invert(8%) sepia(21%) saturate(2326%) hue-rotate(167deg) brightness(96%) contrast(97%) !important;
+}
+
+/* PLAYER COM EFEITO VIDRO (GLASSMORPHISM) - AJUSTADO PARA EVITAR QUEBRA */
+.mini-player {
+    position: fixed;
+    bottom:max(8px, env(safe-area-inset-bottom));
+    left: 15px;
+    right: 15px;
+    background: rgba(18, 48, 74, 0.85); /* Fundo semi-transparente */
+    backdrop-filter: blur(15px); /* Desfoque do fundo */
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 10px 12px; /* Reduzido levemente para otimizar espaço lateral */
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    z-index: 100;
+}
+
+/* Barra de Progresso Refinada */
+.progress-container {
+    width: 100%;
+    position: relative;
+}
+
+#progressBar {
+    width: 100%;
+    height: 4px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 5px;
+    appearance: none;
+}
+
+#progressBar::-webkit-slider-thumb {
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background: #D4AF37;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(212, 175, 55, 0.8);
+}
+
+.progress-times {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: #94a3b8;
+    margin-top: 4px;
+    font-weight: 500;
+}
+
+/* Layout interno do player */
+.player-controls-row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px; /* Evita colisão direta dos blocos */
+}
+
+.info-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1.5; /* Dá prioridade e reserva espaço para as informações */
+    min-width: 110px; /* Garante tamanho mínimo para a capa e textos não sumirem */
+}
+
+#miniCapa {
+    width: 38px; /* Reduzido ligeiramente para dar folga na largura mobile */
+    height: 38px;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    flex-shrink: 0; /* Impede que a foto seja comprimida */
+}
+
+.mini-info {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;     /* Essencial para que o efeito dos 3 pontinhos (...) funcione */
+    flex: 1;
+}
+
+.mini-info strong {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #ffffff;
+}
+
+.mini-info small {
+    color: #94a3b8;
+    font-size: 10px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Controles Gerais dos Botões do Player */
+.btn-icon {
+    background: none !important;
+    border: none !important;
+    padding: 4px; /* Otimizado */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px; /* Ajustado para melhor distribuição */
+    height: 30px;
+    transition: transform 0.2s;
+}
+
+/* Filtro padrão levemente dourado e nítido para os botões normais */
+.btn-icon img {
+    width: 16px !important; /* Leve redução para calhar perfeitamente em telas menores */
+    height: 16px !important;
+    filter: brightness(0) saturate(100%) invert(84%) sepia(23%) saturate(1067%) hue-rotate(352deg) brightness(85%) contrast(85%); 
+    opacity: 0.7;
+    transition: all 0.2s ease;
+}
+
+.btn-icon:hover img {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.mini-botoes {
+    display: flex;
+    align-items: center;
+    gap: 2px; /* Diminuído para compactar os controles e evitar estouro */
+    flex-shrink: 0; /* Impede os botões de quebrarem a linha */
+}
+
+/* BOTÃO DE PLAY/PAUSE CENTRAL DO PLAYER (CORRIGIDO) */
+#btnPlay {
+    background: #D4AF37 !important; /* Dourado brilhante de fundo */
+    width: 36px !important;
+    height: 36px !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border: none !important;
+    box-shadow: 0 4px 10px rgba(212, 175, 55, 0.4) !important;
+    cursor: pointer;
+    transition: transform 0.2s;
+    flex-shrink: 0;
+}
+
+#btnPlay:active {
+    transform: scale(0.92);
+}
+
+/* Ícone dentro do botão de play: Sempre escuro para contraste visível */
+#btnPlay img {
+    width: 12px !important;
+    height: 12px !important;
+    opacity: 1 !important;
+    filter: brightness(0) saturate(100%) invert(8%) sepia(21%) saturate(2326%) hue-rotate(167deg) brightness(96%) contrast(97%) !important;
+    margin-left: 2px; /* Correção óptica de centralização do triângulo */
+}
+
+/* MENU INFERIOR */
+/*.menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(6, 18, 29, 0.85); /* Efeito vidro no menu */
+   /* backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-around;
+    padding: 12px 0 20px 0; /* Padding inferior maior para iPhones (Safe Area) */
+   /* border-top: 1px solid rgba(255, 255, 255, 0.05);
+    z-index: 101;
+}
+
+/*.menu button {
+    background: none;
+    border: none;
+    color: #64748b;
+    font-size: 10px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    flex: 1;
+    transition: color 0.3s;
+}
+
+/*.menu button img {
+    width: 22px;
+    height: 22px;
+    opacity: 0.5;
+    transition: opacity 0.3s, filter 0.3s;
+}
+
+/* Estado Ativo no Menu */
+/*.menu button.active {
+    color: #D4AF37;
+}
+
+/*.menu button.active img {
+    opacity: 1;
+    filter: brightness(0) saturate(100%) invert(84%) sepia(23%) saturate(1067%) hue-rotate(352deg) brightness(91%) contrast(85%);
+      }  /* Fica dourado */
+
+/* Aplica os 3 pontinhos se o título da música for muito longo */
+#miniTitulo {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    max-width: 100%;  /* Garante que respeite o limite da caixinha */
+}
+
+/* Aplica os 3 pontinhos se o nome do artista/álbum for muito longo */
+#miniArtista {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    max-width: 100%;
+}
+
+/* ===================================================
+   AJUSTE PARA DESKTOP (Telas maiores que 768px)
+   =================================================== */
+@media (min-width: 768px) {
+    /* ===================================================
+   AJUSTE PARA DESKTOP (Telas maiores que 768px)
+   =================================================== */
+@media (min-width: 768px) {
+    .topo {
+        height: 430px;
+        max-height: 430px;
+        background-image: url('../assets/topo.png');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-color: #0d233a;
+    }
+}
+} /* CORRIGIDO: Chave adicionada para fechar a media query */
+
+/* ===================================================
+   CORREÇÃO DOS CARROSSEIS HORIZONTAIS (APP.JS INLINE)
+   =================================================== */
+
+/* Seleciona os contêineres onde o JS injeta os cards */
+#albuns, #continueOuvindo, #favoritosHorizontal {
+    display: flex !important;       /* Força o layout em linha */
+    flex-wrap: nowrap !important;   /* Proíbe terminantemente a quebra de linha */
+    overflow-x: auto !important;    /* Ativa a rolagem horizontal */
+    gap: 15px !important;           /* Mantém o espaçamento constante */
+    padding: 10px 20px !important;  /* Alinha com as margens laterais do app */
+    width: 100% !important;
+    
+    /* Ativa o deslizamento elástico/suave em celulares */
+    -webkit-overflow-scrolling: touch !important; 
+    cursor: grab;
+}
+
+/* Ajusta o comportamento dos cards inseridos pelo JavaScript */
+#albuns .card, #continueOuvindo .card, #favoritosHorizontal .card {
+    display: block !important;     /* Altera de inline-block para bloco flexível */
+    flex-shrink: 0 !important;     /* Impede que o card encolha e suma */
+    margin-right: 0 !important;    /* Reseta a margem antiga que controlava o espaço */
+    width: 100px !important;       /* Trava a largura exata definida no JS */
+}

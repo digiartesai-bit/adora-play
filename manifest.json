@@ -1,0 +1,23 @@
+{
+  "short_name": "AdoraPlay",
+  "name": "AdoraPlay. Conectando corações",
+  "icons": [
+    {
+      "src": "assets/icone-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icone-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#050e16",
+  "theme_color": "#0d233a",
+  "display": "standalone",
+  "orientation": "portrait"
+}
