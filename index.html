@@ -17,10 +17,10 @@
 
     <!-- Protocolo Open Graph -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://digiartesai-bit.github.io/adora-play/" />
+    <!--<meta property="og:url" content="https://digiartesai-bit.github.io/adora-play/" />-->
     <meta property="og:title" content="AdoraPlay — Conectando Corações na Adoração" />
     <meta property="og:description" content="Sua música. Sua adoração. Em qualquer lugar." />
-    <meta property="og:image" content="https://digiartesai-bit.github.io/adora-play/socialpreview.jpg" />
+     <!--<meta property="og:image" content="https://digiartesai-bit.github.io/adora-play/socialpreview.jpg" />-->
     
     <!-- Fonte Google: Poppins -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -153,9 +153,9 @@
 
         <!-- Centro: Favorito -->
         <!-- Adicione o atributo title no botão do coração -->
-<button class="btn-icon" id="btnFavoritar" title="Adicionar aos favoritos">
-    <img src="assets/icons/heart.svg" alt="Favoritar">
-</button>
+        <button class="btn-icon" id="btnFavoritar" onclick="toggleFavorito()" title="Adicionar aos favoritos">
+            <img id="imgFavorito" src="assets/icons/heart.svg" alt="Favoritar">
+        </button>
         <!-- 🔥 ADICIONE ESTE BOTÃO DO WHATSAPP LOGO AO LADO: -->
 <button class="btn-icon" id="btnCompartilhar" onclick="compartilharMusicaAtual()" title="Compartilhar">
     <!-- O filter: none garante que a cor original do SVG apareça -->
