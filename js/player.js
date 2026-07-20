@@ -376,16 +376,30 @@ function salvarNoHistorico(musica) {
     }
 } // ✅ FECHAMENTO CORRETO
 
-// Envia o id da música para a API de estatísticas
+// Envia o id da música para a API de estatísticas e atualiza o ranking
 async function registrarReproducao(id) {
+    if (!id) return;
+
     try {
         const resposta = await fetch("https://adoraplay-api.digiartesai.workers.dev/", {
             method: "POST",
             headers: {
-                "Content-Type": "application/json"
+                "Content-Type": "application/json",
+                "Accept": "application/json"
             },
-            body: JSON.stringify({ id })
+            body: JSON.stringify({ id }),
+            mode: "cors",
+            cache: "no-store"
         });
+
+        if (!resposta.ok) {
+            throw new Error(`HTTP ${resposta.status}`);
+        }
+
+        const resultado = await resposta.json().catch(() => null);
+        if (resultado && typeof carregarRanking === "function") {
+            await carregarRanking();
+        }
     } catch (erro) {
         console.warn("Falha ao computar reprodução:", erro.message);
     }
