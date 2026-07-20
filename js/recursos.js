@@ -100,8 +100,10 @@ window.renderizarFavoritosHorizontais = function() {
         let indexReal = listaDeMusicas.findIndex(m => m.audio === musica.audio);
         if (indexReal === -1) indexReal = 0; // Fallback de segurança
 
-        // Usa a capa salva na própria música dos favoritos
-        const capaMusica = musica.capa || "assets/icons/album.svg";
+        // Usa a capa específica da música quando disponível
+        const capaMusica = typeof window.obterCapaMusica === "function"
+            ? window.obterCapaMusica(musica)
+            : (musica.capa_musica || musica.capa || "assets/icons/album.svg");
 
         // Monta o HTML do card usando as informações diretas do localStorage
         favoritosHorizontal.innerHTML += `
