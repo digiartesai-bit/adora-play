@@ -56,7 +56,7 @@
   },
     {
       "id": 6,
-    "titulo": "A palavra de Deus",
+    "titulo": "A Palavra de Deus",
     "artista": "AdoraPlay",
     "album": "Sertenejo",
     "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/sertaneja/A%20Palavra_de_Deus_eo_caminho.mp3",
@@ -67,7 +67,7 @@
     },
     {
       "id": 7,
-    "titulo": "A estrela de Belém ",
+    "titulo": "A Estrela de Belém ",
     "artista": "AdoraPlay",
     "album": "Infantil",
     "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/infantil/A_estrela_de_Belem.mp3",
@@ -78,7 +78,7 @@
     },
   {
     "id": 8,
-    "titulo": "A fidelidade de Deus",
+    "titulo": "A Fidelidade de Deus",
     "artista": "AdoraPlay",
     "album": "Adoração",
     "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/adoracao/A_Fidelidade_de_Deus.mp3",
@@ -89,7 +89,7 @@
   },
   {
       "id": 9,
-    "titulo": "A pesca maravilhosa",
+    "titulo": "A Pesca Maravilhosa",
     "artista": "AdoraPlay",
     "album": "Infantil",
     "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/infantil/A_pesca_maravilhosa.mp3",
@@ -107,6 +107,17 @@
     "capa": "assets/capas/Infantil.png",
     "capa_musica": "assets/capamusica/promessaamor.jpg",
     "categoria": "Infantil",
+    "data_cadastro": "2026-07-20"
+  },
+  {
+      "id": 11,
+    "titulo": "Abra os Meus Olhos",
+    "artista": "AdoraPlay",
+    "album": "Celebração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/celebracao/Abre_os_meus_olhos.mp3",
+    "capa": "assets/capas/celebracao.jpg",
+    "capa_musica": "assets/capamusica/abraolhos.jpg",
+    "categoria": "Celebracao",
     "data_cadastro": "2026-07-20"
   }
 ]
