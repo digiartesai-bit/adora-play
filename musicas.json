@@ -97,5 +97,16 @@
     "capa_musica": "assets/capamusica/pescamaravilhosa.jpg",
     "categoria": "Infantil",
     "data_cadastro": "2026-07-08"
-    }
+    },
+  {
+      "id": 10,
+    "titulo": "Promessa de Amor",
+    "artista": "AdoraPlay",
+    "album": "Infantil",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/infantil/A_promessa_de_amor.mp3",
+    "capa": "assets/capas/Infantil.png",
+    "capa_musica": "assets/capamusica/promessaamor.jpg",
+    "categoria": "Infantil",
+    "data_cadastro": "2026-07-20"
+  }
 ]
