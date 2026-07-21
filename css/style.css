@@ -636,10 +636,10 @@ body {
     transition: transform 0.2s;
 }
 
-/* Filtro padrão levemente dourado e nítido para os botões normais */
+/* Filtro padrão levemente dourado e nítido para os botões normais 16px */
 .btn-icon img {
-    width: 20px !important; /* Leve redução para calhar perfeitamente em telas menores */
-    height: 20px !important;
+    width: 28px !important; /* Leve redução para calhar perfeitamente em telas menores */
+    height: 28px !important;
     filter: brightness(0) saturate(100%) invert(84%) sepia(23%) saturate(1067%) hue-rotate(352deg) brightness(85%) contrast(85%); 
     opacity: 0.7;
     transition: all 0.2s ease;
