@@ -11,15 +11,33 @@
 ::-webkit-scrollbar {
     display: none;
 }
-
+html {
+    background-color: #121214;
+    overscroll-behavior-y: none;
+}
 
 body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #121214; /* Cor de base escura */
+    background-image: 
+        radial-gradient(circle at top left, rgba(0, 168, 150, 0.25), transparent 45%),
+        radial-gradient(circle at bottom right, rgba(114, 9, 183, 0.35), transparent 55%);
+    background-attachment: fixed; /* Mantém o gradiente fixo ao rolar a página */
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding-bottom: 120px; /* Mantém o espaçamento que você já usa para o player */
+}
+
+
+/*body {
     background: linear-gradient(180deg, #0d233a 0%, #050e16 100%);
     background-attachment: fixed;
     color: #ffffff;
     padding-bottom: 120px; /* Espaço pro player e menu */
-    min-height: 100vh;
-}
+   /* min-height: 100vh;
+}*/
 
 /* CABEÇALHO - AJUSTADO PARA IMAGEM DE FUNDO */
 
