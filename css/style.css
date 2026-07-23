@@ -10,70 +10,39 @@
 /* OCULTAR SCROLLBAR NATIVA PARA CARROSSEIS MAIS LIMPOS */
 ::-webkit-scrollbar {
     display: none;
-}
-
-@keyframes ondaLuz1 {
-    0%, 100% { opacity: 0.3; transform: scale(1); }
-    50% { opacity: 0.7; transform: scale(1.1); }
-}
-
-@keyframes ondaLuz2 {
-    0%, 100% { opacity: 0.4; transform: scale(1.1); }
-    50% { opacity: 0.2; transform: scale(1); }
-}
 
 html {
     background-color: #121214;
     overscroll-behavior-y: none;
 }
 
+@keyframes respirarFundo {
+    0%, 100% {
+        opacity: 0.6;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
 body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background-color: #121214;
+    background-color: #121214; /* Cor base escura */
+    background-image: 
+        radial-gradient(circle at top center, rgba(235, 87, 87, 0.25), transparent 55%),   /* Vermelho Topo */
+        radial-gradient(circle at left center, rgba(45, 156, 219, 0.25), transparent 55%),  /* Azul Esquerda */
+        radial-gradient(circle at right center, rgba(242, 201, 76, 0.2), transparent 55%),   /* Amarelo Direita */
+        radial-gradient(circle at bottom center, rgba(114, 9, 183, 0.3), transparent 60%); /* Roxo Base */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: #ffffff;
     padding-bottom: 120px;
-    position: relative;
-    overflow-x: hidden;
+    
+    /* Faz o fundo "respirar" (clarear e escurecer suavemente) em um ciclo lento de 10 segundos */
+    animation: respirarFundo 10s ease-in-out infinite;
 }
-
-/* Camada base fixa com as 4 cores suaves nos cantos */
-body::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background-image: 
-        radial-gradient(circle at top center, rgba(235, 87, 87, 0.2), transparent 60%),   /* Vermelho Topo */
-        radial-gradient(circle at left center, rgba(45, 156, 219, 0.2), transparent 60%),  /* Azul Esquerda */
-        radial-gradient(circle at right center, rgba(242, 201, 76, 0.15), transparent 60%), /* Amarelo Direita */
-        radial-gradient(circle at bottom center, rgba(114, 9, 183, 0.25), transparent 65%); /* Roxo Base */
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    animation: ondaLuz1 12s ease-in-out infinite;
-}
-
-/* Camada extra sobreposta que pulsa invertida para criar o efeito de mescla suave */
-body::after {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background-image: 
-        radial-gradient(circle at 30% 30%, rgba(45, 156, 219, 0.15), transparent 50%),
-        radial-gradient(circle at 70% 70%, rgba(235, 87, 87, 0.15), transparent 50%);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    animation: ondaLuz2 18s ease-in-out infinite;
-}
-
 
 /*body {
     background: linear-gradient(180deg, #0d233a 0%, #050e16 100%);
