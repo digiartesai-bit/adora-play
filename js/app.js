@@ -137,24 +137,56 @@ function mostrarHome() {
     if (bibliotecaSection) bibliotecaSection.style.display = 'none';
 }
 
+
+function abrirMusicaCompartilhadaPorIdDaURL() {
+    const params = new URLSearchParams(window.location.search);
+    const idParam = params.get("id");
+
+    if (!idParam || !Array.isArray(musicas) || musicas.length === 0) return false;
+
+    const idNumero = Number(idParam);
+    const indice = musicas.findIndex(m =>
+        Number(m.id) === idNumero || String(m.id) === String(idParam)
+    );
+
+    if (indice < 0) return false;
+// trava global para impedir sobrescrita pelo Top1
+    window.__musicaInicialViaLink = true;
+    window.__musicaInicialIndice = indice;
+
+    if (typeof carregarPlaylist === "function") carregarPlaylist(musicas);
+    if (typeof tocar === "function") tocar(indice);
+
+    return true;
+}
+
+
 function carregarDados() {
     fetch('musicas.json')
         .then(response => {
             if (!response.ok) throw new Error(`musicas.json nao encontrado (${response.status})`);
             return response.json();
         })
-        .then(data => {
-            if (!Array.isArray(data)) throw new Error('musicas.json precisa conter uma lista de musicas');
-            musicas = data;
-            window.musicas = data;
-            if (typeof carregarPlaylist === 'function') carregarPlaylist(musicas);
-            exibirHome();
-            carregarRanking();
-            inicializarPlayerComTop1();
-            if (typeof inicializarPesquisa === 'function') {
-                inicializarPesquisa();
-            }
-        })
+        
+.then(data => {
+    if (!Array.isArray(data)) throw new Error('musicas.json precisa conter uma lista de musicas');
+    musicas = data;
+    window.musicas = data;
+    if (typeof carregarPlaylist === 'function') carregarPlaylist(musicas);
+
+    exibirHome();
+    carregarRanking();
+
+    const abriuViaLink = abrirMusicaCompartilhadaPorIdDaURL();
+    if (!abriuViaLink && typeof inicializarPlayerComTop1 === 'function') {
+        inicializarPlayerComTop1();
+    }
+
+    if (typeof inicializarPesquisa === 'function') {
+        inicializarPesquisa();
+    }
+})
+
         .catch(err => {
             console.error('Erro ao carregar musicas:', err);
             if (libraryGrid) {
