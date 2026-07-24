@@ -424,6 +424,11 @@ window.toggleFavoritoPorIndice = function(indice) {
     }
 };
 
+window.obterMusicaAtual = function () {
+    if (!Array.isArray(playlist) || !playlist[musicaAtual]) return null;
+    return playlist[musicaAtual];
+};
+
 function atualizarBotaoFavorito() {
     if (!imgFavoritoMini && !imgFavoritoHero) return;
     
@@ -517,6 +522,8 @@ async function registrarReproducao(id) {
 // INICIALIZAÇÃO DA TOP 1 (CHAMADA LOGO APÓS O FETCH DO APP.JS)
 // ==========================================
 function inicializarPlayerComTop1() {
+     // se veio por link ?id=, não sobrescreve com Top1
+    if (window.__musicaInicialViaLink) return;
     // 1. Garante que a lista de músicas global existe e tem itens
     if (typeof musicas !== "undefined" && musicas.length > 0) {
         
