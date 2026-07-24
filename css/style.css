@@ -1,844 +1,1521 @@
-/* RESET E FONTES */
-* {
+﻿* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif; /* Fonte mais moderna */
-    -webkit-tap-highlight-color: transparent; /* Remove aquele quadrado azul ao clicar no celular */
+    font-family: 'Poppins', sans-serif;
+    -webkit-tap-highlight-color: transparent;
 }
 
-/* OCULTAR SCROLLBAR NATIVA PARA CARROSSEIS MAIS LIMPOS */
-::-webkit-scrollbar {
-    display: none;
-}
-
-@keyframes alternarCores {
-    0% {
-        background-image: radial-gradient(circle at top center, rgba(235, 87, 87, 0.25), transparent 55%),
-                          radial-gradient(circle at left center, rgba(45, 156, 219, 0.25), transparent 55%),
-                          radial-gradient(circle at right center, rgba(242, 201, 76, 0.2), transparent 55%),
-                          radial-gradient(circle at bottom center, rgba(114, 9, 183, 0.3), transparent 60%);
-    }
-    33% {
-        background-image: radial-gradient(circle at top center, rgba(45, 156, 219, 0.25), transparent 55%),
-                          radial-gradient(circle at left center, rgba(242, 201, 76, 0.2), transparent 55%),
-                          radial-gradient(circle at right center, rgba(114, 9, 183, 0.3), transparent 55%),
-                          radial-gradient(circle at bottom center, rgba(235, 87, 87, 0.25), transparent 55%);
-    }
-    66% {
-        background-image: radial-gradient(circle at top center, rgba(242, 201, 76, 0.2), transparent 55%),
-                          radial-gradient(circle at left center, rgba(114, 9, 183, 0.3), transparent 55%),
-                          radial-gradient(circle at right center, rgba(235, 87, 87, 0.25), transparent 55%),
-                          radial-gradient(circle at bottom center, rgba(45, 156, 219, 0.25), transparent 55%);
-    }
-    100% {
-        background-image: radial-gradient(circle at top center, rgba(235, 87, 87, 0.25), transparent 55%),
-                          radial-gradient(circle at left center, rgba(45, 156, 219, 0.25), transparent 55%),
-                          radial-gradient(circle at right center, rgba(242, 201, 76, 0.2), transparent 55%),
-                          radial-gradient(circle at bottom center, rgba(114, 9, 183, 0.3), transparent 60%);
-    }
-}
-
-html {
-    background-color: #121214;
-    overscroll-behavior-y: none;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    background-color: #121214;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    color: #ffffff;
-    padding-bottom: 120px;
-    animation: alternarCores 15s ease infinite;
-}
-
-
-/*body {
-    background: linear-gradient(180deg, #0d233a 0%, #050e16 100%);
-    background-attachment: fixed;
-    color: #ffffff;
-    padding-bottom: 120px; /* Espaço pro player e menu */
-   /* min-height: 100vh;
-}*/
-
-/* CABEÇALHO - AJUSTADO PARA IMAGEM DE FUNDO */
-
-/*html {
+html, body {
+    min-height: 100%;
     background: #050e16;
-    overscroll-behavior-y: none;
+    color: #fff;
 }
 
 body {
-    background: linear-gradient(180deg, #0d233a 0%, #050e16 100%);
-    background-attachment: fixed;
-    color: #ffffff;
-    padding-bottom: 100px;
-    min-height: 100vh;
+    background: radial-gradient(circle at top, rgba(212,175,55,0.08), transparent 20%),
+                linear-gradient(180deg, #081826 0%, #04080f 100%);
     overflow-x: hidden;
-    overscroll-behavior-y: none;
-}*/
-
-/*.topo{
-    width:100%;
-    height:220px;
-    max-height:220px;
-    background-image:url('../assets/topo.png');
-    background-position:center;
-    background-size:cover;
-    background-repeat:no-repeat;
-    overflow:hidden;
-    position:relative;
+    padding-bottom: var(--mini-player-space, 120px);
 }
 
-.header-controls{
-    position:absolute;
-    top:16px;
-    left:16px;
-    right:16px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    z-index:20;
-}*/
-
-/* BOTÃO INSTALAR */
-/*.btn-instalar-topo{
-    display:none;                 /* JS muda para flex quando necessário 
-    align-items:center;
-    gap:10px;
-    padding:10px 16px;
-    background:#12304a;
-    border:1px solid rgba(212,175,55,.25);
-    border-radius:24px;
-    color:#D4AF37;
-    font-size:14px;
-    font-weight:600;
-    cursor:pointer;
-    box-shadow:0 4px 14px rgba(0,0,0,.35);
-    transition:.25s;
+button, input {
+    font: inherit;
 }
 
-.btn-instalar-topo:hover{
-    background:#173b5b;
+button {
+    cursor: pointer;
 }
 
-.btn-instalar-topo img{
-    width:18px;
-    height:18px;
-    flex-shrink:0;
-    filter:brightness(0)
-           saturate(100%)
-           invert(83%)
-           sepia(36%)
-           saturate(716%)
-           hue-rotate(356deg)
-           brightness(93%)
-           contrast(91%);
+.app-shell {
+    width: min(1200px, 100%);
+    margin: 0 auto;
+    padding: 22px 18px 120px;
 }
 
-.btn-instalar-topo span{
-    color:#D4AF37;
-    white-space:nowrap;
-}
-    
-    /*
-.btn-instalar-topo{
-    display:flex;
-    align-items:center;
-    gap:8px;
+.app-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
 }
 
-.btn-instalar-topo img{
-    width:22px;
-    height:22px;
-    flex-shrink:0;
-} */
-
-/* Removidos estilos de .logo h1 e .logo p que não existem mais no HTML */
-/* CABEÇALHO - AJUSTADO PARA IMAGEM DE FUNDO */
-.topo {
+.brand-row {
     width: 100%;
-    height: 220px;
-    max-height: 220px;
-    background-image: url('../assets/topo.png');
-    /* ALTERADO: Alinha a imagem pela base, subindo o conteúdo importante */
-    background-position: center center; 
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    position: relative;
-}
-
-/* CORRIGIDO: Chave de fechamento adicionada no fim desta classe */
-.header-controls {
-    position: absolute;
-    top: 12px;
-    left: 12px;
-    right: 12px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    z-index: 20;
-}
-
-/* BOTÃO INSTALAR (Agora fora e isolado corretamente) */
-.btn-instalar-topo {
-    display: none;
-    align-items: center;
-    gap: 10px;
-    padding: 6px 10px;
-    background: #12304a;
-    border: 1px solid rgba(212,175,55,.25);
-    border-radius: 24px;
-    color: #D4AF37;
-    font-size: 11px;
-    font-weight: 500;
-    cursor: pointer;
-    box-shadow: 0 4px 10px rgba(0,0,0,.35);
-    transition: .25s;
-} /* ✅ FECHAMENTO ADICIONADO */
-
-.btn-instalar-topo:hover {
-    background: #173b5b;
-}
-
-.btn-instalar-topo img {
-    width: 10px;
-    height: 10px;
-    flex-shrink: 0;
-    filter: brightness(0)
-           saturate(100%)
-           invert(83%)
-           sepia(36%)
-           saturate(716%)
-           hue-rotate(356deg)
-           brightness(93%)
-           contrast(91%);
-}
-
-.btn-instalar-topo span {
-    color: #D4AF37;
-    white-space: nowrap;
-}
-.perfil {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    width: 42px;
-    height: 42px;
-    border: none;
-    border-radius: 50%;
-    background: rgba(0, 0, 0, 0.3); /* Fundo ligeiramente escuro para contraste */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    backdrop-filter: blur(5px);
-    z-index: 10;
-}
-
-/* BANNER DE DESTAQUE - REDUZIDO */
-.banner {
-    margin: 10px 20px;
-    padding: 14px 18px; /* Espaçamento interno mais compacto */
-    border-radius: 16px;
-    background: linear-gradient(135deg, #1f4f77 0%, #12304a 100%);
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-}
-
-.banner small {
-    display: inline-block;
-    background: rgba(212, 175, 55, 0.2);
-    color: #D4AF37;
-    padding: 3px 8px;
-    border-radius: 10px;
-    font-size: 10px;
-    font-weight: 600;
-    margin-bottom: 6px;
-    text-transform: uppercase;
-}
-
-.banner h2 {
-    color: #ffffff;
-    font-size: 17px; /* Título menor */
-    font-weight: 700;
-    margin-bottom: 3px;
-}
-
-.banner p {
-    color: #cbd5e1;
-    font-size: 12px; /* Texto menor */
-    margin-bottom: 12px;
-    line-height: 1.3;
-    max-width: 85%;
-}
-
-.banner button {
-    background: #D4AF37;
-    color: #081826;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 20px;
-    font-size: 12px;
-    font-weight: 600;
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    cursor: pointer;
-    transition: transform 0.2s;
-}
-
-.banner button img {
-    width: 12px;
-    height: 12px;
-    filter: brightness(0) saturate(100%) invert(8%) sepia(21%) saturate(2326%) hue-rotate(167deg) brightness(96%) contrast(97%);
-}
-
-.banner button:active {
-    transform: scale(0.95);
-}
-
-/* SEÇÕES GERAIS */
-.secao {
-    margin: 30px 0;
-}
-
-.secao-header {
-    padding: 0 20px;
-    margin-bottom: 15px;
-}
-
-.secao h3 {
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 600;
-}
-
-/* ===========================
-   BARRA DE PESQUISA
-=========================== */
-
-.search-container{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    width:100%;
-    padding:18px 20px;
-}
-
-.search-wrapper{
-    position:relative;
-    width:100%;
-    max-width:520px;
-}
-
-.search-icon{
-    position:absolute;
-    left:16px;
-    top:50%;
-    transform:translateY(-50%);
-    width:20px;
-    height:20px;
-    opacity:.65;
-    pointer-events:none;
-    filter:invert(78%) sepia(12%) saturate(260%) hue-rotate(178deg);
-}
-
-#search-input {
-    width: 100%;
-    height: 50px;
-    padding: 0 18px 0 48px;
-    outline: none;
-    border-radius: 12px;
-    color: #ffffff !important;
-    font-size: 15px;
-    transition: all 0.25s ease;
-    
-    /* Remove qualquer estilo e sombra nativa do sistema operacional (Safari/Chrome) */
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-
-    /* FORÇANDO O ESTADO INICIAL: Força o fundo escuro transparente usando background puro */
-    background: rgba(255, 255, 255, 0.06) !important;
-    border: 1px solid rgba(255, 255, 255, 0.08) !important;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, .25) !important;
-}
-
-#search-input::placeholder {
-    color: #a8b7c7;
-}
-
-/* ESTADO QUANDO ESTÁ ATIVO / SELECIONADO */
-#search-input:focus {
-    background: rgba(255, 255, 255, 0.12) !important;
-    border-color: rgba(212, 175, 55, 0.4) !important;
-    box-shadow: 0 4px 20px rgba(212, 175, 55, 0.15) !important;
-}
-
-/* BLINDAGEM EXTRA: Evita que o preenchimento automático do Chrome/Edge mude a cor para branco */
-#search-input:-webkit-autofill,
-#search-input:-webkit-autofill:hover, 
-#search-input:-webkit-autofill:focus {
-    -webkit-text-fill-color: #ffffff !important;
-    -webkit-box-shadow: 0 0 0px 1000px rgba(19, 43, 68, 0.9) inset !important;
-    transition: background-color 5000s ease-in-out 0s;
-}
-
-/* LISTA SUSPENSA: Alinhada exatamente com a mesma cor do input */
-.resultados-sugestao {
-    position: absolute;
-    top: 54px;
-    left: 0;
-    right: 0;
-    border-radius: 12px;
-    overflow: hidden;
-    z-index: 99999 !important;
-    
-    /* IGUAL AO INPUT: Fundo escuro semi-transparente e borda sutil */
-    background: rgba(19, 43, 68, 0.85) !important;
-    border: 1px solid rgba(255, 255, 255, 0.08) !important;
-    
-    /* O SEGREDO DO VIDRO: Efeito borrado elegante */
-    backdrop-filter: blur(12px) !important;
-    -webkit-backdrop-filter: blur(12px) !important; /* Suporte para iOS/Safari */
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4) !important;
-}
-
-/* 🔥 O SEGREDO: Se a div estiver sem filhos/vazia, ela some 100% da tela */
-.resultados-sugestao:empty {
-    display: none !important;
-    border: none !important;
-    padding: 0 !important;
-    box-shadow: none !important;
-}
-.resultados-sugestao div{
-    padding:6px 14px;
-    line-height:1.2;
-    cursor:pointer;
-    display: flex;
-    justify-content: space-between; /* Empurra o título para a esquerda e o estilo para a direita */
     align-items: center;
     gap: 12px;
 }
 
-/* TÍTULO DA MÚSICA: Leve redução se necessário */
-.resultados-sugestao div span:first-child {
-    font-size: 13px; /* Garante que o título não seja muito grande */
-    color: #ffffff;
+.brand-logo {
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
 }
 
-/* Pequeno ajuste para destacar o estilo da música de forma discreta */
+.brand-logo img {
+    display: block;
+    width: 132px;
+    height: 58px;
+    border-radius: 16px;
+    object-fit: contain;
+    object-position: left center;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 0;
+    margin-left: auto;
+}
+
+.header-quick-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-menu-mobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(255,255,255,0.12);
+    background: rgba(255,255,255,0.05);
+    border-radius: 12px;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.btn-menu-mobile span {
+    display: block;
+    width: 17px;
+    height: 2px;
+    border-radius: 2px;
+    background: #d4af35;
+}
+
+.btn-library {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-width: 44px;
+    height: 44px;
+    border: 1px solid rgba(255,255,255,0.12);
+    background: rgba(255,255,255,0.05);
+    color: #fff;
+    border-radius: 14px;
+    padding: 0 14px;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.btn-library img {
+    width: 18px;
+    height: 18px;
+}
+
+.library-label {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.btn-install {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-width: 44px;
+    height: 44px;
+    border: 1px solid rgba(255,255,255,0.12);
+    background: rgba(255,255,255,0.05);
+    color: #fff;
+    border-radius: 14px;
+    padding: 0 14px;
+    font-weight: 600;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.btn-install img {
+    width: 18px;
+    height: 18px;
+    filter: brightness(0) saturate(100%) invert(79%) sepia(38%) saturate(861%) hue-rotate(355deg) brightness(89%) contrast(87%);
+}
+
+.install-label {
+    font-size: 13px;
+    line-height: 1;
+}
+
+.btn-library:hover {
+    background: rgba(255,255,255,0.1);
+    transform: translateY(-1px);
+}
+
+.btn-install:hover {
+    background: rgba(255,255,255,0.1);
+    transform: translateY(-1px);
+}
+
+.search-row {
+    display: flex;
+    width: min(360px, 42vw);
+}
+
+.search-input-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.search-icon {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    opacity: 0.7;
+}
+
+#search-input {
+    width: 100%;
+    height: 40px;
+    padding: 0 18px 0 46px;
+    border-radius: 18px;
+    border: 1px solid rgba(255,255,255,0.12);
+    background: rgba(255,255,255,0.04);
+    color: #fff;
+    outline: none;
+    transition: border 0.2s, background 0.2s;
+}
+
+#search-input:focus {
+    border-color: rgba(212,175,55,0.55);
+    background: rgba(255,255,255,0.08);
+}
+
+.resultados-sugestao {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: calc(100% + 10px);
+    border-radius: 20px;
+    background: rgba(8,24,38,0.94);
+    border: 1px solid rgba(255,255,255,0.08);
+    box-shadow: 0 24px 60px rgba(0,0,0,0.35);
+    backdrop-filter: blur(18px);
+    z-index: 20;
+    overflow: hidden;
+}
+
+.resultados-sugestao div {
+    padding: 14px 18px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.resultados-sugestao div:hover {
+    background: rgba(255,255,255,0.05);
+}
+
 .resultados-sugestao .busca-estilo {
     font-size: 10px;
-    color: #D4AF37; /* Dourado do seu app para dar destaque */
-    background: rgba(212, 175, 55, 0.08);
-    padding: 1px 6px;
-    border-radius: 4px;
-    font-weight: 500;
-      letter-spacing: 0.5px;  /* MUDADO: Letras ligeiramente mais espaçadas para legibilidade */
+    background: rgba(212,175,55,0.15);
+    color: #d4af35;
+    border-radius: 999px;
+    padding: 4px 8px;
     text-transform: uppercase;
-    flex-shrink: 0; /* Impede que a tag esmague em títulos muito longos. adicionado 10/07 21:10 */
-} 
-
-.resultados-sugestao div:hover{
-    background:rgba(255,255,255,.01) !important;
+    letter-spacing: 0.5px;
 }
 
-
-/* CARDS */
-.card {
-    min-width: 130px;
-    background: rgba(255, 255, 255, 0.03);
-    border-radius: 16px;
-    padding: 12px;
-    transition: background 0.3s ease;
-    border: 1px solid rgba(255, 255, 255, 0.05);
+.main-content {
+    display: grid;
+    gap: 24px;
+    min-width: 0;
 }
 
-.card:active {
-    background: rgba(255, 255, 255, 0.08);
+.section-home,
+.section-library {
+    display: grid;
+    gap: 24px;
+    min-width: 0;
 }
 
-/* mudado dia 18/07 - 20:10 para testar auto relevo */
-/*.card img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-}*/
-/* ===================================================
-   EFEITO ALTO RELEVO 3D NAS CAPAS (ALBUM E MUSICA)
-   =================================================== */
+@media (min-width: 700px) {
+    .section-home {
+        grid-template-columns: minmax(0, 1.45fr) minmax(280px, 1fr);
+        align-items: start;
+    }
 
-.card img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    border-radius: 12px;
-    
-    /* ALTERADO: Adiciona o efeito de alto relevo (Neumorfismo) */
-    /* Sombra Clara (Luz) + Sombra Escura (Sombra) */
-    box-shadow: 
-        -3px -3px 7px rgba(255, 255, 255, 0.05), /* Luz sutil no topo/esquerda */
-        3px 3px 10px rgba(0, 0, 0, 0.5);          /* Sombra projetada na base/direita */
-        
-    /* Transição suave para a animação de clique */
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    .section-home > .top-cards {
+        grid-column: 1;
+    }
+
+    .section-home > .section-favorites {
+        grid-column: 2;
+        align-self: stretch;
+    }
+
+    .section-home > .section-favorites .favoritos-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section-home > .section-ranking,
+    .section-home > .section-albums {
+        grid-column: 1 / -1;
+    }
 }
 
-/* Efeito de "Afundar" ao clicar (Opcional, mas recomendado) */
-.card:active img {
-    transform: scale(0.97); /* Diminui ligeiramente o tamanho */
-    
-    /* Inverte ou suaviza as sombras para simular que o objeto foi pressionado */
-    box-shadow: 
-        -1px -1px 3px rgba(255, 255, 255, 0.03), 
-        1px 1px 5px rgba(0, 0, 0, 0.6);
+.top-cards {
+    display: block;
 }
 
-.card p {
-    margin-top: 10px;
-    text-align: center;
-    font-size: 13px;
-    font-weight: 500;
+.hero-card {
+    border-radius: 28px;
+    background: linear-gradient(115deg, #162f43 0%, #1b3a4b 48%, #493d25 100%);
+    border: 1px solid rgba(255,255,255,0.12);
+    padding: 24px;
+    display: grid;
+    gap: 18px;
+    box-shadow: 0 24px 50px rgba(0,0,0,0.22);
 }
 
-/* LISTA DE MÚSICAS (VERTICAL) */
-#listaMusicas {
+.hero-heading {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+}
+
+.hero-content {
+    display: grid;
+    grid-template-columns: minmax(150px, 220px) minmax(0, 1fr);
+    gap: 24px;
+    align-items: center;
+}
+
+.hero-cover {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 22px;
+    object-fit: cover;
+    box-shadow: 0 18px 34px rgba(0,0,0,0.28);
+}
+
+.hero-info {
+    min-width: 0;
+    display: grid;
+    gap: 20px;
+}
+
+.hero-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.08);
+    color: #f9f5e8;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: fit-content;
+}
+
+.hero-meta strong {
+    font-size: 24px;
+    line-height: 1.05;
+}
+
+.hero-meta small {
+    display: block;
+    margin-top: 8px;
+    color: #d0d8e3;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.hero-meta p {
+    margin-top: 14px;
+    max-width: 420px;
+    color: #e5e9e8;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.hero-play {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    border-radius: 999px;
+    padding: 14px 24px;
+    background: #d4af35;
+    color: #081826;
+    font-weight: 700;
+    box-shadow: 0 18px 30px rgba(212,175,55,0.2);
+}
+
+.hero-play img {
+    width: 16px;
+    height: 16px;
+    filter: brightness(0);
+}
+
+.hero-favorite {
+    width: 48px;
+    height: 48px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(229,57,53,0.9);
+    border-radius: 50%;
+    background: transparent;
+}
+
+.hero-favorite img {
+    width: 21px;
+    height: 21px;
+}
+
+.mini-cards-group {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+}
+
+.mini-card-compact {
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: rgba(255,255,255,0.04);
+    border-radius: 20px;
+    padding: 14px;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.card-cover-wrap {
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.card-play {
+    flex: 0 0 auto;
+    margin-left: auto;
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    padding: 0;
+    border: 1px solid rgba(255,255,255,0.9);
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.35);
+}
+
+.card-play img {
+    width: 13px;
+    height: 13px;
+    filter: brightness(0);
+}
+
+.mini-card-compact .card-cover-wrap > img,
+.favorito-card-compact .card-cover-wrap > img {
+    width: 60px;
+    height: 60px;
+}
+
+.ranking-card > img,
+.album-card > img {
+    width: 100%;
+}
+
+.mini-card-compact img {
+    flex: 0 0 60px;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.mini-card-compact > div {
+    min-width: 0;
+    display: grid;
+    gap: 4px;
+}
+
+.mini-card-compact strong {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 15px;
+}
+
+.mini-card-compact small {
+    color: #c1cbd6;
+    font-size: 12px;
+}
+
+.section-favorites,
+.section-ranking,
+.section-albums,
+.section-library {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    border-radius: 28px;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.10);
+    padding: 22px;
+    box-shadow: 0 24px 40px rgba(0,0,0,0.18);
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+.section-header h3 {
+    font-size: 18px;
+}
+
+.section-header small {
+    color: #9aa6c0;
+}
+
+.link-button {
+    background: transparent;
+    border: none;
+    color: #d4af35;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.favoritos-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+}
+
+.favorito-card-compact {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    padding:8px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+.favorito-card-compact img {
+    width: 60px;
+    height: 60px;
+    border-radius: 18px;
+    object-fit: cover;
+}
+
+.mini-card-compact .card-play img,
+.favorito-card-compact .card-play img {
+    width: 13px;
+    height: 13px;
+    object-fit: contain;
+    border-radius: 0;
+}
+
+.favorito-meta {
+    display: grid;
+    gap: 4px;
+}
+
+.favorito-meta strong {
+    font-size: 14px;
+}
+
+.favorito-meta small {
+    color: #b8c4d2;
+    font-size: 12px;
+}
+
+.ranking-carousel {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 16px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-bottom: 6px;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    overscroll-behavior-x: contain;
+    touch-action: pan-x;
+    cursor: grab;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.albums-carousel {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 16px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-bottom: 6px;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    overscroll-behavior-x: contain;
+    touch-action: pan-x;
+    cursor: grab;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.ranking-carousel:active {
+    cursor: grabbing;
+}
+
+.albums-carousel:active {
+    cursor: grabbing;
+}
+
+.ranking-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.albums-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+@supports (-webkit-touch-callout: none) {
+    .ranking-carousel,
+    .albums-carousel {
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+.ranking-card,
+.album-card {
+    border-radius: 24px;
+    padding: 18px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.07);
+    display: grid;
+    gap: 14px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+}
+
+.ranking-card {
+    width: clamp(180px, 30vw, 240px);
+    min-width: clamp(180px, 30vw, 240px);
+}
+
+.album-card {
+    width: 140px;
+    min-width: 140px;
+}
+
+.album-tracks-panel {
+    margin-top: 16px;
+    padding: 14px;
+    border-radius: 18px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+.album-tracks-header h4 {
+    font-size: 14px;
+    color: #e8eef7;
+    margin-bottom: 10px;
+}
+
+.album-tracks-list {
+    display: grid;
     gap: 10px;
-    padding: 0 20px;
 }
 
-.musica strong{
-    color:#ffffff;
-    font-size:15px;
-    font-weight:600;
+.album-track-item {
+    display: grid;
+    grid-template-columns: 48px minmax(0, 1fr) auto;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 14px;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.06);
 }
 
-.musica small{
-    color:#b8c4d2;
-    font-size:13px;
+.album-track-item img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 12px;
 }
 
-.musica {
+.album-track-meta {
+    min-width: 0;
+    display: grid;
+    gap: 2px;
+}
+
+.album-track-meta strong,
+.album-track-meta small {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.album-track-meta strong {
+    font-size: 13px;
+}
+
+.album-track-meta small {
+    font-size: 11px;
+    color: #b9c4d6;
+}
+
+.ranking-card img,
+.album-card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 22px;
+}
+
+.ranking-footer {
+       display: flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 30px;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.ranking-footer .card-play {
+    margin-left: 0;
+}
+
+.ranking-card .card-play img,
+.album-card .card-play img {
+    width: 13px;
+    height: 13px;
+    aspect-ratio: auto;
+    object-fit: contain;
+    border-radius: 0;
+}
+
+.ranking-badge {
+    display: inline-flex;
+    gap: 6px;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.ranking-card small {
+    color: #c1cbd6;
+    text-align: center;
+}
+
+.album-card p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+.library-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(255, 255, 255, 0.03);
-    padding: 12px 15px;
-    border-radius: 14px;
-    transition: background 0.2s;
-    border: 1px solid rgba(255, 255, 255, 0.02);
+    gap: 18px;
 }
 
-.musica:active {
-    background: rgba(255, 255, 255, 0.05);
+.library-header h2 {
+    font-size: 24px;
 }
 
-.musica button {
-    border: none;
-    background: #D4AF37;
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
+.library-header p {
+    color: #9aa6c0;
+    margin-top: 6px;
+}
+
+.library-filter-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.chip-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.chip {
+    padding: 10px 16px;
+    border-radius: 999px;
+    border: 1px solid rgba(255,255,255,0.12);
+    background: rgba(255,255,255,0.04);
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.chip.active {
+    background: rgba(212,175,55,0.18);
+    border-color: rgba(212,175,55,0.35);
+}
+
+.library-grid {
+    display: grid;
+    gap: 16px;
+}
+
+.library-item {
+    display: grid;
+    grid-template-columns: 76px minmax(0, 1fr) auto;
+    gap: 12px;
+    align-items: center;
+    padding: 16px;
+    border-radius: 24px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+.library-item img {
+    width: 76px;
+    height: 76px;
+    border-radius: 22px;
+    object-fit: cover;
+}
+
+.library-item strong {
+    display: block;
+    font-size: 15px;
+}
+
+.library-item small {
+    color: #bfc9d7;
+    font-size: 12px;
+}
+
+.library-actions {
     display: flex;
     align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    box-shadow: 0 4px 8px rgba(212, 175, 55, 0.2);
+    gap: 8px;
 }
 
-.musica button img {
-    width: 12px;
-    height: 12px;
-    filter: brightness(0) saturate(100%) invert(8%) sepia(21%) saturate(2326%) hue-rotate(167deg) brightness(96%) contrast(97%) !important;
+.library-play,
+.library-favorite {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    padding: 0;
 }
 
-/* PLAYER COM EFEITO VIDRO (GLASSMORPHISM) - AJUSTADO PARA EVITAR QUEBRA */
+.library-play {
+    border: 1px solid rgba(255,255,255,0.8);
+    background: #fff;
+}
+
+.library-play img {
+    width: 14px;
+    height: 14px;
+    filter: brightness(0);
+}
+
+.library-favorite {
+    border: 1px solid rgba(229,57,53,0.9);
+    background: transparent;
+}
+
+.library-favorite.is-favorited {
+    background: rgba(229,57,53,0.18);
+}
+
+.library-favorite img {
+    width: 16px;
+    height: 16px;
+}
+
 .mini-player {
     position: fixed;
-    bottom:max(8px, env(safe-area-inset-bottom));
-    left: 15px;
-    right: 15px;
-    background: rgba(18, 48, 74, 0.85); /* Fundo semi-transparente */
-    backdrop-filter: blur(15px); /* Desfoque do fundo */
-    -webkit-backdrop-filter: blur(15px);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    border-radius: 20px;
-    padding: 10px 12px; /* Reduzido levemente para otimizar espaço lateral */
+    left: 50%;
+    right: auto;
+    width: calc(100% - 32px);
+    max-width: 1200px;
+    transform: translateX(-50%);
+    bottom: max(12px, env(safe-area-inset-bottom));
+    background: rgba(10,18,28,0.96);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 22px;
+    padding: 8px 12px;
     display: flex;
-    flex-direction: column;
-    gap: 6px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-    z-index: 100;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    z-index: 50;
 }
 
-/* Barra de Progresso Refinada */
-.progress-container {
+.mini-track {
+    flex: 1 1 320px;
+    min-width: 0;
+    display: grid;
+    grid-template-columns: 44px minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 8px;
+}
+
+.mini-track > img {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.mini-track-info {
+    min-width: 0;
+    display: grid;
+    gap: 3px;
+}
+
+.mini-track-info strong,
+.mini-track-info small {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.mini-track-info strong {
+    font-size: 13px;
+}
+
+.mini-track-info small {
+    color: #b9c4d6;
+    font-size: 11px;
+}
+
+.btn-favorite {
+    width: 32px;
+    height: 32px;
+    border: 1px solid rgba(229,57,53,0.9);
+    border-radius: 12px;
+    background: transparent;
+    display: grid;
+    place-items: center;
+}
+
+.btn-favorite img {
+    width: 16px;
+    height: 16px;
+}
+
+.btn-favorite.is-favorited,
+.hero-favorite.is-favorited {
+    background: rgba(229,57,53,0.18);
+}
+
+.empty-state {
+    color: #b9c4d6;
+    font-size: 14px;
+}
+
+.player-controls-row {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 6px;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 0 0 auto;
+}
+
+.btn-icon {
+    width: 34px;
+    height: 34px;
+    border-radius: 14px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.08);
+    display: grid;
+    place-items: center;
+}
+
+.btn-icon img {
+    width: 15px;
+    height: 15px;
+    filter: invert(100%);
+}
+
+.btn-play {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: none;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 16px 30px rgba(255,255,255,0.22);
+}
+
+.btn-play img {
+    width: 14px;
+    height: 14px;
+    filter: brightness(0);
+}
+
+.btn-share img {
+    filter: none;
+}
+
+.btn-share {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.06);
+    border-color: rgba(255,255,255,0.14);
+}
+
+.btn-share img {
+    width: 20px;
+    height: 20px;
+}
+
+.btn-nav {
+    background: #ffffff;
+    border-color: #ffffff;
+}
+
+.btn-nav img {
+    filter: brightness(0);
+}
+
+.player-progress-row {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 10px;
     width: 100%;
-    position: relative;
+    flex: 1 0 100%;
+    order: 3;
 }
 
 #progressBar {
     width: 100%;
-    height: 4px;
-    background: rgba(255,255,255,0.2);
-    border-radius: 5px;
     appearance: none;
+    height: 4px;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.15);
 }
 
 #progressBar::-webkit-slider-thumb {
     appearance: none;
-    width: 10px;
-    height: 10px;
-    background: #D4AF37;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
-    box-shadow: 0 0 5px rgba(212, 175, 55, 0.8);
+    background: #d4af35;
 }
 
-.progress-times {
-    display: flex;
-    justify-content: space-between;
-    font-size: 10px;
-    color: #94a3b8;
-    margin-top: 4px;
-    font-weight: 500;
-}
-
-/* Layout interno do player */
-.player-controls-row {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    gap: 8px; /* Evita colisão direta dos blocos */
-}
-
-.info-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    flex: 1.5; /* Dá prioridade e reserva espaço para as informações */
-    min-width: 110px; /* Garante tamanho mínimo para a capa e textos não sumirem */
-}
-
-#miniCapa {
-    width: 38px; /* Reduzido ligeiramente para dar folga na largura mobile */
-    height: 38px;
-    border-radius: 8px;
-    object-fit: cover;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    flex-shrink: 0; /* Impede que a foto seja comprimida */
-}
-
-.mini-info {
-    display: flex;
-    flex-direction: column;
-    min-width: 0;     /* Essencial para que o efeito dos 3 pontinhos (...) funcione */
-    flex: 1;
-}
-
-.mini-info strong {
-    display: block;
+.player-progress-row span {
     font-size: 12px;
-    font-weight: 600;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    color: #ffffff;
+    color: #b9c4d6;
 }
 
-.mini-info small {
-    color: #94a3b8;
-    font-size: 10px;
-    display: block;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+@media (max-width: 900px) {
+    .hero-meta strong {
+        font-size: 20px;
+    }
+
+    .hero-card {
+        padding: 18px;
+    }
+
+    .hero-content {
+    grid-template-columns: minmax(110px, 150px) minmax(0, 1fr);
+    gap: 16px;
 }
 
-/* Controles Gerais dos Botões do Player */
-.btn-icon {
-    background: none !important;
-    border: none !important;
-    padding: 4px; /* Otimizado */
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30px; /* Ajustado para melhor distribuição */
-    height: 30px;
-    transition: transform 0.2s;
+    .hero-info {
+    min-width: 0;
 }
 
-/* Filtro padrão levemente dourado e nítido para os botões normais 16px */
-.btn-icon img {
-    width: 28px !important; /* Leve redução para calhar perfeitamente em telas menores */
-    height: 28px !important;
-    filter: brightness(0) saturate(100%) invert(84%) sepia(23%) saturate(1067%) hue-rotate(352deg) brightness(85%) contrast(85%); 
-    opacity: 0.7;
-    transition: all 0.2s ease;
+.hero-actions {
+    flex-wrap: wrap;
+    min-width: 0;
+    gap: 10px;
 }
 
-.btn-icon:hover img {
-    opacity: 1;
-    transform: scale(1.1);
-}
-
-.mini-botoes {
-    display: flex;
-    align-items: center;
-    gap: 2px; /* Diminuído para compactar os controles e evitar estouro */
-    flex-shrink: 0; /* Impede os botões de quebrarem a linha */
-}
-
-/* BOTÃO DE PLAY/PAUSE CENTRAL DO PLAYER (CORRIGIDO) */
-#btnPlay {
-    background: #D4AF37 !important; /* Dourado brilhante de fundo */
-    width: 36px !important;
-    height: 36px !important;
-    border-radius: 50% !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    border: none !important;
-    box-shadow: 0 4px 10px rgba(212, 175, 55, 0.4) !important;
-    cursor: pointer;
-    transition: transform 0.2s;
+.hero-play {
+    padding: 11px 16px;
+    font-size: 13px;
+    gap: 6px;
     flex-shrink: 0;
 }
 
-#btnPlay:active {
-    transform: scale(0.92);
+.hero-play img {
+    width: 14px;
+    height: 14px;
 }
 
-/* Ícone dentro do botão de play: Sempre escuro para contraste visível */
-#btnPlay img {
-    width: 12px !important;
-    height: 12px !important;
-    opacity: 1 !important;
-    filter: brightness(0) saturate(100%) invert(8%) sepia(21%) saturate(2326%) hue-rotate(167deg) brightness(96%) contrast(97%) !important;
-    margin-left: 2px; /* Correção óptica de centralização do triângulo */
-}
+.hero-favorite {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: 42px;
+        border-radius: 999px;
+        padding: 0 16px;
+        gap: 8px;
+        flex-shrink: 0;
+    }
 
-/* MENU INFERIOR */
-/*.menu {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(6, 18, 29, 0.85); /* Efeito vidro no menu */
-   /* backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    display: flex;
-    justify-content: space-around;
-    padding: 12px 0 20px 0; /* Padding inferior maior para iPhones (Safe Area) */
-   /* border-top: 1px solid rgba(255, 255, 255, 0.05);
-    z-index: 101;
-}
-
-/*.menu button {
-    background: none;
-    border: none;
-    color: #64748b;
-    font-size: 10px;
-    font-weight: 500;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 6px;
-    cursor: pointer;
-    flex: 1;
-    transition: color 0.3s;
-}
-
-/*.menu button img {
-    width: 22px;
-    height: 22px;
-    opacity: 0.5;
-    transition: opacity 0.3s, filter 0.3s;
-}
-
-/* Estado Ativo no Menu */
-/*.menu button.active {
-    color: #D4AF37;
-}
-
-/*.menu button.active img {
-    opacity: 1;
-    filter: brightness(0) saturate(100%) invert(84%) sepia(23%) saturate(1067%) hue-rotate(352deg) brightness(91%) contrast(85%);
-      }  /* Fica dourado */
-
-/* Aplica os 3 pontinhos se o título da música for muito longo */
-#miniTitulo {
+.hero-favorite::after {
+   
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
     white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: block;
-    max-width: 100%;  /* Garante que respeite o limite da caixinha */
 }
 
-/* Aplica os 3 pontinhos se o nome do artista/álbum for muito longo */
-#miniArtista {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: block;
-    max-width: 100%;
-}
+    .mini-cards-group {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
 
-/* ===================================================
-   AJUSTE PARA DESKTOP (Telas maiores que 768px)
-   =================================================== */
-@media (min-width: 768px) {
-    /* ===================================================
-   AJUSTE PARA DESKTOP (Telas maiores que 768px)
-   =================================================== */
-@media (min-width: 768px) {
-    .topo {
-        height: 430px;
-        max-height: 430px;
-        background-image: url('../assets/topo.png');
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-color: #0d233a;
+    .favoritos-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .player-controls-row {
+        gap: 6px;
     }
 }
-} /* CORRIGIDO: Chave adicionada para fechar a media query */
 
-/* ===================================================
-   CORREÇÃO DOS CARROSSEIS HORIZONTAIS (APP.JS INLINE)
-   =================================================== */
+@media (max-width: 680px) {
+    .app-shell {
+        padding: 18px 14px 120px;
+    }
 
-/* Seleciona os contêineres onde o JS injeta os cards */
-#albuns, #continueOuvindo, #favoritosHorizontal, #maisOuvidas {
-    display: flex !important;       /* Força o layout em linha */
-    flex-wrap: nowrap !important;   /* Proíbe terminantemente a quebra de linha */
-    overflow-x: auto !important;    /* Ativa a rolagem horizontal */
-    gap: 15px !important;           /* Mantém o espaçamento constante */
-    padding: 10px 20px !important;  /* Alinha com as margens laterais do app */
-    width: 100% !important;
-    
-    /* Ativa o deslizamento elástico/suave em celulares */
-    -webkit-overflow-scrolling: touch !important; 
-    cursor: grab;
+    .app-header {
+        gap: 0;
+        margin-bottom: 16px;
+    }
+
+    .brand-row {
+        width: 100%;
+        gap: 8px;
+        align-items: center;
+    }
+
+    .brand-logo img {
+        width: 106px;
+        height: 48px;
+        border-radius: 13px;
+    }
+
+    .header-actions {
+        width: auto;
+        flex: 1 1 auto;
+        min-width: 0;
+        gap: 7px;
+        position: relative;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        align-items: center;
+    }
+
+    .search-row {
+        grid-column: 1 / 2;
+        width: 100%;
+    }
+
+    .resultados-sugestao div,
+    .resultados-sugestao .sugestao-item {
+        font-size: 12px;
+        padding: 10px 12px;
+    }
+
+    .resultados-sugestao .busca-estilo {
+        font-size: 9px;
+        padding: 3px 7px;
+    }
+
+    .btn-menu-mobile {
+        display: inline-flex;
+        grid-column: 2 / 3;
+    }
+
+    .header-quick-actions {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: calc(100% + 8px);
+        min-width: 178px;
+        padding: 10px;
+        border: 1px solid rgba(255,255,255,0.12);
+        border-radius: 14px;
+        background: rgba(8,24,38,0.96);
+        box-shadow: 0 14px 32px rgba(0,0,0,0.35);
+        z-index: 35;
+        backdrop-filter: blur(10px);
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+    .header-quick-actions.is-open {
+        display: grid;
+    }
+
+    .btn-library {
+        width: 100%;
+        height: 40px;
+        border-radius: 12px;
+        padding: 0 10px;
+        justify-content: flex-start;
+    }
+
+    .library-label {
+        display: inline;
+    }
+
+    .btn-install {
+        width: 100%;
+        height: 40px;
+        padding: 0 10px;
+        border-radius: 12px;
+        font-size: 12px;
+        justify-content: flex-start;
+    }
+
+    .install-label {
+        font-size: 12px;
+    }
+
+    .app-header {
+        gap: 14px;
+    }
+
+    .section-home,
+    .section-library {
+        gap: 18px;
+    }
+
+    .section-favorites,
+    .section-ranking,
+    .section-albums,
+    .section-library {
+        padding: 18px;
+    }
+
+    .hero-card {
+        padding: 14px;
+        border-radius: 22px;
+        gap: 14px;
+    }
+
+    .hero-label {
+        padding: 6px 10px;
+        font-size: 10px;
+    }
+
+    .hero-content {
+        grid-template-columns: 96px minmax(0, 1fr);
+        gap: 13px;
+        align-items: center;
+    }
+
+    .hero-cover {
+        border-radius: 15px;
+    }
+
+    .hero-info {
+        gap: 12px;
+    }
+
+    .hero-meta strong {
+        display: block;
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    .hero-meta small {
+        margin-top: 5px;
+        font-size: 11px;
+    }
+
+    .hero-meta p {
+        margin-top: 8px;
+        font-size: 11px;
+        line-height: 1.35;
+    }
+
+    .hero-actions {
+        gap: 8px;
+    }
+
+    .hero-play {
+        padding: 9px 11px;
+        font-size: 11px;
+    }
+
+    .hero-play img {
+        width: 13px;
+        height: 13px;
+    }
+
+    .hero-favorite {
+        width: 36px;
+        height: 36px;
+    }
+
+    .hero-favorite img {
+        width: 17px;
+        height: 17px;
+    }
+
+    .mini-cards-group {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .mini-card-compact {
+        padding: 10px;
+        gap: 9px;
+        border-radius: 16px;
+    }
+
+    .mini-card-compact img {
+        flex-basis: 48px;
+        width: 48px;
+        height: 48px;
+        border-radius: 13px;
+    }
+
+    .card-play {
+        width: 28px;
+        height: 28px;
+        right: 3px;
+        bottom: 3px;    
+    }
+
+    .card-play img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .mini-card-compact .card-cover-wrap > img,
+    .favorito-card-compact .card-cover-wrap > img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .mini-card-compact strong,
+.favorito-card-compact strong {
+    font-size: 14px;
 }
 
-/* Ajusta o comportamento dos cards inseridos pelo JavaScript */
-#albuns .card, #continueOuvindo .card, #favoritosHorizontal .card, #maisOuvidas .card {
-    display: block !important;     /* Altera de inline-block para bloco flexível */
-    flex-shrink: 0 !important;     /* Impede que o card encolha e suma */
-    margin-right: 0 !important;    /* Reseta a margem antiga que controlava o espaço */
-    width: 100px !important;       /* Trava a largura exata definida no JS */
+    .mini-card-compact small,
+.favorito-card-compact small {
+    font-size: 12px;
 }
+
+    .ranking-carousel {
+        padding-left: 4px;
+        gap: 10px;
+        margin-right: -4px;
+    }
+
+    .albums-carousel {
+        padding-left: 4px;
+        gap: 10px;
+        margin-right: -4px;
+    }
+
+    .ranking-card,
+    .album-card {
+        padding: 10px;
+        gap: 8px;
+        border-radius: 16px;
+    }
+
+    .ranking-card {
+        width: 150px;
+        min-width: 150px;
+    }
+
+    .album-card {
+        width: 112px;
+        min-width: 112px;
+    }
+
+    .ranking-card img,
+    .album-card img {
+        border-radius: 12px;
+    }
+
+    .ranking-card small,
+    .album-card p {
+        font-size: 11px;
+    }
+
+    .ranking-badge {
+        font-size: 11px;
+    }
+
+    .mini-player {
+        width: calc(100% - 16px);
+        max-width: none;
+        padding: 8px;
+        border-radius: 18px;
+        gap: 8px;
+    }
+
+    .mini-track {
+        grid-template-columns: 38px minmax(0, 1fr) auto;
+        gap: 6px;
+    }
+
+    .mini-track > img {
+        width: 38px;
+        height: 38px;
+    }
+
+    .btn-favorite {
+        width: 30px;
+        height: 30px;
+    }
+
+    .player-controls-row {
+        gap: 5px;
+    }
+
+    .btn-icon,
+    .btn-play {
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+    }
+
+    .btn-play {
+        border-radius: 50%;
+    }
+
+    .btn-share {
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+    }
+
+    .btn-share img {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .app-shell {
+        padding: 14px 10px 110px;
+    }
+
+    .section-favorites,
+    .section-ranking,
+    .section-albums,
+    .section-library {
+        padding: 14px;
+        border-radius: 18px;
+    }
+
+    .mini-player {
+        width: calc(100% - 10px);
+        max-width: none;
+        padding: 8px 10px;
+        border-radius: 16px;
+        gap: 8px;
+    }
+
+    .mini-track {
+        grid-template-columns: 38px minmax(0, 1fr) auto;
+        gap: 8px;
+    }
+
+    .mini-track > img {
+        width: 38px;
+        height: 38px;
+    }
+
+    .mini-track-info strong {
+        font-size: 12px;
+    }
+
+    .mini-track-info small {
+        font-size: 10px;
+    }
+
+    .btn-favorite {
+        width: 32px;
+        height: 32px;
+    }
+
+    .btn-favorite img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .player-controls-row {
+        gap: 6px;
+    }
+
+    .btn-icon,
+    .btn-play {
+        width: 40px;
+        height: 40px;
+    }
+
+    .btn-share {
+        width: 40px;
+        height: 40px;
+        border-radius: 12px;
+    }
+
+    .btn-share img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .btn-icon img,
+    .btn-play img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .player-progress-row {
+        gap: 8px;
+    }
+
+    .player-progress-row span {
+        font-size: 11px;
+    }
+}
+
+

@@ -5,7 +5,7 @@
 
     function inicializarAjudaRanking() {
         // 1. Procura especificamente o h3 da seção Mais Ouvidas no seu HTML
-        const secaoMaisOuvidas = document.getElementById("secaoMaisOuvidas");
+        const secaoMaisOuvidas = document.querySelector(".section-ranking");
         if (!secaoMaisOuvidas) return;
 
         const tituloRanking = secaoMaisOuvidas.querySelector("h3");

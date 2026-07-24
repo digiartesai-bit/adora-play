@@ -5,6 +5,10 @@ const miniCapa = document.getElementById("miniCapa");
 const miniTitulo = document.getElementById("miniTitulo");
 const miniArtista = document.getElementById("miniArtista");
 const btnPlay = document.getElementById("btnPlay");
+const imgFavoritoMini = document.getElementById("imgFavorito");
+const imgFavoritoHero = document.getElementById("imgFavoritoHero");
+const btnFavoritoMini = imgFavoritoMini ? imgFavoritoMini.closest("button") : null;
+const btnFavoritoHero = imgFavoritoHero ? imgFavoritoHero.closest("button") : null;
 
 // Novos Elementos Globais para Shuffle e Repeat
 const btnShuffle = document.getElementById("btnShuffle");
@@ -14,6 +18,34 @@ const btnRepeat = document.getElementById("btnRepeat");
 const progressBar = document.getElementById("progressBar");
 const currentTime = document.getElementById("currentTime");
 const durationTime = document.getElementById("durationTime");
+
+function atualizarEspacoMiniPlayer() {
+    if (!miniPlayer) return;
+
+    const estilos = window.getComputedStyle(miniPlayer);
+    const bottom = parseFloat(estilos.bottom) || 0;
+    const altura = miniPlayer.offsetHeight || 0;
+    const espaco = Math.max(110, Math.ceil(altura + bottom + 12));
+    document.body.style.setProperty("--mini-player-space", `${espaco}px`);
+}
+
+if (miniPlayer) {
+    window.addEventListener("resize", atualizarEspacoMiniPlayer);
+    window.addEventListener("orientationchange", atualizarEspacoMiniPlayer);
+
+    if (typeof ResizeObserver !== "undefined") {
+        const miniPlayerObserver = new ResizeObserver(() => {
+            atualizarEspacoMiniPlayer();
+        });
+        miniPlayerObserver.observe(miniPlayer);
+    }
+
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", atualizarEspacoMiniPlayer, { once: true });
+    } else {
+        atualizarEspacoMiniPlayer();
+    }
+}
 
 // Estado
 let playlist = [];
@@ -36,6 +68,11 @@ function obterCapaMusica(musica) {
     return musica.capa || "assets/icons/album.svg";
 }
 
+function limitarTituloPlayer(texto, limite = 10) {
+    const valor = String(texto || "");
+    return valor.length > limite ? `${valor.slice(0, limite)}...` : valor;
+}
+
 // Garante o carregamento da playlist dinâmica do app.js
 function carregarPlaylist(lista) { 
     playlist = [...lista]; 
@@ -44,6 +81,45 @@ function carregarPlaylist(lista) {
 
 if (window.playlist && window.playlist.length > 0) {
     playlist = [...window.playlist];
+}
+
+function obterFavoritosStorage() {
+    return JSON.parse(localStorage.getItem('favoritos')) || [];
+}
+
+function salvarFavoritosStorage(favoritos) {
+    localStorage.setItem('favoritos', JSON.stringify(favoritos));
+}
+
+function chaveMusica(musica) {
+    if (!musica) return "";
+    return String(musica.audio || musica.id || musica.titulo || "").trim();
+}
+
+function alternarFavoritoDaMusica(musica) {
+    if (!musica) return false;
+
+    const musicaParaSalvar = {
+        ...musica,
+        capa: obterCapaMusica(musica),
+        capa_musica: obterCapaMusica(musica)
+    };
+
+    const favoritos = obterFavoritosStorage();
+    const chave = chaveMusica(musicaParaSalvar);
+    const index = favoritos.findIndex(f => chaveMusica(f) === chave);
+
+    let favoritado;
+    if (index > -1) {
+        favoritos.splice(index, 1);
+        favoritado = false;
+    } else {
+        favoritos.push(musicaParaSalvar);
+        favoritado = true;
+    }
+
+    salvarFavoritosStorage(favoritos);
+    return favoritado;
 }
 
 // Toca uma música com base no índice
@@ -135,11 +211,15 @@ function playPause() {
 function atualizarMiniPlayer() {
     if (!miniPlayer) return;
     miniPlayer.style.display = "flex";
+    atualizarEspacoMiniPlayer();
     
     if (!playlist || !playlist[musicaAtual]) return;
     const musica = playlist[musicaAtual];
     
-    if (miniTitulo) miniTitulo.textContent = musica.titulo;
+    if (miniTitulo) {
+        miniTitulo.textContent = limitarTituloPlayer(musica.titulo, 10);
+        miniTitulo.title = musica.titulo || "";
+    }
     if (miniArtista) miniArtista.textContent = musica.artista;
     
     if (miniCapa) {
@@ -315,45 +395,58 @@ function toggleFavorito() {
     if (!playlist || !playlist[musicaAtual]) return;
     const musica = playlist[musicaAtual];
 
-    const musicaParaSalvar = {
-        ...musica,
-        capa: obterCapaMusica(musica),
-        capa_musica: obterCapaMusica(musica)
-    };
-    
-    let favoritos = JSON.parse(localStorage.getItem('favoritos')) || [];
-    const index = favoritos.findIndex(f => f.titulo.trim() === musica.titulo.trim());
-    
-    if (index > -1) {
-        favoritos.splice(index, 1);
-    } else {
-        favoritos.push(musicaParaSalvar);
-    }
-    
-    localStorage.setItem('favoritos', JSON.stringify(favoritos));
+    alternarFavoritoDaMusica(musica);
     atualizarBotaoFavorito();
 
     if (typeof renderizarFavoritosHorizontais === "function") {
         renderizarFavoritosHorizontais();
     }
+
+    if (typeof window.renderizarBibliotecaAtual === "function") {
+        window.renderizarBibliotecaAtual();
+    }
 }
 
+window.toggleFavoritoPorIndice = function(indice) {
+    const lista = playlist.length > 0 ? playlist : (window.musicas || []);
+    const musica = lista[indice];
+    if (!musica) return;
+
+    alternarFavoritoDaMusica(musica);
+    atualizarBotaoFavorito();
+
+    if (typeof renderizarFavoritosHorizontais === "function") {
+        renderizarFavoritosHorizontais();
+    }
+
+    if (typeof window.renderizarBibliotecaAtual === "function") {
+        window.renderizarBibliotecaAtual();
+    }
+};
+
 function atualizarBotaoFavorito() {
-    const imgFavorito = document.getElementById("imgFavorito");
-    if (!imgFavorito) return;
+    if (!imgFavoritoMini && !imgFavoritoHero) return;
     
     const musica = playlist[musicaAtual];
     if (!musica) return;
     
-    const favoritos = JSON.parse(localStorage.getItem('favoritos')) || [];
-    const ehFavorito = favoritos.some(f => f.titulo.trim() === musica.titulo.trim());
-    
-    // Favorito Ativo (Vermelho/Dourado Brilhante) vs Inativo (Dourado Translúcido)
-    const filtroAtivo = "brightness(1.2) saturate(10) drop-shadow(0px 0px 4px rgba(212, 175, 55, 0.8))";
-    const filtroInativo = "brightness(0) saturate(100%) invert(84%) sepia(23%) saturate(1067%) hue-rotate(352deg) brightness(85%) contrast(85%)";
+    const favoritos = obterFavoritosStorage();
+    const chaveAtual = chaveMusica(musica);
+    const ehFavorito = favoritos.some(f => chaveMusica(f) === chaveAtual);
 
-    imgFavorito.style.filter = ehFavorito ? filtroAtivo : filtroInativo;
-    imgFavorito.style.opacity = ehFavorito ? "1" : "0.5";
+    const srcIcone = ehFavorito ? "assets/icons/heart-fill-red.svg" : "assets/icons/heart-outline-red.svg";
+
+    [imgFavoritoMini, imgFavoritoHero].forEach((img) => {
+        if (!img) return;
+        img.src = srcIcone;
+        img.style.opacity = "1";
+        img.style.filter = "none";
+    });
+
+    [btnFavoritoMini, btnFavoritoHero].forEach((btn) => {
+        if (!btn) return;
+        btn.classList.toggle("is-favorited", ehFavorito);
+    });
 }
 
 // ==========================================
@@ -386,6 +479,15 @@ function salvarNoHistorico(musica) {
 async function registrarReproducao(id) {
     if (!id) return;
 
+    const idNumerico = Number(id);
+    const catalogoAtual = Array.isArray(window.musicas) ? window.musicas : [];
+    const idExisteNoCatalogo = catalogoAtual.some(item => Number(item.id) === idNumerico);
+
+    if (!idExisteNoCatalogo) {
+        console.warn("ID fora do catalogo local. Reproducao nao enviada:", id);
+        return;
+    }
+
     try {
         const resposta = await fetch("https://adoraplay-api.digiartesai.workers.dev/", {
             method: "POST",
@@ -393,7 +495,7 @@ async function registrarReproducao(id) {
                 "Content-Type": "application/json",
                 "Accept": "application/json"
             },
-            body: JSON.stringify({ id }),
+            body: JSON.stringify({ id: idNumerico }),
             mode: "cors",
             cache: "no-store"
         });

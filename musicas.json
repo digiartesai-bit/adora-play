@@ -1,3 +1,4 @@
+
 [
   {
     "id": 1,
@@ -8,7 +9,9 @@
     "capa": "assets/capas/adoracao.jpg",
     "capa_musica": "assets/capamusica/abatalha.jpg",
     "categoria": "Adoracao",
-    "data_cadastro": "2026-07-15"
+    "data_cadastro": "2026-07-15",
+    "destaque": true,
+    "destaque_principal": true
   },
   {
     "id": 2,
@@ -30,7 +33,8 @@
     "capa": "assets/capas/louvor.png",
     "capa_musica": "assets/capamusica/a_chuva_vai_cair.jpg",
     "categoria": "Louvor",
-    "data_cadastro": "2026-07-12"
+    "data_cadastro": "2026-07-12",
+    "destaque": true
   },
   {
     "id": 4,
@@ -49,24 +53,24 @@
     "artista": "AdoraPlay",
     "album": "Louvor",
     "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/louvor/1Reis9_3.mp3",
-    "capa": "assets/capas/Louvor.png",
+    "capa": "assets/capas/louvor.png",
     "capa_musica": "assets/capamusica/reis93.jpg",
     "categoria": "Louvor",
     "data_cadastro": "2026-07-08"
   },
-    {
-      "id": 6,
+  {
+    "id": 6,
     "titulo": "A Palavra de Deus",
     "artista": "AdoraPlay",
-    "album": "Sertenejo",
+    "album": "Sertanejo",
     "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/sertaneja/A%20Palavra_de_Deus_eo_caminho.mp3",
     "capa": "assets/capas/sertanejo.png",
     "capa_musica": "assets/capamusica/apalavradedeus.png",
     "categoria": "Sertanejo",
     "data_cadastro": "2026-07-08"
-    },
-    {
-      "id": 7,
+  },
+  {
+    "id": 7,
     "titulo": "A Estrela de Belém ",
     "artista": "AdoraPlay",
     "album": "Infantil",
@@ -75,7 +79,7 @@
     "capa_musica": "assets/capamusica/estrelabelem.jpg",
     "categoria": "Infantil",
     "data_cadastro": "2026-07-08"
-    },
+  },
   {
     "id": 8,
     "titulo": "A Fidelidade de Deus",
@@ -88,7 +92,7 @@
     "data_cadastro": "2026-07-08"
   },
   {
-      "id": 9,
+    "id": 9,
     "titulo": "A Pesca Maravilhosa",
     "artista": "AdoraPlay",
     "album": "Infantil",
@@ -97,9 +101,9 @@
     "capa_musica": "assets/capamusica/pescamaravilhosa.jpg",
     "categoria": "Infantil",
     "data_cadastro": "2026-07-08"
-    },
+  },
   {
-      "id": 10,
+    "id": 10,
     "titulo": "Promessa de Amor",
     "artista": "AdoraPlay",
     "album": "Infantil",
@@ -110,7 +114,7 @@
     "data_cadastro": "2026-07-20"
   },
   {
-      "id": 11,
+    "id": 11,
     "titulo": "Abra os Meus Olhos",
     "artista": "AdoraPlay",
     "album": "Celebração",
@@ -118,10 +122,11 @@
     "capa": "assets/capas/celebracao.jpg",
     "capa_musica": "assets/capamusica/abraolhos.jpg",
     "categoria": "Celebracao",
-    "data_cadastro": "2026-07-20"
+    "data_cadastro": "2026-07-20",
+    "destaque": true
   },
   {
-      "id": 12,
+    "id": 12,
     "titulo": "Brisa da Adoração",
     "artista": "AdoraPlay",
     "album": "Bossa",
@@ -132,7 +137,7 @@
     "data_cadastro": "2026-07-20"
   },
   {
-      "id": 13,
+    "id": 13,
     "titulo": "Fé na Luta",
     "artista": "AdoraPlay",
     "album": "HipHop",
@@ -142,5 +147,4 @@
     "categoria": "HipHop",
     "data_cadastro": "2026-07-20"
   }
-  
 ]

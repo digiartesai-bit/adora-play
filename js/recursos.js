@@ -2,37 +2,169 @@
 // RECURSO 1: LIBERDADE DE REPRODUÇÃO - CLIQUE E ARRASTE NO DESKTOP
 // ==========================================================================
 window.addEventListener('DOMContentLoaded', () => {
-    const carrosseis = document.querySelectorAll('#albuns, #continueOuvindo, #favoritosHorizontal');
+    const carrosseis = document.querySelectorAll('#albuns, #continueOuvindo, #maisOuvidas');
+    const wheelSnapTimers = new WeakMap();
+
+    const obterSliderDoAlvo = (alvo) => {
+        if (alvo instanceof Element) {
+            return alvo.closest('#maisOuvidas, #albuns, #continueOuvindo');
+        }
+        if (alvo && alvo.parentElement) {
+            return alvo.parentElement.closest('#maisOuvidas, #albuns, #continueOuvindo');
+        }
+        return null;
+    };
+
+    const lidarComWheelHorizontal = (e, sliderForcado = null) => {
+        const slider = sliderForcado || obterSliderDoAlvo(e.target);
+        if (!slider) return;
+
+        const deltaY = typeof e.deltaY === 'number'
+            ? e.deltaY
+            : (typeof e.wheelDelta === 'number' ? -e.wheelDelta : 0);
+        const deltaX = typeof e.deltaX === 'number' ? e.deltaX : 0;
+        const deltaPrincipal = Math.abs(deltaX) > Math.abs(deltaY) ? deltaX : deltaY;
+
+        if (!deltaPrincipal) return;
+
+        slider.style.scrollSnapType = 'none';
+        const timerAtual = wheelSnapTimers.get(slider);
+        if (timerAtual) {
+            clearTimeout(timerAtual);
+        }
+
+        if (e.cancelable) {
+            e.preventDefault();
+        }
+
+        slider.scrollLeft += (deltaPrincipal * 1.1);
+
+        const novoTimer = setTimeout(() => {
+            slider.style.scrollSnapType = 'x mandatory';
+        }, 140);
+        wheelSnapTimers.set(slider, novoTimer);
+    };
 
     carrosseis.forEach(slider => {
         if (!slider) return;
+
+        let arrastando = false;
+        let suprimiuClique = false;
+        let inicioX = 0;
+        let scrollInicial = 0;
+        let ultimoDeltaX = 0;
 
         slider.addEventListener('dragstart', (e) => e.preventDefault());
         slider.querySelectorAll('*').forEach(el => {
             el.addEventListener('dragstart', (e) => e.preventDefault());
         });
 
-        slider.addEventListener('mousedown', (e) => {
+        const bloquearSelecaoPagina = (bloquear) => {
+            document.body.style.userSelect = bloquear ? 'none' : '';
+            document.body.style.webkitUserSelect = bloquear ? 'none' : '';
+        };
+
+        const iniciarArraste = (x) => {
+            arrastando = true;
+            suprimiuClique = false;
+            ultimoDeltaX = 0;
+            inicioX = x;
+            scrollInicial = slider.scrollLeft;
             slider.style.cursor = 'grabbing';
-            let startX = e.pageX - slider.offsetLeft;
-            let scrollLeft = slider.scrollLeft;
+            slider.style.scrollSnapType = 'none';
+            bloquearSelecaoPagina(true);
+        };
 
-            const aoMoverMouse = (moveEvent) => {
-                const x = moveEvent.pageX - slider.offsetLeft;
-                const movimento = (x - startX) * 2; 
-                slider.scrollLeft = scrollLeft - movimento;
-            };
+        const moverArraste = (x, fator) => {
+            if (!arrastando) return;
 
-            const aoSoltarMouse = () => {
-                slider.style.cursor = 'grab';
-                document.removeEventListener('mousemove', aoMoverMouse);
-                document.removeEventListener('mouseup', aoSoltarMouse);
-            };
+            const deslocamento = x - inicioX;
+            ultimoDeltaX = deslocamento;
+            if (Math.abs(deslocamento) > 4) {
+                suprimiuClique = true;
+            }
 
-            document.addEventListener('mousemove', aoMoverMouse);
-            document.addEventListener('mouseup', aoSoltarMouse);
+            slider.scrollLeft = scrollInicial - (deslocamento * fator);
+        };
+
+        const finalizarArraste = () => {
+            if (!arrastando) return;
+
+            arrastando = false;
+            slider.style.cursor = 'grab';
+            slider.style.scrollSnapType = 'x mandatory';
+            bloquearSelecaoPagina(false);
+        };
+
+        // Desktop e DevTools responsivo (mouse)
+        slider.addEventListener('mousedown', (e) => {
+            if (e.button !== 0) return;
+            iniciarArraste(e.pageX);
+            e.preventDefault();
         });
+
+        window.addEventListener('mousemove', (e) => {
+            if (!arrastando) return;
+            moverArraste(e.pageX, 2);
+            e.preventDefault();
+        });
+
+        window.addEventListener('mouseup', () => {
+            finalizarArraste();
+        });
+
+        // Toque real (mobile)
+        slider.addEventListener('touchstart', (e) => {
+            const toque = e.touches && e.touches[0];
+            if (!toque) return;
+            iniciarArraste(toque.pageX);
+        }, { passive: true });
+
+        slider.addEventListener('touchmove', (e) => {
+            if (!arrastando) return;
+            const toque = e.touches && e.touches[0];
+            if (!toque) return;
+            moverArraste(toque.pageX, 1.35);
+
+            // Evita rolagem vertical da página somente quando há arraste horizontal claro.
+            if (Math.abs(ultimoDeltaX) > 6 && e.cancelable) {
+                e.preventDefault();
+            }
+        }, { passive: false });
+
+        slider.addEventListener('touchend', () => {
+            finalizarArraste();
+        });
+
+        slider.addEventListener('touchcancel', () => {
+            finalizarArraste();
+        });
+
+        slider.addEventListener('click', (e) => {
+            if (!suprimiuClique) return;
+            e.preventDefault();
+            e.stopPropagation();
+            suprimiuClique = false;
+        }, true);
+
+        slider.addEventListener('wheel', (e) => {
+            lidarComWheelHorizontal(e, slider);
+        }, { passive: false });
+
+        slider.addEventListener('mousewheel', (e) => {
+            lidarComWheelHorizontal(e, slider);
+        }, { passive: false });
+
     });
+
+    // Wheel delegado: funciona mesmo com conteúdo re-renderizado dentro do carrossel.
+    document.addEventListener('wheel', (e) => {
+        lidarComWheelHorizontal(e);
+    }, { passive: false, capture: true });
+
+    document.addEventListener('mousewheel', (e) => {
+        lidarComWheelHorizontal(e);
+    }, { passive: false, capture: true });
 });
 
 // ==========================================================================
@@ -75,44 +207,52 @@ function compartilharMusicaAtual() {
 // ==========================================================================
 // RECURSO 3: EXIBIR E ATUALIZAR FAVORITOS (TOTALMENTE AUTÔNOMO)
 // ==========================================================================
+window.removerFavoritoPorAudio = function(audio) {
+    const favoritos = JSON.parse(localStorage.getItem('favoritos')) || [];
+    const novosFavoritos = favoritos.filter(f => f.audio !== audio);
+    localStorage.setItem('favoritos', JSON.stringify(novosFavoritos));
+    if (typeof window.renderizarFavoritosHorizontais === "function") {
+        window.renderizarFavoritosHorizontais();
+    }
+};
+
 window.renderizarFavoritosHorizontais = function() {
     const secaoFavoritos = document.getElementById("secaoFavoritos");
-    const favoritosHorizontal = document.getElementById("favoritosHorizontal");
+    const containerFavoritos = document.getElementById("container-favoritos");
     
-    if (!secaoFavoritos || !favoritosHorizontal) return;
+    if (!secaoFavoritos || !containerFavoritos) return;
 
     const favoritos = JSON.parse(localStorage.getItem('favoritos')) || [];
 
-    // Se não houver favoritos salvos, garante que a div fique escondida
     if (favoritos.length === 0) {
         secaoFavoritos.style.display = "none";
         return;
     }
 
-    // Limpa o carrossel para desenhar do zero
-    favoritosHorizontal.innerHTML = "";
+    containerFavoritos.innerHTML = "";
 
-    // Pega a lista global de músicas para podermos achar o index correto ao clicar
     const listaDeMusicas = window.musicas || window.playlist || [];
 
     favoritos.forEach((musica) => {
-        // Encontra o index correspondente no player para saber qual faixa tocar
         let indexReal = listaDeMusicas.findIndex(m => m.audio === musica.audio);
-        if (indexReal === -1) indexReal = 0; // Fallback de segurança
+        if (indexReal === -1) indexReal = 0;
 
-        // Usa a capa específica da música quando disponível
         const capaMusica = typeof window.obterCapaMusica === "function"
             ? window.obterCapaMusica(musica)
             : (musica.capa_musica || musica.capa || "assets/icons/album.svg");
 
-        // Monta o HTML do card usando as informações diretas do localStorage
-        favoritosHorizontal.innerHTML += `
-        <div class="card" onclick="tocar(${indexReal})" style="cursor: pointer; width: 100px; display: inline-block; margin-right: 15px; vertical-align: top;">
-            <img src="${capaMusica}" onerror="this.src='assets/icons/album.svg'" style="width: 100px; height: 100px; object-fit: cover; border-radius: 8px; display: block;">
-            <p style="margin-top: 5px; font-size: 13px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: #fff;">${musica.titulo}</p>
+        containerFavoritos.innerHTML += `
+        <div class="favorito-card" onclick="tocar(${indexReal})">
+            <img src="${capaMusica}" onerror="this.src='assets/icons/album.svg'" alt="${musica.titulo}">
+            <div class="favorito-card-info">
+                <strong>${musica.titulo}</strong>
+                <small>${musica.artista}</small>
+            </div>
+            <button onclick="event.stopPropagation(); window.removerFavoritoPorAudio('${musica.audio}');">
+                <img src="assets/icons/heart.svg" alt="Remover favorito">
+            </button>
         </div>`;
     });
 
-    // 🔥 FORÇA A EXIBIÇÃO: Remove o display: none e faz a seção abrir na tela!
     secaoFavoritos.style.display = "block";
 };

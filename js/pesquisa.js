@@ -165,5 +165,3 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// Executa a carga inicial do JSON assim que a página estiver pronta
-document.addEventListener('DOMContentLoaded', inicializarPesquisa);

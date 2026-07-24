@@ -4,16 +4,29 @@
 
 window.musicas = window.musicas || [];
 
+function extrairRanking(dados) {
+    if (Array.isArray(dados)) return dados;
+    if (!dados || typeof dados !== "object") return [];
+
+    const chavesPossiveis = ["ranking", "value", "data", "items", "top", "top8"];
+    for (const chave of chavesPossiveis) {
+        if (Array.isArray(dados[chave])) {
+            return dados[chave];
+        }
+    }
+
+    return [];
+}
+
 async function carregarRanking() {
     window.musicas = window.musicas || [];
 
-    const secao = document.getElementById("secaoMaisOuvidas");
     const container = document.getElementById("maisOuvidas");
-
-    if (!secao || !container) return;
+    if (!container) return;
 
     try {
-        const resposta = await fetch("https://adoraplay-api.digiartesai.workers.dev/", {
+        const endpointRanking = `https://adoraplay-api.digiartesai.workers.dev/ranking?t=${Date.now()}`;
+        const resposta = await fetch(endpointRanking, {
             method: "GET",
             headers: {
                 "Accept": "application/json"
@@ -22,71 +35,52 @@ async function carregarRanking() {
         });
 
         if (!resposta.ok) {
-            secao.style.display = "none";
-            return;
-        }
+            if (typeof window.renderizarRanking === 'function') {
+                window.renderizarRanking([]);
+                return;
+            }
 
-        const dados = await resposta.json();
-        const ranking = Array.isArray(dados)
-            ? dados
-            : (dados && Array.isArray(dados.ranking) ? dados.ranking : []);
-
-        if (!ranking || ranking.length === 0) {
-            secao.style.display = "none";
             container.innerHTML = "";
             return;
         }
 
-        container.innerHTML = "";
-        secao.style.display = "block";
+        const dados = await resposta.json();
+        const ranking = extrairRanking(dados);
+
+        if (typeof window.renderizarRanking === 'function') {
+            window.renderizarRanking(ranking);
+            return;
+        }
 
         const medalhas = ["🥇", "🥈", "🥉"];
-
-        ranking.forEach((item, posicao) => {
+        container.innerHTML = "";
+        ranking.slice(0, 8).forEach((item, posicao) => {
             const musica = window.musicas.find(m => Number(m.id) === Number(item.id));
             if (!musica) return;
-
             const indice = window.musicas.findIndex(m => Number(m.id) === Number(item.id));
             if (indice === -1) return;
-
+            const rankLabel = posicao === 0 ? medalhas[0] : posicao === 1 ? medalhas[1] : posicao === 2 ? medalhas[2] : `${posicao + 1}`;
             container.innerHTML += `
-                <div class="card"
-                     onclick="tocar(${indice})"
-                     style="cursor:pointer; width:100px; display:inline-block; margin-right:15px; vertical-align:top;">
-
-                    <img
-                        src="${musica.capa_musica || musica.capa || 'assets/icons/album.svg'}"
-                        onerror="this.src='assets/icons/album.svg'"
-                        style="width:100px; height:100px; object-fit:cover; border-radius:10px; display:block;">
-
-                    <p style="margin-top:6px; font-size:13px; text-align:center; color:#fff;">
-                        ${medalhas[posicao]}
-                    </p>
-
-                    <div style="min-height: 36px; display: flex; align-items: center; justify-content: center; margin: 4px 0;">
-                        <p style="
-                            font-size:13px;
-                            text-align:center;
-                            color:#fff;
-                            margin:0;
-                            line-height:1.3;
-                            white-space:normal;
-                            word-break:break-word;
-                        ">
-                            ${musica.titulo}
-                        </p>
+                <article class="ranking-card" onclick="tocar(${indice})">
+                    <img src="${musica.capa_musica || musica.capa || 'assets/icons/album.svg'}" alt="${musica.titulo}" onerror="this.src='assets/icons/album.svg'">
+                    <div class="ranking-footer">
+                        <button class="card-play" onclick="event.stopPropagation(); tocar(${indice})" aria-label="Reproduzir ${musica.titulo}" title="Reproduzir">
+                            <img src="assets/icons/play.svg" alt="">
+                        </button>
+                        <div class="ranking-badge">${rankLabel}</div>
                     </div>
-
-                    <small style="display:block; text-align:center; color:#999;">
-                        ${item.reproducoes || 0} reproduções
-                    </small>
-
-                </div>
+                    <small>${item.reproducoes || 0} reproduções</small>
+                </article>
             `;
         });
     } catch (erro) {
         console.error("Erro ao carregar ranking:", erro);
-        secao.style.display = "none";
+        if (typeof window.renderizarRanking === 'function') {
+            window.renderizarRanking([]);
+            return;
+        }
+
+        if (container) container.innerHTML = "";
     }
 }
 
