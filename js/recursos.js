@@ -172,13 +172,12 @@ window.addEventListener('DOMContentLoaded', () => {
 // ==========================================================================
 function compartilharMusicaAtual() {
     const titulo = document.getElementById("miniTitulo")?.textContent || "";
-    const artista = document.getElementById("miniArtista")?.textContent || "AdoraPlay";
-    
+        
     if (!titulo) return; 
 
     const baseUrl = "https://digiartesai-bit.github.io/adora-play/";
     const urlAppComMusica = `${baseUrl}?musica=${encodeURIComponent(titulo)}`;
-    const textoMensagem = `Ouça "${titulo}" de ${artista} no AdoraPlay! 🎶`;
+    const textoMensagem = `Ouça "${titulo}" no AdoraPlay! 🎶`;
 
     // Função interna para o Plano B (WhatsApp Web/API)
     const abrirWhatsAppComoFallback = () => {
