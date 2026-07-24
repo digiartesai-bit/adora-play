@@ -434,7 +434,7 @@ function atualizarBotaoFavorito() {
     const chaveAtual = chaveMusica(musica);
     const ehFavorito = favoritos.some(f => chaveMusica(f) === chaveAtual);
 
-    const srcIcone = ehFavorito ? "assets/icons/heart.svg" : "assets/icons/heart.svg";
+    const srcIcone = ehFavorito ? "assets/icons/heart-fill-red.svg" : "assets/icons/heart-outline-red.svg";
 
     [imgFavoritoMini, imgFavoritoHero].forEach((img) => {
         if (!img) return;
