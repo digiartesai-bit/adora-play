@@ -313,7 +313,7 @@ function renderizarFaixasDoAlbum(album) {
                         <img src="assets/icons/play.svg" alt="">
                     </button>
                     <button class="library-favorite ${ehFavorita ? 'is-favorited' : ''}" onclick="event.stopPropagation(); alternarFavoritoBiblioteca(${indice})" aria-label="Favoritar ${musica.titulo}" title="Favoritar">
-                        <img src="${ehFavorita ? 'assets/icons/heart-fill-red.svg' : 'assets/icons/heart-outline-red.svg'}" alt="Favorito">
+                        <img src="${ehFavorita ? 'assets/icons/heart.svg' : 'assets/icons/heart.svg'}" alt="Favorito">
                     </button>
                 </div>
             </article>
@@ -349,7 +349,7 @@ function renderizarBiblioteca() {
                         <img src="assets/icons/play.svg" alt="">
                     </button>
                     <button class="library-favorite ${ehFavorita ? 'is-favorited' : ''}" onclick="event.stopPropagation(); alternarFavoritoBiblioteca(${musicas.findIndex(m => m.audio === musica.audio)})" aria-label="Favoritar ${musica.titulo}" title="Favoritar">
-                        <img src="${ehFavorita ? 'assets/icons/heart-fill-red.svg' : 'assets/icons/heart-outline-red.svg'}" alt="Favorito">
+                        <img src="${ehFavorita ? 'assets/icons/heart.svg' : 'assets/icons/heart.svg'}" alt="Favorito">
                     </button>
                 </div>
             </article>
