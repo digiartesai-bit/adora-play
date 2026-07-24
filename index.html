@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -25,174 +25,171 @@
     <!-- Fonte Google: Poppins -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=2.3.11">
 </head>
 
+</head>
 <body>
-<!-- CABEÇALHO COM PERFIL E BOTÃO DE INSTALAR EM DESTAQUE -->
-<header class="topo">
-    <div class="header-controls">
-        <!-- O botão de instalar agora fica fixo e destacado no topo -->
-        <!-- ADICIONADO: draggable="false" para proteger o clique no mobile -->
-        <button id="seu-botao-de-instalar" class="btn-instalar-topo">
-            <img src="assets/icons/download.svg" alt="Instalar" draggable="false">
-            <span>Instalar App</span>
-        </button>
-
-         <!-- <button class="perfil">
-            <img src="assets/icons/profile.svg" width="24" height="24" alt="Perfil" style="filter: invert(1);">
-        </button> -->
-    </div>
-</header>
-
-<!-- BANNER DE DESTAQUE (Começa oculto por padrão) -->
-<div class="banner" style="display: none;">
-    <small>Novidade</small>
-    <h2>Lançamentos da Semana</h2>
-    <p>Descubra os novos louvores para abençoar o seu dia.</p>
-    <button onclick="abrirTelaLancamentos()">
-        <img src="assets/icons/play.svg" width="16" height="16" alt="Play">
-        Ver Lançamentos
-    </button>
-</div>
-
-<!-- TELA VIRTUAL DE LANÇAMENTOS (Começa oculta) -->
-<div id="telaLancamentos" style="display: none; padding: 20px;">
-    <!-- Botão Voltar -->
-    <button onclick="voltarParaHome()" style="background: rgba(255,255,255,0.1); border: none; color: #D4AF37; padding: 10px 18px; border-radius: 20px; font-weight: 600; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; margin-bottom: 25px;">
-        ← Voltar para o Início
-    </button>
-
-    <div style="text-align: center; background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.05); padding: 30px 20px; border-radius: 24px;">
-        <span style="background: rgba(212, 175, 55, 0.2); color: #D4AF37; padding: 4px 12px; border-radius: 12px; font-size: 11px; font-weight: 600; text-transform: uppercase;">Novidade da Semana</span>
-        
-        <!-- Info do Lançamento (Preenchido dinamicamente pelo JS) -->
-        <img id="lancamentoCapa" src="assets/icons/album.svg" style="width: 200px; height: 200px; object-fit: cover; border-radius: 16px; margin: 20px auto; display: block; box-shadow: 0 10px 25px rgba(0,0,0,0.5);">
-        
-        <h2 id="lancamentoTitulo" style="font-size: 22px; margin-bottom: 6px; color: #fff;">Carregando...</h2>
-        <p id="lancamentoArtista" style="color: #94a3b8; font-size: 14px; margin-bottom: 25px;">Por favor, aguarde</p>
-
-        <!-- Botão para Tocar -->
-        <button id="btnOuvirLancamento" style="background: #D4AF37; color: #081826; border: none; padding: 14px 30px; border-radius: 30px; font-size: 15px; font-weight: bold; cursor: pointer; display: inline-flex; align-items: center; gap: 10px; margin: 0 auto; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);">
-            <img src="assets/icons/play.svg" width="16" height="16" style="filter: brightness(0) saturate(100%) invert(8%) sepia(21%) saturate(2326%) hue-rotate(167deg) brightness(96%) contrast(97%);">
-            Ouvir Agora
-        </button>
-    </div>
-</div>
-
-<!-- CONTAINER DA BUSCA -->
-<div class="search-container">
-    <div class="search-wrapper">
-        <img src="assets/icons/search.svg" alt="Buscar" class="search-icon">
-        <input type="text" id="search-input" placeholder="Buscar músicas, álbuns ou estilos..." oninput="filtrarMusicas()" autocomplete="off">
-        <div id="resultados-busca-flutuante" class="resultados-sugestao"></div>
-    </div>
-</div>
-    
-<!-- SEÇÃO: MAIS OUVIDAS -->
-<section class="secao" id="secaoMaisOuvidas" style="display: none;">
-    <div class="secao-header">
-        <h3>Mais Ouvidas do AdoraPlay</h3>
-    </div>
-    <div id="maisOuvidas" class="carrossel"></div>
-</section>
-
-<!-- SEÇÃO: SEUS FAVORITOS -->
-<section class="secao" id="secaoFavoritos" style="display: none;">
-    <div class="secao-header">
-        <h3>Seus Favoritos</h3>
-    </div>
-    <div id="favoritosHorizontal" class="carrossel"></div>
-</section>
-
-<!-- SEÇÃO: ÚLTIMAS OUVIDAS -->
-<section class="secao" id="secaoContinue" style="display: none;">
-    <div class="secao-header">
-        <h3>Últimas ouvidas</h3>
-    </div>
-    <div id="continueOuvindo" class="carrossel"></div>
-</section>
-
-<!-- SEÇÃO DE ÁLBUNS -->
-<section class="secao">
-    <div class="secao-header">
-        <h3>Navegar por Álbuns</h3>
-    </div>
-    <div id="albuns" class="carrossel"></div>
-</section>
-
-<!-- LISTA PRINCIPAL (VERTICAL) -->
-<section class="secao">
-    <div class="secao-header">
-        <h3 id="tituloListaMusicas">Adicionados recentemente</h3>
-    </div>
-    <div id="listaMusicas"></div>
-</section>
-
-<!-- MINI PLAYER UNIFICADO COM GLASSMORPHISM -->
-<div class="mini-player" id="miniPlayer">
-    <!-- Barra de Progresso Superior -->
-    <div class="progress-container">
-        <input type="range" id="progressBar" value="0" min="0" max="100">
-        <div class="progress-times">
-            <span id="currentTime">0:00</span>
-            <span id="durationTime">0:00</span>
-        </div>
-    </div>
-
-    <!-- Controles Principais -->
-    <div class="player-controls-row">
-        <!-- Esquerda: Capa e Info -->
-        <div class="info-wrapper">
-            <img id="miniCapa" src="assets/icons/album.svg" onerror="this.src='assets/icons/album.svg'" alt="Capa">
-            <div class="mini-info">
-                <strong id="miniTitulo">Nenhuma música</strong>
-                <small id="miniArtista">Selecione uma música</small>
+    <div class="app-shell">
+        <header class="app-header">
+            <div class="brand-row">
+                <div class="brand-logo">
+                    <img src="assets/adoraplay.jpg" alt="AdoraPlay">
+                </div>
+                <div class="header-actions">
+                    <div class="search-row">
+                        <div class="search-input-wrapper">
+                            <img src="assets/icons/search.svg" alt="Buscar" class="search-icon">
+                            <input id="search-input" type="text" placeholder="Buscar" autocomplete="off">
+                            <div id="resultados-busca-flutuante" class="resultados-sugestao"></div>
+                        </div>
+                    </div>
+                    <button class="btn-menu-mobile" id="btnMenuMobile" type="button" aria-label="Abrir menu" aria-expanded="false">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div class="header-quick-actions" id="headerQuickActions">
+                        <button class="btn-install" id="btnInstall" type="button" aria-label="Instalar aplicativo" title="Instalar">
+                            <img src="assets/icons/download.svg" alt="">
+                            <span class="install-label">Instalar</span>
+                        </button>
+                        <button class="btn-library" id="btnBiblioteca" onclick="mostrarBiblioteca()" aria-label="Abrir biblioteca" title="Biblioteca">
+                            <img src="assets/icons/library.svg" alt="Biblioteca">
+                            <span class="library-label">Biblioteca</span>
+                        </button>
+                    </div>
+                </div>
             </div>
-        </div>
+        </header>
 
-        <!-- Centro: Favorito -->
-        <!-- Adicione o atributo title no botão do coração -->
-        <button class="btn-icon" id="btnFavoritar" onclick="toggleFavorito()" title="Adicionar aos favoritos">
-            <img id="imgFavorito" src="assets/icons/heart.svg" alt="Favoritar">
-        </button>
-        <!-- 🔥 ADICIONE ESTE BOTÃO DO WHATSAPP LOGO AO LADO: -->
-<button class="btn-icon" id="btnCompartilhar" onclick="compartilharMusicaAtual()" title="Compartilhar">
-    <!-- O filter: none garante que a cor original do SVG apareça -->
-    <img src="assets/icons/whatsapp.svg" alt="Compartilhar" style="filter: none !important;">
-</button>
+        <main class="main-content">
+            <section class="section-home" id="homeSection">
+                <div class="top-cards">
+                    <article class="hero-card" id="destaqueAtual">
+                        <div class="hero-heading">
+                            <span class="hero-label">Destaques e Novidades</span>
+                        </div>
+                        <div class="hero-content">
+                            <img class="hero-cover" id="destaqueCapa" src="assets/capamusica/abatalha.jpg" alt="Capa da musica em destaque">
+                            <div class="hero-info">
+                                <div class="hero-meta">
+                                    <strong id="destaqueTitulo">Carregando...</strong>
+                                    <small id="destaqueArtista">Aguarde enquanto buscamos a ultima musica adicionada</small>
+                                    <p>Descubra os ultimos louvores para abençoar seu dia</p>
+                                </div>
+                                <div class="hero-actions">
+                                    <button class="hero-play" onclick="tocarDestaque()">
+                                        <img src="assets/icons/play.svg" alt="">
+                                        Ouvir agora
+                                    </button>
+                                    <button class="hero-favorite" onclick="toggleFavorito()" aria-label="Adicionar ou remover dos favoritos" title="Adicionar ou remover dos favoritos">
+                                        <img id="imgFavoritoHero" src="assets/icons/heart-outline-red.svg" alt="Favorito">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mini-cards-group" id="miniCardsNovidades"></div>
+                    </article>
+                </div>
 
-        <!-- Direita: Controles -->
-        <div class="mini-botoes">
-            <button id="btnShuffle" class="btn-icon" onclick="alternarShuffle()">
-                <img src="assets/icons/shuffle.svg" alt="Aleatório">
+                <section class="section-favorites" id="secaoFavoritos">
+                    <div class="section-header">
+                        <div>
+                            <h3>Seus Favoritos</h3>
+                            <small><button class="link-button" onclick="mostrarBiblioteca(true)">Ver todos</button></small>
+                        </div>
+                    </div>
+                    <div class="favoritos-grid" id="favoritosVisiveis"></div>
+                </section>
+
+                <section class="section-ranking">
+                    <div class="section-header">
+                        <div>
+                            <h3>Mais Ouvidas</h3>
+                            <small>Top 8</small>
+                        </div>
+                    </div>
+                    <div class="ranking-carousel" id="maisOuvidas"></div>
+                </section>
+
+                <section class="section-albums">
+                    <div class="section-header">
+                        <div>
+                            <h3>Navegar por Albuns</h3>
+                        </div>
+                    </div>
+                    <div class="albums-carousel" id="albuns"></div>
+                    <div class="album-tracks-panel" id="albumTracksPanel" hidden>
+                        <div class="album-tracks-header">
+                            <h4 id="albumTracksTitle">Faixas do album</h4>
+                        </div>
+                        <div class="album-tracks-list" id="albumTracksList"></div>
+                    </div>
+                </section>
+            </section>
+
+            <section class="section-library" id="bibliotecaSection" style="display:none;">
+                <div class="library-header">
+                    <div>
+                        <h2 id="librarySectionTitle">Biblioteca</h2>
+                        <p id="librarySectionSubtitle">Todas as musicas</p>
+                    </div>
+                    <button class="link-button" onclick="mostrarHome()">Voltar</button>
+                </div>
+                <div class="library-filter-row">
+                    <div class="chip-list" id="albumFilter"></div>
+                </div>
+                <div class="library-grid" id="bibliotecaGrid"></div>
+            </section>
+        </main>
+    </div>
+
+    <div class="mini-player" id="miniPlayer">
+        <div class="mini-track">
+            <img id="miniCapa" src="assets/icons/album.svg" alt="Capa da musica">
+            <div class="mini-track-info">
+                <strong id="miniTitulo">Nenhuma musica selecionada</strong>
+                <small id="miniArtista">Escolha uma musica para comecar</small>
+            </div>
+            <button class="btn-favorite" onclick="toggleFavorito()" aria-label="Adicionar ou remover dos favoritos" title="Adicionar ou remover dos favoritos">
+                <img id="imgFavorito" src="assets/icons/heart-outline-red.svg" alt="Favorito">
             </button>
-            <button class="btn-icon" onclick="anterior()">
+        </div>
+        <div class="player-controls-row">
+            <button id="btnShuffle" class="btn-icon" onclick="alternarShuffle()">
+                <img src="assets/icons/shuffle.svg" alt="Aleatorio">
+            </button>
+            <button class="btn-icon btn-nav" onclick="anterior()">
                 <img src="assets/icons/previous.svg" alt="Anterior">
             </button>
-            <button id="btnPlay" onclick="playPause()">
+            <button id="btnPlay" class="btn-play" onclick="playPause()">
                 <img src="assets/icons/play.svg" alt="Reproduzir">
             </button>
-            <button class="btn-icon" onclick="proxima()">
-                <img src="assets/icons/next.svg" alt="Próxima">
+            <button class="btn-icon btn-nav" onclick="proxima()">
+                <img src="assets/icons/next.svg" alt="Proxima">
             </button>
             <button id="btnRepeat" class="btn-icon" onclick="alternarRepeat()">
                 <img src="assets/icons/repeat.svg" alt="Repetir">
             </button>
+            <button class="btn-icon btn-share" onclick="compartilharMusicaAtual()">
+                <img src="assets/icons/whatsapp.svg" alt="Compartilhar">
+            </button>
+        </div>
+        <div class="player-progress-row">
+            <span id="currentTime">0:00</span>
+            <input type="range" id="progressBar" min="0" max="100" value="0">
+            <span id="durationTime">0:00</span>
         </div>
     </div>
-</div>
 
-<audio id="audioPlayer"></audio>
-<script src="js/player.js"></script>
-<script src="js/visualizer.js"></script>
-<script src="js/ranking.js"></script>
-<!-- 🔥 ADICIONADO AQUI, ANTES DO APP.JS -->
-<script src="js/recursos.js"></script>
-<script src="js/app.js?v=1.0.1"></script>
-<script src="js/banner.js"></script>
-<script src="js/ajuda.js"></script>
-<script src="js/pesquisa.js?v=1.0.1"></script>
-
+    <audio id="audioPlayer"></audio>
+    <script src="js/player.js?v=1.0.2"></script>
+    <script src="js/visualizer.js"></script>
+    <script src="js/ranking.js?v=1.0.4"></script>
+    <script src="js/recursos.js?v=1.0.10"></script>
+    <script src="js/app.js?v=1.0.16"></script>
+    <script src="js/ajuda.js"></script>
+    <script src="js/pesquisa.js?v=1.0.2"></script>
 </body>
 </html>
