@@ -171,31 +171,34 @@ window.addEventListener('DOMContentLoaded', () => {
 // RECURSO 2: COMPARTILHAR MÚSICA COM LINK DIRETO PARA O PLAYER
 // ==========================================================================
 function compartilharMusicaAtual() {
-    const titulo = document.getElementById("miniTitulo")?.textContent || "";
-        
-    if (!titulo) return; 
+    const miniTituloEl = document.getElementById("miniTitulo");
+    const musicaAtual = (typeof window.obterMusicaAtual === "function")
+        ? window.obterMusicaAtual()
+        : null;
+
+    const tituloCompleto = String(
+        musicaAtual?.titulo || miniTituloEl?.title || miniTituloEl?.textContent || ""
+    ).trim();
+
+    const idMusica = musicaAtual?.id;
+    if (!tituloCompleto || idMusica === undefined || idMusica === null) return;
 
     const baseUrl = "https://digiartesai-bit.github.io/adora-play/";
-    const urlAppComMusica = `${baseUrl}?musica=${encodeURIComponent(titulo)}`;
-    const textoMensagem = `Ouça "${titulo}" no AdoraPlay! 🎶`;
+    const urlAppComMusica = `${baseUrl}?id=${encodeURIComponent(String(idMusica))}`;
+    const textoMensagem = `Ouça "${tituloCompleto}" no AdoraPlay! 🎶`;
 
-    // Função interna para o Plano B (WhatsApp Web/API)
     const abrirWhatsAppComoFallback = () => {
         const textoCompleto = encodeURIComponent(`${textoMensagem}\n\n${urlAppComMusica}`);
         const urlWhatsapp = `https://api.whatsapp.com/send?text=${textoCompleto}`;
-        window.open(urlWhatsapp, '_blank');
+        window.open(urlWhatsapp, "_blank");
     };
 
     if (navigator.share) {
         navigator.share({
-            title: 'AdoraPlay',
+            title: "AdoraPlay",
             text: textoMensagem,
             url: urlAppComMusica
-        })
-        .then(() => console.log('Compartilhado com sucesso!'))
-        .catch((error) => {
-            console.log('Nativo falhou ou cancelado, abrindo WhatsApp...', error);
-            // 🔥 Se o nativo falhar (AbortError), ele abre o WhatsApp imediatamente!
+        }).catch(() => {
             abrirWhatsAppComoFallback();
         });
     } else {
