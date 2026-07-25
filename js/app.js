@@ -79,29 +79,24 @@ function inicializarMenuMobile() {
 function inicializarInstalacaoPWA() {
     if (!btnInstall) return;
 
+    // --- COLQUE ESTA PARTE AQUI NO INÍCIO ---
     const emStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
     const jaInstaladoLocal = localStorage.getItem('pwa_instalado') === 'true';
 
-    // Se estiver rodando como app standalone, esconde sempre
-    if (emStandalone) {
+    if (emStandalone || jaInstaladoLocal) {
         btnInstall.hidden = true;
         return;
     }
+    // ----------------------------------------
 
-    // Se estiver no navegador normal, mas o localStorage diz que já instalou,
-    // nós ocultamos inicialmente, MAS deixamos o 'beforeinstallprompt' reativar se necessário.
-    if (jaInstaladoLocal) {
-        btnInstall.hidden = true;
-    }
-
+    btnInstall.hidden = false;
     btnInstall.addEventListener('click', async () => {
         if (!deferredInstallPrompt) {
-            alert('Para instalar, use o menu do navegador e escolha "Instalar app" ou "Adicionar a tela inicial".');
+            alert('Para instalar, abra o menu do seu navegador (os três pontinhos ou compartilhar) e selecione "Adicionar à Tela Inicial" ou "Instalar Aplicativo".');
             return;
         }
 
         deferredInstallPrompt.prompt();
-        
         try {
             const choiceResult = await deferredInstallPrompt.userChoice;
             if (choiceResult.outcome === 'accepted') {
@@ -115,6 +110,7 @@ function inicializarInstalacaoPWA() {
         deferredInstallPrompt = null;
     });
 }
+
 
 // O gatilho principal do navegador: se ele disparar isso, significa que o PWA *pode* ser instalado agora.
 window.addEventListener('beforeinstallprompt', (event) => {
