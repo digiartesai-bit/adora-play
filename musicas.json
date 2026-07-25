@@ -354,5 +354,17 @@
     "capa_musica": "assets/capamusica/caminhopaz.jpg",
     "categoria": "Bossa",
     "data_cadastro": "2026-07-25"
+  },
+  
+   {
+    "id": 33,
+    "titulo": "Ciclo de Ferro",
+    "artista": "AdoraPlay",
+    "album": "Louvor",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/louvor/Ciclo_de_ferro.mp3",
+    "capa": "assets/capas/louvor.png",
+    "capa_musica": "assets/capamusica/cicloferro.jpg",
+    "categoria": "Louvor",
+    "data_cadastro": "2026-07-25"
   }
 ]
