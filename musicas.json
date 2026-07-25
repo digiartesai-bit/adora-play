@@ -10,8 +10,6 @@
     "capa_musica": "assets/capamusica/abatalha.jpg",
     "categoria": "Adoracao",
     "data_cadastro": "2026-07-15",
-    "destaque": true,
-    "destaque_principal": true
   },
   {
     "id": 2,
@@ -234,5 +232,18 @@
     "capa_musica": "assets/capamusica/altardivino.jpg",
     "categoria": "Louvor",
     "data_cadastro": "2026-07-08"
+  },
+  {
+    "id": 22,
+    "titulo": "Amor e Sangue",
+    "artista": "AdoraPlay",
+    "album": "Adoração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/adoracao/Amor_e_sangue.mp3",
+    "capa": "assets/capas/adoracao.jpg",
+    "capa_musica": "assets/capamusica/amorsangue.jpg",
+    "categoria": "Adoracao",
+    "data_cadastro": "2026-07-15",
+    "destaque": true,
+    "destaque_principal": true
   }
 ]
