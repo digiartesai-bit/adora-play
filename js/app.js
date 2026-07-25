@@ -254,7 +254,11 @@ function exibirHome() {
     if (miniCardsNovidades) {
         miniCardsNovidades.innerHTML = '';
         selecionadas.slice(0, 2).forEach((musica) => {
-            const idx = musicas.findIndex(item => item.audio === musica.audio);
+            // Procura o índice diretamente na playlist/musicas global de forma segura
+            const idx = playlist.length > 0 
+                ? playlist.findIndex(item => item.audio === musica.audio) 
+                : musicas.findIndex(item => item.audio === musica.audio);
+                
             miniCardsNovidades.innerHTML += criarCardMiniNovidade(musica, idx);
         });
     }
@@ -487,9 +491,20 @@ function renderizarRanking(ranking) {
 }
 
 function tocarDestaque() {
-    const destaque = [...musicas].slice(-1)[0];
-    const index = musicas.findIndex(m => m.audio === destaque?.audio);
-    if (index >= 0) tocar(index);
+    // Busca exatamente a música marcada como destaque principal no array global
+    const destaquePrincipal = musicas.find(m => m.destaque_principal === true) || musicas.find(m => m.destaque === true);
+    if (!destaquePrincipal) return;
+
+    // Acha o índice real dessa música dentro da playlist atual do player
+    const index = playlist.findIndex(m => m.audio === destaquePrincipal.audio);
+    if (index >= 0) {
+        tocar(index);
+    } else {
+        // Fallback caso a playlist ainda não esteja sincronizada
+        carregarPlaylist(musicas);
+        const indexGlobal = musicas.findIndex(m => m.audio === destaquePrincipal.audio);
+        if (indexGlobal >= 0) tocar(indexGlobal);
+    }
 }
 
 window.renderizarFavoritosHorizontais = function() {
