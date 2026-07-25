@@ -355,7 +355,6 @@
     "categoria": "Bossa",
     "data_cadastro": "2026-07-25"
   },
-  
    {
     "id": 33,
     "titulo": "Ciclo de Ferro",
@@ -367,7 +366,6 @@
     "categoria": "Louvor",
     "data_cadastro": "2026-07-25"
   },
-  
   {
     "id": 34,
     "titulo": "Como Criança",
@@ -379,7 +377,6 @@
     "categoria": "Infantil",
     "data_cadastro": "2026-07-25"
   },
-  
   {
     "id": 35,
     "titulo": "Compasso da Graça",
@@ -391,7 +388,6 @@
     "categoria": "Bossa",
     "data_cadastro": "2026-07-25"
   },
-  
   {
     "id": 36,
     "titulo": "Confio em Jesus",
@@ -403,7 +399,6 @@
     "categoria": "Infantil",
     "data_cadastro": "2026-07-25"
   },
-  
   {
     "id": 37,
     "titulo": "Conto Infantil",
@@ -415,5 +410,4 @@
     "categoria": "Sertanejo",
     "data_cadastro": "2026-07-25"
   }
-  
 ]
