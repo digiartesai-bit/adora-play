@@ -244,5 +244,16 @@
     "data_cadastro": "2026-07-25",
     "destaque": true,
     "destaque_principal": true
+  },
+  {
+    "id": 23,
+    "titulo": "Amor Que Vem de Deus",
+    "artista": "AdoraPlay",
+    "album": "Louvor",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/louvor/Amor_que_vem_de_Deus.mp3",
+    "capa": "assets/capas/louvor.png",
+    "capa_musica": "assets/capamusica/amorvemdeus.jpg",
+    "categoria": "Louvor",
+    "data_cadastro": "2026-07-25"
   }
 ]
