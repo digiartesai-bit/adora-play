@@ -266,5 +266,16 @@
     "capa_musica": "assets/capamusica/aprendendojesus.jpg",
     "categoria": "Infantil",
     "data_cadastro": "2026-07-25"
+  },
+  {
+    "id": 25,
+    "titulo": "As Quatro Faces do Plano",
+    "artista": "AdoraPlay",
+    "album": "Celebração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/celebracao/As_quatro%20_faces_do_plano.mp3",
+    "capa": "assets/capas/celebracao.jpg",
+    "capa_musica": "assets/capamusica/quatrofaces.jpg",
+    "categoria": "Celebracao",
+    "data_cadastro": "2026-07-25"
   }
 ]
