@@ -377,5 +377,16 @@
     "capa_musica": "assets/capamusica/comocrianca.jpg",
     "categoria": "Infantil",
     "data_cadastro": "2026-07-25"
+  },
+  {
+    "id": 35,
+    "titulo": "Compasso da Graça",
+    "artista": "AdoraPlay",
+    "album": "Bossa",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/bossa/compasso_da_graca.mp3",
+    "capa": "assets/capas/bossa.jpg",
+    "capa_musica": "assets/capamusica/compassograca.jpg",
+    "categoria": "Bossa",
+    "data_cadastro": "2026-07-25"
   }
 ]
