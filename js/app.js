@@ -80,12 +80,20 @@ function inicializarInstalacaoPWA() {
     if (!btnInstall) return;
 
     const emStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
+    const jaInstaladoLocal = localStorage.getItem('pwa_instalado') === 'true';
+
+    // Se estiver rodando como app standalone, esconde sempre
     if (emStandalone) {
         btnInstall.hidden = true;
         return;
     }
 
-    btnInstall.hidden = false;
+    // Se estiver no navegador normal, mas o localStorage diz que já instalou,
+    // nós ocultamos inicialmente, MAS deixamos o 'beforeinstallprompt' reativar se necessário.
+    if (jaInstaladoLocal) {
+        btnInstall.hidden = true;
+    }
+
     btnInstall.addEventListener('click', async () => {
         if (!deferredInstallPrompt) {
             alert('Para instalar, use o menu do navegador e escolha "Instalar app" ou "Adicionar a tela inicial".');
@@ -93,27 +101,39 @@ function inicializarInstalacaoPWA() {
         }
 
         deferredInstallPrompt.prompt();
+        
         try {
-            await deferredInstallPrompt.userChoice;
+            const choiceResult = await deferredInstallPrompt.userChoice;
+            if (choiceResult.outcome === 'accepted') {
+                localStorage.setItem('pwa_instalado', 'true');
+                btnInstall.hidden = true;
+            }
         } catch (err) {
             console.warn('Instalacao cancelada:', err);
         }
 
         deferredInstallPrompt = null;
-        btnInstall.hidden = true;
     });
 }
 
+// O gatilho principal do navegador: se ele disparar isso, significa que o PWA *pode* ser instalado agora.
 window.addEventListener('beforeinstallprompt', (event) => {
     event.preventDefault();
     deferredInstallPrompt = event;
+    
+    // Se o navegador disparou o evento, limpamos a trava do localStorage 
+    // caso o usuário tenha desinstalado anteriormente e voltado a acessar via browser.
+    localStorage.removeItem('pwa_instalado');
+    
     if (btnInstall) btnInstall.hidden = false;
 });
 
 window.addEventListener('appinstalled', () => {
+    localStorage.setItem('pwa_instalado', 'true');
     deferredInstallPrompt = null;
     if (btnInstall) btnInstall.hidden = true;
 });
+
 
 function mostrarBiblioteca(comFavoritos = false) {
     if (homeSection) homeSection.style.display = 'none';
