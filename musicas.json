@@ -343,5 +343,16 @@
     "capa_musica": "assets/capamusica/caminhandojuntos.jpg",
     "categoria": "Louvor",
     "data_cadastro": "2026-07-25"
+  },
+    {
+    "id": 32,
+    "titulo": "Caminho de Paz",
+    "artista": "AdoraPlay",
+    "album": "Bossa",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/bossa/Caminhos_de_paz.mp3",
+    "capa": "assets/capas/bossa.jpg",
+    "capa_musica": "assets/capamusica/caminhopaz.jpg",
+    "categoria": "Bossa",
+    "data_cadastro": "2026-07-25"
   }
 ]
