@@ -223,5 +223,16 @@
     "capa_musica": "assets/capamusica/altaradoracao.jpg",
     "categoria": "Adoracao",
     "data_cadastro": "2026-07-25"
+  },
+  {
+    "id": 21,
+    "titulo": "Altares Divinos",
+    "artista": "AdoraPlay",
+    "album": "Louvor",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/louvor/Altares_divididos.mp3",
+    "capa": "assets/capas/louvor.png",
+    "capa_musica": "assets/capamusica/altardivino.jpg",
+    "categoria": "Louvor",
+    "data_cadastro": "2026-07-08"
   }
 ]
