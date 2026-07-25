@@ -1,4 +1,3 @@
-
 [
   {
     "id": 1,
@@ -9,7 +8,7 @@
     "capa": "assets/capas/adoracao.jpg",
     "capa_musica": "assets/capamusica/abatalha.jpg",
     "categoria": "Adoracao",
-    "data_cadastro": "2026-07-15",
+    "data_cadastro": "2026-07-15"
   },
   {
     "id": 2,
@@ -31,8 +30,7 @@
     "capa": "assets/capas/louvor.png",
     "capa_musica": "assets/capamusica/a_chuva_vai_cair.jpg",
     "categoria": "Louvor",
-    "data_cadastro": "2026-07-12",
-    "destaque": true
+    "data_cadastro": "2026-07-12"
   },
   {
     "id": 4,
@@ -43,7 +41,8 @@
     "capa": "assets/capas/Infantil.png",
     "capa_musica": "assets/capamusica/A_criacao.png",
     "categoria": "Infantil",
-    "data_cadastro": "2026-07-08"
+    "data_cadastro": "2026-07-08",
+    "destaque": true
   },
   {
     "id": 5,
@@ -145,7 +144,7 @@
     "categoria": "HipHop",
     "data_cadastro": "2026-07-20"
   },
-    {
+  {
     "id": 14,
     "titulo": "Ainda Assim Confiarei",
     "artista": "AdoraPlay",
@@ -156,7 +155,7 @@
     "categoria": "Louvor",
     "data_cadastro": "2026-07-25"
   },
-    {
+  {
     "id": 15,
     "titulo": "Ainda Assim",
     "artista": "AdoraPlay",
@@ -178,7 +177,7 @@
     "categoria": "Celebracao",
     "data_cadastro": "2026-07-25"
   },
-   {
+  {
     "id": 17,
     "titulo": "Alfabeto com Jesus",
     "artista": "AdoraPlay",
@@ -200,7 +199,7 @@
     "categoria": "Celebracao",
     "data_cadastro": "2026-07-25"
   },
-   {
+  {
     "id": 19,
     "titulo": "Alimentando a Multidão",
     "artista": "AdoraPlay",
@@ -246,5 +245,4 @@
     "destaque": true,
     "destaque_principal": true
   }
-  
 ]
