@@ -146,5 +146,16 @@
     "capa_musica": "assets/capamusica/fenaluta.jpg",
     "categoria": "HipHop",
     "data_cadastro": "2026-07-20"
+  },
+    {
+    "id": 14,
+    "titulo": "Ainda Assim Confiarei",
+    "artista": "AdoraPlay",
+    "album": "Louvor",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/louvor/Ainda_assim_confiarei.mp3",
+    "capa": "assets/capas/louvor.png",
+    "capa_musica": "assets/capamusica/aindaconfiarei.jpg",
+    "categoria": "Louvor",
+    "data_cadastro": "2026-07-25"
   }
 ]
