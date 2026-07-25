@@ -76,44 +76,72 @@ function inicializarMenuMobile() {
     });
 }
 
+// ==========================================================================
+// CONTROLE DE INSTALAÇÃO DO PWA
+// ==========================================================================
+let instaladorPrompt;
+
+function jaInstalado() {
+    return (
+        window.matchMedia('(display-mode: standalone)').matches ||
+        window.navigator.standalone === true ||             // iOS
+        localStorage.getItem('pwaInstalado') === '1'        // fallback pós-instalação
+    );
+}
+
+function mostrarBotao() {
+    if (btnInstall && !jaInstalado()) {
+        btnInstall.classList.add('mostrar-btn');
+    }
+}
+
+function esconderBotao() {
+    if (btnInstall) btnInstall.classList.remove('mostrar-btn');
+}
+
 function inicializarInstalacaoPWA() {
     if (!btnInstall) return;
 
-    const emStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone;
-    if (emStandalone) {
-        btnInstall.hidden = true;
-        return;
+    // 1. Se já está instalado, esconde o botão imediatamente
+    if (jaInstalado()) {
+        esconderBotao();
     }
 
-    btnInstall.hidden = false;
-    btnInstall.addEventListener('click', async () => {
-        if (!deferredInstallPrompt) {
-            alert('Para instalar, use o menu do navegador e escolha "Instalar app" ou "Adicionar a tela inicial".');
-            return;
+    // 2. Clique no botão de instalação
+    btnInstall.addEventListener('click', async (e) => {
+        e.preventDefault();
+        if (instaladorPrompt) {
+            instaladorPrompt.prompt();
+            const { outcome } = await instaladorPrompt.userChoice;
+            if (outcome === 'accepted') {
+                localStorage.setItem('pwaInstalado', '1');
+                esconderBotao();
+            }
+            instaladorPrompt = null;
+        } else {
+            alert(
+                "Para instalar o AdoraPlay agora:\n\n" +
+                "1. Toque nos 3 pontinhos (Menu) do seu navegador.\n" +
+                "2. Procure por 'Instalar aplicativo' ou 'Adicionar à tela inicial'."
+            );
         }
-
-        deferredInstallPrompt.prompt();
-        try {
-            await deferredInstallPrompt.userChoice;
-        } catch (err) {
-            console.warn('Instalacao cancelada:', err);
-        }
-
-        deferredInstallPrompt = null;
-        btnInstall.hidden = true;
     });
 }
 
-window.addEventListener('beforeinstallprompt', (event) => {
-    event.preventDefault();
-    deferredInstallPrompt = event;
-    if (btnInstall) btnInstall.hidden = false;
+// 3. Navegador avisa que o app pode ser instalado
+window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    instaladorPrompt = e;
+    mostrarBotao();
 });
 
+// 4. Instalação concluída com sucesso
 window.addEventListener('appinstalled', () => {
-    deferredInstallPrompt = null;
-    if (btnInstall) btnInstall.hidden = true;
+    localStorage.setItem('pwaInstalado', '1');
+    esconderBotao();
+    instaladorPrompt = null;
 });
+
 
 function mostrarBiblioteca(comFavoritos = false) {
     if (homeSection) homeSection.style.display = 'none';
