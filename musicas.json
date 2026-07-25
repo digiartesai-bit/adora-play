@@ -288,5 +288,16 @@
     "capa_musica": "assets/capamusica/ateaquinosajudou.jpg",
     "categoria": "Louvor",
     "data_cadastro": "2026-07-25"
+  },
+  {
+    "id": 27,
+    "titulo": "Avante e Sem Parar",
+    "artista": "AdoraPlay",
+    "album": "Adoração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/adoracao/Avante_sem_parar.mp3",
+    "capa": "assets/capas/adoracao.jpg",
+    "capa_musica": "assets/capamusica/avante.jpg",
+    "categoria": "Adoracao",
+    "data_cadastro": "2026-07-08"
   }
 ]
