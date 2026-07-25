@@ -367,6 +367,7 @@
     "categoria": "Louvor",
     "data_cadastro": "2026-07-25"
   },
+  
   {
     "id": 34,
     "titulo": "Como Criança",
@@ -378,6 +379,7 @@
     "categoria": "Infantil",
     "data_cadastro": "2026-07-25"
   },
+  
   {
     "id": 35,
     "titulo": "Compasso da Graça",
@@ -389,6 +391,7 @@
     "categoria": "Bossa",
     "data_cadastro": "2026-07-25"
   },
+  
   {
     "id": 36,
     "titulo": "Confio em Jesus",
@@ -399,5 +402,18 @@
     "capa_musica": "assets/capamusica/confiojesus.jpg",
     "categoria": "Infantil",
     "data_cadastro": "2026-07-25"
+  },
+  
+  {
+    "id": 37,
+    "titulo": "Conto Infantil",
+    "artista": "AdoraPlay",
+    "album": "Sertanejo",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/sertaneja/Conto_infantil.mp3",
+    "capa": "assets/capas/sertanejo.png",
+    "capa_musica": "assets/capamusica/contoinfantil.jpg",
+    "categoria": "Sertanejo",
+    "data_cadastro": "2026-07-25"
   }
+  
 ]
