@@ -277,5 +277,16 @@
     "capa_musica": "assets/capamusica/quatrofaces.jpg",
     "categoria": "Celebracao",
     "data_cadastro": "2026-07-25"
+  },
+  {
+    "id": 26,
+    "titulo": "Até Aqui nos Ajudou o Senhor",
+    "artista": "AdoraPlay",
+    "album": "Louvor",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/louvor/Ate_aqui_nos_ajudou_o_Senhor.mp3",
+    "capa": "assets/capas/louvor.png",
+    "capa_musica": "assets/capamusica/ateaquinosajudou.jpg",
+    "categoria": "Louvor",
+    "data_cadastro": "2026-07-25"
   }
 ]
