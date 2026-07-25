@@ -409,5 +409,16 @@
     "capa_musica": "assets/capamusica/contoinfantil.jpg",
     "categoria": "Sertanejo",
     "data_cadastro": "2026-07-25"
+  },
+  {
+    "id": 38,
+    "titulo": "Coração Seguro",
+    "artista": "AdoraPlay",
+    "album": "Adoração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/adoracao/Coracao_Seguro.mp3",
+    "capa": "assets/capas/adoracao.jpg",
+    "capa_musica": "assets/capamusica/coracaoseguro.jpg",
+    "categoria": "Adoracao",
+    "data_cadastro": "2026-07-25"
   }
 ]
