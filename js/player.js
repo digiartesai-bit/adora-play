@@ -217,7 +217,7 @@ function atualizarMiniPlayer() {
     const musica = playlist[musicaAtual];
     
     if (miniTitulo) {
-        miniTitulo.textContent = limitarTituloPlayer(musica.titulo, 10);
+        miniTitulo.textContent = limitarTituloPlayer(musica.titulo, 35);
         miniTitulo.title = musica.titulo || "";
     }
     if (miniArtista) miniArtista.textContent = musica.artista;
