@@ -28,7 +28,6 @@
     <link rel="stylesheet" href="css/style.css?v=2.3.13">
 </head>
 
-</head>
 <body>
     <div class="app-shell">
         <header class="app-header">
@@ -152,6 +151,9 @@
                 <strong id="miniTitulo">Nenhuma musica selecionada</strong>
                 <small id="miniArtista">Escolha uma musica para comecar</small>
             </div>
+             <button class="btn-share" onclick="compartilharMusicaAtual()">
+                <img src="assets/icons/whatsapp.svg" alt="Compartilhar">
+            </button>
             <button class="btn-favorite" onclick="toggleFavorito()" aria-label="Adicionar ou remover dos favoritos" title="Adicionar ou remover dos favoritos">
                 <img id="imgFavorito" src="assets/icons/heart-outline-red.svg" alt="Favorito">
             </button>
@@ -172,9 +174,7 @@
             <button id="btnRepeat" class="btn-icon" onclick="alternarRepeat()">
                 <img src="assets/icons/repeat.svg" alt="Repetir">
             </button>
-            <button class="btn-icon btn-share" onclick="compartilharMusicaAtual()">
-                <img src="assets/icons/whatsapp.svg" alt="Compartilhar">
-            </button>
+           
         </div>
         <div class="player-progress-row">
             <span id="currentTime">0:00</span>
@@ -188,8 +188,9 @@
     <script src="js/visualizer.js"></script>
     <script src="js/ranking.js?v=1.0.4"></script>
     <script src="js/recursos.js?v=1.0.12"></script>
-    <script src="js/app.js?v=1.0.22"></script>
+    <script src="js/app.js?v=1.0.18"></script>
     <script src="js/ajuda.js"></script>
     <script src="js/pesquisa.js?v=1.0.2"></script>
 </body>
 </html>
+
