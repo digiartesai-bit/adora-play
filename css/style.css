@@ -1,4 +1,4 @@
-﻿* {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -139,16 +139,6 @@ button {
     font-weight: 600;
     transition: background 0.2s, transform 0.2s;
 }
-/* adicionado 25-07 Oculta o botão de instalação por padrão até que o PWA esteja pronto para ser instalado */
-.btn-install {
-    display: none;
-}
-
-/* adicionado 25-07Quando receber a classe via JavaScript, o botão é exibido corretamente */
-.btn-install.mostrar-btn {
-    display: inline-flex;
-}
-
 
 .btn-install img {
     width: 18px;
@@ -393,6 +383,7 @@ button {
     border: 1px solid rgba(229,57,53,0.9);
     border-radius: 50%;
     background: transparent;
+    flex-shrink: 0;
 }
 
 .hero-favorite img {
@@ -891,12 +882,11 @@ button {
 }
 
 .mini-track {
-    flex: 1 1 320px;
+    flex: 1 1 auto;
     min-width: 0;
-    display: grid;
-    grid-template-columns: 44px minmax(0, 1fr) auto;
+    display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 12px;
 }
 
 .mini-track > img {
@@ -907,6 +897,7 @@ button {
 }
 
 .mini-track-info {
+    flex: 1;
     min-width: 0;
     display: grid;
     gap: 3px;
@@ -936,6 +927,7 @@ button {
     background: transparent;
     display: grid;
     place-items: center;
+    flex-shrink: 0;
 }
 
 .btn-favorite img {
@@ -979,8 +971,8 @@ button {
 }
 
 .btn-play {
-    width: 40px;
-    height: 40px;
+    width: 38px;
+    height: 38px;
     border-radius: 50%;
     background: #ffffff;
     border: none;
@@ -1000,11 +992,12 @@ button {
 }
 
 .btn-share {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border-radius: 12px;
     background: rgba(255,255,255,0.06);
     border-color: rgba(255,255,255,0.14);
+    padding: 5px 0 0 0;
 }
 
 .btn-share img {
@@ -1095,13 +1088,12 @@ button {
         width: auto;
         height: 42px;
         border-radius: 999px;
-        padding: 0 16px;
+        padding: 5px 10px;
         gap: 8px;
         flex-shrink: 0;
     }
 
 .hero-favorite::after {
-   
     font-size: 12px;
     font-weight: 600;
     color: #fff;
@@ -1120,6 +1112,27 @@ button {
     .player-controls-row {
         gap: 6px;
     }
+
+       .chip-list {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+    .chip.active {
+    background: rgba(212, 175, 55, 0.18);
+    border-color: rgba(212, 175, 55, 0.35);
+}
+
+.chip {
+    padding: 10px 10px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.04);
+    color: #fff;
+    font-size: 11px;
+    cursor: pointer;
+}
 }
 
 @media (max-width: 680px) {
@@ -1393,17 +1406,32 @@ button {
         font-size: 11px;
     }
 
-    .mini-player {
+        .mini-player {
         width: calc(100% - 16px);
         max-width: none;
-        padding: 8px;
+        padding: 12px;
         border-radius: 18px;
-        gap: 8px;
+        gap: 12px;
+        flex-direction: column;
+        align-items: stretch;
     }
 
     .mini-track {
-        grid-template-columns: 38px minmax(0, 1fr) auto;
-        gap: 6px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .player-controls-row {
+        width: 100%;
+        justify-content: center;
+        order: 3;
+    }
+
+    .player-progress-row {
+        order: 2;
+        margin: 4px 0;
     }
 
     .mini-track > img {
@@ -1412,8 +1440,9 @@ button {
     }
 
     .btn-favorite {
-        width: 30px;
-        height: 30px;
+        width: 36px;
+        height: 36px;
+        flex-shrink: 0;
     }
 
     .player-controls-row {
@@ -1441,6 +1470,27 @@ button {
         width: 18px;
         height: 18px;
     }
+
+    .chip-list {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+    .chip.active {
+    background: rgba(212, 175, 55, 0.18);
+    border-color: rgba(212, 175, 55, 0.35);
+}
+
+.chip {
+    padding: 5px 10px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.04);
+    color: #fff;
+    font-size: 11px;
+    cursor: pointer;
+}
 }
 
 @media (max-width: 480px) {
@@ -1459,14 +1509,22 @@ button {
     .mini-player {
         width: calc(100% - 10px);
         max-width: none;
-        padding: 8px 10px;
-        border-radius: 16px;
-        gap: 8px;
+        padding: 12px;
+        border-radius: 20px;
+        gap: 10px;
+        flex-direction: column;
+        align-items: stretch;
     }
 
     .mini-track {
-        grid-template-columns: 38px minmax(0, 1fr) auto;
-        gap: 8px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .mini-track-info {
+        flex: 1;
     }
 
     .mini-track > img {
@@ -1483,8 +1541,9 @@ button {
     }
 
     .btn-favorite {
-        width: 32px;
-        height: 32px;
+        width: 36px;
+        height: 36px;
+        flex-shrink: 0;
     }
 
     .btn-favorite img {
@@ -1493,7 +1552,17 @@ button {
     }
 
     .player-controls-row {
+        width: 100%;
+        justify-content: center;
         gap: 6px;
+        order: 3;
+    }
+
+    .player-progress-row {
+        width: 100%;
+        order: 2;
+        margin: 4px 0;
+        gap: 8px;
     }
 
     .btn-icon,
@@ -1509,23 +1578,17 @@ button {
     }
 
     .btn-share img {
-        width: 18px;
-        height: 18px;
-    }
-
+        width: 25px;
+        height: 25px;
+        }
+    
     .btn-icon img,
     .btn-play img {
         width: 15px;
         height: 15px;
     }
 
-    .player-progress-row {
-        gap: 8px;
-    }
-
     .player-progress-row span {
         font-size: 11px;
     }
 }
-
-
