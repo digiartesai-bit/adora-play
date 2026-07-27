@@ -738,8 +738,7 @@
     "capa": "assets/capas/Infantil.png",
     "capa_musica": "assets/capamusica/jesusabencoa.jpg",
     "categoria": "Infantil",
-    "data_cadastro": "2026-07-27",
-    "destaque": true
+    "data_cadastro": "2026-07-27"
   },
     {
     "id": 68,
@@ -751,5 +750,16 @@
     "capa_musica": "assets/capamusica/jesuscura.jpg",
     "categoria": "Infantil",
     "data_cadastro": "2026-07-27"
-    }
+    },
+  {
+    "id": 69,
+    "titulo": "Jesus é Meu Amigo",
+    "artista": "AdoraPlay",
+    "album": "Infantil",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/infantil/Jesus_e_meu_amigo.mp3",
+    "capa": "assets/capas/Infantil.png",
+    "capa_musica": "assets/capamusica/jesusamigo.jpg",
+    "categoria": "Infantil",
+    "data_cadastro": "2026-07-27"
+  }
 ]
