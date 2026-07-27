@@ -740,5 +740,16 @@
     "categoria": "Infantil",
     "data_cadastro": "2026-07-27",
     "destaque": true
-  }
+  },
+    {
+    "id": 68,
+    "titulo": "Jesus Cura",
+    "artista": "AdoraPlay",
+    "album": "Infantil",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/infantil/Jesus_cura.mp3",
+    "capa": "assets/capas/Infantil.png",
+    "capa_musica": "assets/capamusica/jesuscura.jpg",
+    "categoria": "Infantil",
+    "data_cadastro": "2026-07-27"
+    }
 ]
