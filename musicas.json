@@ -574,5 +574,16 @@
     "capa_musica": "assets/capamusica/poepromessa.jpg",
     "categoria": "Louvor",
     "data_cadastro": "2026-07-27"
+  },
+  {
+    "id": 53,
+    "titulo": "Flor Singela",
+    "artista": "AdoraPlay",
+    "album": "Infantil",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/infantil/Flor_singela.mp3",
+    "capa": "assets/capas/Infantil.png",
+    "capa_musica": "assets/capamusica/florsingela.jpg",
+    "categoria": "Infantil",
+    "data_cadastro": "2026-07-27"
   }
 ]
