@@ -662,5 +662,16 @@
     "capa_musica": "assets/capamusica/governoeterno.jpg",
     "categoria": "Louvor",
     "data_cadastro": "2026-07-27"
+  },
+   {
+    "id": 61,
+    "titulo": "Graça que Vem do Céu",
+    "artista": "AdoraPlay",
+    "album": "Bossa",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/bossa/Graca_que_vem_do_ceu.mp3",
+    "capa": "assets/capas/bossa.jpg",
+    "capa_musica": "assets/capamusica/gracadoceu.jpg",
+    "categoria": "Bossa",
+    "data_cadastro": "2026-07-27"
   }
 ]
