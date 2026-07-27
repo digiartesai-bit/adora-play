@@ -443,4 +443,15 @@
     "categoria": "Louvor",
     "data_cadastro": "2026-07-27"
   }
+    {
+    "id": 41,
+    "titulo": "Davi e as Ovelhas",
+    "artista": "AdoraPlay",
+    "album": "Infantil",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/infantil/Davi_e_as_ovelhas.mp3",
+    "capa": "assets/capas/Infantil.png",
+    "capa_musica": "assets/capamusica/daviovelhas.jpg",
+    "categoria": "Infantil",
+    "data_cadastro": "2026-07-27"
+  }
 ]
