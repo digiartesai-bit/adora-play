@@ -431,5 +431,16 @@
     "capa_musica": "assets/capamusica/corposangue.jpg",
     "categoria": "Celebracao",
     "data_cadastro": "2026-07-25"
+  },
+{
+    "id": 40,
+    "titulo": "Dança de Louvor",
+    "artista": "AdoraPlay",
+    "album": "Louvor",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/louvor/Danca_de_Louvor.mp3",
+    "capa": "assets/capas/louvor.png",
+    "capa_musica": "assets/capamusica/dancalouvor.jpg",
+    "categoria": "Louvor",
+    "data_cadastro": "2026-07-27"
   }
 ]
