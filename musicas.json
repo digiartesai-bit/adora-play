@@ -728,5 +728,17 @@
     "capa_musica": "assets/capamusica/igrejaperfeita.jpg",
     "categoria": "HipHop",
     "data_cadastro": "2026-07-27"
+  },
+    {
+    "id": 67,
+    "titulo": "Jesus Abençoa",
+    "artista": "AdoraPlay",
+    "album": "Infantil",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/infantil/Jesus_abencoa.mp3",
+    "capa": "assets/capas/Infantil.png",
+    "capa_musica": "assets/capamusica/jesusabencoa.jpg",
+    "categoria": "Infantil",
+    "data_cadastro": "2026-07-27",
+    "destaque": true
   }
 ]
