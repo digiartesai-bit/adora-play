@@ -464,5 +464,16 @@
     "capa_musica": "assets/capamusica/descendoaguas.jpg",
     "categoria": "Celebracao",
     "data_cadastro": "2026-07-27"
+  },
+  {
+    "id": 43,
+    "titulo": "Desde o Primeiro Dia",
+    "artista": "AdoraPlay",
+    "album": "Adoração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/adoracao/Desde_o_primeiro_dia.mp3",
+    "capa": "assets/capas/adoracao.jpg",
+    "capa_musica": "assets/capamusica/primeirodia.jpg",
+    "categoria": "Adoracao",
+    "data_cadastro": "2026-07-27"
   }
 ]
