@@ -519,5 +519,16 @@
     "capa_musica": "assets/capamusica/dignocordeiro.jpg",
     "categoria": "Adoracao",
     "data_cadastro": "2026-07-27"
+  },
+  {
+    "id": 48,
+    "titulo": "Do pó eu Vou me Levantarei",
+    "artista": "AdoraPlay",
+    "album": "Celebração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/celebracao/Do_po_vou_me_levantar.mp3",
+    "capa": "assets/capas/celebracao.jpg",
+    "capa_musica": "assets/capamusica/dopolevantar.jpg",
+    "categoria": "Celebracao",
+    "data_cadastro": "2026-07-27"
   }
 ]
