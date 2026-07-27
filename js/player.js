@@ -6,9 +6,9 @@ const miniTitulo = document.getElementById("miniTitulo");
 const miniArtista = document.getElementById("miniArtista");
 const btnPlay = document.getElementById("btnPlay");
 const imgFavoritoMini = document.getElementById("imgFavorito");
-const imgFavoritoHero = document.getElementById("imgFavoritoHero");
+// const imgFavoritoHero = document.getElementById("imgFavoritoHero");
 const btnFavoritoMini = imgFavoritoMini ? imgFavoritoMini.closest("button") : null;
-const btnFavoritoHero = imgFavoritoHero ? imgFavoritoHero.closest("button") : null;
+// const btnFavoritoHero = imgFavoritoHero ? imgFavoritoHero.closest("button") : null;
 
 // Novos Elementos Globais para Shuffle e Repeat
 const btnShuffle = document.getElementById("btnShuffle");
@@ -429,34 +429,30 @@ window.obterMusicaAtual = function () {
     return playlist[musicaAtual];
 };
 
-function atualizarBotaoFavorito() {
-    if (!imgFavoritoMini && !imgFavoritoHero) return;
+//function atualizarBotaoFavorito() {
+   // if (!imgFavoritoMini && !imgFavoritoHero) return;
     
-    const musica = playlist[musicaAtual];
-    if (!musica) return;
+   // const musica = playlist[musicaAtual];
+   // if (!musica) return;
     
-    const favoritos = obterFavoritosStorage();
-    const chaveAtual = chaveMusica(musica);
-    const ehFavorito = favoritos.some(f => chaveMusica(f) === chaveAtual);
+   // const favoritos = obterFavoritosStorage();
+   // const chaveAtual = chaveMusica(musica);
+   // const ehFavorito = favoritos.some(f => chaveMusica(f) === chaveAtual);
 
-    const srcIcone = ehFavorito ? "assets/icons/heart-fill-red.svg" : "assets/icons/heart-outline-red.svg";
+   // const srcIcone = ehFavorito ? "assets/icons/heart-fill-red.svg" : "assets/icons/heart-outline-red.svg";
 
-    [imgFavoritoMini, imgFavoritoHero].forEach((img) => {
-        if (!img) return;
-        img.src = srcIcone;
-        img.style.opacity = "1";
-        img.style.filter = "none";
-    });
+   // [imgFavoritoMini, imgFavoritoHero].forEach((img) => {
+    //    if (!img) return;
+       // img.src = srcIcone;
+      //  img.style.opacity = "1";
+    //    img.style.filter = "none";
+  //  });
 
-    [btnFavoritoMini, btnFavoritoHero].forEach((btn) => {
-        if (!btn) return;
-        btn.classList.toggle("is-favorited", ehFavorito);
-    });
-}
-
-// ==========================================
-// GESTÃO DE HISTÓRICO
-// ==========================================
+  //  [btnFavoritoMini, btnFavoritoHero].forEach((btn) => {
+    //    if (!btn) return;
+    //    btn.classList.toggle("is-favorited", ehFavorito);
+  //  });
+//}
 
 // ==========================================
 // GESTÃO DE HISTÓRICO
