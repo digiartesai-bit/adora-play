@@ -629,5 +629,16 @@
     "capa_musica": "assets/capamusica/foipormim.jpg",
     "categoria": "Adoracao",
     "data_cadastro": "2026-07-27"
+  },
+    {
+    "id": 58,
+    "titulo": "Gemido no Deserto",
+    "artista": "AdoraPlay",
+    "album": "Louvor",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/louvor/Gemido_no_Deserto_1850.mp3",
+    "capa": "assets/capas/louvor.png",
+    "capa_musica": "assets/capamusica/gemidodeserto.jpg",
+    "categoria": "Louvor",
+    "data_cadastro": "2026-07-27"
   }
 ]
