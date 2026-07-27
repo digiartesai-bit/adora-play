@@ -475,5 +475,16 @@
     "capa_musica": "assets/capamusica/primeirodia.jpg",
     "categoria": "Adoracao",
     "data_cadastro": "2026-07-27"
+  },
+  {
+    "id": 44,
+    "titulo": "Diante da Tua Mesa",
+    "artista": "AdoraPlay",
+    "album": "Adoração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/adoracao/Diante_da_Tua_mesa.mp3",
+    "capa": "assets/capas/adoracao.jpg",
+    "capa_musica": "assets/capamusica/diantemesa.jpg",
+    "categoria": "Adoracao",
+    "data_cadastro": "2026-07-27"
   }
 ]
