@@ -508,5 +508,16 @@
     "capa_musica": "assets/capamusica/dinolouvor.jpg",
     "categoria": "Adoracao",
     "data_cadastro": "2026-07-27"
-    }
+    },
+  {
+    "id": 47,
+    "titulo": "Digno é o Cordeiro",
+    "artista": "AdoraPlay",
+    "album": "Adoração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/adoracao/Digno_e_o_Cordeiro.mp3",
+    "capa": "assets/capas/adoracao.jpg",
+    "capa_musica": "assets/capamusica/dignocordeiro.jpg",
+    "categoria": "Adoracao",
+    "data_cadastro": "2026-07-27"
+  }
 ]
