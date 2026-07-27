@@ -453,5 +453,16 @@
     "capa_musica": "assets/capamusica/daviovelhas.jpg",
     "categoria": "Infantil",
     "data_cadastro": "2026-07-27"
+  },
+  {
+    "id": 42,
+    "titulo": "Descendo as Águas",
+    "artista": "AdoraPlay",
+    "album": "Celebração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/louvor/Descendo_as_aguas.mp3",
+    "capa": "assets/capas/celebracao.png",
+    "capa_musica": "assets/capamusica/descendoaguas.jpg",
+    "categoria": "Celebracao",
+    "data_cadastro": "2026-07-27"
   }
 ]
