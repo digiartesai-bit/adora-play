@@ -596,5 +596,16 @@
     "capa_musica": "assets/capamusica/fogoquebrada.jpg",
     "categoria": "HipHop",
     "data_cadastro": "2026-07-20"
+  },
+  {
+    "id": 55,
+    "titulo": "Fogo no Altar",
+    "artista": "AdoraPlay",
+    "album": "Celebração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/celebracao/Fogo_no_Altar.mp3",
+    "capa": "assets/capas/celebracao.jpg",
+    "capa_musica": "assets/capamusica/fogoaltar.jpg",
+    "categoria": "Celebracao",
+    "data_cadastro": "2026-07-27"
   }
 ]
