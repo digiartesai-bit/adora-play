@@ -618,5 +618,16 @@
     "capa_musica": "assets/capamusica/foideus.jpg",
     "categoria": "Adoracao",
     "data_cadastro": "2026-07-27"
+  },
+  {
+    "id": 57,
+    "titulo": "Foi Por Mim",
+    "artista": "AdoraPlay",
+    "album": "Adoração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/adoracao/Foi_por_mim.mp3",
+    "capa": "assets/capas/adoracao.jpg",
+    "capa_musica": "assets/capamusica/foipormim.jpg",
+    "categoria": "Adoracao",
+    "data_cadastro": "2026-07-27"
   }
 ]
