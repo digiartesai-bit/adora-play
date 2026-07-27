@@ -163,6 +163,9 @@ function mostrarBiblioteca(comFavoritos = false) {
 function mostrarHome() {
     if (homeSection) homeSection.style.display = 'grid';
     if (bibliotecaSection) bibliotecaSection.style.display = 'none';
+     // Reseta a seleção do álbum ao voltar para a home, fechando o carrossel aberto
+    albumSelecionado = null;
+    renderizarFaixasDoAlbum(null);
 }
 
 
