@@ -6,9 +6,9 @@ const miniTitulo = document.getElementById("miniTitulo");
 const miniArtista = document.getElementById("miniArtista");
 const btnPlay = document.getElementById("btnPlay");
 const imgFavoritoMini = document.getElementById("imgFavorito");
-// const imgFavoritoHero = document.getElementById("imgFavoritoHero");
+const imgFavoritoHero = document.getElementById("imgFavoritoHero");
 const btnFavoritoMini = imgFavoritoMini ? imgFavoritoMini.closest("button") : null;
-// const btnFavoritoHero = imgFavoritoHero ? imgFavoritoHero.closest("button") : null;
+const btnFavoritoHero = imgFavoritoHero ? imgFavoritoHero.closest("button") : null;
 
 // Novos Elementos Globais para Shuffle e Repeat
 const btnShuffle = document.getElementById("btnShuffle");
