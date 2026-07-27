@@ -486,5 +486,16 @@
     "capa_musica": "assets/capamusica/diantemesa.jpg",
     "categoria": "Adoracao",
     "data_cadastro": "2026-07-27"
+  },
+  {
+    "id": 45,
+    "titulo": "Diante do Teu Trono",
+    "artista": "AdoraPlay",
+    "album": "Adoração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/adoracao/Diante_do_Teu_Trono.mp3",
+    "capa": "assets/capas/adoracao.jpg",
+    "capa_musica": "assets/capamusica/diantetrono.jpg",
+    "categoria": "Adoracao",
+    "data_cadastro": "2026-07-27"
   }
 ]
