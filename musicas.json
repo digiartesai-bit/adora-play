@@ -607,5 +607,16 @@
     "capa_musica": "assets/capamusica/fogoaltar.jpg",
     "categoria": "Celebracao",
     "data_cadastro": "2026-07-27"
+  }, 
+  {
+    "id": 56,
+    "titulo": "Foi Deus Quem Escreveu",
+    "artista": "AdoraPlay",
+    "album": "Adoração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/celebracao/Foi_Deus_Quem_Escreveu.mp3",
+    "capa": "assets/capas/adoracao.jpg",
+    "capa_musica": "assets/capamusica/foideus.jpg",
+    "categoria": "Adoracao",
+    "data_cadastro": "2026-07-27"
   }
 ]
