@@ -429,30 +429,30 @@ window.obterMusicaAtual = function () {
     return playlist[musicaAtual];
 };
 
-//function atualizarBotaoFavorito() {
-   // if (!imgFavoritoMini && !imgFavoritoHero) return;
+function atualizarBotaoFavorito() {
+    if (!imgFavoritoMini && !imgFavoritoHero) return;
     
-   // const musica = playlist[musicaAtual];
-   // if (!musica) return;
+    const musica = playlist[musicaAtual];
+    if (!musica) return;
     
-   // const favoritos = obterFavoritosStorage();
-   // const chaveAtual = chaveMusica(musica);
-   // const ehFavorito = favoritos.some(f => chaveMusica(f) === chaveAtual);
+    const favoritos = obterFavoritosStorage();
+    const chaveAtual = chaveMusica(musica);
+    const ehFavorito = favoritos.some(f => chaveMusica(f) === chaveAtual);
 
-   // const srcIcone = ehFavorito ? "assets/icons/heart-fill-red.svg" : "assets/icons/heart-outline-red.svg";
+    const srcIcone = ehFavorito ? "assets/icons/heart-fill-red.svg" : "assets/icons/heart-outline-red.svg";
 
-   // [imgFavoritoMini, imgFavoritoHero].forEach((img) => {
-    //    if (!img) return;
-       // img.src = srcIcone;
-      //  img.style.opacity = "1";
-    //    img.style.filter = "none";
-  //  });
+    [imgFavoritoMini, imgFavoritoHero].forEach((img) => {
+        if (!img) return;
+        img.src = srcIcone;
+        img.style.opacity = "1";
+        img.style.filter = "none";
+    });
 
-  //  [btnFavoritoMini, btnFavoritoHero].forEach((btn) => {
-    //    if (!btn) return;
-    //    btn.classList.toggle("is-favorited", ehFavorito);
-  //  });
-//}
+    [btnFavoritoMini, btnFavoritoHero].forEach((btn) => {
+        if (!btn) return;
+        btn.classList.toggle("is-favorited", ehFavorito);
+    });
+}
 
 // ==========================================
 // GESTÃO DE HISTÓRICO
