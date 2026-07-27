@@ -552,5 +552,16 @@
     "capa_musica": "assets/capamusica/elevive.jpg",
     "categoria": "Celebracao",
     "data_cadastro": "2026-07-19"
+  },
+  {
+    "id": 51,
+    "titulo": "Em Teus Braços",
+    "artista": "AdoraPlay",
+    "album": "Sertanejo",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/sertaneja/Em_Teus_Bracos.mp3",
+    "capa": "assets/capas/sertanejo.png",
+    "capa_musica": "assets/capamusica/emteusbracos.jpg",
+    "categoria": "Sertanejo",
+    "data_cadastro": "2026-07-27"
   }
 ]
