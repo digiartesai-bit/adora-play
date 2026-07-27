@@ -541,5 +541,16 @@
     "capa_musica": "assets/capamusica/dormindojesus.jpg",
     "categoria": "Infantil",
     "data_cadastro": "2026-07-27"
+  },
+    {
+    "id": 50,
+    "titulo": "Ele Vive",
+    "artista": "AdoraPlay",
+    "album": "Celebração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/celebracao/Ele_vive.mp3",
+    "capa": "assets/capas/celebracao.jpg",
+    "capa_musica": "assets/capamusica/elevive.jpg",
+    "categoria": "Celebracao",
+    "data_cadastro": "2026-07-19"
   }
 ]
