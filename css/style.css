@@ -139,6 +139,16 @@ button {
     font-weight: 600;
     transition: background 0.2s, transform 0.2s;
 }
+/* Oculta o botão de instalação por padrão até que o PWA esteja pronto para ser instalado */
+.btn-install {
+    display: none;
+}
+
+/* Quando receber a classe via JavaScript, o botão é exibido corretamente */
+.btn-install.mostrar-btn {
+    display: inline-flex;
+}
+
 
 .btn-install img {
     width: 18px;
@@ -1591,13 +1601,4 @@ button {
     .player-progress-row span {
         font-size: 11px;
     }
-}
-/* Oculta o botão de instalação por padrão até que o PWA esteja pronto para ser instalado */
-.btn-install {
-    display: none;
-}
-
-/* Quando receber a classe via JavaScript, o botão é exibido corretamente */
-.btn-install.mostrar-btn {
-    display: inline-flex;
 }
