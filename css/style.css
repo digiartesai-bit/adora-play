@@ -573,13 +573,13 @@ button {
     overflow-x: scroll;
     overflow-y: hidden;
     padding-bottom: 6px;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
+    scroll-snap-type: x proximity; /* Mudado de mandatory para proximity */
     overscroll-behavior-x: contain;
     touch-action: pan-x;
     cursor: grab;
     scrollbar-width: none;
     -ms-overflow-style: none;
+    /* Removido o scroll-behavior: smooth */
 }
 
 .albums-carousel {
@@ -592,14 +592,15 @@ button {
     overflow-x: scroll;
     overflow-y: hidden;
     padding-bottom: 6px;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
+    scroll-snap-type: x proximity; /* Mudado de mandatory para proximity */
     overscroll-behavior-x: contain;
     touch-action: pan-x;
     cursor: grab;
     scrollbar-width: none;
     -ms-overflow-style: none;
+    /* Removido o scroll-behavior: smooth */
 }
+
 
 .ranking-carousel:active {
     cursor: grabbing;
