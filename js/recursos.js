@@ -96,7 +96,7 @@ window.addEventListener('DOMContentLoaded', () => {
             bloquearSelecaoPagina(false);
         };
 
-        // Desktop e DevTools responsivo (mouse)
+        // Apenas Desktop e Mouse (Removidos os eventos de touchstart/touchmove para liberar o mobile nativamente)
         slider.addEventListener('mousedown', (e) => {
             if (e.button !== 0) return;
             iniciarArraste(e.pageX);
@@ -110,33 +110,6 @@ window.addEventListener('DOMContentLoaded', () => {
         });
 
         window.addEventListener('mouseup', () => {
-            finalizarArraste();
-        });
-
-        // Toque real (mobile)
-        slider.addEventListener('touchstart', (e) => {
-            const toque = e.touches && e.touches[0];
-            if (!toque) return;
-            iniciarArraste(toque.pageX);
-        }, { passive: true });
-
-        slider.addEventListener('touchmove', (e) => {
-            if (!arrastando) return;
-            const toque = e.touches && e.touches[0];
-            if (!toque) return;
-            moverArraste(toque.pageX, 1.35);
-
-            // Evita rolagem vertical da página somente quando há arraste horizontal claro.
-            if (Math.abs(ultimoDeltaX) > 6 && e.cancelable) {
-                e.preventDefault();
-            }
-        }, { passive: false });
-
-        slider.addEventListener('touchend', () => {
-            finalizarArraste();
-        });
-
-        slider.addEventListener('touchcancel', () => {
             finalizarArraste();
         });
 
@@ -157,7 +130,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
     });
 
-    // Wheel delegado: funciona mesmo com conteúdo re-renderizado dentro do carrossel.
     document.addEventListener('wheel', (e) => {
         lidarComWheelHorizontal(e);
     }, { passive: false, capture: true });
