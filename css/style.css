@@ -575,7 +575,7 @@ button {
     padding-bottom: 6px;
     scroll-snap-type: x proximity; /* Mudado de mandatory para proximity */
     overscroll-behavior-x: contain;
-    touch-action: pan-x;
+    touch-action: pan-x pan-y;
     cursor: grab;
     scrollbar-width: none;
     -ms-overflow-style: none;
@@ -594,7 +594,7 @@ button {
     padding-bottom: 6px;
     scroll-snap-type: x proximity; /* Mudado de mandatory para proximity */
     overscroll-behavior-x: contain;
-    touch-action: pan-x;
+    touch-action: pan-x pan-y;
     cursor: grab;
     scrollbar-width: none;
     -ms-overflow-style: none;
