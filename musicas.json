@@ -41,9 +41,8 @@
     "capa": "assets/capas/Infantil.png",
     "capa_musica": "assets/capamusica/A_criacao.png",
     "categoria": "Infantil",
-    "data_cadastro": "2026-07-08",
-    "destaque": true
-  },
+    "data_cadastro": "2026-07-08"
+    },
   {
     "id": 5,
     "titulo": "1 Reis 9:3",
@@ -119,8 +118,7 @@
     "capa": "assets/capas/celebracao.jpg",
     "capa_musica": "assets/capamusica/abraolhos.jpg",
     "categoria": "Celebracao",
-    "data_cadastro": "2026-07-20",
-    "destaque": true
+    "data_cadastro": "2026-07-20"    
   },
   {
     "id": 12,
@@ -164,7 +162,9 @@
     "capa": "assets/capas/celebracao.jpg",
     "capa_musica": "assets/capamusica/aindaassim.jpg",
     "categoria": "Celebracao",
-    "data_cadastro": "2026-07-25"
+    "data_cadastro": "2026-07-25",
+    "destaque": true,
+    "destaque_principal": true
   },
   {
     "id": 16,
@@ -241,10 +241,8 @@
     "capa": "assets/capas/adoracao.jpg",
     "capa_musica": "assets/capamusica/amorsangue.jpg",
     "categoria": "Adoracao",
-    "data_cadastro": "2026-07-25",
-    "destaque": true,
-    "destaque_principal": true
-  },
+    "data_cadastro": "2026-07-25"
+    },
   {
     "id": 23,
     "titulo": "Amor Que Vem de Deus",
@@ -496,7 +494,8 @@
     "capa": "assets/capas/adoracao.jpg",
     "capa_musica": "assets/capamusica/diantetrono.jpg",
     "categoria": "Adoracao",
-    "data_cadastro": "2026-07-27"
+    "data_cadastro": "2026-07-27",
+    "destaque": true
   },
     {
     "id": 46,
@@ -705,7 +704,8 @@
     "capa": "assets/capas/louvor.png",
     "capa_musica": "assets/capamusica/guiasenhor.jpg",
     "categoria": "Louvor",
-    "data_cadastro": "2026-07-27"
+    "data_cadastro": "2026-07-27",
+    "destaque": true
   },
   {
     "id": 65,
