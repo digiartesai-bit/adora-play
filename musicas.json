@@ -1080,5 +1080,16 @@
     "capa_musica": "assets/capamusica/chaoparana.jpg",
     "categoria": "Sertanejo",
     "data_cadastro": "2026-07-29"
-  }
+  },
+    {
+    "id": 99,
+    "titulo": "O Deus Que Veio Nos Abraçar",
+    "artista": "AdoraPlay",
+    "album": "Infantil",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/infantil/O_Deus_Que_Veio_Nos_Abracar.mp3",
+    "capa": "assets/capas/Infantil.png",
+    "capa_musica": "assets/capamusica/deusveioabracar.jpg",
+    "categoria": "Infantil",
+    "data_cadastro": "2026-07-29"
+    }
 ]
