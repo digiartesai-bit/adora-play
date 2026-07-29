@@ -882,5 +882,16 @@
     "capa_musica": "assets/capamusica/maislikes.jpg",
     "categoria": "Louvor",
     "data_cadastro": "2026-07-29"
-    }
+    },
+  {
+    "id": 81,
+    "titulo": "Marchando com Jesus",
+    "artista": "AdoraPlay",
+    "album": "Infantil",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/infantil/Marchando_com_Jesus.mp3",
+    "capa": "assets/capas/Infantil.png",
+    "capa_musica": "assets/capamusica/marchandojesus.jpg",
+    "categoria": "Infantil",
+    "data_cadastro": "2026-07-29"
+  }
 ]
