@@ -1047,5 +1047,16 @@
     "capa_musica": "assets/capamusica/nossaarmadura.jpg",
     "categoria": "Celebracao",
     "data_cadastro": "2026-07-29"
+  },
+  {
+    "id": 96,
+    "titulo": "O Altar te Espera",
+    "artista": "AdoraPlay",
+    "album": "Celebração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/celebracao/O_altar_te_espera.mp3",
+    "capa": "assets/capas/celebracao.jpg",
+    "capa_musica": "assets/capamusica/altarespera.jpg",
+    "categoria": "Celebracao",
+    "data_cadastro": "2026-07-29"
   }
 ]
