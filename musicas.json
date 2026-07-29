@@ -1135,5 +1135,16 @@
     "capa_musica": "assets/capamusica/livroeterno.jpg",
     "categoria": "Celebracao",
     "data_cadastro": "2026-07-29"
-  }
+  },
+    {
+    "id": 104,
+    "titulo": "O Peso da Glória",
+    "artista": "AdoraPlay",
+    "album": "Louvor",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/louvor/O_peso_da_gloria.mp3",
+    "capa": "assets/capas/louvor.png",
+    "capa_musica": "assets/capamusica/pesogloria.jpg",
+    "categoria": "Louvor",
+    "data_cadastro": "2026-07-29"
+    }
 ]
