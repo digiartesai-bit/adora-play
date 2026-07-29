@@ -959,5 +959,16 @@
     "capa_musica": "assets/capamusica/nadapode.jpg",
     "categoria": "Louvor",
     "data_cadastro": "2026-07-12"
-    }
+    },
+  {
+    "id": 88,
+    "titulo": "Nas Águas e no Fogo",
+    "artista": "AdoraPlay",
+    "album": "Celebração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/celebracao/Nas_aguas_e_no_fogo.mp3",
+    "capa": "assets/capas/celebracao.jpg",
+    "capa_musica": "assets/capamusica/aguaefogo.jpg",
+    "categoria": "Celebracao",
+    "data_cadastro": "2026-07-29"
+  }
 ]
