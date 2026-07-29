@@ -937,5 +937,16 @@
     "capa_musica": "assets/capamusica/mesasimples.jpg",
     "categoria": "Adoracao",
     "data_cadastro": "2026-07-29"
+  },
+  {
+    "id": 86,
+    "titulo": "Na Tua Presença Vou Descansar",
+    "artista": "AdoraPlay",
+    "album": "Bossa",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/bossa/Na_Tua_presenca_descansar.mp3",
+    "capa": "assets/capas/bossa.jpg",
+    "capa_musica": "assets/capamusica/presencadescansar.jpg",
+    "categoria": "Bossa",
+    "data_cadastro": "2026-07-29"
   }
 ]
