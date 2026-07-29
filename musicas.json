@@ -1036,5 +1036,16 @@
     "capa_musica":"assets/capamusica/bompastor.jpg",
     "categoria": "Sertanejo",
     "data_cadastro": "2026-07-29"
+  },
+  {
+    "id": 95,
+    "titulo": "Nossa Armadura",
+    "artista": "AdoraPlay",
+    "album": "Celebração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/celebracao/Nossa_armadura.mp3",
+    "capa": "assets/capas/celebracao.jpg",
+    "capa_musica": "assets/capamusica/nossaarmadura.jpg",
+    "categoria": "Celebracao",
+    "data_cadastro": "2026-07-29"
   }
 ]
