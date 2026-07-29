@@ -1025,5 +1025,16 @@
     "capa_musica": "assets/capamusica/ovelhaperdida.jpg",
     "categoria": "Infantil",
     "data_cadastro": "2026-07-29"
+  },
+  {
+    "id": 94,
+    "titulo": "O Bom Pastor",
+    "artista": "AdoraPlay",
+    "album": "Sertanejo",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/sertaneja/O_Bom_Pastor.mp3",
+    "capa": "assets/capas/sertanejo.png",
+    "capa_musica":"assets/capamusica/bompastor.jpg",
+    "categoria": "Sertanejo",
+    "data_cadastro": "2026-07-29"
   }
 ]
