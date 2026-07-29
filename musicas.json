@@ -805,5 +805,16 @@
     "capa_musica": "assets/capamusica/levantaigreja.jpg",
     "categoria": "HipHop",
     "data_cadastro": "2026-07-29"
+  },
+  {
+    "id": 74,
+    "titulo": "Lugar de Quietude",
+    "artista": "AdoraPlay",
+    "album": "Adoração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/adoracao/Lugar_de_Quietude.mp3",
+    "capa": "assets/capas/adoracao.jpg",
+    "capa_musica": "assets/capamusica/lugarquietude.jpg",
+    "categoria": "Adoracao",
+    "data_cadastro": "2026-07-29"
   }
 ]
