@@ -981,5 +981,16 @@
     "capa_musica": "assets/capamusica/nosilencio.jpg",
     "categoria": "Celebracao",
     "data_cadastro": "2026-07-29"
+  },
+  {
+    "id": 90,
+    "titulo": "No Caminho que Ele Traçou",
+    "artista": "AdoraPlay",
+    "album": "Sertanejo",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/sertaneja/No_Caminho_Que_Ele_Tra%C3%A7ou.mp3",
+    "capa": "assets/capas/sertanejo.png",
+    "capa_musica": "assets/capamusica/nocaminho.jpg",
+    "categoria": "Sertanejo",
+    "data_cadastro": "2026-07-29"
   }
 ]
