@@ -1113,5 +1113,16 @@
     "capa_musica": "assets/capamusica/clamorrei.jpg",
     "categoria": "Louvor",
     "data_cadastro": "2026-07-29"
+  },
+  {
+    "id": 102,
+    "titulo": "O Clamor no Lagar ",
+    "artista": "AdoraPlay",
+    "album": "Louvor",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/louvor/O_clamor_no_lagar.mp3",
+    "capa": "assets/capas/louvor.png",
+    "capa_musica": "assets/capamusica/clamorlagar.jpg",
+    "categoria": "Louvor",
+    "data_cadastro": "2026-07-29"
   }
 ]
