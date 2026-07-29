@@ -1091,5 +1091,16 @@
     "capa_musica": "assets/capamusica/deusveioabracar.jpg",
     "categoria": "Infantil",
     "data_cadastro": "2026-07-29"
-    }
+    },
+  {
+    "id": 100,
+    "titulo": "O Clamor do Quebrantado",
+    "artista": "AdoraPlay",
+    "album": "Louvor",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/louvor/O_clamor_do_quebrantado.mp3",
+    "capa": "assets/capas/louvor.png",
+    "capa_musica": "assets/capamusica/clamorquebrantado.jpg",
+    "categoria": "Louvor",
+    "data_cadastro": "2026-07-29"
+  }
 ]
