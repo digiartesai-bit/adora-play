@@ -1124,5 +1124,16 @@
     "capa_musica": "assets/capamusica/clamorlagar.jpg",
     "categoria": "Louvor",
     "data_cadastro": "2026-07-29"
+  },
+  {
+    "id": 103,
+    "titulo": "O Livro Eterno",
+    "artista": "AdoraPlay",
+    "album": "Celebração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/celebracao/O_Livro_Eterno.mp3",
+    "capa": "assets/capas/celebracao.jpg",
+    "capa_musica": "assets/capamusica/livroeterno.jpg",
+    "categoria": "Celebracao",
+    "data_cadastro": "2026-07-29"
   }
 ]
