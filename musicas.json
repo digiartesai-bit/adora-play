@@ -860,5 +860,16 @@
     "capa_musica": "assets/capamusica/luzcaminho.jpg",
     "categoria": "HipHop",
     "data_cadastro": "2026-07-20"
+  },
+  {
+    "id": 79,
+    "titulo": "Mais Perto de Ti",
+    "artista": "AdoraPlay",
+    "album": "Louvor",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/louvor/Mais_Perto_de_Ti.mp3",
+    "capa": "assets/capas/louvor.png",
+    "capa_musica": "assets/capamusica/maisperto.jpg",
+    "categoria": "Louvor",
+    "data_cadastro": "2026-07-29"
   }
 ]
