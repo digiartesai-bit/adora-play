@@ -948,5 +948,16 @@
     "capa_musica": "assets/capamusica/presencadescansar.jpg",
     "categoria": "Bossa",
     "data_cadastro": "2026-07-29"
-  }
+  },
+    {
+    "id": 87,
+    "titulo": "Nada Pode nos Parar",
+    "artista": "AdoraPlay",
+    "album": "Louvor",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/louvor/Nada_pode_nos_parar.mp3",
+    "capa": "assets/capas/louvor.png",
+    "capa_musica": "assets/capamusica/nadapode.jpg",
+    "categoria": "Louvor",
+    "data_cadastro": "2026-07-12"
+    }
 ]
