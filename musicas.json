@@ -827,5 +827,16 @@
     "capa_musica": "assets/capamusica/luzmae.jpg",
     "categoria": "Celebracao",
     "data_cadastro": "2026-07-29"
-  }
+  },
+   {
+    "id": 76,
+    "titulo": "Luz do Teu Olhar",
+    "artista": "AdoraPlay",
+    "album": "Bossa",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/bossa/Luz_do_Teu_olhar.mp3",
+    "capa": "assets/capas/bossa.jpg",
+    "capa_musica": "assets/capamusica/luzolhar.jpg",
+    "categoria": "Bossa",
+    "data_cadastro": "2026-07-29"
+   }
 ]
