@@ -926,5 +926,16 @@
     "capa_musica": "assets/capamusica/meurefugio.jpg",
     "categoria": "Sertanejo",
     "data_cadastro": "2026-07-08"
+  },
+  {
+    "id": 85,
+    "titulo": "Na Mesa Simples do Senhor",
+    "artista": "AdoraPlay",
+    "album": "Adoração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/adoracao/Na_mesa_simples_do_Senhor.mp3",
+    "capa": "assets/capas/adoracao.jpg",
+    "capa_musica": "assets/capamusica/mesasimples.jpg",
+    "categoria": "Adoracao",
+    "data_cadastro": "2026-07-29"
   }
 ]
