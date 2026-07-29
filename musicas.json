@@ -970,5 +970,16 @@
     "capa_musica": "assets/capamusica/aguaefogo.jpg",
     "categoria": "Celebracao",
     "data_cadastro": "2026-07-29"
+  },
+  {
+    "id": 89,
+    "titulo": "No Silêncio Tua Presença Basta",
+    "artista": "AdoraPlay",
+    "album": "Celebração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/celebracao/No_Silencio_Tua_Presenca_Basta.mp3",
+    "capa": "assets/capas/celebracao.jpg",
+    "capa_musica": "assets/capamusica/nosilencio.jpg",
+    "categoria": "Celebracao",
+    "data_cadastro": "2026-07-29"
   }
 ]
