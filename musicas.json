@@ -1014,5 +1014,16 @@
     "capa_musica": "assets/capamusica/novajerusalem.jpg",
     "categoria": "HipHop",
     "data_cadastro": "2026-07-29"
-   }
+   },
+  {
+    "id": 93,
+    "titulo": "Ovelhinha Perdida",
+    "artista": "AdoraPlay",
+    "album": "Infantil",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/infantil/Ovelhinha%20Perdida.mp3",
+    "capa": "assets/capas/Infantil.png",
+    "capa_musica": "assets/capamusica/ovelhaperdida.jpg",
+    "categoria": "Infantil",
+    "data_cadastro": "2026-07-29"
+  }
 ]
