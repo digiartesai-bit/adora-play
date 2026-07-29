@@ -1069,5 +1069,16 @@
     "capa_musica": "assets/capamusica/canticosombras.jpg",
     "categoria": "Celebracao",
     "data_cadastro": "2026-07-29"
+  },
+  {
+    "id": 98,
+    "titulo": "O Chão do Meu Paraná",
+    "artista": "AdoraPlay",
+    "album": "Sertanejo",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/sertaneja/O_Chao_do_Meu_Parana.mp3",
+    "capa": "assets/capas/sertanejo.png",
+    "capa_musica": "assets/capamusica/chaoparana.jpg",
+    "categoria": "Sertanejo",
+    "data_cadastro": "2026-07-29"
   }
 ]
