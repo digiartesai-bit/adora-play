@@ -772,5 +772,16 @@
     "capa_musica": "assets/capamusica/jesustempestade.jpg",
     "categoria": "Infantil",
     "data_cadastro": "2026-07-27"
+  },
+  {
+    "id": 71,
+    "titulo": "Joel 6",
+    "artista": "AdoraPlay",
+    "album": "HipHop",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/hap/Joel6.mp3",
+    "capa": "assets/capas/hiphop.png",
+    "capa_musica": "assets/capamusica/joel6.jpg",
+    "categoria": "HipHop",
+    "data_cadastro": "2026-07-29"
   }
 ]
