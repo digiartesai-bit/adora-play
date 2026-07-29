@@ -871,5 +871,16 @@
     "capa_musica": "assets/capamusica/maisperto.jpg",
     "categoria": "Louvor",
     "data_cadastro": "2026-07-29"
-  }
+  },
+    {
+    "id": 80,
+    "titulo": "Mais Que Likes",
+    "artista": "AdoraPlay",
+    "album": "Louvor",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/louvor/Mais_que_likes.mp3",
+    "capa": "assets/capas/louvor.png",
+    "capa_musica": "assets/capamusica/maislikes.jpg",
+    "categoria": "Louvor",
+    "data_cadastro": "2026-07-29"
+    }
 ]
