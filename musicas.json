@@ -849,5 +849,16 @@
     "capa_musica": "assets/capamusica/luzquebrada.jpg",
     "categoria": "HipHop",
     "data_cadastro": "2026-07-20"
-    }
+    },
+  {
+    "id": 78,
+    "titulo": "Luz no Caminho",
+    "artista": "AdoraPlay",
+    "album": "HipHop",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/hap/Luz_no_caminho.mp3",
+    "capa": "assets/capas/hiphop.png",
+    "capa_musica": "assets/capamusica/luzcaminho.jpg",
+    "categoria": "HipHop",
+    "data_cadastro": "2026-07-20"
+  }
 ]
