@@ -203,6 +203,12 @@ function carregarDados() {
     if (!Array.isArray(data)) throw new Error('musicas.json precisa conter uma lista de musicas');
     musicas = data;
     window.musicas = data;
+    const totalMusicas = Number(data.at(-1)?.id || data.length);
+    const musicasHojeCount = document.getElementById('musicasHojeCount');
+
+if (musicasHojeCount) {
+    musicasHojeCount.textContent = totalMusicas;
+}
     if (typeof carregarPlaylist === 'function') carregarPlaylist(musicas);
 
     exibirHome();
