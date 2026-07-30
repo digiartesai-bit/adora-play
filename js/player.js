@@ -244,16 +244,17 @@ function atualizarMiniPlayer() {
     atualizarBotaoFavorito();
 }
 
-// Pula para a próxima música
+// Pula para a próxima música (Otimizado para segundo plano)
 function proxima() { 
     if (playlist.length === 0) return;
 
     if (modoShuffle) {
         if (playlist.length > 1) {
             let novoIndice;
-            do {
+            for (let i = 0; i < 10; i++) {
                 novoIndice = Math.floor(Math.random() * playlist.length);
-            } while (novoIndice === musicaAtual);
+                if (novoIndice !== musicaAtual) break;
+            }
             musicaAtual = novoIndice;
         } else {
             musicaAtual = 0;
@@ -265,16 +266,17 @@ function proxima() {
     tocar(musicaAtual); 
 }
 
-// Volta para a música anterior
+// Volta para a música anterior (Otimizado para segundo plano)
 function anterior() { 
     if (playlist.length === 0) return;
 
     if (modoShuffle) {
         if (playlist.length > 1) {
             let novoIndice;
-            do {
+            for (let i = 0; i < 10; i++) {
                 novoIndice = Math.floor(Math.random() * playlist.length);
-            } while (novoIndice === musicaAtual);
+                if (novoIndice !== musicaAtual) break;
+            }
             musicaAtual = novoIndice;
         } else {
             musicaAtual = 0;
@@ -474,7 +476,7 @@ function salvarNoHistorico(musica) {
     if (typeof window.renderizarUltimasOuvidas === "function") {
         window.renderizarUltimasOuvidas();
     }
-} // ✅ FECHAMENTO CORRETO
+}
 
 // Envia o id da música para a API de estatísticas e atualiza o ranking
 async function registrarReproducao(id) {
