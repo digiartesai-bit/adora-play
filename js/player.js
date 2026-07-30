@@ -370,6 +370,28 @@ if (audioPlayer) {
         }
     });
 
+    // ⬇️ COLE ESTE BLOCO NOVO AQUI ⬇️
+    audioPlayer.addEventListener("timeupdate", () => {
+        if (audioPlayer.duration && (audioPlayer.duration - audioPlayer.currentTime <= 15)) {
+            if (!audioPlayer._preloadedNext) {
+                audioPlayer._preloadedNext = true;
+                const proximoIndice = (musicaAtual + 1) % playlist.length;
+                if (playlist[proximoIndice]) {
+                    const preloadLink = document.createElement('link');
+                    preloadLink.rel = 'prefetch';
+                    preloadLink.href = playlist[proximoIndice].audio;
+                    document.head.appendChild(preloadLink);
+                }
+            }
+        }
+    });
+
+    audioPlayer.addEventListener("play", () => {
+        audioPlayer._preloadedNext = false;
+    });
+    // ⬆️ FIM DO BLOCO NOVO ⬆️
+
+
     audioPlayer.addEventListener("timeupdate", () => {
         const current = audioPlayer.currentTime;
         const duration = audioPlayer.duration;
