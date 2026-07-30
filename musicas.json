@@ -704,8 +704,7 @@
     "capa": "assets/capas/louvor.png",
     "capa_musica": "assets/capamusica/guiasenhor.jpg",
     "categoria": "Louvor",
-    "data_cadastro": "2026-07-27",
-    "destaque": true
+    "data_cadastro": "2026-07-27"
   },
   {
     "id": 65,
@@ -1146,5 +1145,17 @@
     "capa_musica": "assets/capamusica/pesogloria.jpg",
     "categoria": "Louvor",
     "data_cadastro": "2026-07-29"
-    }
+    },
+  {
+    "id": 105,
+    "titulo": "Ele Levou Sobre Sí",
+    "artista": "AdoraPlay",
+    "album": "Louvor",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/louvor/Ele_Levo_Sobre_Si.mp3",
+    "capa": "assets/capas/louvor.png",
+    "capa_musica": "assets/capamusica/levousobresi.jpg",
+    "categoria": "Louvor",
+    "data_cadastro": "2026-07-30",
+    "destaque": true
+  }
 ]
