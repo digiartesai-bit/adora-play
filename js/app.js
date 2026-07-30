@@ -459,9 +459,11 @@ function renderizarRanking(ranking) {
         return;
     }
 
+    const medalhas = ['🥇', '🥈', '🥉'];
+
     rankingNormalizado.slice(0, 8).forEach((item, index) => {
         const musica = musicas.find(m => Number(m.id) === Number(item.id));
-        const rankLabel = index === 0 ? '1' : index === 1 ? '2' : index === 2 ? '3' : `${index + 1}`;
+        const rankLabel = medalhas[index] || `${index + 1}`;
         const reproducoes = item.reproducoes || 0;
         const labelReproducoes = reproducoes === 1
             ? `${reproducoes} reproducao`
