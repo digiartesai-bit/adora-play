@@ -1157,5 +1157,16 @@
     "categoria": "Louvor",
     "data_cadastro": "2026-07-30",
     "destaque": true
+  },
+  {
+    "id": 106,
+    "titulo": "Celebração ÁguaViva",
+    "artista": "AdoraPlay",
+    "album": "Celebração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/celebracao/CelebracaoAguaViva.mp3",
+    "capa": "assets/capas/celebracao.jpg",
+    "capa_musica": "assets/capamusica/aguaviva.jpg",
+    "categoria": "Celebracao",
+    "data_cadastro": "2026-07-30"
   }
 ]
