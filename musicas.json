@@ -1223,5 +1223,16 @@
     "capa_musica": "assets/capamusica/somdamanha.jpg",
     "categoria": "Louvor",
     "data_cadastro": "2026-07-31"
+  },
+  {
+    "id": 112,
+    "titulo": "O Rio da Redenção",
+    "artista": "AdoraPlay",
+    "album": "Celebração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/celebracao/O_Rio_da_Redencao.mp3",
+    "capa": "assets/capas/celebracao.jpg",
+    "capa_musica": "assets/capamusica/orioredencao.jpg",
+    "categoria": "Celebracao",
+    "data_cadastro": "2026-07-31"
   }
 ]
