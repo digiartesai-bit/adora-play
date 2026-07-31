@@ -1179,5 +1179,16 @@
     "capa_musica": "assets/capamusica/oplanosenhor.jpg",
     "categoria": "Sertanejo",
     "data_cadastro": "2026-07-31"
+  },
+  {
+    "id": 108,
+    "titulo": "Estrada Estreita",
+    "artista": "AdoraPlay",
+    "album": "Sertanejo",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/sertaneja/O_som_da_Estrada_Estreita.mp3",
+    "capa": "assets/capas/sertanejo.png",
+    "capa_musica": "assets/capamusica/estradaestreita.jpg",
+    "categoria": "Sertanejo",
+    "data_cadastro": "2026-07-31"
   }
 ]
