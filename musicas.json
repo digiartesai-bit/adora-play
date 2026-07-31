@@ -1388,5 +1388,16 @@
     "capa_musica": "assets/capamusica/promessasdois.jpg",
     "categoria": "Louvor",
     "data_cadastro": "2026-07-31"
+  },
+  {
+    "id": 127,
+    "titulo": "Quando eu Oro",
+    "artista": "AdoraPlay",
+    "album": "Adoração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/adoracao/Quando_eu_oro.mp3",
+    "capa": "assets/capas/adoracao.jpg",
+    "capa_musica": "assets/capamusica/quandooro.jpg",
+    "categoria": "Adoracao",
+    "data_cadastro": "2026-07-31"
   }
 ]
