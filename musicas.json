@@ -1410,5 +1410,16 @@
     "capa_musica": "assets/capamusica/quebrantasenhor.jpg",
     "categoria": "Louvor",
     "data_cadastro": "2026-07-12"
+  },
+  {
+    "id": 129,
+    "titulo": "Quieto Diante de Ti",
+    "artista": "AdoraPlay",
+    "album": "Bossa",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/bossa/Quieto_diante_de_Ti.mp3",
+    "capa": "assets/capas/bossa.jpg",
+    "capa_musica": "assets/capamusica/quietodiante.jpg",
+    "categoria": "Bossa",
+    "data_cadastro": "2026-07-31"
   }
 ]
