@@ -1278,5 +1278,16 @@
     "capa_musica": "assets/capamusica/oracaodois.jpg",
     "categoria": "Louvor",
     "data_cadastro": "2026-07-31"
+  },
+  {
+    "id": 117,
+    "titulo": "Ouça Minha Oração",
+    "artista": "AdoraPlay",
+    "album": "Louvor",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/louvor/Ouca_minha_oracao.mp3",
+    "capa": "assets/capas/louvor.png",
+    "capa_musica": "assets/capamusica/oucaoracao.jpg",
+    "categoria": "Louvor",
+    "data_cadastro": "2026-07-31"
   }
 ]
