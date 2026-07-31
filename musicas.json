@@ -1245,5 +1245,16 @@
     "capa_musica": "assets/capamusica/osuorpromessa.jpg",
     "categoria": "HipHop",
     "data_cadastro": "2026-07-31"
+  },
+  {
+    "id": 114,
+    "titulo": "Onde o Amor Descansa",
+    "artista": "AdoraPlay",
+    "album": "Bossa",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/bossa/Onde_o%20Amor_Descansa.mp3",
+    "capa": "assets/capas/bossa.jpg",
+    "capa_musica": "assets/capamusica/ondeamordescansa.jpg",
+    "categoria": "Bossa",
+    "data_cadastro": "2026-07-31"
   }
 ]
