@@ -1168,5 +1168,16 @@
     "capa_musica": "assets/capamusica/aguaviva.jpg",
     "categoria": "Celebracao",
     "data_cadastro": "2026-07-30"
+  },
+  {
+    "id": 107,
+    "titulo": "O Plano do Senhor",
+    "artista": "AdoraPlay",
+    "album": "Sertanejo",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/sertaneja/O_Plano_do_Senhor.mp3",
+    "capa": "assets/capas/sertanejo.png",
+    "capa_musica": "assets/capamusica/oplanosenhor.jpg",
+    "categoria": "Sertanejo",
+    "data_cadastro": "2026-07-31"
   }
 ]
