@@ -1399,5 +1399,16 @@
     "capa_musica": "assets/capamusica/quandooro.jpg",
     "categoria": "Adoracao",
     "data_cadastro": "2026-07-31"
+  },
+  {
+    "id": 128,
+    "titulo": "Quebranta-me Senhor",
+    "artista": "AdoraPlay",
+    "album": "Louvor",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/louvor/Quebranta_me_Senhor.mp3",
+    "capa": "assets/capas/louvor.png",
+    "capa_musica": "assets/capamusica/quebrantasenhor.jpg",
+    "categoria": "Louvor",
+    "data_cadastro": "2026-07-12"
   }
 ]
