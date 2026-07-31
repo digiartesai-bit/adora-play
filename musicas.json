@@ -1301,7 +1301,7 @@
     "categoria": "Louvor",
     "data_cadastro": "2026-07-31"
   },
-    {
+  {
     "id": 119,
     "titulo": "Obrigado Jesus",
     "artista": "AdoraPlay",
@@ -1323,7 +1323,6 @@
     "categoria": "Infantil",
     "data_cadastro": "2026-07-31"
     },
-  
     {
     "id": 121,
     "titulo": "Os Quatro Amigos",
@@ -1332,6 +1331,17 @@
     "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/infantil/Os_quatro_amigos.mp3",
     "capa": "assets/capas/Infantil.png",
     "capa_musica": "assets/capamusica/obrigadojesus.jpg",
+    "categoria": "Infantil",
+    "data_cadastro": "2026-07-31"
+    },
+    {
+    "id": 122,
+    "titulo": "Passos Sobre as Águas",
+    "artista": "AdoraPlay",
+    "album": "Infantil",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/infantil/Passos_sobre_as_aguas.mp3",
+    "capa": "assets/capas/Infantil.png",
+    "capa_musica": "assets/capamusica/passosaguas.jpg",
     "categoria": "Infantil",
     "data_cadastro": "2026-07-31"
     }
