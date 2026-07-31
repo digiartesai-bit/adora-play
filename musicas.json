@@ -1344,5 +1344,16 @@
     "capa_musica": "assets/capamusica/passosaguas.jpg",
     "categoria": "Infantil",
     "data_cadastro": "2026-07-31"
+    },
+    {
+    "id": 123,
+    "titulo": "Permaneça",
+    "artista": "AdoraPlay",
+    "album": "Louvor",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/louvor/Permaneca.mp3",
+    "capa": "assets/capas/louvor.png",
+    "capa_musica": "assets/capamusica/permaneca.jpg",
+    "categoria": "Louvor",
+    "data_cadastro": "2026-07-31"
     }
 ]
