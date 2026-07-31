@@ -1289,5 +1289,16 @@
     "capa_musica": "assets/capamusica/oucaoracao.jpg",
     "categoria": "Louvor",
     "data_cadastro": "2026-07-31"
+  },
+  {
+    "id": 118,
+    "titulo": "Passos no Deserto",
+    "artista": "AdoraPlay",
+    "album": "Louvor",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/louvor/Passos_no_Deserto.mp3",
+    "capa": "assets/capas/louvor.png",
+    "capa_musica": "assets/capamusica/passosdeserto.jpg",
+    "categoria": "Louvor",
+    "data_cadastro": "2026-07-31"
   }
 ]
