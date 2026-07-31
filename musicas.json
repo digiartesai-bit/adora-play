@@ -1256,5 +1256,16 @@
     "capa_musica": "assets/capamusica/ondeamordescansa.jpg",
     "categoria": "Bossa",
     "data_cadastro": "2026-07-31"
+  },
+  {
+    "id": 115,
+    "titulo": "Ouvi a Tua Voz",
+    "artista": "AdoraPlay",
+    "album": "Sertanejo",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/sertaneja/ouvi_a_Tua_voz.mp3",
+    "capa": "assets/capas/sertanejo.png",
+    "capa_musica": "assets/capamusica/ouvituavoz",
+    "categoria": "Sertanejo",
+    "data_cadastro": "2026-07-31"
   }
 ]
