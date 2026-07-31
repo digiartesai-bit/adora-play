@@ -1190,5 +1190,16 @@
     "capa_musica": "assets/capamusica/estradaestreita.jpg",
     "categoria": "Sertanejo",
     "data_cadastro": "2026-07-31"
+  },
+  {
+    "id": 109,
+    "titulo": "O Plano Escrito",
+    "artista": "AdoraPlay",
+    "album": "Louvor",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/louvor/O_plano_escrito.mp3",
+    "capa": "assets/capas/louvor.png",
+    "capa_musica": "assets/capamusica/planoescrito.jpg",
+    "categoria": "Louvor",
+    "data_cadastro": "2026-07-30"
   }
 ]
