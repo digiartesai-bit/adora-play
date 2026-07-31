@@ -1464,5 +1464,17 @@
     "capa_musica": "assets/capamusica/salmo23.jpg",
     "categoria": "Adoracao",
     "data_cadastro": "2026-07-31"
+  },
+  {
+    "id": 134,
+    "titulo": "Santo é o Teu Nome",
+    "artista": "AdoraPlay",
+    "album": "Adoração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/adoracao/Santo_e_Teu_Nome.mp3",
+    "capa": "assets/capas/adoracao.jpg",
+    "capa_musica": "assets/capamusica/santoteunome.jpg",
+    "categoria": "Adoracao",
+    "data_cadastro": "2026-07-31"
   }
 ]
+
