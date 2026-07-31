@@ -1475,6 +1475,17 @@
     "capa_musica": "assets/capamusica/santoteunome.jpg",
     "categoria": "Adoracao",
     "data_cadastro": "2026-07-31"
+  },
+  {
+    "id": 135,
+    "titulo": "Se Liga Só",
+    "artista": "AdoraPlay",
+    "album": "HipHop",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/hap/Se_liga_so.mp3",
+    "capa": "assets/capas/hiphop.png",
+    "capa_musica": "assets/capamusica/seliga.jpg",
+    "categoria": "HipHop",
+    "data_cadastro": "2026-07-31"
   }
 ]
 
