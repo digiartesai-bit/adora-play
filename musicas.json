@@ -1200,6 +1200,17 @@
     "capa": "assets/capas/louvor.png",
     "capa_musica": "assets/capamusica/planoescrito.jpg",
     "categoria": "Louvor",
-    "data_cadastro": "2026-07-30"
+    "data_cadastro": "2026-07-31"
+  },
+  {
+    "id": 110,
+    "titulo": "Silêncio que nos Sustenta",
+    "artista": "AdoraPlay",
+    "album": "Louvor",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/louvor/silencio_que_nos_sustenta.mp3",
+    "capa": "assets/capas/louvor.png",
+    "capa_musica": "assets/capamusica/silenciosustenta.jpg",
+    "categoria": "Louvor",
+    "data_cadastro": "2026-07-31"
   }
 ]
