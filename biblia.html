@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdoraPlay - Consulta Bíblica</title>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --card-bg: #1e1e1e;
+            --primary-color: #1db954;
+            --text-color: #ffffff;
+            --text-muted: #b3b3b3;
+            --border-color: #333333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 5px;
+            color: var(--primary-color);
+            text-align: center;
+        }
+
+        p.subtitle {
+            text-align: center;
+            color: var(--text-muted);
+            margin-bottom: 25px;
+            font-size: 0.95rem;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 12px;
+            background-color: #2a2a2a;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-color);
+            font-size: 1rem;
+            box-sizing: border-box;
+        }
+
+        input:focus, select:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: var(--primary-color);
+            color: #000;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+
+        .result-box {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #252525;
+            border-left: 4px solid var(--primary-color);
+            border-radius: 0 8px 8px 0;
+            display: none;
+        }
+
+        .result-box h2 {
+            margin-top: 0;
+            font-size: 1.2rem;
+            color: var(--primary-color);
+        }
+
+        .result-box p {
+            line-height: 1.6;
+            font-size: 1.05rem;
+        }
+
+        .loader {
+            text-align: center;
+            color: var(--text-muted);
+            margin-top: 20px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>AdoraPlay Bíblia</h1>
+        <p class="subtitle">Teste de consulta de versículos via API</p>
+
+        <div class="form-group">
+            <label for="referencia">Referência (Ex: Joao 3:16 ou Salmos 23:1)</label>
+            <input type="text" id="referencia" placeholder="Ex: Joao 3:16" value="Joao 3:16">
+        </div>
+
+        <div class="form-group">
+            <label for="versao">Tradução / Idioma</label>
+            <select id="versao">
+                <option value="almeida">Almeida (Português)</option>
+                <option value="kjv">King James Version (Inglês - KJV)</option>
+            </select>
+        </div>
+
+        <button onclick="buscarVersiculo()">Pesquisar Versículo</button>
+
+        <div id="loader" class="loader">Buscando na Bíblia...</div>
+
+        <div id="resultBox" class="result-box">
+            <h2 id="resReferencia"></h2>
+            <p id="resTexto"></p>
+        </div>
+    </div>
+
+    <script>
+        async function buscarVersiculo() {
+            const refInput = document.getElementById('referencia').value.trim();
+            const versaoSelect = document.getElementById('versao').value;
+            const resultBox = document.getElementById('resultBox');
+            const loader = document.getElementById('loader');
+            const resReferencia = document.getElementById('resReferencia');
+            const resTexto = document.getElementById('resTexto');
+
+            if (!refInput) {
+                alert('Por favor, digite uma referência.');
+                return;
+            }
+
+            resultBox.style.display = 'none';
+            loader.style.display = 'block';
+
+            try {
+                const query = encodeURIComponent(refInput);
+                const url = `https://bible-api.com/${query}?translation=${versaoSelect}`;
+
+                const response = await fetch(url);
+                const data = await response.json();
+
+                loader.style.display = 'none';
+
+                if (data.error) {
+                    alert('Versículo não encontrado. Verifique a grafia (ex: use nomes sem acentos como Joao ou Salmos).');
+                    return;
+                }
+
+                resReferencia.textContent = data.reference;
+                resTexto.textContent = data.text.trim();
+                resultBox.style.display = 'block';
+
+            } catch (error) {
+                loader.style.display = 'none';
+                console.error('Erro:', error);
+                alert('Erro ao conectar com a API da Bíblia.');
+            }
+        }
+    </script>
+
+</body>
+</html>
