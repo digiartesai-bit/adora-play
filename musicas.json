@@ -1541,6 +1541,17 @@
     "capa_musica": "assets/capamusica/tantoscaminhos.jpg",
     "categoria": "Louvor",
     "data_cadastro": "2026-08-02"
+  },
+  {
+    "id": 141,
+    "titulo": "A Terra se Rende",
+    "artista": "AdoraPlay",
+    "album": "Adoração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/adoracao/Terra_Se_Rende.mp3",
+    "capa": "assets/capas/adoracao.jpg",
+    "capa_musica": "assets/capamusica/terrarende.jpg",
+    "categoria": "Adoracao",
+    "data_cadastro": "2026-08-02"
   }
 ]
 
