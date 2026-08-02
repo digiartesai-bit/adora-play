@@ -1497,6 +1497,17 @@
     "capa_musica": "assets/capamusica/soberaniaeterna.jpg",
     "categoria": "Adoracao",
     "data_cadastro": "2026-07-31"
+  },
+  {
+    "id": 137,
+    "titulo": "Soberano",
+    "artista": "AdoraPlay",
+    "album": "Adoração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/adoracao/Soberano.mp3",
+    "capa": "assets/capas/adoracao.jpg",
+    "capa_musica": "assets/capamusica/soberano.jpg",
+    "categoria": "Adoracao",
+    "data_cadastro": "2026-08-02"
   }
 ]
 
