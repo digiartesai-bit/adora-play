@@ -1519,6 +1519,17 @@
     "capa_musica": "assets/capamusica/sondacoracao.jpg",
     "categoria": "Louvor",
     "data_cadastro": "2026-08-03"
+  },
+  {
+    "id": 139,
+    "titulo": "Sopra Teu Espírito",
+    "artista": "AdoraPlay",
+    "album": "Adoração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/adoracao/Sopra_teu_Espirito.mp3",
+    "capa": "assets/capas/adoracao.jpg",
+    "capa_musica": "assets/capamusica/sopraespirito.jpg",
+    "categoria": "Adoracao",
+    "data_cadastro": "2026-08-03"
   }
 ]
 
