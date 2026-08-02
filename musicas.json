@@ -1508,6 +1508,17 @@
     "capa_musica": "assets/capamusica/soberano.jpg",
     "categoria": "Adoracao",
     "data_cadastro": "2026-08-02"
+  },
+  {
+    "id": 138,
+    "titulo": "Sonda Meu Coração",
+    "artista": "AdoraPlay",
+    "album": "Louvor",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/louvor/Sonda_meu_coracao.mp3",
+    "capa": "assets/capas/louvor.png",
+    "capa_musica": "assets/capamusica/sondacoracao.jpg",
+    "categoria": "Louvor",
+    "data_cadastro": "2026-08-03"
   }
 ]
 
