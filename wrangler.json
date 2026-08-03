@@ -3,6 +3,7 @@
   "name": "adora-play",
   "compatibility_date": "2026-08-03",
   "assets": {
-    "directory": "./public" // <-- Coloque o nome da pasta onde estão os arquivos do site
+    "directory": ".",
+    "exclude": [".git/**", "node_modules/**"]
   }
 }
