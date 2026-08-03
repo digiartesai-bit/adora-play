@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#081826">
+    <!-- Vincula o arquivo de configuração do ícone -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Garante compatibilidade e cor da barra no Safari (iPhone) -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#0d233a">
+    <link class="apple-touch-icon" href="assets/icone-192.png">
+
+    <title>AdoraPlay</title>
+    <meta name="description" content="Sua música. Sua adoração. Em qualquer lugar." />
+
+    <!-- Protocolo Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://digiartesai-bit.github.io/adora-play/" />
+    <meta property="og:title" content="AdoraPlay — Conectando Corações na Adoração" />
+    <meta property="og:description" content="Sua música. Sua adoração. Em qualquer lugar." />
+     <meta property="og:image" content="https://digiartesai-bit.github.io/adora-play/socialpreview.jpg" />
+    
+    <!-- Fonte Google: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css?v=2.3.14">
+</head>
+
+<body>
+    <div class="app-shell">
+        <header class="app-header">
+            <div class="brand-row">
+                <div class="brand-logo">
+                    <img src="assets/adoraplay.jpg" alt="AdoraPlay">
+                </div>
+                <div class="header-actions">
+                    <div class="search-row">
+                        <div class="search-input-wrapper">
+                            <img src="assets/icons/search.svg" alt="Buscar" class="search-icon">
+                            <input id="search-input" type="text" placeholder="Buscar" autocomplete="off">
+                            <div id="resultados-busca-flutuante" class="resultados-sugestao"></div>
+                        </div>
+                    </div>
+                    <button class="btn-menu-mobile" id="btnMenuMobile" type="button" aria-label="Abrir menu" aria-expanded="false">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <div class="header-quick-actions" id="headerQuickActions">
+                        <button class="btn-install" id="btnInstall" type="button" aria-label="Instalar aplicativo" title="Instalar">
+                            <img src="assets/icons/download.svg" alt="">
+                            <span class="install-label">Instalar</span>
+                        </button>
+                        <button class="btn-library" id="btnBiblioteca" onclick="mostrarBiblioteca()" aria-label="Abrir biblioteca" title="Biblioteca">
+                            <img src="assets/icons/library.svg" alt="Biblioteca">
+                            <span class="library-label">Biblioteca</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section class="section-home" id="homeSection">
+                <div class="top-cards">
+                    <article class="hero-card" id="destaqueAtual">
+                        <div class="hero-heading">
+                            <span class="hero-label">Destaques e Novidades</span>
+                        </div>
+                        <div class="hero-content">
+                            <img class="hero-cover" id="destaqueCapa" src="assets/capamusica/abatalha.jpg" alt="Capa da musica em destaque">
+                            <div class="hero-info">
+                                <div class="hero-meta">
+                                    <strong id="destaqueTitulo">Carregando...</strong>
+                                    <small id="destaqueArtista">Aguarde enquanto buscamos a ultima musica adicionada</small>
+                                    <p>Descubra os ultimos louvores para abençoar seu dia. Hoje já são <span id="musicasHojeCount" class="count-destaque">0</span> músicas adicionadas.</p>
+                                </div>
+                                <div class="hero-actions">
+                                    <button class="hero-play" onclick="tocarDestaque()">
+                                        <img src="assets/icons/play.svg" alt="">
+                                        Ouvir agora
+                                    </button>
+                                 <!--    <button class="hero-favorite" onclick="toggleFavorito()" aria-label="Adicionar ou remover dos favoritos" title="Adicionar ou remover dos favoritos">
+                                        <img id="imgFavoritoHero" src="assets/icons/heart-outline-red.svg" alt="Favorito">
+                                    </button> remocao botao favoritar hero card -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mini-cards-group" id="miniCardsNovidades"></div>
+                    </article>
+                </div>
+
+                <section class="section-favorites" id="secaoFavoritos">
+                    <div class="section-header">
+                        <div>
+                            <h3>Seus Favoritos</h3>
+                            <small><button class="link-button" onclick="mostrarBiblioteca(true)">Ver todos</button></small>
+                        </div>
+                    </div>
+                    <div class="favoritos-grid" id="favoritosVisiveis"></div>
+                </section>
+
+                <section class="section-ranking">
+                    <div class="section-header">
+                        <div>
+                            <h3>Mais Ouvidas</h3>
+                            <small>Top 8</small>
+                        </div>
+                    </div>
+                    <div class="ranking-carousel" id="maisOuvidas"></div>
+                </section>
+
+                <section class="section-albums">
+                    <div class="section-header">
+                        <div>
+                            <h3>Navegar por Albuns</h3>
+                        </div>
+                    </div>
+                    <div class="albums-carousel" id="albuns"></div>
+                    <div class="album-tracks-panel" id="albumTracksPanel" hidden>
+                        <div class="album-tracks-header">
+                            <h4 id="albumTracksTitle">Faixas do album</h4>
+                        </div>
+                        <div class="album-tracks-list" id="albumTracksList"></div>
+                    </div>
+                </section>
+            </section>
+
+            <section class="section-library" id="bibliotecaSection" style="display:none;">
+                <div class="library-header">
+                    <div>
+                        <h2 id="librarySectionTitle">Biblioteca</h2>
+                        <p id="librarySectionSubtitle">Todas as musicas</p>
+                    </div>
+                    <button class="link-button" onclick="mostrarHome()">Voltar</button>
+                </div>
+                <div class="library-filter-row">
+                    <div class="chip-list" id="albumFilter"></div>
+                </div>
+                <div class="library-grid" id="bibliotecaGrid"></div>
+            </section>
+        </main>
+    </div>
+
+    <div class="mini-player" id="miniPlayer">
+        <div class="mini-track">
+            <img id="miniCapa" src="assets/icons/album.svg" alt="Capa da musica">
+            <div class="mini-track-info">
+                <strong id="miniTitulo">Nenhuma musica selecionada</strong>
+                <small id="miniArtista">Escolha uma musica para comecar</small>
+            </div>
+             <button class="btn-share" onclick="compartilharMusicaAtual()">
+                <img src="assets/icons/whatsapp.svg" alt="Compartilhar">
+            </button>
+            <button class="btn-favorite" onclick="toggleFavorito()" aria-label="Adicionar ou remover dos favoritos" title="Adicionar ou remover dos favoritos">
+                <img id="imgFavorito" src="assets/icons/heart-outline-red.svg" alt="Favorito">
+            </button>
+        </div>
+        <div class="player-controls-row">
+            <button id="btnShuffle" class="btn-icon" onclick="alternarShuffle()">
+                <img src="assets/icons/shuffle.svg" alt="Aleatorio">
+            </button>
+            <button class="btn-icon btn-nav" onclick="anterior()">
+                <img src="assets/icons/previous.svg" alt="Anterior">
+            </button>
+            <button id="btnPlay" class="btn-play" onclick="playPause()">
+                <img src="assets/icons/play.svg" alt="Reproduzir">
+            </button>
+            <button class="btn-icon btn-nav" onclick="proxima()">
+                <img src="assets/icons/next.svg" alt="Proxima">
+            </button>
+            <button id="btnRepeat" class="btn-icon" onclick="alternarRepeat()">
+                <img src="assets/icons/repeat.svg" alt="Repetir">
+            </button>
+           
+        </div>
+        <div class="player-progress-row">
+            <span id="currentTime">0:00</span>
+            <input type="range" id="progressBar" min="0" max="100" value="0">
+            <span id="durationTime">0:00</span>
+        </div>
+    </div>
+
+    <audio id="audioPlayer"></audio>
+    <script src="js/player.js?v=1.0.10"></script>
+    <script src="js/visualizer.js"></script>
+    <script src="js/ranking.js?v=1.0.4"></script>
+    <script src="js/recursos.js?v=1.0.13"></script>
+    <script src="js/app.js?v=1.0.20"></script>
+    <script src="js/ajuda.js"></script>
+    <script src="js/pesquisa.js?v=1.0.3"></script>
+</body>
+</html>
