@@ -214,6 +214,10 @@ if (musicasHojeCount) {
 }
     if (typeof carregarPlaylist === 'function') carregarPlaylist(musicas);
 
+    if (typeof window.carregarFavoritos === 'function') {
+        window.carregarFavoritos().catch((erro) => console.warn('Falha ao carregar favoritos:', erro.message));
+    }
+
     exibirHome();
     carregarRanking();
 
@@ -299,7 +303,7 @@ function criarCardMiniNovidade(musica, index) {
 
 function renderizarFavoritosVisiveis() {
     if (!favoritosVisiveis) return;
-    const favoritos = JSON.parse(localStorage.getItem('favoritos')) || [];
+    const favoritos = window.obterFavoritos ? window.obterFavoritos() : [];
     favoritosVisiveis.innerHTML = '';
     favoritos.slice(0, 4).forEach(musica => {
         const idx = musicas.findIndex(item => item.audio === musica.audio);
@@ -368,7 +372,7 @@ function renderizarFaixasDoAlbum(album) {
         return;
     }
 
-    const favoritos = JSON.parse(localStorage.getItem('favoritos')) || [];
+    const favoritos = window.obterFavoritos ? window.obterFavoritos() : [];
     const favoritoPorChave = new Set(favoritos.map(f => String(f.audio || f.id || f.titulo || '').trim()));
     const faixas = musicas.filter(musica => musica.album === album);
 
@@ -401,7 +405,7 @@ function renderizarFaixasDoAlbum(album) {
 
 function renderizarBiblioteca() {
     if (!libraryGrid) return;
-    const favoritos = JSON.parse(localStorage.getItem('favoritos')) || [];
+    const favoritos = window.obterFavoritos ? window.obterFavoritos() : [];
     const favoritoPorChave = new Set(favoritos.map(f => String(f.audio || f.id || f.titulo || '').trim()));
     const listaBase = bibliotecaSomenteFavoritos
         ? musicas.filter(musica => favoritoPorChave.has(String(musica.audio || musica.id || musica.titulo || '').trim()))
@@ -542,6 +546,12 @@ window.alternarFavoritoBiblioteca = function(indice) {
         renderizarFaixasDoAlbum(albumSelecionado);
     }
 };
+
+window.addEventListener('adoraplay:favoritos-atualizados', () => {
+    renderizarFavoritosVisiveis();
+    renderizarBiblioteca();
+    if (albumSelecionado) renderizarFaixasDoAlbum(albumSelecionado);
+});
 
 inicializarMenuMobile();
 inicializarInstalacaoPWA();
