@@ -25,7 +25,7 @@ async function carregarRanking() {
     if (!container) return;
 
     try {
-        const endpointRanking = `https://adoraplay-api.digiartesai.workers.dev/ranking?t=${Date.now()}`;
+        const endpointRanking = `https://adoraplay-api.digiartesai.workers.dev/api/ranking?t=${Date.now()}`;
         const resposta = await fetch(endpointRanking, {
             method: "GET",
             headers: {
