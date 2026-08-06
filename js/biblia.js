@@ -20,6 +20,7 @@
     const text = document.getElementById('textoVersiculo');
     const versionSelect = document.getElementById('seletorVersaoBiblia');
     const savedStudiesKey = 'adoraPlayBibliaEstudos';
+    const apiUrl = 'https://adoraplay-api.digiartesai.workers.dev';
     const notesPanel = document.getElementById('painelAnotacoes');
     const notesList = document.getElementById('listaAnotacoes');
     const steps = {
@@ -35,6 +36,27 @@
     let selectedVerse = null;
     let selectedVersion = 'nvi';
     const versionCache = new Map();
+
+    function getGoogleUser() {
+        try {
+            return JSON.parse(localStorage.getItem('adoraplayGoogleUser'));
+        } catch {
+            return null;
+        }
+    }
+
+    async function sendToBibleApi(path, data) {
+        const user = getGoogleUser();
+        if (!user?.google_id) return false;
+
+        const response = await fetch(`${apiUrl}${path}`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ google_id: user.google_id, ...data })
+        });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        return true;
+    }
 
     function getSavedStudies() {
         try {
@@ -280,6 +302,10 @@
         notesPanel.hidden = true;
         subtitle.textContent = `${selectedVersion.toUpperCase()}: ${selectedBook.name} ${chapter.chapter} possui ${verses.length} versículos.`;
         setStep('verse');
+        sendToBibleApi('/api/marcacoes', {
+            livro: selectedBook.name,
+            capitulo: chapter.chapter
+        }).catch((error) => console.warn('Não foi possível salvar a marcação de leitura:', error.message));
     }
 
     function renderChapter(verses) {
@@ -335,7 +361,7 @@
         showSelectedVerseStudy();
     }
 
-    function saveVerseStudy(details, note) {
+    async function saveVerseStudy(details, note) {
         const studies = getSavedStudies();
         const study = studies[details.key] || { ...details };
         study.highlighted = true;
@@ -345,6 +371,19 @@
         saveStudies(studies);
         updateVerseStyles();
         closeVerseStudy();
+
+        if (!study.note) return;
+
+        try {
+            await sendToBibleApi('/api/anotacoes', {
+                livro: selectedBook.name,
+                capitulo: details.chapter,
+                versiculo: details.verse,
+                texto: study.note
+            });
+        } catch (error) {
+            console.warn('Não foi possível salvar a anotação:', error.message);
+        }
     }
 
     function deleteVerseStudy(details) {
