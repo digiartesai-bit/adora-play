@@ -4,5 +4,12 @@
   "compatibility_date": "2026-08-03",
   "assets": {
     "directory": "."
-  }
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "adoraplay-db",
+      "database_id": "bbb893df-5092-4842-9735-d99ea0a3b347"
+    }
+  ]
 }
