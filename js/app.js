@@ -1,5 +1,6 @@
 const homeSection = document.getElementById('homeSection');
 const bibliotecaSection = document.getElementById('bibliotecaSection');
+const bibliaSection = document.getElementById('bibliaSection');
 const favoritosVisiveis = document.getElementById('favoritosVisiveis');
 const moreOuvidasContainer = document.getElementById('maisOuvidas');
 const albumsContainer = document.getElementById('albuns');
@@ -146,6 +147,7 @@ window.addEventListener('appinstalled', () => {
 function mostrarBiblioteca(comFavoritos = false) {
     if (homeSection) homeSection.style.display = 'none';
     if (bibliotecaSection) bibliotecaSection.style.display = 'grid';
+    if (bibliaSection) bibliaSection.style.display = 'none';
     bibliotecaSomenteFavoritos = comFavoritos;
 
     if (librarySectionTitle) {
@@ -163,6 +165,7 @@ function mostrarBiblioteca(comFavoritos = false) {
 function mostrarHome() {
     if (homeSection) homeSection.style.display = 'grid';
     if (bibliotecaSection) bibliotecaSection.style.display = 'none';
+    if (bibliaSection) bibliaSection.style.display = 'none';
      // Reseta a seleção do álbum ao voltar para a home, fechando o carrossel aberto
     albumSelecionado = null;
     renderizarFaixasDoAlbum(null);
