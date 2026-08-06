@@ -186,7 +186,7 @@
         noteInput.value = study?.note || '';
         const actions = document.createElement('div');
         actions.className = 'bible-editor-actions';
-        const saveButton = createButton('bible-save-note', 'Salvar anotação', () => saveVerseStudy(details, noteInput.value));
+        const saveButton = createButton('bible-save-note', 'Salvar anotação', () => saveVerseStudy(details, noteInput.value, saveButton));
         actions.appendChild(saveButton);
         if (study) {
             actions.appendChild(createButton('bible-delete-note', 'Apagar anotação', () => deleteVerseStudy(details)));
@@ -361,28 +361,37 @@
         showSelectedVerseStudy();
     }
 
-    async function saveVerseStudy(details, note) {
+    async function saveVerseStudy(details, note, saveButton) {
+        const noteText = note.trim();
+        if (!noteText) {
+            window.alert('Escreva uma anotação antes de salvar.');
+            return;
+        }
+
         const studies = getSavedStudies();
         const study = studies[details.key] || { ...details };
         study.highlighted = true;
-        study.note = note.trim();
+        study.note = noteText;
         study.updatedAt = new Date().toISOString();
         studies[details.key] = study;
         saveStudies(studies);
         updateVerseStyles();
-        closeVerseStudy();
-
-        if (!study.note) return;
 
         try {
+            saveButton.disabled = true;
+            saveButton.textContent = 'Salvando...';
             await sendToBibleApi('/api/anotacoes', {
                 livro: selectedBook.name,
                 capitulo: details.chapter,
                 versiculo: details.verse,
                 texto: study.note
             });
+            closeVerseStudy();
         } catch (error) {
             console.warn('Não foi possível salvar a anotação:', error.message);
+            saveButton.disabled = false;
+            saveButton.textContent = 'Salvar anotação';
+            window.alert(`Não foi possível salvar a anotação no Cloudflare: ${error.message}`);
         }
     }
 
