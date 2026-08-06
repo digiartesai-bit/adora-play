@@ -55,6 +55,8 @@ let tocando = false;
 // Estados das novas funções
 let modoShuffle = false;
 let modoRepeat = false; // false = sem repetição, true = repete a música atual
+let favoritos = [];
+const API_URL = "https://adoraplay-api.digiartesai.workers.dev";
 
 // Variável de controle para contar apenas uma vez por reprodução
 let streamRegistrado = false;
@@ -83,12 +85,80 @@ if (window.playlist && window.playlist.length > 0) {
     playlist = [...window.playlist];
 }
 
-function obterFavoritosStorage() {
-    return JSON.parse(localStorage.getItem('favoritos')) || [];
+function obterUsuarioGoogle() {
+    try {
+        return JSON.parse(localStorage.getItem('adoraplayGoogleUser'));
+    } catch {
+        return null;
+    }
 }
 
-function salvarFavoritosStorage(favoritos) {
-    localStorage.setItem('favoritos', JSON.stringify(favoritos));
+function obterFavoritos() {
+    return [...favoritos];
+}
+
+function notificarFavoritosAtualizados() {
+    window.dispatchEvent(new Event('adoraplay:favoritos-atualizados'));
+    atualizarBotaoFavorito();
+}
+
+async function migrarFavoritosLegados(usuario) {
+    const dadosLegados = localStorage.getItem('favoritos');
+    if (!dadosLegados) return;
+
+    let favoritosLegados;
+    try {
+        favoritosLegados = JSON.parse(dadosLegados);
+    } catch {
+        localStorage.removeItem('favoritos');
+        return;
+    }
+
+    if (!Array.isArray(favoritosLegados)) return;
+
+    await Promise.all(favoritosLegados
+        .filter((musica) => musica?.id != null)
+        .map(async (musica) => {
+            const resposta = await fetch(`${API_URL}/api/favoritos`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    google_id: usuario.google_id,
+                    musica_id: musica.id,
+                    titulo: musica.titulo,
+                    artista: musica.artista
+                })
+            });
+            if (!resposta.ok) throw new Error(`HTTP ${resposta.status}`);
+        }));
+
+    localStorage.removeItem('favoritos');
+}
+
+async function carregarFavoritos() {
+    const usuario = obterUsuarioGoogle();
+    if (!usuario?.google_id) {
+        favoritos = [];
+        notificarFavoritosAtualizados();
+        return;
+    }
+
+    await migrarFavoritosLegados(usuario);
+
+    const resposta = await fetch(`${API_URL}/api/favoritos?google_id=${encodeURIComponent(usuario.google_id)}`);
+    if (!resposta.ok) throw new Error(`HTTP ${resposta.status}`);
+
+    const favoritosRemotos = await resposta.json();
+    const catalogo = Array.isArray(window.musicas) ? window.musicas : playlist;
+    favoritos = favoritosRemotos.map((favorito) => {
+        const musicaCatalogo = catalogo.find((musica) => String(musica.id) === String(favorito.musica_id));
+        return musicaCatalogo || {
+            id: favorito.musica_id,
+            titulo: favorito.titulo,
+            artista: favorito.artista
+        };
+    });
+    notificarFavoritosAtualizados();
 }
 
 function chaveMusica(musica) {
@@ -96,8 +166,14 @@ function chaveMusica(musica) {
     return String(musica.audio || musica.id || musica.titulo || "").trim();
 }
 
-function alternarFavoritoDaMusica(musica) {
+async function alternarFavoritoDaMusica(musica) {
     if (!musica) return false;
+
+    const usuario = obterUsuarioGoogle();
+    if (!usuario?.google_id) {
+        window.alert("Entre com sua conta Google para salvar favoritos.");
+        return false;
+    }
 
     const musicaParaSalvar = {
         ...musica,
@@ -105,22 +181,43 @@ function alternarFavoritoDaMusica(musica) {
         capa_musica: obterCapaMusica(musica)
     };
 
-    const favoritos = obterFavoritosStorage();
     const chave = chaveMusica(musicaParaSalvar);
     const index = favoritos.findIndex(f => chaveMusica(f) === chave);
 
-    let favoritado;
+    const favoritado = index === -1;
+    const resposta = await fetch(`${API_URL}/api/favoritos`, {
+        method: favoritado ? "POST" : "DELETE",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(favoritado ? {
+            google_id: usuario.google_id,
+            musica_id: musicaParaSalvar.id,
+            titulo: musicaParaSalvar.titulo,
+            artista: musicaParaSalvar.artista
+        } : {
+            google_id: usuario.google_id,
+            musica_id: musicaParaSalvar.id
+        })
+    });
+    if (!resposta.ok) throw new Error(`HTTP ${resposta.status}`);
+
     if (index > -1) {
         favoritos.splice(index, 1);
-        favoritado = false;
     } else {
         favoritos.push(musicaParaSalvar);
-        favoritado = true;
     }
-
-    salvarFavoritosStorage(favoritos);
+    notificarFavoritosAtualizados();
     return favoritado;
 }
+
+window.obterFavoritos = obterFavoritos;
+window.carregarFavoritos = carregarFavoritos;
+window.addEventListener('adoraplay:login', () => {
+    carregarFavoritos().catch((erro) => console.warn("Falha ao carregar favoritos:", erro.message));
+});
+window.addEventListener('adoraplay:logout', () => {
+    favoritos = [];
+    notificarFavoritosAtualizados();
+});
 
 // Configura a Media Session para o PWA não morrer em segundo plano
 function configurarMediaSession() {
@@ -431,11 +528,16 @@ if (progressBar) {
 }
 
 // LÓGICA DE FAVORITOS
-function toggleFavorito() {
+async function toggleFavorito() {
     if (!playlist || !playlist[musicaAtual]) return;
     const musica = playlist[musicaAtual];
 
-    alternarFavoritoDaMusica(musica);
+    try {
+        await alternarFavoritoDaMusica(musica);
+    } catch (erro) {
+        console.warn("Falha ao salvar favorito:", erro.message);
+        return;
+    }
     atualizarBotaoFavorito();
 
     if (typeof renderizarFavoritosHorizontais === "function") {
@@ -447,12 +549,17 @@ function toggleFavorito() {
     }
 }
 
-window.toggleFavoritoPorIndice = function(indice) {
+window.toggleFavoritoPorIndice = async function(indice) {
     const lista = playlist.length > 0 ? playlist : (window.musicas || []);
     const musica = lista[indice];
     if (!musica) return;
 
-    alternarFavoritoDaMusica(musica);
+    try {
+        await alternarFavoritoDaMusica(musica);
+    } catch (erro) {
+        console.warn("Falha ao salvar favorito:", erro.message);
+        return;
+    }
     atualizarBotaoFavorito();
 
     if (typeof renderizarFavoritosHorizontais === "function") {
@@ -475,7 +582,6 @@ function atualizarBotaoFavorito() {
     const musica = playlist[musicaAtual];
     if (!musica) return;
     
-    const favoritos = obterFavoritosStorage();
     const chaveAtual = chaveMusica(musica);
     const ehFavorito = favoritos.some(f => chaveMusica(f) === chaveAtual);
 
