@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -20,12 +21,13 @@
     <meta property="og:url" content="https://adoraplay.com.br/" />
     <meta property="og:title" content="AdoraPlay — Conectando Corações na Adoração" />
     <meta property="og:description" content="Sua música. Sua adoração. Em qualquer lugar." />
-     <meta property="og:image" content="https://adoraplay.com.br/socialpreview.jpg" />
-    
+    <meta property="og:image" content="https://adoraplay.com.br/socialpreview.jpg" />
+
     <!-- Fonte Google: Poppins -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="css/style.css?v=2.3.14">
+    <link rel="stylesheet" href="css/biblia.css?v=1.0.0">
 </head>
 
 <body>
@@ -43,19 +45,27 @@
                             <div id="resultados-busca-flutuante" class="resultados-sugestao"></div>
                         </div>
                     </div>
-                    <button class="btn-menu-mobile" id="btnMenuMobile" type="button" aria-label="Abrir menu" aria-expanded="false">
+                    <button class="btn-menu-mobile" id="btnMenuMobile" type="button" aria-label="Abrir menu"
+                        aria-expanded="false">
                         <span></span>
                         <span></span>
                         <span></span>
                     </button>
                     <div class="header-quick-actions" id="headerQuickActions">
-                        <button class="btn-install" id="btnInstall" type="button" aria-label="Instalar aplicativo" title="Instalar">
+                        <button class="btn-install" id="btnInstall" type="button" aria-label="Instalar aplicativo"
+                            title="Instalar">
                             <img src="assets/icons/download.svg" alt="">
                             <span class="install-label">Instalar</span>
                         </button>
-                        <button class="btn-library" id="btnBiblioteca" onclick="mostrarBiblioteca()" aria-label="Abrir biblioteca" title="Biblioteca">
+                        <button class="btn-library" id="btnBiblioteca" onclick="mostrarBiblioteca()"
+                            aria-label="Abrir biblioteca" title="Biblioteca">
                             <img src="assets/icons/library.svg" alt="Biblioteca">
                             <span class="library-label">Biblioteca</span>
+                        </button>
+                        <button class="btn-bible" id="btnBiblia" onclick="mostrarBiblia()" aria-label="Abrir Bíblia"
+                            title="Bíblia">
+                            <span aria-hidden="true">B</span>
+                            <span class="bible-label">Bíblia</span>
                         </button>
                     </div>
                 </div>
@@ -70,21 +80,22 @@
                             <span class="hero-label">Destaques e Novidades</span>
                         </div>
                         <div class="hero-content">
-                            <img class="hero-cover" id="destaqueCapa" src="assets/capamusica/abatalha.jpg" alt="Capa da musica em destaque">
+                            <img class="hero-cover" id="destaqueCapa" src="assets/capamusica/abatalha.jpg"
+                                alt="Capa da musica em destaque">
                             <div class="hero-info">
                                 <div class="hero-meta">
                                     <strong id="destaqueTitulo">Carregando...</strong>
-                                    <small id="destaqueArtista">Aguarde enquanto buscamos a ultima musica adicionada</small>
-                                    <p>Descubra os ultimos louvores para abençoar seu dia. Hoje já são <span id="musicasHojeCount" class="count-destaque">0</span> músicas adicionadas.</p>
+                                    <small id="destaqueArtista">Aguarde enquanto buscamos a ultima musica
+                                        adicionada</small>
+                                    <p>Descubra os ultimos louvores para abençoar seu dia. Hoje já são <span
+                                            id="musicasHojeCount" class="count-destaque">0</span> músicas adicionadas.
+                                    </p>
                                 </div>
                                 <div class="hero-actions">
                                     <button class="hero-play" onclick="tocarDestaque()">
                                         <img src="assets/icons/play.svg" alt="">
                                         Ouvir agora
                                     </button>
-                                 <!--    <button class="hero-favorite" onclick="toggleFavorito()" aria-label="Adicionar ou remover dos favoritos" title="Adicionar ou remover dos favoritos">
-                                        <img id="imgFavoritoHero" src="assets/icons/heart-outline-red.svg" alt="Favorito">
-                                    </button> remocao botao favoritar hero card -->
                                 </div>
                             </div>
                         </div>
@@ -96,7 +107,8 @@
                     <div class="section-header">
                         <div>
                             <h3>Seus Favoritos</h3>
-                            <small><button class="link-button" onclick="mostrarBiblioteca(true)">Ver todos</button></small>
+                            <small><button class="link-button" onclick="mostrarBiblioteca(true)">Ver
+                                    todos</button></small>
                         </div>
                     </div>
                     <div class="favoritos-grid" id="favoritosVisiveis"></div>
@@ -141,6 +153,77 @@
                 </div>
                 <div class="library-grid" id="bibliotecaGrid"></div>
             </section>
+
+            <section class="section-bible" id="bibliaSection" style="display:none;">
+                <div class="bible-header">
+                    <div>
+                        <h2>Bíblia</h2>
+                        <div class="bible-version-row">
+                            <label for="seletorVersaoBiblia">Versão bíblica</label>
+                            <select id="seletorVersaoBiblia">
+                                <option value="nvi" selected>NVI</option>
+                             <!--   <option value="acf">ACF</option>
+                                <option value="nva">NVA</option>
+                                <option value="at">AT</option> -->
+                            </select>
+                        </div>
+                        <p id="bibliaSubtitulo">Escolha um livro para começar a leitura.</p>
+                    </div>
+                    <button class="bible-close-button" id="fecharBiblia" type="button" aria-label="Fechar Bíblia"
+                        title="Fechar Bíblia">×</button>
+                </div>
+
+                <div class="bible-steps" aria-label="Etapas da leitura">
+                    <button class="bible-step is-active" id="passoLivro" type="button">1. Livro</button>
+                    <button class="bible-step" id="passoCapitulo" type="button">2. Capítulo</button>
+                    <button class="bible-step" id="passoVersiculo" type="button">3. Versículo</button>
+                    <button class="bible-step" id="passoAnotacoes" type="button">Minhas anotações</button>
+                </div>
+
+                <section class="bible-panel" id="painelLivros">
+                    <div class="bible-panel-heading">
+                        <h3>Livros</h3>
+                        <small>Antigo e Novo Testamento</small>
+                    </div>
+                    <div class="bible-book-groups" id="gruposLivros"></div>
+                </section>
+
+                <section class="bible-panel" id="painelCapitulos" hidden>
+                    <div class="bible-panel-heading">
+                        <div>
+                            <h3 id="tituloCapitulos">Capítulos</h3>
+                            <small>Escolha um capítulo</small>
+                        </div>
+                        <button class="bible-back-button" type="button" id="voltarLivros">Livros</button>
+                    </div>
+                    <div class="bible-number-grid" id="gradeCapitulos"></div>
+                </section>
+
+                <section class="bible-panel" id="painelVersiculos" hidden>
+                    <div class="bible-panel-heading">
+                        <div>
+                            <h3 id="tituloVersiculos">Versículos</h3>
+                            <small>Escolha um versículo</small>
+                        </div>
+                        <button class="bible-back-button" type="button" id="voltarCapitulos">Capítulos</button>
+                    </div>
+                    <div class="bible-number-grid" id="gradeVersiculos"></div>
+                    <article class="bible-reading" id="leituraVersiculo" aria-live="polite">
+                        <div class="bible-reading-reference" id="referenciaVersiculo"></div>
+                        <div id="textoVersiculo"></div>
+                    </article>
+                </section>
+                
+                <section class="bible-panel" id="painelAnotacoes" hidden>
+                    <div class="bible-panel-heading">
+                        <div>
+                            <h3>Minhas anotações</h3>
+                            <small>Seus versículos grifados e anotações salvas neste dispositivo.</small>
+                        </div>
+                    </div>
+                    <div class="bible-notes-list" id="listaAnotacoes"></div>
+                </section>
+            </section>
         </main>
     </div>
 
@@ -151,10 +234,11 @@
                 <strong id="miniTitulo">Nenhuma musica selecionada</strong>
                 <small id="miniArtista">Escolha uma musica para comecar</small>
             </div>
-             <button class="btn-share" onclick="compartilharMusicaAtual()">
+            <button class="btn-share" onclick="compartilharMusicaAtual()">
                 <img src="assets/icons/whatsapp.svg" alt="Compartilhar">
             </button>
-            <button class="btn-favorite" onclick="toggleFavorito()" aria-label="Adicionar ou remover dos favoritos" title="Adicionar ou remover dos favoritos">
+            <button class="btn-favorite" onclick="toggleFavorito()" aria-label="Adicionar ou remover dos favoritos"
+                title="Adicionar ou remover dos favoritos">
                 <img id="imgFavorito" src="assets/icons/heart-outline-red.svg" alt="Favorito">
             </button>
         </div>
@@ -174,7 +258,7 @@
             <button id="btnRepeat" class="btn-icon" onclick="alternarRepeat()">
                 <img src="assets/icons/repeat.svg" alt="Repetir">
             </button>
-           
+
         </div>
         <div class="player-progress-row">
             <span id="currentTime">0:00</span>
@@ -191,6 +275,7 @@
     <script src="js/app.js?v=1.0.20"></script>
     <script src="js/ajuda.js"></script>
     <script src="js/pesquisa.js?v=1.0.3"></script>
+    <script src="js/biblia.js?v=1.0.0"></script>
 </body>
-</html>
 
+</html>
