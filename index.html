@@ -18,10 +18,10 @@
 
     <!-- Protocolo Open Graph -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://adoraplay.com.br/" />
+    <meta property="og:url" content="https://digiartesai-bit.github.io/adora-play/" />
     <meta property="og:title" content="AdoraPlay — Conectando Corações na Adoração" />
     <meta property="og:description" content="Sua música. Sua adoração. Em qualquer lugar." />
-    <meta property="og:image" content="https://adoraplay.com.br/socialpreview.jpg" />
+    <meta property="og:image" content="https://digiartesai-bit.github.io/adora-play/socialpreview.jpg" />
 
     <!-- Fonte Google: Poppins -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -52,6 +52,18 @@
                         <span></span>
                     </button>
                     <div class="header-quick-actions" id="headerQuickActions">
+                        <div class="google-auth" id="googleAuth" aria-live="polite">
+                            <button class="btn-google-login" id="googleSignInButton" type="button"
+                                aria-label="Entrar com Google" title="Entrar com Google">
+                                <span class="google-login-icon" aria-hidden="true">G</span>
+                                <span>Entrar</span>
+                            </button>
+                            <div class="google-user" id="googleUser" hidden>
+                                <img id="googleUserAvatar" src="" alt="">
+                                <span id="googleUserName"></span>
+                                <button id="googleSignOut" type="button" title="Sair da conta Google">Sair</button>
+                            </div>
+                        </div>
                         <button class="btn-install" id="btnInstall" type="button" aria-label="Instalar aplicativo"
                             title="Instalar">
                             <img src="assets/icons/download.svg" alt="">
@@ -162,9 +174,9 @@
                             <label for="seletorVersaoBiblia">Versão bíblica</label>
                             <select id="seletorVersaoBiblia">
                                 <option value="nvi" selected>NVI</option>
-                             <!--   <option value="acf">ACF</option>
+                                <!-- <option value="acf">ACF</option> 
                                 <option value="nva">NVA</option>
-                                <option value="at">AT</option> -->
+                                <option value="at">AT</option>-->
                             </select>
                         </div>
                         <p id="bibliaSubtitulo">Escolha um livro para começar a leitura.</p>
@@ -213,7 +225,7 @@
                         <div id="textoVersiculo"></div>
                     </article>
                 </section>
-                
+
                 <section class="bible-panel" id="painelAnotacoes" hidden>
                     <div class="bible-panel-heading">
                         <div>
@@ -268,14 +280,16 @@
     </div>
 
     <audio id="audioPlayer"></audio>
+    <script src="https://accounts.google.com/gsi/client" async></script>
     <script src="js/player.js?v=1.0.10"></script>
     <script src="js/visualizer.js"></script>
     <script src="js/ranking.js?v=1.0.4"></script>
     <script src="js/recursos.js?v=1.0.13"></script>
     <script src="js/app.js?v=1.0.20"></script>
     <script src="js/ajuda.js"></script>
-    <script src="js/pesquisa.js?v=1.0.3"></script>
+    <script src="js/pesquisa.js?v=1.0.2"></script>
     <script src="js/biblia.js?v=1.0.0"></script>
+    <script src="js/google-login.js?v=1.0.0"></script>
 </body>
 
 </html>
