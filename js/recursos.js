@@ -155,7 +155,7 @@ function compartilharMusicaAtual() {
     const idMusica = musicaAtual?.id;
     if (!tituloCompleto || idMusica === undefined || idMusica === null) return;
 
-    const baseUrl = "https://adoraplay.com.br/";
+    const baseUrl = "https://digiartesai-bit.github.io/adora-play/";
     const urlAppComMusica = `${baseUrl}?id=${encodeURIComponent(String(idMusica))}`;
     const textoMensagem = `Ouça "${tituloCompleto}" no AdoraPlay! 🎶`;
 
@@ -182,11 +182,10 @@ function compartilharMusicaAtual() {
 // RECURSO 3: EXIBIR E ATUALIZAR FAVORITOS (TOTALMENTE AUTÔNOMO)
 // ==========================================================================
 window.removerFavoritoPorAudio = function(audio) {
-    const favoritos = JSON.parse(localStorage.getItem('favoritos')) || [];
-    const novosFavoritos = favoritos.filter(f => f.audio !== audio);
-    localStorage.setItem('favoritos', JSON.stringify(novosFavoritos));
-    if (typeof window.renderizarFavoritosHorizontais === "function") {
-        window.renderizarFavoritosHorizontais();
+    const listaDeMusicas = window.musicas || window.playlist || [];
+    const indice = listaDeMusicas.findIndex((musica) => musica.audio === audio);
+    if (indice >= 0 && typeof window.toggleFavoritoPorIndice === "function") {
+        window.toggleFavoritoPorIndice(indice);
     }
 };
 
@@ -196,7 +195,7 @@ window.renderizarFavoritosHorizontais = function() {
     
     if (!secaoFavoritos || !containerFavoritos) return;
 
-    const favoritos = JSON.parse(localStorage.getItem('favoritos')) || [];
+    const favoritos = typeof window.obterFavoritos === "function" ? window.obterFavoritos() : [];
 
     if (favoritos.length === 0) {
         secaoFavoritos.style.display = "none";
