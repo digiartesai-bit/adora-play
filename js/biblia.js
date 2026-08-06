@@ -54,7 +54,10 @@
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ google_id: user.google_id, ...data })
         });
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        if (!response.ok) {
+            const result = await response.json().catch(() => null);
+            throw new Error(result?.error || `HTTP ${response.status}`);
+        }
         return true;
     }
 
