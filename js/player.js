@@ -151,9 +151,11 @@ async function carregarFavoritos() {
     const favoritosRemotos = await resposta.json();
     const catalogo = Array.isArray(window.musicas) ? window.musicas : playlist;
     favoritos = favoritosRemotos.map((favorito) => {
-        const musicaCatalogo = catalogo.find((musica) => String(musica.id) === String(favorito.musica_id));
-        return musicaCatalogo || {
-            id: favorito.musica_id,
+        const musicaId = favorito.musica_id ?? favorito.id;
+        const musicaCatalogo = catalogo.find((musica) => String(musica.id).trim() === String(musicaId).trim());
+        return musicaCatalogo ? { ...favorito, ...musicaCatalogo } : {
+            ...favorito,
+            id: musicaId,
             titulo: favorito.titulo,
             artista: favorito.artista
         };
