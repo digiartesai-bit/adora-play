@@ -25,6 +25,15 @@ let rankingData = [];
 let bibliotecaSomenteFavoritos = false;
 let deferredInstallPrompt = null;
 
+function obterChaveMusica(musica) {
+    return String(musica?.id ?? musica?.audio ?? musica?.titulo ?? '').trim();
+}
+
+function encontrarIndiceDaMusica(musica) {
+    const chave = obterChaveMusica(musica);
+    return musicas.findIndex(item => obterChaveMusica(item) === chave);
+}
+
 function inicializarMenuMobile() {
     if (!btnMenuMobile || !headerQuickActions) return;
 
@@ -306,7 +315,7 @@ function renderizarFavoritosVisiveis() {
     const favoritos = window.obterFavoritos ? window.obterFavoritos() : [];
     favoritosVisiveis.innerHTML = '';
     favoritos.slice(0, 4).forEach(musica => {
-        const idx = musicas.findIndex(item => item.audio === musica.audio);
+        const idx = encontrarIndiceDaMusica(musica);
         favoritosVisiveis.innerHTML += criarCardFavoritoCompacto(musica, idx);
     });
 }
@@ -373,13 +382,13 @@ function renderizarFaixasDoAlbum(album) {
     }
 
     const favoritos = window.obterFavoritos ? window.obterFavoritos() : [];
-    const favoritoPorChave = new Set(favoritos.map(f => String(f.audio || f.id || f.titulo || '').trim()));
+    const favoritoPorChave = new Set(favoritos.map(obterChaveMusica));
     const faixas = musicas.filter(musica => musica.album === album);
 
     albumTracksTitle.textContent = `Faixas de ${album}`;
     albumTracksList.innerHTML = faixas.length ? faixas.map((musica) => {
         const indice = musicas.findIndex(m => m.audio === musica.audio);
-        const chave = String(musica.audio || musica.id || musica.titulo || '').trim();
+        const chave = obterChaveMusica(musica);
         const ehFavorita = favoritoPorChave.has(chave);
         return `
             <article class="album-track-item" onclick="tocar(${indice})">
@@ -406,16 +415,16 @@ function renderizarFaixasDoAlbum(album) {
 function renderizarBiblioteca() {
     if (!libraryGrid) return;
     const favoritos = window.obterFavoritos ? window.obterFavoritos() : [];
-    const favoritoPorChave = new Set(favoritos.map(f => String(f.audio || f.id || f.titulo || '').trim()));
+    const favoritoPorChave = new Set(favoritos.map(obterChaveMusica));
     const listaBase = bibliotecaSomenteFavoritos
-        ? musicas.filter(musica => favoritoPorChave.has(String(musica.audio || musica.id || musica.titulo || '').trim()))
+        ? musicas.filter(musica => favoritoPorChave.has(obterChaveMusica(musica)))
         : musicas;
     const lista = albumSelecionado
         ? listaBase.filter(m => m.album === albumSelecionado)
         : [...listaBase];
 
     libraryGrid.innerHTML = lista.length ? lista.map((musica) => {
-        const chaveMusica = String(musica.audio || musica.id || musica.titulo || '').trim();
+        const chaveMusica = obterChaveMusica(musica);
         const ehFavorita = favoritoPorChave.has(chaveMusica);
         return `
             <article class="library-item" onclick="tocar(${musicas.findIndex(m => m.audio === musica.audio)})">
