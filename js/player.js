@@ -97,6 +97,27 @@ function obterFavoritos() {
     return [...favoritos];
 }
 
+function normalizarTextoMusica(valor) {
+    return String(valor || '')
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .trim()
+        .toLowerCase();
+}
+
+function encontrarMusicaNoCatalogo(favorito, catalogo) {
+    const musicaId = favorito.musica_id ?? favorito.id;
+    const porId = catalogo.find((musica) => String(musica.id).trim() === String(musicaId).trim());
+    if (porId) return porId;
+
+    const titulo = normalizarTextoMusica(favorito.titulo);
+    const artista = normalizarTextoMusica(favorito.artista);
+    return catalogo.find((musica) =>
+        normalizarTextoMusica(musica.titulo) === titulo &&
+        normalizarTextoMusica(musica.artista) === artista
+    );
+}
+
 function notificarFavoritosAtualizados() {
     window.dispatchEvent(new Event('adoraplay:favoritos-atualizados'));
     atualizarBotaoFavorito();
@@ -152,7 +173,7 @@ async function carregarFavoritos() {
     const catalogo = Array.isArray(window.musicas) ? window.musicas : playlist;
     favoritos = favoritosRemotos.map((favorito) => {
         const musicaId = favorito.musica_id ?? favorito.id;
-        const musicaCatalogo = catalogo.find((musica) => String(musica.id).trim() === String(musicaId).trim());
+        const musicaCatalogo = encontrarMusicaNoCatalogo(favorito, catalogo);
         return musicaCatalogo ? { ...favorito, ...musicaCatalogo } : {
             ...favorito,
             id: musicaId,
