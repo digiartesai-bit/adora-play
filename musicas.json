@@ -1428,7 +1428,8 @@
     "artista": "AdoraPlay",
     "album": "Louvor",
     "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/louvor/Redes_sobre_o_mar.mp3",
-    "capa": "assets/capamusica/redesmar.jpg",
+    "capa": "assets/capas/louvor.png",
+    "capa_musica": "assets/capamusica/redesmar.jpg",
     "categoria": "Louvor",
     "data_cadastro": "2026-07-31"
   },
