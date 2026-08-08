@@ -155,7 +155,7 @@ function compartilharMusicaAtual() {
     const idMusica = musicaAtual?.id;
     if (!tituloCompleto || idMusica === undefined || idMusica === null) return;
 
-    const baseUrl = "https://digiartesai-bit.github.io/adora-play/";
+    const baseUrl = "https://adoraplay.com.br/";
     const urlAppComMusica = `${baseUrl}?id=${encodeURIComponent(String(idMusica))}`;
     const textoMensagem = `Ouça "${tituloCompleto}" no AdoraPlay! 🎶`;
 
