@@ -348,6 +348,44 @@
     gap: 8px;
 }
 
+.bible-share-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 14px;
+}
+
+.bible-share-label {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.bible-share-format,
+.bible-share-verse {
+    border: 1px solid rgba(212, 175, 53, 0.48);
+    border-radius: 6px;
+    background: rgba(212, 175, 53, 0.12);
+    color: #f2d778;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.bible-share-format {
+    min-width: 42px;
+    padding: 7px 8px;
+}
+
+.bible-share-format.is-selected {
+    background: #d4af35;
+    color: #081826;
+}
+
+.bible-share-verse {
+    padding: 7px 10px;
+}
+
 @media (max-width: 680px) {
     .btn-bible {
         width: 100%;
