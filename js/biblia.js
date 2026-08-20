@@ -237,19 +237,10 @@
         shareActions.className = 'bible-share-actions';
         const shareLabel = document.createElement('span');
         shareLabel.className = 'bible-share-label';
-        shareLabel.textContent = 'Imagem';
-        let shareFormat = '3:4';
-        const formatThreeByFour = createButton('bible-share-format is-selected', '3:4', () => setShareFormat('3:4'));
-        const formatNineBySixteen = createButton('bible-share-format', '9:16', () => setShareFormat('9:16'));
-        const shareButton = createButton('bible-share-verse', 'Compartilhar imagem', () => shareVerseImage(details, shareFormat, shareButton));
+        shareLabel.textContent = 'Imagem 3:4';
+        const shareButton = createButton('bible-share-verse', 'Compartilhar imagem', () => shareVerseImage(details, shareButton));
 
-        function setShareFormat(format) {
-            shareFormat = format;
-            formatThreeByFour.classList.toggle('is-selected', format === '3:4');
-            formatNineBySixteen.classList.toggle('is-selected', format === '9:16');
-        }
-
-        shareActions.append(shareLabel, formatThreeByFour, formatNineBySixteen, shareButton);
+        shareActions.append(shareLabel, shareButton);
         const saveButton = createButton('bible-save-note', 'Salvar anotação', () => saveVerseStudy(details, noteInput.value, saveButton));
         actions.appendChild(saveButton);
         if (study?.note) {
@@ -293,18 +284,30 @@
         return lines;
     }
 
-    function createVerseImage(details, format) {
+    function loadImage(source) {
+        return new Promise((resolve, reject) => {
+            const image = new Image();
+            image.onload = () => resolve(image);
+            image.onerror = reject;
+            image.src = source;
+        });
+    }
+
+    async function createVerseImage(details) {
         const canvas = document.createElement('canvas');
-        const dimensions = format === '9:16'
-            ? { width: 1080, height: 1920 }
-            : { width: 1200, height: 1600 };
+        const dimensions = { width: 1200, height: 1600 };
         canvas.width = dimensions.width;
         canvas.height = dimensions.height;
         const context = canvas.getContext('2d');
         const padding = Math.round(dimensions.width * 0.11);
         const contentWidth = dimensions.width - (padding * 2);
 
-        context.fillStyle = '#0d302f';
+        const background = await loadImage('assets/fundo_versiculo/fundo_azul.png');
+        const scale = Math.max(dimensions.width / background.width, dimensions.height / background.height);
+        const backgroundWidth = background.width * scale;
+        const backgroundHeight = background.height * scale;
+        context.drawImage(background, (dimensions.width - backgroundWidth) / 2, (dimensions.height - backgroundHeight) / 2, backgroundWidth, backgroundHeight);
+        context.fillStyle = 'rgba(3, 19, 35, 0.34)';
         context.fillRect(0, 0, dimensions.width, dimensions.height);
         context.fillStyle = '#d4af35';
         context.fillRect(padding, padding, 12, dimensions.height - (padding * 2));
@@ -312,23 +315,24 @@
         context.lineWidth = 2;
         context.strokeRect(padding + 36, padding, dimensions.width - (padding * 2) - 36, dimensions.height - (padding * 2));
 
-        let fontSize = format === '9:16' ? 66 : 70;
+        let fontSize = 70;
         let lines = [];
+        const lineHeight = 1.55;
         const maxTextHeight = dimensions.height * 0.48;
         do {
             context.font = `${fontSize}px Georgia, serif`;
             lines = wrapCanvasText(context, details.text, contentWidth - 168);
-            if ((lines.length * fontSize * 1.35) <= maxTextHeight || fontSize <= 38) break;
+            if ((lines.length * fontSize * lineHeight) <= maxTextHeight || fontSize <= 38) break;
             fontSize -= 4;
         } while (fontSize > 38);
 
-        const textHeight = lines.length * fontSize * 1.35;
+        const textHeight = lines.length * fontSize * lineHeight;
         const textStart = Math.round((dimensions.height - textHeight) / 2);
         context.fillStyle = '#ffffff';
         context.font = `${fontSize}px Georgia, serif`;
         context.textBaseline = 'top';
         lines.forEach((line, index) => {
-            context.fillText(line, padding + 120, textStart + (index * fontSize * 1.35));
+            context.fillText(line, padding + 120, textStart + (index * fontSize * lineHeight));
         });
 
         context.fillStyle = '#f2d778';
@@ -340,11 +344,11 @@
         return canvas;
     }
 
-    async function shareVerseImage(details, format, shareButton) {
+    async function shareVerseImage(details, shareButton) {
         try {
             shareButton.disabled = true;
             shareButton.textContent = 'Preparando imagem...';
-            const canvas = createVerseImage(details, format);
+            const canvas = await createVerseImage(details);
             const data = canvas.toDataURL('image/png');
             const binary = atob(data.split(',')[1]);
             const bytes = new Uint8Array(binary.length);
