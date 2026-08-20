@@ -233,12 +233,29 @@
         noteInput.value = study?.note || '';
         const actions = document.createElement('div');
         actions.className = 'bible-editor-actions';
+        const shareActions = document.createElement('div');
+        shareActions.className = 'bible-share-actions';
+        const shareLabel = document.createElement('span');
+        shareLabel.className = 'bible-share-label';
+        shareLabel.textContent = 'Imagem';
+        let shareFormat = '3:4';
+        const formatThreeByFour = createButton('bible-share-format is-selected', '3:4', () => setShareFormat('3:4'));
+        const formatNineBySixteen = createButton('bible-share-format', '9:16', () => setShareFormat('9:16'));
+        const shareButton = createButton('bible-share-verse', 'Compartilhar imagem', () => shareVerseImage(details, shareFormat, shareButton));
+
+        function setShareFormat(format) {
+            shareFormat = format;
+            formatThreeByFour.classList.toggle('is-selected', format === '3:4');
+            formatNineBySixteen.classList.toggle('is-selected', format === '9:16');
+        }
+
+        shareActions.append(shareLabel, formatThreeByFour, formatNineBySixteen, shareButton);
         const saveButton = createButton('bible-save-note', 'Salvar anotação', () => saveVerseStudy(details, noteInput.value, saveButton));
         actions.appendChild(saveButton);
         if (study?.note) {
             actions.appendChild(createButton('bible-delete-note', 'Apagar anotação', () => deleteVerseStudy(details)));
         }
-        editor.append(heading, label, noteInput, actions);
+        editor.append(heading, label, noteInput, shareActions, actions);
         const verseNumber = selectedBookData.chapters[selectedChapter].verses[selectedVerse].verse;
         document.getElementById(`versiculo-${verseNumber}`).after(editor);
     }
@@ -256,6 +273,105 @@
         button.textContent = label;
         button.addEventListener('click', onClick);
         return button;
+    }
+
+    function wrapCanvasText(context, value, maxWidth) {
+        const words = String(value).trim().split(/\s+/);
+        const lines = [];
+        let line = '';
+
+        words.forEach((word) => {
+            const candidate = line ? `${line} ${word}` : word;
+            if (line && context.measureText(candidate).width > maxWidth) {
+                lines.push(line);
+                line = word;
+            } else {
+                line = candidate;
+            }
+        });
+        if (line) lines.push(line);
+        return lines;
+    }
+
+    function createVerseImage(details, format) {
+        const canvas = document.createElement('canvas');
+        const dimensions = format === '9:16'
+            ? { width: 1080, height: 1920 }
+            : { width: 1200, height: 1600 };
+        canvas.width = dimensions.width;
+        canvas.height = dimensions.height;
+        const context = canvas.getContext('2d');
+        const padding = Math.round(dimensions.width * 0.11);
+        const contentWidth = dimensions.width - (padding * 2);
+
+        context.fillStyle = '#0d302f';
+        context.fillRect(0, 0, dimensions.width, dimensions.height);
+        context.fillStyle = '#d4af35';
+        context.fillRect(padding, padding, 12, dimensions.height - (padding * 2));
+        context.strokeStyle = 'rgba(255, 255, 255, 0.22)';
+        context.lineWidth = 2;
+        context.strokeRect(padding + 36, padding, dimensions.width - (padding * 2) - 36, dimensions.height - (padding * 2));
+
+        let fontSize = format === '9:16' ? 66 : 70;
+        let lines = [];
+        const maxTextHeight = dimensions.height * 0.48;
+        do {
+            context.font = `${fontSize}px Georgia, serif`;
+            lines = wrapCanvasText(context, details.text, contentWidth - 72);
+            if ((lines.length * fontSize * 1.35) <= maxTextHeight || fontSize <= 38) break;
+            fontSize -= 4;
+        } while (fontSize > 38);
+
+        const textHeight = lines.length * fontSize * 1.35;
+        const textStart = Math.round((dimensions.height - textHeight) / 2);
+        context.fillStyle = '#ffffff';
+        context.font = `${fontSize}px Georgia, serif`;
+        context.textBaseline = 'top';
+        lines.forEach((line, index) => {
+            context.fillText(line, padding + 72, textStart + (index * fontSize * 1.35));
+        });
+
+        context.fillStyle = '#f2d778';
+        context.font = '700 36px Poppins, sans-serif';
+        context.fillText(details.reference, padding + 72, dimensions.height - padding - 112);
+        context.fillStyle = 'rgba(255, 255, 255, 0.72)';
+        context.font = '500 24px Poppins, sans-serif';
+        context.fillText(`Bíblia ${details.version.toUpperCase()}  |  AdoraPlay`, padding + 72, dimensions.height - padding - 58);
+        return canvas;
+    }
+
+    async function shareVerseImage(details, format, shareButton) {
+        try {
+            shareButton.disabled = true;
+            shareButton.textContent = 'Preparando imagem...';
+            const canvas = createVerseImage(details, format);
+            const data = canvas.toDataURL('image/png');
+            const binary = atob(data.split(',')[1]);
+            const bytes = new Uint8Array(binary.length);
+            for (let index = 0; index < binary.length; index += 1) bytes[index] = binary.charCodeAt(index);
+            const file = new File([bytes], `versiculo-${details.bookAbbrev}-${details.chapter}-${details.verse}.png`, { type: 'image/png' });
+
+            if (navigator.canShare?.({ files: [file] })) {
+                await navigator.share({
+                    title: details.reference,
+                    text: details.text,
+                    files: [file]
+                });
+            } else {
+                const link = document.createElement('a');
+                link.href = data;
+                link.download = file.name;
+                link.click();
+            }
+        } catch (error) {
+            if (error.name !== 'AbortError') {
+                console.warn('Não foi possível compartilhar o versículo:', error);
+                window.alert('Não foi possível preparar a imagem do versículo.');
+            }
+        } finally {
+            shareButton.disabled = false;
+            shareButton.textContent = 'Compartilhar imagem';
+        }
     }
 
     function formatAbbreviation(abbreviation) {
