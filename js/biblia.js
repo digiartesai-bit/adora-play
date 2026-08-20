@@ -45,20 +45,32 @@
         }
     }
 
-    async function sendToBibleApi(path, data) {
+    async function requestBibleApi(path, method = 'GET', data = null) {
         const user = getGoogleUser();
-        if (!user?.google_id) return false;
+        if (!user?.google_id) throw new Error('Entre com sua conta Google para sincronizar a Bíblia.');
 
-        const response = await fetch(`${apiUrl}${path}`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ google_id: user.google_id, ...data })
-        });
+        const url = new URL(`${apiUrl}${path}`);
+        const options = {
+            method,
+            headers: { 'Content-Type': 'application/json' }
+        };
+
+        if (method === 'GET') {
+            url.searchParams.set('google_id', user.google_id);
+        } else {
+            options.body = JSON.stringify({ google_id: user.google_id, ...data });
+        }
+
+        const response = await fetch(url, options);
         if (!response.ok) {
             const result = await response.json().catch(() => null);
             throw new Error(result?.error || `HTTP ${response.status}`);
         }
-        return true;
+        return response.json().catch(() => null);
+    }
+
+    function sendToBibleApi(path, data) {
+        return requestBibleApi(path, 'POST', data);
     }
 
     function getSavedStudies() {
@@ -77,7 +89,7 @@
     function getVerseKey(verseIndex = selectedVerse) {
         const chapter = selectedBookData.chapters[selectedChapter];
         const verse = chapter.verses[verseIndex];
-        return `${selectedVersion}:${selectedBook.abbrev}:${chapter.chapter}:${verse.verse}`;
+        return `${selectedBook.abbrev}:${chapter.chapter}:${verse.verse}`;
     }
 
     function getVerseDetails(verseIndex = selectedVerse) {
@@ -103,6 +115,38 @@
             chapter: Number(study.chapter || parts[hasVersion ? 2 : 1]),
             verse: Number(study.verse || parts[hasVersion ? 3 : 2])
         };
+    }
+
+    async function loadRemoteStudies() {
+        const remoteStudies = await requestBibleApi('/api/anotacoes');
+        const studies = {};
+
+        remoteStudies.forEach((remoteStudy) => {
+            const book = books.find((item) => item.name === remoteStudy.livro);
+            const chapter = Number(remoteStudy.capitulo);
+            const verse = Number(remoteStudy.versiculo);
+            if (!book || !Number.isInteger(chapter) || !Number.isInteger(verse)) return;
+
+            const key = `${book.abbrev}:${chapter}:${verse}`;
+            studies[key] = {
+                id: remoteStudy.id,
+                key,
+                reference: `${book.name} ${chapter}:${verse}`,
+                text: remoteStudy.texto || '',
+                bookAbbrev: book.abbrev,
+                chapter,
+                verse,
+                version: selectedVersion,
+                highlighted: true,
+                note: remoteStudy.texto || '',
+                updatedAt: remoteStudy.criado_em
+            };
+        });
+
+        saveStudies(studies);
+        updateVerseStyles();
+        if (!notesPanel.hidden) renderNotes();
+        if (selectedVerse !== null) showSelectedVerseStudy();
     }
 
     function renderNotes() {
@@ -173,7 +217,7 @@
         const closeButton = createButton('bible-inline-close', '×', closeVerseStudy);
         closeButton.setAttribute('aria-label', 'Fechar anotação');
         closeButton.title = 'Fechar anotação';
-        const markButton = createButton('bible-mark-button', '', () => toggleVerseHighlight(details));
+        const markButton = createButton('bible-mark-button', '', () => toggleVerseHighlight(details, markButton));
         markButton.classList.toggle('is-marked', Boolean(study?.highlighted));
         markButton.textContent = study?.highlighted ? 'Desmarcar versículo' : 'Marcar versículo';
         const headingActions = document.createElement('div');
@@ -352,16 +396,27 @@
         document.getElementById(`versiculo-${selectedBookData.chapters[selectedChapter].verses[verseIndex].verse}`).scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
 
-    function toggleVerseHighlight(details) {
+    async function toggleVerseHighlight(details, markButton) {
         const studies = getSavedStudies();
-        const study = studies[details.key] || { ...details, note: '' };
-        study.highlighted = !study.highlighted;
-        study.updatedAt = new Date().toISOString();
-        if (study.highlighted || study.note) studies[details.key] = study;
-        else delete studies[details.key];
-        saveStudies(studies);
-        updateVerseStyles();
-        showSelectedVerseStudy();
+        const study = studies[details.key];
+        try {
+            markButton.disabled = true;
+            if (study?.id) {
+                await requestBibleApi('/api/anotacoes', 'DELETE', { id: study.id });
+            } else {
+                await sendToBibleApi('/api/anotacoes', {
+                    livro: selectedBook.name,
+                    capitulo: details.chapter,
+                    versiculo: details.verse,
+                    texto: ''
+                });
+            }
+            await loadRemoteStudies();
+        } catch (error) {
+            console.warn('Não foi possível alterar a marcação:', error.message);
+            window.alert(`Não foi possível alterar a marcação no Cloudflare: ${error.message}`);
+            markButton.disabled = false;
+        }
     }
 
     async function saveVerseStudy(details, note, saveButton) {
@@ -383,12 +438,17 @@
         try {
             saveButton.disabled = true;
             saveButton.textContent = 'Salvando...';
-            await sendToBibleApi('/api/anotacoes', {
-                livro: selectedBook.name,
-                capitulo: details.chapter,
-                versiculo: details.verse,
-                texto: study.note
-            });
+            if (study.id) {
+                await requestBibleApi('/api/anotacoes', 'PUT', { id: study.id, texto: study.note });
+            } else {
+                await sendToBibleApi('/api/anotacoes', {
+                    livro: selectedBook.name,
+                    capitulo: details.chapter,
+                    versiculo: details.verse,
+                    texto: study.note
+                });
+            }
+            await loadRemoteStudies();
             closeVerseStudy();
         } catch (error) {
             console.warn('Não foi possível salvar a anotação:', error.message);
@@ -398,12 +458,19 @@
         }
     }
 
-    function deleteVerseStudy(details) {
+    async function deleteVerseStudy(details) {
         const studies = getSavedStudies();
-        delete studies[details.key];
-        saveStudies(studies);
-        updateVerseStyles();
-        closeVerseStudy();
+        const study = studies[details.key];
+        if (!study?.id) return;
+
+        try {
+            await requestBibleApi('/api/anotacoes', 'DELETE', { id: study.id });
+            await loadRemoteStudies();
+            closeVerseStudy();
+        } catch (error) {
+            console.warn('Não foi possível apagar a anotação:', error.message);
+            window.alert(`Não foi possível apagar a anotação no Cloudflare: ${error.message}`);
+        }
     }
 
     async function openSavedStudy(study) {
@@ -463,7 +530,10 @@
         librarySection.style.display = 'none';
         section.style.display = 'grid';
         setBibleVersion(selectedVersion)
-            .then(showBooks)
+            .then(async () => {
+                if (getGoogleUser()?.google_id) await loadRemoteStudies();
+                showBooks();
+            })
             .catch((error) => {
                 console.error(error);
                 subtitle.textContent = 'Não foi possível carregar a versão bíblica selecionada.';
@@ -492,5 +562,13 @@
         }
     });
     steps.notes.addEventListener('click', showNotes);
+    window.addEventListener('adoraplay:login', () => {
+        loadRemoteStudies().catch((error) => console.warn('Não foi possível carregar as anotações:', error.message));
+    });
+    window.addEventListener('adoraplay:logout', () => {
+        saveStudies({});
+        updateVerseStyles();
+        if (!notesPanel.hidden) renderNotes();
+    });
     renderBooks();
 }());
