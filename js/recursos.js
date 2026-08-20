@@ -155,7 +155,7 @@ function compartilharMusicaAtual() {
     const idMusica = musicaAtual?.id;
     if (!tituloCompleto || idMusica === undefined || idMusica === null) return;
 
-    const baseUrl = "https://adoraplay.com.br/";
+    const baseUrl = "https://digiartesai-bit.github.io/adora-play/";
     const urlAppComMusica = `${baseUrl}?id=${encodeURIComponent(String(idMusica))}`;
     const textoMensagem = `Ouça "${tituloCompleto}" no AdoraPlay! 🎶`;
 
@@ -206,16 +206,14 @@ window.renderizarFavoritosHorizontais = function() {
 
     const listaDeMusicas = window.musicas || window.playlist || [];
 
-    favoritos.forEach((musica) => {
-        let indexReal = listaDeMusicas.findIndex(m => m.audio === musica.audio);
-        if (indexReal === -1) indexReal = 0;
+    favoritos.forEach((musica, indexFavorito) => {
 
         const capaMusica = typeof window.obterCapaMusica === "function"
             ? window.obterCapaMusica(musica)
             : (musica.capa_musica || musica.capa || "assets/icons/album.svg");
 
         containerFavoritos.innerHTML += `
-        <div class="favorito-card" onclick="tocar(${indexReal})">
+        <div class="favorito-card" onclick="window.tocarFavoritoPorIndice(${indexFavorito})">
             <img src="${capaMusica}" onerror="this.src='assets/icons/album.svg'" alt="${musica.titulo}">
             <div class="favorito-card-info">
                 <strong>${musica.titulo}</strong>
