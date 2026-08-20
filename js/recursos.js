@@ -155,9 +155,8 @@ function compartilharMusicaAtual() {
     const idMusica = musicaAtual?.id;
     if (!tituloCompleto || idMusica === undefined || idMusica === null) return;
 
-     // const baseUrl = "https://adoraplay-api.digiartesai.workers.dev/compartilhar";
-    const baseUrl = "https://share.adoraplay.com.br/compartilhar"; 
-    const urlAppComMusica = `${baseUrl}?id=${encodeURIComponent(String(idMusica))}`;
+    const baseUrl = "https://share.adoraplay.com.br/compartilhar";
+    const urlAppComMusica = `${baseUrl}?id=${encodeURIComponent(String(idMusica))}&v=${Date.now()}`;
     const textoMensagem = `Ouça "${tituloCompleto}" no AdoraPlay! 🎶`;
 
     const abrirWhatsAppComoFallback = () => {
@@ -178,6 +177,7 @@ function compartilharMusicaAtual() {
         abrirWhatsAppComoFallback();
     }
 }
+
 // ==========================================================================
 // RECURSO 3: EXIBIR E ATUALIZAR FAVORITOS (TOTALMENTE AUTÔNOMO)
 // ==========================================================================
