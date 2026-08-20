@@ -317,7 +317,7 @@
         const maxTextHeight = dimensions.height * 0.48;
         do {
             context.font = `${fontSize}px Georgia, serif`;
-            lines = wrapCanvasText(context, details.text, contentWidth - 72);
+            lines = wrapCanvasText(context, details.text, contentWidth - 168);
             if ((lines.length * fontSize * 1.35) <= maxTextHeight || fontSize <= 38) break;
             fontSize -= 4;
         } while (fontSize > 38);
@@ -328,15 +328,15 @@
         context.font = `${fontSize}px Georgia, serif`;
         context.textBaseline = 'top';
         lines.forEach((line, index) => {
-            context.fillText(line, padding + 72, textStart + (index * fontSize * 1.35));
+            context.fillText(line, padding + 120, textStart + (index * fontSize * 1.35));
         });
 
         context.fillStyle = '#f2d778';
         context.font = '700 36px Poppins, sans-serif';
-        context.fillText(details.reference, padding + 72, dimensions.height - padding - 112);
+        context.fillText(details.reference, padding + 120, dimensions.height - padding - 112);
         context.fillStyle = 'rgba(255, 255, 255, 0.72)';
         context.font = '500 24px Poppins, sans-serif';
-        context.fillText(`Bíblia ${details.version.toUpperCase()}  |  AdoraPlay`, padding + 72, dimensions.height - padding - 58);
+        context.fillText(`Bíblia ${details.version.toUpperCase()}  |  AdoraPlay`, padding + 120, dimensions.height - padding - 58);
         return canvas;
     }
 
@@ -352,11 +352,7 @@
             const file = new File([bytes], `versiculo-${details.bookAbbrev}-${details.chapter}-${details.verse}.png`, { type: 'image/png' });
 
             if (navigator.canShare?.({ files: [file] })) {
-                await navigator.share({
-                    title: details.reference,
-                    text: details.text,
-                    files: [file]
-                });
+                await navigator.share({ files: [file] });
             } else {
                 const link = document.createElement('a');
                 link.href = data;
