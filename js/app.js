@@ -314,16 +314,15 @@ function renderizarFavoritosVisiveis() {
     if (!favoritosVisiveis) return;
     const favoritos = window.obterFavoritos ? window.obterFavoritos() : [];
     favoritosVisiveis.innerHTML = '';
-    favoritos.slice(0, 4).forEach(musica => {
-        const idx = encontrarIndiceDaMusica(musica);
-        favoritosVisiveis.innerHTML += criarCardFavoritoCompacto(musica, idx);
+    favoritos.slice(0, 4).forEach((musica, indexFavorito) => {
+        favoritosVisiveis.innerHTML += criarCardFavoritoCompacto(musica, indexFavorito);
     });
 }
 
-function criarCardFavoritoCompacto(musica, index) {
+function criarCardFavoritoCompacto(musica, indexFavorito) {
     const capa = musica.capa_musica || 'assets/icons/album.svg';
     return `
-        <article class="favorito-card-compact" onclick="tocar(${index})">
+        <article class="favorito-card-compact" onclick="window.tocarFavoritoPorIndice(${indexFavorito})">
             <div class="card-cover-wrap">
                 <img src="${capa}" alt="${musica.titulo}" onerror="this.src='assets/icons/album.svg'">
             </div>
@@ -331,7 +330,7 @@ function criarCardFavoritoCompacto(musica, index) {
                 <strong>${musica.titulo}</strong>
                 <small>${musica.artista}</small>
             </div>
-            <button class="card-play" onclick="event.stopPropagation(); tocar(${index})" aria-label="Reproduzir ${musica.titulo}" title="Reproduzir">
+            <button class="card-play" onclick="event.stopPropagation(); window.tocarFavoritoPorIndice(${indexFavorito})" aria-label="Reproduzir ${musica.titulo}" title="Reproduzir">
                 <img src="assets/icons/play.svg" alt="">
             </button>
         </article>
@@ -426,15 +425,20 @@ function renderizarBiblioteca() {
     libraryGrid.innerHTML = lista.length ? lista.map((musica) => {
         const chaveMusica = obterChaveMusica(musica);
         const ehFavorita = favoritoPorChave.has(chaveMusica);
+        const indiceMusica = musicas.findIndex(m => m.audio === musica.audio);
+        const indiceFavorito = favoritos.findIndex(m => obterChaveMusica(m) === chaveMusica);
+        const acaoTocar = bibliotecaSomenteFavoritos
+            ? `window.tocarFavoritoPorIndice(${indiceFavorito})`
+            : `tocar(${indiceMusica})`;
         return `
-            <article class="library-item" onclick="tocar(${musicas.findIndex(m => m.audio === musica.audio)})">
+            <article class="library-item" onclick="${acaoTocar}">
                 <img src="${musica.capa_musica || 'assets/icons/album.svg'}" alt="${musica.titulo}" onerror="this.src='assets/icons/album.svg'">
                 <div>
                     <strong>${musica.titulo}</strong>
                     <small>${musica.artista}</small>
                 </div>
                 <div class="library-actions">
-                    <button class="library-play" onclick="event.stopPropagation(); tocar(${musicas.findIndex(m => m.audio === musica.audio)})" aria-label="Reproduzir ${musica.titulo}" title="Reproduzir">
+                    <button class="library-play" onclick="event.stopPropagation(); ${acaoTocar}" aria-label="Reproduzir ${musica.titulo}" title="Reproduzir">
                         <img src="assets/icons/play.svg" alt="">
                     </button>
                     <button class="library-favorite ${ehFavorita ? 'is-favorited' : ''}" onclick="event.stopPropagation(); alternarFavoritoBiblioteca(${musicas.findIndex(m => m.audio === musica.audio)})" aria-label="Favoritar ${musica.titulo}" title="Favoritar">
