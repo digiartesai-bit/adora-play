@@ -97,6 +97,14 @@ function obterFavoritos() {
     return [...favoritos];
 }
 
+function tocarFavoritoPorIndice(indice) {
+    const filaFavoritos = favoritos.filter((musica) => musica?.audio);
+    if (indice < 0 || indice >= filaFavoritos.length) return;
+
+    carregarPlaylist(filaFavoritos);
+    tocar(indice);
+}
+
 function normalizarTextoMusica(valor) {
     return String(valor || '')
         .normalize('NFD')
@@ -234,6 +242,7 @@ async function alternarFavoritoDaMusica(musica) {
 
 window.obterFavoritos = obterFavoritos;
 window.carregarFavoritos = carregarFavoritos;
+window.tocarFavoritoPorIndice = tocarFavoritoPorIndice;
 window.addEventListener('adoraplay:login', () => {
     carregarFavoritos().catch((erro) => console.warn("Falha ao carregar favoritos:", erro.message));
 });
