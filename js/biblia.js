@@ -235,7 +235,7 @@
         actions.className = 'bible-editor-actions';
         const saveButton = createButton('bible-save-note', 'Salvar anotação', () => saveVerseStudy(details, noteInput.value, saveButton));
         actions.appendChild(saveButton);
-        if (study) {
+        if (study?.note) {
             actions.appendChild(createButton('bible-delete-note', 'Apagar anotação', () => deleteVerseStudy(details)));
         }
         editor.append(heading, label, noteInput, actions);
@@ -427,27 +427,16 @@
         }
 
         const studies = getSavedStudies();
-        const study = studies[details.key] || { ...details };
-        study.highlighted = true;
-        study.note = noteText;
-        study.updatedAt = new Date().toISOString();
-        studies[details.key] = study;
-        saveStudies(studies);
-        updateVerseStyles();
+        const study = studies[details.key];
+        if (!study?.id) {
+            window.alert('Marque o versículo antes de salvar uma anotação.');
+            return;
+        }
 
         try {
             saveButton.disabled = true;
             saveButton.textContent = 'Salvando...';
-            if (study.id) {
-                await requestBibleApi('/api/anotacoes', 'PUT', { id: study.id, texto: study.note });
-            } else {
-                await sendToBibleApi('/api/anotacoes', {
-                    livro: selectedBook.name,
-                    capitulo: details.chapter,
-                    versiculo: details.verse,
-                    texto: study.note
-                });
-            }
+            await requestBibleApi('/api/anotacoes', 'PUT', { id: study.id, texto: noteText });
             await loadRemoteStudies();
             closeVerseStudy();
         } catch (error) {
@@ -461,12 +450,11 @@
     async function deleteVerseStudy(details) {
         const studies = getSavedStudies();
         const study = studies[details.key];
-        if (!study?.id) return;
+        if (!study?.id || !study.note) return;
 
         try {
-            await requestBibleApi('/api/anotacoes', 'DELETE', { id: study.id });
+            await requestBibleApi('/api/anotacoes', 'PUT', { id: study.id, texto: '' });
             await loadRemoteStudies();
-            closeVerseStudy();
         } catch (error) {
             console.warn('Não foi possível apagar a anotação:', error.message);
             window.alert(`Não foi possível apagar a anotação no Cloudflare: ${error.message}`);
