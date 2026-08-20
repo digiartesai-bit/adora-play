@@ -349,10 +349,6 @@
         notesPanel.hidden = true;
         subtitle.textContent = `${selectedVersion.toUpperCase()}: ${selectedBook.name} ${chapter.chapter} possui ${verses.length} versículos.`;
         setStep('verse');
-        sendToBibleApi('/api/marcacoes', {
-            livro: selectedBook.name,
-            capitulo: chapter.chapter
-        }).catch((error) => console.warn('Não foi possível salvar a marcação de leitura:', error.message));
     }
 
     function renderChapter(verses) {
