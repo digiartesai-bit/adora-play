@@ -302,7 +302,7 @@
         const padding = Math.round(dimensions.width * 0.11);
         const contentWidth = dimensions.width - (padding * 2);
 
-        const background = await loadImage('assets/fundo_versiculo/fundo_azul.png');
+        const background = await loadImage('assets/fundo_versiculo/fazul.png');
         const scale = Math.max(dimensions.width / background.width, dimensions.height / background.height);
         const backgroundWidth = background.width * scale;
         const backgroundHeight = background.height * scale;
