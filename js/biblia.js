@@ -337,10 +337,10 @@
 
         context.fillStyle = '#f2d778';
         context.font = '700 36px Poppins, sans-serif';
-        context.fillText(details.reference, padding + 120, dimensions.height - padding - 112);
+        context.fillText(details.reference, padding + 120, dimensions.height - padding - 148);
         context.fillStyle = 'rgba(255, 255, 255, 0.72)';
         context.font = '500 24px Poppins, sans-serif';
-        context.fillText(`Bíblia ${details.version.toUpperCase()}  |  AdoraPlay`, padding + 120, dimensions.height - padding - 58);
+        context.fillText(`Bíblia ${details.version.toUpperCase()}  |  AdoraPlay`, padding + 120, dimensions.height - padding - 94);
         return canvas;
     }
 
