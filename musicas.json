@@ -1597,6 +1597,17 @@
     "capa_musica": "assets/capamusica/trabalhadores.png",
     "categoria": "Infantil",
     "data_cadastro": "2026-08-24"
+  },
+  {
+    "id": 146,
+    "titulo": "Trombetas",
+    "artista": "AdoraPlay",
+    "album": "HipHop",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/hap/Trombetas.mp3",
+    "capa": "assets/capas/hiphop.png",
+    "capa_musica": "assets/capamusica/trombetas.jpg",
+    "categoria": "HipHop",
+    "data_cadastro": "2026-08-24"
   }
 ]
 
