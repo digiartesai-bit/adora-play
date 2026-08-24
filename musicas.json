@@ -1575,6 +1575,17 @@
     "capa_musica": "assets/capamusica/painuncafalha.jpg",
     "categoria": "Celebracao",
     "data_cadastro": "2026-08-09"
+  },
+  {
+    "id": 144,
+    "titulo": "Todo Fôlego Louve",
+    "artista": "AdoraPlay",
+    "album": "Bossa",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/bossa/Todo_folego_louve.mp3",
+    "capa": "assets/capas/bossa.jpg",
+    "capa_musica": "assets/capamusica/todofolego.jpg",
+    "categoria": "Bossa",
+    "data_cadastro": "2026-08-24"
   }
 ]
 
