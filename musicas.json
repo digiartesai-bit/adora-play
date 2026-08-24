@@ -1586,6 +1586,17 @@
     "capa_musica": "assets/capamusica/todofolego.jpg",
     "categoria": "Bossa",
     "data_cadastro": "2026-08-24"
+  },
+  {
+    "id": 145,
+    "titulo": "Trabalhadores do Senhor",
+    "artista": "AdoraPlay",
+    "album": "Infantil",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/infantil/Trabalhadores_do_Senhor.mp3",
+    "capa": "assets/capas/Infantil.png",
+    "capa_musica": "assets/capamusica/trabalhadores.png",
+    "categoria": "Infantil",
+    "data_cadastro": "2026-08-24"
   }
 ]
 
