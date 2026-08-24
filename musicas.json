@@ -1618,7 +1618,18 @@
     "capa": "assets/capas/celebracao.jpg",
     "capa_musica": "assets/capamusica/tronogloria.png",
     "categoria": "Celebracao",
-    "data_cadastro": "2026-07-19"
+    "data_cadastro": "2026-08-24"
+  },
+  {
+    "id": 148,
+    "titulo": "Roda Dentro de Roda",
+    "artista": "AdoraPlay",
+    "album": "Celebração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/celebracao/roda_dentro_de_roda.mp3",
+    "capa": "assets/capas/celebracao.jpg",
+    "capa_musica": "assets/capamusica/rodadentroroda.jpg",
+    "categoria": "Celebracao",
+    "data_cadastro": "2026-08-24"
   }
 ]
 
