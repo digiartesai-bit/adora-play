@@ -1652,6 +1652,17 @@
     "capa_musica": "assets/capamusica/tronocinza.jpg",
     "categoria": "Louvor",
     "data_cadastro": "2026-08-26"
+  },
+  {
+    "id": 151,
+    "titulo": "Tu és Exaltado",
+    "artista": "AdoraPlay",
+    "album": "Adoração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/adoracao/Tu_es_Exaltado.mp3",
+    "capa": "assets/capas/adoracao.jpg",
+    "capa_musica": "assets/capamusica/tuexaltado.jpg",
+    "categoria": "Adoracao",
+    "data_cadastro": "2026-08-26"
   }
 ]
 
