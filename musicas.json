@@ -1663,6 +1663,17 @@
     "capa_musica": "assets/capamusica/tuexaltado.jpg",
     "categoria": "Adoracao",
     "data_cadastro": "2026-08-26"
+  },
+  {
+    "id": 152,
+    "titulo": "Tua Graça me Sustenta",
+    "artista": "AdoraPlay",
+    "album": "Louvor",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/louvor/Tua_graca_me_sustenta.mp3",
+    "capa": "assets/capas/louvor.png",
+    "capa_musica": "assets/capamusica/tuagraca.jpg",
+    "categoria": "Louvor",
+    "data_cadastro": "2026-08-26"
   }
 ]
 
