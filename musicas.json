@@ -1674,6 +1674,17 @@
     "capa_musica": "assets/capamusica/tuagraca.jpg",
     "categoria": "Louvor",
     "data_cadastro": "2026-08-26"
+  },
+  {
+    "id": 153,
+    "titulo": "Volta pra Mim",
+    "artista": "AdoraPlay",
+    "album": "Louvor",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/louvor/Volta_pra_mim.mp3",
+    "capa": "assets/capas/louvor.png",
+    "capa_musica": "assets/capamusica/voltapramim.png",
+    "categoria": "Louvor",
+    "data_cadastro": "2026-08-30"
   }
 ]
 
