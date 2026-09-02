@@ -17,6 +17,11 @@
     }
 
     async function loadDailyVerse() {
+        if (!card || !reference || !verseText || !reflection || !shareButton) {
+            console.warn('O cartão do versículo do dia não está disponível nesta página.');
+            return;
+        }
+
         try {
             const response = await fetch('diarios/diario.json');
             if (!response.ok) throw new Error('Não foi possível carregar o diário.');
