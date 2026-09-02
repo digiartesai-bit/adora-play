@@ -50,25 +50,36 @@
 
         let fontSize = 70;
         let lines = [];
+        const reflection = details.reflection ? `Reflita: ${details.reflection}` : '';
+        let reflectionLines = [];
         do {
             context.font = `${fontSize}px Georgia, serif`;
             lines = wrapText(context, details.text, dimensions.width - (padding * 2) - 168);
-            if ((lines.length * fontSize * 1.55) <= dimensions.height * 0.48 || fontSize <= 38) break;
+            context.font = '500 32px Poppins, sans-serif';
+            reflectionLines = reflection ? wrapText(context, reflection, dimensions.width - (padding * 2) - 168) : [];
+            const contentHeight = (lines.length * fontSize * 1.55) + (reflectionLines.length * 50) + (reflection ? 36 : 0);
+            if (contentHeight <= dimensions.height * 0.48 || fontSize <= 38) break;
             fontSize -= 4;
         } while (fontSize > 38);
 
-        const textHeight = lines.length * fontSize * 1.55;
+        const textHeight = (lines.length * fontSize * 1.55) + (reflectionLines.length * 50) + (reflection ? 36 : 0);
         const textStart = Math.round((dimensions.height - textHeight) / 2);
         context.fillStyle = '#ffffff';
         context.font = `${fontSize}px Georgia, serif`;
         context.textBaseline = 'top';
         lines.forEach((line, index) => context.fillText(line, padding + 120, textStart + (index * fontSize * 1.55)));
+        if (reflection) {
+            const reflectionStart = textStart + (lines.length * fontSize * 1.55) + 36;
+            context.fillStyle = 'rgba(255, 255, 255, 0.84)';
+            context.font = '500 32px Poppins, sans-serif';
+            reflectionLines.forEach((line, index) => context.fillText(line, padding + 120, reflectionStart + (index * 50)));
+        }
         context.fillStyle = '#f2d778';
         context.font = '700 36px Poppins, sans-serif';
         context.fillText(details.reference, padding + 120, dimensions.height - padding - 148);
         context.fillStyle = 'rgba(255, 255, 255, 0.72)';
         context.font = '500 24px Poppins, sans-serif';
-        context.fillText(`Bíblia ${details.version.toUpperCase()}  |  AdoraPlay`, padding + 120, dimensions.height - padding - 94);
+        context.fillText(details.footer ?? `Bíblia ${details.version.toUpperCase()}  |  AdoraPlay`, padding + 120, dimensions.height - padding - 94);
         return canvas;
     }
 
