@@ -1,0 +1,1742 @@
+{
+  "version": "NVA",
+  "translation": "PorNVA: Bíblia Nova Versão de Acesso Livre",
+  "books": [
+    {
+      "abbrev": "ap",
+      "name": "Apocalipse",
+      "chapters": [
+        {
+          "chapter": 1,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Esta é a revelação de Jesus Cristo, a qual Deus Lhe deu para mostrar a Seus servos o que deve ocorrer em breve. Ele a fez conhecida ao enviar Seu anjo a Seu servo João."
+            },
+            {
+              "verse": 2,
+              "text": "João testificou de tudo o que viu sobre a palavra de Deus e o testemunho dado sobre Jesus Cristo."
+            },
+            {
+              "verse": 3,
+              "text": "Bem-aventurado é aquele que lê e aqueles que ouvem as palavras desta profecia e obedecem ao que está escrito nelas, porque o tempo está próximo."
+            },
+            {
+              "verse": 4,
+              "text": "João, às sete igrejas na Ásia: Que a graça seja convosco e a paz Daquele que é, e que era, e que há de vir, e dos sete Espíritos que estão diante do Seu trono,"
+            },
+            {
+              "verse": 5,
+              "text": "e de Jesus Cristo, que é a Testemunha Fiel, o Primogênito dentre os mortos, e o Soberano dos reis da terra. Àquele que nos ama e nos libertou de nossos pecados por Seu sangue,"
+            },
+            {
+              "verse": 6,
+              "text": "e fez de nós um reino, sacerdotes para Seu Deus e Pai, a Ele seja a glória e o poder para sempre e sempre. Amém."
+            },
+            {
+              "verse": 7,
+              "text": "Eis que Ele está vindo com as nuvens e todo olho O verá, incluindo aqueles que O traspassaram. E todas as tribos da Terra se lamentarão sobre Ele. Sim, amém."
+            },
+            {
+              "verse": 8,
+              "text": "\"Eu sou o Alfa e o Ômega,\" diz o Senhor Deus, \"Aquele que é, e que era, e que há de vir, o Todo-Poderoso.\""
+            },
+            {
+              "verse": 9,
+              "text": "Eu, João, vosso irmão, aquele que compartilha convosco nos sofrimentos e no reino, paciente na perseverança em Jesus, estava na ilha chamada Patmos, por causa da palavra de Deus e do testemunho de Jesus."
+            },
+            {
+              "verse": 10,
+              "text": "Eu estava no Espírito, no dia do Senhor. Atrás de mim, eu ouvi uma grande voz como uma trombeta"
+            },
+            {
+              "verse": 11,
+              "text": "que dizia: \"Escreve em um livro o que vês, e envia-o às sete igrejas: Éfeso, Esmirna, Pérgamo, Tiatira, Sardes, Filadélfia e Laodiceia\"."
+            },
+            {
+              "verse": 12,
+              "text": "Virei-me para ver de quem era a voz que estava falando comigo e, quando me virei, vi sete candeeiros de ouro."
+            },
+            {
+              "verse": 13,
+              "text": "No meio dos candeeiros, havia um como o Filho do Homem que vestia um longo manto, que Lhe chegava aos pés, e um cinto de ouro ao redor de Seu peito."
+            },
+            {
+              "verse": 14,
+              "text": "Sua cabeça e cabelo eram brancos como a lã e tão brancos como a neve; e Seus olhos, como chamas de fogo."
+            },
+            {
+              "verse": 15,
+              "text": "Seus pés, como de bronze polido, bronze esse que foi refinado na fornalha; e Sua voz, como o som de muitas águas."
+            },
+            {
+              "verse": 16,
+              "text": "Na Sua mão direita, Ele tinha sete estrelas e, saindo de Sua boca, havia uma espada afiada de dois gumes. Sua face era brilhante como o Sol no seu mais forte brilho."
+            },
+            {
+              "verse": 17,
+              "text": "Quando O vi, caí aos Seus pés como um homem morto. Ele colocou Sua mão direita sobre mim e disse: \"Não tenhas medo. Eu sou o Primeiro e o Último,"
+            },
+            {
+              "verse": 18,
+              "text": "Aquele que vive. Estive morto, mas eis que Eu vivo para sempre! E tenho as chaves da morte e do Hades."
+            },
+            {
+              "verse": 19,
+              "text": "Portanto escreve o que tens visto, o que é agora, e o que acontecerá depois disso."
+            },
+            {
+              "verse": 20,
+              "text": "Quanto ao mistério sobre as sete estrelas que viste em Minha mão direita e os sete candeeiros de ouro, as sete estrelas são os anjos das sete igrejas, e os sete candeeiros são as sete igrejas."
+            }
+          ]
+        },
+        {
+          "chapter": 2,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Ao anjo da igreja em Éfeso escreve: 'Estas são as palavras Daquele que sustenta as sete estrelas em Sua mão direita e que anda entre os sete candeeiros de ouro:"
+            },
+            {
+              "verse": 2,
+              "text": "Eu conheço o que tens feito, o teu trabalho árduo e a tua perseverança com paciência. Sei que não podes tolerar homens maus e que puseste à prova aqueles que afirmam por si mesmos serem apóstolos, mas não o são, e os achaste falsos."
+            },
+            {
+              "verse": 3,
+              "text": "Eu sei que tens perseverado com paciência, tens passado por muitas provações por causa do Meu nome e não tens desfalecido."
+            },
+            {
+              "verse": 4,
+              "text": "Porém tenho contra ti que deixaste o teu primeiro amor."
+            },
+            {
+              "verse": 5,
+              "text": "Portanto lembra-te de onde caíste, arrepende-te e pratica as primeiras obras. A não ser que te arrependas, virei a ti e removerei o teu candeeiro do seu lugar."
+            },
+            {
+              "verse": 6,
+              "text": "Tens, contudo, que odeias as obras dos Nicolaítas, as quais Eu também odeio."
+            },
+            {
+              "verse": 7,
+              "text": "Quem tem ouvidos ouça o que o Espírito diz às igrejas. Ao que vencer, Eu lhe darei o direito de comer da Árvore da Vida, que está no Paraíso de Deus'\"."
+            },
+            {
+              "verse": 8,
+              "text": "\"Ao anjo da igreja em Esmirna escreve: 'Estas são as palavras Daquele que é o primeiro e o último, que morreu e tornou a viver:"
+            },
+            {
+              "verse": 9,
+              "text": "Eu conheço tuas aflições e tua pobreza (mas tu és rico) e a blasfêmia daqueles que se dizem judeus, mas não são. Eles são sinagoga de Satanás."
+            },
+            {
+              "verse": 10,
+              "text": "Não temas o que estás prestes a sofrer. Eis que o diabo está para lançar alguns de vós na prisão, para serdes provados, e sofrereis por dez dias. Sê fiel até à morte, e Eu te darei a coroa da vida'."
+            },
+            {
+              "verse": 11,
+              "text": "Quem tem ouvidos ouça o que o Espírito diz às igrejas. Aquele que vencer não sofrerá o dano da segunda morte'\"."
+            },
+            {
+              "verse": 12,
+              "text": "\"Ao anjo da igreja em Pérgamo escreve: 'Estas são as palavras Daquele que tem a espada afiada de dois gumes:"
+            },
+            {
+              "verse": 13,
+              "text": "Eu sei onde tu habitas, que é onde está o trono de Satanás. Ainda assim, tu permaneces fiel ao Meu nome. Sei que tu não negaste a tua fé em Mim, mesmo nos dias de Antipas, minha fiel testemunha, que foi morto entre vós, onde Satanás habita."
+            },
+            {
+              "verse": 14,
+              "text": "Porém tenho algumas coisas contra ti: Alguns que seguem firmemente as doutrinas de Balaão, que ensinou Balaque a armar uma cilada diante dos filhos de Israel, para que eles comessem coisas sacrificadas a ídolos e cometessem imoralidade sexual."
+            },
+            {
+              "verse": 15,
+              "text": "Do mesmo modo, tens alguns que seguem firmemente os ensinos dos Nicolaítas."
+            },
+            {
+              "verse": 16,
+              "text": "Portanto, arrepende-te! Caso contrário, Eu virei a ti sem demora e contra eles farei guerra, com a espada da minha boca."
+            },
+            {
+              "verse": 17,
+              "text": "Quem tem ouvidos ouça o que o Espírito diz às igrejas. Àquele que vencer Eu darei do maná escondido e lhe darei uma pedra branca com um novo nome escrito nela, um nome que ninguém conhece, exceto aquele que a recebe'\"."
+            },
+            {
+              "verse": 18,
+              "text": "\"Ao anjo da igreja em Tiatira escreve: 'Estas são as palavras do Filho de Deus, que tem olhos como chama de fogo e os pés como bronze polido:"
+            },
+            {
+              "verse": 19,
+              "text": "Eu sei o que tens feito, o teu amor, a tua fé, o teu serviço e a tua perseverança. E conheço os teus últimos feitos que são mais numerosos do que os primeiros."
+            },
+            {
+              "verse": 20,
+              "text": "Porém tenho isto contra ti: Toleras a mulher Jezabel, a que se diz profetiza. Pelos seus ensinos, seduz meus servos a cometerem imoralidade sexual e a comerem alimentos sacrificados aos ídolos."
+            },
+            {
+              "verse": 21,
+              "text": "E dei-lhe tempo para que se arrependesse, mas ela não quer se arrepender de sua imoralidade."
+            },
+            {
+              "verse": 22,
+              "text": "Eis que Eu a lançarei em um leito de enfermidade, bem como em grande aflição os que cometeram adultério com ela, a menos que se arrependam das suas obras."
+            },
+            {
+              "verse": 23,
+              "text": "Matarei seus filhos, e todas as igrejas saberão que Eu Sou Aquele que sonda os pensamentos e os corações. Darei a cada um conforme as suas obras."
+            },
+            {
+              "verse": 24,
+              "text": "Aos demais em Tiatira, a todos os que não seguem o ensino dela e não conhecem as chamadas coisas profundas de Satanás, Eu vos digo: 'Não lançarei sobre vós mais nenhum fardo'."
+            },
+            {
+              "verse": 25,
+              "text": "Porém deveis permanecer firmes até que Eu venha."
+            },
+            {
+              "verse": 26,
+              "text": "Àquele que vencer e guardar as minhas obras até o fim Eu lhe darei autoridade sobre as nações."
+            },
+            {
+              "verse": 27,
+              "text": "Ele as governará com cetro de ferro e, como vasos de barro, as quebrará em pedaços."
+            },
+            {
+              "verse": 28,
+              "text": "Assim como Eu tenho recebido autoridade de meu Pai, Eu também lhes darei a estrela da manhã."
+            },
+            {
+              "verse": 29,
+              "text": "Aquele que tem ouvidos ouça o que o Espírito diz às igrejas'\"."
+            }
+          ]
+        },
+        {
+          "chapter": 3,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "\"Ao anjo da igreja em Sardes escreve: 'Estas são as palavras Daquele que tem os sete Espíritos de Deus e as sete estrelas: Conheço as tuas obras: passas por vivo e estás morto."
+            },
+            {
+              "verse": 2,
+              "text": "Sê vigilante e confirma o restante que estava para morrer, porque não tenho achado as tuas obras íntegras diante do meu Deus."
+            },
+            {
+              "verse": 3,
+              "text": "Portanto lembra-te do que tens recebido e ouvido; obedece e arrepende-te. E, se não vigiares, Eu virei como um ladrão, e tu não saberás a que horas virei contra ti."
+            },
+            {
+              "verse": 4,
+              "text": "Mas há alguns nomes em Sardes que não sujaram suas vestes. Eles andarão comigo vestidos de branco, pois são dignos."
+            },
+            {
+              "verse": 5,
+              "text": "Aquele que vencer será vestido de vestes brancas e jamais apagarei seu nome do Livro da Vida. Eu confessarei seu nome diante de Meu Pai e diante dos Seus anjos."
+            },
+            {
+              "verse": 6,
+              "text": "Quem tem ouvidos ouça o que o Espírito diz às igrejas'\"."
+            },
+            {
+              "verse": 7,
+              "text": "\"Ao anjo da igreja em Filadélfia escreve: 'Estas são as palavras Daquele que é Santo e Verdadeiro. Ele tem as chaves de Davi, O que abre e ninguém fecha, e O que fecha e ninguém pode abrir."
+            },
+            {
+              "verse": 8,
+              "text": "Eu sei o que tu tens feito. Vê que Eu tenho posto diante de ti uma porta aberta que ninguém pode fechar. Sei que tens pouca força. Mesmo assim, tens obedecido a Minha palavra e não tens negado o Meu nome."
+            },
+            {
+              "verse": 9,
+              "text": "Eis que farei aos que pertencem à sinagoga de Satanás, aqueles que se dizem judeus e não são, mas mentem, farei que venham e se curvem diante dos teus pés e saberão que Eu te amei."
+            },
+            {
+              "verse": 10,
+              "text": "Uma vez que tens obedecido à minha ordem de suportar pacientemente, também te guardarei da hora da provação que virá sobre todo o mundo, para testar aqueles que vivem sobre a Terra."
+            },
+            {
+              "verse": 11,
+              "text": "Venho sem demora, conserva o que tens para que ninguém tome tua coroa."
+            },
+            {
+              "verse": 12,
+              "text": "Àquele que vencer, Eu o farei uma coluna no templo de meu Deus e ele nunca sairá dali. Escreverei nele o nome do Meu Deus, o nome da cidade do Meu Deus (a nova Jerusalém, que descerá do céu, da parte do Meu Deus) e Meu novo nome."
+            },
+            {
+              "verse": 13,
+              "text": "Quem tem ouvidos ouça o que o Espírito diz às igrejas'\"."
+            },
+            {
+              "verse": 14,
+              "text": "\"Ao anjo da igreja em Laodiceia escreve: 'Assim diz o Amém, a testemunha verdadeira e fiel, o princípio da criação de Deus."
+            },
+            {
+              "verse": 15,
+              "text": "Conheço tuas obras: não és nem frio nem quente; quem dera fosses frio ou quente!"
+            },
+            {
+              "verse": 16,
+              "text": "Assim porque tu és morno, nem quente nem frio, Eu te vomitarei da minha boca."
+            },
+            {
+              "verse": 17,
+              "text": "Porque dizes: 'Sou rico, tenho muitos bens e não necessito de coisa alguma'. E não sabes que és infeliz, miserável, pobre, cego e nu."
+            },
+            {
+              "verse": 18,
+              "text": "Aconselho-te que de Mim compres ouro refinado no fogo para que te enriqueças, vestes brancas para que não seja exposta a vergonha da tua nudez, e colírio para ungires os teus olhos, a fim de que vejas."
+            },
+            {
+              "verse": 19,
+              "text": "Corrijo e repreendo os que amo. Portanto, sê zeloso e arrepende-te."
+            },
+            {
+              "verse": 20,
+              "text": "Eis que estou à porta e bato. Se alguém ouvir Minha voz e abrir a porta, Eu entrarei em sua casa, cearei com ele e ele Comigo."
+            },
+            {
+              "verse": 21,
+              "text": "Àquele que vencer darei o direito de sentar-se Comigo em Meu trono, assim como Eu também venci e sentei-Me com Meu Pai, em Seu trono."
+            },
+            {
+              "verse": 22,
+              "text": "Quem tem ouvidos ouça o que o Espírito diz às igrejas'\"."
+            }
+          ]
+        },
+        {
+          "chapter": 4,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Depois dessas coisas, eu olhei e vi que havia uma porta aberta no céu. A primeira voz que ouvi, como voz de trombeta falando comigo, disse: \"Sobe aqui e te mostrarei o que deve acontecer depois dessas coisas\"."
+            },
+            {
+              "verse": 2,
+              "text": "Imediatamente, eu estava no Espírito e vi que havia um trono posto no céu, com alguém sentado nele."
+            },
+            {
+              "verse": 3,
+              "text": "O que estava sentado era semelhante à pedra de jaspe e sardônio. Ao redor do trono, havia um arco-íris semelhante à esmeralda."
+            },
+            {
+              "verse": 4,
+              "text": "Ao redor do trono, havia vinte e quatro tronos e, sentados neles, havia vinte e quatro anciãos. Eles vestiam roupas brancas e tinham coroas de ouro em suas cabeças."
+            },
+            {
+              "verse": 5,
+              "text": "Do trono saíam relâmpagos, estrondos e barulhos de trovão. E, diante dele, sete lâmpadas queimando, que são os sete Espíritos de Deus."
+            },
+            {
+              "verse": 6,
+              "text": "E, diante do trono, havia um mar como de vidro semelhante ao cristal. No meio e ao redor do trono, havia quatro seres viventes, cheios de olhos tanto na frente como atrás."
+            },
+            {
+              "verse": 7,
+              "text": "O primeiro ser vivente era como um leão; o segundo ser vivente, como um bezerro; o terceiro ser vivente tinha a face como a de um homem; e o quarto ser vivente era como uma águia voando."
+            },
+            {
+              "verse": 8,
+              "text": "Os quatro seres viventes tinham seis asas e eram cheios de olhos em cima e embaixo. De dia e de noite, eles não paravam de dizer: \"Santo, Santo, Santo é o Senhor Deus Todo-Poderoso, o que era, e que é, e o que há de vir\"."
+            },
+            {
+              "verse": 9,
+              "text": "E sempre que os seres viventes davam glória, honra e gratidão ao que estava sentado no trono, ao que vive por toda eternidade,"
+            },
+            {
+              "verse": 10,
+              "text": "os vinte e quatro anciãos prostravam-se diante do que estava sentado no trono. Eles adoravam ao que vive para todo sempre e lançavam suas coroas diante do trono, dizendo:"
+            },
+            {
+              "verse": 11,
+              "text": "\"Digno és, nosso Senhor e nosso Deus, de receber a glória e a honra e o poder. Por Ti todas as coisas foram criadas e, por Tua vontade, existiram e foram criadas\"."
+            }
+          ]
+        },
+        {
+          "chapter": 5,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Então vi, na mão direita Daquele que estava sentado no trono, um rolo escrito por dentro e por fora. Este estava selado com sete selos."
+            },
+            {
+              "verse": 2,
+              "text": "Vi um anjo poderoso proclamando em alta voz: \"Quem é digno de abrir o rolo e de romper os seus selos?\""
+            },
+            {
+              "verse": 3,
+              "text": "Ninguém no céu, nem na terra, nem debaixo da terra, estava apto para abrir ou ler o rolo."
+            },
+            {
+              "verse": 4,
+              "text": "Eu chorava amargamente porque ninguém foi encontrado digno de abrir nem de ler o rolo."
+            },
+            {
+              "verse": 5,
+              "text": "Mas um dos anciãos me disse: \"Não chores. Eis que o Leão da Tribo de Judá, a Raiz de Davi, venceu para abrir o rolo e seus sete selos\"."
+            },
+            {
+              "verse": 6,
+              "text": "Vi um Cordeiro em pé, entre o trono e os quatro seres viventes e entre os anciãos. O Cordeiro parecia ter sido morto. Ele tinha sete chifres e sete olhos. Estes são os espíritos de Deus enviados sobre toda a terra."
+            },
+            {
+              "verse": 7,
+              "text": "Ele veio e tomou o rolo da mão direita Daquele que estava sentado no trono."
+            },
+            {
+              "verse": 8,
+              "text": "Quando o Cordeiro tomou o rolo, os quatro seres viventes e os vinte e quatro anciãos prostraram-se diante Dele. Cada um deles tinha uma harpa e uma taça de ouro cheia de incenso, que são as orações dos santos."
+            },
+            {
+              "verse": 9,
+              "text": "Eles cantavam uma nova canção: \"Tu és digno de tomar o rolo e de abrir os seus selos, porque foste morto e, com o Teu sangue, compraste para Deus pessoas de toda tribo, língua, povo e nação."
+            },
+            {
+              "verse": 10,
+              "text": "Tu os constituíste reino e sacerdotes para servirem o nosso Deus, e eles reinarão sobre a terra\"."
+            },
+            {
+              "verse": 11,
+              "text": "Então olhei e ouvi o som de muitos anjos, ao redor do trono, dos seres viventes e dos anciãos, cujo número total era de milhares de milhares e de milhões de milhões."
+            },
+            {
+              "verse": 12,
+              "text": "Eles falavam em alta voz: \"Digno é o Cordeiro que foi morto de receber poder, riqueza, sabedoria, força, honra, glória e louvor\"."
+            },
+            {
+              "verse": 13,
+              "text": "Ouvi toda criatura que estava no céu, na terra, debaixo da terra e no mar - tudo o que neles há - dizendo: \"Àquele que está sentado no trono e ao Cordeiro seja o louvor, a honra, a glória e o poder para reinar para sempre\"."
+            },
+            {
+              "verse": 14,
+              "text": "Os quatro seres viventes disseram: \"Amém!\" E os anciãos prostraram-se e O adoraram."
+            }
+          ]
+        },
+        {
+          "chapter": 6,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E vi quando o Cordeiro abriu um dos sete selos, e ouvi um dos quatro seres viventes dizendo com voz que soava como de trovão: \"Vem!\""
+            },
+            {
+              "verse": 2,
+              "text": "E vi, e eis um cavalo branco, seu cavaleiro segurava um arco, e a ele foi dada uma coroa. E saiu como um vencedor para vencer."
+            },
+            {
+              "verse": 3,
+              "text": "Quando o Cordeiro abriu o segundo selo, ouvi o segundo ser vivente dizendo: \"Vem!\""
+            },
+            {
+              "verse": 4,
+              "text": "E saiu outro cavalo, vermelho, e ao seu cavaleiro foi dada permissão para tirar a paz da terra, para que os homens se matassem uns aos outros, e lhe foi dada uma grande espada."
+            },
+            {
+              "verse": 5,
+              "text": "Quando o Cordeiro abriu o terceiro selo, ouvi o terceiro ser vivente dizendo: \"Vem!\" E vi, e eis um cavalo preto e o seu cavaleiro com uma balança em sua mão."
+            },
+            {
+              "verse": 6,
+              "text": "Ouvi o que parecia ser uma voz no meio dos quatro seres viventes, dizendo: \"Uma medida de trigo por um denário, e três medidas de cevada por um denário; e não danifiques o azeite e o vinho\"."
+            },
+            {
+              "verse": 7,
+              "text": "Quando o Cordeiro abriu o quarto selo, ouvi a voz do quarto ser vivente dizendo: \"Vem!\""
+            },
+            {
+              "verse": 8,
+              "text": "E vi, e eis um cavalo amarelo, e o seu cavaleiro foi chamado de Morte, e o Hades o seguia. A eles foi dada autoridade sobre um quarto da terra para matar com espada, com fome, com mortandade, e com os animais selvagens da terra."
+            },
+            {
+              "verse": 9,
+              "text": "Quando o Cordeiro abriu o quinto selo, eu vi debaixo do altar as almas daqueles que foram mortos por causa da Palavra de Deus e do testemunho que tinham."
+            },
+            {
+              "verse": 10,
+              "text": "Eles gritaram em alta voz: \"Até quando, Soberano, santo e verdadeiro, deixarás de julgar aqueles que vivem na terra, e de vingar nosso sangue?\""
+            },
+            {
+              "verse": 11,
+              "text": "Então, a cada um foi dada uma veste branca, e a eles foi dito que deveriam descansar por mais um pouco de tempo, até que se completasse o número dos seus conservos e seus irmãos que seriam mortos como eles."
+            },
+            {
+              "verse": 12,
+              "text": "E vi quando o Cordeiro abriu o sexto selo, e houve um grande terremoto. O sol se tornou escuro como vestes de luto, e a lua se tornou toda como sangue."
+            },
+            {
+              "verse": 13,
+              "text": "E as estrelas do céu caíram na terra, como a figueira deixa cair seus figos verdes quando sacudida por um vento forte."
+            },
+            {
+              "verse": 14,
+              "text": "O céu foi recolhido como um pergaminho que estava sendo enrolado, e todos os montes e ilhas foram movidos do seu lugar."
+            },
+            {
+              "verse": 15,
+              "text": "Então os reis da terra, os grandes, os generais, os ricos, os poderosos, todo escravo e livre esconderam-se nas cavernas e nas pedras dos montes."
+            },
+            {
+              "verse": 16,
+              "text": "E dizem aos montes e às pedras: \"Caí sobre nós! Escondei-nos da face Daquele que está sentado no trono, e da ira do Cordeiro."
+            },
+            {
+              "verse": 17,
+              "text": "Pois o grande dia da ira Deles é chegado, e quem poderá permanecer de pé?\""
+            }
+          ]
+        },
+        {
+          "chapter": 7,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Depois disso, vi quatro anjos em pé nos quatro cantos da terra, retendo os quatro ventos da terra para que o vento não soprasse sobre a terra, nem sobre o mar, nem contra árvore alguma."
+            },
+            {
+              "verse": 2,
+              "text": "E vi outro anjo subindo do lado do nascente do sol, tendo o selo do Deus vivo. E clamou com alta voz aos quatro anjos que tinham recebido autoridade para danificar a terra e o mar, dizendo:"
+            },
+            {
+              "verse": 3,
+              "text": "\"Não danifiqueis a terra, nem o mar, nem as árvores até selarmos as testas dos servos do nosso Deus\"."
+            },
+            {
+              "verse": 4,
+              "text": "Eu escutei o número daqueles que foram selados, que era cento e quarenta e quatro mil, de todas as tribos dos filhos de Israel:"
+            },
+            {
+              "verse": 5,
+              "text": "da tribo de Judá doze mil foram selados; da tribo de Rúben, doze mil; da tribo de Gade, doze mil;"
+            },
+            {
+              "verse": 6,
+              "text": "da tribo de Aser, doze mil; da tribo de Naftali, doze mil; da tribo de Manassés, doze mil;"
+            },
+            {
+              "verse": 7,
+              "text": "da tribo de Simeão, doze mil; da tribo de Levi, doze mil; da tribo de Issacar, doze mil;"
+            },
+            {
+              "verse": 8,
+              "text": "da tribo de Zebulom, doze mil; da tribo de José, doze mil; da tribo de Benjamim doze mil foram selados."
+            },
+            {
+              "verse": 9,
+              "text": "Depois dessas coisas, eis que vi uma grande multidão que ninguém podia contar de todas as nações, tribos, povos e línguas, de pé, diante do trono e diante do Cordeiro, usando vestes brancas, com folhas de palmeiras nas suas mãos,"
+            },
+            {
+              "verse": 10,
+              "text": "e clamavam em alta voz, dizendo: \"A salvação pertence ao nosso Deus, que está sentado no trono, e ao Cordeiro!\""
+            },
+            {
+              "verse": 11,
+              "text": "Todos os anjos estavam de pé, em volta do trono, dos anciãos e dos quatro seres viventes, e se prostraram sobre seus rostos diante do trono, e adoraram a Deus"
+            },
+            {
+              "verse": 12,
+              "text": "dizendo: \"Amém! O louvor, a glória, a sabedoria, a ação de graças, a honra, o poder e a força pertencem ao nosso Deus, pelos séculos dos séculos! Amém\"!"
+            },
+            {
+              "verse": 13,
+              "text": "E um dos anciãos tomou a palavra, dizendo-me: \"Estes, usando vestes brancas, quem são e de onde vieram?\""
+            },
+            {
+              "verse": 14,
+              "text": "E eu lhe disse: \"Meu senhor, tu sabes\". E ele me disse: \"Estes são os que vieram da grande tribulação e lavaram suas vestes e as tornaram brancas no sangue do Cordeiro\"."
+            },
+            {
+              "verse": 15,
+              "text": "Por isso estão diante do trono de Deus e O servem dia e noite no Seu templo. O que está sentado no trono estenderá Sua tenda sobre eles."
+            },
+            {
+              "verse": 16,
+              "text": "Não terão mais fome, nem terão mais sede, nem jamais cairá sobre eles o sol, nem calor algum."
+            },
+            {
+              "verse": 17,
+              "text": "Pois o Cordeiro no meio do trono será o pastor deles, e Ele irá guiá-los às fontes de águas da vida, e Deus enxugará toda lágrima de seus olhos.\""
+            }
+          ]
+        },
+        {
+          "chapter": 8,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E, quando o Cordeiro abriu o sétimo selo, houve um silêncio no céu, por cerca de meia hora."
+            },
+            {
+              "verse": 2,
+              "text": "Então vi os sete anjos que estão em pé diante de Deus, e lhes foram dadas sete trombetas."
+            },
+            {
+              "verse": 3,
+              "text": "E outro anjo veio segurando um incensário de ouro e ficou em pé junto ao altar. Muito incenso foi-lhe dado para que oferecesse com as orações de todos os santos, sobre o altar dourado diante do trono."
+            },
+            {
+              "verse": 4,
+              "text": "E da mão do anjo subiu, diante de Deus, a fumaça do incenso juntamente com as orações dos santos."
+            },
+            {
+              "verse": 5,
+              "text": "O anjo tomou depois o incensário e o encheu com fogo do altar e o jogou na terra; e houve trovões, clamores, relâmpagos e um terremoto."
+            },
+            {
+              "verse": 6,
+              "text": "E os sete anjos que tinham as sete trombetas prepararam-se para tocá-las."
+            },
+            {
+              "verse": 7,
+              "text": "O primeiro anjo tocou a sua trombeta, e houve na terra granizo e fogo misturados com sangue: uma terça parte da terra foi queimada, a terça parte das árvores foi queimada, e toda erva verde foi queimada."
+            },
+            {
+              "verse": 8,
+              "text": "O segundo anjo tocou a trombeta, e algo como uma grande montanha ardendo em chamas foi lançado ao mar. E a terça parte do mar se tornou sangue,"
+            },
+            {
+              "verse": 9,
+              "text": "e a terça parte dos seres vivos no mar morreu, e a terça parte das embarcações foi destruída."
+            },
+            {
+              "verse": 10,
+              "text": "E o terceiro anjo tocou a trombeta, e uma grande estrela caiu do céu, queimando como uma tocha, sobre uma terça parte dos rios e das fontes de água."
+            },
+            {
+              "verse": 11,
+              "text": "O nome da estrela é Absinto. A terça parte das águas se tornou em absinto, e muitas pessoas morreram por causa das águas que se tornaram amargas."
+            },
+            {
+              "verse": 12,
+              "text": "O quarto anjo tocou a sua trombeta, e a terça parte do sol foi ferida, bem como a terça parte da lua e a terça parte das estrelas. Assim a terça parte deles se tornou escura; a terça parte, tanto do dia como da noite, não brilharam."
+            },
+            {
+              "verse": 13,
+              "text": "E vi e ouvi uma águia voando no meio do céu, clamando em alta voz: \"Ai, ai, ai daqueles que habitam na terra, por causa dos toques restantes de trombeta que ainda estão para ser soados pelos três anjos\"."
+            }
+          ]
+        },
+        {
+          "chapter": 9,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Então o quinto anjo tocou a trombeta, e vi uma estrela do céu que havia caído na terra. E foi-lhe dada a chave do poço do abismo."
+            },
+            {
+              "verse": 2,
+              "text": "E abriu o poço do abismo, e subiu fumaça do poço como a fumaça de uma grande fornalha e, com a fumaça do poço, escureceu-se o sol e o ar."
+            },
+            {
+              "verse": 3,
+              "text": "E da fumaça saíram gafanhotos para a terra, e foi-lhes dado poder como o que têm os escorpiões da terra."
+            },
+            {
+              "verse": 4,
+              "text": "A eles foi ordenado que não danificassem a erva, nem qualquer coisa verde ou árvore, mas somente as pessoas que não tivessem na testa o sinal de Deus."
+            },
+            {
+              "verse": 5,
+              "text": "E não lhes foi permitido matar essas pessoas, mas atormentá-las durante cinco meses. Seu tormento seria como o de uma picada de escorpião quando fere alguém."
+            },
+            {
+              "verse": 6,
+              "text": "Naqueles dias, as pessoas buscarão a morte e não a encontrarão e desejarão a morte, mas a morte fugirá delas."
+            },
+            {
+              "verse": 7,
+              "text": "O aspecto dos gafanhotos era semelhante ao de cavalos preparados para a guerra. Em cima de suas cabeças, havia algo como que coroas de ouro, e os seus rostos pareciam com rostos de pessoas."
+            },
+            {
+              "verse": 8,
+              "text": "E eles tinham cabelos como cabelos de mulheres, e seus dentes eram como dentes de leões;"
+            },
+            {
+              "verse": 9,
+              "text": "tinham couraças como armaduras de ferro, e o som de suas asas era como o som de muitas carruagens que correm para a batalha."
+            },
+            {
+              "verse": 10,
+              "text": "Tinham caudas com ferrões como de escorpiões. Em suas caudas havia poder para causar dano às pessoas por cinco meses."
+            },
+            {
+              "verse": 11,
+              "text": "E tinham como rei sobre eles o anjo do abismo, cujo nome em hebraico era Abadom e, em grego, era Apoliom."
+            },
+            {
+              "verse": 12,
+              "text": "O primeiro ai passou; e eis que depois disso vêm ainda dois ais."
+            },
+            {
+              "verse": 13,
+              "text": "O sexto anjo tocou a trombeta, e ouvi uma voz vinda das quatro pontas do altar de ouro que se encontra diante de Deus."
+            },
+            {
+              "verse": 14,
+              "text": "A voz disse ao sexto anjo que segurava a trombeta: \"Liberte os quatro anjos que estão atados junto ao grande rio Eufrates\"."
+            },
+            {
+              "verse": 15,
+              "text": "Os quatro anjos que estavam preparados para a hora, o dia, o mês e o ano, foram soltos para matar um terço dos seres humanos."
+            },
+            {
+              "verse": 16,
+              "text": "O número de cavaleiros do exército era de duzentos milhões. Eu ouvi seu número."
+            },
+            {
+              "verse": 17,
+              "text": "Assim, nessa visão, os cavalos e os cavaleiros tinham couraças vermelhas como fogo, azuis como jacinto e amarelas como enxofre. As cabeças dos cavalos eram como cabeças de leão e, de suas bocas saía fogo, fumaça e enxofre."
+            },
+            {
+              "verse": 18,
+              "text": "A terça parte da população foi morta por estas três pragas: o fogo, a fumaça e o enxofre que saíram da boca deles,"
+            },
+            {
+              "verse": 19,
+              "text": "pois o poder dos cavalos estava nas suas bocas e nas suas caudas, porquanto as suas caudas eram como de serpentes; e tinham cabeças com as quais causavam dano ao povo."
+            },
+            {
+              "verse": 20,
+              "text": "Os demais seres humanos, aqueles que não foram mortos por essas pragas, não se arrependeram das obras de suas mãos, nem deixaram de adorar os demônios e os ídolos de ouro, de prata, de bronze, de pedra e de madeira, que não podem ver, nem ouvir e nem andar."
+            },
+            {
+              "verse": 21,
+              "text": "E não se arrependeram de seus homicidios, nem de suas feitiçarias, nem de suas imoralidades e nem de seus furtos."
+            }
+          ]
+        },
+        {
+          "chapter": 10,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Então eu vi outro anjo poderoso descendo do céu. Ele estava envolto em uma nuvem, e tinha um arco-íris sobre a sua cabeça. Sua face era como o sol e seus pés como pilares de fogo."
+            },
+            {
+              "verse": 2,
+              "text": "Ele tinha em sua mão um pequeno rolo que estava aberto, e pôs seu pé direito sobre o mar e seu pé esquerdo sobre a terra,"
+            },
+            {
+              "verse": 3,
+              "text": "E bradou em alta voz como um rugido de leão. E, quando ele bradou, os sete trovões falaram."
+            },
+            {
+              "verse": 4,
+              "text": "Logo que falaram os sete trovões, eu estava prestes a escrever, mas ouvi uma voz do céu, dizendo: \"Guarda em segredo as coisas que os sete trovões falaram, e não as escrevas\"."
+            },
+            {
+              "verse": 5,
+              "text": "Depois disso, o anjo que vi sobre o mar e sobre a terra ergueu sua mão direita ao céu"
+            },
+            {
+              "verse": 6,
+              "text": "e jurou por Aquele que vive para todo o sempre, o qual criou o céu e tudo o que nele há, a terra e tudo o que nela há, o mar e tudo que nele existe: \"Já não haverá mais demora,"
+            },
+            {
+              "verse": 7,
+              "text": "mas, no dia em que o sétimo anjo estiver prestes a tocar sua trombeta, então o mistério de Deus será cumprido, como anunciou aos seus servos, os profetas\"."
+            },
+            {
+              "verse": 8,
+              "text": "E a voz que ouvi do céu falou novamente comigo, dizendo: \"Vai, toma o livro que se acha aberto na mão do anjo que está em pé sobre o mar e sobre a terra\"."
+            },
+            {
+              "verse": 9,
+              "text": "Então fui até o anjo, dizendo-lhe para dar-me o livrinho. Ele me disse: \"Toma-o e come-o; e ele será amargo ao teu estômago, mas em tua boca será tão doce quanto mel\"."
+            },
+            {
+              "verse": 10,
+              "text": "Tomei o livrinho da mão do anjo e o comi. Era tão doce quanto o mel em minha boca; mas, depois de comê-lo, meu estômago ficou amargo."
+            },
+            {
+              "verse": 11,
+              "text": "Então me disseram: \"É necessário que profetizes novamente a muitos povos, nações, línguas e reis\"."
+            }
+          ]
+        },
+        {
+          "chapter": 11,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Deram-me um caniço para usar como uma vara de medir. Disseram-me: \"Levanta-te e mede o templo de Deus, o altar e os que nele adoram."
+            },
+            {
+              "verse": 2,
+              "text": "Entretanto não meças o pátio externo do templo, pois ele foi dado aos gentios. Eles pisarão a cidade santa por quarenta e dois meses."
+            },
+            {
+              "verse": 3,
+              "text": "Eu darei às minhas duas testemunhas autoridade para profetizar, vestidas de saco, por mil duzentos e sessenta dias\"."
+            },
+            {
+              "verse": 4,
+              "text": "Essas testemunhas são as duas oliveiras e os dois candeiros que estão diante do Senhor da terra."
+            },
+            {
+              "verse": 5,
+              "text": "Se alguém tenta lhes causar dano, fogo sairá de suas bocas, devorando os seus inimigos. Qualquer um que desejar lhes causar dano deverá ser morto dessa maneira."
+            },
+            {
+              "verse": 6,
+              "text": "Essas testemunhas têm autoridade para fechar o céu, para que não chova durante o tempo em que elas profetizarem. Elas têm poder para transformar as águas em sangue, e também para ferir a terra com toda sorte de pragas, quantas vezes desejarem."
+            },
+            {
+              "verse": 7,
+              "text": "Quando elas concluírem seu testemunho, a besta que sobe do abismo e das profundezas guerreará contra elas. Ela as conquistará e as matará."
+            },
+            {
+              "verse": 8,
+              "text": "Seus corpos ficarão estendidos nas ruas da grande cidade (a qual é chamada simbolicamente de Sodoma e Egito), onde o Senhor delas foi crucificado."
+            },
+            {
+              "verse": 9,
+              "text": "Por três dias e meio, pessoas de cada povo, tribo, língua e nação olharão para seus corpos, e não permitirão que sejam sepultados."
+            },
+            {
+              "verse": 10,
+              "text": "Os que vivem sobre a terra se alegram por causa delas, e celebram e também enviarão presentes uns aos outros, porque esses dois profetas atormentavam os habitantes da terra."
+            },
+            {
+              "verse": 11,
+              "text": "Após três dias e meio, um fôlego de vida vindo da parte de Deus entrou neles, e eles ficaram de pé. Grande temor caiu sobre todos os que presenciavam isso."
+            },
+            {
+              "verse": 12,
+              "text": "Então ouviram uma forte voz, vinda do céu, e disse-lhes: \"Vinde para cá!\" Então, eles subiram para o céu numa nuvem, enquanto seus inimigos os contemplavam."
+            },
+            {
+              "verse": 13,
+              "text": "Naquele momento, ocorreu um grande terremoto, e a décima parte da cidade foi destruída. Sete mil pessoas morreram no terremoto, e os que sobreviveram ficaram aterrorizados e deram glórias ao Deus do céu."
+            },
+            {
+              "verse": 14,
+              "text": "O segundo ai passou. Veja! O terceiro ai vem rapidamente."
+            },
+            {
+              "verse": 15,
+              "text": "O sétimo anjo soou sua trombeta e altas vozes falaram no céu, dizendo: \"O reino deste mundo tornou-se o Reino do nosso Senhor e do Seu Cristo. Ele reinará para sempre e sempre\"."
+            },
+            {
+              "verse": 16,
+              "text": "Então os vinte e quatro anciãos que estão sentados em seus tronos, na presença de Deus, prostaram-se no chão, com suas faces abaixadas, e adoraram a Deus,"
+            },
+            {
+              "verse": 17,
+              "text": "dizendo: \"Graças Te damos, Senhor Deus, Todo Poderoso, Aquele que era e que é, porque tomaste Teu grande poder e começaste a reinar."
+            },
+            {
+              "verse": 18,
+              "text": "As nações se enfureceram, mas veio Tua ira. O tempo chegou para que os mortos sejam julgados e para que Tu recompenses Teus servos, os profetas, os santos e todos aqueles que temem o Teu nome, tanto os menores quanto os poderosos. O tempo chegou para que Tu destruas todos os que têm destruído a terra\"."
+            },
+            {
+              "verse": 19,
+              "text": "Então o templo de Deus, que está no céu, foi aberto e a arca de Sua aliança foi vista dentro do templo. Houve relâmpagos, estrondos, trovões, um terremoto e uma grande chuva de granizo."
+            }
+          ]
+        },
+        {
+          "chapter": 12,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Um grande sinal foi visto no céu: uma mulher vestida com o sol e com a lua debaixo dos seus pés e uma coroa de doze estrelas na sua cabeça."
+            },
+            {
+              "verse": 2,
+              "text": "Ela estava grávida e gritava com as dores do parto, na angústia para dar à luz."
+            },
+            {
+              "verse": 3,
+              "text": "E outro sinal foi visto no céu: Eis que havia um grande dragão vermelho que tinha sete cabeças e dez chifres, e havia sete coroas nas suas cabeças."
+            },
+            {
+              "verse": 4,
+              "text": "Sua cauda arrastava um terço das estrelas no céu, lançando-as sobre a terra. O dragão ficou diante da mulher que estava para dar à luz, para que, quando ela desse à luz, ele devorasse seu filho."
+            },
+            {
+              "verse": 5,
+              "text": "Ela deu à luz um filho, um menino que governará todas as nações com um cetro de ferro. Seu filho foi arrebatado para junto de Deus e de Seu trono,"
+            },
+            {
+              "verse": 6,
+              "text": "e a mulher fugiu para o deserto, onde Deus havia preparado um lugar para ela, para que ela pudesse ser sustentada por mil duzentos e sessenta dias."
+            },
+            {
+              "verse": 7,
+              "text": "Houve então guerra no céu. Miguel e seus anjos lutaram contra o dragão; e o dragão e seus anjos revidaram."
+            },
+            {
+              "verse": 8,
+              "text": "Mas o dragão não foi forte o suficiente para vencer. Então não havia mais lugar no céu para ele e seus anjos."
+            },
+            {
+              "verse": 9,
+              "text": "O grande dragão, aquela antiga serpente chamada diabo ou Satanás, que engana o mundo inteiro, foi expulso para a terra, junto com seus anjos."
+            },
+            {
+              "verse": 10,
+              "text": "Então ouvi uma voz alta no céu: \"Agora veio a salvação, o poder, o reino do nosso Deus e a autoridade do Seu Cristo. Pois o acusador de nossos irmãos foi expulso, aquele que os acusava diante do nosso Deus dia e noite."
+            },
+            {
+              "verse": 11,
+              "text": "Eles o venceram por causa do sangue do Cordeiro e pela palavra do testemunho deles, pois eles não amaram suas vidas até à morte."
+            },
+            {
+              "verse": 12,
+              "text": "Portanto alegrai-vos, ó céus, e todos os que neles habitam. Mas ai da terra e do mar, pois o diabo desceu até vós. Ele está coberto de grande furor, pois ele sabe que tem pouco tempo\"."
+            },
+            {
+              "verse": 13,
+              "text": "Quando o dragão percebeu que havia sido lançado para a terra, ele perseguiu a mulher que havia dado à luz o menino."
+            },
+            {
+              "verse": 14,
+              "text": "Mas à mulher foram dadas as asas de uma grande águia, para que pudesse voar ao lugar preparado para ela no deserto, onde seria sustentada por um tempo, tempos, e metade de um tempo, fora da presença da serpente."
+            },
+            {
+              "verse": 15,
+              "text": "A serpente derramou água para fora de sua boca como um rio, para que pudesse causar um alagamento e arrastar a mulher de lá."
+            },
+            {
+              "verse": 16,
+              "text": "Mas a terra ajudou a mulher, abrindo sua boca e engolindo o rio que o dragão havia derramado."
+            },
+            {
+              "verse": 17,
+              "text": "Então o dragão ficou enfurecido com a mulher e foi guerrear contra o restante dos descendentes dela, aqueles que obedecem os mandamentos de Deus e mantêm o testemunho de Jesus."
+            },
+            {
+              "verse": 18,
+              "text": "Então o dragão se pôs em pé na areia do mar."
+            }
+          ]
+        },
+        {
+          "chapter": 13,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Então vi, saindo do mar, uma besta que tinha dez chifres e sete cabeças. Nos seus chifres, dez coroas, e, em cada cabeça, um nome de blasfêmia."
+            },
+            {
+              "verse": 2,
+              "text": "A besta que vi era como leopardo, mas tinha pés como os de urso, e sua boca era como de leão. O dragão deu-lhe o seu poder, seu trono e sua grande autoridade para governar."
+            },
+            {
+              "verse": 3,
+              "text": "Uma das cabeças da besta parecia ter sofrido um ferimento mortal, mas a ferida foi curada. E toda a terra maravilhou-se e seguiu a besta."
+            },
+            {
+              "verse": 4,
+              "text": "E adoraram o dragão, pois havia dado autoridade à besta. E adorou a besta, dizendo: \"Quem é semelhante à besta?\" e \"Quem pode lutar contra ela?\""
+            },
+            {
+              "verse": 5,
+              "text": "Foi dada à besta uma boca que poderia falar palavras orgulhosas e blasfêmias. Foi-lhe permitido exercer autoridade por quarenta e dois meses."
+            },
+            {
+              "verse": 6,
+              "text": "E abriu a sua boca para falar blasfêmias contra Deus: contra o Seu nome, contra o lugar em que Ele vive e contra aqueles que habitam no céu."
+            },
+            {
+              "verse": 7,
+              "text": "Foi permitido à besta guerrear contra os santos e conquistá-los. E foi-lhe dada autoridade sobre toda tribo, povo, língua e nação."
+            },
+            {
+              "verse": 8,
+              "text": "Adoraram-na todos os que habitam sobre a terra, cujos nomes não estão escritos no Livro da Vida que pertence ao Cordeiro, o qual foi morto."
+            },
+            {
+              "verse": 9,
+              "text": "Se alguém tem ouvidos, ouça."
+            },
+            {
+              "verse": 10,
+              "text": "Se alguém for levado ao cativeiro, ao cativeiro irá. Se alguém for morto à espada, com espada será morto. Eis aqui um chamado à perseverança e à fé para os santos."
+            },
+            {
+              "verse": 11,
+              "text": "Então vi outra besta saindo da terra, a qual tinha dois chifres como um cordeiro, e falava como um dragão."
+            },
+            {
+              "verse": 12,
+              "text": "Exercia toda a autoridade da primeira besta na sua presença e fazia com que a terra e seus habitantes adorassem a primeira besta, cuja ferida mortal havia sido curada."
+            },
+            {
+              "verse": 13,
+              "text": "E realizava poderosos milagres, chegando a fazer descer fogo do céu à terra, diante das pessoas."
+            },
+            {
+              "verse": 14,
+              "text": "Por causa dos sinais que lhe foram permitido fazer, ela enganava os que viviam na terra, dizendo-lhes para fazer uma imagem em honra à besta que havia sido ferida pela espada, mas que voltou à vida."
+            },
+            {
+              "verse": 15,
+              "text": "Foi-lhe dada permissão para dar fôlego à imagem da besta, para que a imagem pudesse falar e causar a morte a todos os que não adorassem a besta."
+            },
+            {
+              "verse": 16,
+              "text": "Ela forçou a todos, pequenos e grandes, ricos e pobres, livres e escravos, a receber uma marca na mão direita ou na testa,"
+            },
+            {
+              "verse": 17,
+              "text": "para que ninguém possa comprar ou vender, exceto aquele que tenha tal marca, que é o número do nome dela."
+            },
+            {
+              "verse": 18,
+              "text": "Aqui há sabedoria. Aquele que tem entendimento calcule o número da besta, pois é o número do ser humano, e o seu número é seiscentos e sessenta e seis."
+            }
+          ]
+        },
+        {
+          "chapter": 14,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E olhei e vi o Cordeiro em pé sobre o Monte Sião. Com Ele estavam os cento e quarenta e quatro mil, que tinham escritos em suas testas o nome Dele e do Seu Pai."
+            },
+            {
+              "verse": 2,
+              "text": "Ouvi uma voz do céu, um som como o barulho de muitas águas e como de um grande trovão. E a voz que eu ouvi era também como harpistas tocando suas harpas."
+            },
+            {
+              "verse": 3,
+              "text": "Eles cantavam um novo cântico diante do trono, diante dos quatros seres viventes e dos anciãos. Ninguém podia aprender o cântico, exceto os cento e quarenta e quatro mil que foram comprados da terra."
+            },
+            {
+              "verse": 4,
+              "text": "Estes são os que não se contaminaram com mulheres, porque se mantiveram sexualmente puros. São estes que seguem o Cordeiro por onde Ele for. Estes foram comprados dentre a humanidade como primícias para Deus e para o Cordeiro."
+            },
+            {
+              "verse": 5,
+              "text": "Mentira alguma foi encontrada em suas bocas; eles são irrepreensíveis."
+            },
+            {
+              "verse": 6,
+              "text": "Eu vi outro anjo voando no meio do céu, que tinha a mensagem eterna, boas novas para proclamar aos que vivem sobre a terra, a toda nação, tribo, língua e povo."
+            },
+            {
+              "verse": 7,
+              "text": "Ele proclamava em alta voz: \"Temei a Deus e dai-Lhe glória, pois a hora do Seu juízo chegou. Adorai Aquele que fez o céu, a terra, o mar e as fontes das águas\"."
+            },
+            {
+              "verse": 8,
+              "text": "Um segundo anjo o seguiu, dizendo: \"Caiu, caiu a grande Babilônia, que persuadiu todas as nações a beberem o vinho da sua paixão imoral\"."
+            },
+            {
+              "verse": 9,
+              "text": "Seguiu-os ainda um terceiro anjo, falando em alta voz: \"Se alguém adorar a besta e a sua imagem, e receber a marca na testa ou na mão,"
+            },
+            {
+              "verse": 10,
+              "text": "também beberá o vinho do furor de Deus, que foi derramado sem mistura no cálice da Sua ira. E será ainda atormentado com fogo e enxofre diante dos Seus santos anjos e diante do Cordeiro."
+            },
+            {
+              "verse": 11,
+              "text": "A fumaça do seu tormento sobe para todo o sempre; e não têm descanso, nem de dia e nem de noite, os que adoram a besta e a sua imagem, e todos os que recebem a marca do seu nome."
+            },
+            {
+              "verse": 12,
+              "text": "Aqui está a perseverança dos santos, daqueles que obedecem os mandamentos de Deus e a fé em Jesus\"."
+            },
+            {
+              "verse": 13,
+              "text": "Eu ouvi a voz do céu dizer: \"Escreve: 'Abençoados são os que morrem no Senhor\". \"Sim\", diz o Espírito: \"que eles descansem dos seus trabalhos, pois as suas obras os seguirão\"."
+            },
+            {
+              "verse": 14,
+              "text": "Olhei, e havia uma nuvem branca e, assentado sobre a nuvem, um semelhante a filho de homem. Ele tinha uma coroa de ouro em sua cabeça e uma foice afiada em sua mão."
+            },
+            {
+              "verse": 15,
+              "text": "Então outro anjo saiu do templo clamando em alta voz ao que estava assentado sobre a nuvem: \"Pega a tua foice e começa a colheita, pois o seu tempo chegou, a safra da terra está madura para a ceifa\"."
+            },
+            {
+              "verse": 16,
+              "text": "Então aquele que estava sentado nas nuvens passou sua foice pela terra, e a terra foi ceifada."
+            },
+            {
+              "verse": 17,
+              "text": "Outro anjo saiu do templo no céu, trazendo também uma foice afiada."
+            },
+            {
+              "verse": 18,
+              "text": "E saiu do altar outro anjo que tem autoridade sobre o fogo, e clamando em alta voz ao que tinha uma foice afiada: \"Pega a sua foice afiada e colhe os cachos da vinha da terra, pois as suas uvas estão maduras\"."
+            },
+            {
+              "verse": 19,
+              "text": "E o anjo passou a foice pela terra e colheu as uvas da ceifa e lançou-as no grande lagar da ira de Deus."
+            },
+            {
+              "verse": 20,
+              "text": "O lagar foi pisado fora da cidade e dele saiu sangue até à altura dos freios dos cavalos, numa extensão de mil e seissentos estádios."
+            }
+          ]
+        },
+        {
+          "chapter": 15,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Então vi no ceu outro sinal grande e maravilhoso. Havia sete anjos com sete pragas, que são as últimas, pois com elas a ira de Deus estará consumada."
+            },
+            {
+              "verse": 2,
+              "text": "Vi algo como um mar de vidro misturado com fogo. Em pé, junto ao mar, estavam aqueles que venceram a besta e a sua imagem, e o número do seu nome. Eles seguravam harpas que lhes foram dadas por Deus."
+            },
+            {
+              "verse": 3,
+              "text": "Eles cantavam o cântico de Moisés, o servo de Deus, e o cântico do Cordeiro: \"Grandes e maravilhosas são as Tuas obras, Senhor Deus, Todo Poderoso. Justos e verdadeiros são os Teus caminhos, Rei das nações."
+            },
+            {
+              "verse": 4,
+              "text": "Quem não Te temerá, Senhor, e quem não glorificará o Teu nome? Pois somente Tu és santo. Todas as nações virão e adorarão diante de Ti, pois os Teus atos de justiça foram revelados\"."
+            },
+            {
+              "verse": 5,
+              "text": "Depois dessas coisas olhei, e abriu-se no céu o templo da tenda do testemunho."
+            },
+            {
+              "verse": 6,
+              "text": "Saíram do santo lugar sete anjos com as setes pragas, vestidos com linho puro e brilhante e com faixas douradas ao redor do peito."
+            },
+            {
+              "verse": 7,
+              "text": "Um dos quatro seres viventes deu aos sete anjos sete taças douradas cheias da ira de Deus, que vive para sempre."
+            },
+            {
+              "verse": 8,
+              "text": "E o templo se encheu da fumaça da glória de Deus e do Seu poder. Ninguém podia entrar nele até que as sete pragas dos sete anjos fossem consumadas."
+            }
+          ]
+        },
+        {
+          "chapter": 16,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E ouvi uma alta voz vinda do templo, dizendo aos sete anjos: \"Ide e derramai na terra as sete taças da ira de Deus\"."
+            },
+            {
+              "verse": 2,
+              "text": "O primeiro anjo foi e derramou a sua taça sobre a terra, e úlceras malignas e perniciosas vieram sobre as pessoas que tinham a marca da besta, aquelas que adoravam a sua imagem."
+            },
+            {
+              "verse": 3,
+              "text": "O segundo anjo derramou a sua taça no mar, que se tornou em sangue, como de um morto, e todo ser vivente que havia no mar morreu."
+            },
+            {
+              "verse": 4,
+              "text": "O terceiro anjo derramou a sua taça nos rios e nas fontes de águas, e se tornaram em sangue."
+            },
+            {
+              "verse": 5,
+              "text": "Ouvi o anjo das águas dizer: \"Tu és Justo, Aquele que é e que era, o Santo, pois julgaste estas coisas."
+            },
+            {
+              "verse": 6,
+              "text": "Pois eles derramaram o sangue dos santos e dos profetas, e Tu lhes deste sangue para beber, como eles merecem\"."
+            },
+            {
+              "verse": 7,
+              "text": "Eu escutei o altar responder: \"Sim, Senhor Deus Todo-Poderoso, os Teus julgamentos são verdadeiros e justos\"."
+            },
+            {
+              "verse": 8,
+              "text": "O quarto anjo derramou a sua taça sobre o sol, e foi-lhe dada permissão para queimar os homens com fogo."
+            },
+            {
+              "verse": 9,
+              "text": "Eles foram queimados pelo terrível calor, e blasfemaram o nome de Deus, que tem poder sobre essas pragas, e não se arrependeram para Lhe darem glória."
+            },
+            {
+              "verse": 10,
+              "text": "O quinto anjo derramou a sua taça sobre o trono da besta, e escuridão cobriu o seu reino, e os homens mordiam a própria língua por causa da dor."
+            },
+            {
+              "verse": 11,
+              "text": "Eles blasfemaram contra o Deus do céu por causa das suas úlceras, e não se arrependeram pelo que haviam feito."
+            },
+            {
+              "verse": 12,
+              "text": "O sexto anjo derramou a sua taça no grande rio, o Eufrates, e sua água secou para preparar o caminho para os reis que vêm do lado do nascimento do sol."
+            },
+            {
+              "verse": 13,
+              "text": "Vi três espíritos imundos que pareciam rãs, saindo da boca do dragão, da boca da besta e da boca do falso profeta."
+            },
+            {
+              "verse": 14,
+              "text": "Pois eles são espíritos de demônios que fazem sinais miraculosos. Eles vão ao encontro dos reis de todo o mundo, a fim de ajuntá-los para a batalha do grande dia do Deus Todo-Poderoso."
+            },
+            {
+              "verse": 15,
+              "text": "(\"Eis que venho como um ladrão! Abençoado é aquele que permanece vigiando, mantendo suas vestes consigo, para que não saia nu e vejam sua vergonha\".)"
+            },
+            {
+              "verse": 16,
+              "text": "Eles se reuniram no lugar que é chamado em hebraico de Armagedom."
+            },
+            {
+              "verse": 17,
+              "text": "O sétimo anjo derramou a sua taça no ar. E então uma voz alta saiu do templo e do trono dizendo: \"Está feito!\"."
+            },
+            {
+              "verse": 18,
+              "text": "Houve relâmpagos, estrondos, trovões, e um terrível terremoto; um terremoto maior do que qualquer um que já tenha ocorrido desde que os homens estão na terra, quão grande foi esse terremoto."
+            },
+            {
+              "verse": 19,
+              "text": "A grande cidade partiu-se em três, e as cidades das nações caíram. Então Deus lembrou-Se da grande Babilônia e deu-lhe o cálice cheio do vinho feito da sua ira furiosa."
+            },
+            {
+              "verse": 20,
+              "text": "Todas as ilhas desapareceram e as montanhas não eram mais encontradas."
+            },
+            {
+              "verse": 21,
+              "text": "Grandes pedras de granizo, pesando cerca de um talento, caíram do céu sobre os homens, e eles amaldiçoaram a Deus pela praga de granizo, pois ela foi terrível."
+            }
+          ]
+        },
+        {
+          "chapter": 17,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Um dos sete anjos que têm as sete taças veio e falou comigo: \"Vem, eu te mostrarei o juízo da grande prostituta que está sentada sobre muitas águas,"
+            },
+            {
+              "verse": 2,
+              "text": "com quem os reis da terra se prostituíram e, com o vinho da sua imoralidade sexual, os habitantes ficaram bêbados\"."
+            },
+            {
+              "verse": 3,
+              "text": "O anjo me levou no espírito ao deserto, e vi uma mulher sentada sobre uma besta vermelha escarlate cheia de nomes de blasfêmias. A besta tinha sete cabeças e dez chifres."
+            },
+            {
+              "verse": 4,
+              "text": "A mulher estava vestida de púrpura e vermelho escarlate, e adornada com ouro, pedras preciosas e pérolas; estava segurando em sua mão um cálice dourado cheio de abominações e impurezas da sua imoralidade sexual."
+            },
+            {
+              "verse": 5,
+              "text": "Sobre sua testa estava escrito um nome, um mistério: \"A GRANDE BABILÔNIA, A MÃE DAS PROSTITUTAS E DAS ABOMINAÇÕES DA TERRA\"."
+            },
+            {
+              "verse": 6,
+              "text": "E vi que a mulher estava embriagada com o sangue dos santos e com o sangue dos mártires por Jesus. Quando eu a vi, eu fiquei grandemente admirado."
+            },
+            {
+              "verse": 7,
+              "text": "Mas o anjo me disse: \"Por que estás admirado? Eu vou te explicar o mistério da mulher e da besta que a carrega, a besta que tem sete cabeças e dez chifres."
+            },
+            {
+              "verse": 8,
+              "text": "A besta que viste, não existe mais, mas está para vir das profundezas do abismo e caminha para a destruição. E aqueles que vivem sobre a terra, cujos nomes não estão escritos no Livro da Vida desde a fundação do mundo, ficarão estupefatos quando eles virem a besta que existiu, não existe agora, mas está para vir."
+            },
+            {
+              "verse": 9,
+              "text": "Aqui é necessário uma mente que tem sabedoria. As sete cabeças são sete montes sobre os quais a mulher está sentada."
+            },
+            {
+              "verse": 10,
+              "text": "Elas são também sete reis. Cinco reis caíram, um existe, e outro ainda não chegou; quando ele vier, ele precisa permanecer por pouco tempo."
+            },
+            {
+              "verse": 11,
+              "text": "A besta que existiu, mas não existe agora, é ela o oitavo rei, e também um dos sete reis, e caminha para a destruição."
+            },
+            {
+              "verse": 12,
+              "text": "Os dez chifres que você viu são dez reis que ainda não receberam um reino, mas eles receberão autoridade como reis, juntamente com a besta, por uma hora."
+            },
+            {
+              "verse": 13,
+              "text": "Eles têm um só pensamento e darão seu poder e autoridade para a besta."
+            },
+            {
+              "verse": 14,
+              "text": "Farão guerra contra o Cordeiro, mas o Cordeiro os vencerá porque Ele é o Senhor dos senhores e Rei dos reis, e com Ele estão os chamados, os escolhidos, os fiéis\"."
+            },
+            {
+              "verse": 15,
+              "text": "E o anjo disse-me: \"As águas que tu viste, onde a prostituta está sentada, são povos, multidões, nações e línguas."
+            },
+            {
+              "verse": 16,
+              "text": "Os dez chifres que viste e a besta odiarão a prostituta e a deixarão desolada e nua. Eles devorarão a sua carne e a queimarão completamente com fogo."
+            },
+            {
+              "verse": 17,
+              "text": "Pois Deus colocou em seus corações o realizar Seu propósito, fazendo-os concordar em entregar à besta seu poder de governar até que as palavras de Deus sejam cumpridas."
+            },
+            {
+              "verse": 18,
+              "text": "A mulher que viste é a grande cidade que governa sobre os reis da terra\"."
+            }
+          ]
+        },
+        {
+          "chapter": 18,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Depois dessas coisas, vi outro anjo, descendo do céu, que tinha grande autoridade, e a terra foi iluminada com sua glória."
+            },
+            {
+              "verse": 2,
+              "text": "Ele clamou com uma grande voz, dizendo: \"Caiu! Caiu a grande Babilônia! Ela se tornou morada de demônios, esconderijo para todos os espíritos impuros e aves detestáveis."
+            },
+            {
+              "verse": 3,
+              "text": "Porque todas as nações têm bebido o vinho da sua paixão imoral. Os reis da terra cometeram imoralidades com ela. Os mercadores da terra se enriqueceram pelo poder da sua imoralidade\"."
+            },
+            {
+              "verse": 4,
+              "text": "Ouvi outra voz do céu, que dizia: \"Saí dela, povo meu, para que não sejais participantes dos seus pecados, e para que não incorrais nas sua pragas;"
+            },
+            {
+              "verse": 5,
+              "text": "porque os seus pecados se empilharam até o céu, e Deus se lembrou de suas ações maléficas."
+            },
+            {
+              "verse": 6,
+              "text": "Retribuam-lhe como ela retribuiu aos outros, e paguem-lhe segundo suas obras; no copo que ela misturou, misture em dobro a quantidade para ela."
+            },
+            {
+              "verse": 7,
+              "text": "Como ela glorificou a si mesma e viveu na luxúria, dai-lhe em igual medida tortura e sofrimento. Pois ela diz em seu coração: 'Estou sentada como uma rainha, não sou viúva e nunca verei lamentações.'"
+            },
+            {
+              "verse": 8,
+              "text": "Portanto, em um único dia, suas pragas virão: morte, lamentações e fome. Ela será queimada pelo fogo, pois o Senhor Deus é poderoso e Ele é o juiz dela\"."
+            },
+            {
+              "verse": 9,
+              "text": "Os reis da terra que cometeram com ela imoralidades e fez o que eles queriam com ela chorarão e se lamentarão sobre ela quando virem a fumaça do seu incêndio."
+            },
+            {
+              "verse": 10,
+              "text": "Eles permanecerão distantes, com medo do seu tormento, dizendo: \"Ai! Ai! A grande cidade Babilônia, a poderosa! Pois em uma única hora sua punição chegou\"."
+            },
+            {
+              "verse": 11,
+              "text": "Os mercadores da terra choram e pranteiam por ela, já que ninguém compra mais suas mercadorias:"
+            },
+            {
+              "verse": 12,
+              "text": "mercadorias de ouro, prata, pedras preciosas, pérolas, linho fino, púrpura, seda, escarlata, e todos os tipos de madeiras aromáticas, todo objeto de marfim, de madeira muito preciosa, de bronze, de ferro e de mármore,"
+            },
+            {
+              "verse": 13,
+              "text": "canela, pimenta, mirra e incenso, vinho, óleo, farinha fina, trigo, gado e ovelhas, cavalos e charretes, escravos e até almas humanas."
+            },
+            {
+              "verse": 14,
+              "text": "O fruto que tanto cobiçavas com todo teu poder foi embora de ti. Todo o seu luxo e esplendor desapareceram; nunca serão encontrados."
+            },
+            {
+              "verse": 15,
+              "text": "Os mercadores desses bens, que se tornaram ricos por meio dela, permanecerão distantes por medo do seu tormento, chorando e lamentando alto."
+            },
+            {
+              "verse": 16,
+              "text": "Eles dirão: \"Ai! Ai! A grande cidade que foi vestida de linho fino, de púrpura e escarlata, e adornada com ouro, pedras preciosas e pérolas!\""
+            },
+            {
+              "verse": 17,
+              "text": "\"Porque, em uma única hora, toda riqueza foi devastada\". Todo piloto, todo marinheiro, e todos os que navegam e trabalham no mar, permaneceram distantes."
+            },
+            {
+              "verse": 18,
+              "text": "Eles clamaram assim que viram a fumaça do seu incêndio. Disseram: \"Que cidade é igual à grandiosa cidade\"?"
+            },
+            {
+              "verse": 19,
+              "text": "Eles jogaram poeira em suas cabeças e clamaram, chorando e lamentando: \"Ai! Ai da grande cidade, onde todos os que tinham seus navios no mar, tornaram-se ricos por meio dela, pois, em uma única hora, ela foi destruída\"."
+            },
+            {
+              "verse": 20,
+              "text": "\"Alegrai-vos sobre ela, ó céus, vós santos, apóstolos e profetas, pois Deus julgou a vossa causa quanto a ela\"!"
+            },
+            {
+              "verse": 21,
+              "text": "Um poderoso anjo pegou uma pedra do tamanho de uma grande pedra de moinho e jogou no mar, dizendo: \"Dessa maneira, Babilônia, a grande cidade, será derrubada com violência e não será vista jamais."
+            },
+            {
+              "verse": 22,
+              "text": "O som de harpas, músicos, tocadores de flauta, e os que tocam trompete não serão mais ouvidos em ti. Nenhum artesão de qualquer tipo será encontrado em ti. Nenhum som de moinho jamais será ouvido em ti."
+            },
+            {
+              "verse": 23,
+              "text": "A luz da lâmpada não mais brilhará em ti. A voz do noivo e da noiva não será jamais ouvida em ti, pois teus mercadores foram os príncipes da terra e todas as nações foram enganadas pelas tuas feitiçarias."
+            },
+            {
+              "verse": 24,
+              "text": "Nela foi encontrado sangue de profetas e santos e de todos os que foram mortos na terra\"."
+            }
+          ]
+        },
+        {
+          "chapter": 19,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Depois destas coisas, ouvi no céu como uma forte voz de uma grande multidão, dizendo: \"Louvai a Yahweh! Salvação, glória e poder pertencem ao nosso Deus."
+            },
+            {
+              "verse": 2,
+              "text": "Seus julgamentos são verdadeiros e justos, pois julgou a grande prostituta que corrompeu a terra com a sua imoralidade sexual. Ele tomou vingança pelo sangue dos seus servos, o qual ela mesma derramou\"."
+            },
+            {
+              "verse": 3,
+              "text": "Pela segunda vez, disseram: \"Louvai a Yahweh! A fumaça dela sobe para sempre e sempre\"."
+            },
+            {
+              "verse": 4,
+              "text": "Os vinte e quatro anciãos e os quatro seres viventes se prostraram e adoraram a Deus, que estava sentado no trono, dizendo: \"Amém. Louvai a Yahweh\"!"
+            },
+            {
+              "verse": 5,
+              "text": "Então saiu uma voz do trono, dizendo: \"Louvai ao nosso Deus todos os seus servos, vós que O temeis, tanto pequenos como grandes\"."
+            },
+            {
+              "verse": 6,
+              "text": "Então ouvi uma voz como de uma grande e numerosa multidão, como o rugido de muitas águas e como a voz de fortes trovões, dizendo: \"Louvai a Yahweh! Porque o Senhor, o Deus Todo-Poderoso, reina."
+            },
+            {
+              "verse": 7,
+              "text": "Alegremo-nos, exultemos e demos-lhe a glória, porque são chegadas as bodas do Cordeiro, e sua noiva já se preparou\"."
+            },
+            {
+              "verse": 8,
+              "text": "Foi permitido que ela vestisse de linho fino, puro e resplandecente\" (o linho fino são os atos justos dos santos.)"
+            },
+            {
+              "verse": 9,
+              "text": "O anjo me disse: \"Escreva isto: Bem aventurados aqueles que são convidados para as bodas do Cordeiro\". E também disse: \"São estas as verdadeiras palavras de Deus\"."
+            },
+            {
+              "verse": 10,
+              "text": "Prostrei-me ante os seus pés para adorá-lo, porém ele me disse: \"Não faças isso! Eu sou um servo com você e seus irmãos que mantêm o testemunho de Jesus. Adora a Deus, pois o testemunho de Jesus é o espírito da profecia\"."
+            },
+            {
+              "verse": 11,
+              "text": "Então vi o céu aberto e olhei, e havia um cavalo branco cujo cavaleiro é chamado de Fiel e Verdadeiro. Ele julga e guerreia com justiça."
+            },
+            {
+              "verse": 12,
+              "text": "Seus olhos são como chamas de fogo e, na sua cabeça, há muitos diademas e um nome escrito que ninguém conhece a não ser Ele mesmo."
+            },
+            {
+              "verse": 13,
+              "text": "Ele está vestido com um manto tingido de sangue, e seu nome se chama Palavra de Deus."
+            },
+            {
+              "verse": 14,
+              "text": "Os exércitos do céu seguiam-no em cavalos brancos, vestidos em linho fino, branco e puro."
+            },
+            {
+              "verse": 15,
+              "text": "De sua boca sai uma espada afiada com a qual Ele fere as nações. Ele as governará com vara de ferro e pisará o lagar da fúria da ira do Deus Todo-Poderoso."
+            },
+            {
+              "verse": 16,
+              "text": "Ele tem um nome escrito no seu manto e na sua coxa: Rei dos reis e Senhor dos senhores."
+            },
+            {
+              "verse": 17,
+              "text": "Vi um anjo em pé, no Sol, que clamava a todas as aves do céu em alta voz dizendo: \"Venham, reúnam-se para a grande ceia de Deus."
+            },
+            {
+              "verse": 18,
+              "text": "Venham e comam a carne de reis, a carne de comandantes, a carne de homens poderosos, a carne de cavalos e seus cavaleiros e a carne de todos os homens, quer livres quer escravos, tanto pequenos como grandes\"."
+            },
+            {
+              "verse": 19,
+              "text": "Vi a besta e os reis da terra com os seus exércitos. Eles estavam se preparando para guerrear contra Aquele que estava montado no cavalo e contra o seu exército."
+            },
+            {
+              "verse": 20,
+              "text": "A besta foi capturada e, com ela, o falso profeta que realizava os sinais na presença dela. Com esses sinais ele enganou os que receberam a marca da besta e os que adoravam sua imagem. Os dois foram jogados vivos no lago que arde com enxofre."
+            },
+            {
+              "verse": 21,
+              "text": "Os demais foram mortos pela espada que saía da boca Daquele que montava no cavalo. Todas as aves se fartaram com a carne de seus cadáveres."
+            }
+          ]
+        },
+        {
+          "chapter": 20,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Então vi um anjo descer do céu. Ele tinha a chave do abismo e uma grande corrente na mão."
+            },
+            {
+              "verse": 2,
+              "text": "Ele prendeu o dragão, a antiga serpente, a qual é o diabo ou Satanás, e o amarrou por mil anos."
+            },
+            {
+              "verse": 3,
+              "text": "Ele o lançou no abismo, fechou-o e pôs um selo sobre ele, para que não mais enganasse as nações até que os mil anos se completassem. Depois disso, ele será solto por um pouco tempo."
+            },
+            {
+              "verse": 4,
+              "text": "Então vi tronos, nos quais estavam assentados os que tinham recebido autoridade para julgar. Eu também vi as almas dos que tinham sido decapitados por causa do testemunho de Jesus e da palavra de Deus. Eles não haviam adorado a besta ou sua imagem e se recusaram a receber a marca na testa ou na mão. Eles reviveram e reinaram com Cristo por mil anos."
+            },
+            {
+              "verse": 5,
+              "text": "Os outros mortos não reviveram até que se completassem os mil anos. Essa é a primeira ressureição."
+            },
+            {
+              "verse": 6,
+              "text": "Bem-aventurado e santo é aquele que faz parte da primeira ressureição! Sobre estes a segunda morte não tem poder. Eles serão sacerdotes de Deus e de Cristo e reinarão com Ele por mil anos."
+            },
+            {
+              "verse": 7,
+              "text": "Quando os mil anos chegarem ao fim, Satanás será solto da sua prisão."
+            },
+            {
+              "verse": 8,
+              "text": "Ele sairá para enganar as nações que estão nos quatro cantos da terra - Gogue e Magogue - a fim de ajuntá-las para a batalha, cujo número será como a areia do mar."
+            },
+            {
+              "verse": 9,
+              "text": "Subiram sobre a ampla superfície da terra e cercaram o acampamento dos santos, a amada cidade. Mas fogo desceu do céu e as devorou."
+            },
+            {
+              "verse": 10,
+              "text": "O diabo, que os enganava, foi lançado no lago de fogo e enxofre, onde a besta e o falso profeta foram lançados. Eles serão atormentados dia e noite, para sempre e sempre."
+            },
+            {
+              "verse": 11,
+              "text": "Em seguida, vi um grande trono branco e Aquele que estava sentado sobre ele. A terra e o céu fugiram da Sua presença e não havia lugar para irem."
+            },
+            {
+              "verse": 12,
+              "text": "Eu vi os mortos, grandes e pequenos, em pé diante do trono e os livros foram abertos. Então outro livro foi aberto, o Livro da Vida. Os mortos foram julgados segundo o que estava registrado nos livros, segundo as suas obras."
+            },
+            {
+              "verse": 13,
+              "text": "O mar entregou os mortos que nele havia. A morte e o Hades entregaram também os mortos que neles havia, e os mortos foram julgados segundo as suas obras."
+            },
+            {
+              "verse": 14,
+              "text": "A morte e o Hades foram jogados no lago de fogo. Esta é a segunda morte, o lago de fogo."
+            },
+            {
+              "verse": 15,
+              "text": "Se o nome de alguém não foi achado escrito no Livro da Vida, esse foi jogado no lago de fogo."
+            }
+          ]
+        },
+        {
+          "chapter": 21,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Então vi novo céu e nova terra, pois o primeiro céu e a primeira terra passaram, e o mar já não existe."
+            },
+            {
+              "verse": 2,
+              "text": "Eu vi a cidade santa, a nova Jerusalém, que descia do céu de Deus, preparada como uma noiva enfeitada para seu noivo."
+            },
+            {
+              "verse": 3,
+              "text": "Ouvi uma grande voz do trono, dizendo: \"Eis a morada de Deus com os homens, e Ele viverá com eles. Eles serão Seu povo, e o próprio Deus estará com eles e será Seu Deus."
+            },
+            {
+              "verse": 4,
+              "text": "Ele enxugará toda lágrima dos seus olhos, e não haverá mais morte, nem luto, nem choro, nem dor, porque já as primeiras coisas são passadas."
+            },
+            {
+              "verse": 5,
+              "text": "Aquele que estava assentado no trono disse: \"Eis que Eu fiz tudo novo\". Ele disse: \"Escreve, porque estas palavras são fiéis e verdadeiras\"."
+            },
+            {
+              "verse": 6,
+              "text": "Ele me disse: \"Estas coisas estão feitas! Eu sou o Alfa e o Ômega, o Princípio e o Fim. Ao que tem sede darei, sem custo, da fonte da água da vida."
+            },
+            {
+              "verse": 7,
+              "text": "O que conquistar herdará essas coisas, e Eu serei seu Deus, e ele será Meu filho."
+            },
+            {
+              "verse": 8,
+              "text": "Mas quanto aos covardes, aos incrédulos, aos detestáveis, aos assassinos, aos sexualmente imoral, aos feiticeiros, aos idólatras, e a todos os mentirosos, o lugar deles será no lago que arde com fogo e enxofre. Essa é a segunda morte\"."
+            },
+            {
+              "verse": 9,
+              "text": "Um dos sete anjos veio a mim, o que tinha as sete taças cheias das sete últimas pragas, e disse: \"Vem aqui. Eu te mostrarei a noiva, a esposa do Cordeiro\"."
+            },
+            {
+              "verse": 10,
+              "text": "Então me levou, em espírito, para uma grande e alta montanha, e mostrou-me a cidade santa, Jerusalém, que descia do céu de Deus."
+            },
+            {
+              "verse": 11,
+              "text": "Jerusalém tinha a glória de Deus, e brilhava como uma joia muito preciosa, como uma pedra de jaspe cristalina."
+            },
+            {
+              "verse": 12,
+              "text": "Lá havia um grande e alto muro com doze portões, com doze anjos nos portões, nos quais estavam escritos os nomes das doze tribos dos filhos de Israel."
+            },
+            {
+              "verse": 13,
+              "text": "A leste, havia três portões; ao norte, três; ao sul, três; e a oeste, três portões."
+            },
+            {
+              "verse": 14,
+              "text": "A muralha da cidade tinha doze fundamentos, e nela estava o nome dos doze apóstolos do Cordeiro."
+            },
+            {
+              "verse": 15,
+              "text": "O que falava comigo tinha uma vara de medir, de ouro, para medir a cidade, suas portas e seus muros."
+            },
+            {
+              "verse": 16,
+              "text": "A cidade era quadrangular, seu comprimento era igual a sua largura. Mediu a cidade com a vara e a cidade tinha doze mil estádios de comprimento e o mesmo de largura e de altura."
+            },
+            {
+              "verse": 17,
+              "text": "Ele também mediu os muros: cento e quarenta e quatro côvados, segundo a medida humana, que era também a medida que os anjos usavam."
+            },
+            {
+              "verse": 18,
+              "text": "O muro é de jaspe, e a cidade de ouro puro, semelhante ao vidro límpido."
+            },
+            {
+              "verse": 19,
+              "text": "Os fundamentos do muro estão adornados com todo tipo de pedras preciosas. O primeiro é de jaspe; o segundo, de safira; o terceiro, de calcedônia; o quarto, de esmeralda;"
+            },
+            {
+              "verse": 20,
+              "text": "o quinto, de sardônica; o sexto, de sárdio; o sétimo, de crisólito; o oitavo, de berilo; o nono, de topázio; o décimo, de crisópraso; o décimo primeiro, de jacinto; o décimo segundo, de ametista."
+            },
+            {
+              "verse": 21,
+              "text": "Os doze portões são doze pérolas, e cada portão é feito de uma única pérola. As ruas da cidade são de ouro puro, transparente como vidro."
+            },
+            {
+              "verse": 22,
+              "text": "Eu não vi nenhum templo na cidade, porque o Senhor Deus Poderoso e o Cordeiro são o seu templo."
+            },
+            {
+              "verse": 23,
+              "text": "A cidade não precisa do sol ou da lua para iluminá-la, porque a glória de Deus a iluminava, e a sua lâmpada é o Cordeiro."
+            },
+            {
+              "verse": 24,
+              "text": "As nações andarão na sua luz. Os reis da terra trarão para ela seu resplendor."
+            },
+            {
+              "verse": 25,
+              "text": "Os portões não se fecharão de dia, e não haverá noite ali."
+            },
+            {
+              "verse": 26,
+              "text": "Eles trarão para ela a glória e a honra das nações,"
+            },
+            {
+              "verse": 27,
+              "text": "e não entrará nela coisa alguma que contamine, e cometa abominação e mentira, mas apenas aqueles cujos nomes estão escritos no Livro da Vida do Cordeiro."
+            }
+          ]
+        },
+        {
+          "chapter": 22,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Então o anjo me mostrou o rio da água da vida, transparente como cristal, que fluía do trono de Deus e do Cordeiro,"
+            },
+            {
+              "verse": 2,
+              "text": "no meio da rua da cidade. Em cada margem do rio, está a árvore da vida, que produz doze frutos, dando seu fruto de mês em mês. As folhas da árvore são para a cura das nações."
+            },
+            {
+              "verse": 3,
+              "text": "Ali jamais haverá maldição. O trono de Deus e do Cordeiro estará na cidade e os Seus servos O servirão."
+            },
+            {
+              "verse": 4,
+              "text": "Eles verão Sua face e o Nome de Deus estará na testa deles."
+            },
+            {
+              "verse": 5,
+              "text": "Não haverá mais noite, e eles não precisarão da luz da lâmpada e nem da luz do sol, porque o Senhor Deus brilhará sobre eles, e reinarão para sempre e sempre."
+            },
+            {
+              "verse": 6,
+              "text": "O anjo me disse: \"Estas palavras são fiéis e verdadeiras. O Senhor Deus dos espíritos dos profetas mandou Seu anjo para mostrar aos Seus servos o que deve acontecer em breve\"."
+            },
+            {
+              "verse": 7,
+              "text": "\"Olha! Eis que venho sem demora! Bem-aventurado é o que obedece às palavras da profecia deste livro\"."
+            },
+            {
+              "verse": 8,
+              "text": "Eu, João, sou o que ouviu e viu essas coisas. Quando ouvi e vi isso, prostrei-me aos pés do anjo que me mostrou essas coisas, para adorá-lo."
+            },
+            {
+              "verse": 9,
+              "text": "Ele me disse: \"Não faças isso! Eu estou ao serviço de Deus como tu e como os teus irmãos, os profetas, e daqueles que obedecem às palavras deste livro. Adora a Deus\"!"
+            },
+            {
+              "verse": 10,
+              "text": "Ele me disse: \"Não seles as palavras da profecia deste livro, porque o tempo está próximo."
+            },
+            {
+              "verse": 11,
+              "text": "Aquele que é injusto continue fazendo injustiça. Aquele que é impuro continue na impureza. Aquele que é justo continue fazendo o que é justo. Aquele que é santo, seja santificado ainda\"."
+            },
+            {
+              "verse": 12,
+              "text": "\"Olhe! Eis que venho sem demora. Minha recompensa está Comigo para retribuir a cada um segundo as suas obras."
+            },
+            {
+              "verse": 13,
+              "text": "Eu sou o Alfa e o Ômega, o Primeiro e o Último, o Começo e o Fim."
+            },
+            {
+              "verse": 14,
+              "text": "Bem-aventurados os que lavam suas vestes para que tenham o direito de comer da árvore da vida e entrar na cidade através dos portões."
+            },
+            {
+              "verse": 15,
+              "text": "Ficarão de fora os cães, os feiticeiros, os sexualmente imorais, os assassinos, os idólatras e todos os que amam e praticam a mentira."
+            },
+            {
+              "verse": 16,
+              "text": "Eu, Jesus, mandei Meu anjo para vos testemunhar essas coisas em favor das igrejas. Eu sou a raiz e a descendência de Davi, a brilhante Estrela da Manhã\"."
+            },
+            {
+              "verse": 17,
+              "text": "O Espírito e a Noiva dizem: \"Vem\"! Aquele que ouve diga: \"Vem\"! Todo aquele que tem sede venha, e todo o que desejar, receba gratuitamente da água da vida."
+            },
+            {
+              "verse": 18,
+              "text": "Eu testemunho a todos os que ouvem as palavras da profecia deste livro: Se alguém acrescentar algo, Deus acrescentará a ele as pragas escritas neste livro."
+            },
+            {
+              "verse": 19,
+              "text": "Se alguém tirar as palavras da profecia deste livro, Deus tirará a sua parte da árvore da vida e da cidade santa, as quais estão escritas neste livro."
+            },
+            {
+              "verse": 20,
+              "text": "Aquele que testemunha estas coisas diz: \"Sim! Eis que venho sem demora\". Amém! Vem, Senhor Jesus!"
+            },
+            {
+              "verse": 21,
+              "text": "Que a graça do Senhor Jesus esteja com todos. Amém."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
