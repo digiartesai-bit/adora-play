@@ -27,7 +27,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css?v=2.3.14">
-    <link rel="stylesheet" href="css/biblia.css?v=1.0.1">
+    <link rel="stylesheet" href="css/biblia.css?v=1.0.0">
 </head>
 
 <body>
@@ -170,13 +170,15 @@
                 <div class="bible-header">
                     <div>
                         <h2>Bíblia</h2>
+                        <span>ATENÇÃO: Alguns versiculos podem conter erros por estarem ainda em revisão.</span>
                         <div class="bible-version-row">
                             <label for="seletorVersaoBiblia">Versão bíblica</label>
                             <select id="seletorVersaoBiblia">
                                 <option value="nvi" selected>NVI</option>
-                                <!-- <option value="acf">ACF</option> 
+                                <option value="acf">ACF</option>
+                                <option value="at">AT</option>
+                                <option value="kjvl">KJVT</option>
                                 <option value="nva">NVA</option>
-                                <option value="at">AT</option>-->
                             </select>
                         </div>
                         <p id="bibliaSubtitulo">Escolha um livro para começar a leitura.</p>
@@ -223,7 +225,24 @@
                     <article class="bible-reading" id="leituraVersiculo" aria-live="polite">
                         <div class="bible-reading-reference" id="referenciaVersiculo"></div>
                         <div id="textoVersiculo"></div>
+                        <nav class="bible-chapter-navigation" aria-label="Navegação entre capítulos">
+                            <button class="bible-back-button" id="capituloAnterior" type="button">Capítulo anterior</button>
+                            <button class="bible-back-button" id="capituloSeguinte" type="button">Próximo capítulo</button>
+                        </nav>
                     </article>
+                </section>
+
+                <button class="bible-scroll-top" id="voltarTopoBiblia" type="button" aria-label="Voltar ao topo" title="Voltar ao topo" hidden>↑</button>
+                <section class="bible-quick-actions" id="acoesRapidasBiblia" hidden aria-label="Ações dos versículos selecionados">
+                    <textarea id="anotacaoRapidaBiblia" rows="2" placeholder="Escreva sua anotação..." hidden></textarea>
+                    <div class="bible-quick-action-buttons">
+                        <span class="bible-selection-count" id="quantidadeSelecaoBiblia"></span>
+                        <button id="compararSelecaoBiblia" type="button" aria-label="Comparar versões" title="Comparar versões">Comparar</button>
+                        <button id="compartilharSelecaoBiblia" type="button" aria-label="Compartilhar imagem" title="Compartilhar imagem"><span class="bible-share-icon" aria-hidden="true"><i></i><i></i><i></i></span><span class="bible-quick-action-label">Compartilhar</span></button>
+                        <button id="anotarSelecaoBiblia" type="button" aria-label="Anotar seleção" title="Anotar seleção">Anotar</button>
+                        <button id="marcarSelecaoBiblia" type="button" aria-label="Marcar seleção" title="Marcar seleção">Marcar</button>
+                        <button id="limparSelecaoBiblia" type="button" aria-label="Limpar seleção" title="Limpar seleção">×</button>
+                    </div>
                 </section>
 
                 <section class="bible-panel" id="painelAnotacoes" hidden>
@@ -288,7 +307,9 @@
     <script src="js/app.js?v=1.0.22"></script>
     <script src="js/ajuda.js"></script>
     <script src="js/pesquisa.js?v=1.0.2"></script>
-    <script src="js/biblia.js?v=1.0.11"></script>
+    <script src="js/compartilhamento-biblia.js?v=1.0.0"></script>
+    <script src="js/comparar-biblia.js?v=1.0.0"></script>
+    <script src="js/biblia.js?v=1.0.9"></script>
     <script src="js/google-login.js?v=1.0.0"></script>
 </body>
 
