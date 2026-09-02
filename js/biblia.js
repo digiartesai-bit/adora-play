@@ -18,9 +18,21 @@
     const reading = document.getElementById('leituraVersiculo');
     const reference = document.getElementById('referenciaVersiculo');
     const text = document.getElementById('textoVersiculo');
+    const previousChapterButton = document.getElementById('capituloAnterior');
+    const nextChapterButton = document.getElementById('capituloSeguinte');
+    const scrollTopButton = document.getElementById('voltarTopoBiblia');
+    const quickActions = document.getElementById('acoesRapidasBiblia');
+    const quickNoteInput = document.getElementById('anotacaoRapidaBiblia');
+    const quickCompareButton = document.getElementById('compararSelecaoBiblia');
+    const quickShareButton = document.getElementById('compartilharSelecaoBiblia');
+    const quickNoteButton = document.getElementById('anotarSelecaoBiblia');
+    const quickMarkButton = document.getElementById('marcarSelecaoBiblia');
+    const clearSelectionButton = document.getElementById('limparSelecaoBiblia');
+    const selectedVerseCount = document.getElementById('quantidadeSelecaoBiblia');
     const versionSelect = document.getElementById('seletorVersaoBiblia');
     const savedStudiesKey = 'adoraPlayBibliaEstudos';
     const apiUrl = 'https://adoraplay-api.digiartesai.workers.dev';
+    const shareLimits = { verses: 3, words: 90 };
     const notesPanel = document.getElementById('painelAnotacoes');
     const notesList = document.getElementById('listaAnotacoes');
     const steps = {
@@ -34,8 +46,30 @@
     let selectedBookData = null;
     let selectedChapter = null;
     let selectedVerse = null;
+    const selectedVerseIndexes = new Set();
     let selectedVersion = 'nvi';
     const versionCache = new Map();
+    const bookFileNameOverrides = {
+        kjvl: {
+            '1samuel': '1_samuel', '2samuel': '2_samuel',
+            '1reis': '1_reis', '2reis': '2_reis',
+            '1cronicas': '1_cronicas', '2cronicas': '2_cronicas',
+            '1corintios': '1_corintios', '2corintios': '2_corintios',
+            '1tessalonicenses': '1_tessalonicenses', '2tessalonicenses': '2_tessalonicenses',
+            '1timoteo': '1_timotio', '2timoteo': '2_timotio',
+            '1pedro': '1_pedro', '2pedro': '2_pedro',
+            '1joao': '1_joao', '2joao': '2_joao', '3joao': '3_joao',
+            'canticos': 'cantares', 'habacuque': 'abacuque'
+        }
+    };
+
+    function getBookFileName(version, bookName) {
+        const normalizedName = bookName.normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .replace(/[^a-zA-Z0-9]/g, '')
+            .toLowerCase();
+        return bookFileNameOverrides[version]?.[normalizedName] || normalizedName;
+    }
 
     function getGoogleUser() {
         try {
@@ -89,7 +123,7 @@
     function getVerseKey(verseIndex = selectedVerse) {
         const chapter = selectedBookData.chapters[selectedChapter];
         const verse = chapter.verses[verseIndex];
-        return `${selectedBook.abbrev}:${chapter.chapter}:${verse.verse}`;
+        return `${selectedVersion}:${selectedBook.abbrev}:${chapter.chapter}:${verse.verse}`;
     }
 
     function getVerseDetails(verseIndex = selectedVerse) {
@@ -102,6 +136,36 @@
             verse: selectedBookData.chapters[selectedChapter].verses[verseIndex].verse,
             version: selectedVersion
         };
+    }
+
+    function getSelectedVerseDetails() {
+        const chapter = selectedBookData.chapters[selectedChapter];
+        const verseIndexes = [...selectedVerseIndexes].sort((first, second) => first - second);
+        const verses = verseIndexes.map(index => chapter.verses[index].verse);
+        return {
+            key: `${selectedVersion}:${selectedBook.abbrev}:${chapter.chapter}:${verses.join(',')}`,
+            reference: `${selectedBook.name} ${chapter.chapter}:${verses.join(', ')}`,
+            text: verseIndexes.map(index => chapter.verses[index].text).join(' '),
+            bookAbbrev: selectedBook.abbrev,
+            bookName: selectedBook.name,
+            chapter: chapter.chapter,
+            verses,
+            version: selectedVersion
+        };
+    }
+
+    function getStudyForSelection(details) {
+        const studies = getSavedStudies();
+        const study = studies[`${details.version}:${details.bookAbbrev}:${details.chapter}:${details.verses[0]}`];
+        return study?.verses?.length === details.verses.length
+            && study.verses.every((verse, index) => verse === details.verses[index])
+            ? study
+            : null;
+    }
+
+    function clearSelectedVerses() {
+        selectedVerse = null;
+        selectedVerseIndexes.clear();
     }
 
     function getStudyLocation(study) {
@@ -124,29 +188,43 @@
         remoteStudies.forEach((remoteStudy) => {
             const book = books.find((item) => item.name === remoteStudy.livro);
             const chapter = Number(remoteStudy.capitulo);
-            const verse = Number(remoteStudy.versiculo);
-            if (!book || !Number.isInteger(chapter) || !Number.isInteger(verse)) return;
+            let groupedVerses = remoteStudy.versiculos;
+            if (typeof groupedVerses === 'string') {
+                try {
+                    groupedVerses = JSON.parse(groupedVerses);
+                } catch {
+                    groupedVerses = null;
+                }
+            }
+            const verses = Array.isArray(groupedVerses)
+                ? groupedVerses.map(Number)
+                : [Number(remoteStudy.versiculo)];
+            if (!book || !Number.isInteger(chapter) || !verses.length || verses.some(verse => !Number.isInteger(verse))) return;
 
-            const key = `${book.abbrev}:${chapter}:${verse}`;
-            studies[key] = {
+            const version = remoteStudy.versao || 'acf';
+            const study = {
                 id: remoteStudy.id,
-                key,
-                reference: `${book.name} ${chapter}:${verse}`,
+                key: `${version}:${book.abbrev}:${chapter}:${verses.join(',')}`,
+                reference: `${book.name} ${chapter}:${verses.join(', ')}`,
                 text: remoteStudy.texto || '',
                 bookAbbrev: book.abbrev,
                 chapter,
-                verse,
-                version: selectedVersion,
+                verse: verses[0],
+                verses,
+                version,
                 highlighted: true,
                 note: remoteStudy.texto || '',
                 updatedAt: remoteStudy.criado_em
             };
+            verses.forEach((verse) => {
+                studies[`${version}:${book.abbrev}:${chapter}:${verse}`] = study;
+            });
         });
 
         saveStudies(studies);
         updateVerseStyles();
         if (!notesPanel.hidden) renderNotes();
-        if (selectedVerse !== null) showSelectedVerseStudy();
+        updateQuickActions();
     }
 
     function renderNotes() {
@@ -199,56 +277,32 @@
         });
     }
 
-    function closeVerseStudy() {
-        text.querySelector('.bible-inline-editor')?.remove();
+    function closeVerseStudy(clearSelection = false) {
+        if (!clearSelection) return;
+        clearSelectedVerses();
+        versesGrid.querySelectorAll('.bible-number-button').forEach((button) => {
+            button.classList.remove('is-selected');
+        });
+        text.querySelectorAll('.bible-verse').forEach((verse) => {
+            verse.classList.remove('is-selected');
+        });
+        quickActions.hidden = true;
+        quickNoteInput.hidden = true;
+        quickNoteInput.value = '';
     }
 
-    function showSelectedVerseStudy() {
-        if (selectedVerse === null) return;
-        const details = getVerseDetails();
-        const study = getSavedStudies()[details.key];
-        closeVerseStudy();
-        const editor = document.createElement('section');
-        editor.className = 'bible-inline-editor';
-        const heading = document.createElement('div');
-        heading.className = 'bible-study-heading';
-        const title = document.createElement('h4');
-        title.textContent = details.reference;
-        const closeButton = createButton('bible-inline-close', '×', closeVerseStudy);
-        closeButton.setAttribute('aria-label', 'Fechar anotação');
-        closeButton.title = 'Fechar anotação';
-        const markButton = createButton('bible-mark-button', '', () => toggleVerseHighlight(details, markButton));
-        markButton.classList.toggle('is-marked', Boolean(study?.highlighted));
-        markButton.textContent = study?.highlighted ? 'Desmarcar versículo' : 'Marcar versículo';
-        const headingActions = document.createElement('div');
-        headingActions.className = 'bible-editor-heading-actions';
-        headingActions.append(closeButton, markButton);
-        heading.append(title, headingActions);
-        const label = document.createElement('label');
-        label.className = 'bible-note-label';
-        label.textContent = 'Anotação';
-        const noteInput = document.createElement('textarea');
-        noteInput.rows = 4;
-        noteInput.placeholder = 'Escreva sua anotação sobre este versículo...';
-        noteInput.value = study?.note || '';
-        const actions = document.createElement('div');
-        actions.className = 'bible-editor-actions';
-        const shareActions = document.createElement('div');
-        shareActions.className = 'bible-share-actions';
-        const shareLabel = document.createElement('span');
-        shareLabel.className = 'bible-share-label';
-        shareLabel.textContent = 'Imagem 3:4';
-        const shareButton = createButton('bible-share-verse', 'Compartilhar imagem', () => shareVerseImage(details, shareButton));
-
-        shareActions.append(shareLabel, shareButton);
-        const saveButton = createButton('bible-save-note', 'Salvar anotação', () => saveVerseStudy(details, noteInput.value, saveButton));
-        actions.appendChild(saveButton);
-        if (study?.note) {
-            actions.appendChild(createButton('bible-delete-note', 'Apagar anotação', () => deleteVerseStudy(details)));
+    function updateQuickActions() {
+        if (!selectedVerseIndexes.size) {
+            quickActions.hidden = true;
+            return;
         }
-        editor.append(heading, label, noteInput, shareActions, actions);
-        const verseNumber = selectedBookData.chapters[selectedChapter].verses[selectedVerse].verse;
-        document.getElementById(`versiculo-${verseNumber}`).after(editor);
+        const details = getSelectedVerseDetails();
+        const study = getStudyForSelection(details);
+        quickActions.hidden = false;
+        selectedVerseCount.textContent = `${details.verses.length} sel`;
+        quickMarkButton.classList.toggle('is-marked', Boolean(study?.highlighted));
+        quickMarkButton.textContent = study?.highlighted ? 'Desmarcar' : 'Marcar';
+        if (!quickNoteInput.hidden) quickNoteInput.value = study?.note || '';
     }
 
     function setStep(step) {
@@ -266,111 +320,21 @@
         return button;
     }
 
-    function wrapCanvasText(context, value, maxWidth) {
-        const words = String(value).trim().split(/\s+/);
-        const lines = [];
-        let line = '';
-
-        words.forEach((word) => {
-            const candidate = line ? `${line} ${word}` : word;
-            if (line && context.measureText(candidate).width > maxWidth) {
-                lines.push(line);
-                line = word;
-            } else {
-                line = candidate;
-            }
-        });
-        if (line) lines.push(line);
-        return lines;
-    }
-
-    function loadImage(source) {
-        return new Promise((resolve, reject) => {
-            const image = new Image();
-            image.onload = () => resolve(image);
-            image.onerror = reject;
-            image.src = source;
-        });
-    }
-
-    async function createVerseImage(details) {
-        const canvas = document.createElement('canvas');
-        const dimensions = { width: 1200, height: 1600 };
-        canvas.width = dimensions.width;
-        canvas.height = dimensions.height;
-        const context = canvas.getContext('2d');
-        const padding = Math.round(dimensions.width * 0.11);
-        const contentWidth = dimensions.width - (padding * 2);
-
-        const background = await loadImage('assets/fundo_versiculo/fundomsg.png');
-        const scale = Math.max(dimensions.width / background.width, dimensions.height / background.height);
-        const backgroundWidth = background.width * scale;
-        const backgroundHeight = background.height * scale;
-        context.drawImage(background, (dimensions.width - backgroundWidth) / 2, (dimensions.height - backgroundHeight) / 2, backgroundWidth, backgroundHeight);
-        context.fillStyle = 'rgba(3, 19, 35, 0.34)';
-        context.fillRect(0, 0, dimensions.width, dimensions.height);
-        context.fillStyle = '#d4af35';
-        context.fillRect(padding, padding, 12, dimensions.height - (padding * 2));
-        context.strokeStyle = 'rgba(255, 255, 255, 0.22)';
-        context.lineWidth = 2;
-        context.strokeRect(padding + 36, padding, dimensions.width - (padding * 2) - 36, dimensions.height - (padding * 2));
-
-        let fontSize = 70;
-        let lines = [];
-        const lineHeight = 1.55;
-        const maxTextHeight = dimensions.height * 0.48;
-        do {
-            context.font = `${fontSize}px Georgia, serif`;
-            lines = wrapCanvasText(context, details.text, contentWidth - 168);
-            if ((lines.length * fontSize * lineHeight) <= maxTextHeight || fontSize <= 38) break;
-            fontSize -= 4;
-        } while (fontSize > 38);
-
-        const textHeight = lines.length * fontSize * lineHeight;
-        const textStart = Math.round((dimensions.height - textHeight) / 2);
-        context.fillStyle = '#ffffff';
-        context.font = `${fontSize}px Georgia, serif`;
-        context.textBaseline = 'top';
-        lines.forEach((line, index) => {
-            context.fillText(line, padding + 120, textStart + (index * fontSize * lineHeight));
-        });
-
-        context.fillStyle = '#f2d778';
-        context.font = '700 36px Poppins, sans-serif';
-        context.fillText(details.reference, padding + 120, dimensions.height - padding - 148);
-        context.fillStyle = 'rgba(255, 255, 255, 0.72)';
-        context.font = '500 24px Poppins, sans-serif';
-        context.fillText(`Bíblia ${details.version.toUpperCase()}  |  AdoraPlay`, padding + 120, dimensions.height - padding - 94);
-        return canvas;
-    }
-
     async function shareVerseImage(details, shareButton) {
+        const wordCount = details.text.trim().split(/\s+/).filter(Boolean).length;
+        if (details.verses?.length > shareLimits.verses || wordCount > shareLimits.words) {
+            window.alert(`A imagem pode conter até ${shareLimits.verses} versículos e ${shareLimits.words} palavras.`);
+            return;
+        }
+
         try {
             shareButton.disabled = true;
-            shareButton.textContent = 'Preparando imagem...';
-            const canvas = await createVerseImage(details);
-            const data = canvas.toDataURL('image/png');
-            const binary = atob(data.split(',')[1]);
-            const bytes = new Uint8Array(binary.length);
-            for (let index = 0; index < binary.length; index += 1) bytes[index] = binary.charCodeAt(index);
-            const file = new File([bytes], `versiculo-${details.bookAbbrev}-${details.chapter}-${details.verse}.png`, { type: 'image/png' });
-
-            if (navigator.canShare?.({ files: [file] })) {
-                await navigator.share({ files: [file] });
-            } else {
-                const link = document.createElement('a');
-                link.href = data;
-                link.download = file.name;
-                link.click();
-            }
+            window.bibleImageShare.open(details);
         } catch (error) {
-            if (error.name !== 'AbortError') {
-                console.warn('Não foi possível compartilhar o versículo:', error);
-                window.alert('Não foi possível preparar a imagem do versículo.');
-            }
+            console.warn('Não foi possível abrir o compartilhamento:', error);
+            window.alert('Não foi possível abrir o compartilhamento da imagem.');
         } finally {
             shareButton.disabled = false;
-            shareButton.textContent = 'Compartilhar imagem';
         }
     }
 
@@ -380,26 +344,27 @@
         return `${match[1]}${match[2].charAt(0).toUpperCase()}${match[2].slice(1)}`;
     }
 
-    async function loadVersion(version) {
-        if (versionCache.has(version)) return versionCache.get(version);
-        const response = await fetch(`versoes/${version}.json`);
-        if (!response.ok) throw new Error(`Não foi possível carregar a versão ${version.toUpperCase()}.`);
+    async function loadBookData(version, book) {
+        const cacheKey = `${version}:${book.abbrev}`;
+        if (versionCache.has(cacheKey)) return versionCache.get(cacheKey);
+        const response = await fetch(`biblias/${version}/${getBookFileName(version, book.name)}.json`);
+        if (!response.ok) throw new Error(`Não foi possível carregar ${book.name} na versão ${version.toUpperCase()}.`);
         const data = await response.json();
-        if (!Array.isArray(data.books) || data.books.length !== books.length) {
-            throw new Error(`A versão ${version.toUpperCase()} possui formato inválido.`);
+        if (!Array.isArray(data.books) || data.books.length !== 1 || data.books[0].abbrev !== book.abbrev) {
+            throw new Error(`O arquivo de ${book.name} possui formato inválido.`);
         }
-        versionCache.set(version, data);
-        return data;
+        versionCache.set(cacheKey, data.books[0]);
+        return data.books[0];
     }
 
-    async function setBibleVersion(version) {
+    function setBibleVersion(version) {
         selectedVersion = version;
         versionSelect.value = version;
         selectedBook = null;
         selectedBookData = null;
         selectedChapter = null;
-        selectedVerse = null;
-        return loadVersion(version);
+        clearSelectedVerses();
+        return Promise.resolve();
     }
 
     function renderBooks() {
@@ -426,11 +391,10 @@
     async function loadBook(book) {
         subtitle.textContent = `Carregando ${book.name}...`;
         try {
-            const versionData = await loadVersion(selectedVersion);
-            selectedBookData = versionData.books.find(item => item.abbrev === book.abbrev);
-            if (!selectedBookData) throw new Error(`Não foi possível localizar ${book.name}.`);
+            selectedBookData = await loadBookData(selectedVersion, book);
             selectedBook = book;
             selectedChapter = null;
+            clearSelectedVerses();
             chaptersTitle.textContent = `${book.name}: capítulos`;
             chaptersGrid.replaceChildren();
             selectedBookData.chapters.forEach((_, index) => {
@@ -450,7 +414,7 @@
 
     function selectChapter(chapterIndex) {
         selectedChapter = chapterIndex;
-        selectedVerse = null;
+        clearSelectedVerses();
         closeVerseStudy();
         const chapter = selectedBookData.chapters[chapterIndex];
         const verses = chapter.verses;
@@ -460,11 +424,49 @@
             versesGrid.appendChild(createButton('bible-number-button', String(verse.verse), () => navigateToVerse(index)));
         });
         renderChapter(verses);
+        updateChapterNavigation();
         chaptersPanel.hidden = true;
         versesPanel.hidden = false;
         notesPanel.hidden = true;
         subtitle.textContent = `${selectedVersion.toUpperCase()}: ${selectedBook.name} ${chapter.chapter} possui ${verses.length} versículos.`;
         setStep('verse');
+        window.scrollTo({ top: versesPanel.offsetTop - 16, behavior: 'smooth' });
+    }
+
+    function updateChapterNavigation() {
+        const currentBookIndex = books.findIndex(book => book.abbrev === selectedBook.abbrev);
+        const isFirstChapter = selectedChapter === 0;
+        const isLastChapter = selectedChapter === selectedBookData.chapters.length - 1;
+        previousChapterButton.hidden = isFirstChapter && currentBookIndex === 0;
+        nextChapterButton.hidden = isLastChapter && currentBookIndex === books.length - 1;
+        const previousBook = books[currentBookIndex - 1];
+        const nextBook = books[currentBookIndex + 1];
+        previousChapterButton.textContent = isFirstChapter
+            ? (previousBook ? `${previousBook.name} (último capítulo)` : '')
+            : `Capítulo ${selectedBookData.chapters[selectedChapter - 1].chapter}`;
+        nextChapterButton.textContent = isLastChapter
+            ? (nextBook ? `${nextBook.name} (capítulo 1)` : '')
+            : `Capítulo ${selectedBookData.chapters[selectedChapter + 1].chapter}`;
+    }
+
+    async function navigateChapter(direction) {
+        const nextChapterIndex = selectedChapter + direction;
+        if (nextChapterIndex >= 0 && nextChapterIndex < selectedBookData.chapters.length) {
+            selectChapter(nextChapterIndex);
+            return;
+        }
+
+        const currentBookIndex = books.findIndex(book => book.abbrev === selectedBook.abbrev);
+        const adjacentBook = books[currentBookIndex + direction];
+        if (!adjacentBook) return;
+        await loadBook(adjacentBook);
+        selectChapter(direction > 0 ? 0 : selectedBookData.chapters.length - 1);
+    }
+
+    function updateScrollTopButton() {
+        const hasVerticalScroll = document.documentElement.scrollHeight > window.innerHeight;
+        const hasScrolledPastReading = window.scrollY > versesPanel.offsetTop;
+        scrollTopButton.hidden = versesPanel.hidden || !quickActions.hidden || !hasVerticalScroll || !hasScrolledPastReading;
     }
 
     function renderChapter(verses) {
@@ -478,26 +480,28 @@
             number.className = 'bible-verse-number';
             number.textContent = verse.verse;
             verseElement.append(number, verse.text);
-            verseElement.addEventListener('click', () => selectVerse(index));
+            verseElement.addEventListener('click', () => selectVerse(index, !selectedVerseIndexes.has(index)));
             text.appendChild(verseElement);
         });
         updateVerseStyles();
     }
 
-    function selectVerse(verseIndex) {
+    function selectVerse(verseIndex, isSelected) {
         selectedVerse = verseIndex;
+        if (isSelected) selectedVerseIndexes.add(verseIndex);
+        else selectedVerseIndexes.delete(verseIndex);
         versesGrid.querySelectorAll('.bible-number-button').forEach((button, index) => {
-            button.classList.toggle('is-selected', index === verseIndex);
+            button.classList.toggle('is-selected', selectedVerseIndexes.has(index));
         });
         text.querySelectorAll('.bible-verse').forEach((verse, index) => {
-            verse.classList.toggle('is-selected', index === verseIndex);
+            verse.classList.toggle('is-selected', selectedVerseIndexes.has(index));
         });
-        showSelectedVerseStudy();
+        updateQuickActions();
         document.getElementById(`versiculo-${selectedBookData.chapters[selectedChapter].verses[verseIndex].verse}`).scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
 
     function navigateToVerse(verseIndex) {
-        selectedVerse = null;
+        clearSelectedVerses();
         closeVerseStudy();
         versesGrid.querySelectorAll('.bible-number-button').forEach((button) => {
             button.classList.remove('is-selected');
@@ -509,8 +513,7 @@
     }
 
     async function toggleVerseHighlight(details, markButton) {
-        const studies = getSavedStudies();
-        const study = studies[details.key];
+        const study = getStudyForSelection(details);
         try {
             markButton.disabled = true;
             if (study?.id) {
@@ -519,7 +522,9 @@
                 await sendToBibleApi('/api/anotacoes', {
                     livro: selectedBook.name,
                     capitulo: details.chapter,
-                    versiculo: details.verse,
+                    versiculo: details.verses[0],
+                    versiculos: details.verses,
+                    versao: selectedVersion,
                     texto: ''
                 });
             }
@@ -538,8 +543,7 @@
             return;
         }
 
-        const studies = getSavedStudies();
-        const study = studies[details.key];
+        const study = getStudyForSelection(details);
         if (!study?.id) {
             window.alert('Marque o versículo antes de salvar uma anotação.');
             return;
@@ -550,7 +554,8 @@
             saveButton.textContent = 'Salvando...';
             await requestBibleApi('/api/anotacoes', 'PUT', { id: study.id, texto: noteText });
             await loadRemoteStudies();
-            closeVerseStudy();
+            quickNoteInput.hidden = true;
+            quickNoteButton.textContent = 'Anotar';
         } catch (error) {
             console.warn('Não foi possível salvar a anotação:', error.message);
             saveButton.disabled = false;
@@ -560,8 +565,7 @@
     }
 
     async function deleteVerseStudy(details) {
-        const studies = getSavedStudies();
-        const study = studies[details.key];
+        const study = getStudyForSelection(details);
         if (!study?.id || !study.note) return;
 
         try {
@@ -589,8 +593,9 @@
         document.getElementById('painelLivros').hidden = false;
         chaptersPanel.hidden = true;
         versesPanel.hidden = true;
+        scrollTopButton.hidden = true;
         notesPanel.hidden = true;
-        closeVerseStudy();
+        closeVerseStudy(true);
         subtitle.textContent = `${selectedVersion.toUpperCase()} selecionada. Escolha um livro para começar a leitura.`;
         setStep('book');
     }
@@ -599,18 +604,19 @@
         if (!selectedBookData) return;
         chaptersPanel.hidden = false;
         versesPanel.hidden = true;
+        scrollTopButton.hidden = true;
         notesPanel.hidden = true;
-        closeVerseStudy();
+        closeVerseStudy(true);
         subtitle.textContent = `Escolha um capítulo de ${selectedBook.name}.`;
         setStep('chapter');
     }
 
     function showNotes() {
-        selectedVerse = null;
-        closeVerseStudy();
+        closeVerseStudy(true);
         document.getElementById('painelLivros').hidden = true;
         chaptersPanel.hidden = true;
         versesPanel.hidden = true;
+        scrollTopButton.hidden = true;
         notesPanel.hidden = false;
         subtitle.textContent = 'Revise seus versículos grifados e suas anotações.';
         setStep('notes');
@@ -643,6 +649,25 @@
     document.getElementById('voltarLivros').addEventListener('click', showBooks);
     document.getElementById('voltarCapitulos').addEventListener('click', showChapters);
     document.getElementById('fecharBiblia').addEventListener('click', closeBible);
+    quickCompareButton.addEventListener('click', () => window.bibleComparison.open(getSelectedVerseDetails()));
+    quickShareButton.addEventListener('click', () => shareVerseImage(getSelectedVerseDetails(), quickShareButton));
+    quickMarkButton.addEventListener('click', () => toggleVerseHighlight(getSelectedVerseDetails(), quickMarkButton));
+    quickNoteButton.addEventListener('click', () => {
+        if (quickNoteInput.hidden) {
+            quickNoteInput.hidden = false;
+            quickNoteButton.textContent = 'Salvar anotação';
+            updateQuickActions();
+            quickNoteInput.focus();
+            return;
+        }
+        saveVerseStudy(getSelectedVerseDetails(), quickNoteInput.value, quickNoteButton);
+    });
+    clearSelectionButton.addEventListener('click', () => closeVerseStudy(true));
+    previousChapterButton.addEventListener('click', () => navigateChapter(-1));
+    nextChapterButton.addEventListener('click', () => navigateChapter(1));
+    scrollTopButton.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    window.addEventListener('scroll', updateScrollTopButton, { passive: true });
+    window.addEventListener('resize', updateScrollTopButton);
     versionSelect.value = selectedVersion;
     versionSelect.addEventListener('change', () => {
         setBibleVersion(versionSelect.value)
