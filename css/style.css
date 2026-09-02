@@ -379,9 +379,9 @@ button {
     border-radius: 28px;
     background: linear-gradient(115deg, #162f43 0%, #1b3a4b 48%, #493d25 100%);
     border: 1px solid rgba(255,255,255,0.12);
-    padding: 34px;
+    padding: 10px;
     display: grid;
-    gap: 18px;
+    gap: 10px;
     box-shadow: 0 24px 50px rgba(0,0,0,0.22);
 }
 
@@ -471,6 +471,115 @@ button {
     filter: brightness(0);
 }
 
+.daily-verse-card {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: start;
+    gap: 12px;
+    padding: 16px 18px;
+    border-top: 1px solid rgba(255, 255, 255, 0.14);
+    background: rgba(4, 20, 31, 0.2);
+}
+
+.daily-verse-content {
+    min-width: 0;
+}
+
+.daily-verse-label {
+    display: block;
+    margin-bottom: 6px;
+    color: #d4af35;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.daily-verse-content strong {
+    color: #fff;
+    font-size: 16px;
+}
+
+.daily-verse-content p {
+    margin: 6px 0 0;
+    color: #f0f3ef;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.daily-verse-content .daily-verse-reflection {
+    color: #d0d8e3;
+    font-family: inherit;
+    font-size: 13px;
+}
+
+.daily-verse-share {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    flex: 0 0 auto;
+    min-height: 38px;
+    padding: 8px 11px;
+    border: 1px solid rgba(212, 175, 53, 0.55);
+    border-radius: 6px;
+    background: rgba(212, 175, 53, 0.12);
+    color: #f2d778;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.daily-verse-share .bible-share-icon {
+    position: relative;
+    display: block;
+    width: 18px;
+    height: 18px;
+}
+
+.daily-verse-share .bible-share-icon i {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border: 2px solid currentColor;
+    border-radius: 50%;
+}
+
+.daily-verse-share .bible-share-icon i:nth-child(1) {
+    top: 0;
+    right: 0;
+}
+
+.daily-verse-share .bible-share-icon i:nth-child(2) {
+    top: 7px;
+    left: 0;
+}
+
+.daily-verse-share .bible-share-icon i:nth-child(3) {
+    right: 0;
+    bottom: 0;
+}
+
+.daily-verse-share .bible-share-icon::before,
+.daily-verse-share .bible-share-icon::after {
+    position: absolute;
+    left: 5px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+    content: '';
+    transform-origin: left center;
+}
+
+.daily-verse-share .bible-share-icon::before {
+    top: 8px;
+    transform: rotate(-29deg);
+}
+
+.daily-verse-share .bible-share-icon::after {
+    top: 11px;
+    transform: rotate(29deg);
+}
+
 .hero-favorite {
     width: 48px;
     height: 48px;
@@ -505,10 +614,10 @@ button {
     min-width: 0;
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 5px;
     background: rgba(255,255,255,0.04);
     border-radius: 20px;
-    padding: 24px;
+    padding: 1px 10px;
     border: 1px solid rgba(255,255,255,0.1);
 }
 
@@ -623,7 +732,7 @@ button {
     align-items: center;
     gap: 12px;
     border-radius: 20px;
-    padding:5px;
+    padding:15px;
     background: rgba(255,255,255,0.05);
     border: 1px solid rgba(255,255,255,0.08);
 }
@@ -1156,7 +1265,7 @@ button {
     }
 
     .hero-card {
-        padding: 18px;
+        padding: 16px;
     }
 
     .hero-content {
@@ -1369,7 +1478,7 @@ button {
     }
 
     .hero-card {
-        padding: 14px;
+        padding: 12px;
         border-radius: 22px;
         gap: 14px;
     }
@@ -1427,6 +1536,24 @@ button {
     .hero-favorite {
         width: 36px;
         height: 36px;
+    }
+
+    .daily-verse-card {
+        gap: 12px;
+        padding: 12px;
+    }
+
+    .daily-verse-content strong {
+        font-size: 14px;
+    }
+
+    .daily-verse-content p {
+        font-size: 14px;
+    }
+
+    .daily-verse-share {
+        padding: 8px 9px;
+        font-size: 11px;
     }
 
     .hero-favorite img {
