@@ -1,0 +1,520 @@
+{
+  "version": "KJVT",
+  "translation": "King James Version Traduzida",
+  "books": [
+    {
+      "abbrev": "ct",
+      "name": "Cânticos",
+      "chapters": [
+        {
+          "chapter": 1,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "O cântico dos cânticos, que é de Salomão."
+            },
+            {
+              "verse": 2,
+              "text": "Beije-me ele com os beijos da sua boca; porque melhor é o teu amor do que o vinho."
+            },
+            {
+              "verse": 3,
+              "text": "Por causa do cheiro dos teus bons unguentos, o teu nome é como unguento derramado; por isso as virgens te amam."
+            },
+            {
+              "verse": 4,
+              "text": "Atrai-me, correremos atrás de ti: o rei me trouxe aos seus aposentos: ficaremos felizes e nos alegraremos em ti, nos lembraremos do teu amor mais do que do vinho: os retos te amam."
+            },
+            {
+              "verse": 5,
+              "text": "Sou negro, mas formoso, ó filhas de Jerusalém, como as tendas de Quedar, como as cortinas de Salomão."
+            },
+            {
+              "verse": 6,
+              "text": "Não olhes para mim, porque sou negro, porque o sol olhou para mim: os filhos de minha mãe ficaram zangados comigo; fizeram de mim o guardião das vinhas; mas não guardei a minha própria vinha."
+            },
+            {
+              "verse": 7,
+              "text": "Dize-me, ó tu a quem ama a minha alma, onde apascentas, onde fazes repousar o teu rebanho ao meio-dia; pois por que deveria eu ser como aquele que se desvia pelos rebanhos dos teus companheiros?"
+            },
+            {
+              "verse": 8,
+              "text": "Se você não sabe, ó mais bela entre as mulheres, siga os passos do rebanho e alimente seus filhos ao lado das tendas dos pastores."
+            },
+            {
+              "verse": 9,
+              "text": "Eu te comparei, ó meu amor, a uma companhia de cavalos nas carruagens do Faraó."
+            },
+            {
+              "verse": 10,
+              "text": "Tuas bochechas estão lindas com fileiras de jóias, teu pescoço com correntes de ouro."
+            },
+            {
+              "verse": 11,
+              "text": "Faremos para ti bordas de ouro com tachas de prata."
+            },
+            {
+              "verse": 12,
+              "text": "Enquanto o rei está sentado à sua mesa, o meu nardo exala o seu cheiro."
+            },
+            {
+              "verse": 13,
+              "text": "Um ramo de mirra é o meu bem-amado; ele ficará deitado a noite toda entre meus seios."
+            },
+            {
+              "verse": 14,
+              "text": "O meu amado é para mim como um cacho de fogueira nas vinhas de En-Gedi."
+            },
+            {
+              "verse": 15,
+              "text": "Eis que és belo, meu amor; eis que és justo; você tem olhos de pomba."
+            },
+            {
+              "verse": 16,
+              "text": "Eis que és formoso, meu amado, sim, agradável: também a nossa cama é verde."
+            },
+            {
+              "verse": 17,
+              "text": "As vigas da nossa casa são de cedro e as vigas de abeto."
+            }
+          ]
+        },
+        {
+          "chapter": 2,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Sou a rosa de Sharon e o lírio dos vales."
+            },
+            {
+              "verse": 2,
+              "text": "Qual o lírio entre os espinhos, assim é o meu amor entre as filhas."
+            },
+            {
+              "verse": 3,
+              "text": "Qual a macieira entre as árvores do bosque, assim é o meu amado entre os filhos. Sentei-me à sua sombra com grande alegria, e seus frutos eram doces ao meu paladar."
+            },
+            {
+              "verse": 4,
+              "text": "Ele me levou para a casa do banquete, e seu estandarte sobre mim era o amor."
+            },
+            {
+              "verse": 5,
+              "text": "Fique-me com jarros, console-me com maçãs: pois estou farto de amor."
+            },
+            {
+              "verse": 6,
+              "text": "Sua mão esquerda está sob minha cabeça e sua mão direita me abraça."
+            },
+            {
+              "verse": 7,
+              "text": "Conjuro-vos, ó filhas de Jerusalém, pelas corças e pelas cervas do campo, que não desperteis, nem desperteis o meu amor, até que ele queira."
+            },
+            {
+              "verse": 8,
+              "text": "A voz do meu amado! eis que ele vem saltando sobre os montes, saltitando sobre os outeiros."
+            },
+            {
+              "verse": 9,
+              "text": "O meu amado é como uma corça ou um cervo: eis que ele está atrás do nosso muro, olha para as janelas, aparecendo pelas grades."
+            },
+            {
+              "verse": 10,
+              "text": "Meu amado falou e me disse: Levante-se, meu amor, minha bela, e vá embora."
+            },
+            {
+              "verse": 11,
+              "text": "Pois eis que o inverno passou, a chuva passou e se foi;"
+            },
+            {
+              "verse": 12,
+              "text": "As flores aparecem na terra; chegou a hora do canto dos pássaros, e a voz da tartaruga se ouve em nossa terra;"
+            },
+            {
+              "verse": 13,
+              "text": "A figueira produz os seus figos verdes, e as vinhas com uvas tenras exalam um cheiro bom. Levante-se, meu amor, minha bela, e vá embora."
+            },
+            {
+              "verse": 14,
+              "text": "Ó minha pomba, que estás nas fendas da rocha, nos lugares secretos das escadas, deixa-me ver o teu semblante, deixa-me ouvir a tua voz; porque doce é a tua voz, e o teu semblante é formoso."
+            },
+            {
+              "verse": 15,
+              "text": "Leva-nos as raposas, as raposinhas, que estragam as vinhas: porque as nossas vinhas têm uvas tenras."
+            },
+            {
+              "verse": 16,
+              "text": "O meu amado é meu, e eu sou dele; ele pasta entre os lírios."
+            },
+            {
+              "verse": 17,
+              "text": "Até que o dia nasça e as sombras fujam, volte-se, meu amado, e seja como uma corça ou um cervo jovem nas montanhas de Bether."
+            }
+          ]
+        },
+        {
+          "chapter": 3,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "À noite, na minha cama, procurei aquele a quem ama a minha alma: procurei-o, mas não o encontrei."
+            },
+            {
+              "verse": 2,
+              "text": "Levantar-me-ei agora, e percorrerei a cidade pelas ruas, e pelos caminhos largos procurarei aquele a quem ama a minha alma: procurei-o, mas não o encontrei."
+            },
+            {
+              "verse": 3,
+              "text": "Encontraram-me os vigias que andam pela cidade; aos quais eu disse: Viste aquele a quem ama a minha alma?"
+            },
+            {
+              "verse": 4,
+              "text": "Foi apenas um pouco que me afastei deles, mas encontrei aquele a quem minha alma ama: eu o segurei e não o deixei ir, até que o trouxe para a casa de minha mãe e para o quarto daquela que me concebeu."
+            },
+            {
+              "verse": 5,
+              "text": "Conjuro-vos, ó filhas de Jerusalém, pelas corças e pelas cervas do campo, que não desperteis, nem desperteis o meu amor, até que ele queira."
+            },
+            {
+              "verse": 6,
+              "text": "Quem é este que sai do deserto como colunas de fumaça, perfumado com mirra e incenso, com todos os pós do comerciante?"
+            },
+            {
+              "verse": 7,
+              "text": "Eis a sua cama, que é de Salomão; cerca de sessenta homens valentes, dos valentes de Israel."
+            },
+            {
+              "verse": 8,
+              "text": "Todos eles empunham espadas, sendo peritos na guerra: cada homem tem a sua espada na coxa por causa do medo durante a noite."
+            },
+            {
+              "verse": 9,
+              "text": "O rei Salomão fez para si uma carruagem de madeira do Líbano."
+            },
+            {
+              "verse": 10,
+              "text": "Fez as suas colunas de prata, o seu fundo de ouro, a sua cobertura de púrpura, sendo o seu centro pavimentado com amor, para as filhas de Jerusalém."
+            },
+            {
+              "verse": 11,
+              "text": "Ide, ó filhas de Sião, e contemplai o rei Salomão com a coroa com que sua mãe o coroou no dia de seu desposório e no dia da alegria de seu coração."
+            }
+          ]
+        },
+        {
+          "chapter": 4,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Eis que és belo, meu amor; eis que és justo; dentro dos teus cabelos tens olhos de pomba; os teus cabelos são como um rebanho de cabras que surgem do monte Gileade."
+            },
+            {
+              "verse": 2,
+              "text": "Os teus dentes são como um rebanho de ovelhas tosquiadas que sobem da lavagem; dos quais cada um dá à luz gêmeos, e nenhum deles é estéril."
+            },
+            {
+              "verse": 3,
+              "text": "Os teus lábios são como um fio de escarlate, e a tua fala é agradável; as tuas têmporas são como um pedaço de romã entre as tuas tranças."
+            },
+            {
+              "verse": 4,
+              "text": "Teu pescoço é como a torre de Davi construída para um arsenal, onde estão pendurados mil escudos, todos escudos de homens poderosos."
+            },
+            {
+              "verse": 5,
+              "text": "Teus dois seios são como duas ovas gêmeas que pastam entre os lírios."
+            },
+            {
+              "verse": 6,
+              "text": "Até que amanheça o dia e fujam as sombras, irei ao monte da mirra e ao outeiro do incenso."
+            },
+            {
+              "verse": 7,
+              "text": "Você é todo justo, meu amor; não há lugar em você."
+            },
+            {
+              "verse": 8,
+              "text": "Vem comigo do Líbano, minha esposa, comigo do Líbano: olha desde o cume de Amana, desde o cume de Shenir e Hermon, desde as covas dos leões, desde as montanhas dos leopardos."
+            },
+            {
+              "verse": 9,
+              "text": "Você arrebatou meu coração, minha irmã, minha esposa; você arrebatou meu coração com um dos seus olhos, com uma corrente do seu pescoço."
+            },
+            {
+              "verse": 10,
+              "text": "Quão justo é o teu amor, minha irmã, minha esposa! quão melhor é o teu amor do que o vinho! e o cheiro dos teus unguentos mais do que todas as especiarias!"
+            },
+            {
+              "verse": 11,
+              "text": "Os teus lábios, ó minha esposa, gotejam como favos de mel: mel e leite estão debaixo da tua língua; e o cheiro das tuas vestes é como o cheiro do Líbano."
+            },
+            {
+              "verse": 12,
+              "text": "Um jardim fechado é minha irmã, minha esposa; uma fonte fechada, uma fonte selada."
+            },
+            {
+              "verse": 13,
+              "text": "Tuas plantas são um pomar de romãs, com frutos agradáveis; camphire, com nardo,"
+            },
+            {
+              "verse": 14,
+              "text": "nardo e açafrão; cálamo e canela, com todas as árvores de incenso; mirra e aloés, com todas as principais especiarias:"
+            },
+            {
+              "verse": 15,
+              "text": "Uma fonte de jardins, um poço de águas vivas e riachos do Líbano."
+            },
+            {
+              "verse": 16,
+              "text": "Desperta, ó vento norte; e venha, sul; sopra no meu jardim, para que fluam os seus aromas. Deixe o meu amado entrar no seu jardim e comer dos seus frutos agradáveis."
+            }
+          ]
+        },
+        {
+          "chapter": 5,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Entrei no meu jardim, minha irmã, minha esposa: colhi a minha mirra com a minha especiaria; comi o meu favo com o meu mel; Bebi o meu vinho com o meu leite: comei, ó amigos; beba, sim, beba abundantemente, ó amado."
+            },
+            {
+              "verse": 2,
+              "text": "Eu durmo, mas o meu coração desperta: é a voz do meu amado que bate, dizendo: Abre-me, minha irmã, meu amor, minha pomba, minha imaculada: porque a minha cabeça está cheia de orvalho, e os meus cabelos com as gotas da noite."
+            },
+            {
+              "verse": 3,
+              "text": "Tirei meu casaco; como devo colocá-lo? lavei meus pés; como devo contaminá-los?"
+            },
+            {
+              "verse": 4,
+              "text": "Meu amado colocou sua mão pela fresta da porta, e minhas entranhas se moveram por ele."
+            },
+            {
+              "verse": 5,
+              "text": "Levantei-me para me abrir ao meu amado; e minhas mãos gotejaram mirra, e meus dedos, mirra de cheiro suave, nas alças da fechadura."
+            },
+            {
+              "verse": 6,
+              "text": "Abri ao meu amado; mas o meu amado se retirou e se foi: minha alma fraquejou quando ele falou: procurei-o, mas não o encontrei; chamei-o, mas ele não me respondeu."
+            },
+            {
+              "verse": 7,
+              "text": "Os vigias que andavam pela cidade me encontraram, me espancaram, me feriram; os guardiões das muralhas tiraram-me o véu."
+            },
+            {
+              "verse": 8,
+              "text": "Conjuro-vos, ó filhas de Jerusalém, se encontrardes o meu amado, que lhe digais que estou farto de amor."
+            },
+            {
+              "verse": 9,
+              "text": "O que é o teu amado mais do que outro amado, ó tu, a mais bela entre as mulheres? o que é o teu amado mais do que outro amado, para que assim nos cobres?"
+            },
+            {
+              "verse": 10,
+              "text": "Meu amado é branco e ruivo, o primeiro entre dez mil."
+            },
+            {
+              "verse": 11,
+              "text": "Sua cabeça é como o ouro mais fino, seus cabelos são espessos e negros como um corvo."
+            },
+            {
+              "verse": 12,
+              "text": "Seus olhos são como os das pombas junto aos rios de águas, lavados com leite e bem engarrafados."
+            },
+            {
+              "verse": 13,
+              "text": "Suas bochechas são como um canteiro de especiarias, como flores doces; seus lábios são como lírios, destilando mirra de cheiro doce."
+            },
+            {
+              "verse": 14,
+              "text": "Suas mãos são como anéis de ouro incrustados de berilo; seu ventre é como marfim brilhante coberto de safiras."
+            },
+            {
+              "verse": 15,
+              "text": "As suas pernas são como colunas de mármore, assentes em bases de ouro fino; o seu semblante é como o Líbano, excelente como os cedros."
+            },
+            {
+              "verse": 16,
+              "text": "Sua boca é muito doce: sim, ele é totalmente adorável. Esta é minha amada e minha amiga, ó filhas de Jerusalém."
+            }
+          ]
+        },
+        {
+          "chapter": 6,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Para onde foi o teu amado, ó tu, a mais bela entre as mulheres? para onde se desviou o teu amado? para que possamos buscá-lo contigo."
+            },
+            {
+              "verse": 2,
+              "text": "O meu amado desceu ao seu jardim, aos canteiros de especiarias, para pastar nos jardins e colher lírios."
+            },
+            {
+              "verse": 3,
+              "text": "Eu sou do meu amado, e o meu amado é meu; ele pasta entre os lírios."
+            },
+            {
+              "verse": 4,
+              "text": "Tu és belo, ó meu amor, como Tirzah, formoso como Jerusalém, terrível como um exército com estandartes."
+            },
+            {
+              "verse": 5,
+              "text": "Desvia de mim os teus olhos, porque eles me venceram; os teus cabelos são como o rebanho de cabras que surge de Gileade."
+            },
+            {
+              "verse": 6,
+              "text": "Os teus dentes são como um rebanho de ovelhas tosquiadas que sobem da lavagem; dos quais cada um dá à luz gêmeos, e nenhum deles é estéril."
+            },
+            {
+              "verse": 7,
+              "text": "Como um pedaço de romã são os teus templos dentro dos teus cabelos."
+            },
+            {
+              "verse": 8,
+              "text": "Há sessenta rainhas, oitenta concubinas e virgens sem número."
+            },
+            {
+              "verse": 9,
+              "text": "Minha pomba, minha imaculada é apenas uma; ela é a única de sua mãe, ela é a escolhida daquela que a deu à luz. As filhas a viram e a abençoaram; sim, as rainhas e as concubinas, e elas a elogiaram."
+            },
+            {
+              "verse": 10,
+              "text": "Quem é aquela que aparece como a manhã, bela como a lua, clara como o sol e terrível como um exército com estandartes?"
+            },
+            {
+              "verse": 11,
+              "text": "Desci ao jardim das nozes para ver os frutos do vale e para ver se a videira florescia e se as romãs brotavam."
+            },
+            {
+              "verse": 12,
+              "text": "Pelo que eu sabia, minha alma me fez como as carruagens de Amminadib."
+            },
+            {
+              "verse": 13,
+              "text": "Volta, volta, ó Sulamita; volta, volta, para que possamos olhar para ti. O que você verá na Sulamita? Por assim dizer, a companhia de dois exércitos."
+            }
+          ]
+        },
+        {
+          "chapter": 7,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Quão lindos são os teus pés calçados, ó filha do príncipe! as juntas das tuas coxas são como joias, obra das mãos de um artesão astuto."
+            },
+            {
+              "verse": 2,
+              "text": "O teu umbigo é como uma taça redonda, à qual não falta bebida; o teu ventre é como um monte de trigo rodeado de lírios."
+            },
+            {
+              "verse": 3,
+              "text": "Teus dois seios são como duas ovas gêmeas."
+            },
+            {
+              "verse": 4,
+              "text": "Teu pescoço é como uma torre de marfim; os teus olhos são como os tanques de Hesbom, junto à porta de Bate-Rabim; o teu nariz é como a torre do Líbano que olha para Damasco."
+            },
+            {
+              "verse": 5,
+              "text": "A tua cabeça sobre ti é como o Carmelo, e os cabelos da tua cabeça como a púrpura; o rei é mantido nas galerias."
+            },
+            {
+              "verse": 6,
+              "text": "Quão belo e quão agradável és tu, ó amor, pelas delícias!"
+            },
+            {
+              "verse": 7,
+              "text": "Esta tua estatura é como a de uma palmeira, e os teus seios como os cachos de uvas."
+            },
+            {
+              "verse": 8,
+              "text": "Eu disse: Subirei à palmeira, agarrarei os seus ramos; agora também os teus seios serão como cachos da videira, e o cheiro do teu nariz como o de maçãs;"
+            },
+            {
+              "verse": 9,
+              "text": "E o céu da tua boca é como o melhor vinho para o meu amado, que desce docemente, fazendo falar os lábios dos que dormem."
+            },
+            {
+              "verse": 10,
+              "text": "Eu sou do meu amado, e o seu desejo é para mim."
+            },
+            {
+              "verse": 11,
+              "text": "Venha, meu amado, vamos para o campo; vamos nos hospedar nas aldeias."
+            },
+            {
+              "verse": 12,
+              "text": "Levantemo-nos cedo para ir às vinhas; vejamos se a videira floresce, se aparecem as tenras uvas e se brotam as romãs: ali te darei os meus amores."
+            },
+            {
+              "verse": 13,
+              "text": "As mandrágoras exalam um cheiro, e em nossos portões estão todos os tipos de frutas agradáveis, novas e velhas, que guardei para ti, ó meu amado."
+            }
+          ]
+        },
+        {
+          "chapter": 8,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Oh, se você fosse como meu irmão, que chupou os seios de minha mãe! quando eu te encontrasse lá fora, eu te beijaria; sim, eu não deveria ser desprezado."
+            },
+            {
+              "verse": 2,
+              "text": "Eu te guiaria e te levaria à casa de minha mãe, que me instruiria: eu te faria beber vinho condimentado do suco da minha romã."
+            },
+            {
+              "verse": 3,
+              "text": "Sua mão esquerda deveria estar sob minha cabeça e sua mão direita deveria me abraçar."
+            },
+            {
+              "verse": 4,
+              "text": "Conjuro-vos, ó filhas de Jerusalém, que não desperteis, nem desperteis o meu amor, até que ele queira."
+            },
+            {
+              "verse": 5,
+              "text": "Quem é esta que sobe do deserto, apoiada no seu amado? Eu te criei debaixo da macieira; ali te gerou tua mãe; ali te gerou, que te deu à luz."
+            },
+            {
+              "verse": 6,
+              "text": "Põe-me como um selo no teu coração, como um selo no teu braço: porque o amor é forte como a morte; o ciúme é cruel como a sepultura; as suas brasas são brasas de fogo, que têm uma chama veemente."
+            },
+            {
+              "verse": 7,
+              "text": "Muitas águas não podem extinguir o amor, nem as enchentes podem afogá-lo: se um homem desse todos os bens de sua casa pelo amor, ela seria totalmente desprezada."
+            },
+            {
+              "verse": 8,
+              "text": "Temos uma irmãzinha, e ela não tem seios: o que faremos por nossa irmã no dia em que ela for pedida?"
+            },
+            {
+              "verse": 9,
+              "text": "Se ela for um muro, construiremos sobre ela um palácio de prata; e se ela for uma porta, cercá-la-emos com tábuas de cedro."
+            },
+            {
+              "verse": 10,
+              "text": "Eu sou uma parede, e meus seios como torres: então eu era aos seus olhos como alguém que encontrou favor."
+            },
+            {
+              "verse": 11,
+              "text": "Salomão tinha uma vinha em Baal-Hamon; ele alugou a vinha aos guardiões; cada um pelo seu fruto deveria trazer mil peças de prata."
+            },
+            {
+              "verse": 12,
+              "text": "A minha vinha, que é minha, está diante de mim: tu, ó Salomão, deve ter mil, e aqueles que guardam o seu fruto duzentos."
+            },
+            {
+              "verse": 13,
+              "text": "Tu que habitas nos jardins, os companheiros ouvem a tua voz: faze-me ouvi-la."
+            },
+            {
+              "verse": 14,
+              "text": "Apresse-se, meu amado, e seja como uma ova ou um cervo jovem nas montanhas de especiarias."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

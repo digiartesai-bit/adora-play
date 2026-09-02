@@ -1,0 +1,870 @@
+{
+  "version": "KJVT",
+  "translation": "King James Version Traduzida",
+  "books": [
+    {
+      "abbrev": "os",
+      "name": "Oséias",
+      "chapters": [
+        {
+          "chapter": 1,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "A palavra do Senhor que veio a Oséias, filho de Beeri, nos dias de Uzias, Jotão, Acaz e Ezequias, reis de Judá, e nos dias de Jeroboão, filho de Joás, rei de Israel."
+            },
+            {
+              "verse": 2,
+              "text": "O início da palavra do Senhor por Oséias. E o Senhor disse a Oséias: Vai, toma para ti uma mulher de prostituição e filhos de prostituição; porque a terra cometeu grande prostituição, afastando-se do Senhor."
+            },
+            {
+              "verse": 3,
+              "text": "Então ele foi e tomou Gômer, filha de Diblaim; que concebeu e lhe deu um filho."
+            },
+            {
+              "verse": 4,
+              "text": "E o Senhor lhe disse: Chama o seu nome Jizreel; porque ainda um pouco de tempo, e vingarei o sangue de Jizreel sobre a casa de Jeú, e farei cessar o reino da casa de Israel."
+            },
+            {
+              "verse": 5,
+              "text": "E acontecerá naquele dia que quebrarei o arco de Israel no vale de Jizreel."
+            },
+            {
+              "verse": 6,
+              "text": "E ela concebeu novamente e deu à luz uma filha. E Deus lhe disse: Chama-lhe o nome de Lo-Ruhamah; porque não terei mais misericórdia da casa de Israel; mas eu os tirarei totalmente."
+            },
+            {
+              "verse": 7,
+              "text": "Mas terei misericórdia da casa de Judá, e os salvarei pelo Senhor seu Deus, e não os salvarei pelo arco, nem pela espada, nem pela batalha, nem por cavalos, nem por cavaleiros."
+            },
+            {
+              "verse": 8,
+              "text": "Agora, quando ela desmamou Lo-ruhamah, ela concebeu e deu à luz um filho."
+            },
+            {
+              "verse": 9,
+              "text": "Então disse Deus: Chamai-lhe o nome de Lo-Ami; porque vós não sois meu povo, e eu não serei o vosso Deus."
+            },
+            {
+              "verse": 10,
+              "text": "Contudo o número dos filhos de Israel será como a areia do mar, que não se pode medir nem contar; e acontecerá que no lugar onde lhes foi dito: Vós não sois meu povo, ali lhes será dito: Vós sois filhos do Deus vivo."
+            },
+            {
+              "verse": 11,
+              "text": "Então os filhos de Judá e os filhos de Israel se reunirão e constituirão uma só cabeça, e subirão da terra; porque grande será o dia de Jizreel."
+            }
+          ]
+        },
+        {
+          "chapter": 2,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Diga a seus irmãos, Ammi; e para suas irmãs, Ruhamah."
+            },
+            {
+              "verse": 2,
+              "text": "Roga a tua mãe, roga: porque ela não é minha mulher, nem eu sou seu marido; tire ela, pois, as suas prostituições da sua vista, e os seus adultérios de entre os seus seios;"
+            },
+            {
+              "verse": 3,
+              "text": "Para que eu não a desnude, e a ponha como no dia em que nasceu, e a faça como um deserto, e a ponha como uma terra seca, e a mate de sede."
+            },
+            {
+              "verse": 4,
+              "text": "E não terei misericórdia de seus filhos; porque são filhos de prostituições."
+            },
+            {
+              "verse": 5,
+              "text": "Porque a mãe deles se prostituiu; aquela que os concebeu agiu vergonhosamente; porque disse: Irei após os meus amantes, que me dão o meu pão e a minha água, a minha lã e o meu linho, o meu óleo e a minha bebida."
+            },
+            {
+              "verse": 6,
+              "text": "Portanto, eis que cercarei o teu caminho com espinhos e farei um muro, para que ela não encontre as suas veredas."
+            },
+            {
+              "verse": 7,
+              "text": "E ela seguirá os seus amantes, mas não os alcançará; e ela os buscará, mas não os achará; então dirá: Irei e voltarei para meu primeiro marido; pois então foi melhor comigo do que agora."
+            },
+            {
+              "verse": 8,
+              "text": "Porque ela não sabia que eu lhe dei milho, e vinho, e azeite, e lhe multipliquei a prata e o ouro que prepararam para Baal."
+            },
+            {
+              "verse": 9,
+              "text": "Portanto voltarei, e tirarei o meu trigo no seu tempo, e o meu vinho no seu tempo, e recuperarei a minha lã e o meu linho que foram dados para cobrir a sua nudez."
+            },
+            {
+              "verse": 10,
+              "text": "E agora descobrirei a sua lascívia aos olhos dos seus amantes, e ninguém a livrará da minha mão."
+            },
+            {
+              "verse": 11,
+              "text": "Também farei cessar toda a sua alegria, as suas festas, as suas luas novas, e os seus sábados, e todas as suas festas solenes."
+            },
+            {
+              "verse": 12,
+              "text": "E destruirei as suas vinhas e as suas figueiras, das quais ela disse: Estas são as recompensas que os meus amantes me deram; e farei delas um bosque, e os animais do campo as comerão."
+            },
+            {
+              "verse": 13,
+              "text": "E visitarei ela nos dias de Baalim, quando ela lhes queimou incenso, e se enfeitou com seus brincos e suas jóias, e foi atrás de seus amantes, e me esqueceu, diz o Senhor."
+            },
+            {
+              "verse": 14,
+              "text": "Portanto, eis que eu a atrairei, e a trarei para o deserto, e falarei confortavelmente com ela."
+            },
+            {
+              "verse": 15,
+              "text": "E darei a ela as suas vinhas dali, e o vale de Acor por porta de esperança; e ela cantará ali, como nos dias da sua juventude, e como no dia em que subiu da terra do Egito."
+            },
+            {
+              "verse": 16,
+              "text": "E será naquele dia, diz o Senhor, que me chamarás Ishi; e não me chamará mais de Baali."
+            },
+            {
+              "verse": 17,
+              "text": "Porque tirarei da sua boca os nomes dos Baalins, e nunca mais serão lembrados pelo seu nome."
+            },
+            {
+              "verse": 18,
+              "text": "E naquele dia farei com eles um pacto com os animais do campo, e com as aves do céu, e com os répteis da terra; e quebrarei da terra o arco, e a espada, e a peleja, e farei com que se deitem seguros."
+            },
+            {
+              "verse": 19,
+              "text": "E eu te desposarei comigo para sempre; sim, desposar-te-ei comigo em justiça e em juízo e em benignidade e em misericórdias."
+            },
+            {
+              "verse": 20,
+              "text": "Desposar-te-ei comigo com fidelidade, e conhecerás ao Senhor."
+            },
+            {
+              "verse": 21,
+              "text": "E acontecerá naquele dia que ouvirei, diz o Senhor, ouvirei os céus, e eles ouvirão a terra;"
+            },
+            {
+              "verse": 22,
+              "text": "E a terra ouvirá o milho, e o vinho, e o azeite; e eles ouvirão Jezreel."
+            },
+            {
+              "verse": 23,
+              "text": "E eu a semearei para mim na terra; e terei misericórdia daquela que não obteve misericórdia; e direi aos que não eram meu povo: Tu és o meu povo; e dirão: Tu és o meu Deus."
+            }
+          ]
+        },
+        {
+          "chapter": 3,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Então me disse o Senhor: Vai ainda, ama uma mulher amada de seu amigo, mas adúltera, segundo o amor do Senhor para com os filhos de Israel, que olham para outros deuses e amam jarras de vinho."
+            },
+            {
+              "verse": 2,
+              "text": "Então comprei-a para mim por quinze moedas de prata, e por um ômer de cevada, e meio ômer de cevada:"
+            },
+            {
+              "verse": 3,
+              "text": "E eu lhe disse: Ficarás comigo muitos dias; não te prostituirás, e não serás para outro homem; assim também eu serei para ti."
+            },
+            {
+              "verse": 4,
+              "text": "Porque os filhos de Israel ficarão muitos dias sem rei, e sem príncipe, e sem sacrifício, e sem imagem, e sem éfode, e sem terafins."
+            },
+            {
+              "verse": 5,
+              "text": "Depois voltarão os filhos de Israel e buscarão ao Senhor seu Deus e a Davi seu rei; e temerá ao Senhor e à sua bondade nos últimos dias."
+            }
+          ]
+        },
+        {
+          "chapter": 4,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Ouvi a palavra do Senhor, filhos de Israel; porque o Senhor tem uma controvérsia com os habitantes da terra, porque não há verdade, nem misericórdia, nem conhecimento de Deus na terra."
+            },
+            {
+              "verse": 2,
+              "text": "Jurando, e mentindo, e matando, e roubando, e cometendo adultério, eles irrompem, e sangue toca sangue."
+            },
+            {
+              "verse": 3,
+              "text": "Portanto a terra pranteará, e todo aquele que nela habita desfalecerá, com os animais do campo e com as aves do céu; sim, os peixes do mar também serão levados embora."
+            },
+            {
+              "verse": 4,
+              "text": "Contudo, ninguém se esforce, nem repreenda outro; porque o teu povo é como aquele que contende com o sacerdote."
+            },
+            {
+              "verse": 5,
+              "text": "Portanto cairás de dia, e o profeta também cairá contigo de noite, e eu destruirei tua mãe."
+            },
+            {
+              "verse": 6,
+              "text": "O meu povo foi destruído por falta de conhecimento; porque rejeitaste o conhecimento, também eu te rejeitarei, para que não sejas sacerdote diante de mim; visto que te esqueceste da lei do teu Deus, também eu me esquecerei de teus filhos."
+            },
+            {
+              "verse": 7,
+              "text": "À medida que aumentavam, assim pecaram contra mim; por isso mudarei a sua glória em vergonha."
+            },
+            {
+              "verse": 8,
+              "text": "Eles comem o pecado do meu povo e fixam o seu coração na sua iniqüidade."
+            },
+            {
+              "verse": 9,
+              "text": "E haverá, como povo, como sacerdote; e eu os castigarei pelos seus caminhos, e os recompensarei pelos seus feitos."
+            },
+            {
+              "verse": 10,
+              "text": "Porque comerão, e não se fartarão; cometerão prostituição, e não se fartarão; porque deixaram de prestar atenção ao Senhor."
+            },
+            {
+              "verse": 11,
+              "text": "A prostituição, o vinho e o vinho novo tiram o coração."
+            },
+            {
+              "verse": 12,
+              "text": "Meu povo pede conselho em seus troncos, e sua equipe lhes informa: porque o espírito de prostituição os fez errar, e eles se prostituíram debaixo de seu Deus."
+            },
+            {
+              "verse": 13,
+              "text": "Sacrificam nos cumes das montanhas, e queimam incenso nas colinas, debaixo dos carvalhos, dos choupos e dos olmos, porque a sua sombra é boa; portanto, as vossas filhas cometerão prostituição, e as vossas esposas cometerão adultério."
+            },
+            {
+              "verse": 14,
+              "text": "Não castigarei as vossas filhas quando se prostituírem, nem os vossos cônjuges quando cometerem adultério: porque eles próprios se separam com as prostitutas, e sacrificam com as meretrizes; por isso o povo que não entende cairá."
+            },
+            {
+              "verse": 15,
+              "text": "Embora tu, Israel, te prostituas, não deixes Judá ofender; e não venhais a Gilgal, nem subais a Bete-Áven, nem jureis: O Senhor vive."
+            },
+            {
+              "verse": 16,
+              "text": "Porque Israel retrocede como uma novilha desviada; agora o Senhor os apascentará como a um cordeiro num lugar espaçoso."
+            },
+            {
+              "verse": 17,
+              "text": "Efraim está unido aos ídolos: deixe-o em paz."
+            },
+            {
+              "verse": 18,
+              "text": "A bebida deles é azeda: eles se prostituíram continuamente; os seus governantes com vergonha amam, Dai-vos."
+            },
+            {
+              "verse": 19,
+              "text": "O vento prendeu-a nas suas asas, e eles ficarão envergonhados por causa dos seus sacrifícios."
+            }
+          ]
+        },
+        {
+          "chapter": 5,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Ouvi isto, ó sacerdotes; e escutai, ó casa de Israel; e dai ouvidos, ó casa do rei; porque o juízo está sobre vós, porque fostes um laço em Mispá, e uma rede estendida sobre o Tabor."
+            },
+            {
+              "verse": 2,
+              "text": "E os revoltosos são profundos em causar massacres, embora eu tenha sido um repreensor de todos eles."
+            },
+            {
+              "verse": 3,
+              "text": "Eu conheço Efraim, e Israel não está escondido de mim; porque agora, ó Efraim, te prostituíste, e Israel está contaminado."
+            },
+            {
+              "verse": 4,
+              "text": "Eles não pretendem que suas ações se voltem para o seu Deus; porque o espírito de prostituição está no meio deles, e eles não conheceram o Senhor."
+            },
+            {
+              "verse": 5,
+              "text": "E a soberba de Israel testificará diante dele; portanto Israel e Efraim cairão na sua iniqüidade; Judá também cairá com eles."
+            },
+            {
+              "verse": 6,
+              "text": "Irão com os seus rebanhos e com as suas manadas em busca do Senhor; mas não o encontrarão; ele se retirou deles."
+            },
+            {
+              "verse": 7,
+              "text": "Aleivosamente agiram contra o Senhor, porque geraram filhos estranhos; agora um mês os consumirá com as suas porções."
+            },
+            {
+              "verse": 8,
+              "text": "Tocai a corneta em Gibeá, e a trombeta em Ramá; clamai em alta voz em Bete-Áven, após ti, ó Benjamim."
+            },
+            {
+              "verse": 9,
+              "text": "Efraim será desolado no dia da repreensão; entre as tribos de Israel fiz conhecido o que certamente acontecerá."
+            },
+            {
+              "verse": 10,
+              "text": "Os príncipes de Judá eram como aqueles que removem os limites; por isso derramarei sobre eles o meu furor como água."
+            },
+            {
+              "verse": 11,
+              "text": "Efraim está oprimido e quebrantado no julgamento, porque andou voluntariamente segundo o mandamento."
+            },
+            {
+              "verse": 12,
+              "text": "Portanto serei para Efraim como a traça, e para a casa de Judá como a podridão."
+            },
+            {
+              "verse": 13,
+              "text": "Vendo Efraim a sua enfermidade, e Judá a sua chaga, foi Efraim à Assíria, e enviou ao rei Jarebe;"
+            },
+            {
+              "verse": 14,
+              "text": "Porque serei para Efraim como um leão, e como um leãozinho para a casa de Judá; eu, eu mesmo, despedaçarei e irei embora; eu o tirarei e ninguém o resgatará."
+            },
+            {
+              "verse": 15,
+              "text": "Irei e voltarei para o meu lugar, até que reconheçam a sua ofensa e busquem a minha face: na sua aflição, cedo me procurarão."
+            }
+          ]
+        },
+        {
+          "chapter": 6,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Vinde, e voltemos ao Senhor, porque ele despedaçou e nos sarará; ele feriu e nos amarrará."
+            },
+            {
+              "verse": 2,
+              "text": "Depois de dois dias ele nos vivificará; no terceiro dia ele nos ressuscitará, e viveremos diante dele."
+            },
+            {
+              "verse": 3,
+              "text": "Então saberemos, se prosseguirmos em conhecer o Senhor: a sua saída está preparada como a alva; e ele virá a nós como a chuva, como a chuva serôdia e anterior sobre a terra."
+            },
+            {
+              "verse": 4,
+              "text": "Ó Efraim, o que te farei? Ó Judá, o que devo fazer contigo? porque a tua bondade é como a nuvem da manhã, e como o orvalho da manhã ela passa."
+            },
+            {
+              "verse": 5,
+              "text": "Por isso os cortei pelos profetas; Eu os matei pelas palavras da minha boca; e os teus julgamentos são como a luz que sai."
+            },
+            {
+              "verse": 6,
+              "text": "Pois eu desejei misericórdia e não sacrifício; e o conhecimento de Deus mais do que holocaustos."
+            },
+            {
+              "verse": 7,
+              "text": "Mas eles, como homens, transgrediram a aliança: ali agiram traiçoeiramente contra mim."
+            },
+            {
+              "verse": 8,
+              "text": "Gileade é uma cidade daqueles que praticam a iniquidade e está poluída com sangue."
+            },
+            {
+              "verse": 9,
+              "text": "E assim como tropas de ladrões esperam por um homem, assim o grupo de sacerdotes mata no caminho por consentimento: porque cometem lascívia."
+            },
+            {
+              "verse": 10,
+              "text": "Tenho visto uma coisa horrível na casa de Israel: há a prostituição de Efraim, Israel está contaminado."
+            },
+            {
+              "verse": 11,
+              "text": "Também, ó Judá, ele te preparou uma colheita, quando eu devolvi o cativeiro do meu povo."
+            }
+          ]
+        },
+        {
+          "chapter": 7,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Quando eu quis curar Israel, então se descobriu a iniquidade de Efraim e a maldade de Samaria: porque cometem falsidade; e entra o ladrão, e a tropa de ladrões saqueia por fora."
+            },
+            {
+              "verse": 2,
+              "text": "E eles não consideram em seus corações que eu me lembro de todas as suas maldades: agora seus próprios atos os cercam; eles estão diante do meu rosto."
+            },
+            {
+              "verse": 3,
+              "text": "Eles alegram o rei com a sua maldade, e os príncipes com as suas mentiras."
+            },
+            {
+              "verse": 4,
+              "text": "São todos adúlteros, como o forno aquecido pelo padeiro, que deixa de levedar depois de amassar a massa, até que levede."
+            },
+            {
+              "verse": 5,
+              "text": "Nos dias do nosso rei, os príncipes o adoeceram com garrafas de vinho; ele estendeu a mão com escarnecedores."
+            },
+            {
+              "verse": 6,
+              "text": "Porque prepararam o seu coração como um forno, enquanto ficam à espreita: o seu padeiro dorme a noite toda; pela manhã arde como fogo flamejante."
+            },
+            {
+              "verse": 7,
+              "text": "Todos estão quentes como um forno e devoraram os seus juízes; todos os seus reis caíram; não há entre eles quem me invoque."
+            },
+            {
+              "verse": 8,
+              "text": "Efraim, ele se misturou com o povo; Efraim é um bolo que não foi virado."
+            },
+            {
+              "verse": 9,
+              "text": "Estranhos devoraram sua força, e ele não sabe disso: sim, cabelos grisalhos estão aqui e ali sobre ele, mas ele não sabe."
+            },
+            {
+              "verse": 10,
+              "text": "E a soberba de Israel testifica diante dele; e eles não se convertem ao Senhor seu Deus, nem por tudo isso o buscam."
+            },
+            {
+              "verse": 11,
+              "text": "Efraim também é como uma pomba tola e sem coração: chamam o Egito, vão para a Assíria."
+            },
+            {
+              "verse": 12,
+              "text": "Quando eles forem, estenderei sobre eles a minha rede; Eu os derrubarei como as aves do céu; Castigá-los-ei, como a sua congregação ouviu."
+            },
+            {
+              "verse": 13,
+              "text": "Ai deles! porque fugiram de mim: destruição para eles! porque transgrediram contra mim; embora eu os tenha resgatado, ainda assim falaram mentiras contra mim."
+            },
+            {
+              "verse": 14,
+              "text": "E eles não clamaram a mim com o coração, quando uivaram em suas camas: eles se reúnem para o milho e o vinho, e se rebelam contra mim."
+            },
+            {
+              "verse": 15,
+              "text": "Embora eu tenha amarrado e fortalecido seus braços, eles imaginam maldades contra mim."
+            },
+            {
+              "verse": 16,
+              "text": "Eles voltam, mas não para o Altíssimo: são como um arco enganoso; os seus príncipes cairão à espada, por causa da fúria da sua língua; este será o seu escárnio na terra do Egito."
+            }
+          ]
+        },
+        {
+          "chapter": 8,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Coloque a trombeta em sua boca. Ele virá como uma águia contra a casa do Senhor, porque transgrediram a minha aliança e transgrediram a minha lei."
+            },
+            {
+              "verse": 2,
+              "text": "Israel clamará a mim: Meu Deus, nós te conhecemos."
+            },
+            {
+              "verse": 3,
+              "text": "Israel rejeitou o que é bom; o inimigo o perseguirá."
+            },
+            {
+              "verse": 4,
+              "text": "Constituíram reis, mas não por mim; constituíram príncipes, e eu não o sabia; da sua prata e do seu ouro fizeram para si ídolos, para que fossem destruídos."
+            },
+            {
+              "verse": 5,
+              "text": "O teu bezerro, ó Samaria, te rejeitou; minha raiva está acesa contra eles: quanto tempo levará até que alcancem a inocência?"
+            },
+            {
+              "verse": 6,
+              "text": "Pois também veio de Israel: o trabalhador o fez; portanto não é Deus; mas o bezerro de Samaria será despedaçado."
+            },
+            {
+              "verse": 7,
+              "text": "Porque semearam o vento e colherão o redemoinho; não tem caule; o botão não produz farinha; se assim der, os estranhos o engolirão."
+            },
+            {
+              "verse": 8,
+              "text": "Israel foi engolido; agora estará entre os gentios como um vaso que não tem prazer."
+            },
+            {
+              "verse": 9,
+              "text": "Porque subiram para a Assíria como um jumento selvagem, sozinho; Efraim contratou amantes."
+            },
+            {
+              "verse": 10,
+              "text": "Sim, embora tenham contratado entre as nações, agora eu os reunirei e eles ficarão um pouco tristes pelo fardo do rei dos príncipes."
+            },
+            {
+              "verse": 11,
+              "text": "Porque Efraim fez muitos altares para pecar, altares serão para ele pecar."
+            },
+            {
+              "verse": 12,
+              "text": "Escrevi-lhe as grandes coisas da minha lei, mas foram consideradas coisas estranhas."
+            },
+            {
+              "verse": 13,
+              "text": "Eles sacrificam carne para os sacrifícios das minhas ofertas e a comem; mas o Senhor não os aceita; agora ele se lembrará da iniquidade deles e visitará os seus pecados; eles retornarão ao Egito."
+            },
+            {
+              "verse": 14,
+              "text": "Porque Israel se esqueceu do seu Criador e constrói templos; e Judá multiplicou cidades fortificadas; mas porei fogo às suas cidades, e consumirá os seus palácios."
+            }
+          ]
+        },
+        {
+          "chapter": 9,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Não te alegres, ó Israel, de alegria, como os outros povos: pois te prostituíste do teu Deus, amaste uma recompensa em cada eira de milho."
+            },
+            {
+              "verse": 2,
+              "text": "A eira e o lagar não os alimentarão, e o vinho novo nela faltará."
+            },
+            {
+              "verse": 3,
+              "text": "Não habitarão na terra do Senhor; mas Efraim voltará ao Egito, e comerão coisas impuras na Assíria."
+            },
+            {
+              "verse": 4,
+              "text": "Não oferecerão ofertas de vinho ao Senhor, nem lhe serão agradáveis; os seus sacrifícios serão para eles como o pão dos pranteadores; todos os que dela comerem serão imundos; porque o pão da sua alma não entrará na casa do Senhor."
+            },
+            {
+              "verse": 5,
+              "text": "O que fareis no dia solene e no dia da festa do Senhor?"
+            },
+            {
+              "verse": 6,
+              "text": "Pois eis que eles se foram por causa da destruição: o Egito os reunirá, Mênfis os sepultará; os lugares agradáveis ​​para a sua prata, as urtigas os possuirão: os espinhos estarão em seus tabernáculos."
+            },
+            {
+              "verse": 7,
+              "text": "Chegaram os dias da visitação, chegaram os dias da recompensa; Israel saberá disso: o profeta é um tolo, o homem espiritual é louco, por causa da multidão da tua iniqüidade e do grande ódio."
+            },
+            {
+              "verse": 8,
+              "text": "O vigia de Efraim estava com o meu Deus; mas o profeta é uma armadilha de passarinheiro em todos os seus caminhos, e ódio na casa do seu Deus."
+            },
+            {
+              "verse": 9,
+              "text": "Eles se corromperam profundamente, como nos dias de Gibeá: portanto ele se lembrará da iniqüidade deles, visitará os seus pecados."
+            },
+            {
+              "verse": 10,
+              "text": "Encontrei Israel como uvas no deserto; Vi vossos pais como os primogênitos na figueira na primeira vez; mas eles foram a Baal-Peor e se separaram para aquela vergonha; e as suas abominações foram conforme quiseram."
+            },
+            {
+              "verse": 11,
+              "text": "Quanto a Efraim, a sua glória voará como um pássaro, desde o nascimento, e desde o ventre, e desde a concepção."
+            },
+            {
+              "verse": 12,
+              "text": "Embora eles criem seus filhos, ainda assim eu os despojarei, de modo que não restará nenhum homem: sim, ai também deles quando eu me afastar deles!"
+            },
+            {
+              "verse": 13,
+              "text": "Efraim, como vi Tiro, está plantado em um lugar agradável; mas Efraim trará seus filhos ao assassino."
+            },
+            {
+              "verse": 14,
+              "text": "Dá-lhes, Senhor: que darás? dê-lhes um útero abortado e seios secos."
+            },
+            {
+              "verse": 15,
+              "text": "Toda a sua maldade está em Gilgal: porque ali os odiei; pela maldade das suas ações os expulsarei de minha casa, não os amarei mais: todos os seus príncipes são rebeldes."
+            },
+            {
+              "verse": 16,
+              "text": "Efraim foi ferido, a sua raiz secou-se, não darão fruto; sim, ainda que produzam, matarei até o fruto amado do seu ventre."
+            },
+            {
+              "verse": 17,
+              "text": "O meu Deus os rejeitará, porque não lhe deram ouvidos; e serão errantes entre as nações."
+            }
+          ]
+        },
+        {
+          "chapter": 10,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Israel é uma videira vazia, dá fruto para si; ​​conforme a multidão do seu fruto aumentou os altares; segundo a bondade da sua terra, fizeram belas imagens."
+            },
+            {
+              "verse": 2,
+              "text": "O coração deles está dividido; agora serão considerados culpados; ele derrubará os seus altares, estragará as suas imagens."
+            },
+            {
+              "verse": 3,
+              "text": "Porque agora dirão: Não temos rei, porque não tememos ao Senhor; o que então um rei deveria fazer conosco?"
+            },
+            {
+              "verse": 4,
+              "text": "Eles proferiram palavras, jurando falsamente ao fazerem uma aliança: assim o julgamento brota como cicuta nos sulcos do campo."
+            },
+            {
+              "verse": 5,
+              "text": "Os habitantes de Samaria temerão por causa dos bezerros de Bete-Áven; porque o seu povo se lamentará sobre ela, e os seus sacerdotes que nela se alegraram, pela sua glória, porque dela se afastou."
+            },
+            {
+              "verse": 6,
+              "text": "Também será levado à Assíria como presente ao rei Jareb: Efraim ficará envergonhado, e Israel se envergonhará do seu próprio conselho."
+            },
+            {
+              "verse": 7,
+              "text": "Quanto a Samaria, o seu rei está cortado como a espuma das águas."
+            },
+            {
+              "verse": 8,
+              "text": "Também os altos de Áven, pecado de Israel, serão destruídos; espinhos e cardos crescerão sobre os seus altares; e dirão aos montes: Cobri-nos; e para as colinas, caia sobre nós."
+            },
+            {
+              "verse": 9,
+              "text": "Ó Israel, tu pecaste desde os dias de Gibeá; ali estavam eles: a batalha em Gibeá contra os filhos da iniqüidade não os alcançou."
+            },
+            {
+              "verse": 10,
+              "text": "É meu desejo que eu os castigue; e o povo se ajuntará contra eles, quando se ligarem nos seus dois sulcos."
+            },
+            {
+              "verse": 11,
+              "text": "E Efraim é como uma novilha que aprende e gosta de debulhar; mas passei sobre o seu belo pescoço: farei Efraim cavalgar; Judá lavrará e Jacó quebrará os seus torrões."
+            },
+            {
+              "verse": 12,
+              "text": "Semeie para si mesmo com justiça, colha com misericórdia; abram o seu terreno baldio; pois é tempo de buscar ao Senhor, até que ele venha e faça chover justiça sobre vocês."
+            },
+            {
+              "verse": 13,
+              "text": "Vocês lavraram a maldade, colheram a iniqüidade; comestes o fruto da mentira; porque confiastes no teu caminho, na multidão dos teus valentes."
+            },
+            {
+              "verse": 14,
+              "text": "Portanto surgirá um tumulto entre o teu povo, e todas as tuas fortalezas serão devastadas, como Salmã destruiu Bete-Arbel no dia da batalha: a mãe foi despedaçada sobre seus filhos."
+            },
+            {
+              "verse": 15,
+              "text": "Assim vos fará Betel por causa da vossa grande maldade: pela manhã o rei de Israel será totalmente exterminado."
+            }
+          ]
+        },
+        {
+          "chapter": 11,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Quando Israel era criança, eu o amei e chamei meu filho do Egito."
+            },
+            {
+              "verse": 2,
+              "text": "Como eles os chamavam, assim eles se afastavam deles: sacrificavam aos Baalins e queimavam incenso às imagens esculpidas."
+            },
+            {
+              "verse": 3,
+              "text": "Ensinei também Efraim a ir, tomando-os pelos braços; mas eles não sabiam que eu os curava."
+            },
+            {
+              "verse": 4,
+              "text": "Atraí-os com cordas humanas, com laços de amor; e fui para eles como aqueles que tiram o jugo das suas queixadas, e lhes dei mantimento."
+            },
+            {
+              "verse": 5,
+              "text": "Ele não retornará à terra do Egito, mas os assírios serão seu rei, porque eles se recusaram a retornar."
+            },
+            {
+              "verse": 6,
+              "text": "E a espada habitará sobre as suas cidades, e consumirá os seus ramos, e os devorará, por causa dos seus próprios desígnios."
+            },
+            {
+              "verse": 7,
+              "text": "E o meu povo está inclinado a se afastar de mim: embora os chamassem ao Altíssimo, ninguém o exaltaria."
+            },
+            {
+              "verse": 8,
+              "text": "Como te abandonarei, Efraim? como te livrarei, Israel? como te farei como Admah? como te colocarei como Zeboim? meu coração está voltado dentro de mim, meus arrependimentos estão acesos juntos."
+            },
+            {
+              "verse": 9,
+              "text": "Não executarei o ardor da minha ira, não voltarei para destruir Efraim: porque eu sou Deus, e não homem; o Santo no meio de ti; e não entrarei na cidade."
+            },
+            {
+              "verse": 10,
+              "text": "Eles caminharão após o Senhor; ele rugirá como um leão; quando ele rugir, os filhos tremerão desde o oeste."
+            },
+            {
+              "verse": 11,
+              "text": "Tremerão como a ave do Egito, e como a pomba da terra da Assíria; e os porei nas suas casas, diz o Senhor."
+            },
+            {
+              "verse": 12,
+              "text": "Efraim me cercou com mentiras, e a casa de Israel com engano; mas Judá ainda governa com Deus e é fiel com os santos."
+            }
+          ]
+        },
+        {
+          "chapter": 12,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Efraim alimenta-se do vento e segue o vento oriental; diariamente aumenta a mentira e a desolação; e eles fazem um pacto com os assírios, e o azeite é levado para o Egito."
+            },
+            {
+              "verse": 2,
+              "text": "O Senhor também tem uma controvérsia com Judá, e castigará Jacó conforme os seus caminhos; conforme as suas ações ele o recompensará."
+            },
+            {
+              "verse": 3,
+              "text": "Ele pegou seu irmão pelo calcanhar no ventre, e pela sua força ele teve poder com Deus:"
+            },
+            {
+              "verse": 4,
+              "text": "Sim, ele teve poder sobre o anjo e prevaleceu; chorou e suplicou-lhe; encontrou-o em Betel e ali falou conosco;"
+            },
+            {
+              "verse": 5,
+              "text": "Sim, o Senhor Deus dos exércitos; o Senhor é o seu memorial."
+            },
+            {
+              "verse": 6,
+              "text": "Portanto, volte-se para o seu Deus: mantenha a misericórdia e o julgamento, e espere no seu Deus continuamente."
+            },
+            {
+              "verse": 7,
+              "text": "Ele é um comerciante, a balança do engano está em suas mãos: ele adora oprimir."
+            },
+            {
+              "verse": 8,
+              "text": "E Efraim disse: Contudo, enriqueci-me, encontrei bens para mim; em todos os meus trabalhos não encontrarão em mim nenhuma iniquidade que seja pecado."
+            },
+            {
+              "verse": 9,
+              "text": "E eu, o Senhor teu Deus desde a terra do Egito, ainda te farei habitar em tendas, como nos dias da festa solene."
+            },
+            {
+              "verse": 10,
+              "text": "Também falei pelos profetas e multipliquei visões e usei semelhanças pelo ministério dos profetas."
+            },
+            {
+              "verse": 11,
+              "text": "Existe iniqüidade em Gileade? certamente são vaidade: sacrificam novilhos em Gilgal; sim, seus altares são como montões nos sulcos dos campos."
+            },
+            {
+              "verse": 12,
+              "text": "E Jacó fugiu para o país da Síria, e Israel serviu por esposa, e por esposa ele pastoreou ovelhas."
+            },
+            {
+              "verse": 13,
+              "text": "E por um profeta o Senhor tirou Israel do Egito, e por um profeta ele foi preservado."
+            },
+            {
+              "verse": 14,
+              "text": "Efraim o provocou amargamente à ira; portanto deixará sobre ele o seu sangue, e o seu Senhor retornará sobre ele o seu opróbrio."
+            }
+          ]
+        },
+        {
+          "chapter": 13,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Quando Efraim falava tremendo, exaltava-se em Israel; mas quando ele ofendeu em Baal, ele morreu."
+            },
+            {
+              "verse": 2,
+              "text": "E agora pecam cada vez mais, e da sua prata fizeram imagens de fundição e ídolos segundo o seu próprio entendimento, tudo obra de artesãos; dizem deles: Os homens que sacrificam beijam os bezerros."
+            },
+            {
+              "verse": 3,
+              "text": "Portanto serão como a nuvem da manhã, e como o orvalho da manhã que passa, como a palha que o redemoinho lança da eira, e como a fumaça que sai da chaminé."
+            },
+            {
+              "verse": 4,
+              "text": "Contudo, eu sou o Senhor teu Deus desde a terra do Egito, e não conhecerás outro deus senão eu; porque não há salvador além de mim."
+            },
+            {
+              "verse": 5,
+              "text": "Eu te conheci no deserto, na terra de grande seca."
+            },
+            {
+              "verse": 6,
+              "text": "Segundo o seu pasto, assim foram saciados; eles foram saciados e seu coração exaltado; portanto, eles se esqueceram de mim."
+            },
+            {
+              "verse": 7,
+              "text": "Portanto serei para eles como um leão; como um leopardo no caminho os observarei:"
+            },
+            {
+              "verse": 8,
+              "text": "Eu os encontrarei como uma ursa que está despojada de seus filhotes, e rasgarei a rede de seu coração, e ali os devorarei como um leão: a fera os despedaçará."
+            },
+            {
+              "verse": 9,
+              "text": "Ó Israel, tu te destruíste; mas em mim está a tua ajuda."
+            },
+            {
+              "verse": 10,
+              "text": "Eu serei o teu rei; onde está outro que possa te salvar em todas as tuas cidades? e os teus juízes, dos quais disseste: Dá-me um rei e príncipes?"
+            },
+            {
+              "verse": 11,
+              "text": "Eu te dei um rei na minha ira e o tirei na minha ira."
+            },
+            {
+              "verse": 12,
+              "text": "A iniqüidade de Efraim está ligada; seu pecado está escondido."
+            },
+            {
+              "verse": 13,
+              "text": "As dores da mulher que está de parto virão sobre ele: ele é um filho insensato; pois ele não deveria permanecer muito tempo no local de nascimento dos filhos."
+            },
+            {
+              "verse": 14,
+              "text": "eu os resgatarei do poder da sepultura; Eu os resgatarei da morte: ó morte, eu serei as tuas pragas; Ó sepultura, eu serei a tua destruição: o arrependimento estará escondido dos meus olhos."
+            },
+            {
+              "verse": 15,
+              "text": "Ainda que ele frutifique entre seus irmãos, virá um vento oriental, o vento do Senhor subirá do deserto, e a sua nascente secará, e a sua fonte secará; ele roubará o tesouro de todos os vasos agradáveis."
+            },
+            {
+              "verse": 16,
+              "text": "Samaria ficará desolada; porque ela se rebelou contra o seu Deus; eles cairão à espada; os seus filhos serão despedaçados, e as suas mulheres grávidas serão despedaçadas."
+            }
+          ]
+        },
+        {
+          "chapter": 14,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Ó Israel, volta para o Senhor teu Deus; porque caíste pela tua iniquidade."
+            },
+            {
+              "verse": 2,
+              "text": "Leva contigo palavras, e volta-te para o Senhor; dize-lhe: Tira toda a iniquidade, e recebe-nos graciosamente; assim retribuiremos os bezerros dos nossos lábios."
+            },
+            {
+              "verse": 3,
+              "text": "Assur não nos salvará; não montaremos cavalos; nem diremos mais às obras das nossas mãos: Vós sois os nossos deuses; porque em vós o órfão encontra misericórdia."
+            },
+            {
+              "verse": 4,
+              "text": "Curarei a sua apostasia, amá-los-ei liberalmente, porque a minha ira se desviou dele."
+            },
+            {
+              "verse": 5,
+              "text": "Serei para Israel como o orvalho; ele crescerá como o lírio, e lançará as suas raízes como o Líbano."
+            },
+            {
+              "verse": 6,
+              "text": "Os seus ramos se estenderão, e a sua formosura será como a da oliveira, e o seu cheiro como o do Líbano."
+            },
+            {
+              "verse": 7,
+              "text": "Os que habitam à sua sombra retornarão; reviverão como o trigo, e crescerão como a vide; o seu perfume será como o do vinho do Líbano."
+            },
+            {
+              "verse": 8,
+              "text": "Efraim dirá: Que tenho mais que fazer com os ídolos? Eu o ouvi e o observei: sou como um abeto verde. De mim é encontrado o teu fruto."
+            },
+            {
+              "verse": 9,
+              "text": "Quem é sábio e entenderá estas coisas? prudente, e ele os conhecerá? porque os caminhos do Senhor são retos, e os justos andarão neles; mas os transgressores neles cairão."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

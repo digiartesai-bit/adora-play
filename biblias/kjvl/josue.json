@@ -1,0 +1,2764 @@
+{
+  "version": "KJVT",
+  "translation": "King James Version Traduzida",
+  "books": [
+    {
+      "abbrev": "js",
+      "name": "Josué",
+      "chapters": [
+        {
+          "chapter": 1,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Ora, depois da morte de Moisés, servo do Senhor, aconteceu que o Senhor falou a Josué, filho de Num, ministro de Moisés, dizendo:"
+            },
+            {
+              "verse": 2,
+              "text": "Moisés, meu servo, é morto; levanta-te, pois, passa este Jordão, tu e todo este povo, para a terra que eu dou aos filhos de Israel."
+            },
+            {
+              "verse": 3,
+              "text": "Todo lugar que pisar a planta do vosso pé, isso vos tenho dado, como disse a Moisés."
+            },
+            {
+              "verse": 4,
+              "text": "Desde o deserto e deste Líbano até ao grande rio, o rio Eufrates, toda a terra dos heteus, e até ao mar grande para o poente do sol, será o vosso termo."
+            },
+            {
+              "verse": 5,
+              "text": "Ninguém poderá resistir a ti todos os dias da tua vida; como fui com Moisés, assim serei contigo; não te deixarei, nem te desampararei."
+            },
+            {
+              "verse": 6,
+              "text": "Esforça-te e tem bom ânimo; porque a este povo repartirás por herança a terra que jurei a seus pais lhes daria."
+            },
+            {
+              "verse": 7,
+              "text": "Somente sê forte e muito corajoso, para que tenhas cuidado de fazer conforme toda a lei que Moisés, meu servo, te ordenou: não te desvies dela nem para a direita nem para a esquerda, para que prosperes por onde quer que fores."
+            },
+            {
+              "verse": 8,
+              "text": "Este livro da lei não se apartará da tua boca; mas meditarás nele dia e noite, para que tenhas cuidado de fazer conforme tudo o que nele está escrito; porque então farás próspero o teu caminho, e então terás bom êxito."
+            },
+            {
+              "verse": 9,
+              "text": "Não to eu ordenei? Sê forte e corajoso; não temas, nem te espantes; porque o Senhor teu Deus é contigo, por onde quer que andares."
+            },
+            {
+              "verse": 10,
+              "text": "Então Josué deu ordem aos oficiais do povo, dizendo:"
+            },
+            {
+              "verse": 11,
+              "text": "Passai pelo meio do arraial, e ordenai ao povo, dizendo: Provede-vos de comida, porque dentro de três dias passareis este Jordão, para que entrardes a possuir a terra que o Senhor vosso Deus vos dá para a possuí-la."
+            },
+            {
+              "verse": 12,
+              "text": "E aos rubenitas, e aos gaditas, e à meia tribo de Manassés, falou Josué, dizendo:"
+            },
+            {
+              "verse": 13,
+              "text": "Lembrai-vos da palavra que Moisés, servo do Senhor, vos ordenou, dizendo: O Senhor vosso Deus vos deu descanso e vos deu esta terra."
+            },
+            {
+              "verse": 14,
+              "text": "Vossas mulheres, vossos pequeninos e vosso gado permanecerão na terra que Moisés vos deu deste lado do Jordão; porém vós passareis armados diante de vossos irmãos, todos os homens valentes de valor, e os ajudareis;"
+            },
+            {
+              "verse": 15,
+              "text": "Até que o Senhor dê descanso a vossos irmãos, assim como a vós, e eles também possuam a terra que o Senhor vosso Deus lhes dá; então tornareis à terra da vossa possessão, e a possuireis, a qual Moisés, servo do Senhor, vos deu deste lado do Jordão para o nascente do sol."
+            },
+            {
+              "verse": 16,
+              "text": "E eles responderam a Josué, dizendo: Tudo o que nos ordenares faremos, e aonde quer que nos enviares iremos."
+            },
+            {
+              "verse": 17,
+              "text": "Assim como em tudo ouvimos a Moisés, também te ouviremos: só o Senhor teu Deus seja contigo, como foi com Moisés."
+            },
+            {
+              "verse": 18,
+              "text": "Todo homem que for rebelde ao teu mandamento, e não der ouvidos às tuas palavras em tudo quanto lhe ordenares, morrerá; tão somente sê forte e corajoso."
+            }
+          ]
+        },
+        {
+          "chapter": 2,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E Josué, filho de Num, enviou de Sitim dois homens para espiarem secretamente, dizendo: Ide, olhai a terra, e Jericó. E eles foram, e entraram na casa de uma prostituta, chamada Raabe, e pousaram ali."
+            },
+            {
+              "verse": 2,
+              "text": "E foi avisado ao rei de Jericó, dizendo: Eis que esta noite vieram aqui homens dos filhos de Israel para espiar a região."
+            },
+            {
+              "verse": 3,
+              "text": "E o rei de Jericó enviou a Raabe, dizendo: Faze sair os homens que vieram a ti, que entraram em tua casa, porque vieram espiar toda a terra."
+            },
+            {
+              "verse": 4,
+              "text": "E a mulher tomou os dois homens, e os escondeu, e disse assim: Alguns vieram a mim, mas não sei de onde eram:"
+            },
+            {
+              "verse": 5,
+              "text": "E aconteceu que, sendo já escuro, fechando-se a porta, os homens saíram; para onde foram, não sei; apressai-vos em ir após eles, porque os alcançareis."
+            },
+            {
+              "verse": 6,
+              "text": "Mas ela os levou até o telhado da casa e os escondeu com os talos de linho que ela colocou em ordem no telhado."
+            },
+            {
+              "verse": 7,
+              "text": "E os homens os perseguiram até o caminho do Jordão, até os vaus; e assim que os que os perseguiam saíram, fecharam a porta."
+            },
+            {
+              "verse": 8,
+              "text": "E antes que eles se deitassem, ela subiu até eles no terraço;"
+            },
+            {
+              "verse": 9,
+              "text": "E ela disse aos homens: Eu sei que o Senhor vos deu a terra, e que o vosso terror caiu sobre nós, e que todos os habitantes da terra desmaiaram por causa de vós."
+            },
+            {
+              "verse": 10,
+              "text": "Porque ouvimos como o Senhor secou para vós as águas do Mar Vermelho, quando saístes do Egito; e o que fizestes aos dois reis dos amorreus, Seom e Ogue, que estavam do outro lado do Jordão, a quem destruístes totalmente."
+            },
+            {
+              "verse": 11,
+              "text": "E assim que ouvimos estas coisas, os nossos corações derreteram-se, e não houve mais coragem em nenhum homem, por causa de vós: porque o Senhor vosso Deus, ele é Deus em cima nos céus, e em baixo na terra."
+            },
+            {
+              "verse": 12,
+              "text": "Agora, pois, rogo-vos que me jureis pelo Senhor, já que usei de bondade convosco, que também usareis de bondade para com a casa de meu pai e me dareis um sinal verdadeiro:"
+            },
+            {
+              "verse": 13,
+              "text": "E que devereis com vida a meu pai, e a minha mãe, e a meus irmãos, e a minhas irmãs, e a tudo o que têm, e livrareis as nossas vidas da morte."
+            },
+            {
+              "verse": 14,
+              "text": "Então os homens lhe responderam: A nossa vida pela vossa, se não manifestardes este nosso negócio; e será que, quando o Senhor nos der esta terra, usaremos contigo de misericórdia e de verdade."
+            },
+            {
+              "verse": 15,
+              "text": "Então ela os fez descer pela janela com uma corda; porque a sua casa estava sobre o muro da cidade, e ela habitava sobre o muro."
+            },
+            {
+              "verse": 16,
+              "text": "E ela lhes disse: Ide ao monte, para que os perseguidores não vos encontrem; e escondei-vos ali três dias, até que os perseguidores voltem; e depois podereis partir."
+            },
+            {
+              "verse": 17,
+              "text": "E os homens lhe disseram: Seremos inocentes deste juramento que nos fizeste jurar."
+            },
+            {
+              "verse": 18,
+              "text": "Eis que quando entrarmos na terra, amarrarás este cordel de fio escarlate na janela pela qual nos fizeste descer; e trarás para casa a ti teu pai, e tua mãe, e teus irmãos, e toda a casa de teu pai."
+            },
+            {
+              "verse": 19,
+              "text": "E será que todo aquele que sair da porta da tua casa para a rua, o seu sangue será sobre a sua cabeça, e nós seremos inocentes; e qualquer que estiver contigo em casa, o seu sangue será sobre a nossa cabeça, se alguma mão estiver sobre ele."
+            },
+            {
+              "verse": 20,
+              "text": "Porém, se tu manifestares este nosso negócio, seremos livres do teu juramento que nos fizeste jurar."
+            },
+            {
+              "verse": 21,
+              "text": "E ela disse: Segundo as tuas palavras, assim seja. E ela os despediu, e eles partiram; e ela amarrou o cordel escarlate na janela."
+            },
+            {
+              "verse": 22,
+              "text": "E foram, e chegaram ao monte, e ficaram ali três dias, até que os perseguidores voltaram; e os perseguidores os procuraram por todo o caminho, mas não os acharam."
+            },
+            {
+              "verse": 23,
+              "text": "Então os dois homens voltaram, e desceram do monte, e passaram, e vieram a Josué, o filho de Num, e lhe contaram todas as coisas que lhes aconteceram:"
+            },
+            {
+              "verse": 24,
+              "text": "E disseram a Josué: Verdadeiramente o Senhor entregou em nossas mãos toda a terra; pois até todos os habitantes da região desfalecem de medo por causa de nós."
+            }
+          ]
+        },
+        {
+          "chapter": 3,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Depois Josué levantou-se de madrugada, e eles partiram de Sitim, e vieram ao Jordão, ele e todos os filhos de Israel; e alojaram-se ali antes de passarem."
+            },
+            {
+              "verse": 2,
+              "text": "E aconteceu que, depois de três dias, os oficiais passaram pelo exército;"
+            },
+            {
+              "verse": 3,
+              "text": "E ordenaram ao povo, dizendo: Quando virdes a arca da aliança do Senhor vosso Deus, e os sacerdotes, os levitas, levando-a, então saireis do vosso lugar e ireis atrás dela."
+            },
+            {
+              "verse": 4,
+              "text": "Contudo, haverá um espaço entre vós e ele, de cerca de dois mil côvados de medida; não vos chegueis a ele, para que saibais o caminho que deveis seguir; porque ainda não passastes por este caminho."
+            },
+            {
+              "verse": 5,
+              "text": "E Josué disse ao povo: Santificai-vos, porque amanhã o Senhor fará maravilhas entre vós."
+            },
+            {
+              "verse": 6,
+              "text": "E Josué falou aos sacerdotes, dizendo: Levai a arca da aliança, e passai diante do povo. E eles pegaram a arca da aliança e foram adiante do povo."
+            },
+            {
+              "verse": 7,
+              "text": "E disse o Senhor a Josué: Hoje começarei a engrandecer-te diante de todo o Israel, para que saibam que, assim como fui com Moisés, serei contigo."
+            },
+            {
+              "verse": 8,
+              "text": "E darás ordem aos sacerdotes que levam a arca da aliança, dizendo: Quando chegardes à beira das águas do Jordão, parareis no Jordão."
+            },
+            {
+              "verse": 9,
+              "text": "E Josué disse aos filhos de Israel: Vinde, e ouvi as palavras do Senhor vosso Deus."
+            },
+            {
+              "verse": 10,
+              "text": "E disse Josué: Nisto sabereis que o Deus vivo está no meio de vós, e que sem falta expulsará de diante de vós os cananeus, e os heteus, e os heveus, e os ferezeus, e os girgaseus, e os amorreus, e os jebuseus."
+            },
+            {
+              "verse": 11,
+              "text": "Eis que a arca da aliança do Senhor de toda a terra passa adiante de vós até o Jordão."
+            },
+            {
+              "verse": 12,
+              "text": "Agora, pois, tomai doze homens das tribos de Israel, um homem de cada tribo."
+            },
+            {
+              "verse": 13,
+              "text": "E acontecerá que, em pousando as plantas dos pés dos sacerdotes que levam a arca do Senhor, o Senhor de toda a terra, nas águas do Jordão, as águas do Jordão se desviarão, e as que descem de cima se levantarão num montão."
+            },
+            {
+              "verse": 14,
+              "text": "E aconteceu que, retirando-se o povo das suas tendas, para passar o Jordão, e levando os sacerdotes a arca da aliança diante do povo;"
+            },
+            {
+              "verse": 15,
+              "text": "E quando os que levavam a arca chegaram ao Jordão, e os pés dos sacerdotes que levaram a arca foram mergulhados na borda das águas (porque o Jordão transborda todas as suas margens durante todo o tempo da colheita),"
+            },
+            {
+              "verse": 16,
+              "text": "Que as águas que vinham de cima pararam e levantaram-se num montão, muito longe, da cidade de Adã, que fica ao lado de Zaretã; e as que desciam para o mar da planície, a saber, o mar salgado, escoaram-se e foram totalmente cortadas; e o povo passou diretamente em frente a Jericó."
+            },
+            {
+              "verse": 17,
+              "text": "E os sacerdotes que levavam a arca da aliança do Senhor permaneceram firmes em terra seca no meio do Jordão, e todos os israelitas passaram em terra seca, até que todo o povo passou limpo o Jordão."
+            }
+          ]
+        },
+        {
+          "chapter": 4,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E aconteceu que, tendo todo o povo acabado de passar o Jordão, falou o Senhor a Josué, dizendo:"
+            },
+            {
+              "verse": 2,
+              "text": "Tirem doze homens do povo, de cada tribo, um homem,"
+            },
+            {
+              "verse": 3,
+              "text": "E ordenai-lhes, dizendo: Tirai daqui do meio do Jordão, do lugar onde os pés dos sacerdotes estavam firmes, doze pedras, e as levareis convosco, e as deixareis na hospedaria, onde passareis esta noite."
+            },
+            {
+              "verse": 4,
+              "text": "Então Josué convocou os doze homens que dos filhos de Israel tinha preparado, um homem de cada tribo:"
+            },
+            {
+              "verse": 5,
+              "text": "E Josué lhes disse: Passai diante da arca do Senhor vosso Deus, até o meio do Jordão, e levai cada um de vós uma pedra sobre o ombro, segundo o número das tribos dos filhos de Israel."
+            },
+            {
+              "verse": 6,
+              "text": "Para que isto seja um sinal entre vós, para que quando vossos filhos perguntarem a seus pais no futuro, dizendo: Que quereis vós com estas pedras?"
+            },
+            {
+              "verse": 7,
+              "text": "Então lhes respondereis: Que as águas do Jordão foram cortadas diante da arca da aliança do Senhor; quando passou o Jordão, as águas do Jordão foram cortadas; e estas pedras servirão de memorial aos filhos de Israel para sempre."
+            },
+            {
+              "verse": 8,
+              "text": "E os filhos de Israel fizeram como Josué ordenara, e pegaram doze pedras do meio do Jordão, como o Senhor tinha dito a Josué, segundo o número das tribos dos filhos de Israel, e as levaram consigo até o lugar onde se hospedaram, e ali as depositaram."
+            },
+            {
+              "verse": 9,
+              "text": "E Josué ergueu doze pedras no meio do Jordão, no lugar onde estavam os pés dos sacerdotes que levavam a arca da aliança; e estão ali até o dia de hoje."
+            },
+            {
+              "verse": 10,
+              "text": "Porque os sacerdotes que levavam a arca permaneceram no meio do Jordão, até que se cumprisse tudo o que o Senhor ordenara a Josué que falasse ao povo, conforme tudo o que Moisés ordenara a Josué; e o povo apressou-se e passou."
+            },
+            {
+              "verse": 11,
+              "text": "E aconteceu que, tendo todo o povo acabado de passar, passou a arca do Senhor e os sacerdotes, perante o povo."
+            },
+            {
+              "verse": 12,
+              "text": "E os filhos de Rúben, e os filhos de Gade, e a meia tribo de Manassés, passaram armados diante dos filhos de Israel, como Moisés lhes tinha dito:"
+            },
+            {
+              "verse": 13,
+              "text": "Cerca de quarenta mil preparados para a guerra passaram diante do Senhor para a batalha, nas planícies de Jericó."
+            },
+            {
+              "verse": 14,
+              "text": "Naquele dia o Senhor engrandeceu a Josué diante de todo o Israel; e temeram-no, como temeram a Moisés, todos os dias da sua vida."
+            },
+            {
+              "verse": 15,
+              "text": "E o Senhor falou a Josué, dizendo:"
+            },
+            {
+              "verse": 16,
+              "text": "Ordena aos sacerdotes que levam a arca do testemunho que subam do Jordão."
+            },
+            {
+              "verse": 17,
+              "text": "Josué ordenou, pois, aos sacerdotes, dizendo: Subi do Jordão."
+            },
+            {
+              "verse": 18,
+              "text": "E aconteceu que, quando os sacerdotes que levavam a arca da aliança do Senhor subiram do meio do Jordão, e as plantas dos pés dos sacerdotes se elevaram até a terra seca, as águas do Jordão voltaram ao seu lugar e correram sobre todas as suas margens, como antes."
+            },
+            {
+              "verse": 19,
+              "text": "E o povo subiu do Jordão no dia dez do primeiro mês e acampou em Gilgal, na fronteira oriental de Jericó."
+            },
+            {
+              "verse": 20,
+              "text": "E aquelas doze pedras, que tiraram do Jordão, levantou Josué em Gilgal."
+            },
+            {
+              "verse": 21,
+              "text": "E ele falou aos filhos de Israel, dizendo: Quando vossos filhos perguntarem a seus pais no futuro, dizendo: O que significam estas pedras?"
+            },
+            {
+              "verse": 22,
+              "text": "Então avisareis a vossos filhos, dizendo: Israel passou este Jordão em seco."
+            },
+            {
+              "verse": 23,
+              "text": "Porque o Senhor vosso Deus secou as águas do Jordão diante de vós, até que passastes, como o Senhor vosso Deus fez com o mar Vermelho, que secou diante de nós, até que passamos."
+            },
+            {
+              "verse": 24,
+              "text": "Para que todos os povos da terra conheçam a mão do Senhor, que ela é poderosa; para que temais ao Senhor vosso Deus para sempre."
+            }
+          ]
+        },
+        {
+          "chapter": 5,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E sucedeu que, ouvindo todos os reis dos amorreus que estavam do lado do Jordão, para o ocidente, e todos os kings dos cananeus que estavam junto ao mar, que o Senhor tinha secado as águas do Jordão diante dos filhos de Israel, até que tivéssemos passado, o coração deles se derreteu, e não houve mais neles espírito algum, por causa de los filhos de Israel."
+            },
+            {
+              "verse": 2,
+              "text": "Naquele tempo disse o Senhor a Josué: Faz facas afiadas e circuncida novamente os filhos de Israel pela segunda vez."
+            },
+            {
+              "verse": 3,
+              "text": "E Josué fez para ele facas afiadas, e circuncidou os filhos de Israel no outeiro dos prepúcios."
+            },
+            {
+              "verse": 4,
+              "text": "E esta é a causa pela qual Josué fez a circuncisão: Todo o povo que saiu do Egito, que eram homens, mesmo todos os homens de guerra, morreram no deserto, no caminho, depois que saíram do Egito."
+            },
+            {
+              "verse": 5,
+              "text": "Ora, todo o povo que saiu foi circuncidado; mas todo o povo que nasceu no deserto, pelo caminho, quando saiu do Egito, eles não os circuncidaram."
+            },
+            {
+              "verse": 6,
+              "text": "Porque os filhos de Israel caminharam quarenta anos no deserto, até que todo o povo que era homens de guerra, que saiu do Egito, foi consumido, porque não obedeceu à voz do Senhor; a quem o Senhor jurou que não lhes mostraria a terra que o Senhor jurou a seus pais que nos daria, uma terra que mana leite e mel."
+            },
+            {
+              "verse": 7,
+              "text": "E a seus filhos, a quem ele criou em seu lugar, esses Josué circuncidou; porque eram incircuncisos, porque não os tinham circuncidado no caminho."
+            },
+            {
+              "verse": 8,
+              "text": "E aconteceu que, depois de circuncidarem todo o povo, eles permaneceram nos seus lugares no acampamento, até ficarem sãos."
+            },
+            {
+              "verse": 9,
+              "text": "E o Senhor disse a Josué: Hoje tirei de cima de vós o opróbrio do Egito. Por isso o nome do lugar é chamado Gilgal até hoje."
+            },
+            {
+              "verse": 10,
+              "text": "E os filhos de Israel acamparam em Gilgal, e celebraram a páscoa no dia catorze do mês, à tarde, nas campinas de Jericó."
+            },
+            {
+              "verse": 11,
+              "text": "E comeram do produto da terra no dia seguinte à Páscoa, pães ázimos e espigas tostadas no mesmo dia."
+            },
+            {
+              "verse": 12,
+              "text": "E o maná cessou no dia seguinte, depois de terem comido do milho velho da terra; nem os filhos de Israel tinham mais maná; mas naquele ano comeram do fruto da terra de Canaã."
+            },
+            {
+              "verse": 13,
+              "text": "E aconteceu que, estando Josué perto de Jericó, levantou os olhos e olhou, e eis que estava diante dele um homem com a espada desembainhada na mão; e Josué foi ter com ele e disse-lhe: És tu por nós ou pelos nossos adversários?"
+            },
+            {
+              "verse": 14,
+              "text": "E ele disse: Não; mas agora venho como capitão do exército do Senhor. E Josué caiu com o rosto em terra, e adorou, e disse-lhe: Que diz meu senhor ao seu servo?"
+            },
+            {
+              "verse": 15,
+              "text": "Disse então o príncipe do exército do Senhor a Josué: Tira os sapatos dos pés, porque o lugar em que estás é santo. E Josué fez assim."
+            }
+          ]
+        },
+        {
+          "chapter": 6,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Ora, Jericó estava firmemente fechado por causa dos filhos de Israel; ninguém saía e ninguém entrava."
+            },
+            {
+              "verse": 2,
+              "text": "E o SENHOR disse a Josué: Vê, tenho dado na tua mão Jericó, e o seu rei, e os homens fortes e valentes."
+            },
+            {
+              "verse": 3,
+              "text": "E rodeareis a cidade, todos vós, homens de guerra, e rodeareis a cidade uma vez. Assim farás seis dias."
+            },
+            {
+              "verse": 4,
+              "text": "E sete sacerdotes levarão diante da arca sete trombetas de chifres de carneiro; e no sétimo dia rodeareis a cidade sete vezes, e os sacerdotes tocarão as trombetas."
+            },
+            {
+              "verse": 5,
+              "text": "E acontecerá que, quando derem um longo toque de trombeta, e quando ouvirdes o som da trombeta, todo o povo gritará com grande grito; e o muro da cidade cairá e o povo subirá, cada um diretamente diante dele."
+            },
+            {
+              "verse": 6,
+              "text": "E Josué, filho de Num, chamou os sacerdotes e disse-lhes: Levai a arca da aliança, e sete sacerdotes levem sete trombetas de chifres de carneiro diante da arca do Senhor."
+            },
+            {
+              "verse": 7,
+              "text": "E disse ao povo: Passai, e rodeai a cidade, e quem estiver armado passe diante da arca do Senhor."
+            },
+            {
+              "verse": 8,
+              "text": "E aconteceu que, tendo Josué falado ao povo, os sete sacerdotes que levavam as sete trombetas de chifres de carneiro passaram diante do Senhor e tocaram as trombetas; e a arca da aliança do Senhor os seguiu."
+            },
+            {
+              "verse": 9,
+              "text": "E os homens armados iam adiante dos sacerdotes que tocavam as trombetas, e a retaguarda vinha atrás da arca, indo os sacerdotes e tocando as trombetas."
+            },
+            {
+              "verse": 10,
+              "text": "E Josué tinha ordenado ao povo, dizendo: Não gritareis, nem fareis barulho com a vossa voz, nem sairá palavra da vossa boca, até o dia em que eu vos ordenar que griteis; então gritareis."
+            },
+            {
+              "verse": 11,
+              "text": "Assim a arca do Senhor rodeou a cidade, rodeando-a uma vez; e entraram no arraial, e alojaram-se no arraial."
+            },
+            {
+              "verse": 12,
+              "text": "E Josué levantou-se de madrugada, e os sacerdotes levaram a arca do Senhor."
+            },
+            {
+              "verse": 13,
+              "text": "E sete sacerdotes levavam sete trombetas de chifres de carneiro diante da arca do Senhor e iam continuamente, e tocavam as trombetas; e os homens armados iam adiante deles; mas a retaguarda veio atrás da arca, indo os sacerdotes e tocando as trombetas."
+            },
+            {
+              "verse": 14,
+              "text": "E no segundo dia rodearam uma vez a cidade e voltaram ao acampamento; assim fizeram seis dias."
+            },
+            {
+              "verse": 15,
+              "text": "E aconteceu que, no sétimo dia, levantaram-se de madrugada, ao amanhecer, e cercaram a cidade sete vezes da mesma maneira; somente naquele dia rodearam a cidade sete vezes."
+            },
+            {
+              "verse": 16,
+              "text": "E aconteceu que, à sétima vez, quando os sacerdotes tocavam as trombetas, Josué disse ao povo: Gritai; porque o Senhor te deu a cidade."
+            },
+            {
+              "verse": 17,
+              "text": "E a cidade, ela e todos os que nela há, serão amaldiçoadas ao Senhor; só Raabe, a prostituta, viverá, ela e todos os que estão com ela em casa, porque escondeu os mensageiros que enviamos."
+            },
+            {
+              "verse": 18,
+              "text": "E vós, de maneira alguma, guardai-vos do anátema, para que não vos torneis amaldiçoados, quando tomardes o anátema, e fizerdes do acampamento de Israel uma maldição, e o perturbais."
+            },
+            {
+              "verse": 19,
+              "text": "Mas toda a prata, e todo o ouro, e todos os vasos de bronze e de ferro, serão consagrados ao Senhor; entrarão no tesouro do Senhor."
+            },
+            {
+              "verse": 20,
+              "text": "Então o povo gritou quando os sacerdotes tocaram as trombetas: e aconteceu que, quando o povo ouviu o som da trombeta, e o povo gritou com grande grito, o muro caiu e o povo subiu para a cidade, cada homem diretamente diante dele, e eles tomaram a cidade."
+            },
+            {
+              "verse": 21,
+              "text": "E destruíram totalmente tudo o que havia na cidade, tanto homens como mulheres, jovens e velhos, e bois, e ovelhas, e jumentos, ao fio da espada."
+            },
+            {
+              "verse": 22,
+              "text": "Mas Josué disse aos dois homens que espiaram o país: Entrai na casa da prostituta e tirai dali a mulher e tudo o que ela tem, como lhe jurastes."
+            },
+            {
+              "verse": 23,
+              "text": "E entraram os mancebos que eram espias, e tiraram para fora a Raabe, e a seu pai, e a sua mãe, e a seus irmãos, e a tudo o que ela tinha; e tiraram toda a sua parentela, e os deixaram fora do acampamento de Israel."
+            },
+            {
+              "verse": 24,
+              "text": "E queimaram a fogo a cidade e tudo o que nela havia; somente a prata, e o ouro, e os vasos de bronze e de ferro, colocaram no tesouro da casa do Senhor."
+            },
+            {
+              "verse": 25,
+              "text": "E Josué salvou viva a Raabe, a prostituta, e a casa de seu pai, e tudo o que ela tinha; e ela habita em Israel até o dia de hoje; porque ela escondeu os mensageiros que Josué enviou para espionar Jericó."
+            },
+            {
+              "verse": 26,
+              "text": "E Josué os conjurou naquele tempo, dizendo: Maldito seja diante do Senhor o homem que se levantar e edificar esta cidade de Jericó; no seu primogênito lançará os alicerces, e no seu filho mais novo lhe porá as portas."
+            },
+            {
+              "verse": 27,
+              "text": "Assim o Senhor estava com Josué; e a sua fama foi espalhada por todo o país."
+            }
+          ]
+        },
+        {
+          "chapter": 7,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Mas os filhos de Israel cometeram uma transgressão no anátema: porque Acã, filho de Carmi, filho de Zabdi, filho de Zerá, da tribo de Judá, tomou do anátema; e a ira do Senhor se acendeu contra os filhos de Israel."
+            },
+            {
+              "verse": 2,
+              "text": "E Josué enviou homens de Jericó a Ai, que está perto de Bete-Áven, ao oriente de Betel, e falou-lhes, dizendo: Subi e observai a região. E os homens subiram e viram Ai."
+            },
+            {
+              "verse": 3,
+              "text": "E voltaram a Josué, e disseram-lhe: Não suba todo o povo; mas subam cerca de dois ou três mil homens e firam Ai; e não faças com que todo o povo trabalhe ali; pois eles são poucos."
+            },
+            {
+              "verse": 4,
+              "text": "Subiram, pois, para lá do povo cerca de três mil homens; e fugiram diante dos homens de Ai."
+            },
+            {
+              "verse": 5,
+              "text": "E os homens de Ai feriram deles cerca de trinta e seis homens; porque os perseguiram desde antes da porta mesmo até Sebarim, e os feriram na descida; portanto os corações do povo derreteram-se e tornaram-se como água."
+            },
+            {
+              "verse": 6,
+              "text": "E Josué rasgou as suas vestes, e prostrou-se com o rosto em terra diante da arca do Senhor até à tarde, ele e os anciãos de Israel, e puseram pó sobre as suas cabeças."
+            },
+            {
+              "verse": 7,
+              "text": "E Josué disse: Ai, ó Senhor Deus, por que fizeste com que este povo passasse o Jordão, para nos entregar nas mãos dos amorreus, para nos destruir? Quisera Deus que estivéssemos contentes e habitássemos do outro lado do Jordão!"
+            },
+            {
+              "verse": 8,
+              "text": "Ó Senhor, o que direi quando Israel virar as costas aos seus inimigos!"
+            },
+            {
+              "verse": 9,
+              "text": "Porque os cananeus e todos os habitantes da terra ouvirão disso, e nos cercarão, e exterminarão o nosso nome da terra; e que farás ao teu grande nome?"
+            },
+            {
+              "verse": 10,
+              "text": "E o Senhor disse a Josué: Levanta-te; por que estás assim deitado de bruços?"
+            },
+            {
+              "verse": 11,
+              "text": "Israel pecou, e também transgrediu a minha aliança que lhes ordenei; porque até tomaram do anátema, e também roubaram, e também dissimularam, e o puseram até entre os seus próprios bens."
+            },
+            {
+              "verse": 12,
+              "text": "Portanto os filhos de Israel não puderam resistir diante dos seus inimigos, mas viraram as costas diante dos seus inimigos, porque foram amaldiçoados; nem mais serei convosco, a menos que destruais os malditos do meio de vós."
+            },
+            {
+              "verse": 13,
+              "text": "Levanta-te, santifica o povo, e dize: Santificai-vos para amanhã; porque assim diz o Senhor Deus de Israel: Há algo anátema no meio de ti, ó Israel;"
+            },
+            {
+              "verse": 14,
+              "text": "Pela manhã, pois, sereis conduzidos segundo as vossas tribos; e será que a tribo que o Senhor tomar virá segundo as suas famílias; e a família que o Senhor tomar virá por casa; e a família que o Senhor tomar virá homem por homem."
+            },
+            {
+              "verse": 15,
+              "text": "E será que aquele que for pego com o anátema será queimado no fogo, ele e tudo o que possui; porque transgrediu a aliança do Senhor e porque cometeu loucura em Israel."
+            },
+            {
+              "verse": 16,
+              "text": "Levantou-se, pois, Josué pela manhã cedo, e trouxe a Israel segundo as suas tribos; e a tribo de Judá foi tomada:"
+            },
+            {
+              "verse": 17,
+              "text": "E ele trouxe a família de Judá; e ele tomou a família dos zarteus: e trouxe a família dos zarteus homem por homem; e Zabdi foi levado:"
+            },
+            {
+              "verse": 18,
+              "text": "E ele trouxe a sua família, homem por homem; e Acã, filho de Carmi, filho de Zabdi, filho de Zerá, da tribo de Judá, foi levado."
+            },
+            {
+              "verse": 19,
+              "text": "E Josué disse a Acã: Meu filho, dá, peço-te, glória ao Senhor Deus de Israel, e faze-lhe confissão; e dize-me agora o que fizeste; não o encubras de mim."
+            },
+            {
+              "verse": 20,
+              "text": "E Acã respondeu a Josué, e disse: Na verdade pequei contra o Senhor Deus de Israel, e assim e assim fiz:"
+            },
+            {
+              "verse": 21,
+              "text": "Quando vi entre os despojos uma boa roupa babilônica, e duzentos siclos de prata, e uma cunha de ouro de cinquenta siclos de peso, então os cobicei e os tomei; e eis que estão escondidos na terra, no meio da minha tenda, e a prata debaixo dela."
+            },
+            {
+              "verse": 22,
+              "text": "Então Josué enviou mensageiros, e eles correram para a tenda; e eis que estava escondido na sua tenda, e a prata debaixo dela."
+            },
+            {
+              "verse": 23,
+              "text": "E tiraram-nos do meio da tenda, e trouxeram-nos a Josué e a todos os filhos de Israel, e expuseram-nos perante o Senhor."
+            },
+            {
+              "verse": 24,
+              "text": "E Josué, e todo o Israel com ele, tomaram Acã, filho de Zerá, e a prata, e a veste, e a cunha de ouro, e seus filhos, e suas filhas, e seus bois, e seus jumentos, e suas ovelhas, e sua tenda, e tudo o que ele tinha: e eles os trouxeram ao vale de Acor."
+            },
+            {
+              "verse": 25,
+              "text": "E Josué disse: Por que nos perturbaste? o Senhor te perturbará hoje. E todo o Israel o apedrejou com pedras, e os queimou a fogo, depois de os terem apedrejado com pedras."
+            },
+            {
+              "verse": 26,
+              "text": "E levantaram sobre ele um grande montão de pedras até hoje. Assim o Senhor se desviou do ardor da sua ira. Por isso o nome daquele lugar foi chamado Vale de Acor, até o dia de hoje."
+            }
+          ]
+        },
+        {
+          "chapter": 8,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E disse o Senhor a Josué: Não temas, nem te espantes; toma contigo todo o povo de guerra, e levanta-te, sobe a Ai; eis que entreguei na tua mão o rei de Ai, e o seu povo, e a sua cidade, e a sua terra."
+            },
+            {
+              "verse": 2,
+              "text": "E farás a Ai e ao seu rei como fizeste a Jericó e ao seu rei: somente os seus despojos e o seu gado tomareis por presa para vós; armai uma emboscada para a cidade que está atrás dela."
+            },
+            {
+              "verse": 3,
+              "text": "Então Josué se levantou com todo o povo de guerra para subir contra Ai; e Josué escolheu trinta mil homens valentes e os despediu de noite."
+            },
+            {
+              "verse": 4,
+              "text": "E ele lhes ordenou, dizendo: Eis que armareis emboscadas contra a cidade, mesmo atrás da cidade; não vos afasteis muito da cidade, mas estai todos preparados:"
+            },
+            {
+              "verse": 5,
+              "text": "E eu e todo o povo que está comigo nos aproximaremos da cidade; e acontecerá que, quando eles saírem ao nosso encontro, como antes, fugiremos diante deles,"
+            },
+            {
+              "verse": 6,
+              "text": "(Pois eles sairão atrás de nós) até que os tenhamos tirado da cidade; porque dirão: Eles fogem de diante de nós, como antes; portanto, fugiremos de diante deles."
+            },
+            {
+              "verse": 7,
+              "text": "Então vos levantareis da emboscada e tomareis posse da cidade; porque o Senhor vosso Deus a entregará nas vossas mãos."
+            },
+            {
+              "verse": 8,
+              "text": "E será que, quando tomardes a cidade, poreis fogo à cidade; conforme a ordem do Senhor fareis. Veja, eu lhe ordenei."
+            },
+            {
+              "verse": 9,
+              "text": "Josué, portanto, os enviou; e eles foram emboscar-se e ficaram entre Betel e Ai, no lado oeste de Ai; mas Josué passou a noite entre o povo."
+            },
+            {
+              "verse": 10,
+              "text": "E Josué levantou-se de madrugada, e contou o povo, e subiu, ele e os anciãos de Israel, diante do povo, a Ai."
+            },
+            {
+              "verse": 11,
+              "text": "E todo o povo, mesmo o povo de guerra que estava com ele, subiu, e chegou perto, e veio diante da cidade, e acampou-se ao norte de Ai: agora havia um vale entre eles e Ai."
+            },
+            {
+              "verse": 12,
+              "text": "E ele tomou cerca de cinco mil homens e os colocou de emboscada entre Betel e Ai, no lado oeste da cidade."
+            },
+            {
+              "verse": 13,
+              "text": "E quando eles colocaram o povo, mesmo todo o exército que estava no norte da cidade, e seus escudeiros emboscados no oeste da cidade, Josué foi naquela noite para o meio do vale."
+            },
+            {
+              "verse": 14,
+              "text": "E aconteceu que, vendo o rei de Ai, apressaram-se e levantaram-se de madrugada, e os homens da cidade saíram à peleja contra Israel, ele e todo o seu povo, num tempo determinado, diante da planície; mas ele não sabia que havia uma emboscada contra ele atrás da cidade."
+            },
+            {
+              "verse": 15,
+              "text": "E Josué e todo o Israel fizeram como se tivessem sido derrotados diante deles, e fugiram pelo caminho do deserto."
+            },
+            {
+              "verse": 16,
+              "text": "E todo o povo que estava em Ai foi convocado para persegui-los; e perseguiram a Josué, e foram afastados da cidade."
+            },
+            {
+              "verse": 17,
+              "text": "E não ficou homem algum em Ai ou em Betel que não saísse atrás de Israel; e deixaram a cidade aberta, e perseguiram a Israel."
+            },
+            {
+              "verse": 18,
+              "text": "E disse o Senhor a Josué: Estende a lança que está na tua mão para Ai; porque eu o entregarei na tua mão. E Josué estendeu a lança que tinha na mão para a cidade."
+            },
+            {
+              "verse": 19,
+              "text": "E a emboscada levantou-se rapidamente do seu lugar, e eles correram assim que ele estendeu a mão; e entraram na cidade, e a tomaram, e apressaram-se e incendiaram a cidade."
+            },
+            {
+              "verse": 20,
+              "text": "E quando os homens de Ai olharam para trás, eles viram, e eis que a fumaça da cidade subia ao céu, e eles não tinham poder para fugir por um lado ou por outro: e o povo que fugiu para o deserto voltou-se contra os perseguidores."
+            },
+            {
+              "verse": 21,
+              "text": "E quando Josué e todo o Israel viram que a emboscada havia tomado a cidade, e que a fumaça da cidade subia, então eles se viraram novamente e mataram os homens de Ai."
+            },
+            {
+              "verse": 22,
+              "text": "E o outro saiu da cidade contra eles; assim estiveram no meio de Israel, uns deste lado, e outros daquele lado; e os feriram, de modo que não deixaram nenhum deles permanecer ou escapar."
+            },
+            {
+              "verse": 23,
+              "text": "E prenderam vivo o rei de Ai e o levaram a Josué."
+            },
+            {
+              "verse": 24,
+              "text": "E aconteceu que, quando Israel acabou de matar todos os habitantes de Ai no campo, no deserto onde os perseguiram, e quando todos caíram ao fio da espada, até serem consumidos, todos os israelitas voltaram a Ai e o feriram ao fio da espada."
+            },
+            {
+              "verse": 25,
+              "text": "E aconteceu que todos os que caíram naquele dia, tanto homens como mulheres, foram doze mil, todos os homens de Ai."
+            },
+            {
+              "verse": 26,
+              "text": "Pois Josué não retirou a mão, com a qual estendeu a lança, até que destruiu totalmente todos os habitantes de Ai."
+            },
+            {
+              "verse": 27,
+              "text": "Somente o gado e o despojo daquela cidade que Israel tomou por despojo para si, conforme a palavra do Senhor que ordenara a Josué."
+            },
+            {
+              "verse": 28,
+              "text": "E Josué queimou Ai, e fez dela um montão para sempre, uma desolação até ao dia de hoje."
+            },
+            {
+              "verse": 29,
+              "text": "E o rei de Ai foi pendurado em uma árvore até o anoitecer; e assim que o sol se pôs, Josué ordenou que tirassem seu cadáver da árvore e o lançassem à entrada do portão da cidade, e levantassem sobre ele um grande monte de pedras, que permanece até hoje."
+            },
+            {
+              "verse": 30,
+              "text": "Então Josué edificou um altar ao Senhor, Deus de Israel, no monte Ebal,"
+            },
+            {
+              "verse": 31,
+              "text": "Como Moisés, servo do Senhor, ordenou aos filhos de Israel, como está escrito no livro da lei de Moisés, um altar de pedras inteiras, sobre o qual ninguém levantou ferro; e sobre ele ofereceram holocaustos ao Senhor e sacrificaram ofertas pacíficas."
+            },
+            {
+              "verse": 32,
+              "text": "E escreveu ali sobre as pedras uma cópia da lei de Moisés, a qual escreveu na presença dos filhos de Israel."
+            },
+            {
+              "verse": 33,
+              "text": "E todo o Israel, e os seus anciãos, e os oficiais, e os seus juízes, estavam de pé deste lado da arca, e daquele lado, diante dos sacerdotes, os levitas, que levavam a arca da aliança do Senhor, tanto o estrangeiro como o natural deles; metade deles defronte do monte Gerizim, e metade deles defronte do monte Ebal; como Moisés, servo do Senhor, já havia ordenado antes, para que abençoassem os filhos de Israel."
+            },
+            {
+              "verse": 34,
+              "text": "E depois leu todas as palavras da lei, as bênçãos e as maldições, de acordo com tudo o que está escrito no livro da lei."
+            },
+            {
+              "verse": 35,
+              "text": "Nenhuma palavra houve de tudo o que Moisés ordenara, que Josué não lesse diante de toda a congregação de Israel, e das mulheres, e dos pequeninos, e dos estrangeiros que entre eles conheciam."
+            }
+          ]
+        },
+        {
+          "chapter": 9,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E aconteceu que todos os reis que estavam deste lado do Jordão, nas colinas, e nos vales, e em todos os termos do mar grande, defronte do Líbano, os heteus, e os amorreus, e os cananeus, e os perizeus, e os heveus, e os jebuseus, ouviram isso;"
+            },
+            {
+              "verse": 2,
+              "text": "Que eles se reuniram para lutar com Josué e com Israel, de comum acordo."
+            },
+            {
+              "verse": 3,
+              "text": "E quando os habitantes de Gibeão ouviram o que Josué tinha feito a Jericó e a Ai,"
+            },
+            {
+              "verse": 4,
+              "text": "Eles trabalharam com astúcia e foram e fingiram que eram embaixadores, e levaram sacos velhos sobre os seus jumentos e garrafas de vinho, velhas, rasgadas e amarradas;"
+            },
+            {
+              "verse": 5,
+              "text": "E nos pés sapatos velhos e com tachas, e roupas velhas sobre eles; e todo o pão que traziam estava seco e mofado."
+            },
+            {
+              "verse": 6,
+              "text": "E foram ter com Josué, ao acampamento em Gilgal, e disseram-lhe, e aos homens de Israel: Viemos de uma terra distante; agora, pois, fazei aliança conosco."
+            },
+            {
+              "verse": 7,
+              "text": "E os homens de Israel disseram aos heveus: Porventura habitais entre nós; e como faremos uma aliança convosco?"
+            },
+            {
+              "verse": 8,
+              "text": "E disseram a Josué: Nós somos teus servos. E Josué lhes disse: Quem sois vós? e de onde vens?"
+            },
+            {
+              "verse": 9,
+              "text": "E eles lhe disseram: De uma terra muito distante vieram os teus servos, por causa do nome do Senhor teu Deus; porque ouvimos a fama dele e tudo o que fez no Egito,"
+            },
+            {
+              "verse": 10,
+              "text": "E tudo o que fez aos dois reis dos amorreus, que estavam além do Jordão, a Siom, rei de Hesbom, e a Ogue, rei de Basã, que estava em Astarote."
+            },
+            {
+              "verse": 11,
+              "text": "Portanto, nossos anciãos e todos os habitantes de nosso país nos falaram, dizendo: Levem consigo mantimentos para a viagem, e vão ao encontro deles, e digam-lhes: Nós somos vossos servos; portanto, agora façam uma aliança conosco."
+            },
+            {
+              "verse": 12,
+              "text": "Este é o nosso pão que tiramos de nossas casas, quente, para provisão, no dia em que saímos para ir ter convosco; mas agora eis que está seco e mofado:"
+            },
+            {
+              "verse": 13,
+              "text": "E estas garrafas de vinho que enchemos eram novas; e eis que estão rasgados; e estas nossas vestes e nossos sapatos envelheceram por causa da longa viagem."
+            },
+            {
+              "verse": 14,
+              "text": "E os homens tomaram das suas provisões, e não pediram conselho da boca do SENHOR."
+            },
+            {
+              "verse": 15,
+              "text": "E Josué fez paz com eles, e fez aliança com eles, para lhes dar vida; e os príncipes da congregação prestaram-lhes juramento."
+            },
+            {
+              "verse": 16,
+              "text": "E aconteceu que, ao fim de três dias depois de terem feito aliança com eles, ouviram que eram seus vizinhos e que habitavam entre eles."
+            },
+            {
+              "verse": 17,
+              "text": "E os filhos de Israel partiram e chegaram às suas cidades no terceiro dia. Ora, as suas cidades eram Gibeão, e Quefira, e Beerote, e Quiriate-Jearim."
+            },
+            {
+              "verse": 18,
+              "text": "E os filhos de Israel não os feriram, porque os príncipes da congregação lhes tinham jurado pelo Senhor Deus de Israel. E toda a congregação murmurou contra os príncipes."
+            },
+            {
+              "verse": 19,
+              "text": "Mas todos os príncipes disseram a toda a congregação: Nós lhes juramos pelo Senhor Deus de Israel; agora, portanto, não lhes tocaremos."
+            },
+            {
+              "verse": 20,
+              "text": "Isso faremos com eles; nós até os deixaremos viver, para que a ira não caia sobre nós, por causa do juramento que lhes fizemos."
+            },
+            {
+              "verse": 21,
+              "text": "E os príncipes lhes disseram: Deixem-nos viver; mas sejam rachadores de lenha e tiradores de água para toda a congregação; como os príncipes lhes haviam prometido."
+            },
+            {
+              "verse": 22,
+              "text": "E Josué os convocou e ele lhes falou, dizendo: Por que nos enganastes dizendo: Nós estamos muito longe de vós, quando habitais no meio de nós?"
+            },
+            {
+              "verse": 23,
+              "text": "Agora, portanto, sois amaldiçoados, e nenhum de vós será libertado de ser servo, rachador de lenha e tirador de água para a casa do meu Deus."
+            },
+            {
+              "verse": 24,
+              "text": "E eles responderam a Josué, e disseram: Porque certamente foi dito a teus servos que o Senhor teu Deus ordenou a seu servo Moisés que te desse toda a terra e destruísse todos os habitantes da terra diante de ti, por isso tivemos grande temor por nossas vidas por vossa causa, e fizemos isso."
+            },
+            {
+              "verse": 25,
+              "text": "E agora, eis que estamos em tuas mãos; faze-o como te parecer bom e justo fazer-nos."
+            },
+            {
+              "verse": 26,
+              "text": "E ele fez o mesmo com eles, e os livrou da mão dos filhos de Israel, para que não os matassem."
+            },
+            {
+              "verse": 27,
+              "text": "E, naquele dia, Josué fez deles cortadores de madeira e tiradores de água para a congregação e para o altar do SENHOR, até este dia, no lugar que ele escolhesse."
+            }
+          ]
+        },
+        {
+          "chapter": 10,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Ora, aconteceu que quando Adoni-Zedeque, rei de Jerusalém, ouviu como Josué havia tomado Ai e a destruído totalmente; como ele fez com Jericó e seu rei, assim ele fez com Ai e seu rei; e como os habitantes de Gibeão fizeram paz com Israel e estavam entre eles;"
+            },
+            {
+              "verse": 2,
+              "text": "Que temiam muito, porque Gibeão era uma cidade grande, como uma das cidades reais, e porque era maior que Ai, e todos os seus homens eram poderosos."
+            },
+            {
+              "verse": 3,
+              "text": "Portanto Adoni-Zedeque, rei de Jerusalém, enviou a Hoão, rei de Hebron, e a Pirão, rei de Jarmuth, e a Jafia, rei de Laquis, e a Debir, rei de Eglom, dizendo:"
+            },
+            {
+              "verse": 4,
+              "text": "Subi a mim e ajuda-me, para que firamos Gibeão; porque fez paz com Josué e com os filhos de Israel."
+            },
+            {
+              "verse": 5,
+              "text": "Portanto, os cinco reis dos amorreus, o rei de Jerusalém, o rei de Hebron, o rei de Jarmute, o rei de Laquis, o rei de Eglon, reuniram-se e subiram, eles e todos os seus exércitos, e acamparam diante de Gibeão, e fizeram guerra contra ele."
+            },
+            {
+              "verse": 6,
+              "text": "E os homens de Gibeão enviaram a Josué ao acampamento em Gilgal, dizendo: Não retires a mão dos teus servos; venha rapidamente a nós, e salve-nos, e ajude-nos; porque todos os reis dos amorreus que habitam nas montanhas estão reunidos contra nós."
+            },
+            {
+              "verse": 7,
+              "text": "Então Josué subiu de Gilgal, ele e todo o povo de guerra com ele, e todos os homens valentes."
+            },
+            {
+              "verse": 8,
+              "text": "E o SENHOR disse a Josué: Não os temas; porque os entreguei na tua mão; nenhum deles ficará diante de ti."
+            },
+            {
+              "verse": 9,
+              "text": "Josué, pois, veio ter com eles repentinamente e subiu de Gilgal a noite toda."
+            },
+            {
+              "verse": 10,
+              "text": "E o Senhor os perturbou diante de Israel, e os matou com grande matança em Gibeão, e os perseguiu pelo caminho que sobe a Bete-Horom, e os feriu até Azeca e até Maquedá."
+            },
+            {
+              "verse": 11,
+              "text": "E aconteceu que, fugindo eles de diante de Israel, e estavam descendo a Bete-Horom, o Senhor lançou sobre eles grandes pedras do céu até Azeca, e eles morreram;"
+            },
+            {
+              "verse": 12,
+              "text": "Então falou Josué ao Senhor, no dia em que o Senhor entregou os amorreus diante dos filhos de Israel, e disse diante dos olhos de Israel: Sol, fica quieto sobre Gibeão; e tu, Lua, no vale de Ajalon."
+            },
+            {
+              "verse": 13,
+              "text": "E o sol parou, e a lua permaneceu, até que o povo se vingou de seus inimigos. Não está isto escrito no livro de Jasar? Então o sol parou no meio do céu e não se apressou em se pôr durante um dia inteiro."
+            },
+            {
+              "verse": 14,
+              "text": "E não houve dia igual a esse, antes ou depois dele, em que o Senhor ouvisse a voz de um homem; porque o Senhor pelejava por Israel."
+            },
+            {
+              "verse": 15,
+              "text": "E Josué voltou, e todo o Israel com ele, ao acampamento em Gilgal."
+            },
+            {
+              "verse": 16,
+              "text": "Mas estes cinco reis fugiram e esconderam-se numa caverna em Maquedá."
+            },
+            {
+              "verse": 17,
+              "text": "E foi avisado a Josué, dizendo: Os cinco reis foram encontrados escondidos numa caverna em Maquedá."
+            },
+            {
+              "verse": 18,
+              "text": "E Josué disse: Rola grandes pedras sobre a entrada da caverna, e põe homens perto dela para a guardarem."
+            },
+            {
+              "verse": 19,
+              "text": "E não detenhais, mas persigais os vossos inimigos e feri os últimos deles; não os deixeis entrar nas suas cidades; porque o Senhor vosso Deus os entregou nas vossas mãos."
+            },
+            {
+              "verse": 20,
+              "text": "E aconteceu que, quando Josué e os filhos de Israel acabaram de matá-los com grande matança, até que foram consumidos, o resto que restou deles entrou em cidades fortificadas."
+            },
+            {
+              "verse": 21,
+              "text": "E todo o povo voltou em paz ao acampamento a Josué, em Maquedá; ninguém moveu a língua contra nenhum dos filhos de Israel."
+            },
+            {
+              "verse": 22,
+              "text": "Então disse Josué: Abri a boca da caverna, e trazei-me para fora da caverna aqueles cinco reis."
+            },
+            {
+              "verse": 23,
+              "text": "E eles fizeram isso, e trouxeram-lhe da caverna aqueles cinco reis, o rei de Jerusalém, o rei de Hebron, o rei de Jarmuth, o rei de Laquis, e o rei de Eglon."
+            },
+            {
+              "verse": 24,
+              "text": "E aconteceu que, quando trouxeram aqueles reis a Josué, Josué chamou todos os homens de Israel e disse aos capitães dos homens de guerra que iam com ele: Aproximai-vos, pondo os vossos pés sobre o pescoço destes reis. E eles se aproximaram e puseram os pés sobre o pescoço deles."
+            },
+            {
+              "verse": 25,
+              "text": "E Josué lhes disse: Não temais, nem vos assusteis; sede fortes e corajosos; porque assim fará o Senhor a todos os vossos inimigos, contra os quais lutais."
+            },
+            {
+              "verse": 26,
+              "text": "E depois Josué os feriu, e os matou, e os pendurou em cinco madeiros; e ficaram pendurados nos madeiros até a tarde."
+            },
+            {
+              "verse": 27,
+              "text": "E aconteceu que no momento do pôr do sol, que Josué ordenou, e eles os tiraram das árvores, e os lançaram na caverna onde estavam escondidos, e colocaram grandes pedras na boca da caverna, que permanecem até o dia de hoje."
+            },
+            {
+              "verse": 28,
+              "text": "E naquele dia Josué tomou Maqueda e a feriu ao fio da espada, e o seu rei destruiu totalmente, a eles e a todas as almas que ali estavam; ele não deixou nenhum permanecer; e fez ao rei de Maquedá o que fez ao rei de Jericó."
+            },
+            {
+              "verse": 29,
+              "text": "Então Josué passou de Maquedá, e todo o Israel com ele, até Libna, e pelejou contra Libna."
+            },
+            {
+              "verse": 30,
+              "text": "E o Senhor também a entregou, e ao seu rei, na mão de Israel; e ele a feriu ao fio da espada, e a todas as almas que nela estavam; ele não deixou ninguém permanecer nele; mas fez ao seu rei o que fez ao rei de Jericó."
+            },
+            {
+              "verse": 31,
+              "text": "E Josué passou de Libna, e todo o Israel com ele, até Laquis, e acampou-se contra ela, e lutou contra ela:"
+            },
+            {
+              "verse": 32,
+              "text": "E o Senhor entregou Laquis na mão de Israel, que no segundo dia a tomou, e o feriu ao fio da espada, e a todas as almas que nele havia, conforme tudo o que tinha feito a Libna."
+            },
+            {
+              "verse": 33,
+              "text": "Então Horam, rei de Gezer, veio ajudar Laquis; e Josué feriu a ele e ao seu povo, até que não lhe restou mais nada."
+            },
+            {
+              "verse": 34,
+              "text": "E de Laquis passou Josué a Eglom, e todo o Israel com ele; e eles acamparam contra ele, e lutaram contra ele:"
+            },
+            {
+              "verse": 35,
+              "text": "E eles o tomaram naquele dia e o feriram ao fio da espada, e todas as almas que estavam nele ele destruiu totalmente naquele dia, de acordo com tudo o que ele havia feito a Laquis."
+            },
+            {
+              "verse": 36,
+              "text": "E Josué subiu de Eglom, e todo o Israel com ele, a Hebrom; e eles lutaram contra isso:"
+            },
+            {
+              "verse": 37,
+              "text": "E tomaram-na e feriram-na ao fio da espada, e ao seu rei, e a todas as suas cidades, e a todas as almas que nelas estavam; não deixou nenhum, segundo tudo o que tinha feito a Eglom; mas destruiu-o completamente, e todas as almas que estavam nele."
+            },
+            {
+              "verse": 38,
+              "text": "Então Josué voltou, e todo o Israel com ele, para Debir, e combateu contra ela"
+            },
+            {
+              "verse": 39,
+              "text": "E ele a tomou, e ao seu rei, e a todas as suas cidades; e eles os feriram ao fio da espada e destruíram totalmente todas as almas que ali estavam; ele não deixou nenhum restante: como havia feito com Hebron, assim fez com Debir e com seu rei; como ele havia feito também com Libna e com seu rei."
+            },
+            {
+              "verse": 40,
+              "text": "Assim Josué feriu toda a região das colinas, e do sul, e dos vales, e das fontes, e todos os seus reis; não deixou nenhum remanescente, mas destruiu totalmente tudo o que respirava, como ordenara o Senhor Deus de Israel."
+            },
+            {
+              "verse": 41,
+              "text": "E Josué os feriu desde Cades-Barneia até Gaza, e toda a terra de Gósen, até Gibeão."
+            },
+            {
+              "verse": 42,
+              "text": "E Josué tomou todos estes reis e as suas terras de uma só vez, porque o Senhor Deus de Israel lutou por Israel."
+            },
+            {
+              "verse": 43,
+              "text": "E Josué voltou, e todo o Israel com ele, ao acampamento em Gilgal."
+            }
+          ]
+        },
+        {
+          "chapter": 11,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E aconteceu que, quando Jabim, rei de Hazor, ouviu essas coisas, enviou a Jobabe, rei de Madom, e ao rei de Sinrom, e ao rei de Acsafe,"
+            },
+            {
+              "verse": 2,
+              "text": "E aos reis que estavam ao norte das montanhas e das planícies ao sul de Quinerete, e no vale, e nas fronteiras de Dor, a oeste,"
+            },
+            {
+              "verse": 3,
+              "text": "E aos cananeus no leste e no oeste, e aos amorreus, e aos heteus, e aos ferezeus, e aos jebuseus nas montanhas, e ao heveu sob Hermom, na terra de Mizpá."
+            },
+            {
+              "verse": 4,
+              "text": "E saíram, eles e todos os seus exércitos com eles, um grande povo, como a areia que está na praia do mar, em multidão, com muitos cavalos e carros."
+            },
+            {
+              "verse": 5,
+              "text": "E quando todos estes reis se reuniram, vieram e acamparam-se junto às águas de Merom, para pelejarem contra Israel."
+            },
+            {
+              "verse": 6,
+              "text": "E o Senhor disse a Josué: Não temas por causa deles; porque amanhã a esta hora os entregarei todos mortos diante de Israel; cortarás os tentões dos seus cavalos e queimarás os seus carros com fogo;"
+            },
+            {
+              "verse": 7,
+              "text": "Então veio Josué, e todo o povo de guerra com ele, de repente contra eles junto às águas de Merom; e eles caíram sobre eles."
+            },
+            {
+              "verse": 8,
+              "text": "E o Senhor os entregou na mão de Israel, que os feriu, e os perseguiu até a grande Sidom, e até Misrefote-Maim, e até o vale de Mizpá, ao leste; e eles os feriram, até que não lhes restasse mais nada."
+            },
+            {
+              "verse": 9,
+              "text": "E Josué fez-lhes como o Senhor lhe ordenara: jarretou os seus cavalos e queimou os seus carros a fogo."
+            },
+            {
+              "verse": 10,
+              "text": "E Josué naquele tempo voltou, e tomou Hazor, e feriu o seu rei com a espada: porque Hazor antes era o chefe de todos aqueles reinos."
+            },
+            {
+              "verse": 11,
+              "text": "E feriram ao fio da espada todas as almas que ali estavam, destruindo-as totalmente; não sobrou ninguém que respirasse; e ele queimou Hazor com fogo."
+            },
+            {
+              "verse": 12,
+              "text": "E Josué tomou todas as cidades daqueles reis, e todos os seus reis, e os feriu ao fio da espada, e os destruiu totalmente, como Moisés, servo do Senhor, ordenou."
+            },
+            {
+              "verse": 13,
+              "text": "Mas quanto às cidades que estavam em pé nos seus outeiros, Israel não queimou nenhuma delas, exceto apenas Hazor; que Josué queimou."
+            },
+            {
+              "verse": 14,
+              "text": "E todos os despojos destas cidades, e o gado, os filhos de Israel tomaram como despojo para si; mas feriram a cada homem ao fio da espada, até que os destruíram, e não deixaram ninguém respirar."
+            },
+            {
+              "verse": 15,
+              "text": "Como o Senhor ordenou a Moisés, seu servo, assim Moisés ordenou a Josué, e Josué também; ele não deixou nada por fazer de tudo o que o Senhor ordenou a Moisés."
+            },
+            {
+              "verse": 16,
+              "text": "Então Josué tomou toda aquela terra, os montes, e toda a região do sul, e toda a terra de Gósen, e o vale, e a campina, e o monte de Israel, e o seu vale;"
+            },
+            {
+              "verse": 17,
+              "text": "Até desde o monte Halak, que sobe a Seir, até Baal-Gade, no vale do Líbano, abaixo do monte Hermon; e a todos os seus reis ele tomou, e os feriu, e os matou."
+            },
+            {
+              "verse": 18,
+              "text": "Josué fez guerra por muito tempo com todos aqueles reis."
+            },
+            {
+              "verse": 19,
+              "text": "Não houve cidade que fizesse paz com os filhos de Israel, exceto os heveus, habitantes de Gibeão: todos os outros eles tomaram em batalha."
+            },
+            {
+              "verse": 20,
+              "text": "Porque do Senhor vinha o endurecimento de seus corações, para saírem ao encontro de Israel em guerra, para os destruir totalmente, e para que não alcançassem piedade alguma, mas para que fossem exterminados, como o Senhor ordenara a Moisés."
+            },
+            {
+              "verse": 21,
+              "text": "E naquele tempo veio Josué, e exterminou os anaquins das montanhas, de Hebron, de Debir, de Anab, e de todas as montanhas de Judá, e de todas as montanhas de Israel: Josué os destruiu totalmente com as suas cidades."
+            },
+            {
+              "verse": 22,
+              "text": "Não sobrou nenhum dos anaquins na terra dos filhos de Israel: apenas em Gaza, em Gate e em Asdode permaneceram."
+            },
+            {
+              "verse": 23,
+              "text": "Assim Josué tomou toda a terra, conforme tudo o que o Senhor disse a Moisés; e Josué a deu por herança a Israel, segundo as suas divisões, segundo as suas tribos. E a terra descansou da guerra."
+            }
+          ]
+        },
+        {
+          "chapter": 12,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Ora, estes são os reis da terra que os filhos de Israel derrotaram e possuíram a sua terra além do Jordão, para o nascente do sol, desde o rio Arnom até ao monte Hermom, e toda a planície a leste:"
+            },
+            {
+              "verse": 2,
+              "text": "Siom, rei dos amorreus, que habitava em Hesbom, e governou desde Aroer, que está à margem do rio Arnon, e desde o meio do rio, e desde metade de Gileade, até o rio Jaboque, que é a fronteira dos filhos de Amom;"
+            },
+            {
+              "verse": 3,
+              "text": "E desde a planície até ao mar de Quinerete, a leste, e até ao mar da planície, sim, o mar salgado, a leste, até ao caminho de Bete-Jesimote; e do sul, sob Asdote-Pisga:"
+            },
+            {
+              "verse": 4,
+              "text": "E a costa de Ogue, rei de Basã, que era do restante dos gigantes, que habitavam em Astarote e em Edrei,"
+            },
+            {
+              "verse": 5,
+              "text": "E reinou no monte Hermom, e em Salca, e em todo o Basã, até ao termo dos gesuritas e dos maacatitas, e na metade de Gileade, termo de Siom, rei de Hesbom."
+            },
+            {
+              "verse": 6,
+              "text": "A estes feriu Moisés, servo do Senhor, e os filhos de Israel; e Moisés, servo do Senhor, deu-a em possessão aos rubenitas, e aos gaditas, e à meia tribo de Manassés."
+            },
+            {
+              "verse": 7,
+              "text": "E estes são os reis do país que Josué e os filhos de Israel feriram deste lado do Jordão, para o ocidente, desde Baal-Gade, no vale do Líbano, até ao monte Halak, que sobe a Seir; que Josué deu às tribos de Israel como possessão, segundo suas divisões;"
+            },
+            {
+              "verse": 8,
+              "text": "Nas montanhas, e nos vales, e nas planícies, e nas fontes, e no deserto, e na região do sul; os heteus, os amorreus, e os cananeus, e os ferezeus, e os heveus, e os jebuseus:"
+            },
+            {
+              "verse": 9,
+              "text": "O rei de Jericó, um; o rei de Ai, que está ao lado de Betel, um;"
+            },
+            {
+              "verse": 10,
+              "text": "O rei de Jerusalém, um; o rei de Hebron, um;"
+            },
+            {
+              "verse": 11,
+              "text": "O rei de Jarmute, um; o rei de Laquis, um;"
+            },
+            {
+              "verse": 12,
+              "text": "O rei de Eglon, um; o rei de Gezer, um;"
+            },
+            {
+              "verse": 13,
+              "text": "O rei de Debir, um; o rei de Geder, um;"
+            },
+            {
+              "verse": 14,
+              "text": "O rei de Hormah, um; o rei de Arad, um;"
+            },
+            {
+              "verse": 15,
+              "text": "O rei de Libna, um; o rei de Adulão, um;"
+            },
+            {
+              "verse": 16,
+              "text": "O rei de Maquedá, um; o rei de Betel, um;"
+            },
+            {
+              "verse": 17,
+              "text": "O rei de Tafua, um; o rei de Hefer, um;"
+            },
+            {
+              "verse": 18,
+              "text": "O rei de Afeca, um; o rei de Laxarom, um;"
+            },
+            {
+              "verse": 19,
+              "text": "O rei de Madon, um; o rei de Hazor, um;"
+            },
+            {
+              "verse": 20,
+              "text": "O rei de Simrom-Merom, um; o rei de Acsafe, um;"
+            },
+            {
+              "verse": 21,
+              "text": "O rei de Taanaque, um; o rei de Megido, um;"
+            },
+            {
+              "verse": 22,
+              "text": "O rei de Quedes, um; o rei de Jocneão do Carmelo, um;"
+            },
+            {
+              "verse": 23,
+              "text": "O rei de Dor na costa de Dor, um; o rei das nações de Gilgal, um;"
+            },
+            {
+              "verse": 24,
+              "text": "O rei de Tirza, um: todos os reis trinta e um."
+            }
+          ]
+        },
+        {
+          "chapter": 13,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Ora, Josué estava velho e avançado em idade; e o Senhor lhe disse: Já estás velho e avançado em anos, e ainda resta muita terra para possuir."
+            },
+            {
+              "verse": 2,
+              "text": "Esta é a terra que ainda resta: todas as fronteiras dos filisteus, e todos os gesuritas,"
+            },
+            {
+              "verse": 3,
+              "text": "Desde Sihor, que está diante do Egito, até os termos de Ecrom, ao norte, que é contado entre os cananeus: cinco senhores dos filisteus; os gazateus, e os asdoteus, e os escalonitas, e os giteus, e os ecronitas; também os avitas:"
+            },
+            {
+              "verse": 4,
+              "text": "Desde o sul, toda a terra dos cananeus, e Meara, que está ao lado dos sidônios, até Afeca, até o termo dos amorreus;"
+            },
+            {
+              "verse": 5,
+              "text": "E a terra dos giblitas, e todo o Líbano, até ao nascente do sol, desde Baal-Gade, debaixo do monte Hermom, até à entrada de Hamate."
+            },
+            {
+              "verse": 6,
+              "text": "Todos os habitantes da região montanhosa, desde o Líbano até Misrefote-Maim, e todos os sidônios, eu os expulsarei de diante dos filhos de Israel; apenas reparta-o por sorte aos israelitas, por herança, como te ordenei."
+            },
+            {
+              "verse": 7,
+              "text": "Agora, pois, reparta esta terra em herança às nove tribos e à meia tribo de Manassés,"
+            },
+            {
+              "verse": 8,
+              "text": "Com o qual os rubenitas e os gaditas receberam a herança que Moisés lhes deu, além do Jordão, para o oriente, como Moisés, servo do Senhor, lhes deu;"
+            },
+            {
+              "verse": 9,
+              "text": "Desde Aroer, que está à margem do rio Arnon, e a cidade que está no meio do rio, e toda a planície de Medeba até Dibom;"
+            },
+            {
+              "verse": 10,
+              "text": "E todas as cidades de Siom, rei dos amorreus, que reinou em Hesbom, até o termo dos filhos de Amom;"
+            },
+            {
+              "verse": 11,
+              "text": "E Gileade, e o termo dos gesuritas e dos maacatitas, e todo o monte Hermom, e todo o Basã até Salca;"
+            },
+            {
+              "verse": 12,
+              "text": "Todo o reino de Ogue em Basã, que reinou em Astarote e em Edrei, que restou do remanescente dos gigantes; pois estes Moisés feriu e os expulsou."
+            },
+            {
+              "verse": 13,
+              "text": "Contudo, os filhos de Israel não expulsaram os gesuritas, nem os maacatitas; mas os gesuritas e os maacatitas habitam entre os israelitas até ao dia de hoje."
+            },
+            {
+              "verse": 14,
+              "text": "Somente à tribo de Levi ele não deu herança; os sacrifícios queimados ao Senhor Deus de Israel serão a sua herança, como ele lhes disse."
+            },
+            {
+              "verse": 15,
+              "text": "E Moisés deu à tribo dos filhos de Rúben herança segundo as suas famílias."
+            },
+            {
+              "verse": 16,
+              "text": "E o seu termo era desde Aroer, que está à margem do rio Arnon, e a cidade que está no meio do rio, e toda a planície junto a Medeba;"
+            },
+            {
+              "verse": 17,
+              "text": "Hesbom e todas as suas cidades que estão na planície; Dibom, e Bamote-Baal, e Bete-Baal-Meom,"
+            },
+            {
+              "verse": 18,
+              "text": "E Jaasá, e Quedemote, e Mefaate,"
+            },
+            {
+              "verse": 19,
+              "text": "E Quiriataim, e Sibma, e Zarete-Sear no monte do vale,"
+            },
+            {
+              "verse": 20,
+              "text": "E Bete-Peor, e Asdote-Pisga, e Bete-Jesimote,"
+            },
+            {
+              "verse": 21,
+              "text": "E todas as cidades da planície, e todo o reino de Siom, rei dos amorreus, que reinou em Hesbom, a quem Moisés feriu com os príncipes de Midiã, Evi, e Rekem, e Zur, e Hur, e Reba, que eram duques de Siom, habitando no país."
+            },
+            {
+              "verse": 22,
+              "text": "Também Balaão, filho de Beor, o adivinho, os filhos de Israel mataram à espada entre os que foram mortos por eles."
+            },
+            {
+              "verse": 23,
+              "text": "E o termo dos filhos de Rúben era o Jordão, e o seu termo. Esta foi a herança dos filhos de Rúben, segundo as suas famílias, as cidades e as suas aldeias."
+            },
+            {
+              "verse": 24,
+              "text": "E Moisés deu herança à tribo de Gade, sim aos filhos de Gade segundo as suas famílias."
+            },
+            {
+              "verse": 25,
+              "text": "E o seu território foi Jazer, e todas as cidades de Gileade, e metade da terra dos filhos de Amom, até Aroer, que está diante de Rabá;"
+            },
+            {
+              "verse": 26,
+              "text": "E desde Hesbom até Ramate-Mizpe, e Betonim; e desde Maanaim até à fronteira de Debir;"
+            },
+            {
+              "verse": 27,
+              "text": "E no vale, Bete-Arã, e Bete-Nimra, e Sucote, e Zafon, o resto do reino de Siom, rei de Hesbom, o Jordão e sua fronteira, até a beira do mar de Quinerete, do outro lado do Jordão, para o leste."
+            },
+            {
+              "verse": 28,
+              "text": "Esta é a herança dos filhos de Gade, segundo as suas famílias, as cidades e as suas aldeias."
+            },
+            {
+              "verse": 29,
+              "text": "E Moisés deu herança à meia tribo de Manassés; e esta foi a possessão da meia tribo dos filhos de Manassés, segundo as suas famílias."
+            },
+            {
+              "verse": 30,
+              "text": "E o seu termo era desde Maanaim, todo Basã, todo o reino de Ogue, rei de Basã, e todas as cidades de Jair, que estão em Basã, sessenta cidades."
+            },
+            {
+              "verse": 31,
+              "text": "E metade de Gileade, e Astarote, e Edrei, cidades do reino de Ogue em Basã, pertenciam aos filhos de Maquir, filho de Manassés, à metade dos filhos de Maquir, segundo as suas famílias."
+            },
+            {
+              "verse": 32,
+              "text": "Estas são as terras que Moisés distribuiu por herança nas planícies de Moabe, do outro lado do Jordão, perto de Jericó, para o leste."
+            },
+            {
+              "verse": 33,
+              "text": "Mas à tribo de Levi Moisés não deu nenhuma herança; o Senhor Deus de Israel foi a sua herança, como lhes tinha dito."
+            }
+          ]
+        },
+        {
+          "chapter": 14,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E estes são os países que os filhos de Israel herdaram na terra de Canaã, que Eleazar, o sacerdote, e Josué, filho de Num, e os chefes dos pais das tribos dos filhos de Israel, repartiram-lhes por herança."
+            },
+            {
+              "verse": 2,
+              "text": "Por sorte foi a sua herança, como o Senhor ordenou pela mão de Moisés, para as nove tribos e para a meia tribo."
+            },
+            {
+              "verse": 3,
+              "text": "Porque Moisés tinha dado herança a duas tribos e meia tribo além do Jordão; mas aos levitas não deu herança entre eles."
+            },
+            {
+              "verse": 4,
+              "text": "Porque os filhos de José eram duas tribos, Manassés e Efraim; portanto não deram parte aos levitas na terra, exceto cidades para habitarem, e seus subúrbios para o seu gado e para os seus bens."
+            },
+            {
+              "verse": 5,
+              "text": "Como o Senhor ordenara a Moisés, assim fizeram os filhos de Israel e repartiram a terra."
+            },
+            {
+              "verse": 6,
+              "text": "Então os filhos de Judá vieram a Josué em Gilgal; e Calebe, filho de Jefoné, o quenezeu, disse-lhe: Tu sabes o que o Senhor disse a Moisés, homem de Deus, a respeito de mim e de ti em Cades-Barneia."
+            },
+            {
+              "verse": 7,
+              "text": "Eu tinha quarenta anos de idade quando Moisés, servo do Senhor, me enviou de Cades-Barneia para espiar a terra; e tornei a trazer-lhe a notícia como estava no meu coração."
+            },
+            {
+              "verse": 8,
+              "text": "Contudo, meus irmãos que subiram comigo fizeram derreter o coração do povo; mas eu segui inteiramente ao Senhor meu Deus."
+            },
+            {
+              "verse": 9,
+              "text": "E Moisés jurou naquele dia, dizendo: Certamente a terra que pisaste os teus pés será a tua herança, e de teus filhos para sempre, porque seguiste inteiramente ao Senhor meu Deus."
+            },
+            {
+              "verse": 10,
+              "text": "E agora, eis que o Senhor me manteve vivo, como disse, nestes quarenta e cinco anos, mesmo desde que o Senhor falou esta palavra a Moisés, enquanto os filhos de Israel vagavam pelo deserto; e agora, eis que hoje tenho oitenta e cinco anos de idade."
+            },
+            {
+              "verse": 11,
+              "text": "Ainda hoje estou tão forte como no dia em que Moisés me enviou; qual era a minha força então, assim é agora a minha força, para a guerra, tanto para sair como para entrar."
+            },
+            {
+              "verse": 12,
+              "text": "Agora, pois, dá-me este monte, de que o Senhor falou naquele dia; porque naquele dia ouviste que os anaquins estavam ali, e que as cidades eram grandes e fortificadas; se o Senhor for comigo, então poderei expulsá-los, como o Senhor disse."
+            },
+            {
+              "verse": 13,
+              "text": "E Josué o abençoou e deu a Calebe, filho de Jefoné, Hebrom por herança."
+            },
+            {
+              "verse": 14,
+              "text": "Hebrom tornou-se, portanto, herança de Calebe, filho de Jefoné, o quenezeu, até o dia de hoje, porque ele seguiu inteiramente ao Senhor Deus de Israel."
+            },
+            {
+              "verse": 15,
+              "text": "E o nome de Hebrom antes era Quiriate-Arba; que Arba foi um grande homem entre os anaquins. E a terra descansou da guerra."
+            }
+          ]
+        },
+        {
+          "chapter": 15,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Esta então foi a sorte da tribo dos filhos de Judá, segundo as suas famílias; até a fronteira de Edom, o deserto de Zim, ao sul, era a extremidade da costa sul."
+            },
+            {
+              "verse": 2,
+              "text": "E o seu limite sul era desde a costa do mar Salgado, desde a baía que olha para o sul:"
+            },
+            {
+              "verse": 3,
+              "text": "E saiu para o lado sul até Maale-Acrabim, e passou até Zim, e subiu pelo lado sul até Cades-Barneia, e passou até Hezrom, e subiu até Adar, e deu volta para Carcaa:"
+            },
+            {
+              "verse": 4,
+              "text": "Dali passava em direção a Azmom e saía até o rio do Egito; e as saídas daquela costa eram para o mar: esta será a vossa fronteira sul."
+            },
+            {
+              "verse": 5,
+              "text": "E o limite oriental era o mar Salgado, até ao fim do Jordão. E seu limite no quadrante norte era desde a baía do mar, na extremidade do Jordão:"
+            },
+            {
+              "verse": 6,
+              "text": "E o termo subia até Bete-Hogla, e passava ao norte de Bete-Arabá; e o termo subia até à pedra de Boã, filho de Rúben:"
+            },
+            {
+              "verse": 7,
+              "text": "E o termo subia em direção a Debir, desde o vale de Acor, e assim para o norte, olhando para Gilgal, que está diante da subida de Adumim, que está no lado sul do rio: e o termo passava em direção às águas de En-Semes, e as suas saídas eram em En-Rogel:"
+            },
+            {
+              "verse": 8,
+              "text": "E subia este termo pelo vale do filho de Hinom, até ao lado sul dos jebuseus; a mesma é Jerusalém; e o termo subia até o cume do monte que fica diante do vale de Hinom, para o oeste, que fica na extremidade do vale dos gigantes, para o norte."
+            },
+            {
+              "verse": 9,
+              "text": "E subia este termo pelo vale do filho de Hinom, até ao lado sul dos jebuseus; a mesma é Jerusalém; e o termo subia até o cume do monte que fica diante do vale de Hinom, para o oeste, que fica na extremidade do vale dos gigantes, para o norte:"
+            },
+            {
+              "verse": 10,
+              "text": "E este termo ia desde Baalá para o ocidente até ao monte Seir, e passava até ao lado do monte Jearim, que é Quesalom, na banda do norte, e descia até Bete-Semes, e passava até Timna."
+            },
+            {
+              "verse": 11,
+              "text": "E o termo ia até ao lado de Ecrom, para o norte; e o termo se estendia até Sicron, e passava até ao monte Baalá, e saía até Jabneel; e as saídas da fronteira eram pelo mar."
+            },
+            {
+              "verse": 12,
+              "text": "E a fronteira oeste era até o mar grande e a sua costa. Esta é a costa dos filhos de Judá em redor, segundo as suas famílias."
+            },
+            {
+              "verse": 13,
+              "text": "E a Calebe, filho de Jefoné, deu uma parte entre os filhos de Judá, conforme a ordem do Senhor a Josué, a cidade de Arba, pai de Anaque, cuja cidade é Hebrom."
+            },
+            {
+              "verse": 14,
+              "text": "E Caleb expulsou dali os três filhos de Anaque, Sesai, e Aimã, e Talmai, filhos de Anaque."
+            },
+            {
+              "verse": 15,
+              "text": "E dali subiu aos habitantes de Debir; e o nome de Debir antes era Quiriate-Sefer."
+            },
+            {
+              "verse": 16,
+              "text": "E Calebe disse: Quem ferir Quiriate-Sefer e a tomar, eu lhe darei minha filha Acsa por mulher."
+            },
+            {
+              "verse": 17,
+              "text": "E Otniel, filho de Quenaz, irmão de Calebe, tomou-a; e deu-lhe sua filha Acsa por mulher."
+            },
+            {
+              "verse": 18,
+              "text": "E aconteceu que, quando ela chegou a ele, ela o induziu a pedir um campo a seu pai: e ela desmontou do seu jumento; e Calebe disse-lhe: Que queres?"
+            },
+            {
+              "verse": 19,
+              "text": "Ela respondeu: Dá-me uma bênção; porque me deste uma terra do sul; dá-me também fontes de água. E ele deu a ela as fontes superiores e as fontes inferiores."
+            },
+            {
+              "verse": 20,
+              "text": "Esta é a herança da tribo dos filhos de Judá, segundo as suas famílias."
+            },
+            {
+              "verse": 21,
+              "text": "E as cidades mais remotas da tribo dos filhos de Judá, em direção ao litoral de Edom, para o sul, eram Cabzeel, e Éder, e Jagur,"
+            },
+            {
+              "verse": 22,
+              "text": "E Cina, e Dimona, e Adada,"
+            },
+            {
+              "verse": 23,
+              "text": "E Quedes, e Hazor, e Itnã,"
+            },
+            {
+              "verse": 24,
+              "text": "Zife, e Telem, e Bealote,"
+            },
+            {
+              "verse": 25,
+              "text": "E Hazor-Hadata, e Queriote-Hezrom, que é Hazor"
+            },
+            {
+              "verse": 26,
+              "text": "Amam, e Sema, e Molada,"
+            },
+            {
+              "verse": 27,
+              "text": "E Hazar-Gada, e Hesmom, e Bete-Palete,"
+            },
+            {
+              "verse": 28,
+              "text": "E Hazar-Sual, e Berseba, e Biziotia."
+            },
+            {
+              "verse": 29,
+              "text": "Baalá, e Iim, e Ezem,"
+            },
+            {
+              "verse": 30,
+              "text": "E Eltolade, e Quesil, e Hormá,"
+            },
+            {
+              "verse": 31,
+              "text": "E Ziclague, e Madmana, e Sansana,"
+            },
+            {
+              "verse": 32,
+              "text": "E Lebaote, e Silim, e Aim, e Rimom; todas as cidades são vinte e nove, com as suas aldeias."
+            },
+            {
+              "verse": 33,
+              "text": "E nas planícies: Estaol, e Zorá, e Asná,"
+            },
+            {
+              "verse": 34,
+              "text": "E Zanoa, e En-Ganim, Tapua e Enã,"
+            },
+            {
+              "verse": 35,
+              "text": "Jarmute, e Adulão, Socó e Azeca,"
+            },
+            {
+              "verse": 36,
+              "text": "E Saaraim, e Aditaim, e Gedera e Gederotaim; quatorze cidades com as suas aldeias."
+            },
+            {
+              "verse": 37,
+              "text": "Zenã, e Hadasa, e Migdal-Gade,"
+            },
+            {
+              "verse": 38,
+              "text": "E Dileã, e Mizpá, e Jocteel,"
+            },
+            {
+              "verse": 39,
+              "text": "Laquis, e Bozcate, e Eglom,"
+            },
+            {
+              "verse": 40,
+              "text": "E Cabom, e Lamas, e Quitlis,"
+            },
+            {
+              "verse": 41,
+              "text": "E Gederote, Bete-Dagon, e Naama, e Maquedá; dezesseis cidades com as suas aldeias."
+            },
+            {
+              "verse": 42,
+              "text": "Libna, e Eter, e Asã,"
+            },
+            {
+              "verse": 43,
+              "text": "E Jifta, e Asena, e Nezibe,"
+            },
+            {
+              "verse": 44,
+              "text": "E Queila, e Aczibe, e Maresá; nove cidades e as suas aldeias."
+            },
+            {
+              "verse": 45,
+              "text": "Ecrom, com as suas cidades e aldeias:"
+            },
+            {
+              "verse": 46,
+              "text": "Desde Ecrom até ao mar, todos os que estavam perto de Asdode, com as suas aldeias:"
+            },
+            {
+              "verse": 47,
+              "text": "Asdode e as suas cidades e as suas aldeias, Gaza com as suas cidades e as suas aldeias, até ao rio do Egito, e ao mar grande, e ao seu termo:"
+            },
+            {
+              "verse": 48,
+              "text": "E nas montanhas, Samir, e Jatir, e Socó,"
+            },
+            {
+              "verse": 49,
+              "text": "E Daná, e Quiriate-Sana, que é Debir,"
+            },
+            {
+              "verse": 50,
+              "text": "E Anab, e Estemoa, e Anim,"
+            },
+            {
+              "verse": 51,
+              "text": "E Gósen, e Holon, e Giló; onze cidades com suas aldeias:"
+            },
+            {
+              "verse": 52,
+              "text": "Árabe, e Dumah, e Esã,"
+            },
+            {
+              "verse": 53,
+              "text": "E Janim, e Bete-Tapua, e Afeque,"
+            },
+            {
+              "verse": 54,
+              "text": "E Hunta, e Quiriate-Arba, que é Hebrom, e Zior: nove cidades com as suas aldeias;"
+            },
+            {
+              "verse": 55,
+              "text": "Maom, Carmelo, Zife e Jutá,"
+            },
+            {
+              "verse": 56,
+              "text": "E Jezreel, e Jocdeão, e Zanoa,"
+            },
+            {
+              "verse": 57,
+              "text": "Caim, Gibeá e Timna; dez cidades com suas aldeias:"
+            },
+            {
+              "verse": 58,
+              "text": "Halul, Bete-Zur e Gedor,"
+            },
+            {
+              "verse": 59,
+              "text": "E Maarate, e Bete-Anote, e Eltecom: seis cidades com as suas aldeias;"
+            },
+            {
+              "verse": 60,
+              "text": "Quiriate-Baal, que é Quiriate-Jearim, e Rabá: duas cidades com as suas aldeias;"
+            },
+            {
+              "verse": 61,
+              "text": "No deserto, Bete-Arabá, Midim e Secacá,"
+            },
+            {
+              "verse": 62,
+              "text": "E Nibsã, e a cidade do Sal, e En-Gedi: seis cidades com as suas aldeias."
+            },
+            {
+              "verse": 63,
+              "text": "Quanto aos jebuseus, os habitantes de Jerusalém, os filhos de Judá não conseguiram expulsá-los; mas os jebuseus habitam com os filhos de Judá em Jerusalém, até este dia."
+            }
+          ]
+        },
+        {
+          "chapter": 16,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E a sorte dos filhos de José caiu desde o Jordão, junto a Jericó, até às águas de Jericó, para o oriente, até ao deserto que sobe de Jericó até ao monte Betel,"
+            },
+            {
+              "verse": 2,
+              "text": "E sai de Betel até Luz, e passa até os termos de Arqui até Atarote,"
+            },
+            {
+              "verse": 3,
+              "text": "E desce para o ocidente até ao litoral de Jafleti, até ao litoral de Bete-Horom, o inferior, e até Gezer; e as suas saídas são para o mar."
+            },
+            {
+              "verse": 4,
+              "text": "Assim os filhos de José, Manassés e Efraim, tomaram a sua herança."
+            },
+            {
+              "verse": 5,
+              "text": "E foi o termo dos filhos de Efraim, segundo as suas famílias, assim: o termo da sua herança para o lado oriental foi Atarote-Adar, até Bete-Horom, a superior;"
+            },
+            {
+              "verse": 6,
+              "text": "E o termo saía em direção ao mar, até Micmeta, para o norte; e a fronteira ia para o leste até Taanate-Siló, e passava por ela pelo leste até Janoque;"
+            },
+            {
+              "verse": 7,
+              "text": "E desceu de Janoque a Atarote e a Naarate, e chegou a Jericó, e saiu pelo Jordão."
+            },
+            {
+              "verse": 8,
+              "text": "A fronteira saía de Tappuá em direção ao oeste até o rio Caná; e as suas saídas eram para o mar. Esta é a herança da tribo dos filhos de Efraim, segundo as suas famílias."
+            },
+            {
+              "verse": 9,
+              "text": "E as cidades separadas dos filhos de Efraim estavam na herança dos filhos de Manassés, todas as cidades com as suas aldeias."
+            },
+            {
+              "verse": 10,
+              "text": "E não expulsaram os cananeus que habitavam em Gezer; mas os cananeus habitam entre os efraimitas até hoje e prestam tributos."
+            }
+          ]
+        },
+        {
+          "chapter": 17,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Houve também muito para a tribo de Manassés; pois ele era o primogênito de José; a saber, para Maquir, o primogênito de Manassés, pai de Gileade: porque ele era um homem de guerra, portanto ele teve Gileade e Basã."
+            },
+            {
+              "verse": 2,
+              "text": "Houve também muito para os demais filhos de Manassés, segundo as suas famílias; para os filhos de Abiezer, e para os filhos de Heleque, e para os filhos de Asriel, e para os filhos de Siquém, e para os filhos de Hefer, e para os filhos de Semida: estes eram os filhos homens de Manassés, filho de José, por suas famílias."
+            },
+            {
+              "verse": 3,
+              "text": "Mas Zelofeade, filho de Hefer, filho de Gileade, filho de Maquir, filho de Manassés, não teve filhos, mas filhas; e estes são os nomes de suas filhas: Mala, Noa, Hogla, Milca e Tirza."
+            },
+            {
+              "verse": 4,
+              "text": "E chegaram-se diante de Eleazar, o sacerdote, e de Josué, filho de Num, e dos príncipes, dizendo: O Senhor ordenou a Moisés que nos desse uma herança entre nossos irmãos. Portanto, conforme a ordem do Senhor, ele lhes deu uma herança entre os irmãos de seu pai."
+            },
+            {
+              "verse": 5,
+              "text": "E caíram dez porções a Manassés, além da terra de Gileade e de Basã, que estavam além do Jordão;"
+            },
+            {
+              "verse": 6,
+              "text": "Porque as filhas de Manassés tiveram uma herança entre seus filhos; e os demais filhos de Manassés tiveram a terra de Gileade."
+            },
+            {
+              "verse": 7,
+              "text": "E o termo de Manassés vai desde Aser até Micmeta, que fica defronte de Siquém; e o termo ia pela mão direita até os habitantes de En-Tapua."
+            },
+            {
+              "verse": 8,
+              "text": "Agora Manassés tinha a terra de Tapua; mas Tapua, na fronteira de Manassés, pertencia aos filhos de Efraim;"
+            },
+            {
+              "verse": 9,
+              "text": "E a costa descia até o rio Caná, ao sul do rio: estas cidades de Efraim estão entre as cidades de Manassés: a costa de Manassés também estava no lado norte do rio, e as saídas dele estavam no mar:"
+            },
+            {
+              "verse": 10,
+              "text": "Para o sul era de Efraim, e para o norte era de Manassés, e o mar é o seu termo; e eles se reuniram em Aser, ao norte, e em Issacar, ao leste."
+            },
+            {
+              "verse": 11,
+              "text": "E Manassés tinha em Issacar e em Aser a Bete-Seã e suas cidades, e a Ibleão e suas cidades, e aos habitantes de Dor e suas cidades, e aos habitantes de En-Dor e suas cidades, e aos habitantes de Taanaque e suas cidades, e aos habitantes de Megido e suas cidades, até três países."
+            },
+            {
+              "verse": 12,
+              "text": "Contudo, os filhos de Manassés não puderam expulsar os habitantes daquelas cidades; mas os cananeus habitariam naquela terra."
+            },
+            {
+              "verse": 13,
+              "text": "No entanto, aconteceu que, quando os filhos de Israel se fortaleceram, tributaram os cananeus; mas não os expulsou completamente."
+            },
+            {
+              "verse": 14,
+              "text": "E os filhos de José falaram a Josué, dizendo: Por que me deste apenas uma sorte e uma porção para herdar, visto que sou um grande povo, visto que o Senhor me abençoou até agora?"
+            },
+            {
+              "verse": 15,
+              "text": "E Josué lhes respondeu: Se tu és um povo grande, então sobe ao bosque, e corta para ti ali na terra dos ferezeus e dos gigantes, se o monte Efraim for demasiado estreito para ti."
+            },
+            {
+              "verse": 16,
+              "text": "E os filhos de José disseram: O outeiro não nos basta; e todos os cananeus que habitam na terra do vale têm carros de ferro, tanto os que são de Bete-Seã e suas cidades, como os que são do vale de Jizreel."
+            },
+            {
+              "verse": 17,
+              "text": "E Josué falou à casa de José, a Efraim e a Manassés, dizendo: Tu és um grande povo e tens grande poder; não terás uma só sorte;"
+            },
+            {
+              "verse": 18,
+              "text": "Mas a montanha será tua; porque é um bosque, e tu o cortarás; e as suas extremidades serão tuas; porque expulsarás os cananeus, ainda que tenham carros de ferro, e ainda que sejam fortes."
+            }
+          ]
+        },
+        {
+          "chapter": 18,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E toda a congregação dos filhos de Israel se reuniu em Siló, e ali ergueu a tenda da congregação. E a terra foi subjugada diante deles."
+            },
+            {
+              "verse": 2,
+              "text": "E restaram entre os filhos de Israel sete tribos que ainda não haviam recebido a sua herança."
+            },
+            {
+              "verse": 3,
+              "text": "E Josué disse aos filhos de Israel: Até quando serei-vos negligentes para ir possuir a terra que o Senhor Deus de vossos pais vos deu?"
+            },
+            {
+              "verse": 4,
+              "text": "Distribuí dentre vós três homens para cada tribo; e eu os enviarei, e eles se levantarão, e percorrerão a terra, e a descreverão conforme a herança deles; e eles virão novamente para mim."
+            },
+            {
+              "verse": 5,
+              "text": "E eles a dividirão em sete partes: Judá habitará no seu litoral ao sul, e a casa de José habitará nos seus termos ao norte."
+            },
+            {
+              "verse": 6,
+              "text": "Descrevereis, pois, a terra em sete partes, e trareis aqui a descrição para mim, para que eu lance sortes sobre vós aqui diante do Senhor nosso Deus."
+            },
+            {
+              "verse": 7,
+              "text": "Mas os levitas não têm parte entre vocês; porque o sacerdócio do Senhor é a sua herança; e Gade, e Rúben, e meia tribo de Manassés receberam a sua herança além do Jordão, para o oriente, que Moisés, servo do Senhor, lhes deu."
+            },
+            {
+              "verse": 8,
+              "text": "E os homens levantaram-se e foram-se; e Josué ordenou aos que iam descrever a terra, dizendo: Ide, e percorrei a terra, e descrevei-a, e voltai a mim, para que aqui vos lance sortes perante o Senhor, em Siló."
+            },
+            {
+              "verse": 9,
+              "text": "E os homens foram e passaram pela terra, e a descreveram por cidades em sete partes num livro, e voltaram novamente a Josué, ao exército em Siló."
+            },
+            {
+              "verse": 10,
+              "text": "E Josué lançou sortes sobre eles em Siló, perante o Senhor; e ali Josué repartiu a terra entre os filhos de Israel, segundo as suas divisões."
+            },
+            {
+              "verse": 11,
+              "text": "E subiu a sorte da tribo dos filhos de Benjamim, segundo as suas famílias; e o termo da sua sorte surgiu entre os filhos de Judá e os filhos de José."
+            },
+            {
+              "verse": 12,
+              "text": "E o seu termo do lado norte era desde o Jordão; e subia o termo até ao lado de Jericó, pelo lado norte, e subia pelos montes para o ocidente; e as suas saídas eram no deserto de Bete-Áven."
+            },
+            {
+              "verse": 13,
+              "text": "E este termo ia dali para Luz, até ao lado de Luz, que é Betel, para o sul; e a fronteira descia até Atarote-Adar, perto do outeiro que fica ao sul de Bete-Horom inferior."
+            },
+            {
+              "verse": 14,
+              "text": "E foi traçado o termo dali, e circundou o canto do mar para o sul, desde o outeiro que está diante de Bete-Horom, para o sul; e as suas saídas eram em Quiriate-Baal, que é Quiriate-Jearim, cidade dos filhos de Judá; esta era a parte ocidental."
+            },
+            {
+              "verse": 15,
+              "text": "E o quadrante sul era desde o fim de Quiriate-Jearim, e a fronteira saía para o oeste, e saía até o poço das águas de Neftoá:"
+            },
+            {
+              "verse": 16,
+              "text": "E descia o termo até ao fim do monte que está diante do vale do filho de Hinom, e que está no vale dos gigantes ao norte, e descia até ao vale de Hinom, ao lado de Jebusi, ao sul, e descia até En-Rogel,"
+            },
+            {
+              "verse": 17,
+              "text": "E estendia-se desde o norte, e seguia até En-Semes, e prosseguia em direção a Gelilote, que está no outro lado da subida de Adumim, e descia até a pedra de Boã, o filho de Rúben,"
+            },
+            {
+              "verse": 18,
+              "text": "E passou para o lado defronte de Arabá para o norte, e desceu até Arabá:"
+            },
+            {
+              "verse": 19,
+              "text": "E o termo passava ao lado de Bete-Hogla, para o norte; e as saídas do termo ficavam na baía norte do mar Salgado, na extremidade sul do Jordão; esta era a costa sul."
+            },
+            {
+              "verse": 20,
+              "text": "E o Jordão era o limite dele no lado oriental. Esta foi a herança dos filhos de Benjamim, pelos seus termos em redor, segundo as suas famílias."
+            },
+            {
+              "verse": 21,
+              "text": "Ora, as cidades da tribo dos filhos de Benjamim, segundo as suas famílias, eram Jericó, e Bete-Hogla, e o vale de Queziz,"
+            },
+            {
+              "verse": 22,
+              "text": "E Bete-Arabá, e Zemaraim, e Betel,"
+            },
+            {
+              "verse": 23,
+              "text": "E Avim, e Pará, e Ofra,"
+            },
+            {
+              "verse": 24,
+              "text": "E Quefar-Hamonai, e Ofni, e Gaba; doze cidades com suas aldeias:"
+            },
+            {
+              "verse": 25,
+              "text": "Gibeão, e Ramá, e Beerote,"
+            },
+            {
+              "verse": 26,
+              "text": "E Mizpá, e Quefira, e Moza,"
+            },
+            {
+              "verse": 27,
+              "text": "E Requém, e Irpeel, e Taralá,"
+            },
+            {
+              "verse": 28,
+              "text": "E Zelá, Elef, e Jebusi, que é Jerusalém, Gibeate e Quiriate; quatorze cidades com suas aldeias. Esta é a herança dos filhos de Benjamim, segundo as suas famílias."
+            }
+          ]
+        },
+        {
+          "chapter": 19,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E saiu a segunda sorte a Simeão, para a tribo dos filhos de Simeão, segundo as suas famílias; e a sua herança estava dentro da herança dos filhos de Judá."
+            },
+            {
+              "verse": 2,
+              "text": "E eles tiveram em sua herança Berseba, ou Seba, e Moladá,"
+            },
+            {
+              "verse": 3,
+              "text": "E Hazar-Sual, e Bala, e Azem,"
+            },
+            {
+              "verse": 4,
+              "text": "E Eltolade, e Betul, e Hormá,"
+            },
+            {
+              "verse": 5,
+              "text": "E Ziclague, e Bete-Marcabote, e Hazar-Susá,"
+            },
+            {
+              "verse": 6,
+              "text": "E Bete-Lebaote e Sharuhen; treze cidades e suas aldeias:"
+            },
+            {
+              "verse": 7,
+              "text": "Aim, Rimom, e Éter, e Asã; quatro cidades e suas aldeias:"
+            },
+            {
+              "verse": 8,
+              "text": "E todas as aldeias que estavam ao redor destas cidades até Baalate-Ber, Ramate do Sul. Esta é a herança da tribo dos filhos de Simeão, segundo as suas famílias."
+            },
+            {
+              "verse": 9,
+              "text": "Da porção dos filhos de Judá foi a herança dos filhos de Simeão; porque a parte dos filhos de Judá era demais para eles; portanto os filhos de Simeão tiveram a sua herança dentro da herança deles."
+            },
+            {
+              "verse": 10,
+              "text": "E subiu a terceira sorte para os filhos de Zebulom, segundo as suas famílias; e o termo da sua herança foi até Sarid:"
+            },
+            {
+              "verse": 11,
+              "text": "E o seu termo subia até ao mar e a Maralá, e chegava até Dabasete, e chegava até ao rio que está diante de Jocneão;"
+            },
+            {
+              "verse": 12,
+              "text": "E virou-se de Sarid para o leste em direção ao nascente do sol até a fronteira de Quislote-Tabor, e então saiu para Daberate, e subiu para Jafia,"
+            },
+            {
+              "verse": 13,
+              "text": "E daí segue para o leste até Gate-Hefer, até Ita-Cazim, e sai para Rimom-Metoar até Nea;"
+            },
+            {
+              "verse": 14,
+              "text": "E a fronteira ia pelo lado norte até a cidade de Anate: e as saídas dela eram no vale de Jiftael:"
+            },
+            {
+              "verse": 15,
+              "text": "E Catate, e Nalal, e Simrom, e Idala, e Belém: doze cidades com suas aldeias."
+            },
+            {
+              "verse": 16,
+              "text": "Esta é a herança dos filhos de Zebulom, segundo as suas famílias, estas cidades com as suas aldeias."
+            },
+            {
+              "verse": 17,
+              "text": "E saiu a quarta sorte a Issacar, para os filhos de Issacar, segundo as suas famílias."
+            },
+            {
+              "verse": 18,
+              "text": "E o seu termo era até Jizreel, e Quesulote, e Suném,"
+            },
+            {
+              "verse": 19,
+              "text": "E Hafraim, e Sion, e Anaarate,"
+            },
+            {
+              "verse": 20,
+              "text": "E Rabite, e Cisiom, e Abez,"
+            },
+            {
+              "verse": 21,
+              "text": "E Remete, e En-Ganim, e En-Ada, e Bete-Pazzez;"
+            },
+            {
+              "verse": 22,
+              "text": "E a costa chega até Tabor, e Sahazima, e Bete-Semes; e a saída dos seus termos foi até o Jordão: dezesseis cidades e suas aldeias."
+            },
+            {
+              "verse": 23,
+              "text": "Esta é a herança da tribo dos filhos de Issacar, segundo as suas famílias, as cidades e as suas aldeias."
+            },
+            {
+              "verse": 24,
+              "text": "E saiu a quinta sorte para a tribo dos filhos de Aser, segundo as suas famílias."
+            },
+            {
+              "verse": 25,
+              "text": "E o seu termo era Helcate, e Hali, e Beten, e Acsafe,"
+            },
+            {
+              "verse": 26,
+              "text": "E Alameleque, e Amade, e Misal; e alcança o Carmelo, na direção oeste, e Sior-Libnate;"
+            },
+            {
+              "verse": 27,
+              "text": "E dirige-se para o nascente do sol até Bete-Dagom, e chega a Zebulom, e ao vale de Jiftael, para o lado norte de Bete-Emeque e Neiel, e sai para Cabul pela mão esquerda,"
+            },
+            {
+              "verse": 28,
+              "text": "E Ebrom, e Reobe, e Hamom, e Caná, até a grande Sidom;"
+            },
+            {
+              "verse": 29,
+              "text": "E então a costa se volta para Ramá, e para a forte cidade de Tiro; e a costa vira para Hosá; e as suas saídas são no mar, desde a costa até Aczibe:"
+            },
+            {
+              "verse": 30,
+              "text": "Também Uma, e Afeque, e Reobe: vinte e duas cidades e suas aldeias."
+            },
+            {
+              "verse": 31,
+              "text": "Esta é a herança da tribo dos filhos de Aser, segundo as suas famílias, estas cidades e as suas aldeias."
+            },
+            {
+              "verse": 32,
+              "text": "A sexta sorte saiu aos filhos de Naftali, mesmo aos filhos de Naftali segundo as suas famílias."
+            },
+            {
+              "verse": 33,
+              "text": "E sua costa foi de Helefe, de Alom a Zananim, e Adami, Nequeb e Jabneel, até Lacum; e as suas saídas foram no Jordão:"
+            },
+            {
+              "verse": 34,
+              "text": "E então a costa vira para o oeste até Aznote-Tabor, e sai daí até Hucoque, e chega a Zebulom, no lado sul, e chega a Aser, no lado oeste, e a Judá, no Jordão, em direção ao nascente do sol."
+            },
+            {
+              "verse": 35,
+              "text": "E as cidades fortificadas são: Zidim, Zer, e Hamate, Racate, e Quinerete,"
+            },
+            {
+              "verse": 36,
+              "text": "E Adamá, e Ramá, e Hazor,"
+            },
+            {
+              "verse": 37,
+              "text": "E Quedes, e Edrei, e En-Hazor,"
+            },
+            {
+              "verse": 38,
+              "text": "E Irom, e Migdal-El, Horém, e Bete-Anate, e Bete-Semes: dezenove cidades com suas aldeias."
+            },
+            {
+              "verse": 39,
+              "text": "Esta é a herança da tribo dos filhos de Naftali, segundo as suas famílias, as cidades e as suas aldeias."
+            },
+            {
+              "verse": 40,
+              "text": "E saiu a sétima sorte para a tribo dos filhos de Dã, segundo as suas famílias."
+            },
+            {
+              "verse": 41,
+              "text": "E o termo da sua herança foi Zorá, e Estaol, e Ir-Semes,"
+            },
+            {
+              "verse": 42,
+              "text": "E Saalabim, e Aijalom, e Itla,"
+            },
+            {
+              "verse": 43,
+              "text": "E Elom, e Timna, e Ecrom,"
+            },
+            {
+              "verse": 44,
+              "text": "E Elteque, e Gibetom, e Baalate,"
+            },
+            {
+              "verse": 45,
+              "text": "E Jeúde, e Bene-Beraque, e Gate-Rimom,"
+            },
+            {
+              "verse": 46,
+              "text": "E Me-Jarcom, e Racon, com o limite na frente de Jafo."
+            },
+            {
+              "verse": 47,
+              "text": "E a costa dos filhos de Dã saiu muito pouco para eles: portanto os filhos de Dã subiram para lutar contra Lesém, e tomaram-no, e feriram-no ao fio da espada, e possuíram-no, e habitaram nele, e chamaram Lesém, Dã, pelo nome de Dã, seu pai."
+            },
+            {
+              "verse": 48,
+              "text": "Esta é a herança da tribo dos filhos de Dã, segundo as suas famílias, estas cidades e as suas aldeias."
+            },
+            {
+              "verse": 49,
+              "text": "Quando acabaram de dividir a terra em herança pelos seus termos, os filhos de Israel deram uma herança a Josué, filho de Num, entre eles:"
+            },
+            {
+              "verse": 50,
+              "text": "Conforme a palavra do Senhor, deram-lhe a cidade que ele pediu, a saber, Timnate-Sera, no monte Efraim; e ele edificou a cidade e habitou nela."
+            },
+            {
+              "verse": 51,
+              "text": "Estas são as heranças que Eleazar, o sacerdote, e Josué, filho de Num, e os chefes dos pais das tribos dos filhos de Israel, repartiram por sorte em herança em Siló, perante o Senhor, à porta da tenda da congregação. Então eles acabaram com a divisão do país."
+            }
+          ]
+        },
+        {
+          "chapter": 20,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Falou também o Senhor a Josué, dizendo:"
+            },
+            {
+              "verse": 2,
+              "text": "Fala aos filhos de Israel, dizendo: Designai-vos cidades de refúgio, das quais vos falei por intermédio de Moisés;"
+            },
+            {
+              "verse": 3,
+              "text": "Para que o homicida que matar qualquer pessoa de surpresa e involuntariamente possa fugir para lá; e eles serão o teu refúgio contra o vingador do sangue."
+            },
+            {
+              "verse": 4,
+              "text": "E quando o homicida que fugir para uma daquelas cidades se apresentar à entrada do portão da cidade, e declarar a sua causa aos anciãos daquela cidade, eles o receberão na cidade e lhe darão um lugar, para que ele possa habitar entre eles."
+            },
+            {
+              "verse": 5,
+              "text": "E se o vingador do sangue o perseguir, não lhe entregarão na mão o homicida; porque ele feriu seu próximo involuntariamente e não o odiou antes."
+            },
+            {
+              "verse": 6,
+              "text": "E habitará naquela cidade até que compareça perante a congregação para julgamento, e até à morte do sumo sacerdote que existir naqueles dias; então o homicida voltará, e virá à sua cidade, e à sua casa, à cidade de onde fugiu."
+            },
+            {
+              "verse": 7,
+              "text": "E estabeleceram Quedes na Galileia, no monte Naftali, e Siquém, no monte Efraim, e Quiriate-Arba, que é Hebrom, no monte de Judá."
+            },
+            {
+              "verse": 8,
+              "text": "E do outro lado do Jordão, perto de Jericó, para o leste, designaram Bezer no deserto, na planície, da tribo de Rúben, e Ramote em Gileade, da tribo de Gade, e Golã, em Basã, da tribo de Manassés."
+            },
+            {
+              "verse": 9,
+              "text": "Estas foram as cidades designadas para todos os filhos de Israel e para o estrangeiro que peregrina entre eles, para que todo aquele que matar alguém de surpresa possa fugir para lá e não morrer pela mão do vingador do sangue, até que se apresente diante da congregação."
+            }
+          ]
+        },
+        {
+          "chapter": 21,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Então os chefes dos pais dos levitas chegaram a Eleazar, o sacerdote, e a Josué, filho de Num, e aos chefes dos pais das tribos dos filhos de Israel;"
+            },
+            {
+              "verse": 2,
+              "text": "E falaram-lhes em Siló, na terra de Canaã, dizendo: O Senhor ordenou pela mão de Moisés que nos desse cidades para habitarmos, e os seus arrabaldes para o nosso gado."
+            },
+            {
+              "verse": 3,
+              "text": "E os filhos de Israel deram aos levitas, da sua herança, por ordem do Senhor, estas cidades e os seus arrabaldes."
+            },
+            {
+              "verse": 4,
+              "text": "E saiu a sorte para as famílias dos coatitas; e os filhos de Arão, o sacerdote, que eram dos levitas, tiveram por sorte da tribo de Judá, e da tribo de Simeão, e da tribo de Benjamim, treze cidades."
+            },
+            {
+              "verse": 5,
+              "text": "E os demais filhos de Coate tiveram, por sorte, das famílias da tribo de Efraim, e da tribo de Dã, e da meia tribo de Manassés, dez cidades."
+            },
+            {
+              "verse": 6,
+              "text": "E os filhos de Gérson tiveram, por sorte, das famílias da tribo de Issacar, e da tribo de Aser, e da tribo de Naftali, e da meia tribo de Manassés em Basã, treze cidades."
+            },
+            {
+              "verse": 7,
+              "text": "Os filhos de Merari, segundo as suas famílias, da tribo de Rúben, e da tribo de Gade, e da tribo de Zebulom, doze cidades."
+            },
+            {
+              "verse": 8,
+              "text": "E os filhos de Israel deram por sorte aos levitas estas cidades e os seus subúrbios, como o Senhor ordenara por intermédio de Moisés."
+            },
+            {
+              "verse": 9,
+              "text": "E eles distribuíram da tribo dos filhos de Judá, e da tribo dos filhos de Simeão, estas cidades que são aqui mencionadas por nome,"
+            },
+            {
+              "verse": 10,
+              "text": "A qual tiveram os filhos de Arão, sendo das famílias dos coatitas, que eram dos filhos de Levi: porque deles foi a primeira sorte."
+            },
+            {
+              "verse": 11,
+              "text": "E deram-lhes a cidade de Arba, pai de Anaque, que cidade é Hebrom, na região montanhosa de Judá, e os seus arrabaldes ao redor dela."
+            },
+            {
+              "verse": 12,
+              "text": "Mas os campos da cidade e as suas aldeias deram a Calebe, filho de Jefoné, em sua possessão."
+            },
+            {
+              "verse": 13,
+              "text": "Assim deram aos filhos de Arão, o sacerdote, Hebrom e os seus arrabaldes, para ser cidade de refúgio do homicida; e Libna e seus subúrbios,"
+            },
+            {
+              "verse": 14,
+              "text": "E Jatir com seus subúrbios, e Estemoa com seus subúrbios,"
+            },
+            {
+              "verse": 15,
+              "text": "E Holon com seus subúrbios, e Debir com seus subúrbios,"
+            },
+            {
+              "verse": 16,
+              "text": "E Aim e os seus arrabaldes, e Jutá com os seus arrabaldes, e Bete-Semes com os seus arrabaldes; nove cidades dessas duas tribos."
+            },
+            {
+              "verse": 17,
+              "text": "E da tribo de Benjamim, Gibeão e os seus arrabaldes, Geba e os seus arrabaldes,"
+            },
+            {
+              "verse": 18,
+              "text": "Anatote e os seus arrabaldes, e Almom e os seus arrabaldes; quatro cidades."
+            },
+            {
+              "verse": 19,
+              "text": "Todas as cidades dos filhos de Arão, os sacerdotes, eram treze cidades com os seus subúrbios."
+            },
+            {
+              "verse": 20,
+              "text": "E as famílias dos filhos de Coate, os levitas que restaram dos filhos de Coate, tiveram as cidades da sua sorte da tribo de Efraim."
+            },
+            {
+              "verse": 21,
+              "text": "Porque lhes deram Siquém e os seus arrabaldes na região montanhosa de Efraim, para serem cidade de refúgio do homicida; e Gezer com seus subúrbios,"
+            },
+            {
+              "verse": 22,
+              "text": "E Quibzaim e os seus arrabaldes, e Bete-Horom com os seus arrabaldes; quatro cidades."
+            },
+            {
+              "verse": 23,
+              "text": "E da tribo de Dã, Elteque e seus arrabaldes, Gibetom e seus arrabaldes,"
+            },
+            {
+              "verse": 24,
+              "text": "Aijalom e os seus arrabaldes, Gate-Rimom e os seus arrabaldes; quatro cidades."
+            },
+            {
+              "verse": 25,
+              "text": "E da meia tribo de Manassés, Tanaque e os seus arrabaldes, e Gate-Rimom e os seus arrabaldes; duas cidades."
+            },
+            {
+              "verse": 26,
+              "text": "Todas as cidades eram dez com seus subúrbios para as famílias dos filhos de Coate que restaram."
+            },
+            {
+              "verse": 27,
+              "text": "E aos filhos de Gérson, das famílias dos levitas, da outra meia tribo de Manassés, deram Golã, em Basã, com seus subúrbios, para ser uma cidade de refúgio para o homicida; e Beesterá com seus subúrbios; duas cidades."
+            },
+            {
+              "verse": 28,
+              "text": "E da tribo de Issacar, Quisom e seus arrabaldes, Dabaré e seus arrabaldes,"
+            },
+            {
+              "verse": 29,
+              "text": "Jarmute e os seus arrabaldes, En-Ganim e os seus arrabaldes; quatro cidades."
+            },
+            {
+              "verse": 30,
+              "text": "E da tribo de Aser, Misal e os seus arrabaldes, Abdom e os seus arrabaldes,"
+            },
+            {
+              "verse": 31,
+              "text": "Helcate com os seus arrabaldes, e Reobe com os seus arrabaldes; quatro cidades."
+            },
+            {
+              "verse": 32,
+              "text": "E da tribo de Naftali, Quedes, na Galileia, e seus arrabaldes, para ser cidade de refúgio do homicida; e Hamote-Dor com os seus subúrbios, e Cartã com os seus subúrbios; três cidades."
+            },
+            {
+              "verse": 33,
+              "text": "Todas as cidades dos gersonitas, segundo as suas famílias, eram treze cidades com os seus arrabaldes."
+            },
+            {
+              "verse": 34,
+              "text": "E às famílias dos filhos de Merari, ao restante dos levitas, da tribo de Zebulom, Jocneão e seus arrabaldes, e Carta e seus arrabaldes,"
+            },
+            {
+              "verse": 35,
+              "text": "Dimná com seus subúrbios, Nalal com seus subúrbios; quatro cidades."
+            },
+            {
+              "verse": 36,
+              "text": "E da tribo de Rúben, Bezer com os seus arrabaldes, e Jasa com os seus arrabaldes,"
+            },
+            {
+              "verse": 37,
+              "text": "Quedemote e os seus arrabaldes, e Mefaate com os seus arrabaldes; quatro cidades."
+            },
+            {
+              "verse": 38,
+              "text": "E da tribo de Gade, Ramote de Gileade e os seus arrabaldes, para ser cidade de refúgio do homicida; e Maanaim com seus subúrbios,"
+            },
+            {
+              "verse": 39,
+              "text": "Hesbom e os seus subúrbios, Jazer e os seus subúrbios; quatro cidades ao todo."
+            },
+            {
+              "verse": 40,
+              "text": "Assim, todas as cidades dos filhos de Merari, segundo as suas famílias, que restaram das famílias dos levitas, foram por sorte doze cidades."
+            },
+            {
+              "verse": 41,
+              "text": "Todas as cidades dos levitas na possessão dos filhos de Israel eram quarenta e oito cidades com os seus arrabaldes."
+            },
+            {
+              "verse": 42,
+              "text": "Estas cidades eram cada uma com os seus arrabaldes ao redor: assim eram todas estas cidades."
+            },
+            {
+              "verse": 43,
+              "text": "E o Senhor deu a Israel toda a terra que jurou dar a seus pais; e eles a possuíram e habitaram nela."
+            },
+            {
+              "verse": 44,
+              "text": "E o Senhor lhes deu descanso em redor, conforme tudo o que jurou a seus pais; e de todos os seus inimigos não houve homem algum diante deles; o Senhor entregou todos os seus inimigos nas mãos deles."
+            },
+            {
+              "verse": 45,
+              "text": "Nada falhou de todo o bem que o Senhor falara à casa de Israel; tudo aconteceu."
+            }
+          ]
+        },
+        {
+          "chapter": 22,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Então Josué convocou os rubenitas, e os gaditas, e a meia tribo de Manassés,"
+            },
+            {
+              "verse": 2,
+              "text": "E disse-lhes: Guardastes tudo o que Moisés, servo do Senhor, vos ordenou, e obedecestes à minha voz em tudo o que vos ordenei."
+            },
+            {
+              "verse": 3,
+              "text": "Por muitos dias até hoje não abandonastes vossos irmãos, mas guardastes o mandamento do Senhor vosso Deus."
+            },
+            {
+              "verse": 4,
+              "text": "E agora o Senhor vosso Deus deu descanso a vossos irmãos, como lhes havia prometido; portanto agora voltai e ide para as vossas tendas, e para a terra da vossa possessão, que Moisés, servo do Senhor, vos deu além do Jordão."
+            },
+            {
+              "verse": 5,
+              "text": "Mas tende grande cuidado em cumprir o mandamento e a lei que Moisés, servo do Senhor, vos ordenou, para amar o Senhor, vosso Deus, e andar em todos os seus caminhos, e guardar os seus mandamentos, e apegar-se a ele, e servi-lo de todo o seu coração e de toda a sua alma."
+            },
+            {
+              "verse": 6,
+              "text": "Então Josué os abençoou e os despediu; e eles foram para as suas tendas."
+            },
+            {
+              "verse": 7,
+              "text": "Ora, à uma metade da tribo de Manassés Moisés havia dado possessão em Basã; mas à outra metade dela deu Josué entre seus irmãos deste lado do Jordão, para o oeste. E quando Josué os despediu também para as suas tendas, então os abençoou,"
+            },
+            {
+              "verse": 8,
+              "text": "E ele lhes falou, dizendo: Voltai para as vossas tendas com muitas riquezas, e com muito gado, com prata, e com ouro, e com bronze, e com ferro, e com muitíssimos vestidos; reparti o despojo de vossos inimigos com vossos irmãos."
+            },
+            {
+              "verse": 9,
+              "text": "E os filhos de Rúben, e os filhos de Gade, e a meia tribo de Manassés voltaram, e partiram dos filhos de Israel de Siló, que está na terra de Canaã, para irem ao país de Gileade, à terra da sua possessão, da qual foram possuídos, conforme a palavra do Senhor pela mão de Moisés."
+            },
+            {
+              "verse": 10,
+              "text": "E quando chegaram aos termos do Jordão, que estão na terra de Canaã, os filhos de Rúben e os filhos de Gade e a meia tribo de Manassés edificaram ali um altar junto ao Jordão, um grande altar à vista de todos."
+            },
+            {
+              "verse": 11,
+              "text": "E os filhos de Israel ouviram dizer: Eis que os filhos de Rúben, e os filhos de Gade, e a meia tribo de Manassés edificaram um altar defronte da terra de Canaã, nos termos do Jordão, na passagem dos filhos de Israel."
+            },
+            {
+              "verse": 12,
+              "text": "E quando os filhos de Israel ouviram isso, toda a congregação dos filhos de Israel se reuniu em Siló, para subir à guerra contra eles."
+            },
+            {
+              "verse": 13,
+              "text": "E os filhos de Israel enviaram aos filhos de Rúben, e aos filhos de Gade, e à meia tribo de Manassés, à terra de Gileade, Finéias, filho de Eleazar, o sacerdote,"
+            },
+            {
+              "verse": 14,
+              "text": "E com ele dez príncipes, de cada casa principal um príncipe em todas as tribos de Israel; e cada um deles era cabeça da casa de seus pais entre os milhares de Israel."
+            },
+            {
+              "verse": 15,
+              "text": "E vieram aos filhos de Rúben, e aos filhos de Gade, e à meia tribo de Manassés, à terra de Gileade, e falaram com eles, dizendo:"
+            },
+            {
+              "verse": 16,
+              "text": "Assim diz toda a congregação do Senhor: Que culpa é esta que cometestes contra o Deus de Israel, para hoje deixardes de seguir o Senhor, edificando para vós um altar, para que hoje vos rebeleis contra o Senhor?"
+            },
+            {
+              "verse": 17,
+              "text": "erá a iniquidade de Peor muito pequena para nós, da qual não fomos purificados até o dia de hoje, embora tenha havido uma praga na congregação do Senhor,"
+            },
+            {
+              "verse": 18,
+              "text": "Mas que hoje deveis deixar de seguir ao Senhor? e será que, vendo-vos hoje rebeldes contra o Senhor, amanhã ele se irará contra toda a congregação de Israel."
+            },
+            {
+              "verse": 19,
+              "text": "Contudo, se a terra da vossa possessão for imunda, então passareis à terra da possessão do Senhor, onde habita o tabernáculo do Senhor, e possuí-vos entre nós; mas não vos rebeleis contra o Senhor, nem vos rebeleis contra nós, edificando para vós um altar ao lado do altar do Senhor nosso Deus."
+            },
+            {
+              "verse": 20,
+              "text": "Não cometeu Acã, filho de Zerá, uma transgressão no anátema, e a ira caiu sobre toda a congregação de Israel? E aquele homem não morreu sozinho em sua iniquidade."
+            },
+            {
+              "verse": 21,
+              "text": "Então responderam os filhos de Rúben, e os filhos de Gade, e a meia tribo de Manassés, e disseram aos chefes dos milhares de Israel:"
+            },
+            {
+              "verse": 22,
+              "text": "O Senhor Deus dos deuses, o Senhor Deus dos deuses, ele conhece, e Israel o saberá; se for em rebelião, ou se em transgressão contra o Senhor, que tu não nos poupes hoje,"
+            },
+            {
+              "verse": 23,
+              "text": "Que construímos para nós um altar, para deixarmos de seguir ao Senhor, ou se oferecermos sobre ele holocausto ou oferta de manjares, ou se oferecermos sobre ele ofertas pacíficas, o próprio Senhor o exija;"
+            },
+            {
+              "verse": 24,
+              "text": "E se não o tivermos feito por medo desta coisa, dizendo: No futuro, vossos filhos poderão falar a nossos filhos, dizendo: Que tens vós a ver com o Senhor Deus de Israel?"
+            },
+            {
+              "verse": 25,
+              "text": "Porque o Senhor fez do Jordão um termo entre nós e vós, filhos de Rúben e filhos de Gade; não tendes parte no Senhor; assim vossos filhos farão com que nossos filhos deixem de temer ao Senhor."
+            },
+            {
+              "verse": 26,
+              "text": "Por isso dissemos: Preparemo-nos agora para construir para nós um altar, não para holocausto, nem para sacrifício:"
+            },
+            {
+              "verse": 27,
+              "text": "Mas para que seja um testemunho entre nós e vós, e as nossas gerações depois de nós, para que possamos fazer o serviço do Senhor diante dele com os nossos holocaustos, e com os nossos sacrifícios, e com as nossas ofertas pacíficas; para que vossos filhos não digam mais tarde aos nossos filhos: Não tendes parte com o Senhor."
+            },
+            {
+              "verse": 28,
+              "text": "Por isso dissemos que, quando assim o disserem a nós ou às nossas gerações no futuro, diremos novamente: Eis o modelo do altar do Senhor, que nossos pais fizeram, não para holocaustos, nem para sacrifícios; mas é um testemunho entre nós e vós."
+            },
+            {
+              "verse": 29,
+              "text": "Longe de nós que nos rebelemos contra o Senhor, e deixemos hoje de seguir o Senhor, para construir um altar para holocaustos, para ofertas de cereais, ou para sacrifícios, ao lado do altar do Senhor nosso Deus, que está diante do seu tabernáculo."
+            },
+            {
+              "verse": 30,
+              "text": "E quando Finéias, o sacerdote, e os príncipes da congregação, e os chefes dos milhares de Israel que estavam com ele, ouviram as palavras que falaram os filhos de Rúben, e os filhos de Gade, e os filhos de Manassés, isso lhes agradou."
+            },
+            {
+              "verse": 31,
+              "text": "E disse Finéias, filho de Eleazar, o sacerdote, aos filhos de Rúben, e aos filhos de Gade, e aos filhos de Manassés: Hoje percebemos que o Senhor está no meio de nós, porque não cometestes esta transgressão contra o Senhor; agora livrastes os filhos de Israel da mão do Senhor."
+            },
+            {
+              "verse": 32,
+              "text": "E Finéias, filho de Eleazar, o sacerdote, e os príncipes voltaram dos filhos de Rúben e dos filhos de Gade, da terra de Gileade, à terra de Canaã, aos filhos de Israel, e trouxeram-lhes notícias."
+            },
+            {
+              "verse": 33,
+              "text": "E isto agradou aos filhos de Israel; e os filhos de Israel louvaram a Deus e não pretendiam subir contra eles em batalha, para destruir a terra em que habitavam os filhos de Rúben e Gade."
+            },
+            {
+              "verse": 34,
+              "text": "E os filhos de Rúben e os filhos de Gade chamaram o altar Ed: porque será entre nós um testemunho de que o Senhor é Deus."
+            }
+          ]
+        },
+        {
+          "chapter": 23,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E aconteceu que muito tempo depois de o Senhor ter dado descanso a Israel de todos os seus inimigos ao redor, Josué envelheceu e atingiu a idade."
+            },
+            {
+              "verse": 2,
+              "text": "E Josué convocou todo o Israel, e os seus anciãos, e os seus chefes, e os seus juízes, e os seus oficiais, e disse-lhes: Estou velho e de idade avançada."
+            },
+            {
+              "verse": 3,
+              "text": "E tendes visto tudo o que o Senhor vosso Deus fez a todas estas nações por causa de vós; porque o Senhor vosso Deus é aquele que lutou por vós."
+            },
+            {
+              "verse": 4,
+              "text": "Eis que vos dividi por sorte estas nações que restam, para serem uma herança para as vossas tribos, desde o Jordão, com todas as nações que eliminei, até ao grande mar a oeste."
+            },
+            {
+              "verse": 5,
+              "text": "E o Senhor vosso Deus os expulsará de diante de vós, e os desterrará de diante de vós; e possuireis a sua terra, como o Senhor vosso Deus vos prometeu."
+            },
+            {
+              "verse": 6,
+              "text": "Sede, pois, muito corajosos para guardar e fazer tudo o que está escrito no livro da lei de Moisés, para que dele não vos desvieis nem para a direita nem para a esquerda;"
+            },
+            {
+              "verse": 7,
+              "text": "Para que não venhais entre estas nações, estas que permanecem entre vós; nem façais menção do nome de seus deuses, nem façais jurar por eles, nem os sirvais, nem vos inclineis diante deles:"
+            },
+            {
+              "verse": 8,
+              "text": "Mas apegai-vos ao Senhor vosso Deus, como fizestes até hoje."
+            },
+            {
+              "verse": 9,
+              "text": "Porque o Senhor expulsou de diante de vós nações grandes e fortes; mas quanto a vós, ninguém conseguiu resistir diante de vós até hoje."
+            },
+            {
+              "verse": 10,
+              "text": "Um de vós perseguirá mil; porque o Senhor vosso Deus é quem peleja por vós, como vos tem prometido."
+            },
+            {
+              "verse": 11,
+              "text": "Portanto, cuidai bem de vós mesmos, para que ameis o Senhor vosso Deus."
+            },
+            {
+              "verse": 12,
+              "text": "Do contrário, se de alguma forma voltardes e vos apegardes ao restante destas nações, mesmo estes que permanecem entre vós, e fizerdes casamentos com eles, misturando-vos com eles e eles convosco:"
+            },
+            {
+              "verse": 13,
+              "text": "Sabei com certeza que o Senhor, vosso Deus, não expulsará mais nenhuma dessas nações de diante de vós; mas serão para vós laços e armadilhas, e flagelos nas vossas costas, e espinhos nos vossos olhos, até que pereçais desta boa terra que o Senhor vosso Deus vos deu."
+            },
+            {
+              "verse": 14,
+              "text": "E eis que hoje vou pelo caminho de toda a terra; e sabeis em todos os vossos corações e em todas as vossas almas que nada falhou de todas as coisas boas que o Senhor vosso Deus falou a vosso respeito; tudo vos aconteceu e nada falhou."
+            },
+            {
+              "verse": 15,
+              "text": "Portanto, acontecerá que, assim como todas as coisas boas que o Senhor vosso Deus vos prometeu se cumpriram, assim o Senhor fará cair sobre vós todos os males, até que vos destrua desta boa terra que o Senhor vosso Deus vos deu."
+            },
+            {
+              "verse": 16,
+              "text": "Quando tiverdes transgredido a aliança do Senhor vosso Deus, que ele vos ordenou, e fordes servir a outros deuses e vos inclinardes a eles; então a ira do Senhor se acenderá contra vós, e rapidamente perecereis da boa terra que ele vos deu."
+            }
+          ]
+        },
+        {
+          "chapter": 24,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E Josué reuniu todas as tribos de Israel em Siquém, e convocou os anciãos de Israel, e os seus chefes, e os seus juízes, e os seus oficiais; e eles se apresentaram diante de Deus."
+            },
+            {
+              "verse": 2,
+              "text": "E Josué disse a todo o povo: Assim diz o Senhor Deus de Israel: Nos tempos antigos, vossos pais habitaram além do rio Eufrates, Terá, pai de Abraão, e pai de Nacor; e serviram a outros deuses."
+            },
+            {
+              "verse": 3,
+              "text": "E tomei vosso pai Abraão daquele outro lado do rio, e o conduzi por toda a terra de Canaã, e multipliquei sua descendência, e lhe dei Isaque."
+            },
+            {
+              "verse": 4,
+              "text": "E a Isaque dei Jacó e Esaú; e a Esaú dei o monte Seir, para o possuir; mas Jacó e seus filhos desceram ao Egito."
+            },
+            {
+              "verse": 5,
+              "text": "Enviei também Moisés e Arão, e feri o Egito, conforme o que fiz entre eles; e depois vos tirei de lá."
+            },
+            {
+              "verse": 6,
+              "text": "E tirei vossos pais do Egito; e vós chegastes ao mar; e os egípcios perseguiram vossos pais com carros e cavaleiros até o mar Vermelho."
+            },
+            {
+              "verse": 7,
+              "text": "E quando clamaram ao Senhor, ele pôs trevas entre vós e os egípcios, e fez cair o mar sobre eles, e os cobriu; e os vossos olhos viram o que fiz no Egito; e habitastes no deserto por muito tempo."
+            },
+            {
+              "verse": 8,
+              "text": "E eu vos trouxe para a terra dos amorreus, que habitavam além do Jordão; e eles lutaram convosco; e eu os entreguei nas vossas mãos, para que possuísseis a sua terra; e eu os destruí diante de vós."
+            },
+            {
+              "verse": 9,
+              "text": "Então se levantou Balaque, filho de Zipor, rei de Moabe, e guerreou contra Israel; e mandou chamar Balaão, filho de Beor, para vos amaldiçoar."
+            },
+            {
+              "verse": 10,
+              "text": "Mas eu não quis ouvir Balaão; por isso ele vos abençoou abundantemente; então vos livrei da mão dele."
+            },
+            {
+              "verse": 11,
+              "text": "E vós atravessastes o Jordão, e chegastes a Jericó, e os homens de Jericó lutaram contra vós: os amorreus, e os ferezeus, e os cananeus, e os heteus, e os girgaseus, os heveus, e os jebuseus; e eu os entreguei na vossa mão."
+            },
+            {
+              "verse": 12,
+              "text": "E enviei adiante de vós vespas, que os expulsaram de diante de vós, os dois reis dos amorreus; mas não com a vossa espada, nem com o vosso arco."
+            },
+            {
+              "verse": 13,
+              "text": "E eu vos dei uma terra pela qual não trabalhastes, e cidades que não construístes e nas quais habitais; das vinhas e dos olivais que não plantastes comereis."
+            },
+            {
+              "verse": 14,
+              "text": "Agora, pois, temei ao Senhor, e servi-o com sinceridade e com verdade; e deitai fora os deuses aos quais serviram vossos pais além do dilúvio e no Egito; e servi ao Senhor."
+            },
+            {
+              "verse": 15,
+              "text": "E se vos parece mal servir ao Senhor, escolhei hoje a quem servireis; sejam os deuses aos quais serviram vossos pais, que estavam além do dilúvio, ou os deuses dos amorreus, em cuja terra habitais; mas eu e a minha casa serviremos ao Senhor."
+            },
+            {
+              "verse": 16,
+              "text": "E o povo respondeu e disse: Longe de nós abandonarmos o Senhor, para servirmos a outros deuses;"
+            },
+            {
+              "verse": 17,
+              "text": "Porque o Senhor nosso Deus é quem nos tirou, a nós e a nossos pais, da terra do Egito, da casa da servidão, e que fez aqueles grandes sinais diante de nós, e nos preservou por todo o caminho por onde andamos, e entre todos os povos por onde passamos."
+            },
+            {
+              "verse": 18,
+              "text": "E o Senhor expulsou de diante de nós todo o povo, até os amorreus que habitavam na terra; portanto também nós serviremos ao Senhor; pois ele é o nosso Deus."
+            },
+            {
+              "verse": 19,
+              "text": "E Josué disse ao povo: Não podeis servir ao Senhor, porque ele é um Deus santo; ele é um Deus zeloso; ele não perdoará suas transgressões nem seus pecados."
+            },
+            {
+              "verse": 20,
+              "text": "Se abandonardes o Senhor e servirdes a deuses estranhos, então ele se voltará e vos fará mal, e vos consumirá, depois de vos ter feito bem."
+            },
+            {
+              "verse": 21,
+              "text": "E o povo disse a Josué: Não; mas serviremos ao Senhor."
+            },
+            {
+              "verse": 22,
+              "text": "E Josué disse ao povo: Vós sois testemunhas contra vós mesmos de que escolhestes ao Senhor para servi-lo. E eles disseram: Somos testemunhas."
+            },
+            {
+              "verse": 23,
+              "text": "Agora, pois, abandonai os deuses estranhos que há entre vós, e inclinai o vosso coração ao Senhor, Deus de Israel."
+            },
+            {
+              "verse": 24,
+              "text": "E o povo disse a Josué: Serviremos ao Senhor nosso Deus, e à sua voz obedeceremos."
+            },
+            {
+              "verse": 25,
+              "text": "Então Josué fez naquele dia uma aliança com o povo e estabeleceu-lhes um estatuto e uma ordenança em Siquém."
+            },
+            {
+              "verse": 26,
+              "text": "E Josué escreveu estas palavras no livro da lei de Deus, e tomou uma grande pedra, e colocou-a ali debaixo de um carvalho, que estava junto ao santuário do Senhor."
+            },
+            {
+              "verse": 27,
+              "text": "E Josué disse a todo o povo: Eis que esta pedra nos será por testemunho; porque ouviu todas as palavras do Senhor, que ele nos falou; portanto, vos servirá de testemunho, para que não negueis o vosso Deus."
+            },
+            {
+              "verse": 28,
+              "text": "Então Josué deixou o povo partir, cada um para a sua herança."
+            },
+            {
+              "verse": 29,
+              "text": "E aconteceu depois destas coisas que Josué, filho de Num, servo do Senhor, morreu, com a idade de cento e dez anos."
+            },
+            {
+              "verse": 30,
+              "text": "E sepultaram-no no limite da sua herança, em Timnate-Sera, que está no monte Efraim, ao norte do outeiro de Gaás."
+            },
+            {
+              "verse": 31,
+              "text": "E Israel serviu ao Senhor todos os dias de Josué, e todos os dias dos anciãos que sobreviveram a Josué, e que conheciam todas as obras que o Senhor tinha feito por Israel."
+            },
+            {
+              "verse": 32,
+              "text": "E os ossos de José, que os filhos de Israel trouxeram do Egito, sepultaram-nos em Siquém, numa parcela de terra que Jacó comprou dos filhos de Hamor, pai de Siquém, por cem peças de prata; e tornou-se herança dos filhos de José."
+            },
+            {
+              "verse": 33,
+              "text": "E morreu Eleazar, filho de Arão; e o sepultaram num outeiro que pertencia a Finéias, seu filho, que lhe foi dado no monte de Efraim."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

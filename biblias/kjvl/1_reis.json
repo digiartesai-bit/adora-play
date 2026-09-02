@@ -1,0 +1,3386 @@
+{
+  "version": "KJVT",
+  "translation": "King James Version Traduzida",
+  "books": [
+    {
+      "abbrev": "1rs",
+      "name": "1 Reis",
+      "chapters": [
+        {
+          "chapter": 1,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Ora, o rei Davi estava velho e avançado em idade; e cobriram-no com roupas, mas ele não se aqueceu."
+            },
+            {
+              "verse": 2,
+              "text": "Disseram-lhe, pois, os seus servos: Procure-se para o rei meu senhor uma jovem virgem; e deixe-a ficar diante do rei, e cuide dele, e deite-se no seu colo, para que o rei meu senhor se aqueça."
+            },
+            {
+              "verse": 3,
+              "text": "Procuraram, pois, uma donzela bonita em todos os confins de Israel, e acharam Abisague, sunamita, e a trouxeram ao rei."
+            },
+            {
+              "verse": 4,
+              "text": "E a donzela era muito formosa, e estimava o rei, e o servia; mas o rei não a conhecia."
+            },
+            {
+              "verse": 5,
+              "text": "Então Adonias, filho de Hagite, exaltou-se, dizendo: Eu serei rei; e preparou-lhe carros e cavaleiros, e cinquenta homens para correrem diante dele."
+            },
+            {
+              "verse": 6,
+              "text": "E seu pai nunca o repreendeu em nenhum momento, dizendo: Por que fizeste isso? E ele também era um homem muito formoso; e sua mãe o deu à luz depois de Absalão."
+            },
+            {
+              "verse": 7,
+              "text": "E conversou com Joabe, filho de Zeruia, e com Abiatar, o sacerdote; e eles, seguindo Adonias, o ajudaram."
+            },
+            {
+              "verse": 8,
+              "text": "Mas Zadoque, o sacerdote, e Benaia, filho de Joiada, e Natã, o profeta, e Simei, e Rei, e os valentes que pertenciam a Davi, não estavam com Adonias."
+            },
+            {
+              "verse": 9,
+              "text": "E Adonias matou ovelhas, bois e animais cevados junto à pedra de Zoelete, que está perto de En-Rogel, e chamou todos os seus irmãos, os filhos do rei, e todos os homens de Judá, servos do rei."
+            },
+            {
+              "verse": 10,
+              "text": "Mas Natã, o profeta, e Benaia, e os valentes, e Salomão, seu irmão, ele não chamou."
+            },
+            {
+              "verse": 11,
+              "text": "Por isso falou Natã a Bate-Seba, mãe de Salomão, dizendo: Não ouviste que Adonias, filho de Hagite, reina, e Davi, nosso senhor, não o sabe?"
+            },
+            {
+              "verse": 12,
+              "text": "Agora, pois, vem, permite-me, peço-te, dar-te um conselho, para que salves a tua própria vida e a vida de teu filho Salomão."
+            },
+            {
+              "verse": 13,
+              "text": "Vai, e apresenta-te ao rei Davi, e dize-lhe: Não juraste tu, ó rei meu senhor, à tua serva, dizendo: Certamente teu filho Salomão reinará depois de mim, e ele se assentará no meu trono? Por que então Adonias reina?"
+            },
+            {
+              "verse": 14,
+              "text": "Eis que, enquanto ainda falas lá com o rei, também eu entrarei atrás de ti e confirmarei as tuas palavras."
+            },
+            {
+              "verse": 15,
+              "text": "E Bate-Seba entrou na câmara do rei; e o rei era muito velho; e Abisague, a sunamita, serviu ao rei."
+            },
+            {
+              "verse": 16,
+              "text": "E Bate-Seba inclinou-se e prestou homenagem ao rei. E o rei disse: O que queres?"
+            },
+            {
+              "verse": 17,
+              "text": "E ela lhe disse: Senhor meu, juraste à tua serva pelo Senhor teu Deus, dizendo: Certamente teu filho Salomão reinará depois de mim, e ele se assentará no meu trono."
+            },
+            {
+              "verse": 18,
+              "text": "E agora eis que Adonias reina; e agora, meu senhor, o rei, tu não o sabes:"
+            },
+            {
+              "verse": 19,
+              "text": "E matou bois, e vacas cevadas, e ovelhas em abundância, e chamou a todos os filhos do rei, e a Abiatar, o sacerdote, e a Joabe, capitão do exército; mas a Salomão, teu servo, não chamou."
+            },
+            {
+              "verse": 20,
+              "text": "E tu, ó rei meu senhor, os olhos de todo o Israel estão sobre ti, para que lhes digas quem se assentará no trono do rei meu senhor, depois dele."
+            },
+            {
+              "verse": 21,
+              "text": "Caso contrário, acontecerá que, quando o rei meu senhor dormir com seus pais, eu e meu filho Salomão seremos considerados culpados."
+            },
+            {
+              "verse": 22,
+              "text": "E eis que, enquanto ela ainda falava com o rei, entrou também Natã, o profeta."
+            },
+            {
+              "verse": 23,
+              "text": "E avisaram o rei, dizendo: Eis aqui o profeta Natã. E quando ele chegou diante do rei, prostrou-se diante do rei com o rosto em terra."
+            },
+            {
+              "verse": 24,
+              "text": "E Natã disse: Meu senhor, ó rei, disseste: Adonias reinará depois de mim, e ele se assentará no meu trono?"
+            },
+            {
+              "verse": 25,
+              "text": "Porque hoje desceu, e matou bois, e vacas cevadas, e ovelhas em abundância, e convocou todos os filhos do rei, e os capitães do exército, e a Abiatar, o sacerdote; e eis que comem e bebem diante dele, e dizem: Deus salve o rei Adonias."
+            },
+            {
+              "verse": 26,
+              "text": "Mas a mim, a mim, teu servo, e a Zadoque, o sacerdote, e a Benaia, filho de Joiada, e a teu servo Salomão, ele não chamou."
+            },
+            {
+              "verse": 27,
+              "text": "Foi isto feito pelo rei meu senhor, e não o mostraste ao teu servo, que se sentará no trono do rei meu senhor depois dele?"
+            },
+            {
+              "verse": 28,
+              "text": "Então o rei Davi respondeu e disse: Chamai-me Bate-Seba. E ela veio à presença do rei e ficou diante do rei."
+            },
+            {
+              "verse": 29,
+              "text": "E o rei jurou e disse: Vive o Senhor, que remiu a minha alma de toda angústia,"
+            },
+            {
+              "verse": 30,
+              "text": "Assim como te jurei pelo Senhor, Deus de Israel, dizendo: Certamente teu filho Salomão reinará depois de mim, e ele se assentará no meu trono em meu lugar; mesmo assim certamente farei neste dia."
+            },
+            {
+              "verse": 31,
+              "text": "Então Bate-Seba inclinou-se com o rosto em terra, e reverenciou o rei, e disse: Viva o rei Davi, meu senhor, para sempre."
+            },
+            {
+              "verse": 32,
+              "text": "E disse o rei Davi: Chamai-me Zadoque, o sacerdote, e Natã, o profeta, e Benaia, filho de Joiada. E eles vieram perante o rei."
+            },
+            {
+              "verse": 33,
+              "text": "Disse-lhes também o rei: Tomai convosco os servos de vosso senhor, e fazei que meu filho Salomão monte na minha mula, e fazei-o descer a Giom."
+            },
+            {
+              "verse": 34,
+              "text": "E que Zadoque, o sacerdote, e Natã, o profeta, o unjam ali rei sobre Israel; e toquem a trombeta, e digam: Deus salve o rei Salomão."
+            },
+            {
+              "verse": 35,
+              "text": "Então subireis após ele, para que venha e se assente no meu trono; porque ele reinará em meu lugar; e eu o designei como governante de Israel e de Judá."
+            },
+            {
+              "verse": 36,
+              "text": "E Benaia, filho de Joiada, respondeu ao rei, e disse: Amém: assim o diga o Senhor Deus do rei meu senhor."
+            },
+            {
+              "verse": 37,
+              "text": "Assim como o Senhor esteve com o rei meu senhor, assim seja ele com Salomão, e faça o seu trono maior do que o trono do rei Davi, meu senhor."
+            },
+            {
+              "verse": 38,
+              "text": "Então Zadoque, o sacerdote, e Natã, o profeta, e Benaia, filho de Joiada, e os quereteus e os peleteus desceram, e fizeram Salomão montar na mula do rei Davi, e o levaram a Giom."
+            },
+            {
+              "verse": 39,
+              "text": "E Zadoque, o sacerdote, tirou do tabernáculo um chifre com óleo e ungiu Salomão. E eles tocaram a trombeta; e todo o povo disse: Deus salve o rei Salomão."
+            },
+            {
+              "verse": 40,
+              "text": "E todo o povo subiu atrás dele, e o povo tocava flauta, e se regozijava com grande alegria, de modo que a terra se rompeu com o som deles."
+            },
+            {
+              "verse": 41,
+              "text": "E Adonias e todos os convidados que estavam com ele ouviram isso quando acabavam de comer. E quando Joabe ouviu o som da trombeta, disse: Por que é este barulho da cidade tão alvoroçado?"
+            },
+            {
+              "verse": 42,
+              "text": "E enquanto ele ainda falava, eis que chegou Jônatas, filho do sacerdote Abiatar; e Adonias lhe disse: Entra; porque tu és um homem valente e trazes boas novas."
+            },
+            {
+              "verse": 43,
+              "text": "E Jônatas respondeu e disse a Adonias: Verdadeiramente nosso senhor, o rei Davi, constituiu rei a Salomão."
+            },
+            {
+              "verse": 44,
+              "text": "E o rei enviou com ele a Zadoque, o sacerdote, e a Natã, o profeta, e a Benaia, filho de Joiada, e aos quereteus e aos peleteus, e eles o fizeram montar na mula do rei."
+            },
+            {
+              "verse": 45,
+              "text": "E Zadoque, o sacerdote, e Natã, o profeta, o ungiram rei em Giom; e dali subiram alegremente, de modo que a cidade ressoou novamente. Este é o barulho que ouvistes."
+            },
+            {
+              "verse": 46,
+              "text": "E também Salomão está sentado no trono do reino."
+            },
+            {
+              "verse": 47,
+              "text": "E também os servos do rei vieram abençoar o nosso senhor, o rei Davi, dizendo: Faça Deus o nome de Salomão melhor do que o teu nome, e faça o seu trono maior do que o teu trono. E o rei curvou-se na cama."
+            },
+            {
+              "verse": 48,
+              "text": "E também assim disse o rei: Bendito seja o Senhor Deus de Israel, que hoje concedeu que se assentasse no meu trono, até os meus olhos o viram."
+            },
+            {
+              "verse": 49,
+              "text": "E todos os convidados que estavam com Adonias ficaram com medo, e se levantaram, e foram cada um para o seu caminho."
+            },
+            {
+              "verse": 50,
+              "text": "E Adonias temeu por causa de Salomão, e levantou-se, e foi, e agarrou-se às pontas do altar."
+            },
+            {
+              "verse": 51,
+              "text": "E foi avisado a Salomão, dizendo: Eis que Adonias teme ao rei Salomão; porque eis que se agarrou às pontas do altar, dizendo: Jure-me hoje o rei Salomão que não matará o seu servo à espada."
+            },
+            {
+              "verse": 52,
+              "text": "E disse Salomão: Se ele se mostrar um homem digno, nem um só cabelo dele cairá na terra; mas se se achar nele maldade, ele morrerá."
+            },
+            {
+              "verse": 53,
+              "text": "Então o rei Salomão mandou, e eles o fizeram descer do altar. E ele veio e inclinou-se diante do rei Salomão; e Salomão lhe disse: Vai para tua casa."
+            }
+          ]
+        },
+        {
+          "chapter": 2,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Agora se aproximavam os dias de Davi em que ele morreria; e deu ordem a Salomão, seu filho, dizendo:"
+            },
+            {
+              "verse": 2,
+              "text": "Eu sigo o caminho de toda a terra: sê forte, portanto, e mostra-te homem;"
+            },
+            {
+              "verse": 3,
+              "text": "E guarda o mandado do Senhor teu Deus, andando nos seus caminhos, e guardando os seus estatutos, e os seus mandamentos, e os seus juízos, e os seus testemunhos, como está escrito na lei de Moisés, para que prosperes em tudo o que fizeres, e por onde quer que te voltes."
+            },
+            {
+              "verse": 4,
+              "text": "Para que o Senhor confirme a sua palavra que falou a meu respeito, dizendo: Se teus filhos guardarem o seu caminho, andando diante de mim em verdade, com todo o seu coração e com toda a sua alma, não te faltará (disse ele) um homem no trono de Israel."
+            },
+            {
+              "verse": 5,
+              "text": "Além disso, tu também sabes o que Joabe, filho de Zeruia, me fez, e o que ele fez aos dois capitães dos exércitos de Israel, a Abner, filho de Ner, e a Amasa, filho de Jeter, a quem ele matou, derramando o sangue da guerra em tempo de paz, e pondo o sangue da guerra no cinto que estava em seus lombos, e nos sapatos que estavam em seus pés."
+            },
+            {
+              "verse": 6,
+              "text": "Faze, portanto, de acordo com a tua sabedoria, e não deixes que a sua cabeça desça à sepultura em paz."
+            },
+            {
+              "verse": 7,
+              "text": "Mas usa de benevolência para com os filhos de Barzilai, o gileadita, e sejam eles dos que comem à tua mesa; porque assim vieram a mim quando eu fugi por causa de Absalão, teu irmão."
+            },
+            {
+              "verse": 8,
+              "text": "E eis que tens contigo Simei, filho de Gera, benjamita de Baurim, que me amaldiçoou com uma maldição grave no dia em que fui a Maanaim; mas ele desceu ao meu encontro no Jordão, e eu lhe jurei pelo Senhor, dizendo: Não te matarei à espada."
+            },
+            {
+              "verse": 9,
+              "text": "Agora, pois, não o consideres inocente; porque tu és um homem sábio e sabes o que deves fazer-lhe; mas farás descer a sua cabeça branca à sepultura com sangue."
+            },
+            {
+              "verse": 10,
+              "text": "Assim Davi dormiu com seus pais e foi sepultado na cidade de Davi."
+            },
+            {
+              "verse": 11,
+              "text": "E os dias que Davi reinou sobre Israel foram quarenta anos: sete anos reinou em Hebrom, e trinta e três anos reinou em Jerusalém."
+            },
+            {
+              "verse": 12,
+              "text": "Então Salomão sentou-se no trono de Davi, seu pai; e seu reino foi grandemente estabelecido."
+            },
+            {
+              "verse": 13,
+              "text": "E Adonias, filho de Hagite, veio a Bate-Seba, mãe de Salomão. E ela disse: Vens em paz? E ele disse: Pacificamente."
+            },
+            {
+              "verse": 14,
+              "text": "Disse mais ele: Tenho algo a dizer-te. E ela disse: Dize."
+            },
+            {
+              "verse": 15,
+              "text": "E ele disse: Tu sabes que o reino era meu, e que todo o Israel pôs o rosto sobre mim, para que eu reinasse; contudo o reino mudou e passou a ser de meu irmão; porque era dele da parte do Senhor."
+            },
+            {
+              "verse": 16,
+              "text": "E agora peço-te uma petição, não me negues. E ela lhe disse: Diga."
+            },
+            {
+              "verse": 17,
+              "text": "E ele disse: Fala, peço-te, ao rei Salomão (pois ele não te dirá não), que me dê Abisague, a sunamita, por esposa."
+            },
+            {
+              "verse": 18,
+              "text": "E Bate-Seba disse: Bem; Falarei por ti ao rei."
+            },
+            {
+              "verse": 19,
+              "text": "Bate-Seba foi então ao rei Salomão, para falar-lhe por Adonias. E o rei levantou-se para encontrá-la, e inclinou-se diante dela, e sentou-se no seu trono, e fez com que fosse posto um assento para a mãe do rei; e ela sentou-se à sua direita."
+            },
+            {
+              "verse": 20,
+              "text": "Então ela disse: Desejo-te uma pequena petição; eu te peço, não me negues. E o rei lhe disse: Pede, minha mãe, porque não te direi não."
+            },
+            {
+              "verse": 21,
+              "text": "E ela disse: Abisague, a sunamita, seja dada por mulher a Adonias, teu irmão."
+            },
+            {
+              "verse": 22,
+              "text": "E o rei Salomão respondeu e disse a sua mãe: E por que pedes a Abisague, a sunamita, para Adonias? Pede para ele também o reino; pois ele é meu irmão mais velho; sim, para ele, e para Abiatar, o sacerdote, e para Joabe, filho de Zeruia."
+            },
+            {
+              "verse": 23,
+              "text": "Então o rei Salomão jurou pelo Senhor, dizendo: Assim me faça Deus, e outro tanto, se Adonias não falou esta palavra contra a sua própria vida."
+            },
+            {
+              "verse": 24,
+              "text": "Agora, pois, tão certo como vive o Senhor, que me confirmou e me fez assentar no trono de Davi, meu pai, e que me edificou uma casa, como prometeu, hoje Adonias será morto."
+            },
+            {
+              "verse": 25,
+              "text": "E o rei Salomão enviou por mão de Benaia, filho de Joiada; e ele caiu sobre ele e ele morreu."
+            },
+            {
+              "verse": 26,
+              "text": "E disse o rei a Abiatar, o sacerdote: Vai-te a Anatote, para os teus campos; porque tu és digno de morte; mas não te matarei neste momento, porque desnudaste a arca do Senhor DEUS diante de Davi, meu pai, e porque foste afligido em tudo o que meu pai foi afligido."
+            },
+            {
+              "verse": 27,
+              "text": "Assim Salomão expulsou Abiatar do sacerdócio do Senhor; para que cumprisse a palavra do Senhor, que falou acerca da casa de Eli em Siló."
+            },
+            {
+              "verse": 28,
+              "text": "Então chegou a notícia a Joabe (porque Joabe se desviara de Adonias, embora não se houvesse desviado de Absalão). E Joabe fugiu para o tabernáculo do Senhor, e agarrou-se às pontas do altar."
+            },
+            {
+              "verse": 29,
+              "text": "E foi anunciado ao rei Salomão que Joabe havia fugido para o tabernáculo do Senhor; e eis que ele está junto ao altar. Então Salomão enviou Benaia, filho de Joiada, dizendo: Vai, lança-te sobre ele."
+            },
+            {
+              "verse": 30,
+              "text": "E Benaia chegou ao tabernáculo do Senhor e disse-lhe: Assim diz o rei: Sai. E ele disse: Não; mas vou morrer aqui. E Benaia tornou a comunicar ao rei, dizendo: Assim disse Joabe, e assim me respondeu."
+            },
+            {
+              "verse": 31,
+              "text": "E o rei lhe disse: Faze como ele disse, e lança-te sobre ele, e enterra-o; para que tireis de mim e da casa de meu pai o sangue inocente que Joabe derramou."
+            },
+            {
+              "verse": 32,
+              "text": "E o Senhor fará cair o seu sangue sobre a sua própria cabeça, visto que ele caiu sobre dois homens mais justos e melhores do que ele, e os matou à espada, sem o saber meu pai Davi, a saber, Abner, filho de Ner, capitão do exército de Israel, e Amasa, filho de Jeter, capitão do exército de Judá."
+            },
+            {
+              "verse": 33,
+              "text": "Portanto, o seu sangue recairá sobre a cabeça de Joabe e sobre a cabeça da sua descendência para sempre; mas sobre Davi, e sobre a sua descendência, e sobre a sua casa, e sobre o seu trono haverá paz da parte do Senhor para sempre."
+            },
+            {
+              "verse": 34,
+              "text": "Subiu, pois, Benaia, filho de Joiada, e lançou-se sobre ele, e o matou; e foi sepultado em sua casa, no deserto."
+            },
+            {
+              "verse": 35,
+              "text": "E o rei pôs Benaia, filho de Joiada, em seu quarto sobre o exército; e o sacerdote Zadoque o rei pôs em lugar de Abiatar."
+            },
+            {
+              "verse": 36,
+              "text": "E o rei mandou chamar Simei, e disse-lhe: Edifica para ti uma casa em Jerusalém, e habita ali, e não saias dali para parte alguma."
+            },
+            {
+              "verse": 37,
+              "text": "Sabe com certeza que, no dia em que saires e passares o ribeiro de Cedrom, certamente morrerás; o teu sangue será sobre a tua cabeça."
+            },
+            {
+              "verse": 38,
+              "text": "E Simei disse ao rei: Boa é esta palavra; como disse o rei meu senhor, assim fará o teu servo. E Simei habitou muitos dias em Jerusalém."
+            },
+            {
+              "verse": 39,
+              "text": "E aconteceu que, ao cabo de três anos, dois dos servos de Simei fugiram para Aquis, filho de Maaca, rei de Gate. E avisaram Simei, dizendo: Eis que os teus servos estão em Gate."
+            },
+            {
+              "verse": 40,
+              "text": "E Simei levantou-se, e albardou o seu jumento, e foi a Gate, a Aquis, em busca dos seus servos; e foi Simei, e trouxe os seus servos de Gate."
+            },
+            {
+              "verse": 41,
+              "text": "E foi dito a Salomão que Simei tinha ido de Jerusalém para Gate e voltara."
+            },
+            {
+              "verse": 42,
+              "text": "E o rei mandou chamar Simei, e disse-lhe: Não te fiz eu jurar pelo Senhor, e te protestei, dizendo: Sabe com certeza que, no dia em que saires e andares por qualquer lugar, morrerás? E tu me disseste: Boa é a palavra que ouvi."
+            },
+            {
+              "verse": 43,
+              "text": "Por que então não guardaste o juramento do Senhor e o mandamento que te ordenei?"
+            },
+            {
+              "verse": 44,
+              "text": "Disse mais o rei a Simei: Tu conheces toda a maldade de que o teu coração está ciente, que fizeste a Davi, meu pai; portanto, o Senhor fará recair a tua maldade sobre a tua cabeça;"
+            },
+            {
+              "verse": 45,
+              "text": "E o rei Salomão será abençoado, e o trono de Davi será confirmado diante do Senhor para sempre."
+            },
+            {
+              "verse": 46,
+              "text": "Então o rei ordenou a Benaia, filho de Joiada, o qual saiu, caiu sobre ele e o matou; e o reino foi estabelecido nas mãos de Salomão."
+            }
+          ]
+        },
+        {
+          "chapter": 3,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E Salomão fez afinidade com Faraó, rei do Egito, e tomou a filha de Faraó, e a trouxe para a cidade de Davi, até que ele terminasse de construir a sua própria casa, e a casa do Senhor, e o muro de Jerusalém ao redor."
+            },
+            {
+              "verse": 2,
+              "text": "Somente o povo sacrificava em lugares altos, porque não houve casa construída ao nome do Senhor, até aqueles dias."
+            },
+            {
+              "verse": 3,
+              "text": "E Salomão amou ao Senhor, andando nos estatutos de Davi, seu pai; somente ele sacrificava e queimava incenso em lugares altos."
+            },
+            {
+              "verse": 4,
+              "text": "E o rei foi a Gibeão para sacrificar ali; pois aquele era o grande alto; Salomão ofereceu mil holocaustos sobre aquele altar."
+            },
+            {
+              "verse": 5,
+              "text": "Em Gibeão, o Senhor apareceu de noite em sonho a Salomão; e disse Deus: Pergunta o que te darei."
+            },
+            {
+              "verse": 6,
+              "text": "E disse Salomão: Tu usaste com teu servo Davi, meu pai, grande misericórdia, conforme ele andou diante de ti em verdade, e em justiça, e em retidão de coração contigo; e tu guardaste para com ele esta grande bondade, dando-lhe um filho que se assentasse no seu trono, como hoje se vê."
+            },
+            {
+              "verse": 7,
+              "text": "E agora, ó Senhor meu Deus, tu fizeste rei o teu servo em lugar de Davi, meu pai; e eu sou apenas uma criança: não sei como sair ou entrar."
+            },
+            {
+              "verse": 8,
+              "text": "E o teu servo está no meio do teu povo que escolheste, um povo grande, que não pode ser contado nem numerado por ser tão numeroso."
+            },
+            {
+              "verse": 9,
+              "text": "Dá, pois, ao teu servo um coração entendido para julgar o teu povo, para que eu possa discernir entre o bem e o mal; pois quem é capaz de julgar este teu tão grande povo?"
+            },
+            {
+              "verse": 10,
+              "text": "E a palavra agradou ao Senhor, que Salomão tivesse pedido tal coisa."
+            },
+            {
+              "verse": 11,
+              "text": "E Deus lhe disse: Visto que pediste isto e não pediste para ti longa vida, nem pediste para ti riquezas, nem pediste a vida dos teus inimigos, mas pediste para ti entendimento para discernir o julgamento;"
+            },
+            {
+              "verse": 12,
+              "text": "Eis que fiz conforme as tuas palavras; eis que te dei um coração sábio e compreensivo; de modo que antes de ti não houve outro semelhante, e depois de ti ninguém se levantará como tu."
+            },
+            {
+              "verse": 13,
+              "text": "E também te dei o que não pediste, tanto riquezas como honra; de modo que entre os reis não haverá outro semelhante a ti durante todos os teus dias."
+            },
+            {
+              "verse": 14,
+              "text": "E se andares nos meus caminhos, guardando os meus estatutos e os meus mandamentos, como andou Davi, teu pai, então prolongarei os teus dias."
+            },
+            {
+              "verse": 15,
+              "text": "E Salomão acordou; e eis que foi um sonho. E ele veio a Jerusalém, e pôs-se diante da arca da aliança do Senhor, e ofereceu holocaustos, e ofereceu ofertas pacíficas, e fez uma festa a todos os seus servos."
+            },
+            {
+              "verse": 16,
+              "text": "Então vieram duas mulheres, prostitutas, ao rei, e puseram-se diante dele."
+            },
+            {
+              "verse": 17,
+              "text": "E aquela mulher disse: Ó meu senhor, eu e esta mulher moramos na mesma casa; e tive um filho com ela em casa."
+            },
+            {
+              "verse": 18,
+              "text": "E aconteceu que, ao terceiro dia depois do meu parto, esta mulher também deu à luz; e estávamos juntas; não havia nenhum estranho conosco em casa, senão nós duas na casa."
+            },
+            {
+              "verse": 19,
+              "text": "E o filho desta mulher morreu durante a noite; porque ela o sobrepôs."
+            },
+            {
+              "verse": 20,
+              "text": "E ela se levantou à meia-noite, e tirou meu filho do meu lado, enquanto a tua serva dormia, e o colocou no seu colo, e deitou o seu filho morto no meu colo."
+            },
+            {
+              "verse": 21,
+              "text": "E quando me levantei pela manhã para dar de mamar ao meu filho, eis que estava morto; mas quando o considerei pela manhã, eis que não foi meu filho o que eu dei à luz."
+            },
+            {
+              "verse": 22,
+              "text": "E a outra mulher disse: Não; mas o vivo é meu filho, e o morto é teu filho. E a primeira disse: Não; mas o morto é teu filho, e o vivo é meu filho. Assim falaram diante do rei."
+            },
+            {
+              "verse": 23,
+              "text": "Então disse o rei: Um diz: Este é meu filho que vive, e teu filho é o morto; e o outro diz: Não; mas teu filho é o morto, e meu filho é o vivo."
+            },
+            {
+              "verse": 24,
+              "text": "E o rei disse: Traze-me uma espada. E eles trouxeram uma espada diante do rei."
+            },
+            {
+              "verse": 25,
+              "text": "E o rei disse: Divide o menino vivo em dois, e dá metade a um, e metade ao outro."
+            },
+            {
+              "verse": 26,
+              "text": "Então falou a mulher cujo filho vivo era ao rei, pois suas entranhas doíam por seu filho, e ela disse: Ó meu senhor, dá-lhe o filho vivo e de modo algum o mate. Mas o outro disse: Não seja nem meu nem teu, mas divide-o."
+            },
+            {
+              "verse": 27,
+              "text": "Então o rei respondeu e disse: Dá-lhe o filho vivo, e de modo algum o mate; ela é a sua mãe."
+            },
+            {
+              "verse": 28,
+              "text": "E todo o Israel ouviu falar do julgamento que o rei havia proferido; e temeram ao rei, porque viram que nele havia sabedoria de Deus para julgar."
+            }
+          ]
+        },
+        {
+          "chapter": 4,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Assim, o rei Salomão era rei sobre todo o Israel."
+            },
+            {
+              "verse": 2,
+              "text": "E estes eram os príncipes que ele tinha; Azarias, filho do sacerdote Zadoque,"
+            },
+            {
+              "verse": 3,
+              "text": "Eliorefe e Aías, filhos de Sisa, escribas; Josafá, filho de Ailude, o cronista."
+            },
+            {
+              "verse": 4,
+              "text": "E Benaia, filho de Joiada, era o chefe do exército; e Zadoque e Abiatar eram os sacerdotes."
+            },
+            {
+              "verse": 5,
+              "text": "E Azarias, filho de Natã, estava sobre os oficiais; e Zabud, filho de Natã, era oficial principal, e amigo do rei:"
+            },
+            {
+              "verse": 6,
+              "text": "E Ahisar era o encarregado da casa; e Adonirão, filho de Abda, era o encarregado do tributo."
+            },
+            {
+              "verse": 7,
+              "text": "E tinha Salomão doze oficiais sobre todo o Israel, que forneciam mantimentos ao rei e à sua casa; cada homem, no seu mês do ano, fazia provisões."
+            },
+            {
+              "verse": 8,
+              "text": "E estes são os seus nomes: O filho de Hur, no monte Efraim:"
+            },
+            {
+              "verse": 9,
+              "text": "O filho de Decar, em Macaz, em Shaalbim, em Bete-Semes e em Elon-Bete-Hanã:"
+            },
+            {
+              "verse": 10,
+              "text": "O filho de Hesede, em Arubote; a ele pertencia Socó, e toda a terra de Héfer:"
+            },
+            {
+              "verse": 11,
+              "text": "O filho de Abinadabe, em toda a região de Dor; ele tinha Tafate, filha de Salomão, por esposa:"
+            },
+            {
+              "verse": 12,
+              "text": "Baana, filho de Ailude; a ele pertenciam Taanaque, Megido e toda Bete-Seã, que está perto de Zartana, abaixo de Jezreel, desde Bete-Seã até Abel-Meolá, até o lugar que está além de Jocneão:"
+            },
+            {
+              "verse": 13,
+              "text": "O filho de Geber, em Ramote-Gileade; a ele pertenciam as cidades de Jair, filho de Manassés, que estão em Gileade; a ele também pertencia a região de Argobe, que está em Basã, sessenta grandes cidades com muros e ferrolhos de bronze:"
+            },
+            {
+              "verse": 14,
+              "text": "Ainadabe, filho de Ido, tinha Maanaim:"
+            },
+            {
+              "verse": 15,
+              "text": "Aimaás estava em Naftali; ele também tomou Basemate, filha de Salomão, por esposa:"
+            },
+            {
+              "verse": 16,
+              "text": "Baaná, filho de Husai, estava em Aser e em Alote:"
+            },
+            {
+              "verse": 17,
+              "text": "Josafá, filho de Paruá, em Issacar:"
+            },
+            {
+              "verse": 18,
+              "text": "Simei, filho de Elá, em Benjamim:"
+            },
+            {
+              "verse": 19,
+              "text": "Geber, filho de Uri, estava na terra de Gileade, na terra de Seom, rei dos amorreus, e de Ogue, rei de Basã; e ele era o único oficial que estava no país."
+            },
+            {
+              "verse": 20,
+              "text": "Judá e Israel eram muitos, como a areia que está junto ao mar, em multidão, comendo, bebendo e divertindo-se."
+            },
+            {
+              "verse": 21,
+              "text": "E Salomão reinou sobre todos os reinos, desde o rio até a terra dos filisteus, e até a fronteira do Egito; eles trouxeram presentes, e serviram a Salomão todos os dias da sua vida."
+            },
+            {
+              "verse": 22,
+              "text": "E a provisão de Salomão para um dia foi de trinta medidas de farinha fina e sessenta medidas de farinha,"
+            },
+            {
+              "verse": 23,
+              "text": "Dez bois gordos, e vinte bois dos pastos, e cem ovelhas, além de cervos, e corços, e gamos, e aves cevadas."
+            },
+            {
+              "verse": 24,
+              "text": "Porque ele tinha domínio sobre toda a região deste lado do rio, desde Tifsá até Azá, sobre todos os reis deste lado do rio; e tinha paz em todos os lados ao seu redor."
+            },
+            {
+              "verse": 25,
+              "text": "E Judá e Israel habitaram seguros, cada um debaixo da sua videira e debaixo da sua figueira, desde Dã até Berseba, todos os dias de Salomão."
+            },
+            {
+              "verse": 26,
+              "text": "E Salomão tinha quarenta mil baias de cavalos para os seus carros, e doze mil cavaleiros."
+            },
+            {
+              "verse": 27,
+              "text": "E aqueles oficiais forneciam mantimentos ao rei Salomão e a todos os que vinham à mesa do rei Salomão, cada um no seu mês; nada lhes faltou."
+            },
+            {
+              "verse": 28,
+              "text": "Também trouxeram cevada e palha para os cavalos e dromedários ao lugar onde os oficiais estavam, cada um segundo a sua carga."
+            },
+            {
+              "verse": 29,
+              "text": "E Deus deu a Salomão muita sabedoria e entendimento, e largueza de coração, como a areia que está na praia do mar."
+            },
+            {
+              "verse": 30,
+              "text": "E a sabedoria de Salomão superou a sabedoria de todos os filhos do país oriental e toda a sabedoria do Egito."
+            },
+            {
+              "verse": 31,
+              "text": "Pois ele era mais sábio do que todos os homens; do que Etã, o ezraíta, e Hemã, e Chalcol, e Darda, filhos de Maol; e a sua fama se espalhou por todas as nações ao redor."
+            },
+            {
+              "verse": 32,
+              "text": "E proferiu três mil provérbios; e foram os seus cânticos mil e cinco."
+            },
+            {
+              "verse": 33,
+              "text": "E falou das árvores, desde o cedro que está no Líbano até ao hissopo que brota do muro; falou também dos animais, e das aves, e dos répteis, e dos peixes."
+            },
+            {
+              "verse": 34,
+              "text": "E vieram de todos os povos para ouvir a sabedoria de Salomão, de todos os reis da terra, que tinham ouvido falar da sua sabedoria."
+            }
+          ]
+        },
+        {
+          "chapter": 5,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E Hirão, rei de Tiro, enviou os seus servos a Salomão; pois ele tinha ouvido falar que o haviam ungido rei em lugar de seu pai: pois Hirão sempre amou Davi."
+            },
+            {
+              "verse": 2,
+              "text": "E Salomão enviou recado a Hirão, dizendo:"
+            },
+            {
+              "verse": 3,
+              "text": "Tu sabes que Davi, meu pai, não pôde edificar uma casa ao nome do Senhor seu Deus, por causa das guerras que o cercavam por todos os lados, até que o Senhor as pôs debaixo das plantas dos seus pés."
+            },
+            {
+              "verse": 4,
+              "text": "Mas agora o Senhor meu Deus me deu descanso por todos os lados, para que não haja adversário nem mau acontecimento."
+            },
+            {
+              "verse": 5,
+              "text": "E eis que me propus construir uma casa ao nome do Senhor meu Deus, como falou o Senhor a Davi, meu pai, dizendo: Teu filho, a quem porei no teu trono, em teu quarto, ele edificará uma casa ao meu nome."
+            },
+            {
+              "verse": 6,
+              "text": "Ordena agora que me cortem cedros do Líbano; e os meus servos estarão com os teus servos; e a ti pagarei pelos teus servos conforme tudo o que designares; porque sabes que não há entre nós alguém que saiba cortar madeira como os sidônios."
+            },
+            {
+              "verse": 7,
+              "text": "E aconteceu que, ouvindo Hirão as palavras de Salomão, alegrou-se muito e disse: Bendito seja hoje o Senhor, que deu a Davi um filho sábio sobre este grande povo."
+            },
+            {
+              "verse": 8,
+              "text": "E Hirão enviou a Salomão, dizendo: Considerei as coisas que me enviaste; e farei todo o teu desejo com respeito à madeira de cedro e à madeira de abeto."
+            },
+            {
+              "verse": 9,
+              "text": "Meus servos os farão descer do Líbano até o mar; e eu os transportarei por mar em jangadas até o lugar que me designares, e ali farei com que sejam descarregados, e tu os receberás; e realizarás o meu desejo, dando alimento à minha casa."
+            },
+            {
+              "verse": 10,
+              "text": "Então Hirão deu a Salomão cedros e abetos conforme todo o seu desejo."
+            },
+            {
+              "verse": 11,
+              "text": "E Salomão deu a Hirão vinte mil medidas de trigo para alimento da sua casa, e vinte medidas de azeite puro; assim deu Salomão a Hirão, ano após ano."
+            },
+            {
+              "verse": 12,
+              "text": "E o Senhor deu sabedoria a Salomão, como lhe havia prometido; e houve paz entre Hirão e Salomão; e os dois fizeram uma liga juntos."
+            },
+            {
+              "verse": 13,
+              "text": "E o rei Salomão levantou um tributo de todo o Israel; e o recrutamento foi de trinta mil homens."
+            },
+            {
+              "verse": 14,
+              "text": "E ele os enviou ao Líbano, dez mil por mês em turnos: um mês estavam no Líbano, e dois meses em casa; e Adonirão estava sobre o imposto."
+            },
+            {
+              "verse": 15,
+              "text": "E Salomão tinha setenta mil que carregavam cargas, e oitenta mil talhadores nas montanhas;"
+            },
+            {
+              "verse": 16,
+              "text": "Além dos chefes dos oficiais de Salomão que estavam sobre a obra, três mil e trezentos, que governavam o povo que trabalhava na obra."
+            },
+            {
+              "verse": 17,
+              "text": "E o rei ordenou, e trouxeram pedras grandes, pedras preciosas, e pedras lavradas, para lançar os alicerces da casa."
+            },
+            {
+              "verse": 18,
+              "text": "E os construtores de Salomão, os construtores de Hirão e os giblitas os talharam; e prepararam madeira e pedras para construir a casa."
+            }
+          ]
+        },
+        {
+          "chapter": 6,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E aconteceu no ano quatrocentos e oitenta, depois que os filhos de Israel saíram da terra do Egito, no quarto ano do reinado de Salomão sobre Israel, no mês de Zif, que é o segundo mês, que ele começou a construir a casa do Senhor."
+            },
+            {
+              "verse": 2,
+              "text": "E a casa que o rei Salomão edificou ao Senhor tinha sessenta côvados de comprimento, e vinte côvados de largura, e trinta côvados de altura."
+            },
+            {
+              "verse": 3,
+              "text": "E o vestíbulo diante do templo da casa tinha vinte côvados de comprimento, segundo a largura da casa; e dez côvados era a sua largura diante da casa."
+            },
+            {
+              "verse": 4,
+              "text": "E para a casa ele fez janelas com aberturas estreitas."
+            },
+            {
+              "verse": 5,
+              "text": "E edificou câmaras ao redor, encostadas às paredes da casa, tanto ao redor do templo como do oráculo; e fez andares de câmaras ao redor:"
+            },
+            {
+              "verse": 6,
+              "text": "A câmara inferior tinha cinco côvados de largura, e a do meio tinha seis côvados de largura, e a terceira tinha sete côvados de largura;"
+            },
+            {
+              "verse": 7,
+              "text": "E a casa, quando estava em construção, foi edificada com pedras já preparadas antes de serem trazidas para lá; de modo que nem martelo, nem machado, nem ferramenta alguma de ferro se ouviu na casa enquanto ela estava sendo construída."
+            },
+            {
+              "verse": 8,
+              "text": "A porta da câmara do meio ficava no lado direito da casa; e subia-se por escadas em caracol para a câmara do meio, e desta para a terceira."
+            },
+            {
+              "verse": 9,
+              "text": "Então ele construiu a casa e a terminou; e cobriu a casa com vigas e tábuas de cedro."
+            },
+            {
+              "verse": 10,
+              "text": "E edificou câmaras contra toda a casa, de cinco côvados de altura cada uma, as quais se apoiavam na casa com madeira de cedro."
+            },
+            {
+              "verse": 11,
+              "text": "E veio a palavra do Senhor a Salomão, dizendo:"
+            },
+            {
+              "verse": 12,
+              "text": "Quanto a esta casa que estás construindo, se andares nos meus estatutos, e executares os meus juízos, e guardares todos os meus mandamentos, andando neles; então cumprirei contigo a palavra que falei a Davi, teu pai:"
+            },
+            {
+              "verse": 13,
+              "text": "E habitarei no meio dos filhos de Israel e não abandonarei o meu povo Israel."
+            },
+            {
+              "verse": 14,
+              "text": "Então Salomão construiu a casa e a terminou."
+            },
+            {
+              "verse": 15,
+              "text": "E revestiu as paredes da casa por dentro com tábuas de cedro, desde o chão da casa até as vigas do teto; cobriu-as por dentro com madeira e revestiu o pavimento da casa com tábuas de abeto."
+            },
+            {
+              "verse": 16,
+              "text": "E edificou vinte côvados nos fundos da casa com tábuas de cedro, desde o chão até as paredes; e assim edificou o interior para o oráculo, isto é, para o lugar santíssimo."
+            },
+            {
+              "verse": 17,
+              "text": "E a casa, isto é, o templo diante dela, tinha quarenta côvados de comprimento."
+            },
+            {
+              "verse": 18,
+              "text": "E o cedro da casa por dentro era esculpido com botões e flores abertas: tudo era cedro; não havia nenhuma pedra vista."
+            },
+            {
+              "verse": 19,
+              "text": "E preparou o oráculo dentro da casa, para ali colocar a arca da aliança do Senhor."
+            },
+            {
+              "verse": 20,
+              "text": "E o oráculo no interior tinha vinte côvados de comprimento, vinte côvados de largura e vinte côvados de altura; e o revestiu de ouro puro, cobrindo também o altar que era de cedro."
+            },
+            {
+              "verse": 21,
+              "text": "Então Salomão cobriu a casa por dentro com ouro puro; e com cadeias de ouro fez uma divisória diante do oráculo; e ele o cobriu de ouro."
+            },
+            {
+              "verse": 22,
+              "text": "E cobriu de ouro toda a casa, até terminar toda a casa; também cobriu de ouro todo o altar que estava junto ao oráculo."
+            },
+            {
+              "verse": 23,
+              "text": "E dentro do oráculo fez dois querubins de oliveira, cada um com dez côvados de altura."
+            },
+            {
+              "verse": 24,
+              "text": "E cinco côvados era uma asa do querubim, e cinco côvados a outra asa do querubim; desde a extremidade de uma asa até a extremidade da outra havia dez côvados."
+            },
+            {
+              "verse": 25,
+              "text": "E o outro querubim tinha dez côvados; ambos os querubins eram da mesma medida e do mesmo tamanho."
+            },
+            {
+              "verse": 26,
+              "text": "A altura de um querubim era de dez côvados, e o mesmo acontecia com o outro querubim."
+            },
+            {
+              "verse": 27,
+              "text": "E pôs os querubins dentro da casa interior; e eles estenderam as asas dos querubins, de modo que a asa de um tocava numa parede, e a asa do outro querubim tocava a outra parede; e as suas asas se tocavam no meio da casa."
+            },
+            {
+              "verse": 28,
+              "text": "E cobriu de ouro os querubins."
+            },
+            {
+              "verse": 29,
+              "text": "E ele esculpiu todas as paredes da casa em redor com figuras esculpidas de querubins, e palmeiras, e flores abertas, por dentro e por fora."
+            },
+            {
+              "verse": 30,
+              "text": "E cobriu de ouro o chão da casa, por dentro e por fora."
+            },
+            {
+              "verse": 31,
+              "text": "E para a entrada do oráculo fez portas de oliveira; a verga e as ombreiras eram uma quinta parte da parede."
+            },
+            {
+              "verse": 32,
+              "text": "As duas portas eram de madeira de oliveira; e nelas esculpiu figuras de querubins, de palmeiras e de flores abertas, cobrindo-as de ouro; e estendeu ouro sobre os querubins e sobre as palmeiras."
+            },
+            {
+              "verse": 33,
+              "text": "Assim também fez para a porta do templo ombreiras de oliveira, uma quarta parte da parede."
+            },
+            {
+              "verse": 34,
+              "text": "E as duas portas eram de cipreste; as duas folhas de uma porta eram articuladas, e as duas folhas da outra porta eram articuladas."
+            },
+            {
+              "verse": 35,
+              "text": "E ele esculpiu querubins, e palmeiras, e flores abertas; e os cobriu com ouro colocado na escultura."
+            },
+            {
+              "verse": 36,
+              "text": "E edificou o átrio interior com três fileiras de pedras lavradas e uma fileira de vigas de cedro."
+            },
+            {
+              "verse": 37,
+              "text": "No quarto ano foram lançados os alicerces da casa do Senhor, no mês de Zif:"
+            },
+            {
+              "verse": 38,
+              "text": "E no décimo primeiro ano, no mês de Bul, que é o oitavo mês, a casa foi acabada em todas as suas partes, segundo todo o seu projeto. Assim, ele a edificou em sete anos."
+            }
+          ]
+        },
+        {
+          "chapter": 7,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Mas Salomão construiu a sua própria casa durante treze anos e terminou toda a sua casa."
+            },
+            {
+              "verse": 2,
+              "text": "Edificou também a casa do bosque do Líbano; o seu comprimento era de cem côvados, e a sua largura de cinquenta côvados, e a sua altura de trinta côvados, sobre quatro fileiras de colunas de cedro, com vigas de cedro sobre as colunas."
+            },
+            {
+              "verse": 3,
+              "text": "E estava coberto com cedro por cima das vigas, que assentavam sobre quarenta e cinco colunas, quinze em cada fileira."
+            },
+            {
+              "verse": 4,
+              "text": "E havia janelas em três fileiras, e a luz estava contra a luz em três fileiras."
+            },
+            {
+              "verse": 5,
+              "text": "E todas as portas e ombreiras eram quadradas, com as janelas; e a luz estava contra a luz em três fileiras."
+            },
+            {
+              "verse": 6,
+              "text": "E ele fez um pórtico de colunas; o seu comprimento era de cinquenta côvados, e a sua largura de trinta côvados; e o pórtico estava diante deles; e as outras colunas e a viga grossa estavam diante deles."
+            },
+            {
+              "verse": 7,
+              "text": "Então ele fez um pórtico para o trono onde ele poderia julgar, sim o pórtico do julgamento: e era coberto de cedro de um lado ao outro do chão."
+            },
+            {
+              "verse": 8,
+              "text": "E a sua casa onde ele morava tinha outro pátio dentro do alpendre, que era de obra semelhante. Salomão também fez uma casa para a filha de Faraó, a quem ele havia tomado por esposa, semelhante a este alpendre."
+            },
+            {
+              "verse": 9,
+              "text": "Todas estas eram de pedras caras, de acordo com as medidas de pedras lavradas, serradas com serra, por dentro e por fora, desde o alicerce até o cume, e assim por fora, em direção ao grande átrio."
+            },
+            {
+              "verse": 10,
+              "text": "E o fundamento era de pedras caras, sim, pedras grandes, pedras de dez côvados e pedras de oito côvados."
+            },
+            {
+              "verse": 11,
+              "text": "E por cima havia pedras preciosas, conforme as medidas de pedras lavradas, e cedros."
+            },
+            {
+              "verse": 12,
+              "text": "E o grande átrio ao redor era composto por três fileiras de pedras lavradas e uma fileira de vigas de cedro, tanto para o átrio interno da casa do Senhor, como para o vestíbulo da casa."
+            },
+            {
+              "verse": 13,
+              "text": "E o rei Salomão mandou buscar Hirão de Tiro."
+            },
+            {
+              "verse": 14,
+              "text": "Ele era filho de uma viúva, da tribo de Naftali, e seu pai era um homem de Tiro, trabalhador em bronze; e ele era cheio de sabedoria, e de entendimento, e de astúcia para fazer todas as obras em bronze. E ele veio ao rei Salomão e fez toda a sua obra."
+            },
+            {
+              "verse": 15,
+              "text": "Pois ele fundiu duas colunas de bronze, cada uma com dezoito côvados de altura; e uma linha de doze côvados cercava cada uma delas."
+            },
+            {
+              "verse": 16,
+              "text": "E fez dois capitéis de bronze fundido, para colocar no topo das colunas; a altura de um capititel era de cinco côvados, e a altura do outro capititel era de cinco côvados."
+            },
+            {
+              "verse": 17,
+              "text": "E fez redes em forma de xadrez, e coroas de correntes, para os capitéis que estavam no topo das colunas; sete para um capitel e sete para o outro capitel."
+            },
+            {
+              "verse": 18,
+              "text": "E ele fez as colunas e duas fileiras ao redor de uma rede, para cobrir com romãs os capitéis que estavam no topo; e o mesmo fez para o outro capitel."
+            },
+            {
+              "verse": 19,
+              "text": "E os capitéis que estavam no topo das colunas, no pórtico, eram em forma de lírios, de quatro côvados."
+            },
+            {
+              "verse": 20,
+              "text": "E os capitéis sobre as duas colunas também estavam em cima, defronte da saliência que estava junto à rede; e as romãs eram duzentas, em fileiras ao redor de cada capitel."
+            },
+            {
+              "verse": 21,
+              "text": "E ele ergueu as colunas no pórtico do templo: e ergueu a coluna direita, e chamou-lhe o nome de Jaquim; e ergueu a coluna esquerda, e chamou-lhe o nome de Boaz."
+            },
+            {
+              "verse": 22,
+              "text": "E no topo das colunas havia obra de lírios; assim foi terminada a obra das colunas."
+            },
+            {
+              "verse": 23,
+              "text": "E fez um mar de fundição, de dez côvados de uma borda à outra; era ao redor, e a sua altura era de cinco côvados; e um cordel de trinta côvados o circundava."
+            },
+            {
+              "verse": 24,
+              "text": "E debaixo da sua borda, ao redor, havia botões que o circundavam, dez de cada côvado, que circundavam o mar ao redor; os botões foram lançados em duas fileiras, quando foi lançado."
+            },
+            {
+              "verse": 25,
+              "text": "Estava sobre doze bois, três olhando para o norte, e três olhando para o oeste, e três olhando para o sul, e três olhando para o leste: e o mar estava acima deles, e todas as suas partes traseiras estavam para dentro."
+            },
+            {
+              "verse": 26,
+              "text": "E tinha a espessura de um palmo, e a sua borda era feita como a borda de um copo, com flores de lírios; continha dois mil banhos."
+            },
+            {
+              "verse": 27,
+              "text": "E fez dez bases de bronze; quatro côvados era o comprimento de uma base, e quatro côvados a sua largura, e três côvados a sua altura."
+            },
+            {
+              "verse": 28,
+              "text": "E o trabalho das bases era deste modo: elas tinham painéis, e os painéis estavam entre as molduras."
+            },
+            {
+              "verse": 29,
+              "text": "E nos painéis que havia entre as molduras havia leões, bois e querubins; e sobre as molduras havia um pedestal acima, e abaixo dos leões e dos bois havia festões de trabalho batido."
+            },
+            {
+              "verse": 30,
+              "text": "E cada base tinha quatro rodas de bronze e placas de bronze; e os seus quatro cantos tinham bases; debaixo da pia havia bases fundidas, ao lado de cada acréscimo."
+            },
+            {
+              "verse": 31,
+              "text": "E a abertura da base, por dentro do capitel e para cima, era de um côvado; e a sua abertura era redonda, como a obra de um pedestal, de um côvado e meio; e também sobre a abertura havia entalhes com painéis quadrados, e não redondos."
+            },
+            {
+              "verse": 32,
+              "text": "E sob as fronteiras havia quatro rodas; e os eixos das rodas estavam unidos à base; e a altura da roda era de um côvado e meio côvado."
+            },
+            {
+              "verse": 33,
+              "text": "E a obra das rodas era como a obra da roda de uma carruagem: os seus eixos, as suas cubas, os seus raios e as suas jantes, todos eram fundidos."
+            },
+            {
+              "verse": 34,
+              "text": "E havia quatro suportes nos quatro cantos de uma base; e os suportes eram da própria base."
+            },
+            {
+              "verse": 35,
+              "text": "E no topo da base havia uma estrutura redonda de meio côvado de altura; e no topo da base as suas abas e os seus painéis faziam parte dela mesma."
+            },
+            {
+              "verse": 36,
+              "text": "Pois nas placas das suas armações e nos seus painéis ele gravou querubins, leões e palmeiras, conforme o espaço livre de cada um, com festões ao redor."
+            },
+            {
+              "verse": 37,
+              "text": "Desta maneira ele fez as dez bases: todas elas tinham uma fundição, uma medida e um tamanho."
+            },
+            {
+              "verse": 38,
+              "text": "Então ele fez dez pias de bronze: uma pia continha quarenta banhos: e cada pia tinha quatro côvados: e sobre cada uma das dez bases uma pia."
+            },
+            {
+              "verse": 39,
+              "text": "E pôs cinco bases à direita da casa, e cinco à esquerda da casa; e pôs o mar à direita da casa, para o oriente, defronte do sul."
+            },
+            {
+              "verse": 40,
+              "text": "E Hirão fez as pias, e as pás, e as bacias. Assim Hirão acabou de fazer toda a obra que havia incumbido ao rei Salomão para a casa do Senhor:"
+            },
+            {
+              "verse": 41,
+              "text": "As duas colunas e as duas taças dos capitéis que estavam no topo das duas colunas; e as duas redes, para cobrir as duas taças dos capitéis que estavam no topo das colunas;"
+            },
+            {
+              "verse": 42,
+              "text": "E quatrocentas romãs para as duas redes, mesmo duas fileiras de romãs para uma rede, para cobrir as duas taças dos capitéis que estavam sobre as colunas;"
+            },
+            {
+              "verse": 43,
+              "text": "E as dez bases e as dez pias nas bases;"
+            },
+            {
+              "verse": 44,
+              "text": "E um mar e doze bois debaixo do mar;"
+            },
+            {
+              "verse": 45,
+              "text": "E as panelas, e as pás, e as bacias, e todos estes utensílios que Hirão fez para o rei Salomão, para a casa do Senhor, eram de bronze brilhante."
+            },
+            {
+              "verse": 46,
+              "text": "Na planície do Jordão o rei os lançou, no solo argiloso entre Sucote e Zartã."
+            },
+            {
+              "verse": 47,
+              "text": "E Salomão deixou todos os vasos sem pesar, porque eram muito numerosos; e não se descobriu o peso do bronze."
+            },
+            {
+              "verse": 48,
+              "text": "E Salomão fez todos os utensílios que pertenciam à casa do Senhor: o altar de ouro e a mesa de ouro, sobre a qual estavam os pães da proposição."
+            },
+            {
+              "verse": 49,
+              "text": "E os castiçais de ouro puro, cinco à direita e cinco à esquerda, diante do oráculo, com as flores, e as lâmpadas, e os tenazes de ouro,"
+            },
+            {
+              "verse": 50,
+              "text": "E as tigelas, e os apagadores, e as bacias, e as colheres, e os incensários de ouro puro; e as dobradiças de ouro, ambas para as portas da casa interior, do lugar santíssimo, e para as portas da casa, a saber, do templo."
+            },
+            {
+              "verse": 51,
+              "text": "Assim terminou toda a obra que o rei Salomão fez para a casa do Senhor. E Salomão trouxe as coisas que Davi, seu pai, havia consagrado; até a prata, e o ouro, e os vasos, ele colocou entre os tesouros da casa do Senhor."
+            }
+          ]
+        },
+        {
+          "chapter": 8,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Então Salomão reuniu os anciãos de Israel e todos os chefes das tribos, os chefes das casas paternas dos filhos de Israel, ao rei Salomão, em Jerusalém, para que fizessem subir a arca da aliança do Senhor, da cidade de Davi, que é Sião."
+            },
+            {
+              "verse": 2,
+              "text": "E todos os homens de Israel se reuniram ao rei Salomão na festa do mês de Etanim, que é o sétimo mês."
+            },
+            {
+              "verse": 3,
+              "text": "E vieram todos os anciãos de Israel, e os sacerdotes levaram a arca."
+            },
+            {
+              "verse": 4,
+              "text": "E trouxeram a arca do Senhor, e a tenda da congregação, e todos os vasos sagrados que havia na tenda, sim, estes os sacerdotes e os levitas trouxeram."
+            },
+            {
+              "verse": 5,
+              "text": "E o rei Salomão e toda a congregação de Israel que estava reunida com ele estavam diante da arca, sacrificando ovelhas e bois, que não se podiam contar nem numerar, por causa da multidão."
+            },
+            {
+              "verse": 6,
+              "text": "E os sacerdotes levaram a arca da aliança do Senhor ao seu lugar, ao oráculo da casa, ao lugar santíssimo, debaixo das asas dos querubins."
+            },
+            {
+              "verse": 7,
+              "text": "Porque os querubins estendiam as duas asas sobre o lugar da arca, e os querubins cobriam a arca e os seus varais por cima."
+            },
+            {
+              "verse": 8,
+              "text": "E tiraram os varais, de modo que as pontas dos varais ficaram visíveis no lugar santo, diante do oráculo, e não foram vistas de fora; e lá estão até hoje."
+            },
+            {
+              "verse": 9,
+              "text": "Não havia nada na arca, exceto as duas tábuas de pedra que Moisés ali colocou em Horebe, quando o Senhor fez uma aliança com os filhos de Israel, quando eles saíram da terra do Egito."
+            },
+            {
+              "verse": 10,
+              "text": "E aconteceu que, saindo os sacerdotes do lugar santo, uma nuvem encheu a casa do Senhor,"
+            },
+            {
+              "verse": 11,
+              "text": "De modo que os sacerdotes não puderam ficar de pé para ministrar por causa da nuvem; porque a glória do Senhor encheu a casa do Senhor."
+            },
+            {
+              "verse": 12,
+              "text": "Então falou Salomão: O Senhor disse que ele habitaria nas trevas."
+            },
+            {
+              "verse": 13,
+              "text": "Eu certamente te edifiquei uma casa para moradia, um lugar estável para habitares para sempre."
+            },
+            {
+              "verse": 14,
+              "text": "E o rei virou o rosto e abençoou toda a congregação de Israel: (e toda a congregação de Israel estava em pé;)"
+            },
+            {
+              "verse": 15,
+              "text": "E ele disse: Bendito seja o Senhor Deus de Israel, que pela sua boca falou a Davi, meu pai, e pela sua mão o cumpriu, dizendo:"
+            },
+            {
+              "verse": 16,
+              "text": "Desde o dia em que tirei o meu povo Israel do Egito, não escolhi nenhuma cidade dentre todas as tribos de Israel para construir uma casa, onde o meu nome estivesse nela; mas escolhi Davi para governar o meu povo Israel."
+            },
+            {
+              "verse": 17,
+              "text": "E estava no coração de Davi, meu pai, construir uma casa ao nome do Senhor, Deus de Israel."
+            },
+            {
+              "verse": 18,
+              "text": "E o Senhor disse a Davi, meu pai: Embora tenha pensado no teu coração edificar uma casa ao meu nome, fizeste bem em que isso estivesse no teu coração."
+            },
+            {
+              "verse": 19,
+              "text": "Contudo não edificarás a casa; mas o teu filho, que sair dos teus lombos, ele edificará a casa ao meu nome."
+            },
+            {
+              "verse": 20,
+              "text": "E o Senhor cumpriu a palavra que havia falado, e eu me levantei no lugar de Davi, meu pai, e me assentei no trono de Israel, como o Senhor prometeu, e edifiquei uma casa ao nome do Senhor, Deus de Israel."
+            },
+            {
+              "verse": 21,
+              "text": "E coloquei ali um lugar para a arca, onde está a aliança do Senhor, que ele fez com nossos pais, quando os tirou da terra do Egito."
+            },
+            {
+              "verse": 22,
+              "text": "E Salomão pôs-se diante do altar do Senhor, na presença de toda a congregação de Israel, e estendeu as mãos para o céu."
+            },
+            {
+              "verse": 23,
+              "text": "E ele disse: Senhor Deus de Israel, não há Deus como tu, em cima nos céus, nem embaixo na terra, que guarda a aliança e a misericórdia com os teus servos que andam diante de ti de todo o coração."
+            },
+            {
+              "verse": 24,
+              "text": "O que cumpriste com teu servo Davi, meu pai, o que lhe prometeste; também falaste com a tua boca, e com a tua mão o cumpriste, como hoje se vê."
+            },
+            {
+              "verse": 25,
+              "text": "Portanto agora, Senhor Deus de Israel, cumpre com teu servo Davi, meu pai, o que lhe prometeste, dizendo: Nunca te faltará homem aos meus olhos que se assente no trono de Israel; para que teus filhos cuidem do seu caminho, e andem diante de mim como tu andaste antes de mim."
+            },
+            {
+              "verse": 26,
+              "text": "E agora, ó Deus de Israel, confirme-se a tua palavra, peço-te, que disseste a teu servo Davi, meu pai."
+            },
+            {
+              "verse": 27,
+              "text": "Mas será que Deus realmente habitará na terra? eis que o céu e o céu dos céus não te podem conter; quanto menos esta casa que construí?"
+            },
+            {
+              "verse": 28,
+              "text": "Contudo, atenta para a oração do teu servo e para a sua súplica, ó Senhor meu Deus, para ouvir o clamor e a oração que o teu servo hoje faz diante de ti."
+            },
+            {
+              "verse": 29,
+              "text": "Para que os teus olhos estejam abertos noite e dia para esta casa, mesmo para o lugar de que disseste: Ali estará o meu nome; para que ouças a oração que o teu servo fizer neste lugar."
+            },
+            {
+              "verse": 30,
+              "text": "E ouve tu a súplica do teu servo e do teu povo de Israel, quando orarem voltados para este lugar; e ouve tu no céu, lugar da tua habitação; e quando ouvires, perdoa."
+            },
+            {
+              "verse": 31,
+              "text": "Se alguém pecar contra o seu próximo, e lhe for imposto um juramento, para o fazer jurar, e o juramento vier perante o teu altar, nesta casa,"
+            },
+            {
+              "verse": 32,
+              "text": "Então ouve tu no céu, e age, e julga os teus servos, condenando o ímpio, para fazer recair sobre a sua cabeça o seu caminho; e justificar o justo, para lhe dar segundo a sua justiça."
+            },
+            {
+              "verse": 33,
+              "text": "Quando o teu povo Israel for derrotado diante do inimigo, por ter pecado contra ti, e se voltar para ti, e confessar o teu nome, e orar, e te suplicar nesta casa,"
+            },
+            {
+              "verse": 34,
+              "text": "Então ouve tu nos céus, e perdoa o pecado do teu povo Israel, e traze-o novamente à terra que deste a seus pais."
+            },
+            {
+              "verse": 35,
+              "text": "Quando o céu estiver fechado e não houver chuva, porque pecaram contra ti; se orarem neste lugar, e confessarem o teu nome, e se converterem dos seus pecados, quando tu os afligires:"
+            },
+            {
+              "verse": 36,
+              "text": "Então ouve tu nos céus, e perdoa o pecado dos teus servos e do teu povo Israel, para que lhes ensines o bom caminho em que devem andar, e faças chover sobre a tua terra, que deste ao teu povo por herança."
+            },
+            {
+              "verse": 37,
+              "text": "Se houver fome na terra, se houver peste, queimadura, mofo, gafanhotos, ou se houver lagarta; se o seu inimigo os sitiar na terra das suas cidades; qualquer praga, qualquer doença que haja;"
+            },
+            {
+              "verse": 38,
+              "text": "Toda oração e toda súplica que qualquer homem ou todo o teu povo Israel fizer, conhecendo cada um a chaga do seu próprio coração e estendendo as mãos para esta casa,"
+            },
+            {
+              "verse": 39,
+              "text": "Então ouve tu no céu, lugar da tua habitação, e perdoa, e faze, e dá a cada um segundo os seus caminhos, cujo coração conheces; (pois tu, somente tu, conheces os corações de todos os filhos dos homens;)"
+            },
+            {
+              "verse": 40,
+              "text": "Para que te temam todos os dias que viverem na terra que deste a nossos pais."
+            },
+            {
+              "verse": 41,
+              "text": "E quanto ao estrangeiro, que não é do teu povo Israel, mas que vem de uma terra distante por causa do teu nome;"
+            },
+            {
+              "verse": 42,
+              "text": "(Porque ouvirão do teu grande nome, e da tua mão forte, e do teu braço estendido;) quando ele vier e orar nesta casa;"
+            },
+            {
+              "verse": 43,
+              "text": "Ouve tu no céu, lugar da tua habitação, e faze conforme tudo o que o estrangeiro te pede: para que todos os povos da terra conheçam o teu nome, para te temerem, como faz o teu povo Israel; e para que saibam que esta casa que edifiquei se chama pelo teu nome."
+            },
+            {
+              "verse": 44,
+              "text": "Quando o teu povo sair à peleja contra o seu inimigo, para onde quer que o enviares, e orar ao Senhor, voltado para a cidade que escolheste, e para a casa que edifiquei ao teu nome,"
+            },
+            {
+              "verse": 45,
+              "text": "Então ouve tu nos céus a sua oração e a sua súplica, e sustém a sua causa."
+            },
+            {
+              "verse": 46,
+              "text": "Se pecarem contra ti (pois não há ninguém que não peque), e tu te indignares com eles e os entregares ao inimigo, de modo que os levem cativos para a terra do inimigo, para longe ou para perto;"
+            },
+            {
+              "verse": 47,
+              "text": "No entanto, se eles se lembrarem na terra para onde foram levados cativos e se arrependerem e te suplicarem na terra daqueles que os levaram cativos, dizendo: Pecamos e agimos perversamente, cometemos iniqüidade;"
+            },
+            {
+              "verse": 48,
+              "text": "E se voltarem para ti de todo o coração e de toda a alma, na terra dos seus inimigos que os levaram cativos, e orarem a ti voltados para a terra que deste a seus pais, para a cidade que escolheste e para a casa que edifiquei ao teu nome,"
+            },
+            {
+              "verse": 49,
+              "text": "Então, ouve tu nos céus, no lugar da tua habitação, a oração e a súplica deles, e defende a sua causa,"
+            },
+            {
+              "verse": 50,
+              "text": "E perdoa ao teu povo que pecou contra ti, e todas as suas transgressões com que transgrediram contra ti, e dá-lhes compaixão diante daqueles que os levaram cativos, para que tenham compaixão deles:"
+            },
+            {
+              "verse": 51,
+              "text": "Porque eles são o teu povo e a tua herança, que tiraste do Egito, do meio da fornalha de ferro."
+            },
+            {
+              "verse": 52,
+              "text": "Para que os teus olhos estejam abertos às súplicas do teu servo e às súplicas do teu povo Israel, para os ouvires em tudo o que te pedirem."
+            },
+            {
+              "verse": 53,
+              "text": "Porque tu os separaste de todos os povos da terra, para serem a tua herança, como disseste pela mão de Moisés, teu servo, quando tiraste nossos pais do Egito, ó Senhor Deus."
+            },
+            {
+              "verse": 54,
+              "text": "E aconteceu que, quando Salomão terminou de fazer toda esta oração e súplica ao Senhor, levantou-se de diante do altar do Senhor, ajoelhando-se com as mãos estendidas para o céu."
+            },
+            {
+              "verse": 55,
+              "text": "E ele se levantou e abençoou toda a congregação de Israel em alta voz, dizendo:"
+            },
+            {
+              "verse": 56,
+              "text": "Bendito seja o Senhor, que deu descanso ao seu povo de Israel, conforme tudo o que prometeu; nem uma só palavra falhou de toda a sua boa promessa, que prometeu pela mão de Moisés, seu servo."
+            },
+            {
+              "verse": 57,
+              "text": "O Senhor nosso Deus seja conosco, como foi com nossos pais; não nos deixe, nem nos desampare:"
+            },
+            {
+              "verse": 58,
+              "text": "Para que ele incline a ele os nossos corações, para andarmos em todos os seus caminhos, e para guardarmos os seus mandamentos, e os seus estatutos, e os seus juízos, que ordenou a nossos pais."
+            },
+            {
+              "verse": 59,
+              "text": "E que estas minhas palavras, com as quais supliquei perante o Senhor, estejam perto do Senhor nosso Deus, dia e noite, para que ele defenda a causa do seu servo e a causa do seu povo Israel em todos os momentos, conforme o caso exigir."
+            },
+            {
+              "verse": 60,
+              "text": "Para que todos os povos da terra saibam que o Senhor é Deus, e que não há outro."
+            },
+            {
+              "verse": 61,
+              "text": "Seja, pois, perfeito o vosso coração para com o Senhor nosso Deus, para andardes nos seus estatutos e guardardes os seus mandamentos, como hoje se faz."
+            },
+            {
+              "verse": 62,
+              "text": "E o rei e todo o Israel com ele ofereceram sacrifícios perante o Senhor."
+            },
+            {
+              "verse": 63,
+              "text": "E Salomão ofereceu como sacrifício pacífico, que ofereceu ao Senhor, vinte e dois mil bois e cento e vinte mil ovelhas. Assim o rei e todos os filhos de Israel consagraram a casa do Senhor."
+            },
+            {
+              "verse": 64,
+              "text": "Naquele mesmo dia o rei santificou o meio do átrio que estava diante da casa do Senhor; porque ali ofereceu holocaustos, e ofertas de cereais, e a gordura das ofertas pacíficas;"
+            },
+            {
+              "verse": 65,
+              "text": "E naquele tempo celebrou Salomão uma festa, e com ele todo o Israel, uma grande congregação, desde a entrada de Hamate até ao rio do Egito, perante o Senhor nosso Deus, sete dias e sete dias, sim, catorze dias."
+            },
+            {
+              "verse": 66,
+              "text": "No oitavo dia despediu o povo; e eles abençoaram o rei, e foram para as suas tendas alegres e de coração alegre por todo o bem que o Senhor tinha feito a Davi, seu servo, e a Israel, seu povo."
+            }
+          ]
+        },
+        {
+          "chapter": 9,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E aconteceu que, acabando Salomão a edificação da casa do Senhor, e da casa do rei, e todo o desejo de Salomão que lhe aprouve fazer,"
+            },
+            {
+              "verse": 2,
+              "text": "Que o Senhor apareceu a Salomão pela segunda vez, como lhe havia aparecido em Gibeão."
+            },
+            {
+              "verse": 3,
+              "text": "E o Senhor lhe disse: Ouvi a tua oração e a tua súplica que fizeste diante de mim; santifiquei esta casa que edificaste, para ali pôr o meu nome para sempre; e meus olhos e meu coração estarão ali perpetuamente."
+            },
+            {
+              "verse": 4,
+              "text": "E se andares diante de mim, como andou Davi, teu pai, com integridade de coração e com retidão, fazendo conforme tudo o que te ordenei, e guardando os meus estatutos e os meus juízos,"
+            },
+            {
+              "verse": 5,
+              "text": "Então estabelecerei para sempre o trono do teu reino sobre Israel, como prometi a Davi, teu pai, dizendo: Nunca te faltará varão no trono de Israel."
+            },
+            {
+              "verse": 6,
+              "text": "Mas se vós ou vossos filhos deixarem de me seguir, e não guardarem os meus mandamentos e os meus estatutos que pus diante de vós, antes fores e servirdes a outros deuses e os adorardes:"
+            },
+            {
+              "verse": 7,
+              "text": "Então exterminarei a Israel da terra que lhes dei; e esta casa, que santifiquei ao meu nome, lançarei fora da minha vista; e Israel servirá de provérbio e objeto de zombaria entre todos os povos;"
+            },
+            {
+              "verse": 8,
+              "text": "E esta casa, que é tão alta, fará com que todo aquele que passar por ela espante-se e assobie, e dirão: Por que o Senhor procedeu assim com esta terra e com esta casa?"
+            },
+            {
+              "verse": 9,
+              "text": "E eles responderão: Porque abandonaram o Senhor seu Deus, que tirou seus pais da terra do Egito, e se apegaram a outros deuses, e os adoraram e os serviram; por isso o Senhor fez cair sobre eles todo este mal."
+            },
+            {
+              "verse": 10,
+              "text": "E aconteceu que, ao cabo de vinte anos, quando Salomão edificou as duas casas, a casa do Senhor e a casa do rei,"
+            },
+            {
+              "verse": 11,
+              "text": "Havendo Hirão, rei de Tiro, fornecido a Salomão madeira de cedro e de abeto, e ouro, segundo todo o seu desejo, deu o rei Salomão a Hirão vinte cidades na terra da Galileia."
+            },
+            {
+              "verse": 12,
+              "text": "E Hirão saiu de Tiro para ver as cidades que Salomão lhe dera, porém elas não lhe agradaram."
+            },
+            {
+              "verse": 13,
+              "text": "E ele disse: Que cidades são estas que me deste, meu irmão? E ele as chamou de terra de Cabul até o dia de hoje."
+            },
+            {
+              "verse": 14,
+              "text": "E Hirão enviou ao rei sessenta talentos de ouro."
+            },
+            {
+              "verse": 15,
+              "text": "E esta é a razão da taxa que o rei Salomão levantou; para edificar a casa do Senhor, e a sua casa, e Milo, e o muro de Jerusalém, e Hazor, e Megido, e Gezer."
+            },
+            {
+              "verse": 16,
+              "text": "Pois Faraó, rei do Egito, subiu, tomou Gezer, queimou-a com fogo, matou os cananeus que habitavam na cidade e deu-a por dote a sua filha, mulher de Salomão."
+            },
+            {
+              "verse": 17,
+              "text": "E Salomão edificou Gezer, e Bete-Horom, a inferior,"
+            },
+            {
+              "verse": 18,
+              "text": "Como também Baalate e Tadmor, no deserto, naquela terra,"
+            },
+            {
+              "verse": 19,
+              "text": "E todas as cidades de tesouro que Salomão tinha, e cidades para os seus carros, e cidades para os seus cavaleiros, e aquilo que Salomão desejava construir em Jerusalém, e no Líbano, e em toda a terra do seu domínio."
+            },
+            {
+              "verse": 20,
+              "text": "E todo o povo que restou dos amorreus, dos hititas, dos ferezeus, dos heveus e dos jebuseus, que não eram dos filhos de Israel,"
+            },
+            {
+              "verse": 21,
+              "text": "Quanto aos filhos deles que ficaram depois deles na terra, os quais os filhos de Israel não puderam exterminar totalmente, destes cobrou Salomão tributo de servidão até o dia de hoje."
+            },
+            {
+              "verse": 22,
+              "text": "Mas dos filhos de Israel Salomão não fez escravos; antes foram homens de guerra, e seus servos, e seus príncipes, e seus capitães, e chefes de seus carros, e de seus cavaleiros."
+            },
+            {
+              "verse": 23,
+              "text": "Estes eram os principais oficiais que supervisionavam a obra de Salomão: quinhentos e cinquenta, que governavam o povo que trabalhava no serviço."
+            },
+            {
+              "verse": 24,
+              "text": "Mas a filha de Faraó subiu da cidade de Davi à sua casa que Salomão lhe tinha construído; então ele edificou Milo."
+            },
+            {
+              "verse": 25,
+              "text": "E três vezes no ano Salomão oferecia holocaustos e ofertas pacíficas sobre o altar que edificou ao Senhor, e queimou incenso sobre o altar que estava diante do Senhor. Então ele terminou a casa."
+            },
+            {
+              "verse": 26,
+              "text": "E o rei Salomão formou uma frota de navios em Eziom-Geber, que está perto de Eloth, na costa do mar Vermelho, na terra de Edom."
+            },
+            {
+              "verse": 27,
+              "text": "E Hirão enviou na marinha os seus servos, marinheiros que tinham conhecimento do mar, com os servos de Salomão."
+            },
+            {
+              "verse": 28,
+              "text": "E foram a Ofir, e dali tomaram quatrocentos e vinte talentos de ouro, e o trouxeram ao rei Salomão."
+            }
+          ]
+        },
+        {
+          "chapter": 10,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E quando a rainha de Sabá ouviu falar da fama de Salomão a respeito do nome do Senhor, ela veio prová-lo com perguntas difíceis."
+            },
+            {
+              "verse": 2,
+              "text": "E ela veio a Jerusalém com uma comitiva muito grande, com camelos que traziam especiarias, e muito ouro e pedras preciosas; e quando ela chegou a Salomão, ela falou com ele de tudo o que estava em seu coração."
+            },
+            {
+              "verse": 3,
+              "text": "E Salomão respondeu a todas as suas perguntas; não havia nada escondido do rei, que ele não lhe pudesse explicar."
+            },
+            {
+              "verse": 4,
+              "text": "E quando a rainha de Sabá viu toda a sabedoria de Salomão e a casa que ele havia construído,"
+            },
+            {
+              "verse": 5,
+              "text": "E a comida da sua mesa, e o assento dos seus servos, e o atendimento dos seus ministros, e as suas vestes, e os seus copeiros, e a sua subida pela qual subiu à casa do Senhor; não havia mais espírito nela."
+            },
+            {
+              "verse": 6,
+              "text": "E ela disse ao rei: Foi um relato verdadeiro o que ouvi em minha própria terra, dos teus atos e da tua sabedoria."
+            },
+            {
+              "verse": 7,
+              "text": "Contudo, não acreditei nas palavras, até que cheguei, e os meus olhos as viram; e eis que a metade não me foi dita: a tua sabedoria e prosperidade excedem a fama que ouvi."
+            },
+            {
+              "verse": 8,
+              "text": "Felizes são os teus homens, felizes são estes teus servos, que estão continuamente diante de ti, e que ouvem a tua sabedoria."
+            },
+            {
+              "verse": 9,
+              "text": "Bendito seja o Senhor teu Deus, que se agradou de ti, para te colocar no trono de Israel; porque o Senhor amou a Israel para sempre, por isso te constituiu rei, para exerceres o juízo e a justiça."
+            },
+            {
+              "verse": 10,
+              "text": "E ela deu ao rei cento e vinte talentos de ouro, e de especiarias em grande quantidade, e pedras preciosas; nunca mais houve tanta abundância de especiarias como estas que a rainha de Sabá deu ao rei Salomão."
+            },
+            {
+              "verse": 11,
+              "text": "E também a marinha de Hirão, que trouxe ouro de Ofir, trouxe de Ofir grande abundância de árvores de almug e pedras preciosas."
+            },
+            {
+              "verse": 12,
+              "text": "E o rei fez das árvores de almugue pilares para a casa do SENHOR, e para a casa do rei, também harpas e saltérios para cantores; nunca chegou ali árvores de almugue semelhantes, tampouco foram vistas até este dia."
+            },
+            {
+              "verse": 13,
+              "text": "E o rei Salomão deu à rainha de Sabá tudo o que ela desejou, tudo o que ela pediu, além do que Salomão lhe deu de sua generosidade real. Então ela se virou e foi para sua terra, ela e seus servos."
+            },
+            {
+              "verse": 14,
+              "text": "Ora, o peso de ouro que Salomão num ano recebeu foi seiscentos e sessenta e seis talentos de ouro,"
+            },
+            {
+              "verse": 15,
+              "text": "Além do que ele tinha dos mercadores, e do tráfico dos mercadores de especiarias, e de todos os reis da Arábia, e dos governadores do país."
+            },
+            {
+              "verse": 16,
+              "text": "E o rei Salomão fez duzentos alvos de ouro batido: seiscentos silos de ouro foram para um alvo."
+            },
+            {
+              "verse": 17,
+              "text": "E fez trezentos escudos de ouro batido; três libras de ouro foram usadas para cada escudo; e o rei os colocou na casa da floresta do Líbano."
+            },
+            {
+              "verse": 18,
+              "text": "Além disso o rei fez um grande trono de marfim e o cobriu com o melhor ouro."
+            },
+            {
+              "verse": 19,
+              "text": "O trono tinha seis degraus, e o topo do trono era redondo atrás; e havia suportes de cada lado no lugar do assento, e dois leões estavam ao lado dos suportes."
+            },
+            {
+              "verse": 20,
+              "text": "E doze leões estavam ali de um lado e do outro, nos seis degraus; nunca houve igual em nenhum reino."
+            },
+            {
+              "verse": 21,
+              "text": "E todos os vasos de beber do rei Salomão eram de ouro, e todos os vasos da casa do bosque do Líbano eram de ouro puro; nenhum era de prata: nada foi contabilizado nos dias de Salomão."
+            },
+            {
+              "verse": 22,
+              "text": "Pois o rei tinha no mar uma marinha de Társis com a marinha de Hirão: uma vez em três anos vinha a marinha de Társis, trazendo ouro, e prata, marfim, e macacos, e pavões."
+            },
+            {
+              "verse": 23,
+              "text": "Assim o rei Salomão excedeu todos os reis da terra em riquezas e em sabedoria."
+            },
+            {
+              "verse": 24,
+              "text": "E toda a terra buscava a Salomão, para ouvir a sabedoria que Deus lhe pusera no coração."
+            },
+            {
+              "verse": 25,
+              "text": "E trouxeram a cada um o seu presente, vasos de prata e vasos de ouro, e roupas, e armaduras, e especiarias, cavalos e mulas, uma taxa de ano em ano."
+            },
+            {
+              "verse": 26,
+              "text": "E Salomão reuniu carros e cavaleiros; e teve mil e quatrocentos carros e doze mil cavaleiros, os quais distribuiu nas cidades para carros, e com o rei em Jerusalém."
+            },
+            {
+              "verse": 27,
+              "text": "E o rei fez com que a prata fosse em Jerusalém tão comum como as pedras, e os cedros fez com que fossem como os sicômoros que estão nas planícies, em grande abundância."
+            },
+            {
+              "verse": 28,
+              "text": "E Salomão mandou trazer cavalos do Egito e fios de linho; os mercadores do rei receberam os fios de linho por um preço."
+            },
+            {
+              "verse": 29,
+              "text": "E um carro subia e saía do Egito por seiscentos siclos de prata, e um cavalo por cento e cinquenta; e assim, por meio deles, os exportavam para todos os reis dos heteus e para os reis da Síria."
+            }
+          ]
+        },
+        {
+          "chapter": 11,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Mas o rei Salomão amou muitas mulheres estranhas, juntamente com a filha de Faraó, mulheres dos moabitas, dos amonitas, dos edomitas, dos sidônios e dos hititas;"
+            },
+            {
+              "verse": 2,
+              "text": "Das nações a respeito das quais o Senhor disse aos filhos de Israel: Não entrareis a elas, nem elas entrarão a vós; porque certamente desviarão o vosso coração após os seus deuses: a estas Salomão se apegou com amor."
+            },
+            {
+              "verse": 3,
+              "text": "E ele tinha setecentas mulheres, princesas e trezentas concubinas; e suas mulheres lhe desviaram o coração."
+            },
+            {
+              "verse": 4,
+              "text": "Porque aconteceu que, quando Salomão já era velho, suas mulheres lhe desviaram o coração para seguir outros deuses; e o seu coração não era perfeito para com o Senhor seu Deus, como o coração de Davi, seu pai."
+            },
+            {
+              "verse": 5,
+              "text": "Pois Salomão foi atrás de Astorete, a deusa dos sidônios, e de Milcom, a abominação dos amonitas."
+            },
+            {
+              "verse": 6,
+              "text": "E Salomão fez o que era mau aos olhos do Senhor, e não seguiu totalmente o Senhor, como fez Davi, seu pai."
+            },
+            {
+              "verse": 7,
+              "text": "Então Salomão edificou um alto a Quemos, abominação de Moabe, no outeiro que está diante de Jerusalém, e a Moloque, abominação dos filhos de Amom."
+            },
+            {
+              "verse": 8,
+              "text": "E o mesmo fez ele com todas as suas esposas estranhas, que queimavam incenso e sacrificavam aos seus deuses."
+            },
+            {
+              "verse": 9,
+              "text": "E o Senhor irou-se contra Salomão, porque o seu coração se desviou do Senhor, Deus de Israel, que duas vezes lhe tinha aparecido,"
+            },
+            {
+              "verse": 10,
+              "text": "E sobre isto lhe ordenara que não seguisse outros deuses; mas não guardou o que o Senhor ordenara."
+            },
+            {
+              "verse": 11,
+              "text": "Pelo que o Senhor disse a Salomão: Visto que procedeste assim, e não guardaste a minha aliança e os meus estatutos, que te ordenei, certamente arrancarei de ti o reino, e o darei ao teu servo."
+            },
+            {
+              "verse": 12,
+              "text": "Contudo, nos teus dias não o farei, por amor de Davi, teu pai; mas da mão de teu filho o arrancarei."
+            },
+            {
+              "verse": 13,
+              "text": "Contudo, não destruirei todo o reino; mas darei uma tribo a teu filho, por amor de Davi, meu servo, e por amor de Jerusalém, que escolhi."
+            },
+            {
+              "verse": 14,
+              "text": "E o Senhor suscitou um adversário a Salomão, Hadade, o edomita; ele era da descendência do rei em Edom."
+            },
+            {
+              "verse": 15,
+              "text": "Porque aconteceu que, estando Davi em Edom, e Joabe, capitão do exército, subiu para sepultar os mortos, depois de ter ferido todo homem em Edom;"
+            },
+            {
+              "verse": 16,
+              "text": "(Durante seis meses Joabe permaneceu ali com todo o Israel, até exterminar todos os homens de Edom:)"
+            },
+            {
+              "verse": 17,
+              "text": "Que Hadade fugiu, ele e alguns edomitas dos servos de seu pai com ele, para ir para o Egito; Hadade sendo ainda uma criança."
+            },
+            {
+              "verse": 18,
+              "text": "E eles se levantaram de Midiã e chegaram a Parã; e tomaram consigo homens de Parã, e foram ao Egito, a Faraó, rei do Egito; que lhe deu uma casa, e lhe designou alimentos, e lhe deu terras."
+            },
+            {
+              "verse": 19,
+              "text": "E Hadade achou grande graça aos olhos de Faraó, de modo que lhe deu por esposa a irmã de sua própria esposa, a irmã de Tafnes, a rainha."
+            },
+            {
+              "verse": 20,
+              "text": "E a irmã de Tafnes lhe deu seu filho Genubate, a quem Tafnes desmamou na casa de Faraó; e Genubate estava na casa de Faraó, entre os filhos de Faraó."
+            },
+            {
+              "verse": 21,
+              "text": "E quando Hadade ouviu no Egito que Davi dormira com seus pais, e que Joabe, capitão do exército, havia morrido, disse Hadade a Faraó: Deixa-me partir, para que possa ir para a minha terra."
+            },
+            {
+              "verse": 22,
+              "text": "Então Faraó lhe disse: Mas o que te faltou comigo, e eis que procuras ir para a tua própria terra? E ele respondeu: Nada; contudo, deixe-me ir de qualquer maneira."
+            },
+            {
+              "verse": 23,
+              "text": "E Deus lhe suscitou outro adversário, Rezom, filho de Eliada, que fugiu de Hadadezer, seu senhor, rei de Zobá."
+            },
+            {
+              "verse": 24,
+              "text": "E ele reuniu a si homens, e tornou-se capitão de um bando, quando Davi os matou de Zobá; e eles foram para Damasco, e habitaram ali, e reinaram em Damasco."
+            },
+            {
+              "verse": 25,
+              "text": "E ele foi adversário de Israel todos os dias de Salomão, além das maldades que Hadade fez; e ele abominou Israel, e reinou sobre a Síria."
+            },
+            {
+              "verse": 26,
+              "text": "E Jeroboão, filho de Nebate, efrateu de Zereda, servo de Salomão, cujo nome de mãe era Zeruá, viúva, levantou a mão contra o rei."
+            },
+            {
+              "verse": 27,
+              "text": "E esta foi a razão pela qual ele levantou a mão contra o rei: Salomão edificou Milo, e reparou as brechas da cidade de Davi, seu pai."
+            },
+            {
+              "verse": 28,
+              "text": "E o homem Jeroboão era homem valente e laborioso; e Salomão, vendo que o jovem era diligente, constituiu-o sobre todo o encargo da casa de José."
+            },
+            {
+              "verse": 29,
+              "text": "E aconteceu naquele tempo, saindo Jeroboão de Jerusalém, que o profeta Aías, o silonita, o encontrou no caminho; e ele se vestiu com uma roupa nova; e os dois estavam sozinhos no campo:"
+            },
+            {
+              "verse": 30,
+              "text": "E Aías pegou a roupa nova que estava com ele e rasgou-a em doze pedaços."
+            },
+            {
+              "verse": 31,
+              "text": "E disse a Jeroboão: Toma dez pedaços; porque assim diz o Senhor, Deus de Israel: Eis que arrancarei o reino da mão de Salomão, e te darei dez tribos."
+            },
+            {
+              "verse": 32,
+              "text": "(Mas ele terá uma tribo, por amor de meu servo Davi, e por amor de Jerusalém, a cidade que escolhi dentre todas as tribos de Israel.)"
+            },
+            {
+              "verse": 33,
+              "text": "Porque eles me abandonaram e adoraram Astorete, a deusa dos sidônios, Quemos, o deus dos moabitas, e Milcom, o deus dos filhos de Amom, e não andaram nos meus caminhos, para fazer o que é reto aos meus olhos, e para guardar os meus estatutos e os meus juízos, como fez Davi, seu pai."
+            },
+            {
+              "verse": 34,
+              "text": "Contudo, não tirarei todo o reino da sua mão, mas o conservarei como príncipe todos os dias da sua vida, por amor de Davi, meu servo, a quem escolhi, que guardou os meus mandamentos e os meus estatutos."
+            },
+            {
+              "verse": 35,
+              "text": "Mas tirarei o reino da mão de seu filho e o darei a ti, dez tribos."
+            },
+            {
+              "verse": 36,
+              "text": "E a seu filho darei uma tribo, para que Davi, meu servo, tenha sempre uma luz diante de mim em Jerusalém, a cidade que escolhi para ali colocar meu nome."
+            },
+            {
+              "verse": 37,
+              "text": "E eu te tomarei, e tu reinarás segundo tudo o que a tua alma desejar, e serás rei sobre Israel."
+            },
+            {
+              "verse": 38,
+              "text": "E será que, se ouvires tudo o que eu te ordeno, e andares nos meus caminhos, e fizeres o que é reto aos meus olhos, guardando os meus estatutos e os meus mandamentos, como fez Davi, meu servo; que estarei contigo e te edificarei uma casa sólida, como edifiquei a Davi, e te darei Israel."
+            },
+            {
+              "verse": 39,
+              "text": "E por isso afligirei a descendência de Davi, mas não para sempre."
+            },
+            {
+              "verse": 40,
+              "text": "Salomão procurou, portanto, matar Jeroboão. E Jeroboão levantou-se e fugiu para o Egito, para Sisaque, rei do Egito, e esteve no Egito até a morte de Salomão."
+            },
+            {
+              "verse": 41,
+              "text": "E o restante dos atos de Salomão, e tudo o que ele fez, e a sua sabedoria, não estão escritos no livro dos atos de Salomão?"
+            },
+            {
+              "verse": 42,
+              "text": "E o tempo que Salomão reinou em Jerusalém sobre todo o Israel foi de quarenta anos."
+            },
+            {
+              "verse": 43,
+              "text": "E Salomão dormiu com seus pais, e foi sepultado na cidade de Davi, seu pai; e Roboão, seu filho, reinou em seu lugar."
+            }
+          ]
+        },
+        {
+          "chapter": 12,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E foi Roboão a Siquém; porque todo o Israel tinha vindo a Siquém para o constituir rei."
+            },
+            {
+              "verse": 2,
+              "text": "E aconteceu que, quando Jeroboão, filho de Nebate, que ainda estava no Egito, ouviu isso (pois ele fugiu da presença do rei Salomão, e Jeroboão habitou no Egito);"
+            },
+            {
+              "verse": 3,
+              "text": "Pelo que enviaram e o chamaram. E vieram Jeroboão e toda a congregação de Israel, e falaram a Roboão, dizendo:"
+            },
+            {
+              "verse": 4,
+              "text": "Teu pai tornou pesado o nosso jugo; agora, portanto, torna mais leve o pesado serviço de teu pai e o pesado jugo que ele colocou sobre nós, e nós te serviremos."
+            },
+            {
+              "verse": 5,
+              "text": "E ele lhes disse: Apartai-vos ainda por três dias, depois voltai para mim. E o povo partiu."
+            },
+            {
+              "verse": 6,
+              "text": "E o rei Roboão consultou os velhos que compareceram diante de Salomão, seu pai, enquanto ele ainda vivia, e disse: Como aconselhais que eu possa responder a este povo?"
+            },
+            {
+              "verse": 7,
+              "text": "E eles lhe falaram, dizendo: Se hoje quiseres ser servo deste povo, e servi-los, e responder-lhes, e falar-lhes boas palavras, então eles serão teus servos para sempre."
+            },
+            {
+              "verse": 8,
+              "text": "Mas ele abandonou o conselho dos velhos, que eles lhe haviam dado, e consultou os jovens que cresceram com ele, e que estavam diante dele:"
+            },
+            {
+              "verse": 9,
+              "text": "E ele lhes disse: Que conselho dais para que respondamos a este povo, que me falou, dizendo: Alivia o jugo que teu pai nos impôs?"
+            },
+            {
+              "verse": 10,
+              "text": "E os jovens que haviam crescido com ele lhe falaram, dizendo: Assim falarás a este povo que te falou, dizendo: Teu pai tornou pesado o nosso jugo, mas tu o torna mais leve para nós; assim lhes dirás: O meu dedo mínimo será mais grosso que os lombos de meu pai."
+            },
+            {
+              "verse": 11,
+              "text": "E agora, enquanto meu pai te carregou com um jugo pesado, acrescentarei ao seu jugo: meu pai te castigou com chicotes, mas eu te castigarei com escorpiões."
+            },
+            {
+              "verse": 12,
+              "text": "Então Jeroboão e todo o povo vieram a Roboão no terceiro dia, como o rei havia ordenado, dizendo: Voltai a mim no terceiro dia."
+            },
+            {
+              "verse": 13,
+              "text": "E o rei respondeu rudemente ao povo e abandonou o conselho dos velhos que lhe deram;"
+            },
+            {
+              "verse": 14,
+              "text": "E falou-lhes segundo o conselho dos mancebos, dizendo: Meu pai tornou pesado o vosso jugo, e aumentarei o vosso jugo; meu pai também vos castigou com chicotes, mas eu vos castigarei com escorpiões."
+            },
+            {
+              "verse": 15,
+              "text": "Portanto o rei não deu ouvidos ao povo; porque a causa vinha do Senhor, para que ele cumprisse a palavra que o Senhor falou por intermédio de Aías, o silonita, a Jeroboão, filho de Nebate."
+            },
+            {
+              "verse": 16,
+              "text": "Vendo, pois, todo o Israel que o rei não lhes dava ouvidos, o povo respondeu ao rei, dizendo: Que parte temos nós com Davi? nem temos herança no filho de Jessé: para as tuas tendas, ó Israel; agora cuida da tua própria casa, Davi. Então Israel partiu para as suas tendas."
+            },
+            {
+              "verse": 17,
+              "text": "Mas quanto aos filhos de Israel que habitavam nas cidades de Judá, Roboão reinou sobre eles."
+            },
+            {
+              "verse": 18,
+              "text": "Então o rei Roboão enviou Adorão, que era o encarregado do tributo; e todo o Israel o apedrejou, e ele morreu. Portanto o rei Roboão apressou-se em levá-lo ao seu carro, para fugir para Jerusalém."
+            },
+            {
+              "verse": 19,
+              "text": "Assim Israel se rebelou contra a casa de Davi até hoje."
+            },
+            {
+              "verse": 20,
+              "text": "E aconteceu que, quando todo o Israel ouviu que Jeroboão havia voltado, mandaram chamá-lo à congregação, e o fizeram rei sobre todo o Israel; e ninguém seguiu a casa de Davi, senão somente a tribo de Judá."
+            },
+            {
+              "verse": 21,
+              "text": "E quando Roboão chegou a Jerusalém, reuniu toda a casa de Judá, com a tribo de Benjamim, cento e oitenta mil homens escolhidos, que eram guerreiros, para pelejarem contra a casa de Israel, para trazerem novamente o reino a Roboão, filho de Salomão."
+            },
+            {
+              "verse": 22,
+              "text": "Mas a palavra de Deus veio a Semaías, homem de Deus, dizendo:"
+            },
+            {
+              "verse": 23,
+              "text": "Fala a Roboão, filho de Salomão, rei de Judá, e a toda a casa de Judá e de Benjamim, e ao restante do povo, dizendo:"
+            },
+            {
+              "verse": 24,
+              "text": "Assim diz o Senhor: Não subireis, nem pelejareis contra vossos irmãos, os filhos de Israel; volte cada um para sua casa; pois esta palavra procede de mim. Deram ouvidos, pois, à palavra do Senhor e voltaram para casa, conforme a palavra do Senhor."
+            },
+            {
+              "verse": 25,
+              "text": "Então Jeroboão edificou Siquém, no monte de Efraim, e habitou nela; e saiu dali e edificou Penuel."
+            },
+            {
+              "verse": 26,
+              "text": "E disse Jeroboão no seu coração: Agora o reino voltará à casa de Davi;"
+            },
+            {
+              "verse": 27,
+              "text": "Se este povo subir para sacrificar na casa do Senhor, em Jerusalém, então o coração deste povo se converterá ao seu senhor, a Roboão, rei de Judá, e me matarão, e voltarão a Roboão, rei de Judá."
+            },
+            {
+              "verse": 28,
+              "text": "Então o rei pediu conselho, e fez dois bezerros de ouro, e lhes disse: Muito vos tem sido o subir a Jerusalém; eis aqui os teus deuses, ó Israel, que te tiraram da terra do Egito."
+            },
+            {
+              "verse": 29,
+              "text": "E ele colocou um em Betel, e o outro colocou em Dan."
+            },
+            {
+              "verse": 30,
+              "text": "E este negócio se tornou em pecado; pois o povo ia até Dã para adorar perante o outro."
+            },
+            {
+              "verse": 31,
+              "text": "E fez uma casa nos altos, e constituiu sacerdotes entre os mais humildes do povo, que não eram dos filhos de Levi."
+            },
+            {
+              "verse": 32,
+              "text": "E Jeroboão instituiu uma festa no oitavo mês, aos quinze dias do mês, como a festa que se celebrava em Judá, e subiu ao altar. Assim fez em Betel, sacrificando aos bezerros que tinha feito; e estabeleceu em Betel os sacerdotes dos altos que edificara."
+            },
+            {
+              "verse": 33,
+              "text": "Então ele ofereceu sobre o altar que havia feito em Betel, no décimo quinto dia do oitavo mês, no mês que ele havia planejado de seu coração; e ordenou uma festa aos filhos de Israel; e ofereceu sobre o altar e queimou incenso."
+            }
+          ]
+        },
+        {
+          "chapter": 13,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E eis que um homem de Deus veio de Judá, por ordem do Senhor, a Betel; e Jeroboão estava em pé junto ao altar para queimar incenso."
+            },
+            {
+              "verse": 2,
+              "text": "E ele clamou contra o altar por ordem do Senhor, e disse: Ó altar, altar, assim diz o Senhor: Eis que nascerá à casa de Davi um filho, de nome Josias, o qual sacrificará sobre ti os sacerdotes dos altos que queimam incenso sobre ti, e ossos de homens serão queimados sobre ti."
+            },
+            {
+              "verse": 3,
+              "text": "E naquele mesmo dia deu um sinal, dizendo: Este é o sinal que o Senhor falou; Eis que o altar será rasgado, e a cinza que está sobre ele será derramada."
+            },
+            {
+              "verse": 4,
+              "text": "E aconteceu que, ouvindo o rei Jeroboão a palavra do homem de Deus, que clamara contra o altar em Betel, estendeu a mão desde o altar, dizendo: Prenda-o. E a mão que estendia contra ele se secou, de modo que não a pôde recolher para si."
+            },
+            {
+              "verse": 5,
+              "text": "O altar também foi rasgado, e a cinza do altar foi derramada, conforme o sinal que o homem de Deus havia dado pela palavra do Senhor."
+            },
+            {
+              "verse": 6,
+              "text": "E o rei respondeu e disse ao homem de Deus: Suplica agora o favor do Senhor teu Deus, e roga por mim, para que minha mão seja restaurada. E o homem de Deus rogou ao Senhor, e a mão do rei foi restaurada, tornando-se como antes."
+            },
+            {
+              "verse": 7,
+              "text": "E o rei disse ao homem de Deus: Vem para casa comigo, e refresca-te, e eu te darei uma recompensa."
+            },
+            {
+              "verse": 8,
+              "text": "E o homem de Deus disse ao rei: Se me deres metade da tua casa, não entrarei contigo, nem comerei pão, nem beberei água neste lugar."
+            },
+            {
+              "verse": 9,
+              "text": "Porque assim me foi ordenado pela palavra do Senhor, dizendo: Não comas pão, nem bebas água, nem voltes pelo caminho por onde vieste."
+            },
+            {
+              "verse": 10,
+              "text": "Então ele foi por outro caminho e não voltou pelo caminho por onde veio para Betel."
+            },
+            {
+              "verse": 11,
+              "text": "Ora, morava em Betel um velho profeta; e vieram seus filhos e contaram-lhe todas as obras que o homem de Deus tinha feito naquele dia em Betel; as palavras que ele tinha falado ao rei, elas também as contaram a seu pai."
+            },
+            {
+              "verse": 12,
+              "text": "E seu pai lhes perguntou: Por onde ele foi? Porque seus filhos tinham visto por onde andou o homem de Deus, que veio de Judá."
+            },
+            {
+              "verse": 13,
+              "text": "E ele disse a seus filhos: Selem-me o jumento. Então selaram-lhe o jumento; e ele montou nele,"
+            },
+            {
+              "verse": 14,
+              "text": "E foi após o homem de Deus, achando-o sentado debaixo de um carvalho; e disse-lhe: És tu o homem de Deus que veio de Judá? E ele respondeu: Eu sou."
+            },
+            {
+              "verse": 15,
+              "text": "Então ele lhe disse: Vem para casa comigo e come pão."
+            },
+            {
+              "verse": 16,
+              "text": "E ele disse: Não posso voltar contigo, nem entrar contigo; nem comerei pão, nem beberei água contigo neste lugar."
+            },
+            {
+              "verse": 17,
+              "text": "Porque me foi dito pela palavra do Senhor: Ali não comerás pão, nem beberás água, nem voltarás pelo caminho por onde vieste."
+            },
+            {
+              "verse": 18,
+              "text": "Ele lhe disse: Eu também sou profeta como tu, e um anjo me falou por ordem do Senhor, dizendo: Faze-o voltar contigo para tua casa, para que coma pão e beba água. Porém ele lhe mentiu."
+            },
+            {
+              "verse": 19,
+              "text": "Então ele voltou com ele e comeu pão em sua casa e bebeu água."
+            },
+            {
+              "verse": 20,
+              "text": "E aconteceu que, estando eles sentados à mesa, veio a palavra do Senhor ao profeta que o trouxe de volta:"
+            },
+            {
+              "verse": 21,
+              "text": "E clamou ao homem de Deus que veio de Judá, dizendo: Assim diz o Senhor: Visto que desobedeceste à boca do Senhor e não guardaste o mandamento que o Senhor teu Deus te ordenou,"
+            },
+            {
+              "verse": 22,
+              "text": "Mas voltaste, e comeste pão e bebeste água no lugar sobre o qual o Senhor te disse: Não comas pão, e não bebas água; o teu cadáver não irá ao sepulcro de teus pais."
+            },
+            {
+              "verse": 23,
+              "text": "E aconteceu que, depois de ter comido o pão e depois de ter bebido, selou-lhe o jumento, para o profeta que ele trouxera de volta."
+            },
+            {
+              "verse": 24,
+              "text": "E quando ele se foi, um leão encontrou-o no caminho e o matou; e o seu cadáver foi lançado no caminho, e o jumento parou perto dele, o leão também ficou junto ao cadáver."
+            },
+            {
+              "verse": 25,
+              "text": "E eis que alguns homens passaram e viram o cadáver lançado no caminho, e o leão parado junto ao cadáver; e vieram e anunciaram-no na cidade onde morava o velho profeta."
+            },
+            {
+              "verse": 26,
+              "text": "E quando o profeta que o fez voltar do caminho ouviu isso, disse: É o homem de Deus, que foi rebelde à palavra do Senhor; por isso o Senhor o entregou ao leão, que o despedaçou e matou, conforme a palavra do Senhor, que lhe tinha falado."
+            },
+            {
+              "verse": 27,
+              "text": "E ele falou a seus filhos, dizendo: Selem-me o jumento. E eles selaram ele."
+            },
+            {
+              "verse": 28,
+              "text": "E ele foi e encontrou o seu cadáver lançado no caminho, e o jumento e o leão parados junto ao cadáver; o leão não tinha comido o cadáver, nem despedaçado o jumento."
+            },
+            {
+              "verse": 29,
+              "text": "E o profeta pegou o cadáver do homem de Deus, e colocou-o sobre o jumento, e o trouxe de volta; e o velho profeta veio à cidade, para pranteá-lo e sepultá-lo."
+            },
+            {
+              "verse": 30,
+              "text": "E ele depositou o seu cadáver na sua própria sepultura; e eles prantearam por ele, dizendo: Ai de mim, meu irmão!"
+            },
+            {
+              "verse": 31,
+              "text": "E aconteceu que, depois de o ter sepultado, falou a seus filhos, dizendo: Quando eu morrer, enterrai-me no sepulcro onde está sepultado o homem de Deus; coloque meus ossos ao lado de seus ossos:"
+            },
+            {
+              "verse": 32,
+              "text": "Porque a palavra que clamou pela palavra do Senhor contra o altar de Betel e contra todas as casas dos altos que estão nas cidades de Samaria certamente se cumprirá."
+            },
+            {
+              "verse": 33,
+              "text": "Depois disso, Jeroboão não se desviava do seu mau caminho; antes, tornou a fazer dos mais humildes do povo sacerdotes dos altos; consagrava a quem queria, e este vinha a ser sacerdote dos altos."
+            },
+            {
+              "verse": 34,
+              "text": "E isto se tornou pecado para a casa de Jeroboão, para decepá-la e destruí-la da face da terra."
+            }
+          ]
+        },
+        {
+          "chapter": 14,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Naquele tempo, Abias, filho de Jeroboão, adoeceu."
+            },
+            {
+              "verse": 2,
+              "text": "E disse Jeroboão à sua mulher: Levanta-te, peço-te, e disfarça-te, para que não se saiba que és a mulher de Jeroboão; e vai-te a Siló; eis que ali está o profeta Aías, que me disse que eu seria rei deste povo."
+            },
+            {
+              "verse": 3,
+              "text": "E leva contigo dez pães, biscoitos e uma botija de mel, e vai ter com ele; ele te dirá o que será do menino."
+            },
+            {
+              "verse": 4,
+              "text": "E a mulher de Jeroboão assim fez, e levantou-se, e foi a Siló, e chegou à casa de Aías. Mas Aías não podia ver, pois os seus olhos já haviam escurecido por causa da sua idade."
+            },
+            {
+              "verse": 5,
+              "text": "E o Senhor disse a Aías: Eis que a mulher de Jeroboão vem consultar-te acerca de seu filho, porquanto ele está doente; assim e assim lhe falarás, pois sucederá que, entrando ela, fingir-se-á ser outra."
+            },
+            {
+              "verse": 6,
+              "text": "E sucedeu que, ouvindo Aías o ruído de seus passos, ao entrar ela pela porta, disse: Entra, mulher de Jeroboão; por que finges ser outra? Pois fui enviado a ti com duras palavras."
+            },
+            {
+              "verse": 7,
+              "text": "Vai, dize a Jeroboão: Assim diz o Senhor, Deus de Israel: Visto que te exaltei dentre o povo e te constituí príncipe sobre o meu povo Israel,"
+            },
+            {
+              "verse": 8,
+              "text": "E arranquei o reino da casa de Davi, e o dei a ti; e não foste como meu servo Davi, que guardou os meus mandamentos e me seguiu de todo o coração, fazendo apenas o que era reto aos meus olhos;"
+            },
+            {
+              "verse": 9,
+              "text": "Mas fizeste o mal acima de todos os que existiram antes de ti; porque foste e fizeste para ti outros deuses e imagens de fundição, para me provocares à ira, e me lançaste para trás."
+            },
+            {
+              "verse": 10,
+              "text": "Portanto, eis que trarei o mal sobre a casa de Jeroboão, e exterminarei de Jeroboão todo homem, quer seja encerrado quer seja livre em Israel, e varrerei os resíduos da casa de Jeroboão, como se varre o esterco até que acabe."
+            },
+            {
+              "verse": 11,
+              "text": "O que morrer de Jeroboão na cidade os cães o comerão; e o que morrer no campo as aves do céu o comerão; porque o Senhor o disse."
+            },
+            {
+              "verse": 12,
+              "text": "Levanta-te, pois, e vai para tua casa; e quando os teus pés entrarem na cidade, a criança morrerá."
+            },
+            {
+              "verse": 13,
+              "text": "E todo o Israel pranteará por ele, e o sepultará; porque só aquele de Jeroboão irá à sepultura, porque nele se achou alguma coisa boa para com o Senhor Deus de Israel, na casa de Jeroboão."
+            },
+            {
+              "verse": 14,
+              "text": "Além disso, o Senhor suscitará para si um rei sobre Israel, o qual exterminará a casa de Jeroboão naquele dia; e que digo? Já agora mesmo."
+            },
+            {
+              "verse": 15,
+              "text": "Porque o Senhor ferirá a Israel, como a cana se agita nas águas, e arrancará Israel desta boa terra que deu a seus pais, e os espalhará para além do rio, porque fizeram os seus bosques, provocando a ira do Senhor."
+            },
+            {
+              "verse": 16,
+              "text": "E ele entregará Israel por causa dos pecados de Jeroboão, que pecou, e que fez Israel pecar."
+            },
+            {
+              "verse": 17,
+              "text": "E a mulher de Jeroboão levantou-se, e partiu, e chegou a Tirza: e quando ela chegou à soleira da porta, o menino morreu;"
+            },
+            {
+              "verse": 18,
+              "text": "E o enterraram, e todo o Israel pranteou por ele, conforme a palavra do Senhor, que ele falara por intermédio de Aías, seu servo."
+            },
+            {
+              "verse": 19,
+              "text": "E o restante dos atos de Jeroboão, como guerreou e como reinou, eis que estão escritos no livro das crônicas dos reis de Israel."
+            },
+            {
+              "verse": 20,
+              "text": "E foram os dias que Jeroboão reinou vinte e dois anos; e dormiu com seus pais, e Nadabe, seu filho, reinou em seu lugar."
+            },
+            {
+              "verse": 21,
+              "text": "E Roboão, filho de Salomão, reinou em Judá. Tinha Roboão quarenta e um anos de idade quando começou a reinar, e reinou dezessete anos em Jerusalém, a cidade que o Senhor escolhera dentre todas as tribos de Israel para ali pôr o seu nome; e o nome de sua mãe era Naamá, a amonita."
+            },
+            {
+              "verse": 22,
+              "text": "E Judá fez o que era mau aos olhos do Senhor, e provocaram-no ao ciúme com os pecados que cometeram, mais do que tudo o que seus pais tinham feito."
+            },
+            {
+              "verse": 23,
+              "text": "Porque também construíram para si altos, e imagens, e bosques, em todo outeiro alto e debaixo de toda árvore verdejante."
+            },
+            {
+              "verse": 24,
+              "text": "E também havia sodomitas na terra; e fizeram conforme todas as abominações das nações que o Senhor expulsou de diante dos filhos de Israel."
+            },
+            {
+              "verse": 25,
+              "text": "E aconteceu no quinto ano do rei Roboão que Sisaque, rei do Egito, subiu contra Jerusalém:"
+            },
+            {
+              "verse": 26,
+              "text": "E levou os tesouros da casa do Senhor e os tesouros da casa do rei; ele até tirou tudo; e tirou todos os escudos de ouro que Salomão tinha feito."
+            },
+            {
+              "verse": 27,
+              "text": "E o rei Roboão fez em seu lugar escudos de bronze e os entregou nas mãos do chefe da guarda, que guardava a porta da casa do rei."
+            },
+            {
+              "verse": 28,
+              "text": "E acontecia que, quando o rei entrava na casa do Senhor, os guardas os traziam e os tornavam a levar à câmara da guarda."
+            },
+            {
+              "verse": 29,
+              "text": "Ora, o restante dos atos de Roboão, e tudo o que ele fez, porventura não estão escritos no livro das crônicas dos reis de Judá?"
+            },
+            {
+              "verse": 30,
+              "text": "E houve guerra entre Roboão e Jeroboão todos os dias."
+            },
+            {
+              "verse": 31,
+              "text": "E Roboão dormiu com seus pais, e foi sepultado com eles na cidade de Davi, sendo o nome de sua mãe Naamá, a amonita; e Abijão, seu filho, reinou em seu lugar."
+            }
+          ]
+        },
+        {
+          "chapter": 15,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Ora, no décimo oitavo ano do rei Jeroboão, filho de Nebate, reinou Abijão sobre Judá."
+            },
+            {
+              "verse": 2,
+              "text": "Três anos reinou ele em Jerusalém. E o nome de sua mãe era Maaca, filha de Abisalom."
+            },
+            {
+              "verse": 3,
+              "text": "E ele andou em todos os pecados que seu pai cometera antes dele; e o seu coração não foi perfeito para com o Senhor seu Deus, como o coração de Davi, seu pai."
+            },
+            {
+              "verse": 4,
+              "text": "Contudo, por amor de Davi, o Senhor seu Deus lhe deu uma lâmpada em Jerusalém, levantando a seu filho depois dele e firmando Jerusalém."
+            },
+            {
+              "verse": 5,
+              "text": "Porque Davi fez o que era reto aos olhos do Senhor e não se desviou de nada que lhe ordenara durante todos os dias da sua vida, exceto no caso de Urias, o heteu."
+            },
+            {
+              "verse": 6,
+              "text": "E houve guerra entre Roboão e Jeroboão todos os dias da sua vida."
+            },
+            {
+              "verse": 7,
+              "text": "Ora, o restante dos atos de Abijão, e tudo o que ele fez, porventura não estão escritos no livro das crônicas dos reis de Judá? E houve guerra entre Abijão e Jeroboão."
+            },
+            {
+              "verse": 8,
+              "text": "E Abijão dormiu com seus pais; e sepultaram-no na cidade de Davi; e Asa, seu filho, reinou em seu lugar."
+            },
+            {
+              "verse": 9,
+              "text": "E no vigésimo ano de Jeroboão, rei de Israel, Asa reinou sobre Judá."
+            },
+            {
+              "verse": 10,
+              "text": "E reinou quarenta e um anos em Jerusalém. E o nome de sua mãe era Maaca, filha de Abisalom."
+            },
+            {
+              "verse": 11,
+              "text": "E Asa fez o que era reto aos olhos do Senhor, como fez Davi, seu pai."
+            },
+            {
+              "verse": 12,
+              "text": "E ele tirou da terra os sodomitas e removeu todos os ídolos que seus pais haviam feito."
+            },
+            {
+              "verse": 13,
+              "text": "Também a Maaca, sua mãe, ele depôs de ser rainha, porque ela fizera uma abominação para Aserá; e Asa destruiu o seu ídolo, queimando-o junto ao ribeiro de Cedrom."
+            },
+            {
+              "verse": 14,
+              "text": "Mas os altos não foram removidos; contudo o coração de Asa foi perfeito para com o Senhor todos os seus dias."
+            },
+            {
+              "verse": 15,
+              "text": "E ele trouxe para a casa do Senhor as coisas que seu pai havia consagrado, e as coisas que ele mesmo havia consagrado, prata, e ouro, e vasos."
+            },
+            {
+              "verse": 16,
+              "text": "E houve guerra entre Asa e Baasa, rei de Israel, durante todos os seus dias."
+            },
+            {
+              "verse": 17,
+              "text": "E Baasa, rei de Israel, subiu contra Judá, e edificou Ramá, para que não permitisse que alguém saísse ou entrasse em Asa, rei de Judá."
+            },
+            {
+              "verse": 18,
+              "text": "Então Asa tomou toda a prata e todo o ouro que restavam nos tesouros da casa do Senhor e nos tesouros da casa do rei, e os entregou nas mãos de seus servos; e o rei Asa os enviou a Ben-Hadade, filho de Tabrimão, filho de Heziom, rei da Síria, que habitava em Damasco, dizendo:"
+            },
+            {
+              "verse": 19,
+              "text": "Há uma aliança entre mim e ti, e entre meu pai e teu pai: eis que te enviei um presente de prata e ouro; vem e rompe a tua aliança com Baasa, rei de Israel, para que ele se aparte de mim."
+            },
+            {
+              "verse": 20,
+              "text": "E Ben-Hadade deu ouvidos ao rei Asa, e enviou os capitães dos seus exércitos contra as cidades de Israel, ferindo a Ijom, a Dã, a Abel-Bete-Maaca e a todo o Quinerote, com toda a terra de Naftali."
+            },
+            {
+              "verse": 21,
+              "text": "E aconteceu que, quando Baasa ouviu isso, deixou de construir Ramá e habitou em Tirza."
+            },
+            {
+              "verse": 22,
+              "text": "Então o rei Asa fez uma proclamação por todo o Judá; ninguém foi isento; e levaram embora as pedras de Ramá e a sua madeira com que Baasa edificara; e o rei Asa edificou com eles Geba de Benjamim e Mispá."
+            },
+            {
+              "verse": 23,
+              "text": "Quanto ao resto de todos os atos de Asa, e todo o seu poder, e tudo o que fez, e as cidades que edificou, porventura não estão escritos no livro das crónicas dos reis de Judá? No entanto, na época de sua velhice, ele teve uma doença nos pés."
+            },
+            {
+              "verse": 24,
+              "text": "E Asa dormiu com seus pais, e foi sepultado com eles na cidade de Davi, seu pai; e Josafá, seu filho, reinou em seu lugar."
+            },
+            {
+              "verse": 25,
+              "text": "E Nadabe, filho de Jeroboão, começou a reinar sobre Israel no segundo ano de Asa, rei de Judá, e reinou sobre Israel dois anos."
+            },
+            {
+              "verse": 26,
+              "text": "E fez o que era mau aos olhos do Senhor, e andou no caminho de seu pai e no seu pecado com que fez pecar Israel."
+            },
+            {
+              "verse": 27,
+              "text": "E Baasa, filho de Aías, da casa de Issacar, conspirou contra ele; e Baasa o feriu em Gibetom, que pertencia aos filisteus; pois Nadabe e todo o Israel sitiaram Gibetom."
+            },
+            {
+              "verse": 28,
+              "text": "Mesmo no terceiro ano de Asa, rei de Judá, Baasa o matou e reinou em seu lugar."
+            },
+            {
+              "verse": 29,
+              "text": "E aconteceu que, quando ele reinou, feriu toda a casa de Jeroboão; não deixou a Jeroboão nenhum que respirasse, até que o destruísse, conforme a palavra do Senhor, que falou por intermédio de seu servo Aías, o silonita:"
+            },
+            {
+              "verse": 30,
+              "text": "Por causa dos pecados que Jeroboão cometeu e com que fez pecar Israel, pela sua provocação com que provocou à ira o Senhor Deus de Israel."
+            },
+            {
+              "verse": 31,
+              "text": "Ora, o restante dos atos de Nadabe, e tudo o que ele fez, porventura não estão escritos no livro das crônicas dos reis de Israel?"
+            },
+            {
+              "verse": 32,
+              "text": "E houve guerra entre Asa e Baasa, rei de Israel, durante todos os seus dias."
+            },
+            {
+              "verse": 33,
+              "text": "No terceiro ano de Asa, rei de Judá, Baasa, filho de Aías, começou a reinar sobre todo o Israel em Tirza, vinte e quatro anos."
+            },
+            {
+              "verse": 34,
+              "text": "E fez o que era mau aos olhos do Senhor, e andou no caminho de Jeroboão e no seu pecado com que fez pecar Israel."
+            }
+          ]
+        },
+        {
+          "chapter": 16,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Então veio a palavra do Senhor a Jeú, filho de Hanani, contra Baasa, dizendo:"
+            },
+            {
+              "verse": 2,
+              "text": "Porque eu te exaltei do pó e te constituí príncipe sobre o meu povo Israel; e andaste no caminho de Jeroboão, e fizeste pecar o meu povo Israel, para me provocares à ira com os seus pecados;"
+            },
+            {
+              "verse": 3,
+              "text": "Eis que tirarei a posteridade de Baasa e a posteridade da sua casa; e farei a tua casa como a casa de Jeroboão, filho de Nebate."
+            },
+            {
+              "verse": 4,
+              "text": "O que morrer de Baasa na cidade os cães o comerão; e o que dele morrer no campo as aves do céu o comerão."
+            },
+            {
+              "verse": 5,
+              "text": "Ora, o restante dos atos de Baasa, e o que ele fez, e o seu poder, não estão escritos no livro das crônicas dos reis de Israel?"
+            },
+            {
+              "verse": 6,
+              "text": "Assim Baasa dormiu com seus pais e foi sepultado em Tirza; e Elá, seu filho, reinou em seu lugar."
+            },
+            {
+              "verse": 7,
+              "text": "E também por intermédio do profeta Jeú, filho de Hanani, veio a palavra do Senhor contra Baasa e contra a sua casa, por causa de todo o mal que fizera aos olhos do Senhor, provocando-o à ira com as obras de suas mãos, por ser como a casa de Jeroboão, e ainda por tê-lo matado."
+            },
+            {
+              "verse": 8,
+              "text": "No vigésimo sexto ano de Asa, rei de Judá, Elá, filho de Baasa, começou a reinar sobre Israel em Tirza, dois anos."
+            },
+            {
+              "verse": 9,
+              "text": "E Zinri, seu servo, capitão de metade dos seus carros, conspirou contra ele, enquanto estava em Tirza, embriagando-se na casa de Arza, mordomo da sua casa em Tirza."
+            },
+            {
+              "verse": 10,
+              "text": "E Zinri entrou e o feriu, e o matou, no vigésimo sétimo ano de Asa, rei de Judá, e reinou em seu lugar."
+            },
+            {
+              "verse": 11,
+              "text": "E aconteceu que, logo que começou a reinar e se assentou no seu trono, feriu toda a casa de Baasa; não lhe deixou nem um só varão, nem dos seus parentes, nem dos seus amigos."
+            },
+            {
+              "verse": 12,
+              "text": "Assim Zinri destruiu toda a casa de Baasa, conforme a palavra do Senhor, que falara contra Baasa pelo ministério de Jeú, o profeta,"
+            },
+            {
+              "verse": 13,
+              "text": "Por todos os pecados de Baasa, e pelos pecados de Elá, seu filho, com que pecaram, e com que fizeram pecar Israel, provocando a ira do Senhor Deus de Israel com as suas vaidades."
+            },
+            {
+              "verse": 14,
+              "text": "Ora, o restante dos atos de Elá, e tudo o que ele fez, porventura não estão escritos no livro das crônicas dos reis de Israel?"
+            },
+            {
+              "verse": 15,
+              "text": "No vigésimo sétimo ano de Asa, rei de Judá, Zinri reinou sete dias em Tirza. E o povo acampou-se contra Gibetom, que pertencia aos filisteus."
+            },
+            {
+              "verse": 16,
+              "text": "E o povo acampado ouviu dizer: Zinri conspirou e também matou o rei; por isso todo o Israel constituiu Onri, capitão do exército, rei sobre Israel naquele dia no acampamento."
+            },
+            {
+              "verse": 17,
+              "text": "E Onri subiu de Gibeton, e todo o Israel com ele, e sitiaram Tirza."
+            },
+            {
+              "verse": 18,
+              "text": "E aconteceu que, vendo Zinri que a cidade estava tomada, entrou no palácio da casa do rei, e queimou a fogo a casa do rei sobre ele, e morreu,"
+            },
+            {
+              "verse": 19,
+              "text": "Pelos pecados que cometeu, fazendo o que era mau aos olhos do Senhor, andando no caminho de Jeroboão, e pelo pecado que cometeu, para fazer pecar Israel."
+            },
+            {
+              "verse": 20,
+              "text": "Ora, o restante dos atos de Zinri, e a traição que cometeu, porventura não estão escritos no livro das crônicas dos reis de Israel?"
+            },
+            {
+              "verse": 21,
+              "text": "Então o povo de Israel dividiu-se em duas partes: metade do povo seguiu a Tibni, filho de Ginate, para o fazer rei, e a outra metade seguiu a Onri."
+            },
+            {
+              "verse": 22,
+              "text": "Mas o povo que seguiu Onri prevaleceu contra o povo que seguiu Tibni, filho de Ginate; então Tibni morreu, e Onri reinou."
+            },
+            {
+              "verse": 23,
+              "text": "No trigésimo primeiro ano de Asa, rei de Judá, Onri começou a reinar sobre Israel, doze anos: reinou seis anos em Tirza."
+            },
+            {
+              "verse": 24,
+              "text": "E ele comprou o monte Samaria de Semer por dois talentos de prata; e edificou no monte, chamando o nome da cidade que edificou de Samaria, segundo o nome de Semer, dono do monte."
+            },
+            {
+              "verse": 25,
+              "text": "Mas Onri fez o que era mau aos olhos do Senhor e fez pior do que todos os que foram antes dele."
+            },
+            {
+              "verse": 26,
+              "text": "Porque andou em todo o caminho de Jeroboão, filho de Nebate, e no seu pecado com que fez pecar Israel, para provocar à ira o Senhor Deus de Israel com as suas vaidades."
+            },
+            {
+              "verse": 27,
+              "text": "Quanto ao restante dos atos de Onri, que ele praticou, e ao poder que demonstrou, porventura não estão escritos no livro das crônicas dos reis de Israel?"
+            },
+            {
+              "verse": 28,
+              "text": "Assim Onri dormiu com seus pais e foi sepultado em Samaria; e Acabe, seu filho, reinou em seu lugar."
+            },
+            {
+              "verse": 29,
+              "text": "E no trigésimo oitavo ano de Asa, rei de Judá, Acabe, filho de Onri, começou a reinar sobre Israel; e Acabe, filho de Onri, reinou sobre Israel, em Samaria, vinte e dois anos."
+            },
+            {
+              "verse": 30,
+              "text": "E Acabe, filho de Onri, fez o que era mau aos olhos do Senhor, mais do que todos os que foram antes dele."
+            },
+            {
+              "verse": 31,
+              "text": "E aconteceu que, como se fosse coisa leve para ele andar nos pecados de Jeroboão, filho de Nebate, ele tomou por esposa Jezabel, filha de Etbaal, rei dos sidônios, e foi e serviu a Baal, e adorou-o."
+            },
+            {
+              "verse": 32,
+              "text": "E ergueu um altar a Baal na casa de Baal, que edificara em Samaria."
+            },
+            {
+              "verse": 33,
+              "text": "E Acabe fez um bosque; e Acabe fez mais para provocar à ira o Senhor Deus de Israel do que todos os reis de Israel que existiram antes dele."
+            },
+            {
+              "verse": 34,
+              "text": "Nos seus dias, Hiel, o betelita, edificou Jericó; com Abirão, seu primogênito, lhe fundou os alicerces e, com Segube, seu filho mais novo, lhe pôs as portas, conforme a palavra do Senhor, que falara por intermédio de Josué, filho de Num."
+            }
+          ]
+        },
+        {
+          "chapter": 17,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E Elias, o tisbita, que era dos habitantes de Gileade, disse a Acabe: Tão certo como vive o Senhor Deus de Israel, diante de quem estou, não haverá orvalho nem chuva nestes anos, mas conforme a minha palavra."
+            },
+            {
+              "verse": 2,
+              "text": "E veio a ele a palavra do Senhor, dizendo:"
+            },
+            {
+              "verse": 3,
+              "text": "Vai-te daqui, volta-te para o oriente e esconde-te junto ao ribeiro de Querite, que está diante do Jordão."
+            },
+            {
+              "verse": 4,
+              "text": "E será que beberás do ribeiro; e ordenei aos corvos que ali te alimentem."
+            },
+            {
+              "verse": 5,
+              "text": "Foi, pois, e fez conforme a palavra do Senhor; porque foi e habitou junto ao ribeiro de Querite, que está diante do Jordão."
+            },
+            {
+              "verse": 6,
+              "text": "E os corvos lhe traziam pão e carne pela manhã, e pão e carne à tarde; e ele bebeu do riacho."
+            },
+            {
+              "verse": 7,
+              "text": "E aconteceu, depois de algum tempo, que o riacho secou, porque não choveu na terra."
+            },
+            {
+              "verse": 8,
+              "text": "E veio a ele a palavra do Senhor, dizendo:"
+            },
+            {
+              "verse": 9,
+              "text": "Levanta-te, vai a Sarepta, que pertence a Sidom, e habita ali; eis que ordenei a uma viúva ali que te sustente."
+            },
+            {
+              "verse": 10,
+              "text": "Então ele se levantou e foi para Sarepta. E, chegando ele à porta da cidade, eis que a viúva estava ali apanhando lenha; e ele a chamou e disse: Traz-me, peço-te, num vaso um pouco de água, para que eu beba."
+            },
+            {
+              "verse": 11,
+              "text": "E, indo ela buscá-lo, ele a chamou e disse: Traga-me, peço-te, um bocado de pão na tua mão."
+            },
+            {
+              "verse": 12,
+              "text": "E ela disse: Vive o Senhor teu Deus, que não tenho um bolo, mas um punhado de farinha numa panela, e um pouco de azeite numa botija; e eis que estou ajuntando dois gravetos, para entrar e prepará-los para mim e para meu filho, para que comamos e morramos."
+            },
+            {
+              "verse": 13,
+              "text": "E Elias lhe disse: Não temas; vai e faze como disseste; mas faze-me primeiro um pequeno bolo, e traz-mo, e depois faze-o para ti e para teu filho."
+            },
+            {
+              "verse": 14,
+              "text": "Porque assim diz o Senhor Deus de Israel: A panela de farinha não se acabará, nem a botija de azeite acabará, até o dia em que o Senhor fizer chover sobre a terra."
+            },
+            {
+              "verse": 15,
+              "text": "E ela foi e fez conforme a palavra de Elias; e ela, e ele, e a sua casa comeram muitos dias."
+            },
+            {
+              "verse": 16,
+              "text": "E a panela de farinha não se desperdiçou, nem a botija de azeite faltou, conforme a palavra do Senhor, que ele falou por intermédio de Elias."
+            },
+            {
+              "verse": 17,
+              "text": "E aconteceu depois destas coisas que o filho da mulher, dona da casa, adoeceu; e a sua doença se agravou tanto que não lhe restou fôlego."
+            },
+            {
+              "verse": 18,
+              "text": "E ela disse a Elias: Que tenho eu contigo, ó homem de Deus? Vieste a mim para trazer à memória o meu pecado e matar o meu filho?"
+            },
+            {
+              "verse": 19,
+              "text": "E ele lhe disse: Dá-me o teu filho. E ele o tomou do colo dela e o levou para um sótão, onde ele ficou, e o deitou em sua própria cama."
+            },
+            {
+              "verse": 20,
+              "text": "E clamou ao Senhor, dizendo: Ó Senhor, meu Deus, também afligiste a viúva com quem me hospedo, matando-lhe o filho?"
+            },
+            {
+              "verse": 21,
+              "text": "E ele se estendeu três vezes sobre o menino, e clamou ao Senhor, e disse: Ó Senhor meu Deus, peço-te que deixe a alma deste menino entrar nele novamente."
+            },
+            {
+              "verse": 22,
+              "text": "E o Senhor ouviu a voz de Elias; e a alma do menino tornou a entrar nele, e ele reviveu."
+            },
+            {
+              "verse": 23,
+              "text": "E Elias tomou o menino, e o fez descer do quarto para casa, e o entregou a sua mãe; e disse Elias: Eis que teu filho vive."
+            },
+            {
+              "verse": 24,
+              "text": "E a mulher disse a Elias: Nisto agora conheço que tu és homem de Deus, e que a palavra do Senhor na tua boca é verdade."
+            }
+          ]
+        },
+        {
+          "chapter": 18,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E aconteceu que, depois de muitos dias, veio a palavra do Senhor a Elias, no terceiro ano, dizendo: Vai, mostra-te a Acabe; e enviarei chuva sobre a terra."
+            },
+            {
+              "verse": 2,
+              "text": "E Elias foi mostrar-se a Acabe. E houve uma grande fome em Samaria."
+            },
+            {
+              "verse": 3,
+              "text": "E Acabe chamou Obadias, que era governador de sua casa. Ora, Obadias temia muito ao Senhor:"
+            },
+            {
+              "verse": 4,
+              "text": "Porque aconteceu que, quando Jezabel exterminou os profetas do Senhor, Obadias tomou cem profetas e escondeu cinquenta numa caverna, alimentando-os com pão e água."
+            },
+            {
+              "verse": 5,
+              "text": "E Acabe disse a Obadias: Vai à terra, a todas as fontes de água e a todos os riachos; talvez possamos encontrar grama para salvar vivos os cavalos e mulas, para que não percamos todos os animais."
+            },
+            {
+              "verse": 6,
+              "text": "Então dividiram a terra entre eles para passarem por ela: Acabe foi sozinho por um caminho, e Obadias foi sozinho por outro."
+            },
+            {
+              "verse": 7,
+              "text": "E estando Obadias no caminho, eis que Elias o encontrou; e ele o reconheceu, e prostrou-se com o rosto em terra, e disse: És tu aquele meu senhor Elias?"
+            },
+            {
+              "verse": 8,
+              "text": "E ele lhe respondeu: Eu sou; vai, dize ao teu senhor: Eis que Elias está aqui."
+            },
+            {
+              "verse": 9,
+              "text": "E ele disse: Em que pequei, para que entregasses o teu servo nas mãos de Acabe, para me matar?"
+            },
+            {
+              "verse": 10,
+              "text": "Tão certo como vive o Senhor, teu Deus, não há nação nem reino aonde meu senhor não tenha enviado em busca de ti; e, quando diziam: Ele não está aqui, ele ajuramentava o reino e a nação de que não te haviam encontrado."
+            },
+            {
+              "verse": 11,
+              "text": "E agora dizes: Vai, dize ao teu senhor: Eis que Elias está aqui."
+            },
+            {
+              "verse": 12,
+              "text": "E acontecerá que, assim que eu me afastar de ti, o Espírito do Senhor te levará para onde não sei; e quando eu for e contar a Acabe, e ele não te encontrar, ele me matará; mas eu, teu servo, temo ao Senhor desde a minha mocidade."
+            },
+            {
+              "verse": 13,
+              "text": "Porventura não foi relatado ao meu senhor o que fiz quando Jezabel matou os profetas do Senhor, como escondi numa caverna cem homens dos profetas do Senhor, de cinquenta em cinquenta, e os alimentei com pão e água?"
+            },
+            {
+              "verse": 14,
+              "text": "E agora dizes: Vai, dize ao teu senhor: Eis que Elias está aqui, e ele me matará."
+            },
+            {
+              "verse": 15,
+              "text": "E disse Elias: Vive o Senhor dos exércitos, em cuja presença estou, certamente hoje me mostrarei a ele."
+            },
+            {
+              "verse": 16,
+              "text": "Então Obadias foi ao encontro de Acabe e lhe contou; e Acabe foi ao encontro de Elias."
+            },
+            {
+              "verse": 17,
+              "text": "E aconteceu que, vendo Acabe a Elias, disse-lhe Acabe: És tu aquele que perturba Israel?"
+            },
+            {
+              "verse": 18,
+              "text": "E ele respondeu: Não perturbei Israel; mas tu e a casa de teu pai, abandonando os mandamentos do Senhor e seguindo os baalins."
+            },
+            {
+              "verse": 19,
+              "text": "Agora, pois, envia e reúne a mim todo o Israel no monte Carmelo, e os quatrocentos e cinquenta profetas de Baal, e os quatrocentos profetas dos bosques, que comem à mesa de Jezabel."
+            },
+            {
+              "verse": 20,
+              "text": "Então Acabe enviou uma mensagem a todos os filhos de Israel e reuniu os profetas no monte Carmelo."
+            },
+            {
+              "verse": 21,
+              "text": "E Elias veio a todo o povo e disse: Até quando hesitareis entre duas opiniões? se o Senhor for Deus, siga-o; mas se for Baal, siga-o. E o povo não lhe respondeu uma palavra."
+            },
+            {
+              "verse": 22,
+              "text": "Então disse Elias ao povo: Eu, apenas eu, continuo profeta do Senhor; mas os profetas de Baal são quatrocentos e cinquenta homens."
+            },
+            {
+              "verse": 23,
+              "text": "Dêem-nos, pois, dois novilhos; e escolham para si um novilho, e cortem-no em pedaços, e ponham-no sobre a lenha, e não ponham fogo debaixo; e eu prepararei o outro novilho, e o porei sobre a lenha, e não porei fogo debaixo:"
+            },
+            {
+              "verse": 24,
+              "text": "E invocai o nome dos vossos deuses, e eu invocarei o nome do Senhor; e o Deus que responde pelo fogo, esse será Deus. E todo o povo respondeu e disse: Está bem dito."
+            },
+            {
+              "verse": 25,
+              "text": "E disse Elias aos profetas de Baal: Escolhei para vós um novilho e preparai-o primeiro, porque sois muitos; e invocai o nome dos vossos deuses, mas não ponhais fogo debaixo."
+            },
+            {
+              "verse": 26,
+              "text": "E tomaram o novilho que lhes foi dado, e o prepararam, e invocaram o nome de Baal desde a manhã até o meio-dia, dizendo: Ó Baal, ouve-nos. Mas não houve voz, nem ninguém que respondesse. E saltaram sobre o altar que foi feito."
+            },
+            {
+              "verse": 27,
+              "text": "E aconteceu ao meio-dia que Elias escarneceu deles, e disse: Clamai em alta voz, porque ele é um deus; ou ele está falando, ou está perseguindo, ou está viajando, ou talvez ele durma e precise ser acordado."
+            },
+            {
+              "verse": 28,
+              "text": "E eles clamavam em alta voz, retalhando-se a si mesmos com facas e lancetas, segundo o seu costume, até derramarem sangue sobre si."
+            },
+            {
+              "verse": 29,
+              "text": "E aconteceu que, passando o meio-dia, e eles profetizaram até a hora da oferta do sacrifício vespertino, não houve voz, nem alguém que respondesse, nem alguém que olhasse."
+            },
+            {
+              "verse": 30,
+              "text": "E Elias disse a todo o povo: Aproximai-vos de mim. E todo o povo se aproximou dele. E ele reparou o altar do Senhor que estava quebrado."
+            },
+            {
+              "verse": 31,
+              "text": "E Elias tomou doze pedras, conforme o número das tribos dos filhos de Jacó, aos quais veio a palavra do Senhor, dizendo: Israel será o teu nome."
+            },
+            {
+              "verse": 32,
+              "text": "E com as pedras edificou um altar ao nome do Senhor; e fez um rego ao redor do altar, tão grande que caberia duas medidas de semente."
+            },
+            {
+              "verse": 33,
+              "text": "E pôs em ordem a lenha, e cortou o novilho em pedaços, e o pôs sobre a lenha, e disse: Enchei quatro cântaros de água e derramai-a sobre o holocausto e sobre a lenha."
+            },
+            {
+              "verse": 34,
+              "text": "E disse: Fazei-o pela segunda vez. E o fizeram. E disse: Fazei-o pela terceira vez. E o fizeram pela terceira vez."
+            },
+            {
+              "verse": 35,
+              "text": "E a água correu ao redor do altar; e ele também encheu o rego com água."
+            },
+            {
+              "verse": 36,
+              "text": "E aconteceu que, na hora da oferta do sacrifício vespertino, o profeta Elias se aproximou e disse: Senhor, Deus de Abraão, de Isaque e de Israel, saiba-se hoje que tu és Deus em Israel, e que eu sou teu servo, e que fiz todas estas coisas segundo a tua palavra."
+            },
+            {
+              "verse": 37,
+              "text": "Ouve-me, Senhor, ouve-me, para que este povo saiba que tu és o Senhor Deus, e que fizeste voltar o seu coração."
+            },
+            {
+              "verse": 38,
+              "text": "Então caiu fogo do Senhor, e consumiu o holocausto, e a lenha, e as pedras, e o pó, e lambeu a água que estava no rego."
+            },
+            {
+              "verse": 39,
+              "text": "E quando todo o povo viu isso, caíram sobre seus rostos e disseram: O Senhor é o Deus; o Senhor, ele é o Deus."
+            },
+            {
+              "verse": 40,
+              "text": "E Elias lhes disse: Prendei os profetas de Baal, para que nenhum deles escape. E os prenderam; e Elias os fez descer ao ribeiro de Quisom, e ali os matou."
+            },
+            {
+              "verse": 41,
+              "text": "E Elias disse a Acabe: Levanta-te, come e bebe; pois há um som de chuva abundante."
+            },
+            {
+              "verse": 42,
+              "text": "Então Acabe subiu para comer e beber. E Elias subiu ao cume do Carmelo; e ele se lançou por terra e pôs o rosto entre os joelhos,"
+            },
+            {
+              "verse": 43,
+              "text": "E disse ao seu servo: Sobe agora, olha para o mar. E ele subiu, olhou e disse: Não há nada. E ele disse: Volta sete vezes."
+            },
+            {
+              "verse": 44,
+              "text": "E aconteceu que à sétima vez ele disse: Eis que surge do mar uma pequena nuvem, como a mão de um homem. E ele disse: Sobe, dize a Acabe: Prepara teu carro, e desce, para que a chuva não te pare."
+            },
+            {
+              "verse": 45,
+              "text": "E aconteceu que nesse meio tempo o céu ficou negro de nuvens e de vento, e caiu uma grande chuva. E Acabe cavalgou e foi para Jezreel."
+            },
+            {
+              "verse": 46,
+              "text": "E a mão do Senhor estava sobre Elias, o qual cingiu os lombos e correu diante de Acabe até à entrada de Jezreel."
+            }
+          ]
+        },
+        {
+          "chapter": 19,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E Acabe contou a Jezabel tudo o que Elias tinha feito, e também como ele havia matado todos os profetas à espada."
+            },
+            {
+              "verse": 2,
+              "text": "Então Jezabel enviou um mensageiro a Elias, dizendo: Assim me façam os deuses, e outro tanto, se eu não fizer a tua vida como a de um deles até amanhã a esta hora."
+            },
+            {
+              "verse": 3,
+              "text": "Quando ele viu isso, levantou-se e foi, por causa de sua vida, a Berseba, que pertence a Judá, e deixou ali o seu servo."
+            },
+            {
+              "verse": 4,
+              "text": "Ele, porém, foi-se ao deserto caminho de um dia, e veio, e assentou-se debaixo de um zimbro, e pediu para si a morte, dizendo: Basta já, ó Senhor; toma agora a minha vida, pois não sou melhor do que meus pais."
+            },
+            {
+              "verse": 5,
+              "text": "E estando ele deitado e dormindo debaixo de um zimbro, eis que um anjo o tocou e lhe disse: Levanta-te e come."
+            },
+            {
+              "verse": 6,
+              "text": "E ele olhou, e eis que estava à sua cabeceira um bolo cozido sobre as brasas, e uma botija de água. E ele comeu e bebeu, e deitou-se novamente."
+            },
+            {
+              "verse": 7,
+              "text": "E o anjo do Senhor voltou segunda vez, e tocou-o, e disse: Levanta-te e come; porque a viagem é muito longa para ti."
+            },
+            {
+              "verse": 8,
+              "text": "E ele se levantou, e comeu e bebeu, e com a força daquela comida caminhou quarenta dias e quarenta noites até Horebe, o monte de Deus."
+            },
+            {
+              "verse": 9,
+              "text": "E ele chegou ali a uma caverna e se hospedou ali; e eis que veio a ele a palavra do Senhor, e ele lhe disse: Que fazes aqui, Elias?"
+            },
+            {
+              "verse": 10,
+              "text": "E ele disse: Tenho sido muito zeloso pelo Senhor Deus dos exércitos; porque os filhos de Israel abandonaram a tua aliança, derrubaram os teus altares e mataram os teus profetas à espada; e eu, apenas eu, fiquei; e procuram a minha vida, para tirá-la."
+            },
+            {
+              "verse": 11,
+              "text": "E ele disse: Sai e põe-te neste monte perante o Senhor. E eis que passava o Senhor, e um grande e forte vento fendia os montes e quebrava as rochas diante do Senhor, porém o Senhor não estava no vento; e depois do vento, um terremoto, mas o Senhor não estava no terremoto;"
+            },
+            {
+              "verse": 12,
+              "text": "E depois do terremoto um incêndio; mas o Senhor não estava no fogo; e depois do fogo uma voz mansa e delicada."
+            },
+            {
+              "verse": 13,
+              "text": "E sucedeu que, quando Elias ouviu isso, envolveu o rosto no manto, e saiu, e pôs-se à entrada da caverna. E eis que uma voz lhe veio e disse: Que fazes aqui, Elias?"
+            },
+            {
+              "verse": 14,
+              "text": "E ele disse: Tenho sido muito zeloso pelo Senhor Deus dos exércitos; porque os filhos de Israel abandonaram a tua aliança, derrubaram os teus altares e mataram os teus profetas à espada; e eu, apenas eu, fiquei; e procuram a minha vida, para tirá-la."
+            },
+            {
+              "verse": 15,
+              "text": "E o Senhor lhe disse: Vai, retorna pelo teu caminho para o deserto de Damasco; e, chegando lá, unge Hazael como rei sobre a Síria."
+            },
+            {
+              "verse": 16,
+              "text": "E a Jeú, filho de Ninsi, ungirás para ser rei sobre Israel; e a Eliseu, filho de Safate de Abelmeolá, ungirás para ser profeta em teu lugar."
+            },
+            {
+              "verse": 17,
+              "text": "E há de ser que o que escapar à espada de Hazael, Jeú o matará; e o que escapar à espada de Jeú, Eliseu o matará."
+            },
+            {
+              "verse": 18,
+              "text": "Contudo deixei-me sete mil em Israel, todos os joelhos que não se dobraram a Baal, e toda boca que não o beijou."
+            },
+            {
+              "verse": 19,
+              "text": "Partiu, pois, dali e achou a Eliseu, filho de Safate, que arava com doze juntas adiante dele, estando ele com a duodécima; e Elias passou por ele e lançou o seu manto sobre ele."
+            },
+            {
+              "verse": 20,
+              "text": "E ele deixou os bois, e correu atrás de Elias, e disse: Deixa-me, peço-te, beijar meu pai e minha mãe, e então te seguirei. E ele lhe disse: Volta outra vez; pois que te fiz eu?"
+            },
+            {
+              "verse": 21,
+              "text": "E ele voltou dele, e tomou uma junta de bois, e os matou, e cozinhou sua carne com os instrumentos dos bois, e deu ao povo, e eles comeram. Então ele se levantou e foi atrás de Elias e o serviu."
+            }
+          ]
+        },
+        {
+          "chapter": 20,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E Ben-Hadade, rei da Síria, reuniu todo o seu exército; e havia com ele trinta e dois reis, e cavalos e carros; e subiu, e sitiou Samaria, e guerreou contra ela."
+            },
+            {
+              "verse": 2,
+              "text": "E enviou mensageiros à cidade a Acabe, rei de Israel, e disse-lhe: Assim diz Ben-Hadade:"
+            },
+            {
+              "verse": 3,
+              "text": "A tua prata e o teu ouro são meus; também as tuas mulheres e os teus filhos, até os melhores, são meus."
+            },
+            {
+              "verse": 4,
+              "text": "E o rei de Israel respondeu: Ó rei meu senhor, conforme a tua palavra, eu sou teu e tudo o que tenho."
+            },
+            {
+              "verse": 5,
+              "text": "Os mensageiros voltaram e disseram: Assim fala Ben-Hadade: Embora eu te tenha enviado ordem de que me entregasses a tua prata, o teu ouro, as tuas mulheres e os teus filhos,"
+            },
+            {
+              "verse": 6,
+              "text": "Contudo, amanhã a esta hora enviarei os meus servos a ti, e eles revistarão a tua casa e as casas dos teus servos; e tudo o que for agradável aos seus olhos, eles o porão nas mãos e o levarão."
+            },
+            {
+              "verse": 7,
+              "text": "Então o rei de Israel chamou todos os anciãos da terra e disse: Notai, peço-vos, e vede como este homem procura o mal; pois me mandou pedir as minhas mulheres, os meus filhos, a minha prata e o meu ouro, e não lho neguei."
+            },
+            {
+              "verse": 8,
+              "text": "E todos os anciãos e todo o povo lhe disseram: Não lhe dês ouvidos, nem consintas."
+            },
+            {
+              "verse": 9,
+              "text": "Pelo que disse aos mensageiros de Ben-Hadade: Dizei ao rei, meu senhor: Tudo o que a princípio mandaste pedir ao teu servo farei; mas isto não posso fazer. E os mensageiros partiram e trouxeram-lhe novamente notícias."
+            },
+            {
+              "verse": 10,
+              "text": "Ben-Hadade enviou-lhe mensageiros e disse: Assim me façam os deuses, e outro tanto, se o pó de Samaria bastar para dar um punhado a cada um de todo o povo que me segue."
+            },
+            {
+              "verse": 11,
+              "text": "E o rei de Israel respondeu e disse: Dize-lhe: Aquele que cinge o arreio não se vanglorie como aquele que o despoja."
+            },
+            {
+              "verse": 12,
+              "text": "E aconteceu que, ouvindo Ben-Hadade esta mensagem, enquanto bebia, ele e os reis nos pavilhões, disse aos seus servos: Disponham-se. E eles se puseram em ordem contra a cidade."
+            },
+            {
+              "verse": 13,
+              "text": "E eis que um profeta veio a Acabe, rei de Israel, dizendo: Assim diz o Senhor: Viste toda esta grande multidão? eis que hoje o entregarei na tua mão; e saberás que eu sou o Senhor."
+            },
+            {
+              "verse": 14,
+              "text": "Acabe perguntou: Por quem? E ele respondeu: Assim diz o Senhor: Pelos moços dos príncipes das províncias. Perguntou ainda: Quem começará a batalha? E ele respondeu: Tu."
+            },
+            {
+              "verse": 15,
+              "text": "Então contou os moços dos príncipes das províncias, e foram duzentos e trinta e dois; e depois deles contou a todo o povo, todos os filhos de Israel, que eram sete mil."
+            },
+            {
+              "verse": 16,
+              "text": "E eles saíram ao meio-dia. Mas Ben-Hadade estava bebendo até ficar bêbado nos pavilhões, ele e os reis, os trinta e dois reis que o ajudaram."
+            },
+            {
+              "verse": 17,
+              "text": "E os mancebos dos príncipes das províncias saíram primeiro; e Ben-Hadade mandou, e eles lhe anunciaram, dizendo: Há homens que vêm de Samaria."
+            },
+            {
+              "verse": 18,
+              "text": "Ele disse: Quer saiam em busca de paz, prendei-os vivos; quer saiam para a guerra, prendei-os vivos."
+            },
+            {
+              "verse": 19,
+              "text": "Saíram, pois, da cidade estes mancebos dos príncipes das províncias, bem como o exército que os seguia."
+            },
+            {
+              "verse": 20,
+              "text": "E mataram cada um o seu homem; e os sírios fugiram; e Israel os perseguiu; e Ben-Hadade, rei da Síria, escapou a cavalo com os cavaleiros."
+            },
+            {
+              "verse": 21,
+              "text": "E o rei de Israel saiu, e feriu os cavalos e os carros, e matou os sírios com grande matança."
+            },
+            {
+              "verse": 22,
+              "text": "E o profeta veio ao rei de Israel, e disse-lhe: Vai, fortalece-te, e marca, e vê o que fazes; porque no fim do ano o rei da Síria subirá contra ti."
+            },
+            {
+              "verse": 23,
+              "text": "Os servos do rei da Síria lhe disseram: Os seus deuses são deuses dos montes; por isso foram mais fortes do que nós; mas lutemos contra eles na planície, e certamente seremos mais fortes do que eles."
+            },
+            {
+              "verse": 24,
+              "text": "Fazei também o seguinte: tirai os reis, cada um do seu lugar, e ponde capitães em seus lugares."
+            },
+            {
+              "verse": 25,
+              "text": "Alista para ti um exército igual ao exército que perdeste, cavalo por cavalo e carro por carro; e lutaremos contra eles na planície, e certamente seremos mais fortes do que eles. E ele deu ouvidos à sua voz e o fez."
+            },
+            {
+              "verse": 26,
+              "text": "E aconteceu que, no final do ano, Ben-Hadade contou os sírios e subiu a Afeque para pelejar contra Israel."
+            },
+            {
+              "verse": 27,
+              "text": "Os filhos de Israel foram contados, abastecidos de provisões e marcharam contra eles; os filhos de Israel acamparam-se diante deles como dois pequenos rebanhos de cabritos, enquanto os sírios enchiam a terra."
+            },
+            {
+              "verse": 28,
+              "text": "E veio um homem de Deus, e falou ao rei de Israel, e disse: Assim diz o Senhor: Visto que os sírios dizem: O Senhor é o Deus dos montes, mas não é o Deus dos vales, por isso entregarei nas tuas mãos toda esta grande multidão, e sabereis que eu sou o Senhor."
+            },
+            {
+              "verse": 29,
+              "text": "Estiveram encampados uns contra os outros durante sete dias. No sétimo dia travou-se a batalha, e os filhos de Israel feriram dos sírios cem mil homens de infantaria em um só dia."
+            },
+            {
+              "verse": 30,
+              "text": "Mas os restantes fugiram para Afeque, para a cidade; e caiu um muro sobre vinte e sete mil dos homens que restaram. E Ben-Hadade fugiu e entrou na cidade, numa câmara interior."
+            },
+            {
+              "verse": 31,
+              "text": "Os seus servos lhe disseram: Eis que temos ouvido que os reis da casa de Israel são reis misericordiosos; ponhamos, pois, panos de saco sobre os lombos e cordas às nossas cabeças, e saiamos ao encontro do rei de Israel; porventura salvará a tua vida."
+            },
+            {
+              "verse": 32,
+              "text": "Então cingiram os seus lombos com sacos e puseram cordas nas suas cabeças, e foram ter com o rei de Israel, e disseram: Teu servo Ben-Hadade diz: Peço-te que me deixes viver. E ele disse: Ele ainda está vivo? ele é meu irmão."
+            },
+            {
+              "verse": 33,
+              "text": "Aqueles homens tomaram isso como um bom presságio e apressaram-se em tomar-lhe a palavra, dizendo: Teu irmão Ben-Hadade! E ele disse: Ide e trazei-o. Então Ben-Hadade saiu a ter com ele, e ele o fez subir à carruagem."
+            },
+            {
+              "verse": 34,
+              "text": "Ben-Hadade lhe disse: As cidades que meu pai tomou de teu pai, eu as restituirei; e farás para ti ruas em Damasco, como meu pai fez em Samaria. Respondeu Acabe: Com esta aliança te despedirei. E fez aliança com ele e o despediu."
+            },
+            {
+              "verse": 35,
+              "text": "Certo homem dos filhos dos profetas disse ao seu companheiro, por ordem do Senhor: Feri-me, peço-te. Mas o homem recusou feri-lo."
+            },
+            {
+              "verse": 36,
+              "text": "Então ele lhe disse: Porque não obedeceste à voz do Senhor, eis que, assim que te afastares de mim, um leão te matará. E assim que ele se afastou dele, um leão o encontrou e o matou."
+            },
+            {
+              "verse": 37,
+              "text": "Depois, ele encontrou um outro homem e lhe disse: Fere-me, rogo-te. E o homem o feriu, de modo que ao ferir-lhe, ele o machucou."
+            },
+            {
+              "verse": 38,
+              "text": "Então o profeta partiu, e esperou pelo rei no caminho, e disfarçou-se com cinzas no rosto."
+            },
+            {
+              "verse": 39,
+              "text": "Passando o rei, clamou a ele e disse: Teu servo saiu ao meio da batalha; e eis que um soldado se apartou, trouxe-me um prisioneiro e disse: Guarda este homem; se porventura ele faltar, a tua vida será em lugar da vida dele, ou pagarás um talento de prata."
+            },
+            {
+              "verse": 40,
+              "text": "E, estando o teu servo ocupado aqui e ali, ele desapareceu. Então o rei de Israel lhe disse: Esse é o teu veredito; tu mesmo o proferiste."
+            },
+            {
+              "verse": 41,
+              "text": "Ele se apressou e tirou a cinza de sobre o seu rosto, e o rei de Israel reconheceu que era um dos profetas."
+            },
+            {
+              "verse": 42,
+              "text": "E ele lhe disse: Assim diz o Senhor: Visto que soltaste da tua mão um homem a quem designei para a destruição total, portanto a tua vida será pela vida dele, e o teu povo pelo seu povo."
+            },
+            {
+              "verse": 43,
+              "text": "E o rei de Israel foi para sua casa, angustiado e descontente, e veio para Samaria."
+            }
+          ]
+        },
+        {
+          "chapter": 21,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E aconteceu depois destas coisas que Nabote, o jezreelita, tinha uma vinha que estava em Jizreel, perto do palácio de Acabe, rei de Samaria."
+            },
+            {
+              "verse": 2,
+              "text": "E Acabe falou a Nabote, dizendo: Dá-me a tua vinha, para que eu a tenha como jardim de ervas, porque está perto da minha casa; e por ela te darei uma vinha melhor do que ela; ou, se te parecer bem, eu te darei o valor disso em dinheiro."
+            },
+            {
+              "verse": 3,
+              "text": "E Nabote disse a Acabe: O Senhor me livre de que eu te dê a herança de meus pais."
+            },
+            {
+              "verse": 4,
+              "text": "E Acabe entrou em sua casa angustiado e descontente por causa da palavra que Nabote, o jezreelita, lhe falara, pois dissera: Não te darei a herança de meus pais. E deitou-se na cama, virou o rosto e não comeu pão."
+            },
+            {
+              "verse": 5,
+              "text": "Mas Jezabel, sua mulher, aproximou-se dele e disse-lhe: Por que está tão triste o teu espírito, que não comes pão?"
+            },
+            {
+              "verse": 6,
+              "text": "E ele lhe disse: Porque falei a Nabote, o jezreelita, e lhe disse: Dá-me a tua vinha por dinheiro; ou então, se for do teu agrado, te darei em troca dela outra vinha; e ele respondeu: Não te darei a minha vinha."
+            },
+            {
+              "verse": 7,
+              "text": "Jezabel, sua mulher, disse-lhe: Governas tu agora sobre Israel? Levanta-te, come pão e alegre-se o teu coração; eu te darei a vinha de Nabote, o jezreelita."
+            },
+            {
+              "verse": 8,
+              "text": "Então ela escreveu cartas em nome de Acabe, selou-as com o anel dele e enviou as cartas aos anciãos e aos nobres que habitavam na sua cidade com Nabote."
+            },
+            {
+              "verse": 9,
+              "text": "E escreveu nas cartas, dizendo: Proclamai um jejum e ponde a Nabote à frente do povo;"
+            },
+            {
+              "verse": 10,
+              "text": "E ponde diante dele dois homens, filhos de Belial, para testemunharem contra ele, dizendo: Blasfemaste contra Deus e contra o rei. E trazei-o para fora e apedrejai-o, para que morra."
+            },
+            {
+              "verse": 11,
+              "text": "E os homens da sua cidade, sim os anciãos e os nobres que eram os habitantes da sua cidade, fizeram como Jezabel lhes ordenara, e como estava escrito nas cartas que ela lhes enviara."
+            },
+            {
+              "verse": 12,
+              "text": "Proclamaram um jejum e exaltaram Nabote entre o povo."
+            },
+            {
+              "verse": 13,
+              "text": "E entraram dois homens, filhos de Belial, e sentaram-se diante dele; e os homens de Belial testemunharam contra ele, mesmo contra Nabote, na presença do povo, dizendo: Nabote blasfemou contra Deus e contra o rei. Então o levaram para fora da cidade e o apedrejaram, até que morreu."
+            },
+            {
+              "verse": 14,
+              "text": "Então mandaram dizer a Jezabel: Nabote foi apedrejado e morreu."
+            },
+            {
+              "verse": 15,
+              "text": "E aconteceu que, quando Jezabel ouviu que Nabote havia sido apedrejado e morto, Jezabel disse a Acabe: Levanta-te, toma posse da vinha de Nabote, o jezreelita, que ele recusou dar-te por dinheiro; porque Nabote não está vivo, mas morto."
+            },
+            {
+              "verse": 16,
+              "text": "E aconteceu que, ouvindo Acabe que Nabote estava morto, levantou-se Acabe para descer à vinha de Nabote, o jezreelita, para tomar posse dela."
+            },
+            {
+              "verse": 17,
+              "text": "E veio a palavra do Senhor a Elias, o tisbita, dizendo:"
+            },
+            {
+              "verse": 18,
+              "text": "Levanta-te, desce ao encontro de Acabe, rei de Israel, que está em Samaria; eis que ele está na vinha de Nabote, aonde desceu para possuí-la."
+            },
+            {
+              "verse": 19,
+              "text": "Falar-lhe-ás, dizendo: Assim diz o Senhor: Mataste e ainda tomaste a posse? Falar-lhe-ás mais: Assim diz o Senhor: No lugar em que os cães lamberam o sangue de Nabote, os cães lamberão também o teu sangue, sim, o teu."
+            },
+            {
+              "verse": 20,
+              "text": "E Acabe disse a Elias: Encontraste-me, ó meu inimigo? E ele respondeu: Encontrei-te, porque te vendeste para fazeres o que é mau aos olhos do Senhor."
+            },
+            {
+              "verse": 21,
+              "text": "Eis que trarei mal sobre ti, varrerei a tua posteridade e eliminarei de Acabe todo varão, tanto o encerrado como o livre em Israel;"
+            },
+            {
+              "verse": 22,
+              "text": "E farei a tua casa como a casa de Jeroboão, filho de Nebate, e como a casa de Baasa, filho de Aías, por causa da provocação com que me provocaste à ira e fizeste pecar Israel."
+            },
+            {
+              "verse": 23,
+              "text": "E de Jezabel também falou o Senhor, dizendo: Os cães comerão Jezabel junto ao muro de Jizreel."
+            },
+            {
+              "verse": 24,
+              "text": "O que morrer de Acabe na cidade, os cães o comerão; e o que morrer no campo as aves do céu o comerão."
+            },
+            {
+              "verse": 25,
+              "text": "Mas não houve ninguém como Acabe, que se vendeu para praticar o que era mau aos olhos do Senhor, a quem Jezabel, sua mulher, incitou."
+            },
+            {
+              "verse": 26,
+              "text": "E ele agiu de maneira muito abominável ao seguir os ídolos, conforme todas as coisas, como fizeram os amorreus, que o Senhor expulsou de diante dos filhos de Israel."
+            },
+            {
+              "verse": 27,
+              "text": "E sucedeu, quando Acabe ouviu aquelas palavras, que ele rasgou as suas vestes, e pôs pano de saco sobre a sua carne, e jejuou, e se deitou em panos de saco e seguiu brandamente."
+            },
+            {
+              "verse": 28,
+              "text": "E veio a palavra do Senhor a Elias, o tisbita, dizendo:"
+            },
+            {
+              "verse": 29,
+              "text": "Vês como Acabe se humilha perante mim? Visto que se humilha perante mim, não trarei este mal nos seus dias; mas nos dias de seu filho trarei o mal sobre a sua casa."
+            }
+          ]
+        },
+        {
+          "chapter": 22,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E continuaram três anos sem guerra entre a Síria e Israel."
+            },
+            {
+              "verse": 2,
+              "text": "E aconteceu no terceiro ano que Josafá, rei de Judá, desceu ao rei de Israel."
+            },
+            {
+              "verse": 3,
+              "text": "O rei de Israel disse aos seus servos: Sabeis que Ramote-Gileade é nosso, e nós ficamos quietos, sem o tomar da mão do rei da Síria?"
+            },
+            {
+              "verse": 4,
+              "text": "E ele disse a Josafá: Queres ir comigo à guerra contra Ramote-Gileade? E Josafá disse ao rei de Israel: Eu sou como tu, o meu povo como o teu povo, os meus cavalos como os teus cavalos."
+            },
+            {
+              "verse": 5,
+              "text": "E disse Josafá ao rei de Israel: Consulta hoje, peço-te, a palavra do Senhor."
+            },
+            {
+              "verse": 6,
+              "text": "Então o rei de Israel reuniu os profetas, cerca de quatrocentos homens, e disse-lhes: Irei à peleja contra Ramote-Gileade ou deixarei de ir à guerra? E eles disseram: Sobe; porque o Senhor a entregará na mão do rei."
+            },
+            {
+              "verse": 7,
+              "text": "E disse Josafá: Não há ainda aqui algum profeta do Senhor, a quem possamos consultar?"
+            },
+            {
+              "verse": 8,
+              "text": "E o rei de Israel disse a Josafá: Ainda há um homem, Micaías, filho de Inlá, por quem podemos consultar ao Senhor; mas eu o odeio; porque ele não profetiza o bem a meu respeito, mas o mal. E disse Josafá: Não o diga o rei."
+            },
+            {
+              "verse": 9,
+              "text": "Então o rei de Israel chamou um oficial e disse: Apressa aqui Micaías, filho de Inlá."
+            },
+            {
+              "verse": 10,
+              "text": "E o rei de Israel e Josafá, rei de Judá, sentaram-se cada um no seu trono, vestindo as suas vestes, num lugar vazio, à entrada da porta de Samaria; e todos os profetas profetizaram diante deles."
+            },
+            {
+              "verse": 11,
+              "text": "Zedequias, filho de Quenaaná, fez para si chifres de ferro e disse: Assim diz o Senhor: Com estes ferirás os siros até consumi-los."
+            },
+            {
+              "verse": 12,
+              "text": "E assim profetizaram todos os profetas, dizendo: Subi a Ramote-Gileade, e prosperai; porque o Senhor a entregará na mão do rei."
+            },
+            {
+              "verse": 13,
+              "text": "E o mensageiro que tinha ido chamar Micaías falou-lhe, dizendo: Eis que agora as palavras dos profetas declaram bem ao rei com uma só boca: seja a tua palavra, peço-te, como a palavra de um deles, e fale o que é bom."
+            },
+            {
+              "verse": 14,
+              "text": "E disse Micaías: Vive o Senhor, o que o Senhor me disser, isso falarei."
+            },
+            {
+              "verse": 15,
+              "text": "Então ele veio até o rei. E o rei lhe disse: Micaías, iremos à peleja contra Ramote-Gileade, ou deixaremos de ir? E ele lhe respondeu: Vai, e prospera; porque o Senhor a entregará na mão do rei."
+            },
+            {
+              "verse": 16,
+              "text": "E o rei lhe disse: Quantas vezes te conjuro que não me digas nada senão o que é verdadeiro em nome do Senhor?"
+            },
+            {
+              "verse": 17,
+              "text": "E ele disse: Vi todo o Israel disperso pelos montes, como ovelhas que não têm pastor; e disse o Senhor: Estes não têm senhor; volte cada um em paz para a sua casa."
+            },
+            {
+              "verse": 18,
+              "text": "E o rei de Israel disse a Josafá: Não te disse eu que ele não profetizaria bem a meu respeito, mas sim mal?"
+            },
+            {
+              "verse": 19,
+              "text": "E ele disse: Ouve, pois, a palavra do Senhor: Vi o Senhor sentado no seu trono, e todo o exército do céu em pé junto a ele, à sua direita e à sua esquerda."
+            },
+            {
+              "verse": 20,
+              "text": "Disse o Senhor: Quem persuadirá a Acabe, para que suba e caia em Ramote-Gileade? E um respondia de uma maneira, e outro de outra."
+            },
+            {
+              "verse": 21,
+              "text": "E saiu um espírito, e apresentou-se diante do Senhor, e disse: Eu o persuadirei."
+            },
+            {
+              "verse": 22,
+              "text": "Respondeu-lhe o Senhor: Com quê? E ele disse: Sairei e serei espírito mentiroso na boca de todos os seus profetas. Disse o Senhor: Tu o persuadirás e também prevalecerás; sai e faze-o."
+            },
+            {
+              "verse": 23,
+              "text": "Agora, pois, eis que o Senhor pôs um espírito mentiroso na boca de todos estes teus profetas, e o Senhor falou mal a teu respeito."
+            },
+            {
+              "verse": 24,
+              "text": "Então Zedequias, filho de Quenaaná, chegou-se e feriu a Micaías na queixada, dizendo: Por onde saiu de mim o Espírito do Senhor para falar contigo?"
+            },
+            {
+              "verse": 25,
+              "text": "E disse Micaías: Eis que o verás naquele dia, quando entrares num quarto interior para te esconderes."
+            },
+            {
+              "verse": 26,
+              "text": "E disse o rei de Israel: Toma Micaías, e leva-o de volta a Amom, governador da cidade, e a Joás, filho do rei;"
+            },
+            {
+              "verse": 27,
+              "text": "E dize: Assim diz o rei: Coloca este sujeito na prisão, e alimenta-o com pão de aflição e com água de aflição, até que eu volte em paz."
+            },
+            {
+              "verse": 28,
+              "text": "E Micaías disse: Se voltares em paz, o Senhor não falou por mim. E ele disse: Ouvi, ó povo, cada um de vocês."
+            },
+            {
+              "verse": 29,
+              "text": "Então o rei de Israel e Josafá, rei de Judá, subiram a Ramote-Gileade."
+            },
+            {
+              "verse": 30,
+              "text": "O rei de Israel disse a Josafá: Disfarçar-me-ei e irei à peleja; tu, porém, veste as tuas vestes. E o rei de Israel disfarçou-se e entrou na peleja."
+            },
+            {
+              "verse": 31,
+              "text": "Mas o rei da Síria ordenou aos seus trinta e dois capitães que governavam os seus carros, dizendo: Não pelejem nem contra o pequeno nem contra o grande, mas somente contra o rei de Israel."
+            },
+            {
+              "verse": 32,
+              "text": "Sucedeu que, vendo os capitães dos carros a Josafá, disseram: Certamente este é o rei de Israel. E se desviaram para pelejar contra ele; e Josafá clamou."
+            },
+            {
+              "verse": 33,
+              "text": "E aconteceu que, percebendo os capitães dos carros que não era o rei de Israel, deixaram de persegui-lo."
+            },
+            {
+              "verse": 34,
+              "text": "Certo homem tencionou o arco ao acaso e feriu o rei de Israel entre as juntas da armadura; pelo que disse ao seu cocheiro: Volta a mão e tira-me do combate, porque estou ferido."
+            },
+            {
+              "verse": 35,
+              "text": "E a batalha aumentou naquele dia; e o rei ficou em pé no seu carro contra os sírios, e morreu à tarde; e o sangue escorreu da ferida para o meio do carro."
+            },
+            {
+              "verse": 36,
+              "text": "E houve uma proclamação por todo o exército sobre o pôr do sol, dizendo: Cada homem para a sua cidade, e cada homem para a sua terra."
+            },
+            {
+              "verse": 37,
+              "text": "Morreu, pois, o rei e foi levado para Samaria; e sepultaram o rei em Samaria."
+            },
+            {
+              "verse": 38,
+              "text": "Lavam-se os carros no tanque de Samaria, e os cães lamberam o seu sangue, e as suas armas lavaram, conforme a palavra do Senhor que falara."
+            },
+            {
+              "verse": 39,
+              "text": "Ora, o restante dos atos de Acabe, e tudo o que ele fez, e a casa de marfim que construiu, e todas as cidades que edificou, porventura não estão escritos no livro das crônicas dos reis de Israel?"
+            },
+            {
+              "verse": 40,
+              "text": "Assim Acabe dormiu com seus pais; e Acazias, seu filho, reinou em seu lugar."
+            },
+            {
+              "verse": 41,
+              "text": "E Josafá, filho de Asa, começou a reinar sobre Judá no quarto ano de Acabe, rei de Israel."
+            },
+            {
+              "verse": 42,
+              "text": "Tinha Josafá trinta e cinco anos quando começou a reinar, e reinou vinte e cinco anos em Jerusalém; e o nome de sua mãe era Azuba, filha de Sili."
+            },
+            {
+              "verse": 43,
+              "text": "Andou em todo o caminho de Asa, seu pai, não se desviando dele, fazendo o que era reto aos olhos do Senhor; contudo, os altos não foram tirados, porque o povo ainda oferecia sacrifícios e queimava incenso neles."
+            },
+            {
+              "verse": 44,
+              "text": "E Josafá fez paz com o rei de Israel."
+            },
+            {
+              "verse": 45,
+              "text": "Ora, o restante dos atos de Josafá, e o poder que demonstrou, e como guerreou, porventura não estão escritos no livro das crônicas dos reis de Judá?"
+            },
+            {
+              "verse": 46,
+              "text": "E o restante dos sodomitas, que permaneceu nos dias de seu pai Asa, ele tirou da terra."
+            },
+            {
+              "verse": 47,
+              "text": "Não havia então nenhum rei em Edom: um deputado era rei."
+            },
+            {
+              "verse": 48,
+              "text": "Josafá fez navios de Társis irem a Ofir em busca de ouro; mas eles não foram; pois os navios foram quebrados em Eziom-Géber."
+            },
+            {
+              "verse": 49,
+              "text": "Então disse Acazias, filho de Acabe, a Josafá: Deixa os meus servos irem com os teus servos nos navios. Mas Josafá não quis."
+            },
+            {
+              "verse": 50,
+              "text": "E Josafá dormiu com seus pais, e foi sepultado com eles na cidade de Davi, seu pai; e Jorão, seu filho, reinou em seu lugar."
+            },
+            {
+              "verse": 51,
+              "text": "Acazias, filho de Acabe, começou a reinar sobre Israel em Samaria, no décimo sétimo ano de Josafá, rei de Judá, e reinou dois anos sobre Israel."
+            },
+            {
+              "verse": 52,
+              "text": "E fez o que era mau aos olhos do Senhor, e andou no caminho de seu pai, e no caminho de sua mãe, e no caminho de Jeroboão, filho de Nebate, que fez pecar Israel."
+            },
+            {
+              "verse": 53,
+              "text": "Porque ele serviu a Baal, e o adorou, e provocou a ira do Senhor, Deus de Israel, conforme tudo o que seu pai tinha feito."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

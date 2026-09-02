@@ -1,0 +1,3925 @@
+{
+  "version": "KJVT",
+  "translation": "King James Version Traduzida",
+  "books": [
+    {
+      "abbrev": "1cr",
+      "name": "1 Crônicas",
+      "chapters": [
+        {
+          "chapter": 1,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Adão, Sete, Enos,"
+            },
+            {
+              "verse": 2,
+              "text": "Quenã, Malaleel, Jerede,"
+            },
+            {
+              "verse": 3,
+              "text": "Enoque, Matusalém, Lameque,"
+            },
+            {
+              "verse": 4,
+              "text": "Noé, Sem, Cão e Jafé."
+            },
+            {
+              "verse": 5,
+              "text": "Os filhos de Jafé: Gomer, e Magogue, e Madai, e Javã, e Tubal, e Meseque, e Tiras."
+            },
+            {
+              "verse": 6,
+              "text": "E os filhos de Gômer: Asquenaz, Rifate e Togarma."
+            },
+            {
+              "verse": 7,
+              "text": "E os filhos de Javã: Elisá, e Társis, Quitim e Dodanim."
+            },
+            {
+              "verse": 8,
+              "text": "Os filhos de Cão: Cuxe, e Mizraim, Put e Canaã."
+            },
+            {
+              "verse": 9,
+              "text": "E os filhos de Cuxe: Sebá, e Havilá, e Sabta, e Raamá, e Sabtecha. E os filhos de Raamá: Sabá e Dedã."
+            },
+            {
+              "verse": 10,
+              "text": "E Cuxe gerou Nimrod: ele começou a ser poderoso na terra."
+            },
+            {
+              "verse": 11,
+              "text": "E Mizraim gerou Ludim, e Anamim, e Lehabim, e Naftuhim,"
+            },
+            {
+              "verse": 12,
+              "text": "E Patrusim, e Casluhim, (dos quais vieram os filisteus), e Cafthorim."
+            },
+            {
+              "verse": 13,
+              "text": "E Canaã gerou a Sidom, seu primogênito, e a Hete,"
+            },
+            {
+              "verse": 14,
+              "text": "Também os jebuseus, e os amorreus, e os girgaseus,"
+            },
+            {
+              "verse": 15,
+              "text": "E o heveu, e o arquita, e o sineu,"
+            },
+            {
+              "verse": 16,
+              "text": "E o arvadita, e o zemareu, e o hamateu."
+            },
+            {
+              "verse": 17,
+              "text": "Os filhos de Sem: Elam, e Assur, e Arfaxade, e Lud, e Aram, e Uz, e Hul, e Geter, e Meseque."
+            },
+            {
+              "verse": 18,
+              "text": "E Arfaxade gerou Selá, e Selá gerou Éber."
+            },
+            {
+              "verse": 19,
+              "text": "E a Éber nasceram dois filhos: o nome de um era Pelegue; porque nos seus dias a terra foi dividida; e o nome de seu irmão era Joctã."
+            },
+            {
+              "verse": 20,
+              "text": "E Joctã gerou Almodad, e Sheleph, e Hazarmaveth, e Jerah,"
+            },
+            {
+              "verse": 21,
+              "text": "Hadoram também, e Uzal, e Diklah,"
+            },
+            {
+              "verse": 22,
+              "text": "E Ebal, e Abimael, e Sabá,"
+            },
+            {
+              "verse": 23,
+              "text": "E Ofir, e Havilá, e Jobabe. Todos estes foram filhos de Joctã."
+            },
+            {
+              "verse": 24,
+              "text": "Sem, Arfaxade, Selá,"
+            },
+            {
+              "verse": 25,
+              "text": "Éber, Pelegue, Reu,"
+            },
+            {
+              "verse": 26,
+              "text": "Serugue, Naor, Terá,"
+            },
+            {
+              "verse": 27,
+              "text": "Abrão; o mesmo é Abraão."
+            },
+            {
+              "verse": 28,
+              "text": "Os filhos de Abraão: Isaque e Ismael."
+            },
+            {
+              "verse": 29,
+              "text": "Estas são as suas gerações: o primogênito de Ismael, Nebaiote; depois Quedar, e Adbeel, e Mibsam,"
+            },
+            {
+              "verse": 30,
+              "text": "Mishma e Dumah, Massa, Hadade e Tema,"
+            },
+            {
+              "verse": 31,
+              "text": "Jetur, Nafis e Quedemá. Estes são os filhos de Ismael."
+            },
+            {
+              "verse": 32,
+              "text": "Ora, os filhos de Quetura, concubina de Abraão: ela deu à luz Zinrã, Jocsã, Medã, Midiã, Isbaque e Sua. E os filhos de Jocsã: Sabá e Dedã."
+            },
+            {
+              "verse": 33,
+              "text": "E os filhos de Midiã; Efá, e Éfer, e Enoque, e Abida, e Eldaá. Todos estes são filhos de Quetura."
+            },
+            {
+              "verse": 34,
+              "text": "E Abraão gerou Isaque. Os filhos de Isaque: Esaú e Israel."
+            },
+            {
+              "verse": 35,
+              "text": "Os filhos de Esaú: Elifaz, Reuel, e Jeús, e Jaalão, e Corá."
+            },
+            {
+              "verse": 36,
+              "text": "Os filhos de Elifaz: Temã, e Omar, Zefi, e Gatam, Quenaz, e Timna, e Amaleque."
+            },
+            {
+              "verse": 37,
+              "text": "Os filhos de Reuel: Naate, Zerá, Samá e Mizá."
+            },
+            {
+              "verse": 38,
+              "text": "E os filhos de Seir: Lotã, e Sobal, e Zibeão, e Aná, e Disom, e Ézer, e Disã."
+            },
+            {
+              "verse": 39,
+              "text": "E os filhos de Lotã: Hori e Homã: e Timna era irmã de Lotã."
+            },
+            {
+              "verse": 40,
+              "text": "Os filhos de Sobal: Alian, e Manaate, e Ebal, Sefi e Onã. E os filhos de Zibeão: Aiá e Aná."
+            },
+            {
+              "verse": 41,
+              "text": "Os filhos de Aná: Desom. E os filhos de Dison: Anrã, Esbã, Itrã e Querã."
+            },
+            {
+              "verse": 42,
+              "text": "Os filhos de Ézer: Bilã, e Zavã, e Jacã. Os filhos de Disã: Uz e Arã."
+            },
+            {
+              "verse": 43,
+              "text": "Ora, estes são os reis que reinaram na terra de Edom antes que qualquer rei reinasse sobre os filhos de Israel; Bela, filho de Beor; e o nome da sua cidade era Dinabá."
+            },
+            {
+              "verse": 44,
+              "text": "E quando Bela morreu, Jobabe, filho de Zerá de Bozra, reinou em seu lugar."
+            },
+            {
+              "verse": 45,
+              "text": "E quando Jobabe morreu, Husão, da terra dos temanitas, reinou em seu lugar."
+            },
+            {
+              "verse": 46,
+              "text": "E quando Husão morreu, Hadade, filho de Bedad, que feriu Midiã no campo de Moabe, reinou em seu lugar; e o nome da sua cidade era Avite."
+            },
+            {
+              "verse": 47,
+              "text": "E quando Hadade morreu, Samlá de Masreca reinou em seu lugar."
+            },
+            {
+              "verse": 48,
+              "text": "E quando Samlá morreu, Saul de Reobote, junto ao rio, reinou em seu lugar."
+            },
+            {
+              "verse": 49,
+              "text": "E quando Saul morreu, Baal-Hanã, filho de Acbor, reinou em seu lugar."
+            },
+            {
+              "verse": 50,
+              "text": "E quando Baal-Hanã morreu, Hadade reinou em seu lugar; e o nome da sua cidade era Pai; e o nome de sua mulher era Mehetabel, filha de Matred, filha de Mezahab."
+            },
+            {
+              "verse": 51,
+              "text": "Hadade também morreu. E estes foram os chefes de Edom: o chefe Timna, o chefe Alua, o chefe Jetete,"
+            },
+            {
+              "verse": 52,
+              "text": "O chefe Aholibamah, o chefe Elah, o chefe Pinon,"
+            },
+            {
+              "verse": 53,
+              "text": "O chefe Kenaz, o chefe Teman, o chefe Mibzar,"
+            },
+            {
+              "verse": 54,
+              "text": "O chefe Magdiel, o chefe Iram. Estes são os chefes de Edom."
+            }
+          ]
+        },
+        {
+          "chapter": 2,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Estes são os filhos de Israel; Rúben, Simeão, Levi e Judá, Issacar e Zebulom,"
+            },
+            {
+              "verse": 2,
+              "text": "Dã, José e Benjamim, Naftali, Gade e Aser."
+            },
+            {
+              "verse": 3,
+              "text": "Os filhos de Judá: Er, e Onã, e Selá: os quais três lhe nasceram da filha de Sua, a cananeia. E Er, o primogênito de Judá, era mau aos olhos do Senhor; e ele o matou."
+            },
+            {
+              "verse": 4,
+              "text": "E Tamar, sua nora, lhe deu Perez e Zerá. Todos os filhos de Judá foram cinco."
+            },
+            {
+              "verse": 5,
+              "text": "Os filhos de Perez: Hezrom e Hamul."
+            },
+            {
+              "verse": 6,
+              "text": "E os filhos de Zerá: Zinri, e Etã, e Hemã, e Calcol, e Dara: cinco deles ao todo."
+            },
+            {
+              "verse": 7,
+              "text": "E os filhos de Carmi: Acã, o perturbador de Israel, que transgrediu na coisa amaldiçoada."
+            },
+            {
+              "verse": 8,
+              "text": "E os filhos de Etã: Azarias."
+            },
+            {
+              "verse": 9,
+              "text": "Também os filhos de Hezrom, que lhe nasceram: Jerameel, e Ram, e Chelubai."
+            },
+            {
+              "verse": 10,
+              "text": "E Ram gerou Aminadab, e Aminadabe gerou a Naassom, príncipe dos filhos de Judá;"
+            },
+            {
+              "verse": 11,
+              "text": "E Naassom gerou Salma, e Salma gerou Boaz,"
+            },
+            {
+              "verse": 12,
+              "text": "E Boaz gerou Obede, e Obede gerou Jessé,"
+            },
+            {
+              "verse": 13,
+              "text": "E Jessé gerou o seu primogênito Eliabe, e Abinadabe o segundo, e Simma o terceiro,"
+            },
+            {
+              "verse": 14,
+              "text": "Netanel o quarto, Radai o quinto,"
+            },
+            {
+              "verse": 15,
+              "text": "Ozem o sexto, Davi o sétimo:"
+            },
+            {
+              "verse": 16,
+              "text": "Cujas irmãs eram Zeruia e Abigail. E os filhos de Zeruia: Abisai, Joabe e Asael, três."
+            },
+            {
+              "verse": 17,
+              "text": "E Abigail deu à luz Amasa; e o pai de Amasa foi Jeter, o ismaelita."
+            },
+            {
+              "verse": 18,
+              "text": "E Calebe, filho de Hezrom, gerou filhos de Azuba, sua mulher, e de Jeriote; Jeser, e Sobabe, e Ardom."
+            },
+            {
+              "verse": 19,
+              "text": "E quando Azuba morreu, Calebe tomou para si Efrata, que lhe deu Hur."
+            },
+            {
+              "verse": 20,
+              "text": "E Hur gerou Uri, e Uri gerou Bezaleel."
+            },
+            {
+              "verse": 21,
+              "text": "E depois Hezrom entrou para a filha de Maquir, pai de Gileade, com quem se casou quando tinha sessenta anos; e ela lhe deu Segub."
+            },
+            {
+              "verse": 22,
+              "text": "E Segube gerou a Jair, que tinha vinte e três cidades na terra de Gileade."
+            },
+            {
+              "verse": 23,
+              "text": "E ele tomou Gesur e Aram, com as cidades de Jair, deles, com Quenate, e as suas aldeias, até sessenta cidades. Todos estes pertenceram aos filhos de Maquir, pai de Gileade."
+            },
+            {
+              "verse": 24,
+              "text": "E depois que Hezrom morreu em Calebe-Efrata, Abia, mulher de Hezrom, deu-lhe à luz Asur, pai de Tecoa."
+            },
+            {
+              "verse": 25,
+              "text": "E os filhos de Jerameel, o primogênito de Hezrom, foram: Ram, o primogênito, e Buna, e Oren, e Ozem, e Aías."
+            },
+            {
+              "verse": 26,
+              "text": "Jerameel também teve outra esposa, cujo nome era Atarah; ela era a mãe de Onam."
+            },
+            {
+              "verse": 27,
+              "text": "E os filhos de Ram, o primogênito de Jerameel, foram Maaz, e Jamim, e Equer."
+            },
+            {
+              "verse": 28,
+              "text": "E os filhos de Onã foram Samai e Jada. E os filhos de Samai: Nadabe e Abisur."
+            },
+            {
+              "verse": 29,
+              "text": "E o nome da mulher de Abisur era Abiail, e ela lhe deu à luz Aãbã e Molid."
+            },
+            {
+              "verse": 30,
+              "text": "E os filhos de Nadabe: Seled e Apaim; mas Seled morreu sem filhos."
+            },
+            {
+              "verse": 31,
+              "text": "E os filhos de Apaim: Isi. E os filhos de Isi: Sesã. E os filhos de Sesã: Alai."
+            },
+            {
+              "verse": 32,
+              "text": "E os filhos de Jada, irmão de Samai: Jeter e Jônatas: e Jeter morreu sem filhos."
+            },
+            {
+              "verse": 33,
+              "text": "E os filhos de Jônatas: Pelete e Zaza. Estes foram os filhos de Jerameel."
+            },
+            {
+              "verse": 34,
+              "text": "Ora, Sesã não tinha filhos, mas filhas; e Sesã tinha um servo, um egípcio, cujo nome era Jará."
+            },
+            {
+              "verse": 35,
+              "text": "E Sesã deu sua filha a Jará, seu servo, por esposa; e ela lhe deu Atai."
+            },
+            {
+              "verse": 36,
+              "text": "E Atai gerou Natã, e Natã gerou Zabad,"
+            },
+            {
+              "verse": 37,
+              "text": "E Zabad gerou a Efal, e Efal gerou a Obede,"
+            },
+            {
+              "verse": 38,
+              "text": "E Obede gerou a Jeú, e Jeú gerou a Azarias,"
+            },
+            {
+              "verse": 39,
+              "text": "E Azarias gerou a Helez, e Helez gerou a Eleasá,"
+            },
+            {
+              "verse": 40,
+              "text": "E Eleasá gerou Sisamai, e Sisamai gerou Salum,"
+            },
+            {
+              "verse": 41,
+              "text": "E Salum gerou a Jecamias, e Jecamias gerou a Elisama."
+            },
+            {
+              "verse": 42,
+              "text": "Ora, foram os filhos de Calebe, irmão de Jerameel: Mesa, seu primogênito, que gerou Zife; e os filhos de Maressa, pai de Hebrom."
+            },
+            {
+              "verse": 43,
+              "text": "E os filhos de Hebrom: Corá, e Tapua, e Requém, e Sema."
+            },
+            {
+              "verse": 44,
+              "text": "E Sema gerou Raã, pai de Jorqueão; e Requém gerou Samai."
+            },
+            {
+              "verse": 45,
+              "text": "E o filho de Samai foi Maon: e Maon foi o pai de Bete-Zur."
+            },
+            {
+              "verse": 46,
+              "text": "E Efá, concubina de Calebe, deu à luz Harã, e Moza, e Gazez: e Harã gerou Gazez."
+            },
+            {
+              "verse": 47,
+              "text": "E os filhos de Jadai: Regem, e Jotão, e Gesã, e Pelete, e Efá, e Saafe."
+            },
+            {
+              "verse": 48,
+              "text": "Maaca, concubina de Calebe, deu à luz Seber e Tirana."
+            },
+            {
+              "verse": 49,
+              "text": "Ela também deu à luz Safe, pai de Madmena, Seva, pai de Macbena, e pai de Gibeá; e a filha de Calebe foi Acsa."
+            },
+            {
+              "verse": 50,
+              "text": "Estes foram os filhos de Calebe, filho de Hur, o primogênito de Efrata; Sobal, pai de Quiriate-Jearim,"
+            },
+            {
+              "verse": 51,
+              "text": "Salma, pai de Belém, Hareph, pai de Bete-Gader."
+            },
+            {
+              "verse": 52,
+              "text": "E Sobal, pai de Quiriate-Jearim, teve filhos: Haroé e metade dos manaatitas."
+            },
+            {
+              "verse": 53,
+              "text": "E as famílias de Quiriate-Jearim: os itritas, os puitas, os sumatitas e os misraítas; deles vieram os zaratitas e os estaulitas."
+            },
+            {
+              "verse": 54,
+              "text": "Os filhos de Salma: Belém, os netofatitas, Atarote, a casa de Joabe, e metade dos manaatitas, os zoreus."
+            },
+            {
+              "verse": 55,
+              "text": "E as famílias dos escribas que habitavam em Jabez; os tiratitas, os simeatitas e os susatitas. Estes são os queneus que vieram de Hemate, pai da casa de Recabe."
+            }
+          ]
+        },
+        {
+          "chapter": 3,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Ora, estes foram os filhos de Davi, que lhe nasceram em Hebrom: o primogênito Amnom, de Ainoã, a jezreelita; o segundo Daniel, de Abigail, a Carmelita."
+            },
+            {
+              "verse": 2,
+              "text": "O terceiro, Absalão, filho de Maaca, filha de Talmai, rei de Gesur; o quarto, Adonias, filho de Hagite."
+            },
+            {
+              "verse": 3,
+              "text": "O quinto, Sefatias de Abital; o sexto, Itreão, de Eglá, sua esposa."
+            },
+            {
+              "verse": 4,
+              "text": "Estes seis lhe nasceram em Hebrom; e ali reinou sete anos e seis meses; e em Jerusalém reinou trinta e três anos."
+            },
+            {
+              "verse": 5,
+              "text": "E estes lhe nasceram em Jerusalém; Siméia, e Sobabe, e Natã, e Salomão, quatro, de Bate-Sua, filha de Amiel:"
+            },
+            {
+              "verse": 6,
+              "text": "Ibar também, e Elisama, e Elifelete,"
+            },
+            {
+              "verse": 7,
+              "text": "E Noga, e Nefeg, e Jafia,"
+            },
+            {
+              "verse": 8,
+              "text": "E Elisama, e Eliada, e Elifelete, nove."
+            },
+            {
+              "verse": 9,
+              "text": "Estes foram todos os filhos de Davi, além dos filhos das concubinas, e Tamar, sua irmã."
+            },
+            {
+              "verse": 10,
+              "text": "E o filho de Salomão foi Roboão, de quem foi filho Abia, de quem foi filho Asa, de quem foi filho Josafá,"
+            },
+            {
+              "verse": 11,
+              "text": "Jorão, seu filho, Acazias, seu filho, Joás, seu filho,"
+            },
+            {
+              "verse": 12,
+              "text": "Amazias, seu filho, Azarias, seu filho, Jotão, seu filho,"
+            },
+            {
+              "verse": 13,
+              "text": "Acaz, seu filho, Ezequias, seu filho, Manassés, seu filho,"
+            },
+            {
+              "verse": 14,
+              "text": "Amom, seu filho, Josias, seu filho."
+            },
+            {
+              "verse": 15,
+              "text": "E foram os filhos de Josias: o primogênito Joanã, o segundo Jeoiaquim, o terceiro Zedequias, o quarto Salum."
+            },
+            {
+              "verse": 16,
+              "text": "E os filhos de Jeoaquim: seu filho Jeconias, seu filho Zedequias."
+            },
+            {
+              "verse": 17,
+              "text": "E os filhos de Jeconias: Assir, Salatiel seu filho,"
+            },
+            {
+              "verse": 18,
+              "text": "Malquirão também, e Pedaías, e Senazar, Jecamias, Hosama e Nedabias."
+            },
+            {
+              "verse": 19,
+              "text": "E os filhos de Pedaías foram Zorobabel e Simei; e os filhos de Zorobabel: Mesulão, e Hananias, e Selomite, sua irmã;"
+            },
+            {
+              "verse": 20,
+              "text": "E Hasubá, e Oel, e Berequias, e Hasadias, e Jusabe-Hesed, cinco."
+            },
+            {
+              "verse": 21,
+              "text": "E os filhos de Hananias; Pelatias e Jesaías: os filhos de Refaías, os filhos de Arnan, os filhos de Obadias, os filhos de Secanias."
+            },
+            {
+              "verse": 22,
+              "text": "E os filhos de Secanias: Semaías; e os filhos de Semaías: Hatus, e Igeal, e Barias, e Nearias, e Safate, seis."
+            },
+            {
+              "verse": 23,
+              "text": "E os filhos de Nearias: Elioenai, e Ezequias, e Azricão, três."
+            },
+            {
+              "verse": 24,
+              "text": "E os filhos de Elioenai foram Hodaías, e Eliasibe, e Pelaías, e Acube, e Joanã, e Dalaías, e Anani, sete."
+            }
+          ]
+        },
+        {
+          "chapter": 4,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Os filhos de Judá: Perez, Hezrom, Carmi, Hur e Sobal."
+            },
+            {
+              "verse": 2,
+              "text": "E Reaías, filho de Sobal, gerou a Jaate; e Jaate gerou a Ahumai e a Lahad. Estas são as famílias dos zoratitas."
+            },
+            {
+              "verse": 3,
+              "text": "E estes foram os filhos do pai de Etam: Jezreel, Isma, Idbas; e o nome de sua irmã era Hazelelponi:"
+            },
+            {
+              "verse": 4,
+              "text": "E Penuel, pai de Gedor, e Ézer, pai de Husá. Estes são os filhos de Hur, o primogênito de Efrata, pai de Belém."
+            },
+            {
+              "verse": 5,
+              "text": "E Asur, pai de Tecoa, tinha duas mulheres: Helá e Naará."
+            },
+            {
+              "verse": 6,
+              "text": "E Naará lhe deu à luz Acuzã, Héfer, Temêni e Haahashtari. Estes foram os filhos de Naará."
+            },
+            {
+              "verse": 7,
+              "text": "E os filhos de Helá foram Zerete, Jezoar e Etnã."
+            },
+            {
+              "verse": 8,
+              "text": "E Coz gerou a Anub, a Zobeba e as famílias de Aarel, filho de Harum."
+            },
+            {
+              "verse": 9,
+              "text": "E Jabez era mais honrado do que seus irmãos; e sua mãe chamou o seu nome de Jabez, dizendo: Porque com tristeza o dei à luz."
+            },
+            {
+              "verse": 10,
+              "text": "E Jabez invocou o Deus de Israel, dizendo: Oh, que me abençoes verdadeiramente, e alargues a minha costa, e que a tua mão esteja comigo, e que me protejas do mal, para que não me entristeça! E Deus lhe concedeu o que ele pediu."
+            },
+            {
+              "verse": 11,
+              "text": "E Quelube, irmão de Sua, gerou a Mehir, que foi o pai de Estom."
+            },
+            {
+              "verse": 12,
+              "text": "E Estom gerou a Bete-Rafa, a Paseá e a Teina, pai de Ir-Naás. Estes são os homens de Recá."
+            },
+            {
+              "verse": 13,
+              "text": "E os filhos de Quenaz: Otniel e Seraías; e os filhos de Otniel: Hatate."
+            },
+            {
+              "verse": 14,
+              "text": "E Meonotai gerou a Ofra; e Seraías gerou a Joabe, pai do vale de Carasim; pois eles eram artesãos."
+            },
+            {
+              "verse": 15,
+              "text": "E os filhos de Calebe, filho de Jefoné: Iru, Elá e Naam; e o filho de Elá foi Quenaz."
+            },
+            {
+              "verse": 16,
+              "text": "E os filhos de Jealelel: Zife, Zifa, Tiria e Asareel."
+            },
+            {
+              "verse": 17,
+              "text": "E os filhos de Esdras foram: Jeter, Mered, Éfer e Jalon; e ela deu à luz Miriã, Samai e Isbá, pai de Estemoa."
+            },
+            {
+              "verse": 18,
+              "text": "E Jeudias, sua mulher, deu à luz a Jerede, pai de Gedor, e a Héber, pai de Socó, e a Jecutiel, pai de Zanoa. E estes são os filhos de Bitias, filha de Faraó, que Mered tomou."
+            },
+            {
+              "verse": 19,
+              "text": "E os filhos da mulher de Hodias, irmã de Naão, foram o pai de Queila, o garmita, e Estemoa, o maacatita."
+            },
+            {
+              "verse": 20,
+              "text": "E os filhos de Simom foram Amnom e Rina, Ben-Hanã e Tilon. E os filhos de Isi foram Zoete e Ben-Zoete."
+            },
+            {
+              "verse": 21,
+              "text": "Os filhos de Selá, filho de Judá, foram Er, pai de Leca, e Laada, pai de Maressa, e as famílias da casa dos que trabalhavam em linho fino, da casa de Asbea,"
+            },
+            {
+              "verse": 22,
+              "text": "E Joquim, os homens de Cozeba, Joás e Sarafe, que dominavam em Moabe, e Jasubi-Leém; e estas são coisas antigas."
+            },
+            {
+              "verse": 23,
+              "text": "Estes eram os oleiros e os que habitavam entre as plantas e as sebes: ali habitavam com o rei para o seu trabalho."
+            },
+            {
+              "verse": 24,
+              "text": "Os filhos de Simeão foram Nemuel, Jamim, Jarib, Zerá e Saul:"
+            },
+            {
+              "verse": 25,
+              "text": "Salum, seu filho, Mibsão, seu filho, Mishma, seu filho."
+            },
+            {
+              "verse": 26,
+              "text": "E os filhos de Misma: Hamuel, seu filho; Zacur, seu filho; Simei, seu filho."
+            },
+            {
+              "verse": 27,
+              "text": "E Simei teve dezesseis filhos e seis filhas; mas seus irmãos não tiveram muitos filhos, nem toda a sua família se multiplicou, como os filhos de Judá."
+            },
+            {
+              "verse": 28,
+              "text": "E habitaram em Berseba, e Moladá, e Hazar-Sual,"
+            },
+            {
+              "verse": 29,
+              "text": "E em Bilá, e em Ezem, e em Tolad,"
+            },
+            {
+              "verse": 30,
+              "text": "E em Betuel, e em Hormá, e em Ziclague,"
+            },
+            {
+              "verse": 31,
+              "text": "E em Bete-Marcabote, e em Hazar-Susim, e em Bete-Birei, e em Saaraim. Estas foram as suas cidades até o reinado de Davi."
+            },
+            {
+              "verse": 32,
+              "text": "E as suas aldeias foram: Etam, Aim, Rimom, Tochen e Asã, cinco cidades:"
+            },
+            {
+              "verse": 33,
+              "text": "E todas as suas aldeias que estavam ao redor das mesmas cidades, até Baal. Estas foram suas habitações e sua genealogia."
+            },
+            {
+              "verse": 34,
+              "text": "E Mesobabe, e Jamleque, e Josá, filho de Amazias,"
+            },
+            {
+              "verse": 35,
+              "text": "E Joel, e Jeú, filho de Josibias, filho de Seraías, filho de Asiel,"
+            },
+            {
+              "verse": 36,
+              "text": "E Elioenai, e Jaacoba, e Jesoaías, e Asaías, e Adiel, e Jesimiel, e Benaías,"
+            },
+            {
+              "verse": 37,
+              "text": "E Ziza, filho de Sifi, filho de Alom, filho de Jedaías, filho de Sinri, filho de Semaías;"
+            },
+            {
+              "verse": 38,
+              "text": "Estes mencionados pelos seus nomes eram príncipes nas suas famílias; e a casa de seus pais aumentou grandemente."
+            },
+            {
+              "verse": 39,
+              "text": "E eles foram até a entrada de Gedor, até o lado leste do vale, em busca de pasto para seus rebanhos."
+            },
+            {
+              "verse": 40,
+              "text": "E encontraram pastos bons e abundantes, e a terra era ampla, tranquila e pacífica; porque os de Cão habitaram lá desde a antiguidade."
+            },
+            {
+              "verse": 41,
+              "text": "E estes, escritos por nome, vieram nos dias de Ezequias, rei de Judá, e destruíram as suas tendas e as habitações que ali se encontravam, e os destruíram totalmente até ao dia de hoje, e habitaram nos seus aposentos, porque ali havia pastagens para os seus rebanhos."
+            },
+            {
+              "verse": 42,
+              "text": "E alguns deles, dos filhos de Simeão, quinhentos homens, foram ao monte Seir, tendo por capitães Pelatias, Nearias, Refaías e Uziel, filhos de Isi."
+            },
+            {
+              "verse": 43,
+              "text": "E feriram o restante dos amalequitas que escaparam, e habitaram ali até o dia de hoje."
+            }
+          ]
+        },
+        {
+          "chapter": 5,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Ora, os filhos de Rúben, o primogênito de Israel (pois ele era o primogênito, mas, visto que contaminou o leito de seu pai, sua primogenitura foi dada aos filhos de José, filho de Israel; e a genealogia não deve ser contada segundo a primogenitura),"
+            },
+            {
+              "verse": 2,
+              "text": "Pois Judá prevaleceu sobre seus irmãos, e dele veio o governante principal; mas o direito de primogenitura era de José:)"
+            },
+            {
+              "verse": 3,
+              "text": "Os filhos de Rúben, o primogênito de Israel, foram: Enoque, Palu, Hezrom e Carmi."
+            },
+            {
+              "verse": 4,
+              "text": "Os filhos de Joel: Seu filho Semaías, seu filho Gogue, seu filho Simei,"
+            },
+            {
+              "verse": 5,
+              "text": "Seu filho Miquéias, seu filho Reaia, seu filho Baal,"
+            },
+            {
+              "verse": 6,
+              "text": "Beera, seu filho, a quem Tilgate-Pilneser, rei da Assíria, levou cativo; ele era príncipe dos rubenitas."
+            },
+            {
+              "verse": 7,
+              "text": "E seus irmãos, segundo as suas famílias, quando foi contada a genealogia das suas gerações, foram os chefes, Jeiel e Zacarias,"
+            },
+            {
+              "verse": 8,
+              "text": "E Bela, filho de Azaz, filho de Semá, filho de Joel, que habitou em Aroer, até Nebo e Baal-Meon:"
+            },
+            {
+              "verse": 9,
+              "text": "E habitou para o oriente, até à entrada do deserto, desde o rio Eufrates; porque o seu gado se multiplicou na terra de Gileade."
+            },
+            {
+              "verse": 10,
+              "text": "E nos dias de Saul fizeram guerra aos hagareus, que caíram pelas suas mãos; e habitaram nas suas tendas por toda a terra oriental de Gileade."
+            },
+            {
+              "verse": 11,
+              "text": "E os filhos de Gade habitaram defronte deles, na terra de Basã, até Salcha:"
+            },
+            {
+              "verse": 12,
+              "text": "Joel, o chefe, e Safã, o segundo, e Jaanai, e Safate em Basã."
+            },
+            {
+              "verse": 13,
+              "text": "E seus irmãos da casa de seus pais foram, Miguel, e Mesulão, e Sabá, e Jorai, e Jacã, e Zia, e Héber, sete."
+            },
+            {
+              "verse": 14,
+              "text": "Estes são os filhos de Abiail, filho de Huri, filho de Jaroá, filho de Gileade, filho de Miguel, filho de Jesisai, filho de Jado, filho de Buz,"
+            },
+            {
+              "verse": 15,
+              "text": "Ahi, filho de Abdiel, filho de Guni, foi o chefe da casa de seus pais."
+            },
+            {
+              "verse": 16,
+              "text": "E habitaram em Gileade, em Basã, e nas suas cidades, e em todos os subúrbios de Sarom, nos seus termos."
+            },
+            {
+              "verse": 17,
+              "text": "Todos estes foram contados por genealogias nos dias de Jotão, rei de Judá, e nos dias de Jeroboão, rei de Israel."
+            },
+            {
+              "verse": 18,
+              "text": "Os filhos de Rúben, e dos gaditas, e meia tribo de Manassés, homens valentes, homens capazes de portar escudo e espada, e de atirar com arco, e hábeis na guerra, foram quarenta e quatro mil setecentos e sessenta, que saíram à guerra."
+            },
+            {
+              "verse": 19,
+              "text": "E fizeram guerra aos hagaritas, a Jetur, e a Néfis, e a Nodabe."
+            },
+            {
+              "verse": 20,
+              "text": "E foram ajudados contra eles, e os hagareus foram entregues nas suas mãos, e todos os que com eles estavam, porque clamaram a Deus na batalha, e ele lhes deu ouvido, porquanto depositaram nele a sua confiança."
+            },
+            {
+              "verse": 21,
+              "text": "E eles levaram o seu gado; dos seus camelos, cinquenta mil, e das ovelhas, duzentos e cinquenta mil, e dos jumentos, dois mil, e dos homens, cem mil."
+            },
+            {
+              "verse": 22,
+              "text": "Pois caíram muitos mortos, porque a guerra era de Deus. E eles habitaram em seus lugares até o cativeiro."
+            },
+            {
+              "verse": 23,
+              "text": "E os filhos da meia tribo de Manassés habitaram na terra; multiplicaram-se desde Basã até Baal-Hermom e Senir, e até ao monte Hermom."
+            },
+            {
+              "verse": 24,
+              "text": "Estes foram os chefes da casa de seus pais: Éfer, Isi, Eliel, Azriel, Jeremias, Hodavias e Jadiel; homens valentes, homens famosos e chefes da casa de seus pais."
+            },
+            {
+              "verse": 25,
+              "text": "E eles transgrediram contra o Deus de seus pais e se prostituíram após os deuses do povo da terra, a quem Deus destruiu diante deles."
+            },
+            {
+              "verse": 26,
+              "text": "E o Deus de Israel despertou o espírito de Pul, rei da Assíria, e o espírito de Tilgath-Pilneser, rei da Assíria, e ele os levou embora, até os rubenitas, e os gaditas, e a meia tribo de Manassés, e os trouxe a Halá, e Habor, e Hara, e ao rio Gozan, até o dia de hoje."
+            }
+          ]
+        },
+        {
+          "chapter": 6,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Os filhos de Levi: Gérson, Coate e Merari."
+            },
+            {
+              "verse": 2,
+              "text": "E os filhos de Coate: Amrão, Izar, Hebrom e Uziel."
+            },
+            {
+              "verse": 3,
+              "text": "E os filhos de Anrão: Arão, e Moisés, e Miriã. Os filhos também de Arão: Nadabe, e Abiú, Eleazar e Itamar."
+            },
+            {
+              "verse": 4,
+              "text": "Eleazar gerou Finéias, Finéias gerou Abisua,"
+            },
+            {
+              "verse": 5,
+              "text": "E Abiaú gerou Buqui, e Buqui gerou Uzi,"
+            },
+            {
+              "verse": 6,
+              "text": "E Uzi gerou Zeraías, e Zeraías gerou Meraiote,"
+            },
+            {
+              "verse": 7,
+              "text": "Meraiote gerou Amarias, e Amarias gerou Aitube,"
+            },
+            {
+              "verse": 8,
+              "text": "E Aitube gerou a Zadoque, e Zadoque gerou a Aimaás,"
+            },
+            {
+              "verse": 9,
+              "text": "E Aimaás gerou a Azarias, e Azarias gerou a Joanã,"
+            },
+            {
+              "verse": 10,
+              "text": "E Joanã gerou Azarias (foi ele quem executou o ofício sacerdotal no templo que Salomão construiu em Jerusalém)."
+            },
+            {
+              "verse": 11,
+              "text": "E Azarias gerou Amarias, e Amarias gerou Aitube,"
+            },
+            {
+              "verse": 12,
+              "text": "E Aitube gerou a Zadoque, e Zadoque gerou a Salum,"
+            },
+            {
+              "verse": 13,
+              "text": "E Salum gerou Hilquias, e Hilquias gerou Azarias,"
+            },
+            {
+              "verse": 14,
+              "text": "E Azarias gerou Seraías, e Seraías gerou Jeozadaque,"
+            },
+            {
+              "verse": 15,
+              "text": "E Jozadaque foi para o cativeiro, quando o Senhor levou Judá e Jerusalém pela mão de Nabucodonosor."
+            },
+            {
+              "verse": 16,
+              "text": "Os filhos de Levi: Gérson, Coate e Merari."
+            },
+            {
+              "verse": 17,
+              "text": "E estes são os nomes dos filhos de Gérson: Libni e Simei."
+            },
+            {
+              "verse": 18,
+              "text": "E os filhos de Coate: Anrão, Izar, Hebrom e Uziel."
+            },
+            {
+              "verse": 19,
+              "text": "Os filhos de Merari: Mali e Musi. E estas são as famílias dos levitas segundo seus pais."
+            },
+            {
+              "verse": 20,
+              "text": "De Gérson; seu filho Libni, seu filho Jaate, seu filho Zima,"
+            },
+            {
+              "verse": 21,
+              "text": "Joá, seu filho, Ido, seu filho, Zerá, seu filho, Jeaterai, seu filho."
+            },
+            {
+              "verse": 22,
+              "text": "Os filhos de Coate: Aminadabe, seu filho, Corá, seu filho, Assir, seu filho,"
+            },
+            {
+              "verse": 23,
+              "text": "Elcana, seu filho, e Ebiasafe, seu filho, e Assir, seu filho,"
+            },
+            {
+              "verse": 24,
+              "text": "Taate, seu filho, Uriel, seu filho, Uzias, seu filho, e Saul, seu filho."
+            },
+            {
+              "verse": 25,
+              "text": "E os filhos de Elcana: Amasai e Aimote."
+            },
+            {
+              "verse": 26,
+              "text": "Quanto a Elcana: os filhos de Elcana: Zofai, seu filho, e Naate, seu filho,"
+            },
+            {
+              "verse": 27,
+              "text": "Eliabe, seu filho, Jeroão, seu filho, Elcana, seu filho."
+            },
+            {
+              "verse": 28,
+              "text": "E os filhos de Samuel: o primogênito Vani e Abias."
+            },
+            {
+              "verse": 29,
+              "text": "Os filhos de Merari: Mali, seu filho; Libni, seu filho; Simei, seu filho; Uzá,"
+            },
+            {
+              "verse": 30,
+              "text": "Siméia, seu filho, Hagias, seu filho, Asaías, seu filho."
+            },
+            {
+              "verse": 31,
+              "text": "E estes são os que Davi constituiu como encarregados do cântico na casa do Senhor, depois que a arca descansou."
+            },
+            {
+              "verse": 32,
+              "text": "E ministraram com cânticos diante da habitação da tenda da congregação, até que Salomão edificou a casa do Senhor em Jerusalém; e então serviram no seu ofício conforme a sua ordem."
+            },
+            {
+              "verse": 33,
+              "text": "E estes são os que esperaram com seus filhos. Dos filhos dos coatitas: Hemã, cantor, filho de Joel, filho de Semuel,"
+            },
+            {
+              "verse": 34,
+              "text": "Filho de Elcana, filho de Jeroão, filho de Eliel, filho de Toá,"
+            },
+            {
+              "verse": 35,
+              "text": "Filho de Zufe, filho de Elcana, filho de Maate, filho de Amasai,"
+            },
+            {
+              "verse": 36,
+              "text": "Filho de Elcana, filho de Joel, filho de Azarias, filho de Sofonias,"
+            },
+            {
+              "verse": 37,
+              "text": "Filho de Taate, filho de Assir, filho de Ebiasafe, filho de Corá,"
+            },
+            {
+              "verse": 38,
+              "text": "Filho de Izar, filho de Coate, filho de Levi, filho de Israel."
+            },
+            {
+              "verse": 39,
+              "text": "E Asafe, seu irmão, que estava à sua direita, Asafe, filho de Beraquias, filho de Siméia,"
+            },
+            {
+              "verse": 40,
+              "text": "Filho de Miguel, filho de Baaséias, filho de Malquias,"
+            },
+            {
+              "verse": 41,
+              "text": "Filho de Etni, filho de Zerá, filho de Adaías,"
+            },
+            {
+              "verse": 42,
+              "text": "Filho de Etã, filho de Zima, filho de Simei,"
+            },
+            {
+              "verse": 43,
+              "text": "Filho de Jaate, filho de Gérson, filho de Levi."
+            },
+            {
+              "verse": 44,
+              "text": "E seus irmãos, os filhos de Merari, estavam à esquerda: Etã, filho de Quisi, filho de Abdi, filho de Maluque,"
+            },
+            {
+              "verse": 45,
+              "text": "Filho de Hasabias, filho de Amazias, filho de Hilquias,"
+            },
+            {
+              "verse": 46,
+              "text": "Filho de Amzi, filho de Bani, filho de Samer,"
+            },
+            {
+              "verse": 47,
+              "text": "Filho de Mali, filho de Musi, filho de Merari, filho de Levi."
+            },
+            {
+              "verse": 48,
+              "text": "Seus irmãos também, os levitas, foram designados para todo tipo de serviço no tabernáculo da casa de Deus."
+            },
+            {
+              "verse": 49,
+              "text": "Mas Arão e seus filhos ofereceram sobre o altar do holocausto e sobre o altar do incenso, e foram designados para toda a obra do lugar santíssimo, e para fazerem expiação por Israel, conforme tudo o que Moisés, servo de Deus, ordenara."
+            },
+            {
+              "verse": 50,
+              "text": "E estes são os filhos de Arão: Seu filho Eleazar, seu filho Finéias, seu filho Abisua,"
+            },
+            {
+              "verse": 51,
+              "text": "Seu filho Buqui, seu filho Uzi, seu filho Zeraías,"
+            },
+            {
+              "verse": 52,
+              "text": "Meraiote, seu filho, Amarias, seu filho, Aitube, seu filho,"
+            },
+            {
+              "verse": 53,
+              "text": "Zadoque, seu filho, Aimaás, seu filho."
+            },
+            {
+              "verse": 54,
+              "text": "Ora, estas são as suas moradas nos seus castelos, nos seus termos, dos filhos de Arão, das famílias dos coatitas; porque deles foi a sorte."
+            },
+            {
+              "verse": 55,
+              "text": "E deram-lhes Hebrom, na terra de Judá, e os seus arrabaldes ao redor dela."
+            },
+            {
+              "verse": 56,
+              "text": "Mas os campos da cidade e as suas aldeias deram a Calebe, filho de Jefoné."
+            },
+            {
+              "verse": 57,
+              "text": "E aos filhos de Arão deram as cidades de Judá, a saber, Hebrom, a cidade de refúgio, e Libna com os seus arrabaldes, e Jatir, e Estemoa, com os seus arrabaldes,"
+            },
+            {
+              "verse": 58,
+              "text": "E Hilen com seus subúrbios, Debir com seus subúrbios,"
+            },
+            {
+              "verse": 59,
+              "text": "E Asã com os seus arrabaldes, e Bete-Semes com os seus arrabaldes:"
+            },
+            {
+              "verse": 60,
+              "text": "E da tribo de Benjamim: Geba e os seus arrabaldes, e Alemete com os seus arrabaldes, e Anatote com os seus arrabaldes. Todas as suas cidades, segundo as suas famílias, eram treze."
+            },
+            {
+              "verse": 61,
+              "text": "E aos filhos de Coate, que restaram da família daquela tribo, foram dadas cidades da meia tribo, a saber, da meia tribo de Manassés, por sorteio, dez cidades."
+            },
+            {
+              "verse": 62,
+              "text": "E aos filhos de Gérson, pelas suas famílias, da tribo de Issacar, e da tribo de Aser, e da tribo de Naftali, e da tribo de Manassés em Basã, treze cidades."
+            },
+            {
+              "verse": 63,
+              "text": "Aos filhos de Merari foram dadas por sorte, pelas suas famílias, da tribo de Rúben, e da tribo de Gade, e da tribo de Zebulom, doze cidades."
+            },
+            {
+              "verse": 64,
+              "text": "E os filhos de Israel deram aos levitas estas cidades e os seus subúrbios."
+            },
+            {
+              "verse": 65,
+              "text": "E deram por sorte, da tribo dos filhos de Judá, e da tribo dos filhos de Simeão, e da tribo dos filhos de Benjamim, estas cidades, que são chamadas pelos seus nomes."
+            },
+            {
+              "verse": 66,
+              "text": "E o restante das famílias dos filhos de Coate teve cidades nos seus termos, fora da tribo de Efraim."
+            },
+            {
+              "verse": 67,
+              "text": "E deram-lhes, das cidades de refúgio, Siquém, na região montanhosa de Efraim, e os seus arrabaldes; deram também Gezer e seus subúrbios,"
+            },
+            {
+              "verse": 68,
+              "text": "E Jocmeam com os seus arrabaldes, e Bete-Horom com os seus arrabaldes,"
+            },
+            {
+              "verse": 69,
+              "text": "E Aijalom com os seus arrabaldes, e Gate-Rimom com os seus arrabaldes:"
+            },
+            {
+              "verse": 70,
+              "text": "E da meia tribo de Manassés; Aner e os seus arrabaldes, e Bileam e os seus arrabaldes, para a família do restante dos filhos de Coate."
+            },
+            {
+              "verse": 71,
+              "text": "Aos filhos de Gérson foram dados, da família da meia tribo de Manassés, Golã em Basã com seus arrabaldes, e Astarote com seus arrabaldes:"
+            },
+            {
+              "verse": 72,
+              "text": "E da tribo de Issacar: Quedes com os seus subúrbios, Daberate com os seus subúrbios,"
+            },
+            {
+              "verse": 73,
+              "text": "E Ramote com os seus subúrbios, e Anem com os seus subúrbios:"
+            },
+            {
+              "verse": 74,
+              "text": "E da tribo de Aser: Masal com os seus subúrbios, e Abdom com os seus subúrbios,"
+            },
+            {
+              "verse": 75,
+              "text": "E Hucoque com os seus arrabaldes, e Reobe com os seus arrabaldes:"
+            },
+            {
+              "verse": 76,
+              "text": "E da tribo de Naftali: Quedes na Galileia com os seus arrabaldes, Hamom com os seus arrabaldes e Quiriate-Aim com os seus arrabaldes."
+            },
+            {
+              "verse": 77,
+              "text": "Aos restantes filhos de Merari foram distribuídos da tribo de Zebulom, Rimom e os seus arrabaldes, Tabor e os seus arrabaldes:"
+            },
+            {
+              "verse": 78,
+              "text": "E da outra banda do Jordão, junto a Jericó, a leste do Jordão, da tribo de Rúben lhes foi dado Bezer no deserto com os seus arrabaldes, e Jaza com os seus arrabaldes,"
+            },
+            {
+              "verse": 79,
+              "text": "Quedemote também com os seus arrabaldes, e Mefaate com os seus arrabaldes:"
+            },
+            {
+              "verse": 80,
+              "text": "E da tribo de Gade; Ramote de Gileade e os seus arrabaldes, e Maanaim e os seus arrabaldes,"
+            },
+            {
+              "verse": 81,
+              "text": "E Hesbom e os seus arrabaldes, e Jazer e os seus arrabaldes."
+            }
+          ]
+        },
+        {
+          "chapter": 7,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Ora, os filhos de Issacar foram Tola, Pua, Jasube e Simrom, quatro."
+            },
+            {
+              "verse": 2,
+              "text": "E os filhos de Tola: Uzi, e Refaías, e Jeriel, e Jahmai, e Jibsam, e Semuel, chefes da casa de seu pai, a saber, de Tola: eles foram homens valentes e poderosos em suas gerações; cujo número era nos dias de Davi vinte e dois mil e seiscentos."
+            },
+            {
+              "verse": 3,
+              "text": "E os filhos de Uzi: Izraías; e os filhos de Izraías: Miguel, Obadias, Joel e Isias, cinco no total; todos eles chefes."
+            },
+            {
+              "verse": 4,
+              "text": "E com eles, pelas suas gerações, segundo a casa de seus pais, havia tropas de soldados para a guerra, trinta e seis mil homens: porque tinham muitas mulheres e filhos."
+            },
+            {
+              "verse": 5,
+              "text": "E seus irmãos entre todas as famílias de Issacar eram homens valentes e poderosos, contados ao todo pelas suas genealogias oitenta e sete mil."
+            },
+            {
+              "verse": 6,
+              "text": "Os filhos de Benjamim: Bela, e Becher, e Jediael, três."
+            },
+            {
+              "verse": 7,
+              "text": "E os filhos de Bela: Ezbom, e Uzi, e Uziel, e Jerimote, e Iri, cinco; chefes da casa de seus pais, homens valentes; e foram contados pelas suas genealogias vinte e dois mil e trinta e quatro."
+            },
+            {
+              "verse": 8,
+              "text": "E os filhos de Becher: Zemira, Joás, Eliezer, Elioenai, Onri, Jerimote, Abias, Anatote e Alamete. Todos estes são filhos de Becher."
+            },
+            {
+              "verse": 9,
+              "text": "E o número deles, segundo as suas genealogias, segundo as suas gerações, chefes das casas de seus pais, homens valentes, foi de vinte mil e duzentos."
+            },
+            {
+              "verse": 10,
+              "text": "Os filhos também de Jediael: Bilhan; e os filhos de Bilhan: Jeús, e Benjamim, e Eúde, e Quenaaná, e Zetã, e Társis, e Aisaar."
+            },
+            {
+              "verse": 11,
+              "text": "Todos estes filhos de Jediael, segundo os chefes de seus pais, homens valentes, eram dezessete mil e duzentos soldados, aptos para sair para a guerra e a batalha."
+            },
+            {
+              "verse": 12,
+              "text": "Supim também, e Hupim, filhos de Ir, e Husim, filho de Aer."
+            },
+            {
+              "verse": 13,
+              "text": "Os filhos de Naftali: Jahziel, e Guni, e Jezer, e Salum, filhos de Bila."
+            },
+            {
+              "verse": 14,
+              "text": "Os filhos de Manassés: Asriel, a quem ela deu à luz (mas sua concubina, a aramita, deu à luz Maquir, pai de Gileade):"
+            },
+            {
+              "verse": 15,
+              "text": "E Maquir tomou por esposa a irmã de Hupim e Supim, cujo nome era Maaca; e o nome do segundo era Zelofeade; e Zelofeade teve filhas."
+            },
+            {
+              "verse": 16,
+              "text": "E Maaca, esposa de Maquir, deu à luz um filho, e ela lhe chamou Peres; e o nome de seu irmão era Seres; e os filhos dele foram Ulão e Raquém."
+            },
+            {
+              "verse": 17,
+              "text": "E os filhos de Ulão: Bedã. Estes foram os filhos de Gileade, filho de Maquir, filho de Manassés."
+            },
+            {
+              "verse": 18,
+              "text": "E sua irmã Hammoleketh deu à luz Ishod, e Abiezer, e Mahalah."
+            },
+            {
+              "verse": 19,
+              "text": "E os filhos de Semida foram Ahian, e Shechem, e Likhi, e Aniam."
+            },
+            {
+              "verse": 20,
+              "text": "E os filhos de Efraim: Sutela, e seu filho Bered, e seu filho Tahath, e seu filho Eladah, e seu filho Tahath,"
+            },
+            {
+              "verse": 21,
+              "text": "E seu filho Zabade, e seu filho Sutela, e Ézer, e Eleade, a quem os homens de Gate, nascidos naquela terra, mataram, porque desceram para levar o seu gado."
+            },
+            {
+              "verse": 22,
+              "text": "E Efraim, seu pai, lamentou muitos dias, e seus irmãos vieram consolá-lo."
+            },
+            {
+              "verse": 23,
+              "text": "E quando ele se casou com sua esposa, ela concebeu e deu à luz um filho, e ele chamou seu nome de Berias, porque as coisas iam mal com sua casa."
+            },
+            {
+              "verse": 24,
+              "text": "(E sua filha era Será, que edificou Bete-Horom, a inferior e a superior, e Uzen-Será.)"
+            },
+            {
+              "verse": 25,
+              "text": "E Refa foi seu filho, como também Resefe; Tela foi seu filho, e Taã, seu filho,"
+            },
+            {
+              "verse": 26,
+              "text": "Seu filho Laadã, seu filho Ammiúde, seu filho Elisama,"
+            },
+            {
+              "verse": 27,
+              "text": "Num, seu filho; Josué, seu filho."
+            },
+            {
+              "verse": 28,
+              "text": "E as suas possessões e habitações foram: Betel e as suas cidades, e Naarã ao oriente, e Gezer ao ocidente, com as suas cidades; também Siquém e as suas cidades, até Gaza e as suas cidades:"
+            },
+            {
+              "verse": 29,
+              "text": "E junto aos termos dos filhos de Manassés, Bete-Seã e as suas vilas, Taanaque e as suas vilas, Megido e as suas vilas, Dor e as suas vilas. Nestes habitaram os filhos de José, filho de Israel."
+            },
+            {
+              "verse": 30,
+              "text": "Os filhos de Aser: Imna, Isua, Isúi, Berias e Sera, sua irmã."
+            },
+            {
+              "verse": 31,
+              "text": "E os filhos de Berias: Héber e Malquiel, que é o pai de Birzavite."
+            },
+            {
+              "verse": 32,
+              "text": "E Héber gerou a Jaflete, e a Somer, e a Hotão, e a Sua irmã."
+            },
+            {
+              "verse": 33,
+              "text": "E os filhos de Jaflete: Pasaque, Bimhal e Asvate. Estes são os filhos de Jaflete."
+            },
+            {
+              "verse": 34,
+              "text": "E os filhos de Samer: Ai, Rogá, Jeubá e Arã."
+            },
+            {
+              "verse": 35,
+              "text": "E os filhos de seu irmão Helem: Zofa, e Imna, e Shelesh, e Amal."
+            },
+            {
+              "verse": 36,
+              "text": "Os filhos de Zofa: Suá, Harnefer, Sual, Beri e Imra,"
+            },
+            {
+              "verse": 37,
+              "text": "Bezer, Hode, Samá, Silsa, Itrã e Beera."
+            },
+            {
+              "verse": 38,
+              "text": "E os filhos de Jéter: Jefoné, e Pispa, e Ara."
+            },
+            {
+              "verse": 39,
+              "text": "E os filhos de Ulla: Arah, e Haniel, e Rezia."
+            },
+            {
+              "verse": 40,
+              "text": "Todos estes foram filhos de Aser, chefes da casa de seu pai, homens escolhidos e valentes, chefes dos príncipes. E o número, ao longo da genealogia, dos que estavam aptos para a guerra e para a batalha foi de vinte e seis mil homens."
+            }
+          ]
+        },
+        {
+          "chapter": 8,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Ora, Benjamim gerou a Bela, seu primogênito, a Asbel, o segundo, e a Ahara, o terceiro,"
+            },
+            {
+              "verse": 2,
+              "text": "Noá, o quarto, e Ráfa, o quinto."
+            },
+            {
+              "verse": 3,
+              "text": "E os filhos de Bela foram Adar, Gera e Abiúbe,"
+            },
+            {
+              "verse": 4,
+              "text": "E Abisua, e Naamã, e Aoá,"
+            },
+            {
+              "verse": 5,
+              "text": "Gera, Sefufã e Hurão."
+            },
+            {
+              "verse": 6,
+              "text": "Estes são os filhos de Eúde: estes são os chefes dos pais dos habitantes de Geba, e eles os transferiram para Manaate;"
+            },
+            {
+              "verse": 7,
+              "text": "E Naamã, e Aías, e Gera, ele os removeu, e gerou a Uza e a Aiúde."
+            },
+            {
+              "verse": 8,
+              "text": "E Saaraim gerou filhos na terra de Moabe, depois de os ter despedido; Husim e Baara eram suas esposas."
+            },
+            {
+              "verse": 9,
+              "text": "E ele gerou de Hodes, sua mulher, Jobabe, e Zíbia, e Mesa, e Malcão,"
+            },
+            {
+              "verse": 10,
+              "text": "Jeuz, Saquia e Mirma. Estes foram seus filhos, chefes dos pais."
+            },
+            {
+              "verse": 11,
+              "text": "E de Husim gerou Abitub e Elpaal."
+            },
+            {
+              "verse": 12,
+              "text": "Os filhos de Elpaal: Éber, Misão e Samede, que construíram Ono, Lode e as suas cidades;"
+            },
+            {
+              "verse": 13,
+              "text": "Berias também e Semá, que foram chefes dos pais dos habitantes de Aijalom, que expulsaram os habitantes de Gate:"
+            },
+            {
+              "verse": 14,
+              "text": "Aiô, Sasaque e Jerimote,"
+            },
+            {
+              "verse": 15,
+              "text": "E Zebadias, e Arade, e Ader,"
+            },
+            {
+              "verse": 16,
+              "text": "E Miguel, e Ispa, e Joá, filhos de Berias;"
+            },
+            {
+              "verse": 17,
+              "text": "E Zebadias, e Mesulão, e Ezequi, e Héber,"
+            },
+            {
+              "verse": 18,
+              "text": "também Ismerai, e Jezlias, e Jobabe, filhos de Elpaal;"
+            },
+            {
+              "verse": 19,
+              "text": "E Jaquim, e Zicri, e Zabdi,"
+            },
+            {
+              "verse": 20,
+              "text": "Elienai, Ziltai e Eliel,"
+            },
+            {
+              "verse": 21,
+              "text": "Adaías, Beraías e Simrate, filhos de Simei;"
+            },
+            {
+              "verse": 22,
+              "text": "E Ispã, e Héber, e Eliel,"
+            },
+            {
+              "verse": 23,
+              "text": "E Abdom, e Zicri, e Hanã,"
+            },
+            {
+              "verse": 24,
+              "text": "E Hananias, e Elão, e Antotias,"
+            },
+            {
+              "verse": 25,
+              "text": "E Ifedeias e Penuel, filhos de Sasaque;"
+            },
+            {
+              "verse": 26,
+              "text": "Sanserai, Searias e Atalia,"
+            },
+            {
+              "verse": 27,
+              "text": "E Jaresias, e Elias, e Zicri, filhos de Jeroão."
+            },
+            {
+              "verse": 28,
+              "text": "Estes foram os chefes dos pais, segundo as suas gerações, homens principais. Estes habitaram em Jerusalém."
+            },
+            {
+              "verse": 29,
+              "text": "Em Gibeão habitou o pai de Gibeão, cuja esposa se chamava Maaca:"
+            },
+            {
+              "verse": 30,
+              "text": "E seu filho primogênito, Abdom, e Zur, e Quis, e Baal, e Nadabe,"
+            },
+            {
+              "verse": 31,
+              "text": "Gedor, Aiô e Zacar."
+            },
+            {
+              "verse": 32,
+              "text": "Miclote gerou Simeia. E estes também habitaram com seus irmãos em Jerusalém, defronte deles."
+            },
+            {
+              "verse": 33,
+              "text": "E Ner gerou a Quis, e Quis gerou a Saul, e Saul gerou a Jônatas, e a Malquisua, e a Abinadabe, e a Esbaal."
+            },
+            {
+              "verse": 34,
+              "text": "E o filho de Jônatas foi Meribe-Baal; e Meribe-Baal gerou Miquéias."
+            },
+            {
+              "verse": 35,
+              "text": "E os filhos de Mica foram Pitom, Meleque, Tarea e Acaz."
+            },
+            {
+              "verse": 36,
+              "text": "E Acaz gerou a Jeoada, e Jeoada gerou a Alemete, a Azmavete e a Zinri; e Zimri gerou a Moza,"
+            },
+            {
+              "verse": 37,
+              "text": "E Moza gerou a Binea, cujo filho foi Rafa; este gerou a Eleasá, que gerou a Azel;"
+            },
+            {
+              "verse": 38,
+              "text": "E Azel teve seis filhos, cujos nomes são estes: Azricão, Boquěru, Ismael, Searias, Obadias e Hanã. Todos estes foram filhos de Azel."
+            },
+            {
+              "verse": 39,
+              "text": "E foram os filhos de Eseque, seu irmão, Ulão, seu primogênito, Jeús, o segundo, e Elifelete, o terceiro."
+            },
+            {
+              "verse": 40,
+              "text": "E os filhos de Ulão eram homens valentes, arqueiros, e tiveram muitos filhos, e filhos de filhos, cento e cinquenta. Todos estes são dos filhos de Benjamim."
+            }
+          ]
+        },
+        {
+          "chapter": 9,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Assim, todo o Israel foi contado por genealogias; e eis que foram escritos no livro dos reis de Israel e de Judá, que foram levados para Babilônia por causa de sua transgressão."
+            },
+            {
+              "verse": 2,
+              "text": "Ora, os primeiros habitantes que habitaram nas suas possessões nas suas cidades foram os israelitas, os sacerdotes, os levitas e os netineus."
+            },
+            {
+              "verse": 3,
+              "text": "E em Jerusalém habitaram os filhos de Judá, e os filhos de Benjamim, e os filhos de Efraim, e Manassés;"
+            },
+            {
+              "verse": 4,
+              "text": "Utai, filho de Amiúde, filho de Onri, filho de Inri, filho de Bani, dos filhos de Perez, filho de Judá."
+            },
+            {
+              "verse": 5,
+              "text": "E dos silonitas: Asaías, o primogênito, e seus filhos."
+            },
+            {
+              "verse": 6,
+              "text": "E dos filhos de Zerá: Jeuel e seus irmãos, seiscentos e noventa."
+            },
+            {
+              "verse": 7,
+              "text": "E dos filhos de Benjamim: Salu, filho de Mesulão, filho de Hodavias, filho de Hasenua,"
+            },
+            {
+              "verse": 8,
+              "text": "E Ibneias, filho de Jeroão, e Elá, filho de Uzi, filho de Micri, e Mesulão, filho de Sefatias, filho de Reuel, filho de Ibnias;"
+            },
+            {
+              "verse": 9,
+              "text": "E seus irmãos, segundo as suas gerações, novecentos e cinquenta e seis. Todos estes homens eram chefes dos pais na casa de seus pais."
+            },
+            {
+              "verse": 10,
+              "text": "E dos sacerdotes: Jedaías, e Joiaribe, e Jaquim,"
+            },
+            {
+              "verse": 11,
+              "text": "E Azarias, filho de Hilquias, filho de Mesulão, filho de Zadoque, filho de Meraiote, filho de Aitube, príncipe da casa de Deus;"
+            },
+            {
+              "verse": 12,
+              "text": "E Adaías, filho de Jeroão, filho de Pasur, filho de Malquias, e Maasiai, filho de Adiel, filho de Jazerá, filho de Mesulão, filho de Mesilemite, filho de Imer;"
+            },
+            {
+              "verse": 13,
+              "text": "E seus irmãos, chefes das casas de seus pais, mil setecentos e sessenta; homens muito capazes para o trabalho do serviço da casa de Deus."
+            },
+            {
+              "verse": 14,
+              "text": "E dos levitas: Semaías, filho de Hassube, filho de Azricão, filho de Hasabias, dos filhos de Merari;"
+            },
+            {
+              "verse": 15,
+              "text": "E Baquebaque, Heres, Galal e Matanias, filho de Miquéias, filho de Zicri, filho de Asafe;"
+            },
+            {
+              "verse": 16,
+              "text": "E Obadias, filho de Semaías, filho de Galal, filho de Jedutum, e Berequias, filho de Asa, filho de Elcana, que habitavam nas aldeias dos netofatitas."
+            },
+            {
+              "verse": 17,
+              "text": "E os porteiros eram Salum, Acube, Talmom, Aimã e seus irmãos; Salum era o chefe;"
+            },
+            {
+              "verse": 18,
+              "text": "Que até então esperavam na porta do rei, a leste: eram porteiros nas companhias dos filhos de Levi."
+            },
+            {
+              "verse": 19,
+              "text": "E Salum, filho de Coré, filho de Ebiasafe, filho de Corá, e seus irmãos, da casa de seu pai, os coraítas, eram os encarregados da obra do serviço, guardas das portas do tabernáculo; e seus pais, estando sobre o exército do Senhor, eram guardas da entrada."
+            },
+            {
+              "verse": 20,
+              "text": "E Finéias, filho de Eleazar, era o governante deles no passado, e o Senhor era com ele."
+            },
+            {
+              "verse": 21,
+              "text": "E Zacarias, filho de Meselemias, era porteiro da porta da tenda da congregação."
+            },
+            {
+              "verse": 22,
+              "text": "Todos estes que foram escolhidos para serem porteiros nas portas foram duzentos e doze. Estes foram contados por sua genealogia em suas aldeias, a quem Davi e Samuel, o vidente, ordenaram em seu cargo estabelecido."
+            },
+            {
+              "verse": 23,
+              "text": "Assim, eles e seus filhos supervisionavam as portas da casa do Senhor, a saber, a casa do tabernáculo, por enfermarias."
+            },
+            {
+              "verse": 24,
+              "text": "Em quatro bairros estavam os porteiros, em direção ao leste, oeste, norte e sul."
+            },
+            {
+              "verse": 25,
+              "text": "E seus irmãos, que estavam em suas aldeias, deveriam vir com eles de vez em quando, depois de sete dias."
+            },
+            {
+              "verse": 26,
+              "text": "Pois esses levitas, os quatro porteiros-chefes, ocupavam seu cargo estabelecido e supervisionavam as câmaras e os tesouros da casa de Deus."
+            },
+            {
+              "verse": 27,
+              "text": "E eles se alojaram ao redor da casa de Deus, porque a ordem estava sobre eles, e a sua abertura todas as manhãs lhes pertencia."
+            },
+            {
+              "verse": 28,
+              "text": "E alguns deles eram encarregados dos utensílios do ministério, para que os trouxessem e os levassem por contagem."
+            },
+            {
+              "verse": 29,
+              "text": "Alguns deles também foram designados para supervisionar os vasos e todos os instrumentos do santuário, e a flor de farinha, e o vinho, e o azeite, e o incenso, e as especiarias."
+            },
+            {
+              "verse": 30,
+              "text": "E alguns dos filhos dos sacerdotes fizeram o unguento das especiarias."
+            },
+            {
+              "verse": 31,
+              "text": "E Matitias, um dos levitas, que era o primogênito de Salum, o coraíta, tinha o cargo fixo sobre as coisas que eram feitas nas panelas."
+            },
+            {
+              "verse": 32,
+              "text": "E outros de seus irmãos, dos filhos dos coatitas, eram encarregados dos pães da proposição, para os prepararem todos os sábados."
+            },
+            {
+              "verse": 33,
+              "text": "E estes são os cantores, chefes das casas paternas dos levitas, que permanecendo nas câmaras eram livres: porque trabalhavam naquele trabalho dia e noite."
+            },
+            {
+              "verse": 34,
+              "text": "Esses principais pais dos levitas foram chefes em suas gerações; estes habitaram em Jerusalém."
+            },
+            {
+              "verse": 35,
+              "text": "E em Gibeão habitou o pai de Gibeão, Jeiel, cuja mulher se chamava Maaca."
+            },
+            {
+              "verse": 36,
+              "text": "E seu filho primogênito Abdon, depois Zur, e Quis, e Baal, e Ner, e Nadabe,"
+            },
+            {
+              "verse": 37,
+              "text": "E Gedor, e Aiô, e Zacarias, e Miclote."
+            },
+            {
+              "verse": 38,
+              "text": "E Miclote gerou Simeão. E eles também habitaram com seus irmãos em Jerusalém, defronte de seus irmãos."
+            },
+            {
+              "verse": 39,
+              "text": "E Ner gerou Quis; e Quis gerou Saul; e Saul gerou a Jônatas, e a Malquisua, e a Abinadabe, e a Esbaal."
+            },
+            {
+              "verse": 40,
+              "text": "E o filho de Jônatas foi Meribe-Baal; e Meribe-Baal gerou a Mica."
+            },
+            {
+              "verse": 41,
+              "text": "E os filhos de Mica foram Pitom, Meleque, Tarea e Acaz."
+            },
+            {
+              "verse": 42,
+              "text": "E Acaz gerou a Jará, e Jará gerou a Alemete, a Azmavete e a Zinri; e Zinri gerou a Moza;"
+            },
+            {
+              "verse": 43,
+              "text": "E Moza gerou Binea; e seu filho Refaías, seu filho Eleasá, seu filho Azel."
+            },
+            {
+              "verse": 44,
+              "text": "E Azel teve seis filhos, cujos nomes são estes: Azricão, Boquěru, Ismael, Searias, Obadias e Hanã; estes foram os filhos de Azel."
+            }
+          ]
+        },
+        {
+          "chapter": 10,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Ora, os filisteus lutaram contra Israel; e os homens de Israel fugiram de diante dos filisteus e caíram mortos no monte Gilboa."
+            },
+            {
+              "verse": 2,
+              "text": "E os filisteus seguiram de perto a Saul e a seus filhos; e os filisteus mataram Jônatas, e Abinadabe, e Malquisua, filhos de Saul."
+            },
+            {
+              "verse": 3,
+              "text": "E a batalha foi acirrada contra Saul, e os arqueiros o atingiram, e ele foi ferido pelos arqueiros."
+            },
+            {
+              "verse": 4,
+              "text": "Então disse Saul ao seu escudeiro: Desembainha a tua espada e atravessa-me com ela, para que estes incircuncisos não venham e abusem de mim. Mas o seu escudeiro não quis, pois estava com muito medo. Então Saul pegou uma espada e lançou-se sobre ela."
+            },
+            {
+              "verse": 5,
+              "text": "E quando o seu escudeiro viu que Saul estava morto, ele também caiu sobre a espada e morreu."
+            },
+            {
+              "verse": 6,
+              "text": "Assim morreram Saul, e seus três filhos, e toda a sua casa juntamente."
+            },
+            {
+              "verse": 7,
+              "text": "Vendo, pois, todos os homens de Israel que estavam no vale que o exército fugira, e que Saul e seus filhos estavam mortos, abandonaram as suas cidades e fugiram; e vieram os filisteus e habitaram nelas."
+            },
+            {
+              "verse": 8,
+              "text": "E aconteceu que no dia seguinte, quando os filisteus vieram despojar os mortos, encontraram Saul e seus filhos caídos no monte Gilboa."
+            },
+            {
+              "verse": 9,
+              "text": "E, depois de o despojarem, tomaram-lhe a cabeça e a sua armadura, e as enviaram pela terra dos filisteus em redor, para levarem a notícia aos seus ídolos e ao povo."
+            },
+            {
+              "verse": 10,
+              "text": "E puseram a sua armadura na casa dos seus deuses, e prenderam a sua cabeça no templo de Dagom."
+            },
+            {
+              "verse": 11,
+              "text": "E quando toda Jabes-Gileade ouviu tudo o que os filisteus tinham feito a Saul,"
+            },
+            {
+              "verse": 12,
+              "text": "Eles se levantaram, todos os homens valentes, e levaram o corpo de Saul e os corpos de seus filhos, e os levaram a Jabes, e enterraram seus ossos debaixo do carvalho de Jabes, e jejuaram sete dias."
+            },
+            {
+              "verse": 13,
+              "text": "Assim morreu Saul pela sua transgressão que cometeu contra o Senhor, sim, contra a palavra do Senhor, que não guardou, e também por pedir conselho a alguém que tinha um espírito familiar, para consultá-lo;"
+            },
+            {
+              "verse": 14,
+              "text": "E não consultou ao Senhor; por isso ele o matou, e entregou o reino a Davi, filho de Jessé."
+            }
+          ]
+        },
+        {
+          "chapter": 11,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Então todo o Israel se ajuntou a Davi, em Hebrom, dizendo: Eis que somos os teus ossos e a tua carne."
+            },
+            {
+              "verse": 2,
+              "text": "E além disso, no passado, mesmo quando Saul era rei, tu eras aquele que conduzia e introduzia Israel; e o Senhor teu Deus te disse: Tu apascentarás o meu povo Israel, e serás principe sobre o meu povo Israel."
+            },
+            {
+              "verse": 3,
+              "text": "Portanto vieram todos os anciãos de Israel ao rei, em Hebrom; e Davi fez com eles uma aliança em Hebrom, perante o Senhor; e ungiram a Davi rei sobre Israel, conforme a palavra do Senhor por meio de Samuel."
+            },
+            {
+              "verse": 4,
+              "text": "E Davi e todo o Israel foram para Jerusalém, que é Jebus; onde estavam os jebuseus, os habitantes da terra."
+            },
+            {
+              "verse": 5,
+              "text": "E os habitantes de Jebus disseram a Davi: Não entrarás aqui. Mesmo assim, Davi tomou o castelo de Sião, que é a cidade de Davi."
+            },
+            {
+              "verse": 6,
+              "text": "Disse Davi: Todo aquele que ferir primeiro os jebuseus será chefe e capitão. Então Joabe, filho de Zeruia, subiu primeiro e tornou-se o chefe."
+            },
+            {
+              "verse": 7,
+              "text": "E Davi habitou no castelo; por isso a chamaram de cidade de Davi."
+            },
+            {
+              "verse": 8,
+              "text": "E edificou a cidade em redor, desde Milo em redor; e Joabe reparou o resto da cidade."
+            },
+            {
+              "verse": 9,
+              "text": "Assim Davi crescia cada vez mais, porque o Senhor dos Exércitos estava com ele."
+            },
+            {
+              "verse": 10,
+              "text": "Estes também são os chefes dos valentes que Davi tinha, que se fortaleceram com ele no seu reino e com todo o Israel, para o fazerem rei, conforme a palavra do Senhor acerca de Israel."
+            },
+            {
+              "verse": 11,
+              "text": "Este é o número dos valentes que Davi tinha: Jasobeam, um hacmonita, o chefe dos trinta. Ele ergueu a sua lança contra trezentos, aos quais feriu de uma só vez."
+            },
+            {
+              "verse": 12,
+              "text": "E depois dele veio Eleazar, filho de Dodô, o aoíta, que era um dos três poderosos."
+            },
+            {
+              "verse": 13,
+              "text": "Ele estava com Davi em Pasdamim, e ali os filisteus estavam reunidos para a batalha, onde havia um pedaço de terra cheio de cevada; e o povo fugiu de diante dos filisteus."
+            },
+            {
+              "verse": 14,
+              "text": "Eles se puseram no meio daquela porção de terra, a defenderam e mataram os filisteus; e o Senhor os salvou com um grande livramento."
+            },
+            {
+              "verse": 15,
+              "text": "Ora, três dos trinta capitães desceram à rocha até Davi, à caverna de Adulão; e o exército dos filisteus acampou no vale de Refaim."
+            },
+            {
+              "verse": 16,
+              "text": "E Davi estava então no porão, e a guarnição dos filisteus estava então em Belém."
+            },
+            {
+              "verse": 17,
+              "text": "E Davi teve saudades e disse: Quem me dera beber da água do poço de Belém, que está à porta!"
+            },
+            {
+              "verse": 18,
+              "text": "Os três romperam o arraial dos filisteus, tiraram água do poço de Belém, que está junto à porta, e, tomando-a, trouxeram-na a Davi. Contudo, Davi não quis beber dela, mas a derramou como oferta ao Senhor,"
+            },
+            {
+              "verse": 19,
+              "text": "E disse: Meu Deus me livre de fazer tal coisa! Acaso beberia eu o sangue destes homens que arriscaram as suas vidas? Pois com risco de suas vidas eles a trouxeram. Por isso, não quis bebê-la. Tais feitos realizaram esses três valentes."
+            },
+            {
+              "verse": 20,
+              "text": "E Abisai, irmão de Joabe, era o chefe dos três; porque, levantando a sua lança contra trezentos, os matou, e teve nome entre os três."
+            },
+            {
+              "verse": 21,
+              "text": "Dos três, ele foi mais honrado que os dois; pois ele era o capitão deles; porém, não alcançou os três primeiros."
+            },
+            {
+              "verse": 22,
+              "text": "Benaia, filho de Joiada, filho de um homem valente de Cabzeel, que praticou muitos atos; ele matou dois homens leoninos de Moabe; também desceu e matou um leão numa cova, num dia de neve."
+            },
+            {
+              "verse": 23,
+              "text": "E matou um egípcio, homem de grande estatura, de cinco côvados de altura; e na mão do egípcio havia uma lança semelhante ao eixo de um tecelão; e desceu até ele com um bastão, e arrancou a lança da mão do egípcio, e o matou com a sua própria lança."
+            },
+            {
+              "verse": 24,
+              "text": "Estas coisas fez Benaia, filho de Joiada, e teve nome entre os três poderosos."
+            },
+            {
+              "verse": 25,
+              "text": "Eis que ele foi ilustre entre os trinta, mas não alcançou os três primeiros; e Davi o pôs sobre a sua guarda."
+            },
+            {
+              "verse": 26,
+              "text": "Também os valentes dos exércitos foram: Asael, irmão de Joabe, Elanã, filho de Dodô, de Belém,"
+            },
+            {
+              "verse": 27,
+              "text": "Samote, o harorita, Heleque, o pelonita,"
+            },
+            {
+              "verse": 28,
+              "text": "Ira, filho de Iques, o tecoíta; Abiezer, o antotita,"
+            },
+            {
+              "verse": 29,
+              "text": "Sibecai, o Husatita, Ilai, o Aoíta,"
+            },
+            {
+              "verse": 30,
+              "text": "Maharai, o netofatita, Heled, filho de Baaná, o netofatita,"
+            },
+            {
+              "verse": 31,
+              "text": "Itai, filho de Ribai, de Gibeá, dos filhos de Benjamim, Benaías, o piratonita,"
+            },
+            {
+              "verse": 32,
+              "text": "Hurai dos riachos de Gaash, Abiel, o arbatita,"
+            },
+            {
+              "verse": 33,
+              "text": "Azmavete, o baarumita, Eliaba, o saalbonita,"
+            },
+            {
+              "verse": 34,
+              "text": "Os filhos de Hasém, o gizonita; Jônatas, filho de Xage, o hararita;"
+            },
+            {
+              "verse": 35,
+              "text": "Aião, filho de Sacar, o hararita; Elifal, filho de Ur;"
+            },
+            {
+              "verse": 36,
+              "text": "Héfer, o mequeratita, Aías, o pelonita,"
+            },
+            {
+              "verse": 37,
+              "text": "Hesro, o carmelita, Naarai, filho de Ezbai,"
+            },
+            {
+              "verse": 38,
+              "text": "Joel, irmão de Natã; Mibhar, filho de Haggeri,"
+            },
+            {
+              "verse": 39,
+              "text": "Zeleque, o amonita; Naarai, o berotita, escudeiro de Joabe, filho de Zeruia,"
+            },
+            {
+              "verse": 40,
+              "text": "Ira, o itrita, Gareb, o itrita,"
+            },
+            {
+              "verse": 41,
+              "text": "Urias, o hitita, Zabad, filho de Ahlai,"
+            },
+            {
+              "verse": 42,
+              "text": "Adina, filho de Siza, o rubenita, chefe dos rubenitas, e com ele trinta guerreiros;"
+            },
+            {
+              "verse": 43,
+              "text": "Hanã, filho de Maaca, e Josafá, o mitnita,"
+            },
+            {
+              "verse": 44,
+              "text": "Uzias, o asteratita, Samá e Jeiel, filhos de Hotã, o aroerita,"
+            },
+            {
+              "verse": 45,
+              "text": "Jediael, filho de Sinri, e Joá, seu irmão, o tizita,"
+            },
+            {
+              "verse": 46,
+              "text": "Eliel, o maavita; e Jeribai e Josavias, filhos de Elnaão; e Itma, o moabita;"
+            },
+            {
+              "verse": 47,
+              "text": "Eliel, e Obede, e Jasiel, o mesobaíta."
+            }
+          ]
+        },
+        {
+          "chapter": 12,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Ora, estes são os que vieram a Davi, a Ziclague, enquanto ele ainda se mantinha por perto, por causa de Saul, filho de Quis; e estavam entre os valentes, ajudantes na guerra."
+            },
+            {
+              "verse": 2,
+              "text": "Eles estavam armados com arcos e podiam usar tanto a mão direita quanto a esquerda para atirar pedras e atirar flechas com um arco, até mesmo os irmãos de Saul, de Benjamim."
+            },
+            {
+              "verse": 3,
+              "text": "O chefe foi Aiezer, depois Joás, filhos de Semaá, o gibeatita; e Jeziel e Pelete, filhos de Azmavete; e Beraca, e Jeú, o anatotita,"
+            },
+            {
+              "verse": 4,
+              "text": "E Ismaías, o gibeonita, homem poderoso entre os trinta e sobre os trinta; e Jeremias, e Jaaziel, e Joanã, e Josabade, o gederatita,"
+            },
+            {
+              "verse": 5,
+              "text": "Eluzai, e Jerimote, e Bealias, e Semarias, e Sefatias, o harupita,"
+            },
+            {
+              "verse": 6,
+              "text": "Elcana, e Issias, e Azarel, e Joezer, e Jasobeão, os coraítas;"
+            },
+            {
+              "verse": 7,
+              "text": "E Joelá e Zebadias, filhos de Jeroão de Gedor."
+            },
+            {
+              "verse": 8,
+              "text": "E dos gaditas separaram-se para Davi, no forte do deserto, homens valentes e homens de guerra aptos para a batalha, que sabiam manejar escudos e broquel, cujos rostos eram como rostos de leões, e eram tão rápidos como as corças nas montanhas;"
+            },
+            {
+              "verse": 9,
+              "text": "Ézer o primeiro, Obadias o segundo, Eliabe o terceiro,"
+            },
+            {
+              "verse": 10,
+              "text": "Mismaná, o quarto, Jeremias, o quinto,"
+            },
+            {
+              "verse": 11,
+              "text": "Atai o sexto, Eliel o sétimo,"
+            },
+            {
+              "verse": 12,
+              "text": "Joanã, o oitavo; Elzabade, o nono;"
+            },
+            {
+              "verse": 13,
+              "text": "Jeremias, o décimo; Macbanai, o décimo primeiro."
+            },
+            {
+              "verse": 14,
+              "text": "Estes eram dos filhos de Gade, capitães do exército: um dos menores tinha mais de cem, e o maior, mais de mil."
+            },
+            {
+              "verse": 15,
+              "text": "Estes são os que atravessaram o Jordão no primeiro mês, quando já havia transbordado todas as suas margens, e puseram em fuga todos os habitantes dos vales, tanto para o leste como para o oeste."
+            },
+            {
+              "verse": 16,
+              "text": "E alguns dos filhos de Benjamim e de Judá vieram ter com Davi ao lugar forte."
+            },
+            {
+              "verse": 17,
+              "text": "E Davi saiu ao encontro deles e, respondendo, disse-lhes: Se vierdes pacificamente a mim para me ajudar, meu coração estará unido a vós; mas se vierdes a me entregar aos meus inimigos, vendo que não há nenhum mal em minhas mãos, o Deus de nossos pais olha para isso e o repreende."
+            },
+            {
+              "verse": 18,
+              "text": "Então o espírito se apossou de Amasai, que era o chefe dos capitães, e ele disse: Teus somos nós, Davi, e estamos ao teu lado, filho de Jessé; paz, paz seja contigo, e paz seja com os teus ajudadores; porque o teu Deus te ajuda. Então Davi os recebeu e os constituiu capitães do grupo."
+            },
+            {
+              "verse": 19,
+              "text": "E alguns de Manassés caíram para Davi, quando ele veio com os filisteus para a peleja contra Saul; mas eles não os ajudaram; porque os chefes dos filisteus, após conselho, o despediram, dizendo: Ele cairá nas mãos de Saul, seu senhor, para perigo de nossas cabeças."
+            },
+            {
+              "verse": 20,
+              "text": "Chegando ele a Ziclague, passaram para o lado dele de Manassés: Adna, Jozabade, Jediael, Miguel, Jozabade, Eliú e Ziltai, capitães dos milhares que eram de Manassés."
+            },
+            {
+              "verse": 21,
+              "text": "E ajudaram Davi contra o bando de fugitivos; porque todos eram homens valentes e capitães do exército."
+            },
+            {
+              "verse": 22,
+              "text": "Porque naquela hora, dia após dia, vinham a Davi para ajudá-lo, até que se tornou um grande exército, como o exército de Deus."
+            },
+            {
+              "verse": 23,
+              "text": "E estes são os números dos bandos que se armaram para a guerra e vieram a Davi, a Hebrom, para lhe transferirem o reino de Saul, conforme a palavra do Senhor."
+            },
+            {
+              "verse": 24,
+              "text": "Os filhos de Judá que traziam escudo e lança eram seis mil e oitocentos, armados para a guerra."
+            },
+            {
+              "verse": 25,
+              "text": "Dos filhos de Simeão, homens valentes para a guerra, sete mil e cem."
+            },
+            {
+              "verse": 26,
+              "text": "Dos filhos de Levi quatro mil e seiscentos."
+            },
+            {
+              "verse": 27,
+              "text": "E Joiada era o líder dos aaronitas, e com ele estavam três mil e setecentos;"
+            },
+            {
+              "verse": 28,
+              "text": "E Zadoque, um jovem poderoso e valente, e da casa de seu pai vinte e dois capitães."
+            },
+            {
+              "verse": 29,
+              "text": "E dos filhos de Benjamim, parentes de Saul, três mil; porque até então a maior parte deles tinha mantido a tutela da casa de Saul."
+            },
+            {
+              "verse": 30,
+              "text": "E dos filhos de Efraim vinte mil e oitocentos, homens valentes, famosos em toda a casa de seus pais."
+            },
+            {
+              "verse": 31,
+              "text": "Da meia tribo de Manassés, dezoito mil, que foram designados nominalmente para virem e constituírem a Davi rei."
+            },
+            {
+              "verse": 32,
+              "text": "E dos filhos de Issacar, que eram homens que tinham entendimento dos tempos, para saberem o que Israel deveria fazer; os seus cabeças eram duzentos; e todos os seus irmãos obedeceram às suas ordens."
+            },
+            {
+              "verse": 33,
+              "text": "De Zebulom, os que saíram para a batalha, peritos na guerra, com todos os instrumentos de guerra, cinquenta mil, que poderiam manter a posição: eles não eram de coração duplo."
+            },
+            {
+              "verse": 34,
+              "text": "De Naftali, mil capitães, e com eles, munidos de escudo e lança, trinta e sete mil."
+            },
+            {
+              "verse": 35,
+              "text": "E dos danitas especialistas em guerra, vinte e oito mil e seiscentos."
+            },
+            {
+              "verse": 36,
+              "text": "E de Aser, os que saíram à batalha, peritos em guerra, quarenta mil."
+            },
+            {
+              "verse": 37,
+              "text": "E da outra banda do Jordão, dos rubenitas, e dos gaditas, e da meia tribo de Manassés, com todos os instrumentos de guerra para a batalha, cento e vinte mil."
+            },
+            {
+              "verse": 38,
+              "text": "Todos estes homens de guerra, que podiam manter-se em posição, vieram com um coração perfeito a Hebrom, para constituir Davi rei sobre todo o Israel; e também todo o resto de Israel estava de um só coração para constituir Davi rei."
+            },
+            {
+              "verse": 39,
+              "text": "E ali estiveram três dias com Davi, comendo e bebendo, porque seus irmãos lhes tinham preparado comida."
+            },
+            {
+              "verse": 40,
+              "text": "Além disso, os que estavam perto deles, até Issacar, e Zebulom, e Naftali, trouxeram pão sobre jumentos, e sobre camelos, e sobre mulos, e sobre bois, e carne, farinha, bolos de figos, e cachos de passas, e vinho, e azeite, e bois, e ovelhas em abundância; porque havia alegria em Israel."
+            }
+          ]
+        },
+        {
+          "chapter": 13,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E Davi consultou os capitães de milhares e de centenas, e todos os líderes."
+            },
+            {
+              "verse": 2,
+              "text": "E Davi disse a toda a congregação de Israel: Se vos parecer bem, e se for do Senhor nosso Deus, enviemos mensageiros a todos os nossos irmãos que restam em toda a terra de Israel, e com eles também aos sacerdotes e levitas que estão em suas cidades e arrabaldes, para que se reúnam a nós."
+            },
+            {
+              "verse": 3,
+              "text": "E tornemos a trazer a arca do nosso Deus para junto de nós, porque não a consultamos nos dias de Saul."
+            },
+            {
+              "verse": 4,
+              "text": "E toda a congregação disse que assim fariam, porque a coisa era certa aos olhos de todo o povo."
+            },
+            {
+              "verse": 5,
+              "text": "Convocou, pois, Davi todo o Israel, desde Sior do Egito até a entrada de Hemate, para trazer a arca de Deus de Quiriate-Jearim."
+            },
+            {
+              "verse": 6,
+              "text": "E subiu Davi com todo o Israel a Baalá, isto é, a Quiriate-Jearim, que pertence a Judá, para fazerem subir dali a arca de Deus, o Senhor, que habita entre os querubins, cujo nome é invocado sobre ela."
+            },
+            {
+              "verse": 7,
+              "text": "E levaram a arca de Deus num carro novo, para fora da casa de Abinadabe; e Uzá e Aiô conduziram o carro."
+            },
+            {
+              "verse": 8,
+              "text": "E Davi e todo o Israel tocavam diante de Deus com todas as suas forças, e com cânticos, e com harpas, e com saltérios, e com tamboris, e com címbalos, e com trombetas."
+            },
+            {
+              "verse": 9,
+              "text": "E quando chegaram à eira de Quidom, Uzá estendeu a mão para segurar a arca; porque os bois tropeçaram."
+            },
+            {
+              "verse": 10,
+              "text": "E a ira do Senhor se acendeu contra Uzá, e ele o feriu, porque pôs a mão na arca; e ali morreu diante de Deus."
+            },
+            {
+              "verse": 11,
+              "text": "E Davi ficou contrariado, porque o Senhor havia aberto uma brecha contra Uzá; por isso aquele lugar é chamado até hoje de Perez-Uzá."
+            },
+            {
+              "verse": 12,
+              "text": "E Davi teve medo de Deus naquele dia, dizendo: Como trarei para mim a arca de Deus?"
+            },
+            {
+              "verse": 13,
+              "text": "Assim, Davi não levou a arca para casa, na cidade de Davi, mas a levou para a casa de Obede-Edom, o giteu."
+            },
+            {
+              "verse": 14,
+              "text": "E a arca de Deus ficou três meses com a família de Obede-Edom, em sua casa. E o Senhor abençoou a casa de Obede-Edom e tudo o que ele tinha."
+            }
+          ]
+        },
+        {
+          "chapter": 14,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Ora, Hirão, rei de Tiro, enviou mensageiros a Davi, além de madeira de cedro, pedreiros e carpinteiros, para lhe construir uma casa."
+            },
+            {
+              "verse": 2,
+              "text": "E percebeu Davi que o Senhor o confirmara rei sobre Israel, porque o seu reino foi exaltado por causa do seu povo Israel."
+            },
+            {
+              "verse": 3,
+              "text": "E Davi tomou mais mulheres em Jerusalém: e Davi gerou mais filhos e filhas."
+            },
+            {
+              "verse": 4,
+              "text": "Ora, estes são os nomes dos filhos que ele teve em Jerusalém: Samua, Sobabe, Natã e Salomão,"
+            },
+            {
+              "verse": 5,
+              "text": "Ibhar, Elisua e Elpelete,"
+            },
+            {
+              "verse": 6,
+              "text": "Nogá, Nefeg e Jafia,"
+            },
+            {
+              "verse": 7,
+              "text": "Elisama, Beeliada e Elifelete."
+            },
+            {
+              "verse": 8,
+              "text": "E quando os filisteus ouviram que Davi havia sido ungido rei sobre todo o Israel, todos os filisteus subiram em busca de Davi. E Davi ouviu isso e saiu ao encontro deles."
+            },
+            {
+              "verse": 9,
+              "text": "E os filisteus vieram e se espalharam pelo vale de Refaim."
+            },
+            {
+              "verse": 10,
+              "text": "E Davi consultou a Deus, dizendo: Subirei contra os filisteus, e tu os entregarás em minhas mãos? E o Senhor lhe disse: Sobe, porque os entregarei nas tuas mãos."
+            },
+            {
+              "verse": 11,
+              "text": "Subiram, pois, a Baal-Perazim; e Davi os feriu ali. Então disse Davi: Deus rompeu os meus inimigos pela minha mão, como o rompimento das águas; por isso chamaram aquele lugar de Baal-Perazim."
+            },
+            {
+              "verse": 12,
+              "text": "E quando eles deixaram ali os seus deuses, Davi deu uma ordem, e eles foram queimados no fogo."
+            },
+            {
+              "verse": 13,
+              "text": "E os filisteus mais uma vez se espalharam pelo vale."
+            },
+            {
+              "verse": 14,
+              "text": "Portanto, Davi consultou novamente a Deus, e Deus lhe disse: Não subas atrás deles; afaste-se deles e venha por detrás deles, defronte das amoreiras."
+            },
+            {
+              "verse": 15,
+              "text": "E será que, quando ouvires o som de um movimento nas copas das amoreiras, então sairás à peleja; porque Deus saiu adiante de ti para ferir o exército dos filisteus."
+            },
+            {
+              "verse": 16,
+              "text": "Davi fez, pois, como Deus lhe ordenara; e feriram o exército dos filisteus, desde Gibeão até Gazer."
+            },
+            {
+              "verse": 17,
+              "text": "E a fama de Davi espalhou-se por todas as terras; e o Senhor trouxe o temor dele sobre todas as nações."
+            }
+          ]
+        },
+        {
+          "chapter": 15,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E Davi construiu para si casas na cidade de Davi, e preparou um lugar para a arca de Deus, e armou-lhe uma tenda."
+            },
+            {
+              "verse": 2,
+              "text": "Então disse Davi: Ninguém deve levar a arca de Deus, senão os levitas; porque o Senhor os escolheu para levarem a arca de Deus e para o servirem para sempre."
+            },
+            {
+              "verse": 3,
+              "text": "E Davi reuniu todo o Israel em Jerusalém, para fazer subir a arca do Senhor ao seu lugar, que lhe tinha preparado."
+            },
+            {
+              "verse": 4,
+              "text": "E Davi reuniu os filhos de Arão e os levitas:"
+            },
+            {
+              "verse": 5,
+              "text": "Dos filhos de Coate: Uriel, o chefe, e seus irmãos cento e vinte;"
+            },
+            {
+              "verse": 6,
+              "text": "Dos filhos de Merari: Asaías, o chefe, e seus irmãos duzentos e vinte;"
+            },
+            {
+              "verse": 7,
+              "text": "Dos filhos de Gérson: Joel, o chefe, e seus irmãos cento e trinta;"
+            },
+            {
+              "verse": 8,
+              "text": "Dos filhos de Elizafã: Semaías, o chefe, e seus irmãos duzentos;"
+            },
+            {
+              "verse": 9,
+              "text": "Dos filhos de Hebrom: Eliel, o chefe, e seus irmãos oitenta;"
+            },
+            {
+              "verse": 10,
+              "text": "Dos filhos de Uziel: Aminadabe, o chefe, e seus irmãos cento e doze."
+            },
+            {
+              "verse": 11,
+              "text": "Davi chamou os sacerdotes Zadoque e Abiatar, e os levitas Uriel, Asaías, Joel, Semaías, Eliel e Aminadabe,"
+            },
+            {
+              "verse": 12,
+              "text": "E disse-lhes: Vós sois os chefes das casas paternas dos levitas; santificai-vos, tanto vós como vossos irmãos, para que façais subir a arca do Senhor Deus de Israel ao lugar que lhe preparei."
+            },
+            {
+              "verse": 13,
+              "text": "Visto que não o fizestes a princípio, o Senhor nosso Deus nos infligiu uma brecha, por não o buscarmos segundo a ordem devida."
+            },
+            {
+              "verse": 14,
+              "text": "Assim os sacerdotes e os levitas se santificaram para fazer subir a arca do Senhor, Deus de Israel."
+            },
+            {
+              "verse": 15,
+              "text": "E os filhos dos levitas carregaram a arca de Deus sobre os seus ombros e os varais que ela trazia, como Moisés ordenara, segundo a palavra do Senhor."
+            },
+            {
+              "verse": 16,
+              "text": "E Davi disse aos chefes dos levitas que designassem seus irmãos para serem cantores com instrumentos musicais, saltérios, harpas e címbalos, tocando, elevando a voz com alegria."
+            },
+            {
+              "verse": 17,
+              "text": "Assim designaram os levitas a Hemã, filho de Joel; e de seus irmãos, Asafe, filho de Berequias; e dos filhos de Merari, seus irmãos, Etã, filho de Cusaías;"
+            },
+            {
+              "verse": 18,
+              "text": "Com eles, seus irmãos da segunda classe: Zacarias, Ben, Jaaziel, Semiramote, Jeiel, Uni, Eliabe, Benaías, Maaseias, Matitias, Elifele, Micneias, Obede-Edom e Jeiel, os porteiros."
+            },
+            {
+              "verse": 19,
+              "text": "Assim foram designados os cantores Hemã, Asafe e Etã para tocarem címbalos de bronze;"
+            },
+            {
+              "verse": 20,
+              "text": "Zacarias, Aziel, Semiramote, Jeiel, Uni, Eliabe, Maaseias e Benaías, com saltérios em alamote;"
+            },
+            {
+              "verse": 21,
+              "text": "Matitias, Elifele, Micneias, Obede-Edom, Jeiel e Azazias, com harpas em seminite para liderarem o canto."
+            },
+            {
+              "verse": 22,
+              "text": "E Quenanias, chefe dos levitas, era cantador: ele instruía sobre o canto, porque era hábil."
+            },
+            {
+              "verse": 23,
+              "text": "E Berequias e Elcana eram porteiros da arca."
+            },
+            {
+              "verse": 24,
+              "text": "Sebanias, Josafá, Natanael, Amasai, Zacarias, Benaías e Eliezer, os sacerdotes, tocavam as trombetas diante da arca de Deus; Obede-Edom e Jeías eram porteiros da arca."
+            },
+            {
+              "verse": 25,
+              "text": "Então Davi, e os anciãos de Israel, e os capitães de milhares, foram com alegria fazer subir a arca da aliança do Senhor da casa de Obede-Edom."
+            },
+            {
+              "verse": 26,
+              "text": "E aconteceu que, ajudando Deus os levitas que levavam a arca da aliança do Senhor, eles ofereceram sete novilhos e sete carneiros."
+            },
+            {
+              "verse": 27,
+              "text": "E Davi estava vestido de um manto de linho fino, e todos os levitas que levavam a arca, e os cantores, e Quenanias, o mestre do canto, com os cantores; Davi também tinha sobre si um éfode de linho."
+            },
+            {
+              "verse": 28,
+              "text": "Assim todo o Israel fez subir a arca da aliança do Senhor com júbilo, som de corneta, trombetas e címbalos, tocando com saltérios e harpas."
+            },
+            {
+              "verse": 29,
+              "text": "E aconteceu que, chegando a arca da aliança do Senhor à cidade de Davi, Mical, filha de Saul, olhando pela janela, viu o rei Davi dançando e brincando; e ela o desprezou em seu coração."
+            }
+          ]
+        },
+        {
+          "chapter": 16,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Trouxeram, pois, a arca de Deus e a puseram no meio da tenda que Davi lhe armara; e ofereceram holocaustos e ofertas pacíficas diante de Deus."
+            },
+            {
+              "verse": 2,
+              "text": "E quando Davi acabou de oferecer os holocaustos e as ofertas pacíficas, abençoou o povo em nome do Senhor."
+            },
+            {
+              "verse": 3,
+              "text": "Distribuiu a cada um de Israel, tanto a homem como a mulher, um pão, um bom pedaço de carne e um jarro de vinho."
+            },
+            {
+              "verse": 4,
+              "text": "Designou alguns dos levitas para ministrarem perante a arca do Senhor, para celebrarem, para darem graças e para louvarem ao Senhor Deus de Israel:"
+            },
+            {
+              "verse": 5,
+              "text": "Asafe, o chefe, e depois dele Zacarias, Jeiel, Semiramote, Jeiel, Matitias, Eliabe, Benaia e Obede-Edom; e Jeiel tocava saltérios e harpas, ao passo que Asafe tocava címbalos;"
+            },
+            {
+              "verse": 6,
+              "text": "Também Benaia e Jaaziel, os sacerdotes, tocavam continuamente trombetas diante da arca da aliança de Deus."
+            },
+            {
+              "verse": 7,
+              "text": "Então, naquele dia, Davi entregou primeiro este salmo para agradecer ao Senhor nas mãos de Asafe e seus irmãos."
+            },
+            {
+              "verse": 8,
+              "text": "Dai graças ao Senhor, invocai o seu nome, divulgai os seus feitos entre o povo."
+            },
+            {
+              "verse": 9,
+              "text": "Cantem para ele, cantem salmos para ele, falem de todas as suas obras maravilhosas."
+            },
+            {
+              "verse": 10,
+              "text": "Gloriai-vos no seu santo nome; alegre-se o coração daqueles que buscam ao Senhor."
+            },
+            {
+              "verse": 11,
+              "text": "Buscai o Senhor e a sua força, buscai continuamente a sua face."
+            },
+            {
+              "verse": 12,
+              "text": "Lembra-te das maravilhas que fez, dos seus prodígios e dos juízos da sua boca;"
+            },
+            {
+              "verse": 13,
+              "text": "Ó vós, semente de Israel, seu servo, vós, filhos de Jacó, seus escolhidos."
+            },
+            {
+              "verse": 14,
+              "text": "Ele é o Senhor nosso Deus; seus julgamentos estão em toda a terra."
+            },
+            {
+              "verse": 15,
+              "text": "Lembrai-vos perpetuamente da sua aliança, da palavra que ele ordenou para mil gerações;"
+            },
+            {
+              "verse": 16,
+              "text": "Até mesmo da aliança que ele fez com Abraão e de seu juramento a Isaque;"
+            },
+            {
+              "verse": 17,
+              "text": "e tem confirmado o mesmo a Jacó por uma lei, e a Israel por um pacto eterno,"
+            },
+            {
+              "verse": 18,
+              "text": "Dizendo: A ti darei a terra de Canaã, a parte da tua herança;"
+            },
+            {
+              "verse": 19,
+              "text": "Quando éreis poucos em número, sim, poucos e estrangeiros nela."
+            },
+            {
+              "verse": 20,
+              "text": "E quando eles foram de nação em nação, e de um reino para outro povo;"
+            },
+            {
+              "verse": 21,
+              "text": "Ele não permitiu que ninguém lhes fizesse mal; sim, ele reprovou os reis por causa deles,"
+            },
+            {
+              "verse": 22,
+              "text": "Dizendo: Não toqueis nos meus ungidos, e não façais mal aos meus profetas."
+            },
+            {
+              "verse": 23,
+              "text": "Cantai ao Senhor, todos os habitantes da terra; anunciai dia após dia a sua salvação."
+            },
+            {
+              "verse": 24,
+              "text": "Declarai a sua glória entre as nações, e as suas maravilhas entre todos os povos."
+            },
+            {
+              "verse": 25,
+              "text": "Porque grande é o Senhor e muito digno de louvor; ele também é mais temido do que todos os deuses."
+            },
+            {
+              "verse": 26,
+              "text": "Porque todos os deuses do povo são ídolos; mas o Senhor fez os céus."
+            },
+            {
+              "verse": 27,
+              "text": "Glória e honra estão em sua presença; força e alegria estão em seu lugar."
+            },
+            {
+              "verse": 28,
+              "text": "Dai ao Senhor, ó tribos do povo, dai ao Senhor glória e força."
+            },
+            {
+              "verse": 29,
+              "text": "Dai ao Senhor a glória devida ao seu nome; trazei uma oferta e vinde diante dele; adorai o Senhor na beleza da santidade."
+            },
+            {
+              "verse": 30,
+              "text": "Tremei perante ele, ó toda a terra! O mundo está firme, para que não se abale."
+            },
+            {
+              "verse": 31,
+              "text": "Alegrem-se os céus, regozije-se a terra, e diga-se entre as nações: O Senhor reina."
+            },
+            {
+              "verse": 32,
+              "text": "Brame o mar e a sua plenitude; regozijem-se os campos e tudo o que neles há."
+            },
+            {
+              "verse": 33,
+              "text": "Então as árvores do bosque cantarão diante do Senhor, porque ele vem julgar a terra."
+            },
+            {
+              "verse": 34,
+              "text": "Dai graças ao Senhor, porque ele é bom; porque a sua misericórdia dura para sempre."
+            },
+            {
+              "verse": 35,
+              "text": "E dizei: Salva-nos, ó Deus da nossa salvação, reúne-nos e livra-nos das nações, para que demos graças ao teu santo nome e nos gloriemos no teu louvor."
+            },
+            {
+              "verse": 36,
+              "text": "Bendito seja o Senhor Deus de Israel para todo o sempre. E todo o povo disse: Amém, e louvou ao Senhor."
+            },
+            {
+              "verse": 37,
+              "text": "Então Davi deixou ali, perante a arca da aliança do Senhor, a Asafe e a seus irmãos, para ministrarem perante a arca continuamente, segundo o encargo de cada dia;"
+            },
+            {
+              "verse": 38,
+              "text": "Juntamente com Obede-Edom e seus irmãos, que eram sessenta e oito; e Obede-Edom, filho de Jedutum, e Hosa, como porteiros;"
+            },
+            {
+              "verse": 39,
+              "text": "E Zadoque, o sacerdote, e seus irmãos, os sacerdotes, diante do tabernáculo do Senhor, no alto que está em Gibeão,"
+            },
+            {
+              "verse": 40,
+              "text": "Oferecer holocaustos ao Senhor continuamente de manhã e à tarde sobre o altar do holocausto, e fazer conforme tudo o que está escrito na lei do Senhor, que ele ordenou a Israel;"
+            },
+            {
+              "verse": 41,
+              "text": "Com eles estavam Hemã, Jedutum e os demais escolhidos, designados nominalmente para darem graças ao Senhor, porque a sua misericórdia dura para sempre;"
+            },
+            {
+              "verse": 42,
+              "text": "Com eles estavam Hemã e Jedutum com trombetas e címbalos para os músicos, bem como com instrumentos musicais para os louvores a Deus. Os filhos de Jedutum eram porteiros."
+            },
+            {
+              "verse": 43,
+              "text": "E todo o povo foi, cada um para sua casa; e Davi voltou para abençoar a sua casa."
+            }
+          ]
+        },
+        {
+          "chapter": 17,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Ora, aconteceu que, estando Davi sentado em sua casa, disse Davi ao profeta Natã: Eis que eu moro numa casa de cedros, mas a arca da aliança do Senhor permanece escondida."
+            },
+            {
+              "verse": 2,
+              "text": "Então Natã disse a Davi: Faze tudo o que está no teu coração; pois Deus está contigo."
+            },
+            {
+              "verse": 3,
+              "text": "E aconteceu naquela mesma noite que a palavra de Deus veio a Natã, dizendo:"
+            },
+            {
+              "verse": 4,
+              "text": "Vai e dize a Davi, meu servo: Assim diz o Senhor: Não me edificarás uma casa para habitar;"
+            },
+            {
+              "verse": 5,
+              "text": "Porque não morei em casa alguma desde o dia em que fiz subir Israel até hoje; mas andei de tenda em tenda, e de um tabernáculo em outro."
+            },
+            {
+              "verse": 6,
+              "text": "Por onde andei com todo o Israel, falei uma palavra a qualquer dos juízes de Israel, a quem ordenei que apascentassem o meu povo, dizendo: Por que não construístes para mim uma casa de cedros?"
+            },
+            {
+              "verse": 7,
+              "text": "Agora, pois, assim dirás ao meu servo Davi: Assim diz o Senhor dos Exércitos: Eu te tirei do aprisco, de detrás das ovelhas, para que fosses príncipe sobre o meu povo Israel."
+            },
+            {
+              "verse": 8,
+              "text": "E estive contigo por onde quer que andaste, e eliminei de diante de ti todos os teus inimigos, e fiz-te um nome como o nome dos grandes homens que há na terra."
+            },
+            {
+              "verse": 9,
+              "text": "Também estabelecerei um lugar para o meu povo Israel, e os plantarei, e habitarão no seu lugar, e nunca mais serão abalados; nem os filhos da impiedade os desperdiçarão mais, como no início,"
+            },
+            {
+              "verse": 10,
+              "text": "E desde o tempo em que ordenei que houvesse juízes sobre o meu povo Israel. Além disso, subjugarei todos os teus inimigos, e te declaro que o Senhor te edificará uma casa."
+            },
+            {
+              "verse": 11,
+              "text": "E acontecerá que, quando expirarem os teus dias, em que deverás ir para estar com teus pais, suscitarei depois de ti a tua descendência, que será de teus filhos; e estabelecerei o seu reino."
+            },
+            {
+              "verse": 12,
+              "text": "Ele construirá uma casa para mim, e eu estabelecerei o seu trono para sempre."
+            },
+            {
+              "verse": 13,
+              "text": "Eu lhe serei por pai, e ele me será por filho; e não retirarei dele a minha misericórdia, como a retirei daquele que foi antes de ti:"
+            },
+            {
+              "verse": 14,
+              "text": "Mas eu o estabelecerei na minha casa e no meu reino para sempre; e o seu trono será estabelecido para sempre."
+            },
+            {
+              "verse": 15,
+              "text": "Segundo todas estas palavras, e segundo toda esta visão, assim falou Natã a Davi."
+            },
+            {
+              "verse": 16,
+              "text": "Veio, pois, o rei Davi, e assentou-se diante do Senhor, e disse: Quem sou eu, Senhor Deus, e qual é a minha casa, para que me trouxeste até aqui?"
+            },
+            {
+              "verse": 17,
+              "text": "E, no entanto, isso foi uma coisa pequena aos teus olhos, ó Deus; porque também falaste da casa do teu servo durante muito tempo, e me consideraste como um homem de alta posição, ó Senhor Deus."
+            },
+            {
+              "verse": 18,
+              "text": "Que mais te poderá dizer Davi acerca da honra concedida ao teu servo? Pois tu conheces o teu servo."
+            },
+            {
+              "verse": 19,
+              "text": "Ó Senhor, por amor do teu servo e segundo o teu coração, fizeste toda esta grandeza, revelando todas estas grandes coisas."
+            },
+            {
+              "verse": 20,
+              "text": "Ó Senhor, não há outro semelhante a ti, nem há outro Deus além de ti, conforme tudo o que ouvimos com os nossos ouvidos."
+            },
+            {
+              "verse": 21,
+              "text": "E que nação na terra é como o teu povo Israel, a quem Deus foi resgatar para si como povo, para fazeres para ti um nome de grandeza e de temor, expulsando as nações de diante do teu povo, que resgataste do Egito?"
+            },
+            {
+              "verse": 22,
+              "text": "Tu constituíste o teu povo Israel por teu povo para sempre; e tu, Senhor, te fizeste o seu Deus."
+            },
+            {
+              "verse": 23,
+              "text": "Portanto agora, Senhor, seja confirmado para sempre o que disseste acerca do teu servo e acerca da sua casa, e faze como disseste."
+            },
+            {
+              "verse": 24,
+              "text": "Seja mesmo confirmado, para que o teu nome seja engrandecido para sempre, dizendo: O Senhor dos exércitos é o Deus de Israel, sim, um Deus para Israel; e seja estabelecida diante de ti a casa de Davi, teu servo."
+            },
+            {
+              "verse": 25,
+              "text": "Porque tu, ó meu Deus, disseste ao teu servo que lhe edificarias uma casa; por isso o teu servo encontrou no seu coração o que fazer para orar diante de ti."
+            },
+            {
+              "verse": 26,
+              "text": "E agora, Senhor, tu és Deus e prometeste esta bondade ao teu servo:"
+            },
+            {
+              "verse": 27,
+              "text": "Agora, pois, te agrada abençoar a casa do teu servo, para que esteja diante de ti para sempre; porque tu abençoas, ó Senhor, e ela será bendita para sempre."
+            }
+          ]
+        },
+        {
+          "chapter": 18,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Depois disso, Davi derrotou os filisteus e os subjugou, e tomou Gate e suas cidades das mãos dos filisteus."
+            },
+            {
+              "verse": 2,
+              "text": "E ele feriu Moabe; e os moabitas tornaram-se servos de Davi e trouxeram presentes."
+            },
+            {
+              "verse": 3,
+              "text": "E Davi feriu Hadarézer, rei de Zobá, até Hamate, quando ele ia estabelecer seu domínio junto ao rio Eufrates."
+            },
+            {
+              "verse": 4,
+              "text": "Davi tomou-lhe mil carros, sete mil cavaleiros e vinte mil homens de infantaria; Davi também jarretou todos os cavalos dos carros, mas reservou cem deles para cem carros."
+            },
+            {
+              "verse": 5,
+              "text": "E quando os sírios de Damasco vieram ajudar Hadarézer, rei de Zobá, Davi matou dos sírios vinte e dois mil homens."
+            },
+            {
+              "verse": 6,
+              "text": "Então Davi pôs guarnições na Síria-Damasco; e os sírios tornaram-se servos de Davi e trouxeram presentes. Assim o Senhor preservou Davi onde quer que ele fosse."
+            },
+            {
+              "verse": 7,
+              "text": "Davi tomou os escudos de ouro que estavam com os servos de Hadarézer e os levou a Jerusalém."
+            },
+            {
+              "verse": 8,
+              "text": "Da mesma forma, de Tibate e de Cum, cidades de Hadarézer, trouxe o rei Davi muito bronze, com o qual Salomão fez o mar de bronze, as colunas e os vasos de bronze."
+            },
+            {
+              "verse": 9,
+              "text": "Ora, quando Tou, rei de Hamate, ouviu que Davi havia ferido todo o exército de Hadarézer, rei de Zobá;"
+            },
+            {
+              "verse": 10,
+              "text": "enviou Hadorão, seu filho, ao rei Davi, para saudá-lo e abençoá-lo por ter ele pelejado contra Hadarézer e o ferido (pois Hadarézer havia travado guerras contra Tou), enviando-lhe também toda sorte de utensílios de ouro, prata e bronze."
+            },
+            {
+              "verse": 11,
+              "text": "Também estes o rei Davi dedicou ao Senhor, com a prata e o ouro que trouxe de todas estas nações; de Edom, e de Moabe, e dos filhos de Amom, e dos filisteus, e de Amaleque."
+            },
+            {
+              "verse": 12,
+              "text": "Além disso, Abisai, filho de Zeruia, matou dezoito mil edomitas no vale do sal."
+            },
+            {
+              "verse": 13,
+              "text": "E pôs guarnições em Edom; e todos os edomitas tornaram-se servos de Davi. Assim o Senhor preservou Davi onde quer que ele fosse."
+            },
+            {
+              "verse": 14,
+              "text": "Assim Davi reinou sobre todo o Israel e executou o juízo e a justiça entre todo o seu povo."
+            },
+            {
+              "verse": 15,
+              "text": "Joabe, filho de Zeruia, era o comandante do exército; e Josafá, filho de Ailude, era o cronista."
+            },
+            {
+              "verse": 16,
+              "text": "Zadoque, filho de Aitube, e Abimeleque, filho de Abiatar, eram sacerdotes; Savassa era o escriba;"
+            },
+            {
+              "verse": 17,
+              "text": "Benaia, filho de Joiada, estava sobre os quereteus e os peleteus; e os filhos de Davi eram os primeiros junto ao rei."
+            }
+          ]
+        },
+        {
+          "chapter": 19,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Ora, aconteceu depois disto que Naás, rei dos filhos de Amom, morreu, e seu filho reinou em seu lugar."
+            },
+            {
+              "verse": 2,
+              "text": "E disse Davi: Usarei de bondade para com Hanum, filho de Naás, porque seu pai usou de bondade para comigo. E Davi enviou mensageiros para o consolarem a respeito de seu pai. Então os servos de Davi foram à terra dos filhos de Amom, a Hanum, para o consolarem."
+            },
+            {
+              "verse": 3,
+              "text": "Mas os príncipes dos filhos de Amom disseram a Hanum: Pensas que Davi honra a teu pai, por te ter enviado consoladores? Não vieram a ti os seus servos para espiar, destruir e vasculhar a terra?"
+            },
+            {
+              "verse": 4,
+              "text": "Portanto, Hanum tomou os servos de Davi, e os barbeou, e cortou-lhes as vestes no meio, perto das nádegas, e os despediu."
+            },
+            {
+              "verse": 5,
+              "text": "Então alguns foram e contaram a Davi como aqueles homens haviam sido tratados. Ele, porém, mandou ao encontro deles, visto que estavam grandemente envergonhados; e o rei lhes mandou dizer: Ficai em Jericó até que vossa barba vos cresça, e depois voltai."
+            },
+            {
+              "verse": 6,
+              "text": "Vendo, pois, os filhos de Amom que se tinham tornado odiosos para com Davi, Hanum e os filhos de Amom enviaram-lhes mil talentos de prata para alugarem carros e cavaleiros da Mesopotâmia, e da Síria-Maacá, e de Zobá."
+            },
+            {
+              "verse": 7,
+              "text": "Alugaram, pois, trinta e dois mil carros, além do rei de Maaca e do seu povo, o qual veio e acampou diante de Medeba. Os filhos de Amom também se reuniram de suas cidades e foram para a batalha."
+            },
+            {
+              "verse": 8,
+              "text": "E quando Davi soube disso, enviou Joabe e todo o exército dos valentes."
+            },
+            {
+              "verse": 9,
+              "text": "E os filhos de Amom saíram e ordenaram a batalha diante da porta da cidade; e os reis que tinham vindo estavam sozinhos no campo."
+            },
+            {
+              "verse": 10,
+              "text": "Vendo, pois, Joabe que a batalha estava armada contra ele por diante e por trás, escolheu dentre todos os escolhidos de Israel e os colocou em ordem contra os sírios."
+            },
+            {
+              "verse": 11,
+              "text": "E o resto do povo ele entregou nas mãos de Abisai, seu irmão, e eles se puseram em ordem contra os filhos de Amom."
+            },
+            {
+              "verse": 12,
+              "text": "E ele disse: Se os sírios forem fortes demais para mim, então tu me ajudarás; mas se os filhos de Amom forem fortes demais para ti, então eu te ajudarei."
+            },
+            {
+              "verse": 13,
+              "text": "Sede fortes, e portemo-nos com coragem pelo nosso povo e pelas cidades do nosso Deus; e faça o Senhor o que for bom aos seus olhos."
+            },
+            {
+              "verse": 14,
+              "text": "Então Joabe e o povo que estava com ele chegaram à batalha diante dos sírios; e eles fugiram diante dele."
+            },
+            {
+              "verse": 15,
+              "text": "Vendo, pois, os filhos de Amom que os sírios tinham fugido, também fugiram de diante de Abisai, seu irmão, e entraram na cidade. Então Joabe veio a Jerusalém."
+            },
+            {
+              "verse": 16,
+              "text": "E quando os sírios viram que estavam em pior estado diante de Israel, enviaram mensageiros, e convocaram os sírios que estavam além do rio; e Sofaque, capitão do exército de Hadarézer, foi adiante deles."
+            },
+            {
+              "verse": 17,
+              "text": "Sendo isso anunciado a Davi, ele reuniu todo o Israel, passou o Jordão, marchou contra eles e dispôs-se em ordem de batalha para enfrentá-los. Assim Davi alinhou o exército contra os sírios, e estes pelejaram com ele."
+            },
+            {
+              "verse": 18,
+              "text": "Mas os sírios fugiram de diante de Israel, e Davi matou deles sete mil homens de carros e quarenta mil homens de infantaria, matando também a Sofaque, capitão do exército."
+            },
+            {
+              "verse": 19,
+              "text": "E quando os servos de Hadarézer viram que estavam em pior situação diante de Israel, fizeram paz com Davi, e tornaram-se seus servos: nem os sírios ajudariam mais os filhos de Amom."
+            }
+          ]
+        },
+        {
+          "chapter": 20,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Aconteceu que, na primavera, no tempo em que os reis saem para a batalha, Joabe conduziu a força do exército, devastou a terra dos filhos de Amom, veio e sitiou Rabá; porém Davi permaneceu em Jerusalém. E Joabe feriu Rabá e a destruiu."
+            },
+            {
+              "verse": 2,
+              "text": "Davi tirou a coroa de sobre a cabeça do rei deles e viu que ela pesava um talento de ouro, e nela havia pedras preciosas; e foi posta sobre a cabeça de Davi. Ele também trouxe da cidade muitíssimos despojos."
+            },
+            {
+              "verse": 3,
+              "text": "Tirou para fora o povo que nela estava, submetendo-o a serras, a instrumentos cortantes de ferro e a machados. Assim fez Davi com todas as cidades dos filhos de Amom; então Davi e todo o povo voltaram para Jerusalém."
+            },
+            {
+              "verse": 4,
+              "text": "Depois disso, houve guerra em Gezer contra os filisteus; então Sibecai, o husatita, matou Sipai, dentre os descendentes dos refains, e os filisteus foram subjugados."
+            },
+            {
+              "verse": 5,
+              "text": "Houve novamente guerra contra os filisteus; e Elanã, filho de Jair, matou Lami, irmão de Golias, o giteu, cuja haste da lança era como o eixo do tear de um tecelão."
+            },
+            {
+              "verse": 6,
+              "text": "E ainda houve guerra em Gate, onde havia um homem de grande estatura, cujos dedos das mãos e dos pés eram vinte e quatro, seis em cada mão e seis em cada pé: e ele também era filho do gigante."
+            },
+            {
+              "verse": 7,
+              "text": "Mas quando ele desafiou Israel, Jônatas, filho de Siméia, irmão de Davi, o matou."
+            },
+            {
+              "verse": 8,
+              "text": "Estes nasceram ao gigante em Gate; e caíram pela mão de Davi e pela mão dos seus servos."
+            }
+          ]
+        },
+        {
+          "chapter": 21,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E Satanás se levantou contra Israel e incitou Davi a numerar Israel."
+            },
+            {
+              "verse": 2,
+              "text": "Disse Davi a Joabe e aos príncipes do povo: Ide, numerai Israel desde Berseba até Dã; e trazei-me o número deles, para que eu saiba."
+            },
+            {
+              "verse": 3,
+              "text": "Joabe respondeu: O Senhor faça o seu povo cem vezes mais numeroso do que é; mas, ó rei, meu senhor, não são todos servos de meu senhor? Por que razão exige meu senhor isso? Por que seria motivo de culpa para Israel?"
+            },
+            {
+              "verse": 4,
+              "text": "Contudo, a palavra do rei prevaleceu contra Joabe. Portanto Joabe partiu, e percorreu todo o Israel, e chegou a Jerusalém."
+            },
+            {
+              "verse": 5,
+              "text": "Joabe deu a Davi o resultado do recenseamento do povo: todos os de Israel eram um milhão e cem mil homens que puxavam a espada; e os de Judá eram quatrocentos e setenta mil homens que puxavam a espada."
+            },
+            {
+              "verse": 6,
+              "text": "Mas Levi e Benjamim não o contaram entre eles, porque a palavra do rei era abominável para Joabe."
+            },
+            {
+              "verse": 7,
+              "text": "E Deus ficou descontente com isso; portanto ele feriu Israel."
+            },
+            {
+              "verse": 8,
+              "text": "E disse Davi a Deus: Pequei muito, porque fiz isto; mas agora, rogo-te, afasta a iniquidade do teu servo; pois agi de maneira muito tola."
+            },
+            {
+              "verse": 9,
+              "text": "E o Senhor falou a Gade, vidente de Davi, dizendo:"
+            },
+            {
+              "verse": 10,
+              "text": "Vai e dize a Davi: Assim diz o Senhor: Três coisas te proponho; escolhe uma delas, para que eu ta faça."
+            },
+            {
+              "verse": 11,
+              "text": "Veio, pois, Gade a Davi e disse-lhe: Assim diz o Senhor: Escolhe para ti:"
+            },
+            {
+              "verse": 12,
+              "text": "Ou três anos de fome, ou três meses de destruição diante de teus adversários, enquanto a espada dos teus inimigos te alcança, ou então três dias de espada do Senhor, a peste na terra, com o anjo do Senhor destruindo por todo o território de Israel. Considera, pois, agora que resposta devo levar àquele que me enviou."
+            },
+            {
+              "verse": 13,
+              "text": "E disse Davi a Gade: Estou em grande apuro; caia agora eu nas mãos do Senhor; porque muito grandes são as suas misericórdias; mas não caia eu nas mãos dos homens."
+            },
+            {
+              "verse": 14,
+              "text": "Então o Senhor enviou a peste sobre Israel; e caíram de Israel setenta mil homens."
+            },
+            {
+              "verse": 15,
+              "text": "Deus enviou um anjo a Jerusalém para destruí-la; mas, ao ir ele destruindo, o Senhor olhou, teve compaixão daquele mal e disse ao anjo destruidor: Basta! Retém agora a tua mão. E o anjo do Senhor estava junto à eira de Ornam, o jebuseu."
+            },
+            {
+              "verse": 16,
+              "text": "E Davi levantou os olhos e viu o anjo do Senhor, que estava entre a terra e o céu, e tinha na mão uma espada desembainhada estendida sobre Jerusalém. Então Davi e os anciãos de Israel, que estavam vestidos de saco, caíram com o rosto em terra."
+            },
+            {
+              "verse": 17,
+              "text": "E disse Davi a Deus: Não fui eu que mandei contar o povo? até eu é que pequei e pratiquei o mal; mas quanto a essas ovelhas, o que fizeram? seja a tua mão, peço-te, Senhor meu Deus, sobre mim e sobre a casa de meu pai; mas não sobre o teu povo, para que sejam atormentados."
+            },
+            {
+              "verse": 18,
+              "text": "Então o anjo do Senhor ordenou a Gade que dissesse a Davi que Davi subisse e levantasse um altar ao Senhor na eira de Ornã, o jebuseu."
+            },
+            {
+              "verse": 19,
+              "text": "E Davi subiu ao ouvir a palavra de Gade, que ele proferira em nome do Senhor."
+            },
+            {
+              "verse": 20,
+              "text": "Ornam virou-se, viu o anjo, e os seus quatro filhos que com ele estavam esconderam-se; Ornam, porém, continuou a malhar o trigo."
+            },
+            {
+              "verse": 21,
+              "text": "E quando Davi chegou a Ornan, Ornan olhou e viu Davi, e saiu da eira, e inclinou-se diante de Davi com o rosto em terra."
+            },
+            {
+              "verse": 22,
+              "text": "Disse Davi a Ornam: Dá-me o lugar desta eira, para que edifique nela um altar ao Senhor; pelo seu pleno valor tu a darás a mim, para que a praga cesse de sobre o povo."
+            },
+            {
+              "verse": 23,
+              "text": "Ornam respondeu a Davi: Toma-o para ti, e faça o rei, meu senhor, o que bem lhe parecer; eis que dou os bois para os holocaustos, os instrumentos de debulha para lenha e o trigo para a oferta de manjares; tudo dou."
+            },
+            {
+              "verse": 24,
+              "text": "O rei Davi respondeu a Ornam: Não, antes por seu inteiro valor o comprarei; porque não tomarei o que é teu para o Senhor, para oferecer holocaustos que não me custem nada."
+            },
+            {
+              "verse": 25,
+              "text": "Davi deu a Ornam, por aquele lugar, o peso de seiscentos siclos de ouro."
+            },
+            {
+              "verse": 26,
+              "text": "E Davi edificou ali um altar ao Senhor, e ofereceu holocaustos e ofertas pacíficas, e invocou o Senhor; e ele lhe respondeu do céu com fogo sobre o altar do holocausto."
+            },
+            {
+              "verse": 27,
+              "text": "O Senhor deu ordem ao anjo, e este tornou a meter a espada na bainha."
+            },
+            {
+              "verse": 28,
+              "text": "Naquele tempo, quando Davi viu que o Senhor lhe tinha respondido na eira de Ornã, o jebuseu, ali ofereceu sacrifícios."
+            },
+            {
+              "verse": 29,
+              "text": "Porque o tabernáculo do Senhor, que Moisés fez no deserto, e o altar do holocausto estavam naquele tempo no alto de Gibeão."
+            },
+            {
+              "verse": 30,
+              "text": "Porém Davi não pôde ir lá consultar a Deus, porque estava amedrontado diante da espada do anjo do Senhor."
+            }
+          ]
+        },
+        {
+          "chapter": 22,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Então disse Davi: Esta é a casa do Senhor Deus, e este é o altar do holocausto para Israel."
+            },
+            {
+              "verse": 2,
+              "text": "Davi mandou reunir os estrangeiros que estavam na terra de Israel e designou pedreiros para talhar pedras lavradas, com o fim de edificarem a casa de Deus."
+            },
+            {
+              "verse": 3,
+              "text": "Davi preparou ferro em abundância para os pregos das folhas dos portões e para as juntas, bem como bronze em quantidade imensurável;"
+            },
+            {
+              "verse": 4,
+              "text": "Também cedros em abundância; pois os sidônios e os de Tiro trouxeram muita madeira de cedro a Davi."
+            },
+            {
+              "verse": 5,
+              "text": "Davi disse: Salomão, meu filho, é jovem e tenro, e a casa que se há de edificar para o Senhor deve ser magnificência extraordinária, de renome e de glória em todas as terras; portanto, farei os preparativos para ela. Assim, Davi fez amplos preparativos antes de sua morte."
+            },
+            {
+              "verse": 6,
+              "text": "Então chamou Salomão, seu filho, e ordenou-lhe que construísse uma casa para o Senhor, Deus de Israel."
+            },
+            {
+              "verse": 7,
+              "text": "E disse Davi a Salomão: Meu filho, quanto a mim, pensei em construir uma casa ao nome do Senhor meu Deus;"
+            },
+            {
+              "verse": 8,
+              "text": "Mas veio a mim a palavra do Senhor, dizendo: Derramaste muito sangue e fizeste grandes guerras; não edificarás casa ao meu nome, porque derramaste muito sangue sobre a terra aos meus olhos."
+            },
+            {
+              "verse": 9,
+              "text": "Eis que te nascerá um filho, que será um homem tranquilo; e lhe darei descanso de todos os seus inimigos ao redor; porque o seu nome será Salomão, e darei paz e sossego a Israel nos seus dias."
+            },
+            {
+              "verse": 10,
+              "text": "Ele construirá uma casa ao meu nome; e ele será meu filho, e eu serei seu pai; e estabelecerei o trono do seu reino sobre Israel para sempre."
+            },
+            {
+              "verse": 11,
+              "text": "Agora, meu filho, o Senhor seja contigo; prospera e edifica a casa do Senhor teu Deus, como ele disse a teu respeito."
+            },
+            {
+              "verse": 12,
+              "text": "Tão somente o Senhor te dê sabedoria e entendimento, e te constitua sobre Israel, para que guardes a lei do Senhor, teu Deus."
+            },
+            {
+              "verse": 13,
+              "text": "Então prosperarás, se tiveres cuidado de cumprir os estatutos e os juízos que o Senhor ordenou a Moisés a respeito de Israel: sê forte e corajoso; não temas, nem te assustes."
+            },
+            {
+              "verse": 14,
+              "text": "Agora, eis que na minha angústia preparei para a casa do SENHOR, cem mil talentos de ouro, e um milhão de talentos de prata; e bronze e ferro sem medida, porque é em abundância; também madeira e pedra tenho preparado: Pode aumentá-los."
+            },
+            {
+              "verse": 15,
+              "text": "Além disso, tens contigo operários em abundância: pedreiros, carpinteiros e toda sorte de artífices versados em toda espécie de trabalho."
+            },
+            {
+              "verse": 16,
+              "text": "Do ouro, da prata, do latão e do ferro não há número. Levanta-te, pois, e faze, e o Senhor seja contigo."
+            },
+            {
+              "verse": 17,
+              "text": "Davi também ordenou a todos os príncipes de Israel que ajudassem seu filho Salomão, dizendo:"
+            },
+            {
+              "verse": 18,
+              "text": "Porventura não está convosco o Senhor, vosso Deus, que vos deu descanso de todos os lados? Pois ele entregou em minhas mãos os moradores da terra, e a terra está subjugada perante o Senhor e perante o seu povo."
+            },
+            {
+              "verse": 19,
+              "text": "Agora, aplicai o vosso coração e a vossa alma a buscarem o Senhor, vosso Deus; levantai-vos, pois, e edificai o santuário do Senhor Deus, para trazeis a arca da aliança do Senhor e os utensílios sagrados de Deus para a casa que há de ser edificada ao nome do Senhor."
+            }
+          ]
+        },
+        {
+          "chapter": 23,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Assim, quando Davi já estava velho e farto de dias, ele constituiu Salomão, seu filho, rei sobre Israel."
+            },
+            {
+              "verse": 2,
+              "text": "E reuniu todos os príncipes de Israel, com os sacerdotes e os levitas."
+            },
+            {
+              "verse": 3,
+              "text": "Ora, foram contados os levitas de trinta anos para cima; e o número deles, segundo as suas pesquisas, foi de trinta e oito mil homens, homem por homem."
+            },
+            {
+              "verse": 4,
+              "text": "Dos quais vinte e quatro mil deveriam iniciar a obra da casa do Senhor; e seis mil eram oficiais e juízes:"
+            },
+            {
+              "verse": 5,
+              "text": "Além disso, quatro mil eram porteiros, e quatro mil louvavam ao Senhor com os instrumentos que Davi fizera para esse fim."
+            },
+            {
+              "verse": 6,
+              "text": "E Davi os dividiu em turmas entre os filhos de Levi, a saber: Gérson, Coate e Merari."
+            },
+            {
+              "verse": 7,
+              "text": "Dos gersonitas estavam Laadan e Simei."
+            },
+            {
+              "verse": 8,
+              "text": "Os filhos de Laadã: o chefe era Jeiel, depois Zetão e Joel; estes três."
+            },
+            {
+              "verse": 9,
+              "text": "Os filhos de Simei: Selomite, Haziel e Harã; estes três foram os chefes das casas paternas de Laadã."
+            },
+            {
+              "verse": 10,
+              "text": "E os filhos de Simei foram Jaate, Zina, Jeús e Berias. Estes quatro eram filhos de Simei."
+            },
+            {
+              "verse": 11,
+              "text": "E Jaate era o chefe, e Ziza o segundo; mas Jeús e Berias não tiveram muitos filhos; portanto, eles estavam na mesma conta, de acordo com a casa de seu pai."
+            },
+            {
+              "verse": 12,
+              "text": "Os filhos de Coate; Amrão, Izar, Hebrom e Uziel, quatro."
+            },
+            {
+              "verse": 13,
+              "text": "Os filhos de Amrão: Arão e Moisés; e Arão foi separado para santificar as coisas santíssimas, ele e seus filhos para sempre, para queimar incenso perante o Senhor, para o servir e para abençoar em seu nome para sempre."
+            },
+            {
+              "verse": 14,
+              "text": "Quanto a Moisés, homem de Deus, seus filhos foram nomeados da tribo de Levi."
+            },
+            {
+              "verse": 15,
+              "text": "Os filhos de Moisés foram Gérson e Eliezer."
+            },
+            {
+              "verse": 16,
+              "text": "Dos filhos de Gérson, Sebuel era o chefe."
+            },
+            {
+              "verse": 17,
+              "text": "E os filhos de Eliezer foram: Reabias, o chefe. E Eliezer não teve outros filhos; mas os filhos de Reabias foram muitos."
+            },
+            {
+              "verse": 18,
+              "text": "Dos filhos de Izar: Selomite, o chefe."
+            },
+            {
+              "verse": 19,
+              "text": "Dos filhos de Hebrom: Jerias, o primeiro; Amarias, o segundo; Jaaziel, o terceiro; e Jecameão, o quarto."
+            },
+            {
+              "verse": 20,
+              "text": "Dos filhos de Uziel: Miquéias, o primeiro, e Jesias, o segundo."
+            },
+            {
+              "verse": 21,
+              "text": "Os filhos de Merari: Mali e Músi. Os filhos de Mali: Eleazar e Quis."
+            },
+            {
+              "verse": 22,
+              "text": "E Eleazar morreu, e não teve filhos, mas filhas; e seus irmãos, os filhos de Quis, os levaram."
+            },
+            {
+              "verse": 23,
+              "text": "Os filhos de Músi: Mali, e Éder, e Jerimote, três."
+            },
+            {
+              "verse": 24,
+              "text": "Estes foram os filhos de Levi segundo a casa de seus pais; sim, os chefes das casas paternas, conforme foram contados pelo número dos nomes pelas suas urnas, que fizeram o trabalho no serviço da casa do Senhor, desde a idade de vinte anos para cima."
+            },
+            {
+              "verse": 25,
+              "text": "Porque disse Davi: O Senhor Deus de Israel deu descanso ao seu povo, para que habite em Jerusalém para sempre."
+            },
+            {
+              "verse": 26,
+              "text": "E também aos levitas; não carregarão mais o tabernáculo, nem quaisquer utensílios dele para o seu serviço."
+            },
+            {
+              "verse": 27,
+              "text": "Pois pelas últimas palavras de Davi foram contados os levitas de vinte anos para cima:"
+            },
+            {
+              "verse": 28,
+              "text": "Porque o seu ofício era servir aos filhos de Arão no serviço da casa do Senhor, nos átrios, e nas câmaras, e na purificação de todas as coisas sagradas, e na obra do serviço da casa de Deus;"
+            },
+            {
+              "verse": 29,
+              "text": "Tanto para os pães da proposição, como para a flor de farinha para oferta de cereais, e para os pães ázimos, e para os assados ​​na panela, e para os fritos, e para todas as medidas e tamanhos;"
+            },
+            {
+              "verse": 30,
+              "text": "E ficar de pé todas as manhãs para agradecer e louvar ao Senhor, e da mesma forma à tarde;"
+            },
+            {
+              "verse": 31,
+              "text": "E oferecer todos os holocaustos ao Senhor nos sábados, nas luas novas e nas festas fixas, por número, conforme a ordem que lhes foi ordenada, continuamente perante o Senhor:"
+            },
+            {
+              "verse": 32,
+              "text": "E que eles cuidassem do cargo da tenda da congregação, e do cargo do lugar santo, e do cargo dos filhos de Arão, seus irmãos, no serviço da casa do Senhor."
+            }
+          ]
+        },
+        {
+          "chapter": 24,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Ora, estas são as divisões dos filhos de Arão: Os filhos de Arão foram Nadabe, Abiú, Eleazar e Itamar."
+            },
+            {
+              "verse": 2,
+              "text": "Mas Nadabe e Abiú morreram antes de seu pai e não tiveram filhos; portanto Eleazar e Itamar exerceram o ofício sacerdotal."
+            },
+            {
+              "verse": 3,
+              "text": "E Davi os distribuiu, tanto a Zadoque, dos filhos de Eleazar, como a Aimeleque, dos filhos de Itamar, segundo os seus cargos no seu serviço."
+            },
+            {
+              "verse": 4,
+              "text": "E acharam-se mais chefes dos filhos de Eleazar do que dos filhos de Itamar; e assim eles foram divididos. Entre os filhos de Eleazar havia dezesseis chefes da casa de seus pais, e oito entre os filhos de Itamar, segundo a casa de seus pais."
+            },
+            {
+              "verse": 5,
+              "text": "Assim foram divididos por sorteio, uma espécie com outra; porque os governadores do santuário e os governadores da casa de Deus eram dos filhos de Eleazar e dos filhos de Itamar."
+            },
+            {
+              "verse": 6,
+              "text": "Semaías, filho de Netanel, o escriba, um dos levitas, registrou-os diante do rei, dos príncipes, de Zadoque, o sacerdote, de Aimeleque, filho de Abiatar, e dos chefes das casas paternas dos sacerdotes e dos levitas: uma família principal foi sorteada para Eleazar, e outra para Itamar."
+            },
+            {
+              "verse": 7,
+              "text": "A primeira sorte saiu para Jeoiaribe, a segunda para Jedaías,"
+            },
+            {
+              "verse": 8,
+              "text": "A terceira para Harim, a quarta para Seorim,"
+            },
+            {
+              "verse": 9,
+              "text": "A quinta para Malquias, a sexta para Mijamin,"
+            },
+            {
+              "verse": 10,
+              "text": "A sétima para Hacoz, a oitava para Abias,"
+            },
+            {
+              "verse": 11,
+              "text": "a nona para Jesua, a décima para Secanias,"
+            },
+            {
+              "verse": 12,
+              "text": "a décima primeira para Eliasibe, a décima segunda para Jaquim,"
+            },
+            {
+              "verse": 13,
+              "text": "a décima terceira para Hupá, a décima quarta para Jesebeabe,"
+            },
+            {
+              "verse": 14,
+              "text": "A décima quinta para Bilga, a décima sexta para Immer,"
+            },
+            {
+              "verse": 15,
+              "text": "A décima sétima para Hezir, a décima oitava para Afses,"
+            },
+            {
+              "verse": 16,
+              "text": "A décima nona para Petaías, a vigésima para Jesequel,"
+            },
+            {
+              "verse": 17,
+              "text": "O vigésimo primeiro para Jaquim, o vigésimo segundo para Gamul,"
+            },
+            {
+              "verse": 18,
+              "text": "A vigésima terceira para Delaías, a vigésima quarta para Maazias."
+            },
+            {
+              "verse": 19,
+              "text": "Estas foram as ordens que lhes deram no seu serviço, para entrarem na casa do Senhor, segundo o seu costume, sob o comando de Arão, seu pai, como o Senhor, Deus de Israel, lhe ordenara."
+            },
+            {
+              "verse": 20,
+              "text": "Quanto aos demais filhos de Levi: Dos filhos de Anrão, Subael; dos filhos de Subael, Jedeías."
+            },
+            {
+              "verse": 21,
+              "text": "Quanto a Reabias: dos filhos de Reabias, o primeiro foi Issias."
+            },
+            {
+              "verse": 22,
+              "text": "Dos izaritas, Selomote; dos filhos de Selomote, Jaate."
+            },
+            {
+              "verse": 23,
+              "text": "Dos filhos de Hebrom: Jerias, o primeiro; Amarias, o segundo; Jaaziel, o terceiro; e Jecameão, o quarto."
+            },
+            {
+              "verse": 24,
+              "text": "Dos filhos de Uziel, Miquéias; dos filhos de Miquéias, Samir."
+            },
+            {
+              "verse": 25,
+              "text": "O irmão de Micá era Issias; dos filhos de Issias: Zacarias."
+            },
+            {
+              "verse": 26,
+              "text": "Os filhos de Merari foram Mali e úsi; os filhos de Jaazias: Beno."
+            },
+            {
+              "verse": 27,
+              "text": "Dos filhos de Merari, por Jaazias: Beno, Soão, Zacur e Ibri."
+            },
+            {
+              "verse": 28,
+              "text": "De Mahli veio Eleazar, que não teve filhos."
+            },
+            {
+              "verse": 29,
+              "text": "Quanto a Quis: o filho de Quis foi Jerameel."
+            },
+            {
+              "verse": 30,
+              "text": "Os filhos de Músi: Mali, Éder e Jerimote. Estes foram os filhos dos levitas, segundo as casas de seus pais."
+            },
+            {
+              "verse": 31,
+              "text": "Estes também lançaram sortes contra seus irmãos, os filhos de Arão, na presença do rei Davi, e de Zadoque, e de Aimeleque, e dos chefes dos pais dos sacerdotes e dos levitas, sim, os principais pais contra seus irmãos mais novos."
+            }
+          ]
+        },
+        {
+          "chapter": 25,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Além disso, Davi e os capitães do exército separaram para o serviço os filhos de Asafe, de Hemã e de Jedutum, os quais profetizavam com harpas, saltérios e címbalos; e este foi o número dos que executavam esse trabalho, segundo o seu serviço:"
+            },
+            {
+              "verse": 2,
+              "text": "Dos filhos de Asafe: Zacur, José, Netanias e Asarelá; os filhos de Asafe estavam sob a direção de Asafe, o qual profetizavam segundo a ordem do rei."
+            },
+            {
+              "verse": 3,
+              "text": "De Jedutum: os filhos de Jedutum foram Gedalias, Zeri, Jesaías, Hasabias e Matitias, ao todo seis, sob a direção de seu pai Jedutum, que profetizava com a harpa, para dar graças e louvar ao Senhor."
+            },
+            {
+              "verse": 4,
+              "text": "De Hemã: os filhos de Hemã foram Buquias, Matanias, Uziel, Sebuel, Jerimote, Hananias, Hanani, Eliata, Gidalti, Romanti-Ezer, Josbecasá, Maloti, Hotir e Maaziote:"
+            },
+            {
+              "verse": 5,
+              "text": "Todos estes foram filhos de Hemã, o vidente do rei, nas palavras de Deus, para levantar o chifre. E Deus deu a Hemã quatorze filhos e três filhas."
+            },
+            {
+              "verse": 6,
+              "text": "Todos estes estavam sob a direção de seu pai para cantar na casa do Senhor, com címbalos, saltérios e harpas, para o serviço da casa de Deus, conforme a ordem do rei a Asafe, Jedutum e Hemã."
+            },
+            {
+              "verse": 7,
+              "text": "Assim foi o número deles, com seus irmãos instruídos nos cânticos do Senhor, todos os que eram astutos, duzentos e oitenta e oito."
+            },
+            {
+              "verse": 8,
+              "text": "Lançaram sortes, turno contra turno, tanto o pequeno quanto o grande, assim o mestre como o discípulo."
+            },
+            {
+              "verse": 9,
+              "text": "A primeira sorte saiu para Asafe, para José; a segunda para Gedalias, que com seus irmãos e filhos eram doze;"
+            },
+            {
+              "verse": 10,
+              "text": "A terceira, para Zacur, seus filhos e seus irmãos, sendo doze;"
+            },
+            {
+              "verse": 11,
+              "text": "A quarta, para Izri, seus filhos e seus irmãos, sendo doze;"
+            },
+            {
+              "verse": 12,
+              "text": "A quinta, para Netanias, seus filhos e seus irmãos, sendo doze;"
+            },
+            {
+              "verse": 13,
+              "text": "A sexta, para Buquias, seus filhos e irmãos, sendo doze;"
+            },
+            {
+              "verse": 14,
+              "text": "A sétima, para Jesaralá, seus filhos e seus irmãos, sendo doze;"
+            },
+            {
+              "verse": 15,
+              "text": "A oitava, para Jesaías, seus filhos e seus irmãos, sendo doze;"
+            },
+            {
+              "verse": 16,
+              "text": "A nona, para Matanias, seus filhos e seus irmãos, sendo doze;"
+            },
+            {
+              "verse": 17,
+              "text": "A décima, para Simei, seus filhos e seus irmãos, sendo doze;"
+            },
+            {
+              "verse": 18,
+              "text": "A décima primeira, para Azareel, seus filhos e seus irmãos, sendo doze;"
+            },
+            {
+              "verse": 19,
+              "text": "A décima segunda, para Hasabias, seus filhos e seus irmãos, sendo doze;"
+            },
+            {
+              "verse": 20,
+              "text": "A décima terceira, para Subael, seus filhos e seus irmãos, sendo doze;"
+            },
+            {
+              "verse": 21,
+              "text": "A décima quarta, para Matitias, seus filhos e irmãos, sendo doze;"
+            },
+            {
+              "verse": 22,
+              "text": "A décima quinta, para Jeremote, seus filhos e seus irmãos, sendo doze;"
+            },
+            {
+              "verse": 23,
+              "text": "A décima sexta, para Hananias, seus filhos e seus irmãos, sendo doze;"
+            },
+            {
+              "verse": 24,
+              "text": "A décima sétima, para Josbecassa, seus filhos e seus irmãos, sendo doze;"
+            },
+            {
+              "verse": 25,
+              "text": "A décima oitava, para Hanani, seus filhos e irmãos, sendo doze;"
+            },
+            {
+              "verse": 26,
+              "text": "A décima nona, para Maloti, seus filhos e seus irmãos, sendo doze;"
+            },
+            {
+              "verse": 27,
+              "text": "A vigésima, para Eliata, seus filhos e seus irmãos, sendo doze;"
+            },
+            {
+              "verse": 28,
+              "text": "A vigésima primeira, para Hotir, seus filhos e seus irmãos, sendo doze;"
+            },
+            {
+              "verse": 29,
+              "text": "A vigésima segunda, para Gidalti, seus filhos e seus irmãos, sendo doze;"
+            },
+            {
+              "verse": 30,
+              "text": "A vigésima terceira, para Maaziote, seus filhos e seus irmãos, sendo doze;"
+            },
+            {
+              "verse": 31,
+              "text": "A vigésima quarta, para Romanti-Ezer, seus filhos e seus irmãos, sendo doze."
+            }
+          ]
+        },
+        {
+          "chapter": 26,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Quanto às turmas dos porteiros: Dos coritas era Meselemias, filho de Coré, dos filhos de Asafe."
+            },
+            {
+              "verse": 2,
+              "text": "E foram os filhos de Meselemias: Zacarias, o primogênito, Jediael, o segundo, Zebadias, o terceiro, Jatniel, o quarto,"
+            },
+            {
+              "verse": 3,
+              "text": "Elão, o quinto; Joanã, o sexto; Elioenai, o sétimo."
+            },
+            {
+              "verse": 4,
+              "text": "E foram os filhos de Obede-Edom: Semaías, o primogênito, Jeozabade, o segundo, Joá, o terceiro, e Sacar, o quarto, e Netanel, o quinto,"
+            },
+            {
+              "verse": 5,
+              "text": "Amiel, o sexto; Issacar, o sétimo; Peultai, o oitavo; porquanto Deus o abençoou."
+            },
+            {
+              "verse": 6,
+              "text": "Também nasceram filhos a Semaías, seu filho, que governaram em toda a casa de seu pai; porque eram homens valentes."
+            },
+            {
+              "verse": 7,
+              "text": "Os filhos de Semaías: Otni, Rafael, Obede e Elzabad, cujos irmãos eram homens fortes: Eliú e Semaquias."
+            },
+            {
+              "verse": 8,
+              "text": "Todos estes dos filhos de Obede-Edom: eles e seus filhos e seus irmãos, homens capazes de força para o serviço, eram sessenta e dois de Obede-Edom."
+            },
+            {
+              "verse": 9,
+              "text": "E Meselemias teve filhos e irmãos, homens fortes, dezoito."
+            },
+            {
+              "verse": 10,
+              "text": "Também Hosa, dos filhos de Merari, teve filhos: Simri, o chefe (pois, embora não fosse o primogênito, seu pai o constituiu chefe),"
+            },
+            {
+              "verse": 11,
+              "text": "Hilquias, o segundo; Tebalias, o terceiro; Zacarias, o quarto; todos os filhos e irmãos de Hosa foram treze."
+            },
+            {
+              "verse": 12,
+              "text": "Entre estes estavam as turmas dos porteiros, até mesmo entre os chefes, tendo guardas uns contra os outros, para ministrar na casa do Senhor."
+            },
+            {
+              "verse": 13,
+              "text": "E lançaram sortes, tanto os pequenos como os grandes, segundo a casa de seus pais, para cada porta."
+            },
+            {
+              "verse": 14,
+              "text": "E a sorte do leste coube a Selemias. Então, sobre Zacarias, seu filho, sábio conselheiro, lançaram sortes; e a sua sorte saiu para o norte."
+            },
+            {
+              "verse": 15,
+              "text": "Para Obede-Edom em direção ao sul; e a seus filhos a casa de Asuppim."
+            },
+            {
+              "verse": 16,
+              "text": "Para Supim e Hosa, a sorte saiu para o ocidente, junto ao portão de Salquete, pela calçada da subida, guarda defronte de guarda."
+            },
+            {
+              "verse": 17,
+              "text": "Para o leste estavam seis levitas, para o norte quatro por dia, para o sul quatro por dia, e em direção a Asuppim dois e dois."
+            },
+            {
+              "verse": 18,
+              "text": "Em Parbar a oeste, quatro na ponte e dois em Parbar."
+            },
+            {
+              "verse": 19,
+              "text": "Estas são as divisões dos porteiros entre os filhos de Core e entre os filhos de Merari."
+            },
+            {
+              "verse": 20,
+              "text": "E dos levitas, Aías era responsável pelos tesouros da casa de Deus e pelos tesouros das coisas consagradas."
+            },
+            {
+              "verse": 21,
+              "text": "Quanto aos filhos de Laadã: os descendentes do gersonita Laadã, os chefes de famílias, isto é, de Laadã, o gersonita, foram Jeeli."
+            },
+            {
+              "verse": 22,
+              "text": "Os filhos de Jeeli: Zetão e Joel, seu irmão, que estavam encarregados dos tesouros da casa do Senhor."
+            },
+            {
+              "verse": 23,
+              "text": "Dos amramitas, e dos izaritas, e dos hebronitas, e dos uzielitas:"
+            },
+            {
+              "verse": 24,
+              "text": "E Sebuel, filho de Gérson, filho de Moisés, era o chefe dos tesouros."
+            },
+            {
+              "verse": 25,
+              "text": "Seus irmãos por meio de Eliezer: Reabias, seu filho; Jesaías, seu filho; Jorão, seu filho; Zicri, seu filho; e Selomite, seu filho."
+            },
+            {
+              "verse": 26,
+              "text": "O qual Selomite e seus irmãos eram encarregados de todos os tesouros das coisas consagradas que o rei Davi e os chefes das casas paternas, os capitães de milhares e de centenas, e os capitães do exército, haviam consagrado."
+            },
+            {
+              "verse": 27,
+              "text": "Dos despojos conquistados nas batalhas eles dedicaram para manter a casa do Senhor."
+            },
+            {
+              "verse": 28,
+              "text": "Tudo o que Samuel, o vidente, Saul, filho de Quis, Abner, filho de Ner, e Joabe, filho de Zeruia, tinham consagrado, bem como tudo o mais que alguém dedicara, estava sob a responsabilidade de Selomite e de seus irmãos."
+            },
+            {
+              "verse": 29,
+              "text": "Dos izaritas, Quenanias e seus filhos eram responsáveis ​​pelos negócios externos de Israel, como oficiais e juízes."
+            },
+            {
+              "verse": 30,
+              "text": "E dos hebronitas, Hasabias e seus irmãos, homens valentes, mil e setecentos, eram oficiais entre eles de Israel, deste lado do Jordão, para o ocidente, em todos os negócios do Senhor e no serviço do rei."
+            },
+            {
+              "verse": 31,
+              "text": "Entre os hebronitas era Jerias o chefe, sim, entre os hebronitas, segundo as gerações de seus pais. No quadragésimo ano do reinado de Davi foram procurados, e encontraram-se entre eles homens valentes em Jazer de Gileade."
+            },
+            {
+              "verse": 32,
+              "text": "E seus irmãos, homens valentes, foram dois mil e setecentos chefes de família, aos quais o rei Davi constituiu governantes sobre os rubenitas, os gaditas e a meia tribo de Manassés, em todos os assuntos referentes a Deus e nos negócios do rei."
+            }
+          ]
+        },
+        {
+          "chapter": 27,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Ora, os filhos de Israel, segundo o seu número, a saber, os chefes das casas paternas e os capitães de milhares e de centenas, e os seus oficiais que serviam ao rei em qualquer assunto das turmas, que entravam e saíam mês a mês, durante todos os meses do ano, de cada turma, eram vinte e quatro mil."
+            },
+            {
+              "verse": 2,
+              "text": "No primeiro mês estava Jasobeão, filho de Zabdiel, na primeira turma; e na sua turma estavam vinte e quatro mil."
+            },
+            {
+              "verse": 3,
+              "text": "Dos filhos de Perez foi o chefe de todos os capitães do exército durante o primeiro mês."
+            },
+            {
+              "verse": 4,
+              "text": "Sobre o segundo mês estava Dodai, o aoíta, e a sua turma, tendo por chefe a Miclote; e na sua turma havia vinte e quatro mil."
+            },
+            {
+              "verse": 5,
+              "text": "O terceiro capitão do exército para o terceiro mês foi Benaia, filho de Joiada, sumo sacerdote; e na sua turma havia vinte e quatro mil."
+            },
+            {
+              "verse": 6,
+              "text": "Este é aquele Benaia, que era poderoso entre os trinta e acima dos trinta; e na sua carreira estava seu filho Amizabade."
+            },
+            {
+              "verse": 7,
+              "text": "O quarto capitão para o quarto mês foi Asael, irmão de Joabe, e depois dele Zebadias, seu filho; e na sua turma havia vinte e quatro mil."
+            },
+            {
+              "verse": 8,
+              "text": "O quinto capitão para o quinto mês foi Samute, o izraíta; e no seu grupo havia vinte e quatro mil."
+            },
+            {
+              "verse": 9,
+              "text": "O sexto capitão para o sexto mês foi Ira, filho de Iquequis, o tecoíta; e no seu grupo havia vinte e quatro mil."
+            },
+            {
+              "verse": 10,
+              "text": "O sétimo capitão para o sétimo mês foi Heles, o pelonita, dos filhos de Efraim; e no seu grupo havia vinte e quatro mil."
+            },
+            {
+              "verse": 11,
+              "text": "O oitavo capitão do oitavo mês foi Sibecai, o husatita, dos zarteus; e no seu grupo havia vinte e quatro mil."
+            },
+            {
+              "verse": 12,
+              "text": "O nono capitão para o nono mês foi Abiezer, o anetotita, dos benjamitas; e na sua turma havia vinte e quatro mil."
+            },
+            {
+              "verse": 13,
+              "text": "O décimo capitão para o décimo mês foi Maarai, o netofatita, dos zeraítas; e no seu grupo havia vinte e quatro mil."
+            },
+            {
+              "verse": 14,
+              "text": "O décimo primeiro capitão do décimo primeiro mês foi Benaías, o piratonita, dos filhos de Efraim; e no seu grupo havia vinte e quatro mil."
+            },
+            {
+              "verse": 15,
+              "text": "O décimo segundo capitão do décimo segundo mês foi Heldai, o netofatita, de Otniel; e na sua turma havia vinte e quatro mil."
+            },
+            {
+              "verse": 16,
+              "text": "Além disso, sobre as tribos de Israel: o governante dos rubenitas era Eliezer, filho de Zicri; dos simeonitas, Sefatias, filho de Maaca:"
+            },
+            {
+              "verse": 17,
+              "text": "Dos levitas, Hasabias, filho de Quemuel; dos aaronitas, Zadoque:"
+            },
+            {
+              "verse": 18,
+              "text": "De Judá, Eliú, um dos irmãos de Davi; de Issacar, Onri, filho de Miguel:"
+            },
+            {
+              "verse": 19,
+              "text": "de Zebulom, Ismaías, filho de Obadias; de Naftali, Jerimote, filho de Azriel:"
+            },
+            {
+              "verse": 20,
+              "text": "Dos filhos de Efraim, Oséias, filho de Azazias; da meia tribo de Manassés, Joel, filho de Pedaías:"
+            },
+            {
+              "verse": 21,
+              "text": "Da meia tribo de Manassés, em Gileade, Ido, filho de Zacarias; de Benjamim, Jaasiel, filho de Abner:"
+            },
+            {
+              "verse": 22,
+              "text": "De Dã, Azareel, filho de Jeroão. Estes foram os príncipes das tribos de Israel."
+            },
+            {
+              "verse": 23,
+              "text": "Mas Davi não calculou o número deles, de vinte anos para baixo, porque o Senhor tinha dito que aumentaria Israel até às estrelas dos céus."
+            },
+            {
+              "verse": 24,
+              "text": "Joabe, filho de Zeruia, começou a contar, mas não terminou, porque caiu ira contra Israel; nem o número foi inscrito no relato das crônicas do rei Davi."
+            },
+            {
+              "verse": 25,
+              "text": "E sobre os tesouros do rei estava Azmavete, filho de Adiel; e sobre os armazéns nos campos, nas cidades, e nas aldeias, e nos castelos, estava Jonatã, filho de Uzias."
+            },
+            {
+              "verse": 26,
+              "text": "E sobre os que faziam o trabalho do campo para a lavoura da terra estava Esri, filho de Quelube:"
+            },
+            {
+              "verse": 27,
+              "text": "Sobre as vinhas estava Simei, o ramatita; sobre a produção das vinhas para as adegas estava Zabdi, o sifamita;"
+            },
+            {
+              "verse": 28,
+              "text": "E sobre as oliveiras e os sicômoros que havia nas planícies estava Baal-hanan, o gederita; e sobre as caves de azeite estava Joás."
+            },
+            {
+              "verse": 29,
+              "text": "Sobre os rebanhos que pastavam em Sarom estava Sitrai, o saronita; e sobre os rebanhos que estavam nos vales estava Safate, filho de Adlai;"
+            },
+            {
+              "verse": 30,
+              "text": "Sobre os camelos também estava Obil, o ismaelita; e sobre os jumentos estava Jedeías, o meronotita."
+            },
+            {
+              "verse": 31,
+              "text": "E sobre os rebanhos estava Jaziz, o hagerita. Todos estes eram os governantes da substância que pertencia ao rei Davi."
+            },
+            {
+              "verse": 32,
+              "text": "Jônatas, tio de Davi, era conselheiro, homem prudente e escriba; e Jeiel, filho de Hacmoni, estava com os filhos do rei."
+            },
+            {
+              "verse": 33,
+              "text": "E Aitofel era o conselheiro do rei; e Husai, o arquita, era o companheiro do rei."
+            },
+            {
+              "verse": 34,
+              "text": "E depois de Aitofel vieram Joiada, filho de Benaia, e Abiatar; e o general do exército do rei foi Joabe."
+            }
+          ]
+        },
+        {
+          "chapter": 28,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E Davi reuniu em Jerusalém todos os príncipes de Israel, os príncipes das tribos, os capitães das companhias que ministravam ao rei por turma, os capitães dos milhares, os capitães das centenas, os despenseiros de todos os bens e posses do rei, e de seus filhos, com os oficiais, e com os valentes, e com todos os homens valentes."
+            },
+            {
+              "verse": 2,
+              "text": "Então o rei Davi se pôs de pé e disse: Ouvi-me, meus irmãos e meu povo: Quanto a mim, tive no coração a ideia de construir uma casa de repouso para a arca da aliança do Senhor, e para o escabelo de nosso Deus, e já a preparei."
+            },
+            {
+              "verse": 3,
+              "text": "Mas Deus me disse: Não construirás uma casa ao meu nome, porque foste homem de guerra e derramaste sangue."
+            },
+            {
+              "verse": 4,
+              "text": "Contudo o Senhor Deus de Israel me escolheu antes de toda a casa de meu pai para ser rei sobre Israel para sempre; porque ele escolheu Judá para ser o governante; e da casa de Judá, a casa de meu pai; e entre os filhos de meu pai ele gostou de mim para me fazer rei sobre todo o Israel:"
+            },
+            {
+              "verse": 5,
+              "text": "E de todos os meus filhos (pois o Senhor me deu muitos filhos), ele escolheu meu filho Salomão para se assentar no trono do reino do Senhor sobre Israel."
+            },
+            {
+              "verse": 6,
+              "text": "E ele me disse: Teu filho Salomão, ele edificará a minha casa e os meus átrios; porque eu o escolhi para ser meu filho, e eu serei seu pai."
+            },
+            {
+              "verse": 7,
+              "text": "Além disso, estabelecerei o seu reino para sempre, se ele persistir nos meus mandamentos e nos meus juízos, como hoje se faz."
+            },
+            {
+              "verse": 8,
+              "text": "Agora, pois, diante de todo o Israel, a congregação do Senhor, e aos ouvidos do nosso Deus, guardai e buscai todos os mandamentos do Senhor vosso Deus, para que possuais esta boa terra e a deixeis como herança para vossos filhos depois de vós, para sempre."
+            },
+            {
+              "verse": 9,
+              "text": "E tu, meu filho Salomão, conhece o Deus de teu pai e serve-o com um coração perfeito e com uma mente voluntária; porque o Senhor esquadrinha todos os corações e entende todas as imaginações dos pensamentos. Se o buscares, ele se deixará achar por ti; mas, se o abandonares, ele te rejeitará para sempre."
+            },
+            {
+              "verse": 10,
+              "text": "Atenta, agora, para isto, porque o Senhor te escolheu para edificar uma casa para o santuário; sê forte e faze-a."
+            },
+            {
+              "verse": 11,
+              "text": "Então Davi deu a Salomão, seu filho, o modelo do vestíbulo, e das suas casas, e dos seus tesouros, e dos seus aposentos superiores, e das suas salas interiores, e do lugar do propiciatório,"
+            },
+            {
+              "verse": 12,
+              "text": "E o modelo de tudo o que ele tinha pelo espírito, dos átrios da casa do Senhor, e de todas as câmaras ao redor, dos tesouros da casa de Deus, e dos tesouros das coisas consagradas:"
+            },
+            {
+              "verse": 13,
+              "text": "Também para as turmas dos sacerdotes e dos levitas, e para toda a obra do serviço da casa do Senhor, e para todos os utensílios do serviço da casa do Senhor."
+            },
+            {
+              "verse": 14,
+              "text": "Ele deu ouro por peso para coisas de ouro, para todos os instrumentos de todo tipo de serviço; prata também para todos os instrumentos de prata por peso, para todos os instrumentos de todo tipo de serviço:"
+            },
+            {
+              "verse": 15,
+              "text": "Deu também o peso para os candeeiros de ouro e para as suas lâmpadas de ouro, o peso próprio de cada candeeiro e de suas lâmpadas; e, do mesmo modo, o peso para os candeeiros de prata, tanto para cada candeeiro como para as suas lâmpadas, segundo o uso de cada candeeiro."
+            },
+            {
+              "verse": 16,
+              "text": "E por peso deu ouro para as mesas dos pães da proposição, para cada mesa; e também prata para as mesas de prata:"
+            },
+            {
+              "verse": 17,
+              "text": "Também ouro puro para os ganchos, e para as tigelas, e para os copos; e para as bacias de ouro deu ouro por peso para cada bacia; e também prata por peso para cada bacia de prata:"
+            },
+            {
+              "verse": 18,
+              "text": "E para o altar do incenso deu ouro refinado por peso; e ouro para o modelo do carro dos querubins, que estendiam as suas asas e cobriam a arca da aliança do Senhor."
+            },
+            {
+              "verse": 19,
+              "text": "Tudo isto, disse Davi, o Senhor me fez entender por escrito, por sua mão sobre mim, todas as obras deste modelo."
+            },
+            {
+              "verse": 20,
+              "text": "E disse Davi a Salomão, seu filho: Esforça-te e tem bom ânimo, e faze-o; não temas, nem te espantes; porque o Senhor Deus, o meu Deus, será contigo; ele não te deixará, nem te desamparará, até que tenhas terminado toda a obra do serviço da casa do Senhor."
+            },
+            {
+              "verse": 21,
+              "text": "E eis que as turmas dos sacerdotes e dos levitas estarão contigo para todo o serviço da casa de Deus; e estará contigo para todo tipo de trabalho todo homem hábil e disposto, para qualquer tipo de serviço: também os príncipes e todo o povo estarão inteiramente sob o teu comando."
+            }
+          ]
+        },
+        {
+          "chapter": 29,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Além disso, o rei Davi disse a toda a congregação: Meu filho Salomão, o único a quem Deus escolheu, ainda é jovem e tenro, e a obra é grande; porque o palácio não é para o homem, mas para o Senhor Deus."
+            },
+            {
+              "verse": 2,
+              "text": "Agora preparei com todas as minhas forças para a casa do meu Deus o ouro para as coisas de ouro, a prata para as coisas de prata, o bronze para as coisas de bronze, o ferro para as coisas de ferro, e a madeira para as coisas de madeira; pedras de ônix, pedras de engastar, pedras brilhantes e de diversas cores, toda sorte de pedras preciosas, e pedras de mármore em abundância."
+            },
+            {
+              "verse": 3,
+              "text": "Além disso, porque tenho afeição pela casa do meu Deus, tenho do meu próprio bem, ouro e prata, que dei à casa do meu Deus, além de tudo o que preparei para a casa santa,"
+            },
+            {
+              "verse": 4,
+              "text": "A saber, três mil talentos de ouro, do ouro de Ofir, e sete mil talentos de prata refinada, para cobrirem também as paredes das casas;"
+            },
+            {
+              "verse": 5,
+              "text": "O ouro para as coisas de ouro, e a prata para as coisas de prata, e para todo tipo de trabalho a ser feito pelas mãos de artífices. E quem então está disposto a consagrar seu serviço hoje ao Senhor?"
+            },
+            {
+              "verse": 6,
+              "text": "Então os chefes das casas paternas e os príncipes das tribos de Israel, e os capitães de milhares e de centenas, com os chefes da obra do rei, ofereceram voluntariamente,"
+            },
+            {
+              "verse": 7,
+              "text": "E deram para o serviço da casa de Deus cinco mil talentos e dez mil drams de ouro, e dez mil talentos de prata, e dezoito mil talentos de bronze, e cem mil talentos de ferro."
+            },
+            {
+              "verse": 8,
+              "text": "E aqueles com quem se acharam pedras preciosas deram-nas ao tesouro da casa do Senhor, pela mão de Jeiel, o gersonita."
+            },
+            {
+              "verse": 9,
+              "text": "Então o povo se alegrou, por terem oferecido voluntariamente, porque com coração perfeito ofereceram voluntariamente ao Senhor; e também o rei Davi se alegrou com grande alegria."
+            },
+            {
+              "verse": 10,
+              "text": "Pelo que Davi bendisse ao Senhor diante de toda a congregação; e disse Davi: Bendito sejas tu, Senhor Deus de Israel, nosso pai, para todo o sempre."
+            },
+            {
+              "verse": 11,
+              "text": "Tua é, Senhor, a grandeza, e o poder, e a glória, e a vitória, e a majestade; porque teu é tudo o que há nos céus e na terra; teu é o reino, ó Senhor, e tu és exaltado como cabeça acima de todos."
+            },
+            {
+              "verse": 12,
+              "text": "Tanto riquezas como honra vêm de ti, e tu reinas sobre tudo; e na tua mão está poder e força; e na tua mão está engrandecer e dar força a todos."
+            },
+            {
+              "verse": 13,
+              "text": "Agora, pois, nosso Deus, nós te agradecemos e louvamos o teu glorioso nome."
+            },
+            {
+              "verse": 14,
+              "text": "Mas quem sou eu, e quem é o meu povo, para que tivéssemos poder para voluntariamente oferecer tais coisas? Porque tudo vem de ti, e das tuas mãos te damos."
+            },
+            {
+              "verse": 15,
+              "text": "Porque somos estrangeiros diante de ti e peregrinos, como o foram todos os nossos pais; os nossos dias na terra são como uma sombra, e não há quem permaneça."
+            },
+            {
+              "verse": 16,
+              "text": "Ó Senhor nosso Deus, todo este tesouro que preparamos para te edificar uma casa ao teu santo nome vem da tua mão e é todo teu."
+            },
+            {
+              "verse": 17,
+              "text": "Eu também sei, meu Deus, que tu provas o coração e tens prazer na retidão. Quanto a mim, na retidão do meu coração ofereci voluntariamente todas estas coisas; e agora tenho visto com alegria que o teu povo, que aqui se encontra, te faz ofertas voluntárias."
+            },
+            {
+              "verse": 18,
+              "text": "Ó Senhor, Deus de Abraão, de Isaque e de Israel, nossos pais, guarda isto para sempre na imaginação dos pensamentos do coração do teu povo, e prepara o seu coração para ti:"
+            },
+            {
+              "verse": 19,
+              "text": "Dá a Salomão, meu filho, um coração íntegro, para que guarde os teus mandamentos, os teus testemunhos e os teus estatutos, e para que execute todas estas coisas, edificando este palácio para o qual fiz provisões."
+            },
+            {
+              "verse": 20,
+              "text": "E disse Davi a toda a congregação: Agora bendizei ao Senhor vosso Deus. E toda a congregação louvou ao Senhor Deus de seus pais, e inclinando-se, adorou ao Senhor e ao rei."
+            },
+            {
+              "verse": 21,
+              "text": "E sacrificaram sacrifícios ao Senhor, e ofereceram holocaustos ao Senhor, no dia seguinte àquele dia, mil novilhos, mil carneiros e mil cordeiros, com as suas libações, e sacrifícios em abundância por todo o Israel."
+            },
+            {
+              "verse": 22,
+              "text": "E comeu e bebeu naquele dia diante do Senhor com grande alegria. E pela segunda vez fizeram rei a Salomão, filho de Davi, e o ungiram para o Senhor como governador-chefe, e Zadoque como sacerdote."
+            },
+            {
+              "verse": 23,
+              "text": "Então Salomão assentou-se no trono do Senhor, como rei, em lugar de Davi, seu pai, e prosperou; e todo o Israel lhe obedeceu."
+            },
+            {
+              "verse": 24,
+              "text": "E todos os príncipes, e os valentes, e também todos os filhos do rei Davi, se submeteram ao rei Salomão."
+            },
+            {
+              "verse": 25,
+              "text": "E o Senhor engrandeceu Salomão excessivamente aos olhos de todo o Israel, e concedeu-lhe uma majestade real como nunca houve em nenhum rei antes dele em Israel."
+            },
+            {
+              "verse": 26,
+              "text": "Assim Davi, filho de Jessé, reinou sobre todo o Israel."
+            },
+            {
+              "verse": 27,
+              "text": "E o tempo que ele reinou sobre Israel foi quarenta anos; reinou sete anos em Hebrom, e reinou trinta e três anos em Jerusalém."
+            },
+            {
+              "verse": 28,
+              "text": "E ele morreu em boa velhice, cheio de dias, riquezas e honra; e Salomão, seu filho, reinou em seu lugar."
+            },
+            {
+              "verse": 29,
+              "text": "Ora, os atos do rei Davi, desde os primeiros até os últimos, eis que estão escritos no livro de Samuel, o vidente, e no livro do profeta Natã, e no livro de Gade, o vidente,"
+            },
+            {
+              "verse": 30,
+              "text": "Com todo o seu reinado e seu poder, e os tempos que passaram sobre ele, e sobre Israel, e sobre todos os reinos dos países."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

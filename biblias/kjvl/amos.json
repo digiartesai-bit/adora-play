@@ -1,0 +1,641 @@
+{
+  "version": "KJVT",
+  "translation": "King James Version Traduzida",
+  "books": [
+    {
+      "abbrev": "am",
+      "name": "Amós",
+      "chapters": [
+        {
+          "chapter": 1,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Palavras de Amós, que estava entre os pastores de Tecoa, que viu a respeito de Israel nos dias de Uzias, rei de Judá, e nos dias de Jeroboão, filho de Joás, rei de Israel, dois anos antes do terremoto."
+            },
+            {
+              "verse": 2,
+              "text": "E ele disse: O Senhor rugirá de Sião, e de Jerusalém fará ouvir a sua voz; e as habitações dos pastores lamentarão, e o cume do Carmelo murchará."
+            },
+            {
+              "verse": 3,
+              "text": "Assim diz o Senhor; Por três transgressões de Damasco, e por quatro, não retirarei o seu castigo; porque trilharam Gileade com trilhos de ferro:"
+            },
+            {
+              "verse": 4,
+              "text": "Mas porei fogo na casa de Hazael, que consumirá os palácios de Ben-Hadade."
+            },
+            {
+              "verse": 5,
+              "text": "Também quebrarei o ferrolho de Damasco, e exterminarei o habitante da planície de Áven, e aquele que segura o cetro da casa do Éden; e o povo da Síria irá em cativeiro para Quir, diz o Senhor."
+            },
+            {
+              "verse": 6,
+              "text": "Assim diz o Senhor; Por três transgressões de Gaza, e por quatro, não retirarei o seu castigo; porque levaram cativos todo o cativeiro, para entregá-los a Edom:"
+            },
+            {
+              "verse": 7,
+              "text": "Mas porei fogo ao muro de Gaza, que devorará os seus palácios."
+            },
+            {
+              "verse": 8,
+              "text": "E exterminarei de Asdode o habitante, e de Ascalom aquele que segura o cetro, e voltarei a minha mão contra Ecrom; e o restante dos filisteus perecerá, diz o Senhor DEUS."
+            },
+            {
+              "verse": 9,
+              "text": "Assim diz o Senhor; Por três transgressões de Tiro, e por quatro, não retirarei o seu castigo; porque entregaram todo o cativeiro a Edom, e não se lembraram da aliança fraterna:"
+            },
+            {
+              "verse": 10,
+              "text": "Mas enviarei fogo ao muro de Tiro, que devorará os seus palácios."
+            },
+            {
+              "verse": 11,
+              "text": "Assim diz o Senhor; Por três transgressões de Edom, e por quatro, não retirarei o seu castigo; porque ele perseguiu seu irmão com a espada e abandonou toda piedade, e sua ira dilacerou perpetuamente e ele guardou sua ira para sempre:"
+            },
+            {
+              "verse": 12,
+              "text": "Mas enviarei um fogo sobre Temã, que devorará os palácios de Bozra."
+            },
+            {
+              "verse": 13,
+              "text": "Assim diz o Senhor; Por três transgressões dos filhos de Amom, e por quatro, não retirarei o seu castigo; porque despedaçaram as mulheres grávidas de Gileade, para alargarem os seus termos:"
+            },
+            {
+              "verse": 14,
+              "text": "Mas acenderei um fogo no muro de Rabá, e ele consumirá os seus palácios, com alarido no dia da batalha, com tempestade no dia do redemoinho."
+            },
+            {
+              "verse": 15,
+              "text": "E o seu rei irá para o cativeiro, ele e os seus príncipes juntamente, diz o Senhor."
+            }
+          ]
+        },
+        {
+          "chapter": 2,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Assim diz o Senhor; Por três transgressões de Moabe, e por quatro, não retirarei o seu castigo; porque ele queimou os ossos do rei de Edom até virar cal:"
+            },
+            {
+              "verse": 2,
+              "text": "Mas enviarei fogo sobre Moabe, e ele consumirá os palácios de Queriote; e Moabe morrerá com tumulto, com júbilo e com som de trombeta."
+            },
+            {
+              "verse": 3,
+              "text": "E exterminarei do meio dela o juiz, e matarei com ele todos os seus príncipes, diz o Senhor."
+            },
+            {
+              "verse": 4,
+              "text": "Assim diz o Senhor; Por três transgressões de Judá, e por quatro, não retirarei o seu castigo; porque desprezaram a lei do Senhor, e não guardaram os seus mandamentos, e as suas mentiras os fizeram errar, após o que andaram seus pais:"
+            },
+            {
+              "verse": 5,
+              "text": "Mas enviarei fogo sobre Judá, e ele consumirá os palácios de Jerusalém."
+            },
+            {
+              "verse": 6,
+              "text": "Assim diz o Senhor; Por três transgressões de Israel, e por quatro, não retirarei o seu castigo; porque vendiam os justos por prata e os pobres por um par de sapatos;"
+            },
+            {
+              "verse": 7,
+              "text": "Aquele que busca o pó da terra sobre a cabeça do pobre, e desvia o caminho dos mansos; e um homem e seu pai entrarão na mesma serva, para profanar o meu santo nome:"
+            },
+            {
+              "verse": 8,
+              "text": "E deitam-se sobre roupas penhoradas junto a cada altar, e bebem o vinho dos condenados na casa do seu deus."
+            },
+            {
+              "verse": 9,
+              "text": "Contudo, destruí diante deles o amorreu, cuja altura era como a altura dos cedros, e ele era forte como os carvalhos; contudo destruí o seu fruto por cima, e as suas raízes por baixo."
+            },
+            {
+              "verse": 10,
+              "text": "Também te tirei da terra do Egito e te conduzi pelo deserto durante quarenta anos, para possuires a terra dos amorreus."
+            },
+            {
+              "verse": 11,
+              "text": "E de vossos filhos suscitei profetas, e de vossos mancebos para nazireus. Não é assim mesmo, ó filhos de Israel? diz o Senhor."
+            },
+            {
+              "verse": 12,
+              "text": "Mas vós destes vinho a beber aos nazireus; e ordenou aos profetas, dizendo: Não profetizes."
+            },
+            {
+              "verse": 13,
+              "text": "Eis que estou pressionado debaixo de ti, como é pressionado um carro cheio de feixes."
+            },
+            {
+              "verse": 14,
+              "text": "Portanto a fuga do ligeiro perecerá, e o forte não fortalecerá a sua força, nem o poderoso se livrará:"
+            },
+            {
+              "verse": 15,
+              "text": "Nem permanecerá aquele que maneja o arco; e quem tem pés ligeiros não se livrará; nem quem anda a cavalo se livrará."
+            },
+            {
+              "verse": 16,
+              "text": "E aquele que for corajoso entre os valentes fugirá nu naquele dia, diz o Senhor."
+            }
+          ]
+        },
+        {
+          "chapter": 3,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Ouvi esta palavra que o Senhor falou contra vós, filhos de Israel, contra toda a família que fiz subir da terra do Egito, dizendo:"
+            },
+            {
+              "verse": 2,
+              "text": "De todas as famílias da terra só a ti conheço: por isso castigarei-te por todas as tuas iniqüidades."
+            },
+            {
+              "verse": 3,
+              "text": "Podem dois caminhar juntos, se não estiverem de acordo?"
+            },
+            {
+              "verse": 4,
+              "text": "Rugirá um leão na floresta, quando não tem presa? gritará um leãozinho da sua cova, se não tiver levado nada?"
+            },
+            {
+              "verse": 5,
+              "text": "Pode um pássaro cair no laço em terra, onde não há gim para ele? pegará alguém no laço da terra e não apanhará nada?"
+            },
+            {
+              "verse": 6,
+              "text": "Soará uma trombeta na cidade e o povo não terá medo? Haverá algum mal numa cidade sem que o Senhor o tenha feito?"
+            },
+            {
+              "verse": 7,
+              "text": "Certamente o Senhor Deus não fará coisa alguma, sem ter revelado o seu segredo aos seus servos, os profetas."
+            },
+            {
+              "verse": 8,
+              "text": "O leão rugiu, quem não temerá? o Senhor Deus falou, quem não profetizará?"
+            },
+            {
+              "verse": 9,
+              "text": "Publicai nos palácios de Asdode e nos palácios da terra do Egito, e dizei: Ajuntai-vos nos montes de Samaria, e vede os grandes tumultos no meio dela, e os oprimidos no meio dela."
+            },
+            {
+              "verse": 10,
+              "text": "Pois eles sabem que não devem fazer o que é certo, diz o Senhor, que acumulam violência e roubo em seus palácios."
+            },
+            {
+              "verse": 11,
+              "text": "Portanto assim diz o Senhor DEUS; Haverá um adversário ao redor da terra; e ele derrubará de ti a tua força, e os teus palácios serão destruídos."
+            },
+            {
+              "verse": 12,
+              "text": "Assim diz o Senhor; Assim como o pastor tira da boca do leão duas pernas, ou um pedaço da orelha; assim serão tirados os filhos de Israel que habitam em Samaria no canto de uma cama, e em Damasco num sofá."
+            },
+            {
+              "verse": 13,
+              "text": "Ouvi, e testificai na casa de Jacó, diz o Senhor DEUS, o Deus dos exércitos,"
+            },
+            {
+              "verse": 14,
+              "text": "Que no dia em que eu visitar as transgressões de Israel sobre ele, também visitarei os altares de Betel; e as pontas do altar serão cortadas e cairão por terra."
+            },
+            {
+              "verse": 15,
+              "text": "E destruirei a casa de inverno com a casa de verão; e as casas de marfim perecerão, e as grandes casas terão um fim, diz o Senhor."
+            }
+          ]
+        },
+        {
+          "chapter": 4,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Ouvi esta palavra, vacas de Basã, que estais no monte de Samaria, que oprimeis os pobres, que esmagais os necessitados, que dizeis aos seus senhores: Trazei, e deixe-nos beber."
+            },
+            {
+              "verse": 2,
+              "text": "O Senhor Deus jurou pela sua santidade que eis que dias virão sobre ti em que ele te levará com anzóis, e a tua posteridade com anzóis."
+            },
+            {
+              "verse": 3,
+              "text": "E saireis pelas brechas, cada vaca pelo que está diante dela; e os lançareis no palácio, diz o Senhor."
+            },
+            {
+              "verse": 4,
+              "text": "Venha para Betel e transgrida; em Gilgal multiplicam-se as transgressões; e traga seus sacrifícios todas as manhãs, e seus dízimos depois de três anos:"
+            },
+            {
+              "verse": 5,
+              "text": "E oferecei um sacrifício de ação de graças com fermento, e proclamai e publicai as ofertas gratuitas; porque isto vos agrada, ó filhos de Israel, diz o Senhor DEUS."
+            },
+            {
+              "verse": 6,
+              "text": "E também vos tenho dado limpeza de dentes em todas as vossas cidades, e falta de pão em todos os vossos lugares; contudo não vos convertestes a mim, diz o Senhor."
+            },
+            {
+              "verse": 7,
+              "text": "E também retive de vós a chuva, quando faltavam ainda três meses para a colheita; e fiz chover sobre uma cidade, e não fiz chover sobre outra cidade: choveu sobre um pedaço, e o pedaço sobre o qual choveu não secou."
+            },
+            {
+              "verse": 8,
+              "text": "E vaguearam duas ou três cidades até uma cidade, para beberem água; mas não se fartaram; ainda não vos convertestes para mim, diz o Senhor."
+            },
+            {
+              "verse": 9,
+              "text": "Feri-vos com crestamento e ferrugem; quando cresceram os vossos jardins, e as vossas vinhas, e as vossas figueiras, e as vossas oliveiras, a lagarta os devorou; contudo, não vos convertestes a mim, diz o Senhor."
+            },
+            {
+              "verse": 10,
+              "text": "Enviei contra vós a peste à maneira do Egito; os vossos jovens matei à espada e tomei os vossos cavalos; e fiz subir o mau cheiro dos vossos arraiais até às vossas narinas; contudo não vos convertestes para mim, diz o Senhor."
+            },
+            {
+              "verse": 11,
+              "text": "Derrubei alguns de vós, como Deus derrubou Sodoma e Gomorra, e fostes como um tição arrancado do fogo; contudo não vos convertestes para mim, diz o Senhor."
+            },
+            {
+              "verse": 12,
+              "text": "Portanto, assim te farei, ó Israel; e porque isso te farei, prepara-te para encontrar o teu Deus, ó Israel."
+            },
+            {
+              "verse": 13,
+              "text": "Pois eis que aquele que forma as montanhas e cria o vento, e declara ao homem qual é o seu pensamento, que faz da manhã trevas, e pisa nas alturas da terra, O Senhor, o Deus dos exércitos, é o seu nome."
+            }
+          ]
+        },
+        {
+          "chapter": 5,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Ouvi esta palavra que levanto contra vós, uma lamentação, ó casa de Israel."
+            },
+            {
+              "verse": 2,
+              "text": "A virgem de Israel caiu; ela não se levantará mais; está abandonada na sua terra; não há quem a levante."
+            },
+            {
+              "verse": 3,
+              "text": "Pois assim diz o Senhor DEUS; A cidade que sai em mil deixará cem, e a que sai em cem deixará dez, para a casa de Israel."
+            },
+            {
+              "verse": 4,
+              "text": "Porque assim diz o Senhor à casa de Israel: Buscai-me e vivereis."
+            },
+            {
+              "verse": 5,
+              "text": "Mas não procurem Betel, nem entrem em Gilgal, e não passem para Berseba; porque Gilgal certamente irá para o cativeiro, e Betel será reduzida a nada."
+            },
+            {
+              "verse": 6,
+              "text": "Buscai ao Senhor e vivereis; para que não irrompa como fogo na casa de José, e a consuma, e não haja quem o apague em Betel."
+            },
+            {
+              "verse": 7,
+              "text": "Vós que transformais o julgamento em absinto e deixais a justiça na terra,"
+            },
+            {
+              "verse": 8,
+              "text": "Buscai aquele que faz as sete estrelas e o Órion, e transforma a sombra da morte em manhã, e escurece o dia com a noite; que chama as águas do mar, e as derrama sobre a face da terra: O Senhor é o seu nome:"
+            },
+            {
+              "verse": 9,
+              "text": "Isso fortalece o saqueado contra o forte, para que o saqueado venha contra a fortaleza."
+            },
+            {
+              "verse": 10,
+              "text": "Eles odeiam aquele que repreende na porta e abominam aquele que fala a verdade."
+            },
+            {
+              "verse": 11,
+              "text": "Portanto, visto que pisais sobre o pobre e tirais dele fardos de trigo, construístes casas de pedras lavradas, mas não habitareis nelas; plantais vinhas agradáveis, mas não bebereis vinho delas."
+            },
+            {
+              "verse": 12,
+              "text": "Pois eu conheço as tuas múltiplas transgressões e os teus graves pecados: eles afligem os justos, aceitam suborno e desviam os pobres na porta à sua direita."
+            },
+            {
+              "verse": 13,
+              "text": "Portanto o prudente guardará silêncio naquele tempo; pois é um momento mau."
+            },
+            {
+              "verse": 14,
+              "text": "Buscai o bem, e não o mal, para que vivais; e assim o Senhor, o Deus dos Exércitos, será convosco, como falastes."
+            },
+            {
+              "verse": 15,
+              "text": "Odeie o mal, ame o bem e estabeleça o julgamento na porta: pode ser que o Senhor Deus dos exércitos tenha misericórdia do remanescente de José."
+            },
+            {
+              "verse": 16,
+              "text": "Portanto assim diz o Senhor, o Deus dos exércitos, o Senhor; Haverá lamentos em todas as ruas; e dirão em todos os caminhos: Ai! infelizmente! e chamarão o lavrador ao luto, e os que são hábeis na lamentação ao lamento."
+            },
+            {
+              "verse": 17,
+              "text": "E em todas as vinhas haverá lamento; porque passarei por ti, diz o Senhor."
+            },
+            {
+              "verse": 18,
+              "text": "Ai de vocês que desejam o dia do Senhor! para que fim isso é para você? o dia do Senhor são trevas e não luz."
+            },
+            {
+              "verse": 19,
+              "text": "Como se um homem fugisse de um leão e um urso o encontrasse; ou entrou em casa, apoiou a mão na parede e uma serpente o picou."
+            },
+            {
+              "verse": 20,
+              "text": "Não será o dia do Senhor trevas e não luz? mesmo muito escuro e sem brilho?"
+            },
+            {
+              "verse": 21,
+              "text": "Odeio, desprezo os vossos dias de festa e não sentirei cheiro nas vossas assembleias solenes."
+            },
+            {
+              "verse": 22,
+              "text": "Ainda que me ofereçais holocaustos e ofertas de manjares, não os aceitarei; nem considerarei as ofertas pacíficas dos vossos animais cevados."
+            },
+            {
+              "verse": 23,
+              "text": "Afasta de mim o barulho das tuas canções; pois não ouvirei a melodia das tuas violas."
+            },
+            {
+              "verse": 24,
+              "text": "Mas deixe o julgamento correr como águas, e a justiça como uma poderosa corrente."
+            },
+            {
+              "verse": 25,
+              "text": "Oferecestes-me sacrifícios e ofertas no deserto durante quarenta anos, ó casa de Israel?"
+            },
+            {
+              "verse": 26,
+              "text": "Mas vós carregastes o tabernáculo do vosso Moloch e Chiun, as vossas imagens, a estrela do vosso deus, que fizestes para vós mesmos."
+            },
+            {
+              "verse": 27,
+              "text": "Portanto farei com que vocês sejam levados em cativeiro para além de Damasco, diz o Senhor, cujo nome é o Deus dos exércitos."
+            }
+          ]
+        },
+        {
+          "chapter": 6,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Ai daqueles que estão tranquilos em Sião, e confiam no monte de Samaria, que são nomeados chefes das nações, para onde veio a casa de Israel!"
+            },
+            {
+              "verse": 2,
+              "text": "Passai até Calné e vede; e dali ide para Hamate, o grande; depois descei para Gate dos filisteus; serão eles melhores do que estes reinos? ou a fronteira deles é maior que a sua?"
+            },
+            {
+              "verse": 3,
+              "text": "Vós que afastais o dia mau e fazeis aproximar o trono da violência;"
+            },
+            {
+              "verse": 4,
+              "text": "Que se deitam em camas de marfim, e se estendem nos seus leitos, e comem os cordeiros do rebanho, e os bezerros do meio do curral;"
+            },
+            {
+              "verse": 5,
+              "text": "Que cantam ao som da viola, e inventam para si instrumentos musicais, como David;"
+            },
+            {
+              "verse": 6,
+              "text": "Que bebem vinho em taças e se ungem com os principais unguentos; mas não se entristecem pela aflição de José."
+            },
+            {
+              "verse": 7,
+              "text": "Portanto agora irão cativos com os primeiros que forem cativos, e o banquete dos que se espreguiçaram será removido."
+            },
+            {
+              "verse": 8,
+              "text": "O Senhor Deus jurou por si mesmo, diz o Senhor Deus dos exércitos: Abomino a excelência de Jacó e odeio os seus palácios; portanto entregarei a cidade e tudo o que nela há."
+            },
+            {
+              "verse": 9,
+              "text": "E acontecerá que, se ficarem dez homens numa casa, morrerão."
+            },
+            {
+              "verse": 10,
+              "text": "E o tio de um homem o levará, e aquele que o queimou, para tirar os ossos da casa, e dirá ao que está pelos lados da casa: Ainda há alguém contigo? e ele dirá: Não. Então dirá: Cala-te, porque não podemos fazer menção do nome do Senhor."
+            },
+            {
+              "verse": 11,
+              "text": "Porque eis que o Senhor ordena, e ele ferirá a casa grande com fendas, e a casa pequena com fendas."
+            },
+            {
+              "verse": 12,
+              "text": "Os cavalos correrão sobre a rocha? alguém arará lá com bois? porque transformastes o julgamento em fel, e o fruto da justiça em cicuta."
+            },
+            {
+              "verse": 13,
+              "text": "Vocês que se alegram com algo inútil, que dizem: Não tomamos nós chifres pela nossa própria força?"
+            },
+            {
+              "verse": 14,
+              "text": "Mas eis que suscitarei contra vós uma nação, ó casa de Israel, diz o Senhor Deus dos exércitos; e eles vos afligirão desde a entrada de Hemate até ao rio do deserto."
+            }
+          ]
+        },
+        {
+          "chapter": 7,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Assim me mostrou o Senhor Deus; e eis que ele formou gafanhotos no início do crescimento deste último crescimento; e eis que foi o último crescimento após o corte do rei."
+            },
+            {
+              "verse": 2,
+              "text": "E aconteceu que quando eles acabaram de comer a erva da terra, então eu disse: Ó Senhor Deus, perdoa, peço-te: por quem Jacó surgirá? pois ele é pequeno."
+            },
+            {
+              "verse": 3,
+              "text": "O SENHOR se arrependeu disso: Não acontecerá, diz o SENHOR."
+            },
+            {
+              "verse": 4,
+              "text": "Assim me mostrou o Senhor Deus: e eis que o Senhor Deus chamou para contender com fogo, e este devorou ​​o grande abismo, e devorou ​​uma parte."
+            },
+            {
+              "verse": 5,
+              "text": "Então disse eu, Senhor Deus, cessa, peço-te: por quem Jacó surgirá? pois ele é pequeno."
+            },
+            {
+              "verse": 6,
+              "text": "O Senhor se arrependeu disso: Isto também não acontecerá, diz o Senhor Deus."
+            },
+            {
+              "verse": 7,
+              "text": "Assim ele me mostrou: e eis que o Senhor estava sobre uma parede feita por um prumo, com um prumo na mão."
+            },
+            {
+              "verse": 8,
+              "text": "E o Senhor me disse: Amós, o que você vê? E eu disse: Um prumo. Então disse o Senhor: Eis que porei um prumo no meio do meu povo Israel; não passarei mais por eles;"
+            },
+            {
+              "verse": 9,
+              "text": "E os altos de Isaque serão desolados, e os santuários de Israel serão devastados; e levantar-me-ei à espada contra a casa de Jeroboão."
+            },
+            {
+              "verse": 10,
+              "text": "Então Amazias, sacerdote de Betel, enviou a Jeroboão, rei de Israel, dizendo: Amós conspirou contra ti no meio da casa de Israel; a terra não pode suportar todas as suas palavras."
+            },
+            {
+              "verse": 11,
+              "text": "Pois assim diz Amós: Jeroboão morrerá à espada, e Israel certamente será levado cativo para fora de sua própria terra."
+            },
+            {
+              "verse": 12,
+              "text": "Também Amazias disse a Amós: Ó vidente, vai, foge para a terra de Judá, e ali come pão, e profetiza ali:"
+            },
+            {
+              "verse": 13,
+              "text": "Mas não profetizes mais em Betel: porque é a capela do rei e é a corte do rei."
+            },
+            {
+              "verse": 14,
+              "text": "Então respondeu Amós e disse a Amazias: Eu não era profeta, nem era filho de profeta; mas eu era pastor e colhedor de frutos de sicômoro:"
+            },
+            {
+              "verse": 15,
+              "text": "E o Senhor me tomou enquanto eu seguia o rebanho, e o Senhor me disse: Vai, profetiza ao meu povo Israel."
+            },
+            {
+              "verse": 16,
+              "text": "Agora, pois, ouve a palavra do Senhor: Tu dizes: Não profetizes contra Israel, e não deixes cair a tua palavra contra a casa de Isaque."
+            },
+            {
+              "verse": 17,
+              "text": "Portanto assim diz o Senhor; Tua mulher será uma prostituta na cidade, e teus filhos e tuas filhas cairão à espada, e tua terra será dividida por linha; e morrerás numa terra contaminada; e Israel certamente irá para o cativeiro da sua terra."
+            }
+          ]
+        },
+        {
+          "chapter": 8,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Assim me mostrou o Senhor Deus: e eis um cesto de frutas de verão."
+            },
+            {
+              "verse": 2,
+              "text": "E ele disse: Amós, o que você vê? E eu disse: Uma cesta de frutas de verão. Então me disse o Senhor: Chegou o fim sobre o meu povo de Israel; Não voltarei mais a passar por eles."
+            },
+            {
+              "verse": 3,
+              "text": "E os cânticos do templo naquele dia serão uivos, diz o Senhor DEUS: haverá muitos cadáveres em todo lugar; eles os lançarão fora com silêncio."
+            },
+            {
+              "verse": 4,
+              "text": "Ouvi isto, ó vós que engolem os necessitados, até mesmo para fazerem fracassar os pobres da terra,"
+            },
+            {
+              "verse": 5,
+              "text": "Dizendo: Quando passará a lua nova, para que possamos vender milho? e o sábado, para que produzamos o trigo, diminuindo o efa, e aumentando o siclo, e falsificando balanças com engano?"
+            },
+            {
+              "verse": 6,
+              "text": "Para que possamos comprar os pobres por prata e os necessitados por um par de sapatos; sim, e vender o refugo do trigo?"
+            },
+            {
+              "verse": 7,
+              "text": "O Senhor jurou pela excelência de Jacó: Certamente nunca me esquecerei de nenhuma de suas obras."
+            },
+            {
+              "verse": 8,
+              "text": "Não estremecerá a terra por causa disso, e não lamentará todos os que nela habitam? e subirá inteiramente como uma inundação; e será lançado fora e afogado, como pelo dilúvio do Egito."
+            },
+            {
+              "verse": 9,
+              "text": "E acontecerá naquele dia, diz o Senhor DEUS, que farei o sol se pôr ao meio-dia, e escurecerei a terra em dia claro."
+            },
+            {
+              "verse": 10,
+              "text": "E transformarei as vossas festas em luto, e todos os vossos cânticos em lamentações; e farei subir pano de saco sobre todos os lombos, e calva sobre toda cabeça; e farei isso como o luto por um filho único, e o seu fim como um dia amargo."
+            },
+            {
+              "verse": 11,
+              "text": "Eis que vêm dias, diz o Senhor Deus, em que enviarei fome à terra, não fome de pão, nem sede de água, mas de ouvir as palavras do Senhor:"
+            },
+            {
+              "verse": 12,
+              "text": "E vagarão de mar a mar, e desde o norte até ao oriente; correrão de um lado para outro em busca da palavra do Senhor, e não a acharão."
+            },
+            {
+              "verse": 13,
+              "text": "Naquele dia as belas virgens e os jovens desfalecerão de sede."
+            },
+            {
+              "verse": 14,
+              "text": "Os que juram pelo pecado de Samaria e dizem: O teu deus, ó Dã, vive; e: Vive o modo de Berseba; até eles cairão e nunca mais se levantarão."
+            }
+          ]
+        },
+        {
+          "chapter": 9,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Eu vi o Senhor em pé sobre o altar: e ele disse: Fere a verga da porta, para que as ombreiras tremam; e corta-lhes a cabeça, todos eles; e o último deles matarei à espada; o que deles fugir não fugirá, e o que deles escapar não será salvo."
+            },
+            {
+              "verse": 2,
+              "text": "Embora cavem no inferno, de lá a minha mão os levará; ainda que subam ao céu, de lá os derrubarei:"
+            },
+            {
+              "verse": 3,
+              "text": "E ainda que se escondam no cume do Carmelo, eu os procurarei e dali os tirarei; e ainda que estejam escondidos da minha vista no fundo do mar, dali darei ordem à serpente, e ela os morderá:"
+            },
+            {
+              "verse": 4,
+              "text": "E ainda que vão para o cativeiro diante dos seus inimigos, dali darei ordem à espada, e ela os matará; e porei os meus olhos sobre eles para mal e não para bem."
+            },
+            {
+              "verse": 5,
+              "text": "E o Senhor Deus dos exércitos é aquele que toca a terra, e ela se derreterá, e todos os que nela habitam lamentarão; e ela se levantará inteiramente como uma inundação; e será afogado, como pelo dilúvio do Egito."
+            },
+            {
+              "verse": 6,
+              "text": "É ele quem constrói suas histórias no céu e funda sua tropa na terra; aquele que chama as águas do mar e as derrama sobre a face da terra: O Senhor é o seu nome."
+            },
+            {
+              "verse": 7,
+              "text": "Não sois vós para mim como filhos dos etíopes, ó filhos de Israel? diz o Senhor. Não tirei eu Israel da terra do Egito? e os filisteus de Caftor, e os sírios de Kir?"
+            },
+            {
+              "verse": 8,
+              "text": "Eis que os olhos do Senhor Deus estão sobre este reino pecaminoso e eu o destruirei da face da terra; salvo que não destruirei totalmente a casa de Jacó, diz o Senhor."
+            },
+            {
+              "verse": 9,
+              "text": "Pois eis que darei ordem, e peneirarei a casa de Israel entre todas as nações, como o milho é peneirado na peneira, mas nenhum grão cairá sobre a terra."
+            },
+            {
+              "verse": 10,
+              "text": "Todos os pecadores do meu povo morrerão à espada, os que dizem: O mal não nos alcançará nem nos impedirá."
+            },
+            {
+              "verse": 11,
+              "text": "Naquele dia levantarei o tabernáculo caído de Davi e fecharei as suas brechas; e levantarei as suas ruínas e as edificarei como nos dias antigos."
+            },
+            {
+              "verse": 12,
+              "text": "Para que possuam o restante de Edom e de todas as nações que se chamam pelo meu nome, diz o Senhor que faz isto."
+            },
+            {
+              "verse": 13,
+              "text": "Eis que vêm dias, diz o Senhor, em que o que lavra alcançará ao que sega, e o que pisa as uvas ao que lança a semente; e dos montes destilará vinho doce, e todos os outeiros se derreterão."
+            },
+            {
+              "verse": 14,
+              "text": "E trarei novamente o cativeiro do meu povo de Israel, e eles edificarão as cidades devastadas e habitarão nelas; e plantarão vinhas e beberão o seu vinho; também farão jardins e comerão dos seus frutos."
+            },
+            {
+              "verse": 15,
+              "text": "E plantá-los-ei na sua terra, e nunca mais serão arrancados da terra que lhes dei, diz o Senhor teu Deus."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

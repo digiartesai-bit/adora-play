@@ -1,0 +1,271 @@
+{
+  "version": "KJVT",
+  "translation": "King James Version Traduzida",
+  "books": [
+    {
+      "abbrev": "2pe",
+      "name": "2 Pedro",
+      "chapters": [
+        {
+          "chapter": 1,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Simão Pedro, servo e apóstolo de Jesus Cristo, àqueles que obtiveram fé igualmente preciosa conosco através da justiça de Deus e nosso Salvador Jesus Cristo:"
+            },
+            {
+              "verse": 2,
+              "text": "Graça e paz vos sejam multiplicadas pelo conhecimento de Deus e de Jesus nosso Senhor,"
+            },
+            {
+              "verse": 3,
+              "text": "Conforme o seu poder divino nos deu todas as coisas que pertencem à vida e à piedade, através do conhecimento daquele que nos chamou para a glória e a virtude:"
+            },
+            {
+              "verse": 4,
+              "text": "Por meio das quais nos são dadas grandes e preciosas promessas: para que por meio delas possamos ser participantes da natureza divina, tendo escapado da corrupção que há no mundo pela luxúria."
+            },
+            {
+              "verse": 5,
+              "text": "E além disso, com toda diligência, acrescente virtude à sua fé; e ao conhecimento da virtude;"
+            },
+            {
+              "verse": 6,
+              "text": "E à temperança do conhecimento; e à temperança a paciência; e à paciência a piedade;"
+            },
+            {
+              "verse": 7,
+              "text": "E à piedade bondade fraternal; e à caridade fraterna."
+            },
+            {
+              "verse": 8,
+              "text": "Porque, se estas coisas estiverem em vós e forem abundantes, elas farão com que não sejais estéreis nem infrutíferos no conhecimento de nosso Senhor Jesus Cristo."
+            },
+            {
+              "verse": 9,
+              "text": "Mas aquele que não tem essas coisas é cego e não pode ver ao longe, e esqueceu que foi purificado de seus antigos pecados."
+            },
+            {
+              "verse": 10,
+              "text": "Portanto, irmãos, procurem diligenciar para garantir a sua vocação e eleição; pois se fizerem estas coisas, nunca cairão:"
+            },
+            {
+              "verse": 11,
+              "text": "Pois assim vos será abundantemente ministrada a entrada no reino eterno de nosso Senhor e Salvador Jesus Cristo."
+            },
+            {
+              "verse": 12,
+              "text": "Portanto, não serei negligente em lembrá-los sempre destas coisas, embora as conheçais e estejais estabelecidos na verdade presente."
+            },
+            {
+              "verse": 13,
+              "text": "Sim, acho que é adequado, enquanto estou neste tabernáculo, incitar você, colocando-o em lembrança;"
+            },
+            {
+              "verse": 14,
+              "text": "Sabendo que em breve devo deixar este meu tabernáculo, assim como nosso Senhor Jesus Cristo me mostrou."
+            },
+            {
+              "verse": 15,
+              "text": "Além disso, esforçar-me-ei para que, depois de minha morte, vocês possam ter essas coisas sempre em lembrança."
+            },
+            {
+              "verse": 16,
+              "text": "Pois não seguimos fábulas astuciosamente inventadas, quando vos revelamos o poder e a vinda de nosso Senhor Jesus Cristo, mas fomos testemunhas oculares de sua majestade."
+            },
+            {
+              "verse": 17,
+              "text": "Pois ele recebeu de Deus Pai honra e glória, quando lhe veio tal voz da excelente glória: Este é o meu Filho amado, em quem me comprazo."
+            },
+            {
+              "verse": 18,
+              "text": "E ouvimos esta voz que vinha do céu, quando estávamos com ele no monte santo."
+            },
+            {
+              "verse": 19,
+              "text": "Temos também uma palavra de profecia mais segura; ao que fazeis bem em prestar atenção, como a uma luz que brilha em lugar escuro, até que o dia amanheça e a estrela da alva nasça em vossos corações:"
+            },
+            {
+              "verse": 20,
+              "text": "Sabendo primeiro isto, que nenhuma profecia das Escrituras é de qualquer interpretação particular."
+            },
+            {
+              "verse": 21,
+              "text": "Porque a profecia nunca foi produzida por vontade de homem algum; mas os homens santos de Deus falaram inspirados pelo Espírito Santo."
+            }
+          ]
+        },
+        {
+          "chapter": 2,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Mas também houve falsos profetas entre o povo, assim como haverá falsos mestres entre vocês, que secretamente introduzirão heresias condenáveis, negando até mesmo o Senhor que os comprou, e trarão sobre si mesmos rápida destruição."
+            },
+            {
+              "verse": 2,
+              "text": "E muitos seguirão as suas maneiras perniciosas, pelas quais o caminho da verdade será blasfemado."
+            },
+            {
+              "verse": 3,
+              "text": "E através da cobiça farão de vocês mercadoria com palavras fingidas; cujo julgamento há muito tempo não tarda, e a sua condenação não dorme."
+            },
+            {
+              "verse": 4,
+              "text": "Pois se Deus não poupou os anjos que pecaram, mas os lançou no inferno e os entregou nas cadeias das trevas, para serem reservados ao julgamento;"
+            },
+            {
+              "verse": 5,
+              "text": "E não poupou o velho mundo, mas salvou Noé, a oitava pessoa, um pregador da justiça, trazendo o dilúvio sobre o mundo dos ímpios;"
+            },
+            {
+              "verse": 6,
+              "text": "E transformar as cidades de Sodoma e Gomorra em cinzas condenou-as à destruição, tornando-as um exemplo para aqueles que depois viveriam ímpios;"
+            },
+            {
+              "verse": 7,
+              "text": "E libertou apenas Ló, irritado com a conversa suja dos ímpios:"
+            },
+            {
+              "verse": 8,
+              "text": "(Pois aquele homem justo que habitava entre eles, ao ver e ouvir, irritava sua alma justa dia após dia com suas ações ilícitas;)"
+            },
+            {
+              "verse": 9,
+              "text": "O Senhor sabe como livrar os piedosos das tentações e reservar os injustos para o dia do julgamento para serem punidos:"
+            },
+            {
+              "verse": 10,
+              "text": "Mas principalmente aqueles que andam segundo a carne na concupiscência da impureza e desprezam o governo. Presunçosos são, obstinados, não têm medo de falar mal das dignidades."
+            },
+            {
+              "verse": 11,
+              "text": "Ao passo que os anjos, que são maiores em poder e poder, não trazem acusações injuriosas contra eles perante o Senhor."
+            },
+            {
+              "verse": 12,
+              "text": "Mas estes, como animais brutos naturais, feitos para serem capturados e destruídos, falam mal das coisas que não entendem; e perecerão completamente em sua própria corrupção;"
+            },
+            {
+              "verse": 13,
+              "text": "E receberão a recompensa da injustiça, como aqueles que consideram prazeroso tumultuar-se durante o dia. Eles são manchas e defeitos, ostentando seus próprios enganos enquanto festejam com você;"
+            },
+            {
+              "verse": 14,
+              "text": "Tendo os olhos cheios de adultério, e que não podem deixar de pecar; enganando almas instáveis: um coração que exercitaram com práticas cobiçosas; crianças amaldiçoadas:"
+            },
+            {
+              "verse": 15,
+              "text": "Que abandonaram o caminho certo e se desviaram, seguindo o caminho de Balaão, filho de Bosor, que amou o salário da injustiça;"
+            },
+            {
+              "verse": 16,
+              "text": "Mas foi repreendido pela sua iniqüidade: o burro falando com voz de homem proibiu a loucura do profeta."
+            },
+            {
+              "verse": 17,
+              "text": "São poços sem água, nuvens que são carregadas pela tempestade; a quem a névoa das trevas está reservada para sempre."
+            },
+            {
+              "verse": 18,
+              "text": "Pois quando falam grandes palavras de vaidade, atraem através das concupiscências da carne, através de muita devassidão, aqueles que estavam limpos escaparam daqueles que vivem no erro."
+            },
+            {
+              "verse": 19,
+              "text": "Embora lhes prometam liberdade, eles próprios são servos da corrupção: pois de quem um homem é vencido, desse mesmo é levado à escravidão."
+            },
+            {
+              "verse": 20,
+              "text": "Pois se, depois de terem escapado das poluições do mundo através do conhecimento do Senhor e Salvador Jesus Cristo, forem novamente enredados nelas e vencidos, o último fim será pior para eles do que o começo."
+            },
+            {
+              "verse": 21,
+              "text": "Pois teria sido melhor para eles não terem conhecido o caminho da justiça, do que, depois de o terem conhecido, desviarem-se do santo mandamento que lhes foi entregue."
+            },
+            {
+              "verse": 22,
+              "text": "Mas aconteceu-lhes de acordo com o verdadeiro provérbio: O cão voltou ao seu próprio vômito; e a porca que foi lavada ficou chafurdando na lama."
+            }
+          ]
+        },
+        {
+          "chapter": 3,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Esta segunda epístola, amados, eu agora vos escrevo; em ambos os quais eu desperto suas mentes puras por meio de lembrança:"
+            },
+            {
+              "verse": 2,
+              "text": "Para que vos lembreis das palavras que foram ditas anteriormente pelos santos profetas e do mandamento que nós, os apóstolos, do Senhor e Salvador:"
+            },
+            {
+              "verse": 3,
+              "text": "Sabendo primeiro isto: que nos últimos dias virão escarnecedores, andando segundo as suas próprias concupiscências,"
+            },
+            {
+              "verse": 4,
+              "text": "E dizendo: Onde está a promessa da sua vinda? pois desde que os pais adormeceram, todas as coisas continuam como eram desde o início da criação."
+            },
+            {
+              "verse": 5,
+              "text": "Por isso eles voluntariamente ignoram que, pela palavra de Deus, os céus existiram desde a antiguidade, e a terra surgiu da água e na água:"
+            },
+            {
+              "verse": 6,
+              "text": "Pelo qual o mundo que então existia, sendo inundado de água, pereceu:"
+            },
+            {
+              "verse": 7,
+              "text": "Mas os céus e a terra que agora existem, pela mesma palavra, são guardados em reserva, reservados ao fogo para o dia do julgamento e da perdição dos homens ímpios."
+            },
+            {
+              "verse": 8,
+              "text": "Mas, amados, não ignoreis uma coisa: um dia é para o Senhor como mil anos, e mil anos como um dia."
+            },
+            {
+              "verse": 9,
+              "text": "O Senhor não é negligente em sua promessa, como alguns homens consideram negligente; mas é longânimo para conosco, não querendo que nenhum pereça, mas que todos cheguem ao arrependimento."
+            },
+            {
+              "verse": 10,
+              "text": "Mas o dia do Senhor virá como o ladrão de noite; no qual os céus passarão com grande estrondo, e os elementos se derreterão com calor ardente, a terra também e as obras que nela há serão queimadas."
+            },
+            {
+              "verse": 11,
+              "text": "Visto então que todas estas coisas serão dissolvidas, que tipo de pessoas deveis ser em todo santo trato e piedade,"
+            },
+            {
+              "verse": 12,
+              "text": "Ansiosos e apressados ​​para a vinda do dia de Deus, onde os céus, estando em chamas, serão dissolvidos e os elementos derreterão com calor ardente?"
+            },
+            {
+              "verse": 13,
+              "text": "Não obstante, nós, de acordo com a sua promessa, aguardamos novos céus e uma nova terra, onde habita a justiça."
+            },
+            {
+              "verse": 14,
+              "text": "Portanto, amados, visto que procurais tais coisas, sede diligentes para que sejais encontrados por ele em paz, sem mácula e irrepreensíveis."
+            },
+            {
+              "verse": 15,
+              "text": "E considere que a longanimidade de nosso Senhor é a salvação; assim como nosso amado irmão Paulo também vos escreveu, segundo a sabedoria que lhe foi dada;"
+            },
+            {
+              "verse": 16,
+              "text": "Como também em todas as suas epístolas, falando nelas destas coisas; nas quais há algumas coisas difíceis de serem compreendidas, que aqueles que são incultos e instáveis ​​torcem, como fazem também com as outras escrituras, para sua própria destruição."
+            },
+            {
+              "verse": 17,
+              "text": "Vós, portanto, amados, visto que já sabeis estas coisas de antemão, guardai-vos para que também vós, sendo levados pelo erro dos ímpios, caiais da vossa própria firmeza."
+            },
+            {
+              "verse": 18,
+              "text": "Mas cresçam na graça e no conhecimento de nosso Senhor e Salvador Jesus Cristo. A ele seja a glória agora e para sempre. Amém."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

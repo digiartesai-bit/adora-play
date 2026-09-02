@@ -1,0 +1,1105 @@
+{
+  "version": "KJVT",
+  "translation": "King James Version Traduzida",
+  "books": [
+    {
+      "abbrev": "2co",
+      "name": "2 Coríntios",
+      "chapters": [
+        {
+          "chapter": 1,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Paulo, apóstolo de Jesus Cristo pela vontade de Deus, e o irmão Timóteo, à igreja de Deus que está em Corinto, com todos os santos que estão em toda a Acaia:"
+            },
+            {
+              "verse": 2,
+              "text": "Graça a vós e paz da parte de Deus, nosso Pai, e do Senhor Jesus Cristo."
+            },
+            {
+              "verse": 3,
+              "text": "Bendito seja Deus, o Pai de nosso Senhor Jesus Cristo, o Pai das misericórdias e o Deus de todo conforto;"
+            },
+            {
+              "verse": 4,
+              "text": "Quem nos consola em todas as nossas tribulações, para que possamos consolar os que estão em qualquer dificuldade, pela consolação com que nós mesmos somos consolados por Deus."
+            },
+            {
+              "verse": 5,
+              "text": "Pois assim como os sofrimentos de Cristo abundam em nós, assim também a nossa consolação abunda em Cristo."
+            },
+            {
+              "verse": 6,
+              "text": "E se somos afligidos, é para a tua consolação e salvação, que é eficaz para suportar os mesmos sofrimentos que também sofremos: ou se somos consolados, é para a tua consolação e salvação."
+            },
+            {
+              "verse": 7,
+              "text": "E a nossa esperança para convosco é inabalável, sabendo que, assim como sois participantes dos sofrimentos, também sereis da consolação."
+            },
+            {
+              "verse": 8,
+              "text": "Pois não queremos, irmãos, que vocês ignorem nossos problemas que nos sobrevieram na Ásia, que fomos pressionados além da medida, acima das forças, a tal ponto que desesperamos até mesmo da vida:"
+            },
+            {
+              "verse": 9,
+              "text": "Mas nós já tínhamos em nós mesmos a sentença de morte, para que não confiássemos em nós mesmos, mas em Deus que ressuscita os mortos:"
+            },
+            {
+              "verse": 10,
+              "text": "Quem nos libertou de tão grande morte, e livra: em quem confiamos que ele ainda nos livrará;"
+            },
+            {
+              "verse": 11,
+              "text": "Vocês também ajudam juntos orando por nós, para que pelo dom que nos foi concedido por meio de muitas pessoas, graças possam ser dadas por muitos em nosso nome."
+            },
+            {
+              "verse": 12,
+              "text": "Pois a nossa alegria é esta, o testemunho da nossa consciência, que com simplicidade e sinceridade piedosa, não com sabedoria carnal, mas pela graça de Deus, tivemos a nossa conversa no mundo, e mais abundantemente para você."
+            },
+            {
+              "verse": 13,
+              "text": "Pois não vos escrevemos nenhuma outra coisa além daquilo que vocês lêem ou reconhecem; e confio que reconhecereis até o fim;"
+            },
+            {
+              "verse": 14,
+              "text": "Como também vós em parte nos reconhecestes, que somos a vossa alegria, assim como vós também o sois a nossa no dia do Senhor Jesus."
+            },
+            {
+              "verse": 15,
+              "text": "E com esta confiança pretendi ir ter convosco antes, para que tenhais um segundo benefício;"
+            },
+            {
+              "verse": 16,
+              "text": "E passar por vós à Macedônia, e voltar da Macedônia até vós, e ser conduzido por vós em meu caminho para a Judéia."
+            },
+            {
+              "verse": 17,
+              "text": "Quando eu estava pensando assim, usei a leveza? ou as coisas que proponho, proponho-as segundo a carne, para que comigo haja sim, sim, e não, não?"
+            },
+            {
+              "verse": 18,
+              "text": "Mas como Deus é verdadeiro, nossa palavra para com você não foi sim e não."
+            },
+            {
+              "verse": 19,
+              "text": "Porque o Filho de Deus, Jesus Cristo, que foi pregado entre vós por nós, por mim, por Silvano e por Timóteo, não era sim e não, mas nele havia sim."
+            },
+            {
+              "verse": 20,
+              "text": "Pois todas as promessas de Deus nele são sim, e nele Amém, para a glória de Deus por nós."
+            },
+            {
+              "verse": 21,
+              "text": "Ora, aquele que nos confirma convosco em Cristo e nos ungiu é Deus;"
+            },
+            {
+              "verse": 22,
+              "text": "Quem também nos selou e deu o penhor do Espírito em nossos corações."
+            },
+            {
+              "verse": 23,
+              "text": "Além disso, peço a Deus que deixe registrado em minha alma que, para poupá-los, ainda não vim a Corinto."
+            },
+            {
+              "verse": 24,
+              "text": "Não é por isso que temos domínio sobre a vossa fé, mas somos ajudadores da vossa alegria; porque pela fé estais firmes."
+            }
+          ]
+        },
+        {
+          "chapter": 2,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Mas eu determinei isso comigo mesmo, que não voltaria para vocês com o peso."
+            },
+            {
+              "verse": 2,
+              "text": "Pois se eu te lamento, quem é aquele que me alegra, senão o mesmo que me entristece?"
+            },
+            {
+              "verse": 3,
+              "text": "E escrevi-vos isto para que, quando eu viesse, não tivesse tristeza da parte daqueles por quem deveria alegrar-me; tendo confiança em todos vocês, que a minha alegria é a alegria de todos vocês."
+            },
+            {
+              "verse": 4,
+              "text": "Porque foi com muita aflição e angústia de coração que vos escrevi e com muitas lágrimas; não para que vos entristeçais, mas para que conheçais o amor que tenho mais abundantemente por vós."
+            },
+            {
+              "verse": 5,
+              "text": "Mas se alguém causou tristeza, ele não me entristeceu, mas em parte: para que eu não sobrecarregasse a todos vocês."
+            },
+            {
+              "verse": 6,
+              "text": "Basta a tal homem este castigo, que foi infligido a muitos."
+            },
+            {
+              "verse": 7,
+              "text": "De modo que, pelo contrário, deveis antes perdoá-lo e confortá-lo, para que tal pessoa não seja engolida por muita tristeza."
+            },
+            {
+              "verse": 8,
+              "text": "Portanto, rogo-vos que confirmeis o vosso amor por ele."
+            },
+            {
+              "verse": 9,
+              "text": "Pois também para este fim escrevi, para que pudesse saber a vossa prova, se em tudo sois obedientes."
+            },
+            {
+              "verse": 10,
+              "text": "A quem perdoais alguma coisa, eu também perdôo: pois se perdoei alguma coisa, a quem perdoei, por amor de vós perdoei na pessoa de Cristo;"
+            },
+            {
+              "verse": 11,
+              "text": "Para que Satanás não tire vantagem de nós: pois não ignoramos seus ardis."
+            },
+            {
+              "verse": 12,
+              "text": "Além disso, quando cheguei a Trôade para pregar o evangelho de Cristo, e uma porta do Senhor se abriu para mim,"
+            },
+            {
+              "verse": 13,
+              "text": "Não tive descanso no meu espírito, porque não encontrei meu irmão Tito; mas despedindo-me deles, parti dali para a Macedônia."
+            },
+            {
+              "verse": 14,
+              "text": "Agora, graças a Deus, que sempre nos faz triunfar em Cristo e manifesta por nós o sabor do seu conhecimento em todo lugar."
+            },
+            {
+              "verse": 15,
+              "text": "Porque somos para Deus o suave perfume de Cristo, nos que são salvos e nos que perecem:"
+            },
+            {
+              "verse": 16,
+              "text": "Para um somos o cheiro da morte para a morte; e para o outro o cheiro de vida para vida. E quem é suficiente para essas coisas?"
+            },
+            {
+              "verse": 17,
+              "text": "Porque não somos tantos os que corrompem a palavra de Deus; mas como de sinceridade, mas como de Deus, diante de Deus falamos em Cristo."
+            }
+          ]
+        },
+        {
+          "chapter": 3,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Começamos novamente a nos elogiar? ou precisamos nós, como alguns outros, de epístolas de recomendação para você, ou cartas de recomendação suas?"
+            },
+            {
+              "verse": 2,
+              "text": "Vós sois a nossa epístola escrita em nossos corações, conhecida e lida por todos os homens:"
+            },
+            {
+              "verse": 3,
+              "text": "Visto que sois manifestamente declarados como sendo a epístola de Cristo ministrada por nós, escrita não com tinta, mas com o Espírito do Deus vivo; não em tábuas de pedra, mas em tábuas carnudas do coração."
+            },
+            {
+              "verse": 4,
+              "text": "E tal confiança temos através de Cristo na direção de Deus:"
+            },
+            {
+              "verse": 5,
+              "text": "Não que sejamos suficientes por nós mesmos para pensar qualquer coisa como sendo nós mesmos; mas nossa suficiência vem de Deus;"
+            },
+            {
+              "verse": 6,
+              "text": "Quem também nos tornou ministros capazes do novo testamento; não da letra, mas do espírito: porque a letra mata, mas o espírito vivifica."
+            },
+            {
+              "verse": 7,
+              "text": "Mas se o ministério da morte, escrito e gravado em pedras, foi glorioso, de modo que os filhos de Israel não puderam contemplar firmemente a face de Moisés para a glória de seu semblante; cuja glória deveria ser eliminada:"
+            },
+            {
+              "verse": 8,
+              "text": "Como não será o ministério do espírito bastante glorioso?"
+            },
+            {
+              "verse": 9,
+              "text": "Pois se o ministério da condenação é glória, muito mais o ministério da justiça excede em glória."
+            },
+            {
+              "verse": 10,
+              "text": "Pois mesmo aquilo que foi glorificado não teve glória a este respeito, por causa da glória que sobressai."
+            },
+            {
+              "verse": 11,
+              "text": "Pois se o que foi eliminado foi glorioso, muito mais o que permanece é glorioso."
+            },
+            {
+              "verse": 12,
+              "text": "Vendo então que temos tanta esperança, usamos de grande clareza no discurso:"
+            },
+            {
+              "verse": 13,
+              "text": "E não como Moisés, que colocou um véu sobre a sua face, para que os filhos de Israel não pudessem olhar firmemente para o fim daquilo que foi abolido:"
+            },
+            {
+              "verse": 14,
+              "text": "Mas suas mentes foram cegadas: pois até hoje permanece o mesmo véu não retirado na leitura do Antigo Testamento; cujo véu foi removido em Cristo."
+            },
+            {
+              "verse": 15,
+              "text": "Mas até hoje, quando Moisés é lido, o véu está sobre seus corações."
+            },
+            {
+              "verse": 16,
+              "text": "No entanto, quando se voltar para o Senhor, o véu será tirado."
+            },
+            {
+              "verse": 17,
+              "text": "Agora o Senhor é esse Espírito: e onde está o Espírito do Senhor, aí há liberdade."
+            },
+            {
+              "verse": 18,
+              "text": "Mas todos nós, com o rosto descoberto, contemplando como um espelho a glória do Senhor, somos transformados de glória em glória na mesma imagem, como pelo Espírito do Senhor."
+            }
+          ]
+        },
+        {
+          "chapter": 4,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Portanto, visto que temos este ministério, assim como recebemos misericórdia, não desfalecemos;"
+            },
+            {
+              "verse": 2,
+              "text": "Mas renunciai às coisas ocultas da desonestidade, não andando com astúcia, nem manejando enganosamente a palavra de Deus; mas pela manifestação da verdade, recomendando-nos à consciência de cada homem aos olhos de Deus."
+            },
+            {
+              "verse": 3,
+              "text": "Mas se o nosso evangelho está escondido, está escondido para os que estão perdidos:"
+            },
+            {
+              "verse": 4,
+              "text": "Em quem o deus deste mundo cegou as mentes daqueles que não crêem, para que a luz do glorioso evangelho de Cristo, que é a imagem de Deus, não lhes brilhe."
+            },
+            {
+              "verse": 5,
+              "text": "Porque não pregamos a nós mesmos, mas a Cristo Jesus, o Senhor; e nós mesmos, seus servos, por amor de Jesus."
+            },
+            {
+              "verse": 6,
+              "text": "Porque Deus, que ordenou que das trevas resplandecesse a luz, é quem brilhou em nossos corações, para iluminar o conhecimento da glória de Deus na face de Jesus Cristo."
+            },
+            {
+              "verse": 7,
+              "text": "Mas temos este tesouro em vasos de barro, para que a excelência do poder seja de Deus, e não de nós."
+            },
+            {
+              "verse": 8,
+              "text": "Somos atribulados por todos os lados, mas não angustiados; ficamos perplexos, mas não desesperados;"
+            },
+            {
+              "verse": 9,
+              "text": "Perseguidos, mas não abandonados; derrubado, mas não destruído;"
+            },
+            {
+              "verse": 10,
+              "text": "Trazendo sempre no corpo a morte do Senhor Jesus, para que também a vida de Jesus se manifeste em nosso corpo."
+            },
+            {
+              "verse": 11,
+              "text": "Porque nós, os que vivemos, estamos sempre entregues à morte por causa de Jesus, para que também a vida de Jesus se manifeste em nossa carne mortal."
+            },
+            {
+              "verse": 12,
+              "text": "Então a morte opera em nós, mas a vida em você."
+            },
+            {
+              "verse": 13,
+              "text": "Tendo nós o mesmo espírito de fé, conforme está escrito, acreditei e por isso falei; nós também acreditamos e, portanto, falamos;"
+            },
+            {
+              "verse": 14,
+              "text": "Sabendo que aquele que ressuscitou o Senhor Jesus também nos ressuscitará por Jesus e nos apresentará convosco."
+            },
+            {
+              "verse": 15,
+              "text": "Pois todas as coisas são para o seu bem, para que a graça abundante possa, através da ação de graças de muitos, redundar na glória de Deus."
+            },
+            {
+              "verse": 16,
+              "text": "Por esta causa não desfalecemos; mas embora o nosso homem exterior pereça, o homem interior é renovado dia após dia."
+            },
+            {
+              "verse": 17,
+              "text": "Pois nossa leve aflição, que dura apenas um momento, produz para nós um peso de glória muito maior e eterno;"
+            },
+            {
+              "verse": 18,
+              "text": "Embora não olhemos para as coisas que são vistas, mas para as coisas que não são vistas: porque as coisas que são vistas são temporais; mas as coisas que não se veem são eternas."
+            }
+          ]
+        },
+        {
+          "chapter": 5,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Porque sabemos que, se a nossa casa terrena deste tabernáculo se desfizer, teremos de Deus um edifício, uma casa não feita por mãos, eterna, nos céus."
+            },
+            {
+              "verse": 2,
+              "text": "Porque nisto gememos, desejando ardentemente ser revestidos da nossa casa que é do céu:"
+            },
+            {
+              "verse": 3,
+              "text": "Se assim for, estando vestidos, não seremos encontrados nus."
+            },
+            {
+              "verse": 4,
+              "text": "Porque nós que estamos neste tabernáculo gememos, estando sobrecarregados: não para sermos despidos, mas vestidos, para que a mortalidade seja absorvida pela vida."
+            },
+            {
+              "verse": 5,
+              "text": "Ora, quem nos operou pela mesma coisa foi Deus, que também nos deu o penhor do Espírito."
+            },
+            {
+              "verse": 6,
+              "text": "Por isso estamos sempre confiantes, sabendo que, enquanto estamos no corpo, estamos ausentes do Senhor:"
+            },
+            {
+              "verse": 7,
+              "text": "(Pois andamos por fé e não por vista:)"
+            },
+            {
+              "verse": 8,
+              "text": "Estamos confiantes, eu digo, e dispostos a estar ausentes do corpo e a estar presentes com o Senhor."
+            },
+            {
+              "verse": 9,
+              "text": "Por isso trabalhamos para que, presentes ou ausentes, possamos ser aceitos por ele."
+            },
+            {
+              "verse": 10,
+              "text": "Pois todos devemos comparecer perante o tribunal de Cristo; para que cada um receba segundo o que tiver feito no seu corpo o que tiver feito, seja bom ou mau."
+            },
+            {
+              "verse": 11,
+              "text": "Conhecendo, portanto, o terror do Senhor, persuadimos os homens; mas somos manifestados a Deus; e espero que também se manifestem em suas consciências."
+            },
+            {
+              "verse": 12,
+              "text": "Pois não nos recomendamos novamente a vocês, mas lhes damos ocasião de se gloriarem em nosso nome, para que tenham algo a responder àqueles que se gloriam na aparência e não no coração."
+            },
+            {
+              "verse": 13,
+              "text": "Pois se estamos fora de nós, é para Deus; ou se estamos sóbrios, é por sua causa."
+            },
+            {
+              "verse": 14,
+              "text": "Pois o amor de Cristo nos constrange; porque assim julgamos que, se alguém morresse por todos, então todos estariam mortos:"
+            },
+            {
+              "verse": 15,
+              "text": "E que ele morreu por todos, para que os que vivem não vivam mais para si mesmos, mas para aquele que por eles morreu e ressuscitou."
+            },
+            {
+              "verse": 16,
+              "text": "Portanto, doravante não conhecemos nenhum homem segundo a carne; sim, embora tenhamos conhecido a Cristo segundo a carne, agora não o conhecemos mais."
+            },
+            {
+              "verse": 17,
+              "text": "Portanto, se alguém está em Cristo, é nova criatura: as coisas velhas já passaram; eis que todas as coisas se fizeram novas."
+            },
+            {
+              "verse": 18,
+              "text": "E todas as coisas vêm de Deus, que nos reconciliou consigo mesmo por Jesus Cristo e nos deu o ministério da reconciliação;"
+            },
+            {
+              "verse": 19,
+              "text": "A saber, que Deus estava em Cristo, reconciliando consigo o mundo, não imputando-lhes as suas transgressões; e nos confiou a palavra da reconciliação."
+            },
+            {
+              "verse": 20,
+              "text": "Agora, então, somos embaixadores de Cristo, como se Deus vos suplicasse por nós: rogamos-vos, em lugar de Cristo, que vos reconcilieis com Deus."
+            },
+            {
+              "verse": 21,
+              "text": "Porque ele o fez pecado por nós, aquele que não conheceu pecado; para que nele fôssemos feitos justiça de Deus."
+            }
+          ]
+        },
+        {
+          "chapter": 6,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Nós então, como cooperadores com ele, também vos rogamos que não recebais a graça de Deus em vão."
+            },
+            {
+              "verse": 2,
+              "text": "(Porque ele diz: Num tempo aceitável te ouvi, e no dia da salvação te socorrei: eis que agora é o tempo aceitável; eis que agora é o dia da salvação.)"
+            },
+            {
+              "verse": 3,
+              "text": "Não ofendendo nada, para que o ministério não seja culpado:"
+            },
+            {
+              "verse": 4,
+              "text": "Mas em todas as coisas afirmando-nos como ministros de Deus, na muita paciência, nas aflições, nas necessidades, nas angústias,"
+            },
+            {
+              "verse": 5,
+              "text": "Em açoites, em prisões, em tumultos, em trabalhos, em vigílias, em jejuns;"
+            },
+            {
+              "verse": 6,
+              "text": "Pela pureza, pelo conhecimento, pela longanimidade, pela bondade, pelo Espírito Santo, pelo amor não fingido,"
+            },
+            {
+              "verse": 7,
+              "text": "Pela palavra da verdade, pelo poder de Deus, pelas armaduras da justiça à direita e à esquerda,"
+            },
+            {
+              "verse": 8,
+              "text": "Por honra e desonra, por má fama e boa fama: como enganadores, mas verdadeiros;"
+            },
+            {
+              "verse": 9,
+              "text": "Tão desconhecido, mas bem conhecido; como morrendo, e eis que vivemos; como castigado e não morto;"
+            },
+            {
+              "verse": 10,
+              "text": "Tão triste, mas sempre alegre; como pobres, mas enriquecendo muitos; como não tendo nada, mas possuindo todas as coisas."
+            },
+            {
+              "verse": 11,
+              "text": "Ó vós, coríntios, nossa boca está aberta para vocês, nosso coração está dilatado."
+            },
+            {
+              "verse": 12,
+              "text": "Vocês não estão angustiados em nós, mas estão angustiados em suas próprias entranhas."
+            },
+            {
+              "verse": 13,
+              "text": "Agora, como recompensa pelo mesmo (falo como a meus filhos), sede vós também ampliados."
+            },
+            {
+              "verse": 14,
+              "text": "Não vos prendais a um jugo desigual com os incrédulos; pois que sociedade tem a justiça com a injustiça? e que comunhão tem a luz com as trevas?"
+            },
+            {
+              "verse": 15,
+              "text": "E que concórdia tem Cristo com Belial? ou que parte tem aquele que crê com o infiel?"
+            },
+            {
+              "verse": 16,
+              "text": "E que acordo tem o templo de Deus com os ídolos? porque vós sois o templo do Deus vivo; como Deus disse: Neles habitarei e entre eles andarei; e eu serei o seu Deus, e eles serão o meu povo."
+            },
+            {
+              "verse": 17,
+              "text": "Portanto, saí do meio deles e separai-vos, diz o Senhor, e não toqueis em coisa impura; e eu te receberei,"
+            },
+            {
+              "verse": 18,
+              "text": "E serei para vós Pai e vós sereis para mim filhos e filhas, diz o Senhor Todo-Poderoso."
+            }
+          ]
+        },
+        {
+          "chapter": 7,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Tendo, pois, estas promessas, amados, purifiquemo-nos de toda imundície da carne e do espírito, aperfeiçoando a santidade no temor de Deus."
+            },
+            {
+              "verse": 2,
+              "text": "Receba-nos; não prejudicamos ninguém, não corrompemos ninguém, não defraudamos ninguém."
+            },
+            {
+              "verse": 3,
+              "text": "Não falo isso para condená-los: pois já disse antes que vocês estão em nossos corações para morrer e viver com vocês."
+            },
+            {
+              "verse": 4,
+              "text": "Grande é a minha ousadia no falar para convosco, grande é a minha glória sobre vós: estou cheio de conforto, estou extremamente alegre em todas as nossas tribulações."
+            },
+            {
+              "verse": 5,
+              "text": "Porque, quando chegamos à Macedônia, a nossa carne não teve descanso, mas fomos perturbados por todos os lados; fora havia lutas, dentro havia medos."
+            },
+            {
+              "verse": 6,
+              "text": "Contudo, Deus, que consola os abatidos, nos confortou com a vinda de Tito;"
+            },
+            {
+              "verse": 7,
+              "text": "E não apenas pela sua vinda, mas pela consolação com que ele foi consolado em você, quando nos contou o seu sincero desejo, o seu luto, a sua mente fervorosa para comigo; de modo que me regozijei ainda mais."
+            },
+            {
+              "verse": 8,
+              "text": "Pois, embora eu tenha feito você se arrepender com uma carta, não me arrependo, embora tenha me arrependido: pois percebo que a mesma epístola fez você se arrepender, embora tenha sido apenas por um período."
+            },
+            {
+              "verse": 9,
+              "text": "Agora eu me regozijo, não porque vocês ficaram tristes, mas porque vocês ficaram tristes até o arrependimento: pois vocês ficaram tristes de uma maneira piedosa, para que em nada recebessem dano de nossa parte."
+            },
+            {
+              "verse": 10,
+              "text": "Porque a tristeza segundo Deus opera o arrependimento para a salvação da qual não se arrepende; mas a tristeza do mundo opera a morte."
+            },
+            {
+              "verse": 11,
+              "text": "Pois vejam esta mesma coisa, que vocês sofreram de uma maneira piedosa, que cuidado isso causou em vocês, sim, que purificação de si mesmos, sim, que indignação, sim, que medo, sim, que desejo veemente, sim, que zelo, sim, que vingança! Em todas as coisas vocês se aprovaram para serem claros neste assunto."
+            },
+            {
+              "verse": 12,
+              "text": "Portanto, embora eu tenha escrito a vocês, não o fiz pela causa dele, que cometeu o mal, nem pela causa dele, que sofreu o mal, mas para que nosso cuidado por vocês, aos olhos de Deus, pudesse aparecer a vocês."
+            },
+            {
+              "verse": 13,
+              "text": "Portanto, fomos consolados com o seu conforto: sim, e muito mais nos alegramos com a alegria de Tito, porque seu espírito foi revigorado por todos vocês."
+            },
+            {
+              "verse": 14,
+              "text": "Porque, se em alguma coisa me gloriei perante ele por parte de vós, não me envergonho; mas, assim como vos falamos todas as coisas com verdade, assim também a nossa jactância que fiz diante de Tito se tornou verdadeira."
+            },
+            {
+              "verse": 15,
+              "text": "E sua afeição interior é mais abundante por vocês, enquanto ele se lembra da obediência de todos vocês, como com temor e tremor vocês o receberam."
+            },
+            {
+              "verse": 16,
+              "text": "Alegro-me, portanto, por ter confiança em você em todas as coisas."
+            }
+          ]
+        },
+        {
+          "chapter": 8,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Além disso, irmãos, nós lhes fazemos saber da graça de Deus concedida às igrejas da Macedônia;"
+            },
+            {
+              "verse": 2,
+              "text": "Como que em uma grande provação de aflição a abundância de sua alegria e sua profunda pobreza abundaram nas riquezas de sua liberalidade."
+            },
+            {
+              "verse": 3,
+              "text": "Pois presto testemunho de seu poder, sim, e além de seu poder, eles se voluntariaram;"
+            },
+            {
+              "verse": 4,
+              "text": "Orando-nos com muito pedido para que recebamos o presente e tomemos sobre nós a comunhão de ministrar aos santos."
+            },
+            {
+              "verse": 5,
+              "text": "E isso eles fizeram, não como esperávamos, mas primeiro se entregaram ao Senhor e a nós pela vontade de Deus."
+            },
+            {
+              "verse": 6,
+              "text": "De modo que desejávamos a Tito que, como ele começou, também terminasse em vós a mesma graça."
+            },
+            {
+              "verse": 7,
+              "text": "Portanto, como vocês abundam em tudo, em fé, e expressão, e conhecimento, e em toda diligência, e em seu amor por nós, vejam que vocês também sejam abundantes nesta graça."
+            },
+            {
+              "verse": 8,
+              "text": "Não falo por mandamento, mas por ocasião da ousadia de outros e para provar a sinceridade do seu amor."
+            },
+            {
+              "verse": 9,
+              "text": "Porque conheceis a graça de nosso Senhor Jesus Cristo, que, embora fosse rico, por amor de vós se tornou pobre, para que pela sua pobreza enriquecêssemos."
+            },
+            {
+              "verse": 10,
+              "text": "E aqui dou meu conselho: pois isso é conveniente para você, que começou antes, não apenas a fazer, mas também a avançar há um ano."
+            },
+            {
+              "verse": 11,
+              "text": "Agora, portanto, faça isso; para que, assim como houve prontidão para querer, também possa haver desempenho daquilo que vocês têm."
+            },
+            {
+              "verse": 12,
+              "text": "Pois se houver primeiro uma mente voluntária, ela será aceita de acordo com o que o homem tem, e não de acordo com o que ele não tem."
+            },
+            {
+              "verse": 13,
+              "text": "Pois não quero dizer que outros homens sejam aliviados e vocês sobrecarregados:"
+            },
+            {
+              "verse": 14,
+              "text": "Mas por uma igualdade, para que agora, neste momento, a sua abundância possa ser um suprimento para a necessidade deles, para que a abundância deles também possa ser um suprimento para a sua necessidade: para que possa haver igualdade:"
+            },
+            {
+              "verse": 15,
+              "text": "Como está escrito: Aquele que muito reuniu não sobrou nada; e ao que pouco juntou não faltou."
+            },
+            {
+              "verse": 16,
+              "text": "Mas graças a Deus, que colocou o mesmo cuidado sincero no coração de Tito por você."
+            },
+            {
+              "verse": 17,
+              "text": "Pois de fato ele aceitou a exortação; mas sendo mais atrevido, por sua própria vontade ele foi até vocês."
+            },
+            {
+              "verse": 18,
+              "text": "E enviamos com ele o irmão, cujo louvor está no evangelho em todas as igrejas;"
+            },
+            {
+              "verse": 19,
+              "text": "E não só isso, mas também quem foi escolhido pelas igrejas para viajar conosco com esta graça, que é administrada por nós para glória do mesmo Senhor, e declaração de sua mente pronta:"
+            },
+            {
+              "verse": 20,
+              "text": "Evitando isto, para que ninguém nos culpe nesta abundância que é administrada por nós:"
+            },
+            {
+              "verse": 21,
+              "text": "Providenciar coisas honestas, não apenas aos olhos do Senhor, mas também aos olhos dos homens."
+            },
+            {
+              "verse": 22,
+              "text": "E enviamos com eles nosso irmão, a quem muitas vezes nos mostramos diligentes em muitas coisas, mas agora muito mais diligente, pela grande confiança que tenho em vocês."
+            },
+            {
+              "verse": 23,
+              "text": "Quer alguém pergunte a Tito, ele é meu parceiro e ajudante a seu respeito; ou se nossos irmãos forem consultados, eles são os mensageiros das igrejas e a glória de Cristo."
+            },
+            {
+              "verse": 24,
+              "text": "Portanto mostrai-lhes, e perante as igrejas, a prova do vosso amor e do nosso orgulho em vosso favor."
+            }
+          ]
+        },
+        {
+          "chapter": 9,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Pois no que diz respeito ao ministério aos santos, é supérfluo escrever-vos:"
+            },
+            {
+              "verse": 2,
+              "text": "Pois conheço a audácia do vosso pensamento, pela qual me vanglorio de vós para com os da Macedônia, de que a Acaia estava pronta há um ano; e o teu zelo provocou muitos."
+            },
+            {
+              "verse": 3,
+              "text": "Contudo, enviei os irmãos, para que nosso orgulho a seu respeito não fosse em vão; para que, como eu disse, vocês possam estar prontos:"
+            },
+            {
+              "verse": 4,
+              "text": "Para que não aconteça que, se os da Macedônia vierem comigo e os encontrarem despreparados, nós (que não dizemos, vós) deveríamos nos envergonhar dessa mesma ostentação confiante."
+            },
+            {
+              "verse": 5,
+              "text": "Portanto, achei necessário exortar os irmãos a irem adiante até vocês e compensarem de antemão a sua generosidade, da qual vocês já haviam notado, para que a mesma pudesse estar pronta, por uma questão de generosidade, e não por cobiça."
+            },
+            {
+              "verse": 6,
+              "text": "Mas isto eu digo: Quem semeia pouco, também colherá pouco; e aquele que semeia abundantemente, também colherá generosamente."
+            },
+            {
+              "verse": 7,
+              "text": "Cada um contribua conforme propôs no seu coração; não de má vontade, ou por necessidade: porque Deus ama quem dá com alegria."
+            },
+            {
+              "verse": 8,
+              "text": "E Deus é poderoso para fazer abundar em você toda graça; para que, tendo sempre toda a suficiência em todas as coisas, abundeis em toda boa obra:"
+            },
+            {
+              "verse": 9,
+              "text": "(Como está escrito: Ele espalhou-se; deu aos pobres; a sua justiça permanece para sempre."
+            },
+            {
+              "verse": 10,
+              "text": "Agora, aquele que ministra a semente ao semeador, ministra pão para o seu alimento, e multiplica a sua semente semeada, e aumenta os frutos da sua justiça;)"
+            },
+            {
+              "verse": 11,
+              "text": "Sendo enriquecidos em tudo para toda a generosidade, que por nosso intermédio causa ações de graças a Deus."
+            },
+            {
+              "verse": 12,
+              "text": "Pois a administração deste serviço não apenas supre as necessidades dos santos, mas também é abundante em muitas ações de graças a Deus;"
+            },
+            {
+              "verse": 13,
+              "text": "Embora pela experiência deste ministério eles glorifiquem a Deus por sua professada sujeição ao evangelho de Cristo e por sua distribuição liberal a eles e a todos os homens;"
+            },
+            {
+              "verse": 14,
+              "text": "E pela oração deles por você, que anseia pela extraordinária graça de Deus em você."
+            },
+            {
+              "verse": 15,
+              "text": "Graças a Deus por seu dom indescritível."
+            }
+          ]
+        },
+        {
+          "chapter": 10,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Agora eu mesmo, Paulo, rogo-vos pela mansidão e gentileza de Cristo, que na presença sou vil entre vós, mas estando ausente sou ousado para convosco:"
+            },
+            {
+              "verse": 2,
+              "text": "Mas rogo-te que não seja ousado quando estou presente com aquela confiança, com a qual penso ser ousado contra alguns, que pensam de nós como se andássemos segundo a carne."
+            },
+            {
+              "verse": 3,
+              "text": "Porque, embora andemos na carne, não guerreamos segundo a carne:"
+            },
+            {
+              "verse": 4,
+              "text": "(Pois as armas da nossa guerra não são carnais, mas poderosas em Deus para destruir fortalezas;)"
+            },
+            {
+              "verse": 5,
+              "text": "Derrubando as imaginações e toda altivez que se levante contra o conhecimento de Deus, e levando cativo todo pensamento à obediência de Cristo;"
+            },
+            {
+              "verse": 6,
+              "text": "E estando pronto para vingar toda desobediência, quando sua obediência for cumprida."
+            },
+            {
+              "verse": 7,
+              "text": "Você olha as coisas segundo a aparência externa? Se alguém confia em si mesmo que é de Cristo, pense novamente de si mesmo: que, assim como ele é de Cristo, também nós somos de Cristo."
+            },
+            {
+              "verse": 8,
+              "text": "Pois embora eu deva me gabar um pouco mais de nossa autoridade, que o Senhor nos deu para edificação, e não para sua destruição, não deveria me envergonhar:"
+            },
+            {
+              "verse": 9,
+              "text": "Para que não pareça que eu iria aterrorizá-lo com cartas."
+            },
+            {
+              "verse": 10,
+              "text": "Pois suas cartas, dizem eles, são pesadas e poderosas; mas sua presença corporal é fraca e sua fala é desprezível."
+            },
+            {
+              "verse": 11,
+              "text": "Pense tal pessoa isto: assim como falamos por letras quando estamos ausentes, assim seremos também por atos quando estivermos presentes."
+            },
+            {
+              "verse": 12,
+              "text": "Pois não ousamos fazer parte do número, nem nos comparar com alguns que se elogiam; mas aqueles que se medem por si mesmos e se comparam entre si não são sábios."
+            },
+            {
+              "verse": 13,
+              "text": "Mas não nos vangloriaremos de coisas sem a nossa medida, mas de acordo com a medida da regra que Deus nos distribuiu, uma medida que chegue até a vós."
+            },
+            {
+              "verse": 14,
+              "text": "Porque não nos esforçamos além da nossa medida, como se não tivéssemos alcançado vocês; pois chegamos até vocês também na pregação do evangelho de Cristo:"
+            },
+            {
+              "verse": 15,
+              "text": "Não nos gabarmos de coisas sem a nossa medida, isto é, do trabalho de outros homens; mas tendo esperança, quando a vossa fé aumentar, de que seremos abundantemente ampliados por vós, segundo a nossa regra,"
+            },
+            {
+              "verse": 16,
+              "text": "Pregar o evangelho nas regiões além de você, e não se vangloriar na linha de coisas de outro homem preparada para nossas mãos."
+            },
+            {
+              "verse": 17,
+              "text": "Mas aquele que se gloria, glorie-se no Senhor."
+            },
+            {
+              "verse": 18,
+              "text": "Porque não é aprovado aquele que a si mesmo se recomenda, mas sim aquele que o Senhor recomenda."
+            }
+          ]
+        },
+        {
+          "chapter": 11,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Quisera Deus que vocês pudessem suportar um pouco minha loucura: e de fato suportarem-me."
+            },
+            {
+              "verse": 2,
+              "text": "Porque tenho zelo de ti com zelo piedoso; porque te desposei com um só marido, para te apresentar como virgem casta a Cristo."
+            },
+            {
+              "verse": 3,
+              "text": "Mas temo que, assim como a serpente enganou Eva com sua astúcia, suas mentes sejam corrompidas e afastadas da simplicidade que há em Cristo."
+            },
+            {
+              "verse": 4,
+              "text": "Porque, se aquele que vier pregar outro Jesus, a quem não pregamos, ou se receberdes outro espírito, que não recebestes, ou outro evangelho, que não aceitastes, bem podereis suportá-lo."
+            },
+            {
+              "verse": 5,
+              "text": "Pois suponho que não estava nem um pouco atrás dos principais apóstolos."
+            },
+            {
+              "verse": 6,
+              "text": "Mas embora eu seja rude no falar, ainda não no conhecimento; mas fomos plenamente manifestados entre vós em todas as coisas."
+            },
+            {
+              "verse": 7,
+              "text": "Cometi uma ofensa ao me humilhar para que vocês fossem exaltados, porque eu lhes anunciei gratuitamente o evangelho de Deus?"
+            },
+            {
+              "verse": 8,
+              "text": "Eu roubei outras igrejas, recebendo salários delas, para prestar serviço a vocês."
+            },
+            {
+              "verse": 9,
+              "text": "E quando estive convosco e precisei, não fui responsável por ninguém; porque o que me faltava os irmãos que vieram da Macedônia supriram; e em todas as coisas evitei ser pesado para vós, e assim me guardarei."
+            },
+            {
+              "verse": 10,
+              "text": "Como a verdade de Cristo está em mim, ninguém me impedirá de me vangloriar nas regiões da Acaia."
+            },
+            {
+              "verse": 11,
+              "text": "Por que? porque eu não te amo? Deus sabe."
+            },
+            {
+              "verse": 12,
+              "text": "Mas o que faço, isso farei, para cortar ocasião daqueles que desejam ocasião; para que onde eles se gloriam, eles podem ser encontrados assim como nós."
+            },
+            {
+              "verse": 13,
+              "text": "Porque estes são falsos apóstolos, obreiros fraudulentos, transformando-se em apóstolos de Cristo."
+            },
+            {
+              "verse": 14,
+              "text": "E não é de admirar; pois o próprio Satanás é transformado em anjo de luz."
+            },
+            {
+              "verse": 15,
+              "text": "Portanto, não é grande coisa que os seus ministros também sejam transformados em ministros da justiça; cujo fim será conforme as suas obras."
+            },
+            {
+              "verse": 16,
+              "text": "Digo novamente: Que ninguém me considere um tolo; caso contrário, receba-me como um tolo, para que eu me glorie um pouco."
+            },
+            {
+              "verse": 17,
+              "text": "Aquilo que falo, não falo segundo o Senhor, mas como se fosse tolamente, nesta confiança de vanglória."
+            },
+            {
+              "verse": 18,
+              "text": "Vendo que muitos se gloriam segundo a carne, eu também me gloriarei."
+            },
+            {
+              "verse": 19,
+              "text": "Pois vós tolerais os tolos de bom grado, visto que sois sábios."
+            },
+            {
+              "verse": 20,
+              "text": "Porque sofrereis, se um homem vos escravizar, se um homem vos devorar, se um homem vos tirar, se um homem se exaltar, se um homem vos bater na face."
+            },
+            {
+              "verse": 21,
+              "text": "Falo como se fosse uma reprovação, como se tivéssemos sido fracos. Contudo, onde quer que alguém seja ousado (falo tolamente), eu também sou ousado."
+            },
+            {
+              "verse": 22,
+              "text": "Eles são hebreus? eu também. Eles são israelitas? eu também. Eles são a semente de Abraão? eu também sou."
+            },
+            {
+              "verse": 23,
+              "text": "Eles são ministros de Cristo? (falo como um tolo) sou mais; em trabalhos mais abundantes, em listras acima da medida, em prisões mais frequentes, em mortes frequentes."
+            },
+            {
+              "verse": 24,
+              "text": "Dos judeus cinco vezes recebi quarenta açoites, exceto um."
+            },
+            {
+              "verse": 25,
+              "text": "Três vezes fui espancado com varas, uma vez fui apedrejado, três vezes naufraguei, uma noite e um dia estive nas profundezas;"
+            },
+            {
+              "verse": 26,
+              "text": "Muitas vezes em viagens, em perigos de águas, em perigos de ladrões, em perigos de meus próprios compatriotas, em perigos dos pagãos, em perigos na cidade, em perigos no deserto, em perigos no mar, em perigos entre falsos irmãos;"
+            },
+            {
+              "verse": 27,
+              "text": "No cansaço e na dor, nas vigílias muitas vezes, na fome e na sede, nos jejuns muitas vezes, no frio e na nudez."
+            },
+            {
+              "verse": 28,
+              "text": "Além das coisas que estão fora, aquilo que me sobrevém diariamente, o cuidado de todas as igrejas."
+            },
+            {
+              "verse": 29,
+              "text": "Quem é fraco e eu não sou fraco? quem está ofendido e eu não queimo?"
+            },
+            {
+              "verse": 30,
+              "text": "Se eu precisar de glória, me gloriarei nas coisas que dizem respeito às minhas enfermidades."
+            },
+            {
+              "verse": 31,
+              "text": "O Deus e Pai de nosso Senhor Jesus Cristo, que é bendito para sempre, sabe que não minto."
+            },
+            {
+              "verse": 32,
+              "text": "Em Damasco, o governador sob Aretas, o rei, manteve a cidade dos damascenos com uma guarnição, desejosa de me prender:"
+            },
+            {
+              "verse": 33,
+              "text": "E através de uma janela, num cesto, fui baixado pela parede e escapei de suas mãos."
+            }
+          ]
+        },
+        {
+          "chapter": 12,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Não é conveniente para mim, sem dúvida, gloriar-me. Chegarei a visões e revelações do Senhor."
+            },
+            {
+              "verse": 2,
+              "text": "Conheci um homem em Cristo há mais de quatorze anos (se no corpo, não posso dizer; ou se fora do corpo, não posso dizer: Deus sabe); tal pessoa foi arrebatada ao terceiro céu."
+            },
+            {
+              "verse": 3,
+              "text": "E eu conheci tal homem (seja no corpo ou fora do corpo, não posso dizer: Deus sabe;)"
+            },
+            {
+              "verse": 4,
+              "text": "Como ele foi arrebatado ao paraíso e ouviu palavras indizíveis, que não é lícito ao homem pronunciar."
+            },
+            {
+              "verse": 5,
+              "text": "De tal me gloriarei; contudo, não me gloriarei de mim mesmo, mas nas minhas enfermidades."
+            },
+            {
+              "verse": 6,
+              "text": "Pois embora eu deseje gloriar-me, não serei tolo; pois direi a verdade; mas agora evito-me, para que ninguém pense de mim acima do que vê que sou, ou do que ouve de mim."
+            },
+            {
+              "verse": 7,
+              "text": "E para que eu não fosse exaltado acima da medida através da abundância das revelações, foi-me dado um espinho na carne, o mensageiro de Satanás para me esbofetear, para que eu não fosse exaltado acima da medida."
+            },
+            {
+              "verse": 8,
+              "text": "Por isso três vezes roguei ao Senhor, para que isso se afastasse de mim."
+            },
+            {
+              "verse": 9,
+              "text": "E ele me disse: A minha graça te basta, porque o meu poder se aperfeiçoa na fraqueza. De bom grado, portanto, me gloriarei em minhas enfermidades, para que o poder de Cristo repouse sobre mim."
+            },
+            {
+              "verse": 10,
+              "text": "Por isso sinto prazer nas enfermidades, nas injúrias, nas necessidades, nas perseguições, nas angústias por amor de Cristo: porque quando estou fraco, então sou forte."
+            },
+            {
+              "verse": 11,
+              "text": "Tornei-me um tolo em me gloriar; vós me compelistes; porque eu deveria ter sido elogiado por vós; pois em nada estou atrás dos principais apóstolos, embora não seja nada."
+            },
+            {
+              "verse": 12,
+              "text": "Verdadeiramente os sinais de um apóstolo foram operados entre vocês com toda paciência, em sinais, e prodígios, e feitos poderosos."
+            },
+            {
+              "verse": 13,
+              "text": "Pois em que é que fostes inferiores às outras igrejas, exceto que eu mesmo não fui pesado para vós? me perdoe por isso errado."
+            },
+            {
+              "verse": 14,
+              "text": "Eis que pela terceira vez estou pronto para ir ter convosco; e não serei pesado para vós; porque não procuro o que é vosso, mas sim a vós; porque os filhos não devem acumular para os pais, mas os pais para os filhos."
+            },
+            {
+              "verse": 15,
+              "text": "E terei muito prazer em gastar e ser gasto por você; embora quanto mais eu te amo, menos sou amado."
+            },
+            {
+              "verse": 16,
+              "text": "Mas seja assim, não te sobrecarreguei: no entanto, sendo astuto, apanhei-te com astúcia."
+            },
+            {
+              "verse": 17,
+              "text": "Ganhei de vocês com algum daqueles que vos enviei?"
+            },
+            {
+              "verse": 18,
+              "text": "Desejei Tito e com ele enviei um irmão. Tito obteve lucro com você? não andamos com o mesmo espírito? não andamos nos mesmos passos?"
+            },
+            {
+              "verse": 19,
+              "text": "Novamente, você acha que nos desculpamos com você? falamos diante de Deus em Cristo: mas fazemos todas as coisas, amados, para sua edificação."
+            },
+            {
+              "verse": 20,
+              "text": "Porque temo que, quando eu vier, não vos acharei como gostaria, e serei achado entre vós como não quereis; para que não haja debates, invejas, ira, contendas, calúnias, sussurros, inchaços, tumultos:"
+            },
+            {
+              "verse": 21,
+              "text": "E para que, quando eu voltar, meu Deus me humilhe entre vós, e eu chore por muitos que já pecaram e não se arrependeram da impureza, da fornicação e da lascívia que cometeram."
+            }
+          ]
+        },
+        {
+          "chapter": 13,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Esta é a terceira vez que venho até você. Pela boca de duas ou três testemunhas toda palavra será confirmada."
+            },
+            {
+              "verse": 2,
+              "text": "Já te disse antes, e te prevejo, como se estivesse presente, pela segunda vez; e estando ausente agora escrevo aos que até agora pecaram, e a todos os outros, que, se eu voltar, não pouparei:"
+            },
+            {
+              "verse": 3,
+              "text": "Visto que procurais uma prova de Cristo falando em mim, que para vós não é fraco, mas é poderoso em vós."
+            },
+            {
+              "verse": 4,
+              "text": "Pois embora ele tenha sido crucificado por fraqueza, ele vive pelo poder de Deus. Porque também nós somos fracos nele, mas viveremos com ele pelo poder de Deus para convosco."
+            },
+            {
+              "verse": 5,
+              "text": "Examinem-se para ver se estão na fé; prove a si mesmo. Vocês mesmos não sabem como Jesus Cristo está em vocês, a menos que sejam réprobos?"
+            },
+            {
+              "verse": 6,
+              "text": "Mas confio que sabereis que não somos réprobos."
+            },
+            {
+              "verse": 7,
+              "text": "Agora rogo a Deus que não pratiqueis nenhum mal; não para que pareçamos aprovados, mas para que façais o que é honesto, embora sejamos como réprobos."
+            },
+            {
+              "verse": 8,
+              "text": "Pois não podemos fazer nada contra a verdade, mas a favor da verdade."
+            },
+            {
+              "verse": 9,
+              "text": "Porque nos alegramos quando estamos fracos e vós sois fortes; e isto também desejamos, até a vossa perfeição."
+            },
+            {
+              "verse": 10,
+              "text": "Por isso escrevo estas coisas estando ausente, para que, estando presente, não use de aspereza, segundo o poder que o Senhor me deu, para edificação e não para destruição."
+            },
+            {
+              "verse": 11,
+              "text": "Finalmente, irmãos, adeus. Seja perfeito, tenha bom conforto, tenha um só pensamento, viva em paz; e o Deus de amor e paz estará com você."
+            },
+            {
+              "verse": 12,
+              "text": "Cumprimentem-se uns aos outros com um beijo sagrado."
+            },
+            {
+              "verse": 13,
+              "text": "Todos os santos te saúdam."
+            },
+            {
+              "verse": 14,
+              "text": "A graça do Senhor Jesus Cristo, o amor de Deus e a comunhão do Espírito Santo estejam com todos vocês. Amém."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

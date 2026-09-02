@@ -1,0 +1,69 @@
+{
+  "version": "KJVT",
+  "translation": "King James Version Traduzida",
+  "books": [
+    {
+      "abbrev": "2jo",
+      "name": "2 João",
+      "chapters": [
+        {
+          "chapter": 1,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "O presbítero à senhora eleita e aos seus filhos, aos quais amo na verdade; e não somente eu, mas também todos os que conheceram a verdade;"
+            },
+            {
+              "verse": 2,
+              "text": "Por amor da verdade, que habita em nós e estará conosco para sempre."
+            },
+            {
+              "verse": 3,
+              "text": "A graça esteja convosco, misericórdia e paz, da parte de Deus Pai, e do Senhor Jesus Cristo, o Filho do Pai, em verdade e amor."
+            },
+            {
+              "verse": 4,
+              "text": "Muito me regozijei por ter encontrado teus filhos andando na verdade, conforme recebemos um mandamento do Pai."
+            },
+            {
+              "verse": 5,
+              "text": "E agora eu te imploro, senhora, não como se eu tivesse escrito um novo mandamento para você, mas aquele que tivemos desde o início, que amemos uns aos outros."
+            },
+            {
+              "verse": 6,
+              "text": "E isto é amor, que andemos segundo os seus mandamentos. Este é o mandamento: que, como ouvistes desde o princípio, andeis nele."
+            },
+            {
+              "verse": 7,
+              "text": "Porque muitos enganadores entraram no mundo e não confessam que Jesus Cristo veio em carne. Este é um enganador e um anticristo."
+            },
+            {
+              "verse": 8,
+              "text": "Olhem para si mesmos, para que não percamos as coisas que realizamos, mas para que recebamos uma recompensa completa."
+            },
+            {
+              "verse": 9,
+              "text": "Todo aquele que transgride e não permanece na doutrina de Cristo não tem Deus. Aquele que permanece na doutrina de Cristo tem tanto o Pai como o Filho."
+            },
+            {
+              "verse": 10,
+              "text": "Se alguém vier até você e não trouxer esta doutrina, não o receba em sua casa, nem lhe peça a Deus:"
+            },
+            {
+              "verse": 11,
+              "text": "Pois aquele que lhe oferece a velocidade de Deus é participante de suas más ações."
+            },
+            {
+              "verse": 12,
+              "text": "Tendo muitas coisas para vos escrever, não escreveria com papel e tinta; mas confio em ir ter convosco e falar face a face, para que a nossa alegria seja completa."
+            },
+            {
+              "verse": 13,
+              "text": "Os filhos de tua irmã eleita te saúdam. Amém."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

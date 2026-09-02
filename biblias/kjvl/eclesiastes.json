@@ -1,0 +1,960 @@
+{
+  "version": "KJVT",
+  "translation": "King James Version Traduzida",
+  "books": [
+    {
+      "abbrev": "ec",
+      "name": "Eclesiastes",
+      "chapters": [
+        {
+          "chapter": 1,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "As palavras do Pregador, filho de Davi, rei em Jerusalém."
+            },
+            {
+              "verse": 2,
+              "text": "Vaidade das vaidades, diz o Pregador, vaidade das vaidades; tudo é vaidade."
+            },
+            {
+              "verse": 3,
+              "text": "Que aproveita ao homem todo o seu trabalho que realiza debaixo do sol?"
+            },
+            {
+              "verse": 4,
+              "text": "Uma geração passa, e outra geração vem; mas a terra permanece para sempre."
+            },
+            {
+              "verse": 5,
+              "text": "Também o sol nasce, e o sol se põe, e corre para o seu lugar de onde nasceu."
+            },
+            {
+              "verse": 6,
+              "text": "O vento vai para o sul e faz o seu giro para o norte; ele gira continuamente e o vento retorna novamente de acordo com seus circuitos."
+            },
+            {
+              "verse": 7,
+              "text": "Todos os rios correm para o mar; contudo o mar não está cheio; para o lugar de onde vêm os rios, para lá eles retornam novamente."
+            },
+            {
+              "verse": 8,
+              "text": "Todas as coisas estão cheias de trabalho; o homem não pode pronunciá-lo: o olho não se satisfaz em ver, nem o ouvido se enche de ouvir."
+            },
+            {
+              "verse": 9,
+              "text": "O que foi, é o que será; e o que se fez é o que se fará; e não há novidade debaixo do sol."
+            },
+            {
+              "verse": 10,
+              "text": "Existe alguma coisa da qual se possa dizer: Veja, isso é novo? já existe nos tempos antigos, que existiram antes de nós."
+            },
+            {
+              "verse": 11,
+              "text": "Não há lembrança de coisas anteriores; nem haverá nenhuma lembrança das coisas que hão de vir, entre as que hão de vir depois."
+            },
+            {
+              "verse": 12,
+              "text": "Eu, o Pregador, fui rei de Israel em Jerusalém."
+            },
+            {
+              "verse": 13,
+              "text": "E dei meu coração para buscar e investigar com sabedoria a respeito de todas as coisas que são feitas debaixo do céu: esta dolorosa tarefa Deus deu aos filhos dos homens para serem exercidas com ela."
+            },
+            {
+              "verse": 14,
+              "text": "tenho visto todas as obras que se fazem debaixo do sol; e eis que tudo é vaidade e aborrecimento de espírito."
+            },
+            {
+              "verse": 15,
+              "text": "O que é torto não pode ser endireitado; e o que falta não pode ser contado."
+            },
+            {
+              "verse": 16,
+              "text": "Comuniquei com meu próprio coração, dizendo: Eis que cheguei a uma grande posição e obtive mais sabedoria do que todos os que existiram antes de mim em Jerusalém: sim, meu coração teve grande experiência de sabedoria e conhecimento."
+            },
+            {
+              "verse": 17,
+              "text": "E dei o meu coração para conhecer a sabedoria, e para conhecer a loucura e a loucura: percebi que isso também é aborrecimento de espírito."
+            },
+            {
+              "verse": 18,
+              "text": "Porque em muita sabedoria há muita tristeza, e quem aumenta o conhecimento aumenta a tristeza."
+            }
+          ]
+        },
+        {
+          "chapter": 2,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Eu disse em meu coração: Vai agora, vou te provar com alegria, portanto desfrute do prazer: e eis que isso também é vaidade."
+            },
+            {
+              "verse": 2,
+              "text": "Eu disse do riso: É uma loucura; e da alegria: O que isso faz?"
+            },
+            {
+              "verse": 3,
+              "text": "Eu disse em meu coração: Vou dar-me ao vinho, e ao mesmo tempo dar-me à sabedoria; e para abraçar a loucura, até que eu veja o que é bom para os filhos dos homens, o que eles devem fazer debaixo do céu todos os dias de sua vida."
+            },
+            {
+              "verse": 4,
+              "text": "Fiz grandes obras para mim; Eu construí casas para mim; Plantei vinhas para mim:"
+            },
+            {
+              "verse": 5,
+              "text": "Fiz para mim jardins e pomares, e neles plantei árvores de todos os tipos de frutas:"
+            },
+            {
+              "verse": 6,
+              "text": "Fiz para mim tanques de água, para regar com eles o bosque que produz árvores:"
+            },
+            {
+              "verse": 7,
+              "text": "Arranjei servos e donzelas, e tive servos nascidos em minha casa; também tive muitas possessões de gado grande e pequeno, mais do que todos os que houve em Jerusalém antes de mim:"
+            },
+            {
+              "verse": 8,
+              "text": "Também juntei para mim prata e ouro, e os tesouros peculiares dos reis e das províncias: consegui para mim cantores e cantoras, e as delícias dos filhos dos homens, como instrumentos musicais, e de toda sorte."
+            },
+            {
+              "verse": 9,
+              "text": "Assim engrandeci-me e aumentei mais do que todos os que houve antes de mim em Jerusalém; também a minha sabedoria permaneceu comigo."
+            },
+            {
+              "verse": 10,
+              "text": "E tudo o que os meus olhos desejaram eu não lhes neguei, não neguei alegria alguma ao meu coração; porque o meu coração se alegrou com todo o meu trabalho; e esta foi a minha porção de todo o meu trabalho."
+            },
+            {
+              "verse": 11,
+              "text": "Então olhei para todas as obras que minhas mãos haviam feito e para o trabalho que eu havia trabalhado para fazer; e eis que tudo era vaidade e aflição de espírito, e não havia lucro debaixo do sol."
+            },
+            {
+              "verse": 12,
+              "text": "E voltei-me para contemplar a sabedoria, e a loucura, e a estultícia; pois que pode fazer o homem que vem após o rei? mesmo aquilo que já foi feito."
+            },
+            {
+              "verse": 13,
+              "text": "Então vi que a sabedoria é mais excelente que a loucura, assim como a luz é mais excelente que as trevas."
+            },
+            {
+              "verse": 14,
+              "text": "Os olhos do sábio estão em sua cabeça; mas o tolo anda nas trevas; e eu mesmo percebi também que um evento acontece com todos eles."
+            },
+            {
+              "verse": 15,
+              "text": "Então disse eu em meu coração: Assim como acontece com o tolo, assim acontece comigo; e por que eu era então mais sábio? Então eu disse em meu coração que isso também é vaidade."
+            },
+            {
+              "verse": 16,
+              "text": "Pois nunca há maior lembrança do sábio do que do tolo; visto que tudo o que está acontecendo nos dias que virão será esquecido. E como morre o sábio? como o tolo."
+            },
+            {
+              "verse": 17,
+              "text": "Portanto, odiei a vida; porque o trabalho que se realiza debaixo do sol é penoso para mim: pois tudo é vaidade e aborrecimento de espírito."
+            },
+            {
+              "verse": 18,
+              "text": "Sim, odiei todo o meu trabalho que empreendi debaixo do sol, porque o deixaria ao homem que virá depois de mim."
+            },
+            {
+              "verse": 19,
+              "text": "E quem sabe se ele será um homem sábio ou um tolo? contudo ele dominará todo o meu trabalho em que trabalhei e em que me mostrei sábio debaixo do sol. Isso também é vaidade."
+            },
+            {
+              "verse": 20,
+              "text": "Portanto, procurei fazer com que meu coração se desesperasse com todo o trabalho que realizei sob o sol."
+            },
+            {
+              "verse": 21,
+              "text": "Porque há um homem cujo trabalho é feito com sabedoria, e conhecimento, e com equidade; todavia, ao homem que não trabalhou nela, ele a deixará como sua porção. Isto também é vaidade e um grande mal."
+            },
+            {
+              "verse": 22,
+              "text": "Pois o que tem o homem de todo o seu trabalho e da angústia do seu coração, em que trabalhou debaixo do sol?"
+            },
+            {
+              "verse": 23,
+              "text": "Porque todos os seus dias são tristezas e o seu trabalho é tristeza; sim, seu coração não descansa durante a noite. Isso também é vaidade."
+            },
+            {
+              "verse": 24,
+              "text": "Não há nada melhor para um homem do que comer e beber, e fazer com que sua alma desfrute do bem em seu trabalho. Isto também eu vi, que vinha da mão de Deus."
+            },
+            {
+              "verse": 25,
+              "text": "Pois quem pode comer, ou quem mais pode apressar-se mais do que eu?"
+            },
+            {
+              "verse": 26,
+              "text": "Porque Deus dá ao homem que é bom diante dele sabedoria, e conhecimento, e alegria; mas ao pecador dá trabalho, para ajuntar e amontoar, para dar àquele que é bom diante de Deus. Isso também é vaidade e aborrecimento de espírito."
+            }
+          ]
+        },
+        {
+          "chapter": 3,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Para tudo há uma ocasião, e um tempo para cada propósito debaixo do céu:"
+            },
+            {
+              "verse": 2,
+              "text": "Tempo de nascer e tempo de morrer; tempo de plantar e tempo de arrancar o que se plantou;"
+            },
+            {
+              "verse": 3,
+              "text": "Tempo de matar e tempo de curar; tempo de demolir e tempo de edificar;"
+            },
+            {
+              "verse": 4,
+              "text": "Tempo de chorar e tempo de rir; tempo de chorar e tempo de dançar;"
+            },
+            {
+              "verse": 5,
+              "text": "Tempo de lançar pedras fora e tempo de ajuntar pedras; tempo de abraçar e tempo de se abster de abraçar;"
+            },
+            {
+              "verse": 6,
+              "text": "Tempo para ganhar e tempo para perder; tempo de guardar e tempo de jogar fora;"
+            },
+            {
+              "verse": 7,
+              "text": "Tempo de rasgar e tempo de costurar; tempo de calar e tempo de falar;"
+            },
+            {
+              "verse": 8,
+              "text": "Tempo para amar e tempo para odiar; um tempo de guerra e um tempo de paz."
+            },
+            {
+              "verse": 9,
+              "text": "Que proveito tem o homem que trabalha naquilo em que se esforça?"
+            },
+            {
+              "verse": 10,
+              "text": "Tenho visto o trabalho que Deus deu aos filhos dos homens para serem exercidos nele."
+            },
+            {
+              "verse": 11,
+              "text": "Ele fez tudo belo em seu tempo; também colocou o mundo em seus corações, para que nenhum homem possa descobrir a obra que Deus faz do começo ao fim."
+            },
+            {
+              "verse": 12,
+              "text": "Eu sei que não há nada de bom neles, exceto para um homem se alegrar e fazer o bem em sua vida."
+            },
+            {
+              "verse": 13,
+              "text": "E também que todo homem coma e beba e desfrute do bem de todo o seu trabalho, é um dom de Deus."
+            },
+            {
+              "verse": 14,
+              "text": "Eu sei que tudo o que Deus faz durará para sempre: nada pode ser atribuído a isso, nem nada pode ser tirado; e Deus o faz para que os homens tenham medo dele."
+            },
+            {
+              "verse": 15,
+              "text": "Aquilo que foi é agora; e o que há de ser já foi; e Deus requer aquilo que já passou."
+            },
+            {
+              "verse": 16,
+              "text": "E além disso vi debaixo do sol o lugar do julgamento, que ali havia maldade; e o lugar da justiça, essa iniqüidade estava lá."
+            },
+            {
+              "verse": 17,
+              "text": "Eu disse em meu coração: Deus julgará os justos e os ímpios: pois há um tempo para cada propósito e para cada obra."
+            },
+            {
+              "verse": 18,
+              "text": "Eu disse em meu coração a respeito do estado dos filhos dos homens, para que Deus pudesse manifestá-los e para que eles pudessem ver que eles próprios são animais."
+            },
+            {
+              "verse": 19,
+              "text": "Pois aquilo que acontece aos filhos dos homens, acontece aos animais; uma coisa lhes acontece: assim como um morre, assim morre o outro; sim, todos eles têm o mesmo fôlego; de modo que o homem não tem preeminência sobre o animal; porque tudo é vaidade."
+            },
+            {
+              "verse": 20,
+              "text": "Todos vão para um lugar; todos são do pó e todos voltarão ao pó."
+            },
+            {
+              "verse": 21,
+              "text": "Quem conhece o espírito do homem que sobe e o espírito da besta que desce à terra?"
+            },
+            {
+              "verse": 22,
+              "text": "Portanto percebo que não há nada melhor do que um homem se alegrar com suas próprias obras; pois esta é a sua porção; pois quem o levará para ver o que será depois dele?"
+            }
+          ]
+        },
+        {
+          "chapter": 4,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Então voltei e considerei todas as opressões que se fazem debaixo do sol; e eis as lágrimas dos oprimidos e que não tinham consolador; e do lado dos seus opressores havia poder; mas eles não tinham consolador."
+            },
+            {
+              "verse": 2,
+              "text": "Por isso louvei mais os mortos que já estão mortos do que os vivos que ainda estão vivos."
+            },
+            {
+              "verse": 3,
+              "text": "Sim, melhor do que ambos é aquele que ainda não existiu, que não viu a má obra que se faz debaixo do sol."
+            },
+            {
+              "verse": 4,
+              "text": "Novamente, considerei todo trabalho e todo trabalho correto, que por isso um homem é invejado por seu próximo. Isso também é vaidade e aborrecimento de espírito."
+            },
+            {
+              "verse": 5,
+              "text": "O tolo cruza as mãos e come a sua própria carne."
+            },
+            {
+              "verse": 6,
+              "text": "Melhor é um punhado de tranquilidade do que ambas as mãos cheias de trabalho e aflição de espírito."
+            },
+            {
+              "verse": 7,
+              "text": "Então voltei e vi a vaidade debaixo do sol."
+            },
+            {
+              "verse": 8,
+              "text": "Existe um sozinho e não existe um segundo; sim, ele não tem filhos nem irmãos; contudo, todo o seu trabalho não tem fim; nem os seus olhos se satisfazem com as riquezas; nem diz ele: Para quem trabalho e privo minha alma do bem? Isso também é vaidade, sim, é um trabalho doloroso."
+            },
+            {
+              "verse": 9,
+              "text": "Dois são melhores que um; porque eles têm uma boa recompensa pelo seu trabalho."
+            },
+            {
+              "verse": 10,
+              "text": "Porque, se caírem, um levantará o seu companheiro; mas ai daquele que estiver só quando cair; pois ele não tem outro para ajudá-lo."
+            },
+            {
+              "verse": 11,
+              "text": "Novamente, se dois se deitam juntos, então eles têm calor: mas como alguém pode se aquecer sozinho?"
+            },
+            {
+              "verse": 12,
+              "text": "E se um prevalecer contra ele, dois lhe resistirão; e um cordão triplo não se rompe rapidamente."
+            },
+            {
+              "verse": 13,
+              "text": "Melhor é um filho pobre e sábio do que um rei velho e tolo, que não aceita mais ser admoestado."
+            },
+            {
+              "verse": 14,
+              "text": "Pois da prisão ele vem para reinar; ao passo que também aquele que nasce no seu reino se torna pobre."
+            },
+            {
+              "verse": 15,
+              "text": "Considerei todos os viventes que andam sob o sol, com o segundo filho que se levantará em seu lugar."
+            },
+            {
+              "verse": 16,
+              "text": "Não há fim para todos os povos, mesmo para todos os que existiram antes deles: também os que vierem depois não se alegrarão nele. Certamente isso também é vaidade e aborrecimento de espírito."
+            }
+          ]
+        },
+        {
+          "chapter": 5,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Guarda o pé quando fores à casa de Deus, e esteja mais disposto a ouvir do que a oferecer sacrifícios de tolos; porque eles não consideram que fazem o mal."
+            },
+            {
+              "verse": 2,
+              "text": "Não sejas precipitado com a tua boca, e não deixes que o teu coração se apresse em pronunciar qualquer coisa diante de Deus; porque Deus está no céu, e tu na terra; portanto, sejam poucas as tuas palavras."
+            },
+            {
+              "verse": 3,
+              "text": "Pois um sonho surge através da multidão de negócios; e a voz do tolo é conhecida pela multidão de palavras."
+            },
+            {
+              "verse": 4,
+              "text": "Quando você fizer um voto a Deus, não deixe de pagá-lo; porque ele não tem prazer em tolos; paga o que juraste."
+            },
+            {
+              "verse": 5,
+              "text": "Melhor é que você não faça um voto do que faça um voto e não pague."
+            },
+            {
+              "verse": 6,
+              "text": "Não permita que a tua boca faça a tua carne pecar; nem digas diante do anjo que foi um erro; por que Deus deveria ficar irado com a tua voz e destruir o trabalho das tuas mãos?"
+            },
+            {
+              "verse": 7,
+              "text": "Porque na multidão de sonhos e de muitas palavras há também diversas vaidades; mas teme a Deus."
+            },
+            {
+              "verse": 8,
+              "text": "Se você vir a opressão dos pobres e a perversão violenta do julgamento e da justiça em uma província, não se maravilhe com o assunto: pois aquele que está mais alto do que o mais elevado considera; e há algo mais alto do que eles."
+            },
+            {
+              "verse": 9,
+              "text": "Além disso, o lucro da terra é para todos: o próprio rei é servido pelo campo."
+            },
+            {
+              "verse": 10,
+              "text": "Quem ama a prata não se fartará de prata; nem aquele que ama a abundância com abundância: isso também é vaidade."
+            },
+            {
+              "verse": 11,
+              "text": "Quando os bens aumentam, aumentam os que os comem: e que bem há para os seus donos, salvo a contemplação deles com os olhos?"
+            },
+            {
+              "verse": 12,
+              "text": "Doce é o sono do trabalhador, quer coma pouco, quer muito; mas a abundância do rico não o deixa dormir."
+            },
+            {
+              "verse": 13,
+              "text": "Há um mal terrível que tenho visto debaixo do sol, a saber, riquezas guardadas para seus donos, para seu prejuízo."
+            },
+            {
+              "verse": 14,
+              "text": "Mas essas riquezas perecem por causa do mau trabalho: e ele gerou um filho, e não há nada em sua mão."
+            },
+            {
+              "verse": 15,
+              "text": "Assim como saiu do ventre de sua mãe, nu ele voltará para ir como veio, e não levará nada do seu trabalho, que possa levar na mão."
+            },
+            {
+              "verse": 16,
+              "text": "E este também é um grande mal, que em todos os pontos como ele veio, assim irá; e que proveito teve aquele que trabalhou para o vento?"
+            },
+            {
+              "verse": 17,
+              "text": "Todos os seus dias ele também come nas trevas e sente muita tristeza e ira por causa de sua doença."
+            },
+            {
+              "verse": 18,
+              "text": "Eis o que tenho visto: é bom e agradável que alguém coma e beba, e goze do bem de todo o seu trabalho que realiza debaixo do sol, todos os dias da sua vida, que Deus lhe dá: porque esta é a sua porção."
+            },
+            {
+              "verse": 19,
+              "text": "Todo homem também a quem Deus deu riquezas e bens, e lhe deu poder para comê-los, e receber a sua porção, e regozijar-se no seu trabalho; este é o dom de Deus."
+            },
+            {
+              "verse": 20,
+              "text": "Porque não se lembrará muito dos dias da sua vida; porque Deus lhe responde na alegria de seu coração."
+            }
+          ]
+        },
+        {
+          "chapter": 6,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Há um mal que vi debaixo do sol e é comum entre os homens:"
+            },
+            {
+              "verse": 2,
+              "text": "Um homem a quem Deus deu riquezas, bens e honra, de modo que ele não quer nada para sua alma de tudo o que deseja, mas Deus não lhe dá poder para comer disso, mas um estranho come: isso é vaidade, e é uma doença maligna."
+            },
+            {
+              "verse": 3,
+              "text": "Se um homem gerar cem filhos, e viver muitos anos, de modo que os dias dos seus anos sejam muitos, e a sua alma não se encha de bens, e também não tenha sepultura; Eu digo que um nascimento prematuro é melhor que ele."
+            },
+            {
+              "verse": 4,
+              "text": "Porque ele entra com vaidade e sai nas trevas, e o seu nome será coberto de trevas."
+            },
+            {
+              "verse": 5,
+              "text": "Além disso, ele não viu o sol, nem conheceu coisa alguma: este tem mais descanso do que o outro."
+            },
+            {
+              "verse": 6,
+              "text": "Sim, embora ele viva mil anos contados duas vezes, ainda assim ele não viu nada de bom: não vão todos para o mesmo lugar?"
+            },
+            {
+              "verse": 7,
+              "text": "Todo o trabalho do homem é para a sua boca, e ainda assim o apetite não é saciado."
+            },
+            {
+              "verse": 8,
+              "text": "Pois o que tem o sábio mais do que o tolo? o que tem o pobre que sabe andar antes dos vivos?"
+            },
+            {
+              "verse": 9,
+              "text": "Melhor é a visão dos olhos do que a divagação do desejo: isso também é vaidade e aborrecimento de espírito."
+            },
+            {
+              "verse": 10,
+              "text": "Aquilo que foi já foi nomeado, e sabe-se que é o homem; nem poderá ele contender com aquele que é mais poderoso do que ele."
+            },
+            {
+              "verse": 11,
+              "text": "Vendo que há muitas coisas que aumentam a vaidade, o que é melhor para o homem?"
+            },
+            {
+              "verse": 12,
+              "text": "Pois quem sabe o que é bom para o homem nesta vida, todos os dias de sua vã vida que ele passa como uma sombra? pois quem pode dizer a um homem o que acontecerá depois dele debaixo do sol?"
+            }
+          ]
+        },
+        {
+          "chapter": 7,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Melhor é o bom nome do que o ungüento precioso; e o dia da morte do que o dia do nascimento."
+            },
+            {
+              "verse": 2,
+              "text": "É melhor ir à casa onde há luto do que ir à casa onde há festa: porque esse é o fim de todos os homens; e os vivos colocarão isso em seu coração."
+            },
+            {
+              "verse": 3,
+              "text": "Melhor é a tristeza do que o riso: porque é pela tristeza do semblante que o coração se torna melhor."
+            },
+            {
+              "verse": 4,
+              "text": "O coração do sábio está na casa do luto; mas o coração dos tolos está na casa da alegria."
+            },
+            {
+              "verse": 5,
+              "text": "É melhor ouvir a repreensão dos sábios do que o homem ouvir a canção dos tolos."
+            },
+            {
+              "verse": 6,
+              "text": "Porque, qual o crepitar dos espinhos debaixo da panela, assim é o riso do tolo: também isto é vaidade."
+            },
+            {
+              "verse": 7,
+              "text": "Certamente a opressão enlouquece o homem sábio; e um presente destrói o coração."
+            },
+            {
+              "verse": 8,
+              "text": "Melhor é o fim de uma coisa do que o seu começo; e melhor é o paciente de espírito do que o orgulhoso de espírito."
+            },
+            {
+              "verse": 9,
+              "text": "Não te apresses em irar-te, porque a ira repousa no seio dos tolos."
+            },
+            {
+              "verse": 10,
+              "text": "Não digas: Qual é a razão pela qual os dias anteriores foram melhores do que estes? pois você não pergunta sabiamente sobre isso."
+            },
+            {
+              "verse": 11,
+              "text": "A sabedoria é boa com uma herança: e nela há lucro para aqueles que vêem o sol."
+            },
+            {
+              "verse": 12,
+              "text": "Pois a sabedoria é uma defesa, e o dinheiro é uma defesa: mas a excelência do conhecimento é que a sabedoria dá vida àqueles que a possuem."
+            },
+            {
+              "verse": 13,
+              "text": "Considere a obra de Deus: pois quem pode endireitar o que ele tornou torto?"
+            },
+            {
+              "verse": 14,
+              "text": "No dia da prosperidade alegre-se, mas no dia da adversidade considere: Deus também colocou um contra o outro, para que o homem não encontre nada depois dele."
+            },
+            {
+              "verse": 15,
+              "text": "Todas as coisas tenho visto nos dias da minha vaidade: há um homem justo que perece na sua justiça, e há um homem ímpio que prolonga a sua vida na sua maldade."
+            },
+            {
+              "verse": 16,
+              "text": "Não seja justo por muito; nem te tornes excessivamente sábio: por que deverias destruir-te?"
+            },
+            {
+              "verse": 17,
+              "text": "Não sejas muito ímpio, nem sejas tolo; por que morrerias antes do tempo?"
+            },
+            {
+              "verse": 18,
+              "text": "É bom que você tome posse disso; sim, também disto não retires a tua mão; porque aquele que teme a Deus sairá de todos eles."
+            },
+            {
+              "verse": 19,
+              "text": "A sabedoria fortalece os sábios mais do que dez valentes que há na cidade."
+            },
+            {
+              "verse": 20,
+              "text": "Pois não há homem justo sobre a terra que faça o bem e não peque."
+            },
+            {
+              "verse": 21,
+              "text": "Também não dê atenção a todas as palavras que são ditas; para que não ouças o teu servo te amaldiçoar:"
+            },
+            {
+              "verse": 22,
+              "text": "Pois muitas vezes também o teu próprio coração sabe que tu mesmo amaldiçoaste outros."
+            },
+            {
+              "verse": 23,
+              "text": "Tudo isso provei pela sabedoria: eu disse: serei sábio; mas estava longe de mim."
+            },
+            {
+              "verse": 24,
+              "text": "Aquilo que está longe e muito profundo, quem o poderá descobrir?"
+            },
+            {
+              "verse": 25,
+              "text": "Apliquei meu coração para conhecer e pesquisar e buscar a sabedoria e a razão das coisas e conhecer a maldade da tolice, sim, da tolice e da loucura:"
+            },
+            {
+              "verse": 26,
+              "text": "E achei mais amarga que a morte a mulher cujo coração são laços e redes, e suas mãos como ataduras: quem quiser a Deus escapará dela; mas o pecador será levado por ela."
+            },
+            {
+              "verse": 27,
+              "text": "Eis que encontrei isto, diz o pregador, contando um por um, para saber a conta:"
+            },
+            {
+              "verse": 28,
+              "text": "O que ainda a minha alma busca, mas não encontro: um homem entre mil encontrei; mas não encontrei uma mulher entre todas elas."
+            },
+            {
+              "verse": 29,
+              "text": "Eis que só descobri isto: que Deus fez o homem reto; mas eles procuraram muitas invenções."
+            }
+          ]
+        },
+        {
+          "chapter": 8,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Quem é como o homem sábio? E quem sabe a interpretação das coisas? A sabedoria do homem faz brilhar a sua face, e o vigor da sua face é alterado."
+            },
+            {
+              "verse": 2,
+              "text": "Aconselho-te a guardar o mandamento do rei, e isso em relação ao juramento de Deus."
+            },
+            {
+              "verse": 3,
+              "text": "Não se apresse em sair de sua vista: não permaneça em algo mau; porque ele faz tudo o que lhe agrada."
+            },
+            {
+              "verse": 4,
+              "text": "Onde está a palavra do rei, aí há poder; e quem lhe dirá: Que fazes?"
+            },
+            {
+              "verse": 5,
+              "text": "Quem guarda o mandamento não sentirá nenhum mal; e o coração do sábio discernirá o tempo e o julgamento."
+            },
+            {
+              "verse": 6,
+              "text": "Porque para todo propósito há tempo e julgamento, portanto a miséria do homem é grande sobre ele."
+            },
+            {
+              "verse": 7,
+              "text": "Porque ele não sabe o que será; pois quem lhe poderá dizer quando será?"
+            },
+            {
+              "verse": 8,
+              "text": "Não há homem que tenha poder sobre o espírito para reter o espírito; nem ele terá poder no dia da morte: e não há quitação nessa guerra; nem a maldade livrará aqueles que a ela são dados."
+            },
+            {
+              "verse": 9,
+              "text": "Tudo isso eu vi e apliquei meu coração a todo trabalho que é feito debaixo do sol: há um tempo em que um homem domina outro para seu próprio prejuízo."
+            },
+            {
+              "verse": 10,
+              "text": "E assim vi os ímpios enterrados, que tinham vindo e ido do lugar dos santos, e foram esquecidos na cidade onde assim fizeram: isso também é vaidade."
+            },
+            {
+              "verse": 11,
+              "text": "Como a sentença contra uma obra má não é executada rapidamente, o coração dos filhos dos homens está totalmente disposto a praticar o mal."
+            },
+            {
+              "verse": 12,
+              "text": "Embora um pecador faça o mal cem vezes e seus dias se prolonguem, certamente sei que tudo irá bem para aqueles que temem a Deus, que temem diante dele:"
+            },
+            {
+              "verse": 13,
+              "text": "Mas ao ímpio não irá bem, nem prolongará ele os seus dias, que são como a sombra; porque ele não teme diante de Deus."
+            },
+            {
+              "verse": 14,
+              "text": "Há uma vaidade cometida na terra; que há homens justos, a quem acontece conforme a obra dos ímpios; novamente, há homens ímpios, a quem isso acontece segundo a obra dos justos: eu disse que isso também é vaidade."
+            },
+            {
+              "verse": 15,
+              "text": "Então elogiei a alegria, porque não há melhor coisa para o homem debaixo do sol do que comer, beber e divertir-se; porque isso o acompanhará no seu trabalho nos dias da sua vida que Deus lhe dá debaixo do sol."
+            },
+            {
+              "verse": 16,
+              "text": "Quando apliquei meu coração para conhecer a sabedoria e para ver o que se faz na terra: (pois também há que nem dia nem noite vê o sono com seus olhos:)"
+            },
+            {
+              "verse": 17,
+              "text": "Então observei toda a obra de Deus, que um homem não pode descobrir a obra que é feita debaixo do sol: porque embora um homem trabalhe para procurá-la, ainda assim não a encontrará; sim, ainda mais; embora um homem sábio pense conhecê-lo, ainda assim não será capaz de encontrá-lo."
+            }
+          ]
+        },
+        {
+          "chapter": 9,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Por tudo isso considerei em meu coração declarar tudo isso, que os justos, e os sábios, e suas obras estão nas mãos de Deus: nenhum homem conhece o amor ou o ódio por tudo o que está diante deles."
+            },
+            {
+              "verse": 2,
+              "text": "Todas as coisas são iguais para todos: há um evento para os justos e para os ímpios; para os bons e para os limpos e para os impuros; ao que sacrifica e ao que não sacrifica: qual é o bom, tal é o pecador; e quem jura é como quem teme o juramento."
+            },
+            {
+              "verse": 3,
+              "text": "Este é um mal entre todas as coisas que são feitas debaixo do sol, que há um evento para todos: sim, também o coração dos filhos dos homens está cheio de maldade e a loucura está em seu coração enquanto eles vivem e depois disso eles vão para os mortos."
+            },
+            {
+              "verse": 4,
+              "text": "Porque para aquele que está unido a todos os viventes há esperança: porque melhor é o cão vivo do que o leão morto."
+            },
+            {
+              "verse": 5,
+              "text": "Porque os vivos sabem que morrerão; mas os mortos não sabem coisa alguma, nem têm mais recompensa; pois a memória deles foi esquecida."
+            },
+            {
+              "verse": 6,
+              "text": "Também o seu amor, o seu ódio e a sua inveja já pereceram; nem têm mais parte para sempre em nada do que se faz debaixo do sol."
+            },
+            {
+              "verse": 7,
+              "text": "Vai, come o teu pão com alegria e bebe o teu vinho com o coração alegre; pois Deus agora aceita tuas obras."
+            },
+            {
+              "verse": 8,
+              "text": "Que as tuas vestes sejam sempre brancas; e não falte unguento à tua cabeça."
+            },
+            {
+              "verse": 9,
+              "text": "Viva alegremente com a esposa a quem você ama todos os dias da vida da sua vaidade, que ele te deu debaixo do sol, todos os dias da sua vaidade: pois essa é a sua porção nesta vida e no seu trabalho que você realiza debaixo do sol."
+            },
+            {
+              "verse": 10,
+              "text": "Tudo o que a tua mão achar para fazer, faze-o com a tua força; pois não há trabalho, nem artifício, nem conhecimento, nem sabedoria na sepultura para onde você vai."
+            },
+            {
+              "verse": 11,
+              "text": "Voltei e vi debaixo do sol que a corrida não é dos ligeiros, nem a batalha dos fortes, nem ainda o pão dos sábios, nem ainda as riquezas dos homens de entendimento, nem ainda o favor dos homens de habilidade; mas o tempo e o acaso acontecem com todos eles."
+            },
+            {
+              "verse": 12,
+              "text": "Porque também o homem não conhece o seu tempo: como os peixes que são apanhados na rede maligna e como os pássaros que são apanhados no laço; assim são os filhos dos homens enlaçados num tempo mau, quando este lhes cai repentinamente."
+            },
+            {
+              "verse": 13,
+              "text": "Esta sabedoria também vi debaixo do sol, e pareceu-me grande:"
+            },
+            {
+              "verse": 14,
+              "text": "Havia uma pequena cidade e poucos homens dentro dela; e veio contra ela um grande rei, e a cercou, e construiu contra ela grandes baluartes."
+            },
+            {
+              "verse": 15,
+              "text": "Ora, foi encontrado nela um homem pobre e sábio, e ele, pela sua sabedoria, livrou a cidade; contudo, ninguém se lembrava daquele mesmo pobre homem."
+            },
+            {
+              "verse": 16,
+              "text": "Então disse eu: Melhor é a sabedoria do que a força; contudo, a sabedoria do pobre é desprezada, e as suas palavras não são ouvidas."
+            },
+            {
+              "verse": 17,
+              "text": "As palavras dos sábios são ouvidas mais no silêncio do que o clamor daquele que governa entre os tolos."
+            },
+            {
+              "verse": 18,
+              "text": "A sabedoria é melhor do que as armas de guerra: mas um pecador destrói muitos bens."
+            }
+          ]
+        },
+        {
+          "chapter": 10,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "As moscas mortas fazem com que o unguento do boticário emita um cheiro fétido: o mesmo acontece com um pouco de loucura aquele que tem reputação de sabedoria e honra."
+            },
+            {
+              "verse": 2,
+              "text": "O coração do sábio está à sua direita; mas o coração de um tolo à sua esquerda."
+            },
+            {
+              "verse": 3,
+              "text": "Sim, também, quando aquele que é um tolo anda pelo caminho, a sua sabedoria lhe falta, e ele diz a todos que é um tolo."
+            },
+            {
+              "verse": 4,
+              "text": "Se o espírito do governante se levantar contra ti, não saias do teu lugar; por ceder pacifica grandes ofensas."
+            },
+            {
+              "verse": 5,
+              "text": "Há um mal que vi debaixo do sol, como um erro que procede do governante:"
+            },
+            {
+              "verse": 6,
+              "text": "A loucura é colocada em grande dignidade, e os ricos sentam-se em posição inferior."
+            },
+            {
+              "verse": 7,
+              "text": "Tenho visto servos montados em cavalos e príncipes andando como servos sobre a terra."
+            },
+            {
+              "verse": 8,
+              "text": "Quem cava uma cova, nela cairá; e quem quebrar uma cerca, uma serpente o morderá."
+            },
+            {
+              "verse": 9,
+              "text": "Quem remove pedras será ferido com elas; e aquele que corta madeira estará em perigo."
+            },
+            {
+              "verse": 10,
+              "text": "Se o ferro estiver embotado e ele não afiar o gume, então ele deverá aplicar mais força: mas a sabedoria é proveitosa para dirigir."
+            },
+            {
+              "verse": 11,
+              "text": "Certamente a serpente morderá sem encantamento; e um tagarela não é melhor."
+            },
+            {
+              "verse": 12,
+              "text": "As palavras da boca do sábio são graciosas; mas os lábios do tolo o engolirão."
+            },
+            {
+              "verse": 13,
+              "text": "O início das palavras da sua boca é loucura, e o fim da sua conversa é uma loucura perniciosa."
+            },
+            {
+              "verse": 14,
+              "text": "Um tolo também é cheio de palavras: um homem não pode dizer o que acontecerá; e o que será depois dele, quem o poderá dizer?"
+            },
+            {
+              "verse": 15,
+              "text": "O trabalho do tolo cansa a cada um deles, porque não sabe como ir para a cidade."
+            },
+            {
+              "verse": 16,
+              "text": "Ai de ti, ó terra, quando o teu rei é uma criança e os teus príncipes comem pela manhã!"
+            },
+            {
+              "verse": 17,
+              "text": "Bem-aventurada és tu, ó terra, quando o teu rei é filho de nobres, e os teus príncipes comem no devido tempo, para se fortalecerem e não para embriagarem-se!"
+            },
+            {
+              "verse": 18,
+              "text": "Por muita preguiça o edifício se deteriora; e pela ociosidade das mãos a casa desmorona."
+            },
+            {
+              "verse": 19,
+              "text": "O banquete é feito para o riso, e o vinho alegra; mas o dinheiro responde a todas as coisas."
+            },
+            {
+              "verse": 20,
+              "text": "Não amaldiçoe o rei, não em seu pensamento; e não amaldiçoes o rico no teu quarto; porque uma ave do céu fará ouvir a voz, e o que tem asas contará o assunto."
+            }
+          ]
+        },
+        {
+          "chapter": 11,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Lança o teu pão sobre as águas, porque depois de muitos dias o acharás."
+            },
+            {
+              "verse": 2,
+              "text": "Dê uma porção para sete e também para oito; porque não sabes que mal haverá sobre a terra."
+            },
+            {
+              "verse": 3,
+              "text": "Se as nuvens estiverem cheias de chuva, elas se esvaziarão sobre a terra; e se a árvore cair para o sul, ou para o norte, no lugar onde a árvore cair, ali estará."
+            },
+            {
+              "verse": 4,
+              "text": "Quem observa o vento não semeia; e quem olha para as nuvens não ceifará."
+            },
+            {
+              "verse": 5,
+              "text": "Assim como não sabes qual é o caminho do espírito, nem como crescem os ossos no ventre daquela que está grávida, assim também não conheces as obras de Deus que tudo faz."
+            },
+            {
+              "verse": 6,
+              "text": "Semeia pela manhã a tua semente, e à tarde não retenha a tua mão; porque não sabes se prosperará, se esta ou aquela, ou se ambas serão igualmente boas."
+            },
+            {
+              "verse": 7,
+              "text": "Verdadeiramente a luz é doce, e agradável é para os olhos contemplar o sol:"
+            },
+            {
+              "verse": 8,
+              "text": "Mas se um homem viver muitos anos e se alegrar com todos eles; ainda assim, lembre-se dos dias de escuridão; porque serão muitos. Tudo o que vem é vaidade."
+            },
+            {
+              "verse": 9,
+              "text": "Alegra-te, ó jovem, na tua juventude; e alegre-te o teu coração nos dias da tua mocidade, e ande nos caminhos do teu coração e na vista dos teus olhos; mas sabe tu que por todas estas coisas Deus te levará a julgamento."
+            },
+            {
+              "verse": 10,
+              "text": "Portanto, tira a tristeza do teu coração e afasta o mal da tua carne: porque a infância e a juventude são vaidade."
+            }
+          ]
+        },
+        {
+          "chapter": 12,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Lembra-te agora do teu Criador nos dias da tua juventude, enquanto os dias maus não chegam, nem os anos se aproximam, quando dirás: Não tenho prazer neles;"
+            },
+            {
+              "verse": 2,
+              "text": "Enquanto o sol, ou a luz, ou a lua, ou as estrelas não escurecerem, nem as nuvens voltarem depois da chuva:"
+            },
+            {
+              "verse": 3,
+              "text": "No dia em que os guardas da casa tremerem, e os valentes se curvarem, e os moedores cessarem, por serem poucos, e os que olham pelas janelas escurecerem,"
+            },
+            {
+              "verse": 4,
+              "text": "E as portas das ruas serão fechadas, quando o som da moagem estiver baixo, e ele se levantará à voz do pássaro, e todas as filhas da música serão abatidas;"
+            },
+            {
+              "verse": 5,
+              "text": "Também quando eles tiverem medo do que é alto, e os medos estiverem no caminho, e a amendoeira florescer, e o gafanhoto for um fardo, e o desejo falhar: porque o homem vai para sua longa casa, e os pranteadores andam pelas ruas:"
+            },
+            {
+              "verse": 6,
+              "text": "Ou alguma vez o cordão de prata será afrouxado, ou a taça de ouro será quebrada, ou o jarro será quebrado na fonte, ou a roda quebrada na cisterna."
+            },
+            {
+              "verse": 7,
+              "text": "Então o pó voltará à terra como o era, e o espírito voltará a Deus que o deu."
+            },
+            {
+              "verse": 8,
+              "text": "Vaidade das vaidades, diz o pregador; tudo é vaidade."
+            },
+            {
+              "verse": 9,
+              "text": "E além disso, porque o pregador era sábio, ele ainda ensinava conhecimento ao povo; sim, ele prestou atenção, procurou e pôs em ordem muitos provérbios."
+            },
+            {
+              "verse": 10,
+              "text": "O pregador procurou encontrar palavras aceitáveis: e o que estava escrito era reto, sim, palavras de verdade."
+            },
+            {
+              "verse": 11,
+              "text": "As palavras dos sábios são como aguilhões e como pregos fixados pelos mestres de assembleias, que são dados por um só pastor."
+            },
+            {
+              "verse": 12,
+              "text": "E ainda por estes, meu filho, seja advertido: de fazer muitos livros não há fim; e muito estudo é um cansaço da carne."
+            },
+            {
+              "verse": 13,
+              "text": "Ouçamos, pois, a conclusão de tudo: Teme a Deus e guarda os seus mandamentos; porque isto é o dever de todo o homem."
+            },
+            {
+              "verse": 14,
+              "text": "Porque Deus trará a julgamento toda obra, até tudo que está oculto, seja bom, seja mau."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
