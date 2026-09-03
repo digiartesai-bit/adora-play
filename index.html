@@ -26,7 +26,7 @@
     <!-- Fonte Google: Poppins -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css?v=2.3.14">
+    <link rel="stylesheet" href="css/style.css?v=2.3.15">
     <link rel="stylesheet" href="css/biblia.css?v=1.0.0">
 </head>
 
@@ -112,6 +112,18 @@
                             </div>
                         </div>
                         <div class="mini-cards-group" id="miniCardsNovidades"></div>
+                        <section class="daily-verse-card" id="versiculoDoDia" hidden aria-live="polite">
+                            <div class="daily-verse-content">
+                                <span class="daily-verse-label">Versículo do dia</span>
+                                <strong id="versiculoDoDiaReferencia"></strong>
+                                <p id="versiculoDoDiaTexto"></p>
+                                <p class="daily-verse-reflection"><b>Reflita:</b> <span id="versiculoDoDiaReflita"></span></p>
+                            </div>
+                            <button class="daily-verse-share" id="compartilharVersiculoDoDia" type="button" aria-label="Compartilhar versículo do dia" title="Compartilhar versículo do dia">
+                                <span class="bible-share-icon" aria-hidden="true"><i></i><i></i><i></i></span>
+                                <span class="daily-verse-share-label">Compartilhar</span>
+                            </button>
+                        </section>
                     </article>
                 </div>
 
