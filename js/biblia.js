@@ -563,9 +563,10 @@
             return;
         }
 
+        const isUpdate = Boolean(study.note);
         try {
             saveButton.disabled = true;
-            saveButton.textContent = 'Salvando...';
+            saveButton.textContent = isUpdate ? 'Atualizando...' : 'Salvando...';
             await requestBibleApi('/api/anotacoes', 'PUT', {
                 id: study.id,
                 livro: selectedBook.name,
@@ -576,7 +577,8 @@
                 texto: noteText
             });
             await loadRemoteStudies();
-            quickNoteEditor.hidden = true;
+            closeVerseStudy(true);
+            window.alert(isUpdate ? 'Anotação atualizada com sucesso.' : 'Anotação salva com sucesso.');
         } catch (error) {
             console.warn('Não foi possível salvar a anotação:', error.message);
             saveButton.disabled = false;
