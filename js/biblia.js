@@ -500,9 +500,10 @@
         selectedVerse = verseIndex;
         if (isSelected) selectedVerseIndexes.add(verseIndex);
         else selectedVerseIndexes.delete(verseIndex);
-        if (selectedVerseIndexes.size) {
-            const exactStudy = getStudyForSelection(getSelectedVerseDetails());
-            if (exactStudy?.id) editingStudyId = exactStudy.id;
+        if (!selectedVerseIndexes.size) {
+            editingStudyId = null;
+            quickNoteEditor.hidden = true;
+            quickNoteInput.value = '';
         }
         versesGrid.querySelectorAll('.bible-number-button').forEach((button, index) => {
             button.classList.toggle('is-selected', selectedVerseIndexes.has(index));
