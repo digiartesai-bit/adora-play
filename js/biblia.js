@@ -174,6 +174,14 @@
         return Object.values(getSavedStudies()).find((study) => study.id === editingStudyId) || null;
     }
 
+    function getMarkedStudiesForSelection(details) {
+        const studies = getSavedStudies();
+        const selectedStudies = details.verses
+            .map(verse => studies[`${details.version}:${details.bookAbbrev}:${details.chapter}:${verse}`])
+            .filter(study => study?.id);
+        return [...new Map(selectedStudies.map(study => [study.id, study])).values()];
+    }
+
     function getStudyLocation(study) {
         if (study.bookAbbrev && study.chapter && study.verse) return study;
         const parts = String(study.key || '').split(':');
@@ -272,14 +280,6 @@
         const studies = getSavedStudies();
         text.querySelectorAll('.bible-verse').forEach((verse, index) => {
             verse.classList.toggle('is-highlighted', Boolean(studies[getVerseKey(index)]?.highlighted));
-            verse.querySelector('.bible-highlight-star')?.remove();
-            if (studies[getVerseKey(index)]?.highlighted) {
-                const star = document.createElement('span');
-                star.className = 'bible-highlight-star';
-                star.textContent = '★';
-                star.setAttribute('aria-label', 'Versículo grifado');
-                verse.prepend(star);
-            }
         });
     }
 
@@ -304,10 +304,12 @@
         }
         const details = getSelectedVerseDetails();
         const study = getStudyBeingEdited(details);
+        const markedStudies = getMarkedStudiesForSelection(details);
+        const isMarked = markedStudies.length > 0;
         quickActions.hidden = false;
         selectedVerseCount.textContent = `${details.verses.length} sel`;
-        quickMarkButton.classList.toggle('is-marked', Boolean(study?.highlighted));
-        quickMarkButton.textContent = study?.highlighted ? 'Desmarcar' : 'Marcar';
+        quickMarkButton.classList.toggle('is-marked', isMarked);
+        quickMarkButton.textContent = isMarked ? 'Desmarcar' : 'Marcar';
         quickNoteButton.textContent = study?.note ? 'Editar anotação' : 'Anotar';
         if (!quickNoteEditor.hidden) {
             quickNoteInput.value = study?.note || '';
@@ -498,8 +500,23 @@
 
     function selectVerse(verseIndex, isSelected) {
         selectedVerse = verseIndex;
-        if (isSelected) selectedVerseIndexes.add(verseIndex);
-        else selectedVerseIndexes.delete(verseIndex);
+        const selectedVerseStudy = getSavedStudies()[getVerseKey(verseIndex)];
+        const isStartingSelection = isSelected && !selectedVerseIndexes.size;
+
+        if (isStartingSelection && selectedVerseStudy?.note) {
+            selectedVerseStudy.verses.forEach((verseNumber) => {
+                const relatedVerseIndex = selectedBookData.chapters[selectedChapter].verses
+                    .findIndex(verse => verse.verse === verseNumber);
+                if (relatedVerseIndex >= 0) selectedVerseIndexes.add(relatedVerseIndex);
+            });
+            editingStudyId = selectedVerseStudy.id;
+            quickNoteEditor.hidden = false;
+            quickNoteInput.value = selectedVerseStudy.note;
+        } else if (isSelected) {
+            selectedVerseIndexes.add(verseIndex);
+        } else {
+            selectedVerseIndexes.delete(verseIndex);
+        }
         if (!selectedVerseIndexes.size) {
             editingStudyId = null;
             quickNoteEditor.hidden = true;
@@ -528,11 +545,13 @@
     }
 
     async function toggleVerseHighlight(details, markButton) {
-        const study = getStudyForSelection(details);
+        const markedStudies = getMarkedStudiesForSelection(details);
         try {
             markButton.disabled = true;
-            if (study?.id) {
-                await requestBibleApi('/api/anotacoes', 'DELETE', { id: study.id });
+            if (markedStudies.length) {
+                await Promise.all(markedStudies.map(study =>
+                    requestBibleApi('/api/anotacoes', 'DELETE', { id: study.id })
+                ));
             } else {
                 await sendToBibleApi('/api/anotacoes', {
                     livro: selectedBook.name,
@@ -547,6 +566,7 @@
         } catch (error) {
             console.warn('Não foi possível alterar a marcação:', error.message);
             window.alert(`Não foi possível alterar a marcação no Cloudflare: ${error.message}`);
+        } finally {
             markButton.disabled = false;
         }
     }
