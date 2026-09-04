@@ -22,12 +22,15 @@
     const nextChapterButton = document.getElementById('capituloSeguinte');
     const scrollTopButton = document.getElementById('voltarTopoBiblia');
     const quickActions = document.getElementById('acoesRapidasBiblia');
+    const quickNoteEditor = document.getElementById('editorAnotacaoBiblia');
     const quickNoteInput = document.getElementById('anotacaoRapidaBiblia');
     const quickCompareButton = document.getElementById('compararSelecaoBiblia');
     const quickShareButton = document.getElementById('compartilharSelecaoBiblia');
     const quickNoteButton = document.getElementById('anotarSelecaoBiblia');
+    const saveNoteButton = document.getElementById('salvarAnotacaoBiblia');
     const quickMarkButton = document.getElementById('marcarSelecaoBiblia');
     const clearSelectionButton = document.getElementById('limparSelecaoBiblia');
+    const clearSelectionMobileButton = document.getElementById('limparSelecaoBibliaMobile');
     const selectedVerseCount = document.getElementById('quantidadeSelecaoBiblia');
     const versionSelect = document.getElementById('seletorVersaoBiblia');
     const savedStudiesKey = 'adoraPlayBibliaEstudos';
@@ -46,6 +49,7 @@
     let selectedBookData = null;
     let selectedChapter = null;
     let selectedVerse = null;
+    let editingStudyId = null;
     const selectedVerseIndexes = new Set();
     let selectedVersion = 'nvi';
     const versionCache = new Map();
@@ -165,7 +169,14 @@
 
     function clearSelectedVerses() {
         selectedVerse = null;
+        editingStudyId = null;
         selectedVerseIndexes.clear();
+    }
+
+    function getStudyBeingEdited(details) {
+        const exactStudy = getStudyForSelection(details);
+        if (exactStudy?.id) return exactStudy;
+        return Object.values(getSavedStudies()).find((study) => study.id === editingStudyId) || null;
     }
 
     function getStudyLocation(study) {
@@ -287,7 +298,7 @@
             verse.classList.remove('is-selected');
         });
         quickActions.hidden = true;
-        quickNoteInput.hidden = true;
+        quickNoteEditor.hidden = true;
         quickNoteInput.value = '';
     }
 
@@ -297,12 +308,16 @@
             return;
         }
         const details = getSelectedVerseDetails();
-        const study = getStudyForSelection(details);
+        const study = getStudyBeingEdited(details);
         quickActions.hidden = false;
         selectedVerseCount.textContent = `${details.verses.length} sel`;
         quickMarkButton.classList.toggle('is-marked', Boolean(study?.highlighted));
         quickMarkButton.textContent = study?.highlighted ? 'Desmarcar' : 'Marcar';
-        if (!quickNoteInput.hidden) quickNoteInput.value = study?.note || '';
+        quickNoteButton.textContent = study?.note ? 'Editar anotação' : 'Anotar';
+        if (!quickNoteEditor.hidden) {
+            quickNoteInput.value = study?.note || '';
+            saveNoteButton.textContent = study?.note ? 'Atualizar anotação' : 'Salvar anotação';
+        }
     }
 
     function setStep(step) {
@@ -490,6 +505,10 @@
         selectedVerse = verseIndex;
         if (isSelected) selectedVerseIndexes.add(verseIndex);
         else selectedVerseIndexes.delete(verseIndex);
+        if (selectedVerseIndexes.size) {
+            const exactStudy = getStudyForSelection(getSelectedVerseDetails());
+            if (exactStudy?.id) editingStudyId = exactStudy.id;
+        }
         versesGrid.querySelectorAll('.bible-number-button').forEach((button, index) => {
             button.classList.toggle('is-selected', selectedVerseIndexes.has(index));
         });
@@ -543,7 +562,7 @@
             return;
         }
 
-        const study = getStudyForSelection(details);
+        const study = getStudyBeingEdited(details);
         if (!study?.id) {
             window.alert('Marque o versículo antes de salvar uma anotação.');
             return;
@@ -552,10 +571,17 @@
         try {
             saveButton.disabled = true;
             saveButton.textContent = 'Salvando...';
-            await requestBibleApi('/api/anotacoes', 'PUT', { id: study.id, texto: noteText });
+            await requestBibleApi('/api/anotacoes', 'PUT', {
+                id: study.id,
+                livro: selectedBook.name,
+                capitulo: details.chapter,
+                versiculo: details.verses[0],
+                versiculos: details.verses,
+                versao: selectedVersion,
+                texto: noteText
+            });
             await loadRemoteStudies();
-            quickNoteInput.hidden = true;
-            quickNoteButton.textContent = 'Anotar';
+            quickNoteEditor.hidden = true;
         } catch (error) {
             console.warn('Não foi possível salvar a anotação:', error.message);
             saveButton.disabled = false;
@@ -653,16 +679,18 @@
     quickShareButton.addEventListener('click', () => shareVerseImage(getSelectedVerseDetails(), quickShareButton));
     quickMarkButton.addEventListener('click', () => toggleVerseHighlight(getSelectedVerseDetails(), quickMarkButton));
     quickNoteButton.addEventListener('click', () => {
-        if (quickNoteInput.hidden) {
-            quickNoteInput.hidden = false;
-            quickNoteButton.textContent = 'Salvar anotação';
+        if (quickNoteEditor.hidden) {
+            const study = getStudyBeingEdited(getSelectedVerseDetails());
+            quickNoteEditor.hidden = false;
+            quickNoteInput.value = study?.note || '';
+            saveNoteButton.textContent = study?.note ? 'Atualizar anotação' : 'Salvar anotação';
             updateQuickActions();
             quickNoteInput.focus();
-            return;
         }
-        saveVerseStudy(getSelectedVerseDetails(), quickNoteInput.value, quickNoteButton);
     });
+    saveNoteButton.addEventListener('click', () => saveVerseStudy(getSelectedVerseDetails(), quickNoteInput.value, saveNoteButton));
     clearSelectionButton.addEventListener('click', () => closeVerseStudy(true));
+    clearSelectionMobileButton.addEventListener('click', () => closeVerseStudy(true));
     previousChapterButton.addEventListener('click', () => navigateChapter(-1));
     nextChapterButton.addEventListener('click', () => navigateChapter(1));
     scrollTopButton.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
