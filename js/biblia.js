@@ -559,24 +559,30 @@
         }
 
         const study = getStudyBeingEdited(details);
-        if (!study?.id) {
-            window.alert('Marque o versículo antes de salvar uma anotação.');
-            return;
-        }
-
-        const isUpdate = Boolean(study.note);
+        const isUpdate = Boolean(study?.note);
         try {
             saveButton.disabled = true;
             saveButton.textContent = isUpdate ? 'Atualizando...' : 'Salvando...';
-            await requestBibleApi('/api/anotacoes', 'PUT', {
-                id: study.id,
-                livro: selectedBook.name,
-                capitulo: details.chapter,
-                versiculo: details.verses[0],
-                versiculos: details.verses,
-                versao: selectedVersion,
-                texto: noteText
-            });
+            if (study?.id) {
+                await requestBibleApi('/api/anotacoes', 'PUT', {
+                    id: study.id,
+                    livro: selectedBook.name,
+                    capitulo: details.chapter,
+                    versiculo: details.verses[0],
+                    versiculos: details.verses,
+                    versao: selectedVersion,
+                    texto: noteText
+                });
+            } else {
+                await sendToBibleApi('/api/anotacoes', {
+                    livro: selectedBook.name,
+                    capitulo: details.chapter,
+                    versiculo: details.verses[0],
+                    versiculos: details.verses,
+                    versao: selectedVersion,
+                    texto: noteText
+                });
+            }
             await loadRemoteStudies();
             closeVerseStudy(true);
             window.alert(isUpdate ? 'Anotação atualizada com sucesso.' : 'Anotação salva com sucesso.');
