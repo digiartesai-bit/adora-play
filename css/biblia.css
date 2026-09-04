@@ -238,7 +238,7 @@
 
 .bible-quick-action-buttons {
     display: grid;
-    grid-template-columns: auto 1fr 1fr 1fr 1fr 34px;
+    grid-template-columns: auto repeat(4, 1fr);
     gap: 6px;
 }
 
@@ -271,9 +271,14 @@
     color: #081826;
 }
 
+.bible-note-editor {
+    display: grid;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
 .bible-quick-actions textarea {
     width: 100%;
-    margin-bottom: 8px;
     padding: 8px 10px;
     border: 1px solid rgba(255, 255, 255, 0.14);
     border-radius: 6px;
@@ -281,6 +286,32 @@
     background: rgba(0, 0, 0, 0.16);
     color: #fff;
     resize: none;
+}
+
+.bible-note-editor button {
+    min-height: 36px;
+    padding: 7px 10px;
+    border: 1px solid rgba(212, 175, 53, 0.48);
+    border-radius: 6px;
+    background: #d4af35;
+    color: #081826;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.bible-note-editor-actions {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 8px;
+}
+
+.bible-note-editor-actions #limparSelecaoBiblia {
+    background: rgba(212, 175, 53, 0.12);
+    color: #f2d778;
+}
+
+#limparSelecaoBibliaMobile {
+    display: none;
 }
 
 .bible-compare-dialog {
@@ -613,7 +644,8 @@
         content: '★';
     }
 
-    #limparSelecaoBiblia {
+    #limparSelecaoBibliaMobile {
+        display: block;
         font-size: 20px;
     }
 
