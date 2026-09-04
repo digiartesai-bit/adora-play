@@ -246,14 +246,20 @@
 
                 <button class="bible-scroll-top" id="voltarTopoBiblia" type="button" aria-label="Voltar ao topo" title="Voltar ao topo" hidden>↑</button>
                 <section class="bible-quick-actions" id="acoesRapidasBiblia" hidden aria-label="Ações dos versículos selecionados">
-                    <textarea id="anotacaoRapidaBiblia" rows="2" placeholder="Escreva sua anotação..." hidden></textarea>
+                    <div class="bible-note-editor" id="editorAnotacaoBiblia" hidden>
+                        <textarea id="anotacaoRapidaBiblia" rows="2" placeholder="Escreva sua anotação..."></textarea>
+                        <div class="bible-note-editor-actions">
+                            <button id="salvarAnotacaoBiblia" type="button">Salvar anotação</button>
+                            <button id="limparSelecaoBiblia" type="button" aria-label="Fechar anotação" title="Fechar anotação">Fechar</button>
+                        </div>
+                    </div>
                     <div class="bible-quick-action-buttons">
                         <span class="bible-selection-count" id="quantidadeSelecaoBiblia"></span>
                         <button id="compararSelecaoBiblia" type="button" aria-label="Comparar versões" title="Comparar versões">Comparar</button>
                         <button id="compartilharSelecaoBiblia" type="button" aria-label="Compartilhar imagem" title="Compartilhar imagem"><span class="bible-share-icon" aria-hidden="true"><i></i><i></i><i></i></span><span class="bible-quick-action-label">Compartilhar</span></button>
                         <button id="anotarSelecaoBiblia" type="button" aria-label="Anotar seleção" title="Anotar seleção">Anotar</button>
                         <button id="marcarSelecaoBiblia" type="button" aria-label="Marcar seleção" title="Marcar seleção">Marcar</button>
-                        <button id="limparSelecaoBiblia" type="button" aria-label="Limpar seleção" title="Limpar seleção">×</button>
+                        <button id="limparSelecaoBibliaMobile" type="button" aria-label="Limpar seleção" title="Limpar seleção">×</button>
                     </div>
                 </section>
 
