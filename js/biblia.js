@@ -608,9 +608,10 @@
             window.alert(isUpdate ? 'Anotação atualizada com sucesso.' : 'Anotação salva com sucesso.');
         } catch (error) {
             console.warn('Não foi possível salvar a anotação:', error.message);
-            saveButton.disabled = false;
             saveButton.textContent = 'Salvar anotação';
             window.alert(`Não foi possível salvar a anotação no Cloudflare: ${error.message}`);
+        } finally {
+            saveButton.disabled = false;
         }
     }
 
