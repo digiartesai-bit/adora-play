@@ -279,7 +279,16 @@
         if (selectedChapter === null) return;
         const studies = getSavedStudies();
         text.querySelectorAll('.bible-verse').forEach((verse, index) => {
-            verse.classList.toggle('is-highlighted', Boolean(studies[getVerseKey(index)]?.highlighted));
+            const isHighlighted = Boolean(studies[getVerseKey(index)]?.highlighted);
+            verse.classList.toggle('is-highlighted', isHighlighted);
+            verse.querySelector('.bible-highlight-star')?.remove();
+            if (isHighlighted) {
+                const star = document.createElement('span');
+                star.className = 'bible-highlight-star';
+                star.textContent = '★';
+                star.setAttribute('aria-label', 'Versículo marcado');
+                verse.prepend(star);
+            }
         });
     }
 
