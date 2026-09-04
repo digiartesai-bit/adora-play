@@ -611,8 +611,25 @@
         const chapterIndex = selectedBookData.chapters.findIndex(chapter => chapter.chapter === study.chapter);
         if (chapterIndex < 0) return;
         selectChapter(chapterIndex);
-        const verseIndex = selectedBookData.chapters[chapterIndex].verses.findIndex(verse => verse.verse === study.verse);
-        if (verseIndex >= 0) navigateToVerse(verseIndex);
+        const chapter = selectedBookData.chapters[chapterIndex];
+        const verseIndexes = (study.verses || [study.verse])
+            .map((verseNumber) => chapter.verses.findIndex(verse => verse.verse === verseNumber))
+            .filter((verseIndex) => verseIndex >= 0);
+        if (!verseIndexes.length) return;
+
+        verseIndexes.forEach(verseIndex => selectedVerseIndexes.add(verseIndex));
+        selectedVerse = verseIndexes[0];
+        editingStudyId = study.id || null;
+        versesGrid.querySelectorAll('.bible-number-button').forEach((button, index) => {
+            button.classList.toggle('is-selected', selectedVerseIndexes.has(index));
+        });
+        text.querySelectorAll('.bible-verse').forEach((verse, index) => {
+            verse.classList.toggle('is-selected', selectedVerseIndexes.has(index));
+        });
+        quickNoteEditor.hidden = false;
+        quickNoteInput.value = study.note || study.text || '';
+        updateQuickActions();
+        document.getElementById(`versiculo-${chapter.verses[verseIndexes[0]].verse}`).scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
 
     function showBooks() {
@@ -637,7 +654,7 @@
         setStep('chapter');
     }
 
-    function showNotes() {
+    async function showNotes() {
         closeVerseStudy(true);
         document.getElementById('painelLivros').hidden = true;
         chaptersPanel.hidden = true;
@@ -647,6 +664,13 @@
         subtitle.textContent = 'Revise seus versículos grifados e suas anotações.';
         setStep('notes');
         renderNotes();
+        if (getGoogleUser()?.google_id) {
+            try {
+                await loadRemoteStudies();
+            } catch (error) {
+                console.warn('Não foi possível atualizar as anotações:', error.message);
+            }
+        }
     }
 
     function closeBible() {
