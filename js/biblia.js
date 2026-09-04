@@ -33,7 +33,6 @@
     const clearSelectionMobileButton = document.getElementById('limparSelecaoBibliaMobile');
     const selectedVerseCount = document.getElementById('quantidadeSelecaoBiblia');
     const versionSelect = document.getElementById('seletorVersaoBiblia');
-    const savedStudiesKey = 'adoraPlayBibliaEstudos';
     const apiUrl = 'https://adoraplay-api.digiartesai.workers.dev';
     const shareLimits = { verses: 3, words: 90 };
     const notesPanel = document.getElementById('painelAnotacoes');
@@ -50,6 +49,7 @@
     let selectedChapter = null;
     let selectedVerse = null;
     let editingStudyId = null;
+    let savedStudies = {};
     const selectedVerseIndexes = new Set();
     let selectedVersion = 'nvi';
     const versionCache = new Map();
@@ -112,16 +112,11 @@
     }
 
     function getSavedStudies() {
-        try {
-            const studies = JSON.parse(localStorage.getItem(savedStudiesKey));
-            return studies && typeof studies === 'object' && !Array.isArray(studies) ? studies : {};
-        } catch {
-            return {};
-        }
+        return savedStudies;
     }
 
     function saveStudies(studies) {
-        localStorage.setItem(savedStudiesKey, JSON.stringify(studies));
+        savedStudies = studies;
     }
 
     function getVerseKey(verseIndex = selectedVerse) {
@@ -239,7 +234,7 @@
     }
 
     function renderNotes() {
-        const studies = Object.values(getSavedStudies())
+        const studies = [...new Map(Object.values(getSavedStudies()).map(study => [study.id || study.key, study])).values()]
             .filter(study => study.highlighted || study.note)
             .map(getStudyLocation)
             .sort((first, second) => String(second.updatedAt || '').localeCompare(String(first.updatedAt || '')));
