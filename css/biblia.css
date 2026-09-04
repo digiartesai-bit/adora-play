@@ -400,11 +400,19 @@
 
 .bible-verse.is-selected {
     padding: 5px 8px;
-    background: rgba(212, 175, 53, 0.14);
+    background: rgba(49, 166, 183, 0.22);
+    color: #d9fbff;
 }
 
 .bible-verse.is-highlighted {
-    background: rgba(212, 175, 53, 0.2);
+    padding: 5px 8px;
+    background: rgba(104, 211, 132, 0.3);
+    color: #e9ffef;
+}
+
+.bible-verse.is-selected.is-highlighted {
+    background: rgba(104, 211, 132, 0.42);
+    color: #fff;
 }
 
 .bible-highlight-star {
