@@ -15,6 +15,13 @@
     const chaptersTitle = document.getElementById('tituloCapitulos');
     const versesTitle = document.getElementById('tituloVersiculos');
     const subtitle = document.getElementById('bibliaSubtitulo');
+    const fullVersionName = document.getElementById('nomeCompletoVersaoBiblia');
+    const bookDetailsElement = document.getElementById('detalhesLivroBiblia');
+    const bookAbbreviation = document.getElementById('abreviacaoLivroBiblia');
+    const bookChapters = document.getElementById('capitulosLivroBiblia');
+    const bookGenre = document.getElementById('generoLivroBiblia');
+    const bookAuthor = document.getElementById('autorLivroBiblia');
+    const versionDescription = document.getElementById('textoDescricaoVersaoBiblia');
     const reading = document.getElementById('leituraVersiculo');
     const reference = document.getElementById('referenciaVersiculo');
     const text = document.getElementById('textoVersiculo');
@@ -51,28 +58,99 @@
     let editingStudyId = null;
     let savedStudies = {};
     const selectedVerseIndexes = new Set();
-    let selectedVersion = 'nvi';
+    let selectedVersion = 'acf';
     const versionCache = new Map();
-    const bookFileNameOverrides = {
+    let bookDetails = null;
+    const bibleVersionDetails = {
+        acf: {
+            name: 'Tradução de João Ferreira de Almeida (Edição Corrigida e Fiel)',
+            description: 'É uma revisão rigorosa baseada nos textos tradicionais do Textus Receptus (no Novo Testamento) e no Texto Masorético (no Antigo Testamento). Mantém a fidelidade formal e o estilo clássico e solene da tradicional tradução de João Ferreira de Almeida, sendo muito apreciada por igrejas e leitores que valorizam a concordância verbal com os textos tradicionais da Reforma.'
+        },
         kjvl: {
-            '1samuel': '1_samuel', '2samuel': '2_samuel',
-            '1reis': '1_reis', '2reis': '2_reis',
-            '1cronicas': '1_cronicas', '2cronicas': '2_cronicas',
-            '1corintios': '1_corintios', '2corintios': '2_corintios',
-            '1tessalonicenses': '1_tessalonicenses', '2tessalonicenses': '2_tessalonicenses',
-            '1timoteo': '1_timotio', '2timoteo': '2_timotio',
-            '1pedro': '1_pedro', '2pedro': '2_pedro',
-            '1joao': '1_joao', '2joao': '2_joao', '3joao': '3_joao',
-            'canticos': 'cantares', 'habacuque': 'abacuque'
+            name: 'Bíblia King James Atualizada',
+            description: 'Uma adaptação da clássica King James Version para a língua portuguesa. Ela busca unir a imponência literária e a precisão teológica da tradução original de 1611 a uma linguagem mais acessível ao leitor contemporâneo, sem perder a profundidade e a reverência do texto original.'
+        },
+        nbv: {
+            name: 'Nova Bíblia Viva',
+            description: 'É uma tradução em formato de equivalência dinâmica e funcional. Reestudada a partir dos textos originais (hebraico, aramaico e grego) para garantir fidelidade doutrinária, mantendo uma leitura extremamente fluida, moderna e de fácil compreensão, ideal para novos crentes e leitura devocional.'
+        },
+        ntlh: {
+            name: 'Nova Tradução na Linguagem de Hoje',
+            description: 'Publicada pela Sociedade Bíblica do Brasil (SBB), adota o princípio da tradução por equivalência dinâmica. O foco principal é a clareza e a comunicação natural no português falado no Brasil atual. É amplamente utilizada em trabalhos missionários, evangelismo e leitura para o público jovem ou infantil devido à sua extrema facilidade de entendimento.'
+        },
+        nvt: {
+            name: 'Nova Versão Transformadora',
+            description: 'Uma tradução feita diretamente dos idiomas originais por uma equipe de renomados estudiosos e teólogos. A NVT busca um equilíbrio cuidadoso entre a fidelidade acadêmica ao texto antigo e uma comunicação clara e elegante em português moderno, tornando-a excelente tanto para o estudo profundo quanto para a leitura diária.'
+        },
+        tb: {
+            name: 'Tradução Brasileira',
+            description: 'Publicada inicialmente em 1917 pela Sociedade Bíblica do Brasil e revista ao longo dos anos, é fruto de um monumental esforço ecumênico e acadêmico de estudiosos protestantes no Brasil. Segue uma linha de tradução literal (formal), sendo muito respeitada por teólogos, pastores e estudiosos devido ao seu rigor filológico e fidelidade textual.'
+        },
+        nva: {
+            name: 'Nova Versão de Acesso Livre',
+            description: 'É uma tradução bíblica de acesso totalmente livre, gratuito e digital, desenvolvida de forma colaborativa por tradutores, teólogos e revisores voluntários. O projeto foca em oferecer uma linguagem contemporânea de fácil leitura e compreensão, além de apoiar diretamente iniciativas de tradução para línguas minoritárias.'
         }
     };
+
+    function renderBibleVersionDetails(version = selectedVersion) {
+        const details = bibleVersionDetails[version] || bibleVersionDetails.acf;
+        fullVersionName.textContent = details.name;
+        versionDescription.textContent = details.description;
+        bookDetailsElement.hidden = true;
+        document.getElementById('descricaoVersaoBiblia').hidden = false;
+    }
+
+    function normalizeBookName(name) {
+        return name.normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .toLowerCase();
+    }
+
+    async function loadBookDetails() {
+        if (bookDetails) return bookDetails;
+        const response = await fetch('biblias/livros.json');
+        if (!response.ok) throw new Error('Não foi possível carregar as descrições dos livros.');
+        const data = await response.json();
+        bookDetails = [...(data.testamento_antigo || []), ...(data.testamento_novo || [])];
+        return bookDetails;
+    }
+
+    async function renderBookDetails(book) {
+        const details = await loadBookDetails();
+        const aliases = {
+            atos: 'Atos dos Apóstolos',
+            cânticos: 'Cântico dos Cânticos'
+        };
+        const bookName = aliases[book.name.toLowerCase()] || book.name;
+        const selectedBookDetails = details.find(item => (
+            normalizeBookName(item.livro) === normalizeBookName(bookName)
+        ));
+        if (!selectedBookDetails) throw new Error(`Descrição de ${book.name} não encontrada.`);
+
+        fullVersionName.textContent = selectedBookDetails.livro;
+        bookAbbreviation.textContent = selectedBookDetails.abreviacao;
+        bookChapters.textContent = `${selectedBookDetails.capitulos} capítulos`;
+        bookGenre.textContent = selectedBookDetails.genero;
+        bookAuthor.textContent = `Autor: ${selectedBookDetails.autor}`;
+        bookDetailsElement.hidden = false;
+        versionDescription.textContent = selectedBookDetails.descricao;
+        document.getElementById('descricaoVersaoBiblia').hidden = false;
+    }
+
+    function hideBibleDescription() {
+        document.getElementById('descricaoVersaoBiblia').hidden = true;
+    }
 
     function getBookFileName(version, bookName) {
         const normalizedName = bookName.normalize('NFD')
             .replace(/[\u0300-\u036f]/g, '')
             .replace(/[^a-zA-Z0-9]/g, '')
             .toLowerCase();
-        return bookFileNameOverrides[version]?.[normalizedName] || normalizedName;
+        return normalizedName;
+    }
+
+    function formatVerseNumber(verse) {
+        return verse.verse_end ? `${verse.verse}-${verse.verse_end}` : String(verse.verse);
     }
 
     function getGoogleUser() {
@@ -128,7 +206,7 @@
     function getVerseDetails(verseIndex = selectedVerse) {
         return {
             key: getVerseKey(verseIndex),
-            reference: `${selectedBook.name} ${selectedBookData.chapters[selectedChapter].chapter}:${selectedBookData.chapters[selectedChapter].verses[verseIndex].verse}`,
+            reference: `${selectedBook.name} ${selectedBookData.chapters[selectedChapter].chapter}:${formatVerseNumber(selectedBookData.chapters[selectedChapter].verses[verseIndex])}`,
             text: selectedBookData.chapters[selectedChapter].verses[verseIndex].text,
             bookAbbrev: selectedBook.abbrev,
             chapter: selectedBookData.chapters[selectedChapter].chapter,
@@ -143,12 +221,16 @@
         const verses = verseIndexes.map(index => chapter.verses[index].verse);
         return {
             key: `${selectedVersion}:${selectedBook.abbrev}:${chapter.chapter}:${verses.join(',')}`,
-            reference: `${selectedBook.name} ${chapter.chapter}:${verses.join(', ')}`,
+            reference: `${selectedBook.name} ${chapter.chapter}:${verseIndexes.map(index => formatVerseNumber(chapter.verses[index])).join(', ')}`,
             text: verseIndexes.map(index => chapter.verses[index].text).join(' '),
             bookAbbrev: selectedBook.abbrev,
             bookName: selectedBook.name,
             chapter: chapter.chapter,
             verses,
+            verseRanges: verseIndexes.map(index => ({
+                start: chapter.verses[index].verse,
+                end: chapter.verses[index].verse_end || chapter.verses[index].verse
+            })),
             version: selectedVersion
         };
     }
@@ -327,6 +409,8 @@
     }
 
     function setStep(step) {
+        steps.chapter.disabled = !selectedBook;
+        steps.verse.disabled = !selectedBook || selectedChapter === null;
         Object.entries(steps).forEach(([name, element]) => {
             element.classList.toggle('is-active', name === step);
         });
@@ -381,6 +465,7 @@
     function setBibleVersion(version) {
         selectedVersion = version;
         versionSelect.value = version;
+        renderBibleVersionDetails(version);
         selectedBook = null;
         selectedBookData = null;
         selectedChapter = null;
@@ -413,6 +498,7 @@
         subtitle.textContent = `Carregando ${book.name}...`;
         try {
             selectedBookData = await loadBookData(selectedVersion, book);
+            await renderBookDetails(book);
             selectedBook = book;
             selectedChapter = null;
             clearSelectedVerses();
@@ -425,7 +511,7 @@
             chaptersPanel.hidden = false;
             versesPanel.hidden = true;
             notesPanel.hidden = true;
-            subtitle.textContent = `${selectedVersion.toUpperCase()}: ${book.name} possui ${selectedBookData.chapters.length} capítulos.`;
+            subtitle.textContent = `${book.name} selecionado. Escolha um capítulo para começar a leitura.`;
             setStep('chapter');
         } catch (error) {
             console.error(error);
@@ -434,6 +520,7 @@
     }
 
     function selectChapter(chapterIndex) {
+        hideBibleDescription();
         selectedChapter = chapterIndex;
         clearSelectedVerses();
         closeVerseStudy();
@@ -442,7 +529,7 @@
         versesTitle.textContent = `${selectedBook.name} ${chapter.chapter}: versículos`;
         versesGrid.replaceChildren();
         verses.forEach((verse, index) => {
-            versesGrid.appendChild(createButton('bible-number-button', String(verse.verse), () => navigateToVerse(index)));
+            versesGrid.appendChild(createButton('bible-number-button', formatVerseNumber(verse), () => navigateToVerse(index)));
         });
         renderChapter(verses);
         updateChapterNavigation();
@@ -499,7 +586,7 @@
             verseElement.id = `versiculo-${verse.verse}`;
             const number = document.createElement('span');
             number.className = 'bible-verse-number';
-            number.textContent = verse.verse;
+            number.textContent = formatVerseNumber(verse);
             verseElement.append(number, verse.text);
             verseElement.addEventListener('click', () => selectVerse(index, !selectedVerseIndexes.has(index)));
             text.appendChild(verseElement);
@@ -667,18 +754,26 @@
     }
 
     function showBooks() {
+        selectedBook = null;
+        selectedBookData = null;
+        selectedChapter = null;
+        clearSelectedVerses();
         document.getElementById('painelLivros').hidden = false;
         chaptersPanel.hidden = true;
         versesPanel.hidden = true;
         scrollTopButton.hidden = true;
         notesPanel.hidden = true;
         closeVerseStudy(true);
+        renderBibleVersionDetails();
         subtitle.textContent = `${selectedVersion.toUpperCase()} selecionada. Escolha um livro para começar a leitura.`;
         setStep('book');
     }
 
     function showChapters() {
         if (!selectedBookData) return;
+        selectedChapter = null;
+        clearSelectedVerses();
+        hideBibleDescription();
         chaptersPanel.hidden = false;
         versesPanel.hidden = true;
         scrollTopButton.hidden = true;
@@ -713,6 +808,50 @@
         section.style.display = 'none';
         homeSection.style.display = 'grid';
     }
+
+    async function openComparisonVersion(version, details) {
+        homeSection.style.display = 'none';
+        librarySection.style.display = 'none';
+        section.style.display = 'grid';
+        await setBibleVersion(version);
+
+        const book = books.find(item => item.name === details.bookName);
+        if (!book) return;
+        await loadBook(book);
+
+        const chapterIndex = selectedBookData.chapters.findIndex(
+            chapter => chapter.chapter === details.chapter
+        );
+        if (chapterIndex < 0) return;
+        selectChapter(chapterIndex);
+
+        const chapter = selectedBookData.chapters[chapterIndex];
+        const ranges = details.verseRanges?.length
+            ? details.verseRanges
+            : details.verses.map(verse => ({ start: verse, end: verse }));
+        const verseIndexes = chapter.verses
+            .map((verse, index) => ({ verse, index }))
+            .filter(({ verse }) => ranges.some(range => (
+                verse.verse >= range.start
+                && verse.verse <= range.end
+            )))
+            .map(({ index }) => index);
+        if (!verseIndexes.length) return;
+
+        verseIndexes.forEach(verseIndex => selectedVerseIndexes.add(verseIndex));
+        selectedVerse = verseIndexes[0];
+        versesGrid.querySelectorAll('.bible-number-button').forEach((button, index) => {
+            button.classList.toggle('is-selected', selectedVerseIndexes.has(index));
+        });
+        text.querySelectorAll('.bible-verse').forEach((verse, index) => {
+            verse.classList.toggle('is-selected', selectedVerseIndexes.has(index));
+        });
+        updateQuickActions();
+        document.getElementById(`versiculo-${chapter.verses[verseIndexes[0]].verse}`)
+            ?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+
+    window.openBibleComparisonVersion = openComparisonVersion;
 
     window.mostrarBiblia = function () {
         if (!section) return;
@@ -755,6 +894,7 @@
     window.addEventListener('scroll', updateScrollTopButton, { passive: true });
     window.addEventListener('resize', updateScrollTopButton);
     versionSelect.value = selectedVersion;
+    renderBibleVersionDetails();
     versionSelect.addEventListener('change', () => {
         setBibleVersion(versionSelect.value)
             .then(showBooks)
