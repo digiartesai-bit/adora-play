@@ -67,6 +67,45 @@
     font-size: 13px;
 }
 
+.bible-version-description {
+    max-width: 780px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 12px;
+    line-height: 1.55;
+}
+
+.bible-version-description strong {
+    display: block;
+    color: #f2d778;
+    font-size: 14px;
+}
+
+.bible-book-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 12px;
+    margin-top: 4px;
+    color: rgba(255, 255, 255, 0.62);
+    font-size: 12px;
+}
+
+.bible-book-details[hidden] {
+    display: none;
+}
+
+.bible-book-details span:not(:last-child)::after {
+    content: '•';
+    margin-left: 12px;
+    color: rgba(242, 215, 120, 0.75);
+}
+
+.bible-version-description p {
+    margin: 3px 0 0;
+    color: inherit;
+    font-size: inherit;
+}
+
 .bible-close-button {
     display: grid;
     place-items: center;
@@ -109,6 +148,11 @@
 .bible-step.is-active {
     border-color: #d4af35;
     color: #f2d778;
+}
+
+.bible-step:disabled {
+    cursor: not-allowed;
+    opacity: 0.35;
 }
 
 .bible-step:not(:disabled):hover {
@@ -183,6 +227,21 @@
 .bible-number-button.is-selected {
     border-color: rgba(212, 175, 53, 0.7);
     background: rgba(212, 175, 53, 0.17);
+}
+
+.bible-comparison-link {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: #f2d778;
+    font: inherit;
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bible-comparison-link:hover {
+    color: #fff;
 }
 
 .bible-reading {
