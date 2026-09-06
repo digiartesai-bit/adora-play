@@ -1,0 +1,653 @@
+{
+  "version": "TB",
+  "translation": "Tradução Brasileira",
+  "books": [
+    {
+      "abbrev": "lm",
+      "name": "Lamentações",
+      "chapters": [
+        {
+          "chapter": 1,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Como está sentada solitária a cidade que estava cheia de povo! Tornou-se viúva a que era grande entre as nações; Ficou sujeita ao trabalho forçado a que era princesa entre as províncias."
+            },
+            {
+              "verse": 2,
+              "text": "Chora amargamente durante a noite, e as suas lágrimas correm pelas faces; entre todos os seus amantes, não há quem a conforte; todos os seus amigos se têm havido aleivosamente com ela, têm-se-lhe tornado inimigos."
+            },
+            {
+              "verse": 3,
+              "text": "Judá foi ao exílio para sofrer a aflição e uma grande servidão; ela habita entre as nações, não acha descanso; todos os seus perseguidores a têm alcançado no meio dos seus apertos."
+            },
+            {
+              "verse": 4,
+              "text": "Os caminhos de Sião pranteiam, porque não há quem venha à assembleia solene; todas as suas portas acham-se desertas, os seus sacerdotes suspiram; as suas virgens estão aflitas, e ela amargurada."
+            },
+            {
+              "verse": 5,
+              "text": "Os seus adversários triunfam dela, os seus inimigos prosperam; porque Jeová trouxe aflição sobre ela por causa da multidão das suas transgressões; os seus pequeninos marcharam para o cativeiro adiante do adversário."
+            },
+            {
+              "verse": 6,
+              "text": "Da filha de Sião já se foi toda a sua glória; os seus príncipes ficam sendo como veados que não acham pastagem e vão caminhando sem força adiante do perseguidor."
+            },
+            {
+              "verse": 7,
+              "text": "Nos dias da sua aflição e do seu andar errante, lembre-se Jerusalém de todas as suas coisas apeticíveis que tivera desde os dias antigos. Quando o seu povo ia caindo nas mãos do adversário e não havia quem os ajudasse, os adversários a viram e zombaram das suas desolações."
+            },
+            {
+              "verse": 8,
+              "text": "Jerusalém multiplicou os seus pecados; por isso, se tornou imunda. Todos os que a honravam a desprezam, porque lhe viram a nudez. Na verdade, ela dá suspiros e se volta para trás."
+            },
+            {
+              "verse": 9,
+              "text": "A sua imundície estava nas suas fraldas; não se lembrava do seu fim. Portanto, está espantosamente abatida, não há quem a conforte. Vê, Jeová, a minha aflição, pois o inimigo se tem engrandecido."
+            },
+            {
+              "verse": 10,
+              "text": "O adversário lhe pôs a mão sobre tudo o que havia de apeticível, pois ela viu que lhe entravam no santuário os pagãos, acerca dos quais ordenaste que não entrassem na tua congregação."
+            },
+            {
+              "verse": 11,
+              "text": "Todo o seu povo está suspirando, está buscando pão; deram as suas coisas apeticíveis a troco de mantimento para fazerem reviver a alma. Vê, Jeová, e atende, pois me tenho tornado desprezível."
+            },
+            {
+              "verse": 12,
+              "text": "Ó vós, todos os que passais, porventura, isso não vos toca? Atendei e vede se há dor como a minha dor, que se me fez, com a qual Jeová me afligiu no dia do furor da sua ira."
+            },
+            {
+              "verse": 13,
+              "text": "Lá do alto, ele enviou um fogo que entra nos meus ossos e que os subjuga. Estendeu uma rede aos meus pés, fez-me voltar para trás; tornou-me desolado e desfalecido o dia todo."
+            },
+            {
+              "verse": 14,
+              "text": "O jugo das minhas transgressões foi atado pela sua mão; elas estão entretecidas, postas sobre o meu pescoço; ele fez tropeçar a minha força. O Senhor entregou-me nas mãos daqueles a quem não posso resistir."
+            },
+            {
+              "verse": 15,
+              "text": "O Senhor desprezou todos os meus valentes que estavam no meio de mim; convocou contra mim uma assembleia solene para esmagar os meus mancebos; o Senhor pisou, como num lagar, a virgem, filha de Jeová."
+            },
+            {
+              "verse": 16,
+              "text": "Por essas coisas, eu ando chorando; os meus olhos destilam águas; porque está longe de mim o consolador que há de fazer reviver a minha alma. Desolados se acham os meus filhos, porque prevaleceu o inimigo."
+            },
+            {
+              "verse": 17,
+              "text": "Estende Sião as suas mãos; não há quem a conforte; Jeová ordenou acerca de Jacó que lhe sejam adversários os que estão ao redor dele; Jerusalém acha-se entre eles como uma mulher imunda."
+            },
+            {
+              "verse": 18,
+              "text": "Justo é Jeová, porque me tenho rebelado contra as suas ordens. Ouvi, rogo-vos, todos os povos, e vede a minha dor; as minhas virgens e os meus mancebos já foram para o cativeiro."
+            },
+            {
+              "verse": 19,
+              "text": "Chamei os meus amantes; eles, porém, me enganaram. Os meus sacerdotes e os meus anciãos expiraram na cidade, enquanto buscavam para si mantimento para fazer reviver a sua alma."
+            },
+            {
+              "verse": 20,
+              "text": "Olha, Jeová, porque estou angustiada; turbadas estão as minhas entranhas; transtornado dentro de mim está o meu coração, porque tenho multiplicado as minhas rebeliões. De fora a espada mata os filhos, em casa como que anda a morte."
+            },
+            {
+              "verse": 21,
+              "text": "Ouviram que eu suspiro; não há quem me conforte. Todos os meus inimigos souberam do meu mal, alegram-se de que tu o fizeste. Hás de trazer o dia que proclamaste, e eles se tornarão semelhantes a mim."
+            },
+            {
+              "verse": 22,
+              "text": "Venha diante de ti toda a sua maldade; faze-lhes, como me fizeste a mim, por causa de todas as minhas transgressões. Pois muitos são os meus suspiros, e desfalecido está o meu coração."
+            }
+          ]
+        },
+        {
+          "chapter": 2,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Como cobre de nuvens o Senhor na sua ira a filha de Sião! Derribou do céu à terra a glória de Israel e no dia da sua ira, não se lembrou do escabelo dos seus pés."
+            },
+            {
+              "verse": 2,
+              "text": "O Senhor tragou todas as habitações de Jacó e não mostrou piedade; no seu furor, derribou as fortalezas da filha de Judá, lançando-as por terra; tratou como profanos o reino e os seus príncipes."
+            },
+            {
+              "verse": 3,
+              "text": "No furor da sua ira, cortou toda a força de Israel; em face do inimigo, retirou para trás a sua destra e incendiou a Jacó como um fogo chamejante que devora tudo ao redor."
+            },
+            {
+              "verse": 4,
+              "text": "Armou o seu arco como inimigo, postou-se como adversário com a sua destra; matou tudo o que era aprazível aos olhos; na tenda da filha de Sião, derramou o seu furor como fogo."
+            },
+            {
+              "verse": 5,
+              "text": "O Senhor tornou-se como inimigo, tragou a Israel; tragou todos os seus palácios, destruiu as suas fortalezas; e multiplicou na filha de Judá o pranto e a lamentação."
+            },
+            {
+              "verse": 6,
+              "text": "Demoliu, com violência, o seu tabernáculo, como se fosse o dum jardim; destruiu o seu lugar de assembleia. O Senhor entregou ao esquecimento em Sião a assembleia solene e o sábado; e na indignação da sua ira, desprezou ao rei e ao sacerdote."
+            },
+            {
+              "verse": 7,
+              "text": "O Senhor rejeitou o seu altar, abominou o seu santuário, entregou nas mãos do inimigo os muros dos seus palácios. Deram gritos na Casa de Jeová como no dia duma assembleia solene."
+            },
+            {
+              "verse": 8,
+              "text": "Jeová resolveu destruir o muro da filha de Sião; estendeu o cordel, e a sua mão não cessou de fazer estragos. Mas fez lamentar o antemural e o muro, os quais juntamente enfraquecem."
+            },
+            {
+              "verse": 9,
+              "text": "Sepultadas na terra estão as suas portas; ele destruiu e quebrou os ferrolhos dela. O seu rei e os seus príncipes acham-se entre as nações onde não existe a lei. Os seus profetas não recebem visões da parte de Jeová."
+            },
+            {
+              "verse": 10,
+              "text": "Estão sentados no chão os anciãos da filha de Sião e calados; lançaram pó ao ar sobre as suas cabeças, vestiram-se de sacos; as virgens de Jerusalém abaixam as suas cabeças até o chão."
+            },
+            {
+              "verse": 11,
+              "text": "Os meus olhos enfraquecem à força de chorar, turbadas estão as minhas entranhas, o meu fígado derramou-se pela terra por causa da destruição da filha do meu povo, porquanto nas ruas da cidade desfalecem os meninos e as crianças de mama."
+            },
+            {
+              "verse": 12,
+              "text": "Ao desfalecerem, como feridos, nas ruas da cidade, ao exalarem as suas almas no regaço de suas mães, eles lhes perguntam: Onde está o trigo e o vinho?"
+            },
+            {
+              "verse": 13,
+              "text": "Que testemunho te darei? A que te assemelharei, ó filha de Jerusalém? A que te compararei, para te consolar, ó virgem filha de Sião? Pois grande é como o mar a tua brecha. Quem te poderá curar?"
+            },
+            {
+              "verse": 14,
+              "text": "Os teus profetas viram para ti visões vãs e fátuas; não manifestaram a tua iniquidade, para te desviarem do cativeiro, porém viram para ti profecias vãs e coisas que te levaram ao exílio."
+            },
+            {
+              "verse": 15,
+              "text": "Todos os que passam batem com as mãos sobre ti, assobiam e meneiam a cabeça sobre a filha de Jerusalém, dizendo: É esta, porventura, a cidade a que chamavam os homens a perfeição da formosura, o gozo da terra toda?"
+            },
+            {
+              "verse": 16,
+              "text": "Todos os teus inimigos abriram contra ti a sua boca; assobiam e rangem os dentes; dizem: Temo-la tragado. Certamente este é o dia que esperávamos, temo-lo achado, temo-lo visto."
+            },
+            {
+              "verse": 17,
+              "text": "Fez Jeová o que intentou; cumpriu a sua palavra que ordenou nos dias antigos; derrubou e não mostrou piedade. Fez que o inimigo se alegrasse sobre ti, exaltou o poder dos teus adversários."
+            },
+            {
+              "verse": 18,
+              "text": "O coração deles clamou ao Senhor: Ó muro da filha de Sião, derrama lágrimas como uma torrente, de dia e de noite; não te dês descanso; cessem de chorar as meninas dos teus olhos."
+            },
+            {
+              "verse": 19,
+              "text": "Levanta-te, clama de noite, no princípio das vigias; derrama o teu coração como água diante da face do Senhor. Levanta as tuas mãos a ele pela vida de teus filhinhos, que desfalecem de fome nas esquinas de todas as ruas."
+            },
+            {
+              "verse": 20,
+              "text": "Vê, Jeová, e considera a quem assim tens tratado! Acaso, comerão as mulheres o fruto das suas entranhas, as crianças enfaixadas pelas suas próprias mãos? Matar-se-ão no santuário do Senhor o sacerdote e o profeta?"
+            },
+            {
+              "verse": 21,
+              "text": "Jazem por terra nas ruas o moço e o velho; as minhas virgens e os meus mancebos caem pela espada. Tu os mataste no dia da tua ira; trucidaste, não mostraste piedade."
+            },
+            {
+              "verse": 22,
+              "text": "Convocaste, como no dia duma assembleia solene, os meus terrores de todos os lados. Não houve quem escapasse ou ficasse com vida no dia da ira de Jeová. Aos que enfaixei e criei, consumiu-os o meu inimigo."
+            }
+          ]
+        },
+        {
+          "chapter": 3,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Eu sou o homem que viu a aflição causada pela vara do seu furor."
+            },
+            {
+              "verse": 2,
+              "text": "Ele guiou-me e fez-me andar nas trevas e não na luz."
+            },
+            {
+              "verse": 3,
+              "text": "Certamente, fez virar e revirar a sua mão contra mim o dia todo."
+            },
+            {
+              "verse": 4,
+              "text": "Gastou a minha carne e a minha pele, quebrou-me os ossos."
+            },
+            {
+              "verse": 5,
+              "text": "Levantou trincheiras contra mim e cercou-me de fel e de trabalho."
+            },
+            {
+              "verse": 6,
+              "text": "Fez-me habitar em lugares tenebrosos, como os que estão mortos para sempre."
+            },
+            {
+              "verse": 7,
+              "text": "Cercou-me de uma sebe, de sorte que eu não posso sair; agravou os meus grilhões."
+            },
+            {
+              "verse": 8,
+              "text": "Quando grito e clamo por socorro, ele exclui a minha oração."
+            },
+            {
+              "verse": 9,
+              "text": "Fechou os meus caminhos com pedras lavradas, fez tortas as minhas veredas."
+            },
+            {
+              "verse": 10,
+              "text": "Fez-me como urso de emboscada, como leão em esconderijos."
+            },
+            {
+              "verse": 11,
+              "text": "Desviou os meus caminhos e fez-me em pedaços; tornou-me em desolação."
+            },
+            {
+              "verse": 12,
+              "text": "Armou o seu arco e pôs-me como alvo à seta."
+            },
+            {
+              "verse": 13,
+              "text": "Meteu nos meus rins as flechas da sua aljava."
+            },
+            {
+              "verse": 14,
+              "text": "Estou feito um objeto de escárnio para todo o meu povo e o assunto da sua canção, o dia todo."
+            },
+            {
+              "verse": 15,
+              "text": "Encheu-me de amargura, fartou-me de absinto."
+            },
+            {
+              "verse": 16,
+              "text": "Quebrou-me os dentes com pedrinhas, cobriu-me de cinzas."
+            },
+            {
+              "verse": 17,
+              "text": "Alongaste da paz a minha alma; estou esquecido da prosperidade."
+            },
+            {
+              "verse": 18,
+              "text": "Eu disse: Já pereceu de Jeová a minha força e a minha expectação."
+            },
+            {
+              "verse": 19,
+              "text": "Lembra-te da minha aflição e do meu andar errante, do absinto e do fel."
+            },
+            {
+              "verse": 20,
+              "text": "A minha alma ainda os conserva na memória e está abatida dentro de mim."
+            },
+            {
+              "verse": 21,
+              "text": "Torno a trazer isso à mente; portanto, tenho esperança."
+            },
+            {
+              "verse": 22,
+              "text": "As misericórdias de Jeová são a causa de não sermos consumidos, porque não falham as suas misericórdias."
+            },
+            {
+              "verse": 23,
+              "text": "Novas são cada manhã; grande é a tua fidelidade."
+            },
+            {
+              "verse": 24,
+              "text": "A minha porção é Jeová, diz a minha alma; portanto, esperarei nele."
+            },
+            {
+              "verse": 25,
+              "text": "Bom é Jeová para os que esperam por ele, para a alma que o busca."
+            },
+            {
+              "verse": 26,
+              "text": "Boa coisa é esperar e aguardar, em silêncio, a salvação de Jeová."
+            },
+            {
+              "verse": 27,
+              "text": "Bom é para o homem levar o jugo na sua mocidade."
+            },
+            {
+              "verse": 28,
+              "text": "Que se assente ele, sozinho, e fique calado, porque Jeová o pôs sobre ele."
+            },
+            {
+              "verse": 29,
+              "text": "Ponha a sua boca no pó, a ver se há esperança."
+            },
+            {
+              "verse": 30,
+              "text": "Dê a sua face ao que o fere; farte-se de opróbrio"
+            },
+            {
+              "verse": 31,
+              "text": "Pois o Senhor não rejeitará para sempre."
+            },
+            {
+              "verse": 32,
+              "text": "Embora entristeça, contudo, terá compaixão segundo a multidão das suas misericórdias."
+            },
+            {
+              "verse": 33,
+              "text": "Porquanto não aflige, nem oprime os filhos dos homens."
+            },
+            {
+              "verse": 34,
+              "text": "O esmagar debaixo dos pés todos os presos da terra,"
+            },
+            {
+              "verse": 35,
+              "text": "o perverter o direito de um homem diante do Altíssimo,"
+            },
+            {
+              "verse": 36,
+              "text": "o subverter ao homem no seu pleito não são do agrado do Senhor."
+            },
+            {
+              "verse": 37,
+              "text": "Quem é o que diz uma coisa que se realiza, quando o Senhor o não mandar?"
+            },
+            {
+              "verse": 38,
+              "text": "Acaso, não é da boca do Altíssimo que saem o mal e o bem?"
+            },
+            {
+              "verse": 39,
+              "text": "Por que se queixa o vivente? Por que se queixa o varão do castigo dos seus pecados?"
+            },
+            {
+              "verse": 40,
+              "text": "Esquadrinhemos e provemos os nossos caminhos e voltemos a Jeová."
+            },
+            {
+              "verse": 41,
+              "text": "Levantemos os nossos corações com as mãos a Deus, que está nos céus."
+            },
+            {
+              "verse": 42,
+              "text": "Nós transgredimos e nos rebelamos; tu não nos perdoaste."
+            },
+            {
+              "verse": 43,
+              "text": "Cobriste-nos de ira e nos perseguiste; mataste-nos e não mostraste piedade."
+            },
+            {
+              "verse": 44,
+              "text": "Cobriste-nos de nuvens, para que a nossa oração não passe."
+            },
+            {
+              "verse": 45,
+              "text": "Puseste-nos como escória e refugo no meio dos povos."
+            },
+            {
+              "verse": 46,
+              "text": "Todos os nossos inimigos abriram contra nós a sua boca."
+            },
+            {
+              "verse": 47,
+              "text": "O pavor e a cova são vindos sobre nós, a assolação e a destruição."
+            },
+            {
+              "verse": 48,
+              "text": "Dos meus olhos correm rios de água, por causa da destruição da filha do meu povo."
+            },
+            {
+              "verse": 49,
+              "text": "Os meus olhos derramam lágrimas e não cessam, sem haver intermissão,"
+            },
+            {
+              "verse": 50,
+              "text": "até que Jeová olhe e veja lá do céu."
+            },
+            {
+              "verse": 51,
+              "text": "Os meus olhos afligem a minha alma por causa de todos os filhos da minha cidade."
+            },
+            {
+              "verse": 52,
+              "text": "Como ave, me caçaram os que, sem causa, são os meus inimigos."
+            },
+            {
+              "verse": 53,
+              "text": "Cortaram-me a vida na masmorra e puseram sobre mim uma pedra."
+            },
+            {
+              "verse": 54,
+              "text": "Correram águas sobre a minha cabeça; eu disse: Estou cortado!"
+            },
+            {
+              "verse": 55,
+              "text": "Da mais profunda masmorra invoquei o teu nome, Jeová."
+            },
+            {
+              "verse": 56,
+              "text": "Ouviste a minha voz; não escondas o teu ouvido ao meu suspiro, ao meu clamor."
+            },
+            {
+              "verse": 57,
+              "text": "Chegaste-nos no dia em que te invoquei; disseste: Não temas."
+            },
+            {
+              "verse": 58,
+              "text": "Pleiteaste, Senhor, as causas da minha alma; remiste a minha vida."
+            },
+            {
+              "verse": 59,
+              "text": "Viste, Jeová, o mal que sofri; julga tu a minha causa."
+            },
+            {
+              "verse": 60,
+              "text": "Viste toda a sua vingança e todos os seus desígnios contra mim."
+            },
+            {
+              "verse": 61,
+              "text": "Ouviste, Jeová, o seu opróbrio e todos os seus desígnios contra mim;"
+            },
+            {
+              "verse": 62,
+              "text": "os lábios dos que se levantam contra mim e a sua meditação contra mim o dia todo."
+            },
+            {
+              "verse": 63,
+              "text": "Observa-os, ao sentarem-se e ao levantarem-se; eu sou a sua canção."
+            },
+            {
+              "verse": 64,
+              "text": "Tu, Jeová, lhes darás a recompensa segundo a obra das suas mãos."
+            },
+            {
+              "verse": 65,
+              "text": "Dar-lhes-ás dureza de coração, dar-lhes-ás a tua maldição."
+            },
+            {
+              "verse": 66,
+              "text": "Em ira os perseguirás, e os destruirás de debaixo dos céus de Jeová."
+            }
+          ]
+        },
+        {
+          "chapter": 4,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Como se escureceu o ouro! Como se mudou o ouro puríssimo! As pedras do santuário estão espalhadas pelas esquinas de todas as ruas."
+            },
+            {
+              "verse": 2,
+              "text": "Os preciosos filhos de Sião, comparáveis com o ouro fino, como são reputados como vasos de barro, obra das mãos de oleiro!"
+            },
+            {
+              "verse": 3,
+              "text": "Até os chacais descobrem os peitos, dão de mamar aos seus cachorros; A filha do meu povo tem-se tornado cruel como as avestruzes no deserto."
+            },
+            {
+              "verse": 4,
+              "text": "A língua da criança que mama fica-lhe, pela sede, pegada ao céu da boca. Os pequeninos pedem pão, e ninguém lho reparte."
+            },
+            {
+              "verse": 5,
+              "text": "Os que comiam delicadamente desfalecem nas ruas. Os que se criavam em escarlata abraçam monturos."
+            },
+            {
+              "verse": 6,
+              "text": "Pois a iniquidade da filha do meu povo é maior que o pecado de Sodoma, a qual foi submetida como num momento, e nenhumas mãos foram postas sobre ela."
+            },
+            {
+              "verse": 7,
+              "text": "Os seus nobres eram mais puros que a neve, mais alvos que o leite. De corpo, eram mais ruivos que corais, e a sua forma era como de safira."
+            },
+            {
+              "verse": 8,
+              "text": "O seu parecer é mais escuro do que o negrume; eles não são conhecidos nas ruas. A sua pele pega-se-lhes aos ossos; secou-se e tornou-se como um pau."
+            },
+            {
+              "verse": 9,
+              "text": "Mais felizes são os mortos à espada do que os que morrem de fome; porque estes se esgotam, traspassados por falta dos frutos do campo."
+            },
+            {
+              "verse": 10,
+              "text": "As mãos das mulheres compassivas cozeram seus filhos; estes lhes serviram de alimento na ruína da filha do meu povo."
+            },
+            {
+              "verse": 11,
+              "text": "Deu Jeová cumprimento ao seu furor, derramou a ardor da sua ira; em Sião, acendeu um fogo, que devorou os fundamentos dela."
+            },
+            {
+              "verse": 12,
+              "text": "Não creram os reis da terra, nem todos os moradores do mundo que entrasse o adversário e o inimigo pelas portas de Jerusalém."
+            },
+            {
+              "verse": 13,
+              "text": "É por causa dos pecados dos seus profetas e por causa das iniquidades dos seus sacerdotes que se derramou no meio dela o sangue dos justos."
+            },
+            {
+              "verse": 14,
+              "text": "Vagueiam como cegos pelas ruas, são contaminados de sangue, de modo que não se lhes podem tocar as suas roupas."
+            },
+            {
+              "verse": 15,
+              "text": "Retirai-vos! Imundo! — gritaram-lhes. Retirai-vos! Retirai-vos! Não toqueis! Quando fugiram e andaram vagueando, dizia-se entre as nações: Não habitarão nunca aqui."
+            },
+            {
+              "verse": 16,
+              "text": "Espalhou-se a ira de Jeová, e ele não tornará a olhar para eles. Não respeitaram as pessoas dos sacerdotes, nem se compadeceram dos anciãos."
+            },
+            {
+              "verse": 17,
+              "text": "Os nossos olhos ainda desfalecem, esperando o nosso vão socorro. Vigiando, temos estado de vigia para uma nação que não podia saber."
+            },
+            {
+              "verse": 18,
+              "text": "Espreitam os nossos passos, de sorte que não podemos andar em nossas ruas. Perto está o nosso fim, cumpridos estão os nossos dias, porque é chegado o nosso fim."
+            },
+            {
+              "verse": 19,
+              "text": "Os nossos perseguidores foram mais velozes do que as águias do céu; perseguiram-nos sobre os montes, armaram-nos ciladas no deserto."
+            },
+            {
+              "verse": 20,
+              "text": "Foi apanhado nas covas deles o ungido de Jeová, aquele que é o ar das nossas narinas; e do que dissemos: Debaixo da sua sombra, viveremos entre as nações."
+            },
+            {
+              "verse": 21,
+              "text": "Regozija-te e alegra-te, filha de Edom, que habitas na terra de Uz; o copo te passará a ti também; serás embriagada e te descobrirás."
+            },
+            {
+              "verse": 22,
+              "text": "Já se cumpriu o castigo da tua iniquidade, ó filha de Sião; Jeová não tornará a levar-te para o cativeiro; ele visitará a tua iniquidade, ó filha de Edom; descobrirá os teus pecados."
+            }
+          ]
+        },
+        {
+          "chapter": 5,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Lembra-te, Jeová, do que nos tem acontecido; considera e olha para o nosso opróbrio."
+            },
+            {
+              "verse": 2,
+              "text": "A nossa herança passou a estrangeiros, as nossas casas, a forasteiros."
+            },
+            {
+              "verse": 3,
+              "text": "Somos órfãos sem pai; nossas mães são como viúvas."
+            },
+            {
+              "verse": 4,
+              "text": "A nossa água, por dinheiro a temos bebido, a nossa lenha nos é vendida."
+            },
+            {
+              "verse": 5,
+              "text": "Os nossos perseguidores estão sobre os nossos pescoços; estamos cansados e não temos descanso."
+            },
+            {
+              "verse": 6,
+              "text": "Submetemo-nos aos egípcios e aos assírios, para sermos fartos de pão."
+            },
+            {
+              "verse": 7,
+              "text": "Nossos pais pecaram e já não existem; e nós levamos as iniquidades deles."
+            },
+            {
+              "verse": 8,
+              "text": "Servos dominam sobre nós; não há quem nos livre da mão deles."
+            },
+            {
+              "verse": 9,
+              "text": "Com perigo das nossas vidas, obtemos o nosso pão, por causa da espada do deserto."
+            },
+            {
+              "verse": 10,
+              "text": "A nossa pele está abraseada como um forno, por causa do calor ardente da fome."
+            },
+            {
+              "verse": 11,
+              "text": "Humilharam as mulheres em Sião; as donzelas, nas cidades de Judá."
+            },
+            {
+              "verse": 12,
+              "text": "Foram pendurados pelas mãos os príncipes, as faces dos anciãos não foram honradas."
+            },
+            {
+              "verse": 13,
+              "text": "Os mancebos levaram a mó, e os meninos tropeçaram debaixo das cargas de lenha;"
+            },
+            {
+              "verse": 14,
+              "text": "os anciãos deixaram de se assentar nas portas, os moços deixaram da sua música."
+            },
+            {
+              "verse": 15,
+              "text": "Desvaneceu-se o gozo do nosso coração; converteu-se em lamentação a nossa dança."
+            },
+            {
+              "verse": 16,
+              "text": "Caiu da nossa cabeça a coroa; ai de nós, porque temos pecado!"
+            },
+            {
+              "verse": 17,
+              "text": "Portanto, desmaia o nosso coração. Por isso, se escurecem os nossos olhos."
+            },
+            {
+              "verse": 18,
+              "text": "Pelo monte de Sião, que está desolado, os chacais andam por ele."
+            },
+            {
+              "verse": 19,
+              "text": "Tu, Jeová, permaneces para sempre; o teu trono subsiste de geração em geração."
+            },
+            {
+              "verse": 20,
+              "text": "Por que te esqueces de nós para sempre? E nos abandonas por tanto tempo?"
+            },
+            {
+              "verse": 21,
+              "text": "Converte-nos a ti, Jeová, e seremos convertidos; renova os nossos dias como dantes,"
+            },
+            {
+              "verse": 22,
+              "text": "se é que não nos tens, de todo, rejeitado, se é que não estás sobremaneira irado contra nós."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
