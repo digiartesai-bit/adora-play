@@ -1,31 +1,31 @@
 (function () {
     const versions = [
-        { id: 'nvi', name: 'NVI' },
         { id: 'acf', name: 'ACF' },
-        { id: 'at', name: 'AT' },
-        { id: 'kjvl', name: 'KJVT' },
+        { id: 'kjvl', name: 'KJA' },
+        { id: 'nbv', name: 'NBV' },
+        { id: 'ntlh', name: 'NTLH' },
+        { id: 'nvt', name: 'NVT' },
+        { id: 'tb', name: 'TB' },
         { id: 'nva', name: 'NVA' }
     ];
-    const fileNameOverrides = {
-        kjvl: {
-            '1samuel': '1_samuel', '2samuel': '2_samuel',
-            '1reis': '1_reis', '2reis': '2_reis',
-            '1cronicas': '1_cronicas', '2cronicas': '2_cronicas',
-            '1corintios': '1_corintios', '2corintios': '2_corintios',
-            '1tessalonicenses': '1_tessalonicenses', '2tessalonicenses': '2_tessalonicenses',
-            '1timoteo': '1_timotio', '2timoteo': '2_timotio',
-            '1pedro': '1_pedro', '2pedro': '2_pedro',
-            '1joao': '1_joao', '2joao': '2_joao', '3joao': '3_joao',
-            'canticos': 'cantares', 'habacuque': 'abacuque'
-        }
-    };
 
     function getBookFileName(version, bookName) {
         const normalizedName = bookName.normalize('NFD')
             .replace(/[\u0300-\u036f]/g, '')
             .replace(/[^a-zA-Z0-9]/g, '')
             .toLowerCase();
-        return fileNameOverrides[version]?.[normalizedName] || normalizedName;
+        return normalizedName;
+    }
+
+    function getRequestedVerses(details) {
+        const ranges = details.verseRanges?.length
+            ? details.verseRanges
+            : details.verses.map(verse => ({ start: verse, end: verse }));
+        return [...new Set(ranges.flatMap(range => {
+            const verses = [];
+            for (let verse = range.start; verse <= range.end; verse += 1) verses.push(verse);
+            return verses;
+        }))];
     }
 
     async function loadVersionText(version, details) {
@@ -34,8 +34,16 @@
         if (!response.ok) throw new Error(`Não foi possível carregar ${version.name}.`);
         const data = await response.json();
         const chapter = data.books?.[0]?.chapters?.find(item => item.chapter === details.chapter);
-        const versesByNumber = new Map(chapter?.verses?.map(verse => [verse.verse, verse.text]));
-        const text = details.verses.map(verse => versesByNumber.get(verse)).filter(Boolean).join(' ');
+        const requestedVerses = getRequestedVerses(details);
+        const matchedTexts = [];
+        for (const verseNumber of requestedVerses) {
+            const verse = chapter?.verses?.find(item => {
+                const verseEnd = item.verse_end || item.verse;
+                return item.verse <= verseNumber && verseNumber <= verseEnd;
+            });
+            if (verse && !matchedTexts.includes(verse.text)) matchedTexts.push(verse.text);
+        }
+        const text = matchedTexts.join(' ');
         if (!text) throw new Error(`Não foi possível localizar os versículos em ${version.name}.`);
         return text;
     }
@@ -72,8 +80,15 @@
         versions.forEach((version) => {
             const item = document.createElement('article');
             item.className = 'bible-compare-item';
-            const versionName = document.createElement('strong');
+            const versionName = document.createElement('button');
+            versionName.type = 'button';
+            versionName.className = 'bible-comparison-link';
             versionName.textContent = version.name;
+            versionName.title = `Abrir ${version.name} nesta passagem`;
+            versionName.addEventListener('click', () => {
+                close(dialog);
+                window.openBibleComparisonVersion(version.id, details);
+            });
             const verseText = document.createElement('p');
             verseText.textContent = 'Carregando...';
             item.append(versionName, verseText);
