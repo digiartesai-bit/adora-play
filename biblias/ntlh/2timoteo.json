@@ -1,0 +1,364 @@
+{
+  "version": "NTLH",
+  "translation": "Nova Tradução na Linguagem de Hoje",
+  "books": [
+    {
+      "abbrev": "2tm",
+      "name": "2 Timóteo",
+      "chapters": [
+        {
+          "chapter": 1,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Eu, Paulo, apóstolo de Cristo Jesus pela vontade de Deus, que fui mandado para anunciar a promessa da vida que temos por estarmos unidos com Cristo Jesus,"
+            },
+            {
+              "verse": 2,
+              "text": "escrevo a você, Timóteo, meu querido filho na fé. Que a graça, a misericórdia e a paz de Deus, o Pai, e de Cristo Jesus, o nosso Senhor, estejam com você!"
+            },
+            {
+              "verse": 3,
+              "text": "Todas as vezes que lembro de você nas minhas orações, de dia e de noite, eu agradeço a Deus, a quem sirvo com a consciência limpa, como também os meus antepassados serviram."
+            },
+            {
+              "verse": 4,
+              "text": "Lembro das suas lágrimas e quero muito ver você outra vez para que eu possa ficar cheio de alegria."
+            },
+            {
+              "verse": 5,
+              "text": "Lembro da sua fé sincera, a mesma fé que a sua avó Loide e Eunice, a sua mãe, tinham. E tenho a certeza de que é a mesma fé que você tem."
+            },
+            {
+              "verse": 6,
+              "text": "Por isso quero que você lembre de conservar vivo o dom de Deus que você recebeu quando coloquei as mãos sobre você."
+            },
+            {
+              "verse": 7,
+              "text": "Pois o Espírito que Deus nos deu não nos torna medrosos; pelo contrário, o Espírito nos enche de poder e de amor e nos torna prudentes."
+            },
+            {
+              "verse": 8,
+              "text": "Portanto, não se envergonhe de dar o seu testemunho a favor do nosso Senhor, nem se envergonhe de mim, que estou na cadeia porque sou servo dele. Pelo contrário, com a força que vem de Deus, esteja pronto para sofrer comigo por amor ao evangelho."
+            },
+            {
+              "verse": 9,
+              "text": "Deus nos salvou e nos chamou para sermos o seu povo. Não foi por causa do que temos feito, mas porque este era o seu plano e por causa da sua graça. Ele nos deu essa graça por meio de Cristo Jesus, antes da criação do mundo."
+            },
+            {
+              "verse": 10,
+              "text": "Mas agora ela foi revelada a nós por meio do glorioso aparecimento de Cristo Jesus, o nosso Salvador. Ele acabou com o poder da morte e, por meio do evangelho, revelou a vida que dura para sempre."
+            },
+            {
+              "verse": 11,
+              "text": "Deus me escolheu como apóstolo e mestre para anunciar o evangelho."
+            },
+            {
+              "verse": 12,
+              "text": "É por isso que sofro essas coisas. Mas eu ainda tenho muita confiança, pois sei em quem tenho crido e estou certo de que ele é poderoso para guardar, até aquele dia, aquilo que ele me confiou."
+            },
+            {
+              "verse": 13,
+              "text": "Tome como modelo os ensinamentos verdadeiros que eu lhe dei e fique firme na fé e no amor que temos por estarmos unidos com Cristo Jesus."
+            },
+            {
+              "verse": 14,
+              "text": "Por meio do poder do Espírito Santo, que vive em nós, guarde esse precioso tesouro que foi entregue a você."
+            },
+            {
+              "verse": 15,
+              "text": "Você já sabe que todos os irmãos da província da Ásia, inclusive Fígelo e Hermógenes, me abandonaram."
+            },
+            {
+              "verse": 16,
+              "text": "Que o Senhor seja bondoso com a família de Onesíforo, pois muitas vezes ele me animou e não teve vergonha de mim por eu estar na cadeia!"
+            },
+            {
+              "verse": 17,
+              "text": "Pelo contrário, logo que chegou a Roma, ele me procurou até me encontrar."
+            },
+            {
+              "verse": 18,
+              "text": "Que o Senhor dê a ele a certeza de que naquele dia ele receberá a sua misericórdia! E você sabe melhor do que eu o quanto ele me ajudou em Éfeso."
+            }
+          ]
+        },
+        {
+          "chapter": 2,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "E você, meu filho, seja forte por meio da graça que é nossa por estarmos unidos com Cristo Jesus."
+            },
+            {
+              "verse": 2,
+              "text": "Tome os ensinamentos que você me ouviu dar na presença de muitas testemunhas e entregue-os aos cuidados de homens de confiança, que sejam capazes de ensinar outros."
+            },
+            {
+              "verse": 3,
+              "text": "Como fiel soldado de Cristo Jesus, tome parte no meu sofrimento."
+            },
+            {
+              "verse": 4,
+              "text": "Pois o soldado, quando está servindo, quer agradar o seu comandante e por isso não se envolve em negócios da vida civil."
+            },
+            {
+              "verse": 5,
+              "text": "O atleta que toma parte numa corrida não recebe o prêmio se não obedecer às regras da competição."
+            },
+            {
+              "verse": 6,
+              "text": "E o lavrador que trabalha no pesado deve ser o primeiro a receber a sua parte na colheita."
+            },
+            {
+              "verse": 7,
+              "text": "Pense no que estou dizendo, pois o Senhor fará com que você compreenda todas as coisas."
+            },
+            {
+              "verse": 8,
+              "text": "Lembre de Jesus Cristo, que foi ressuscitado e que era descendente de Davi, de acordo com o evangelho que eu anuncio."
+            },
+            {
+              "verse": 9,
+              "text": "E é por causa disso que eu sofro e até estou acorrentado como se fosse um criminoso. Mas a mensagem de Deus não está presa,"
+            },
+            {
+              "verse": 10,
+              "text": "e por isso eu suporto tudo com paciência por amor ao povo escolhido de Deus. Faço isso para que eles possam ganhar a salvação que está em Cristo Jesus e que traz a glória eterna."
+            },
+            {
+              "verse": 11,
+              "text": "Este ensinamento é verdadeiro: “Se já morremos com Cristo, também viveremos com ele."
+            },
+            {
+              "verse": 12,
+              "text": "Se continuarmos a suportar o sofrimento com paciência, também reinaremos com Cristo. Se nós o negarmos, ele também nos negará."
+            },
+            {
+              "verse": 13,
+              "text": "Se não formos fiéis, Cristo continua sendo fiel, pois ele não pode ser falso para si mesmo.”"
+            },
+            {
+              "verse": 14,
+              "text": "Recomende essas coisas aos que você dirige e ordene severamente, na presença de Deus, que não briguem por causa de palavras. Brigar não é bom, pois somente prejudica os que estão presentes."
+            },
+            {
+              "verse": 15,
+              "text": "Faça todo o possível para conseguir a completa aprovação de Deus, como um trabalhador que não se envergonha do seu trabalho, mas ensina corretamente a verdade do evangelho."
+            },
+            {
+              "verse": 16,
+              "text": "Evite os falatórios contrários aos ensinamentos cristãos, pois eles fazem com que as pessoas se afastem de Deus."
+            },
+            {
+              "verse": 17,
+              "text": "As coisas que os falsos mestres ensinam se espalham como a gangrena. Dois desses mestres são Himeneu e Fileto,"
+            },
+            {
+              "verse": 18,
+              "text": "os quais abandonaram o caminho da verdade. Eles afirmam que a nossa ressurreição já aconteceu e assim estão atrapalhando a fé cristã de alguns."
+            },
+            {
+              "verse": 19,
+              "text": "Mas o firme alicerce que Deus colocou não pode ser abalado, e sobre esse alicerce estão escritas estas palavras: “O Senhor conhece as pessoas que são dele.” E também: “Toda pessoa que diz que pertence ao Senhor precisa abandonar o pecado.”"
+            },
+            {
+              "verse": 20,
+              "text": "Numa casa grande não existem somente vasilhas de ouro e de prata, mas também de madeira e de barro. Algumas são para ocasiões especiais, e outras, para todos os dias."
+            },
+            {
+              "verse": 21,
+              "text": "Quem se purificar de todos esses erros de que tenho falado será usado para fins especiais porque é dedicado e útil ao seu Mestre e está pronto para fazer tudo o que é bom."
+            },
+            {
+              "verse": 22,
+              "text": "E você, Timóteo, fuja das paixões da mocidade e procure viver uma vida correta, com fé, amor e paz, junto com os que com um coração puro pedem a ajuda do Senhor."
+            },
+            {
+              "verse": 23,
+              "text": "Fique longe das discussões tolas e sem valor, pois você sabe que elas sempre acabam em brigas."
+            },
+            {
+              "verse": 24,
+              "text": "O servo do Senhor não deve andar brigando, mas deve tratar todos com educação. Deve ser um mestre bom e paciente,"
+            },
+            {
+              "verse": 25,
+              "text": "que corrige com delicadeza aqueles que são contra ele. Pois pode ser que Deus dê a eles a oportunidade de se arrependerem e de virem a conhecer a verdade."
+            },
+            {
+              "verse": 26,
+              "text": "E assim voltarão ao seu perfeito juízo e escaparão da armadilha do Diabo, que os prendeu para fazerem o que ele quer."
+            }
+          ]
+        },
+        {
+          "chapter": 3,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Lembre disto: nos últimos dias haverá tempos difíceis."
+            },
+            {
+              "verse": 2,
+              "text": "Pois muitos serão egoístas, avarentos, orgulhosos, vaidosos, xingadores, ingratos, desobedientes aos seus pais e não terão respeito pela religião."
+            },
+            {
+              "verse": 3,
+              "text": "Não terão amor pelos outros e serão duros, caluniadores, incapazes de se controlarem, violentos e inimigos do bem."
+            },
+            {
+              "verse": 4,
+              "text": "Serão traidores, atrevidos e cheios de orgulho. Amarão mais os prazeres do que a Deus;"
+            },
+            {
+              "verse": 5,
+              "text": "parecerão ser seguidores da nossa religião, mas com as suas ações negarão o verdadeiro poder dela. Fique longe dessa gente!"
+            },
+            {
+              "verse": 6,
+              "text": "Alguns deles entram nas casas e conseguem dominar mulheres fracas, que estão cheias de pecados e que são levadas por todo tipo de desejos."
+            },
+            {
+              "verse": 7,
+              "text": "São mulheres que estão sempre tentando aprender, mas nunca chegam a conhecer a verdade."
+            },
+            {
+              "verse": 8,
+              "text": "Assim como Janes e Jambres foram contra Moisés, assim também esses homens são contra a verdade. Eles perderam o juízo e fracassaram na fé."
+            },
+            {
+              "verse": 9,
+              "text": "Mas não irão longe, pois todos verão como eles são tolos. Foi isso que aconteceu com Janes e Jambres."
+            },
+            {
+              "verse": 10,
+              "text": "Mas você tem seguido os meus ensinamentos, a minha maneira de agir e o propósito que tenho na minha vida. E tem seguido também a minha fé, a minha paciência, o meu amor, a minha perseverança,"
+            },
+            {
+              "verse": 11,
+              "text": "as minhas perseguições e os meus sofrimentos. Você sabe tudo o que me aconteceu nas cidades de Antioquia, de Icônio e de Listra. Que terríveis perseguições eu sofri! Porém o Senhor me livrou de todas elas."
+            },
+            {
+              "verse": 12,
+              "text": "Todos os que querem viver a vida cristã unidos com Cristo Jesus serão perseguidos."
+            },
+            {
+              "verse": 13,
+              "text": "Porém as pessoas más e fingidas irão de mal a pior, enganando e sendo enganadas."
+            },
+            {
+              "verse": 14,
+              "text": "Quanto a você, continue firme nas verdades que aprendeu e em que creu de todo o coração. Você sabe quem foram os seus mestres na fé cristã."
+            },
+            {
+              "verse": 15,
+              "text": "E, desde menino, você conhece as Escrituras Sagradas, as quais lhe podem dar a sabedoria que leva à salvação, por meio da fé em Cristo Jesus."
+            },
+            {
+              "verse": 16,
+              "text": "Pois toda a Escritura Sagrada é inspirada por Deus e é útil para ensinar a verdade, condenar o erro, corrigir as faltas e ensinar a maneira certa de viver."
+            },
+            {
+              "verse": 17,
+              "text": "E isso para que o servo de Deus esteja completamente preparado e pronto para fazer todo tipo de boas ações."
+            }
+          ]
+        },
+        {
+          "chapter": 4,
+          "verses": [
+            {
+              "verse": 1,
+              "text": "Na presença de Deus e de Cristo Jesus, que julgará todos os seres humanos, tanto os que estiverem vivos como os que estiverem mortos, eu ordeno a você, com toda a firmeza, o seguinte: por causa da vinda de Cristo e do seu Reino,"
+            },
+            {
+              "verse": 2,
+              "text": "pregue a mensagem e insista em anunciá-la, seja no tempo certo ou não. Procure convencer, repreenda, anime e ensine com toda a paciência."
+            },
+            {
+              "verse": 3,
+              "text": "Pois vai chegar o tempo em que as pessoas não vão dar atenção ao verdadeiro ensinamento, mas seguirão os seus próprios desejos. E arranjarão para si mesmas uma porção de mestres, que vão dizer a elas o que elas querem ouvir."
+            },
+            {
+              "verse": 4,
+              "text": "Essas pessoas deixarão de ouvir a verdade para dar atenção às lendas."
+            },
+            {
+              "verse": 5,
+              "text": "Mas você, seja moderado em todas as situações. Suporte o sofrimento, faça o trabalho de um pregador do evangelho e cumpra bem o seu dever de servo de Deus."
+            },
+            {
+              "verse": 6,
+              "text": "Quanto a mim, a hora já chegou de eu ser sacrificado, e já é tempo de deixar esta vida."
+            },
+            {
+              "verse": 7,
+              "text": "Fiz o melhor que pude na corrida, cheguei até o fim, conservei a fé."
+            },
+            {
+              "verse": 8,
+              "text": "E agora está me esperando o prêmio da vitória, que é dado para quem vive uma vida correta, o prêmio que o Senhor, o justo Juiz, me dará naquele dia, e não somente a mim, mas a todos os que esperam, com amor, a sua vinda."
+            },
+            {
+              "verse": 9,
+              "text": "Venha me ver logo que puder."
+            },
+            {
+              "verse": 10,
+              "text": "Pois Demas se apaixonou por este mundo, me abandonou e foi para a cidade de Tessalônica. Crescente foi para a província da Galácia, e Tito, para a região da Dalmácia."
+            },
+            {
+              "verse": 11,
+              "text": "Somente Lucas está aqui comigo. Procure Marcos e traga-o com você porque ele pode me ajudar no trabalho."
+            },
+            {
+              "verse": 12,
+              "text": "Eu mandei Tíquico para a cidade de Éfeso."
+            },
+            {
+              "verse": 13,
+              "text": "Quando você vier, traga a minha capa que deixei na cidade de Trôade, na casa de Carpo. Traga os livros também, principalmente os de couro."
+            },
+            {
+              "verse": 14,
+              "text": "Alexandre, o ferreiro, me prejudicou muito; o Senhor lhe dará a sua recompensa de acordo com o que ele fez."
+            },
+            {
+              "verse": 15,
+              "text": "Tome cuidado com ele, pois combateu com muita violência a nossa mensagem."
+            },
+            {
+              "verse": 16,
+              "text": "Na primeira vez em que fiz a minha defesa diante das autoridades, ninguém ficou comigo; todos me abandonaram. Espero que Deus não ponha isso na conta deles!"
+            },
+            {
+              "verse": 17,
+              "text": "Mas o Senhor ficou comigo, me deu força para que eu pudesse anunciar a mensagem completa a todos os não judeus e me livrou de ser condenado à morte."
+            },
+            {
+              "verse": 18,
+              "text": "O Senhor me livrará de todo mal e me levará em segurança para o seu Reino celestial. A ele seja dada a glória para todo o sempre! Amém!"
+            },
+            {
+              "verse": 19,
+              "text": "Saudações a Priscila e ao seu marido Áquila e também à família de Onesíforo."
+            },
+            {
+              "verse": 20,
+              "text": "Erasto ficou na cidade de Corinto, e eu deixei Trófimo na cidade de Mileto porque ele estava doente."
+            },
+            {
+              "verse": 21,
+              "text": "Faça o possível para vir antes do inverno. Os irmãos Êubulo, Pudente, Lino, e a irmã Cláudia e todos os outros irmãos mandam saudações."
+            },
+            {
+              "verse": 22,
+              "text": "Timóteo, que o Senhor esteja com o seu espírito! Que a graça de Deus esteja com vocês!"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
