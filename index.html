@@ -27,7 +27,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css?v=2.3.15">
-    <link rel="stylesheet" href="css/biblia.css?v=1.0.2">
+    <link rel="stylesheet" href="css/biblia.css?v=1.0.3">
 </head>
 
 <body>
@@ -186,14 +186,26 @@
                         <div class="bible-version-row">
                             <label for="seletorVersaoBiblia">Versão bíblica</label>
                             <select id="seletorVersaoBiblia">
-                                <option value="nvi" selected>NVI</option>
-                                <option value="acf">ACF</option>
-                                <option value="at">AT</option>
-                                <option value="kjvl">KJVT</option>
+                                <option value="acf" selected>ACF</option>
+                                <option value="kjvl">KJA</option>
+                                <option value="nbv">NBV</option>
+                                <option value="ntlh">NTLH</option>
+                                <option value="nvt">NVT</option>
+                                <option value="tb">TB</option>
                                 <option value="nva">NVA</option>
                             </select>
                         </div>
                         <p id="bibliaSubtitulo">Escolha um livro para começar a leitura.</p>
+                        <div class="bible-version-description" id="descricaoVersaoBiblia" aria-live="polite">
+                            <strong id="nomeCompletoVersaoBiblia"></strong>
+                            <div class="bible-book-details" id="detalhesLivroBiblia">
+                                <span id="abreviacaoLivroBiblia"></span>
+                                <span id="capitulosLivroBiblia"></span>
+                                <span id="generoLivroBiblia"></span>
+                                <span id="autorLivroBiblia"></span>
+                            </div>
+                            <p id="textoDescricaoVersaoBiblia"></p>
+                        </div>
                     </div>
                     <button class="bible-close-button" id="fecharBiblia" type="button" aria-label="Fechar Bíblia"
                         title="Fechar Bíblia">×</button>
@@ -327,8 +339,8 @@
     <script src="js/pesquisa.js?v=1.0.2"></script>
     <script src="js/compartilhamento-biblia.js?v=1.0.1"></script>
     <script src="js/versiculo-do-dia.js?v=1.0.5"></script>
-    <script src="js/comparar-biblia.js?v=1.0.0"></script>
-    <script src="js/biblia.js?v=1.0.16"></script>
+    <script src="js/comparar-biblia.js?v=1.0.1"></script>
+    <script src="js/biblia.js?v=1.0.17"></script>
     <script src="js/google-login.js?v=1.0.0"></script>
 </body>
 
