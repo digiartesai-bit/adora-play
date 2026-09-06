@@ -1,0 +1,534 @@
+{
+  "testamento_antigo": [
+    {
+      "livro": "Gênesis",
+      "abreviacao": "Gn",
+      "capitulos": 50,
+      "genero": "Pentateuco / Lei",
+      "autor": "Atribuído a Moisés",
+      "descricao": "Gênesis apresenta as origens do mundo, da humanidade, do pecado e do plano de Deus para a redenção. O livro começa com a criação, a queda de Adão e Eva, o dilúvio e a dispersão das nações. Em seguida, concentra-se na história dos patriarcas Abraão, Isaque e Jacó, mostrando as promessas de Deus, as provações e a formação da família que daria origem ao povo de Israel. A narrativa termina com José no Egito e prepara o cenário para os acontecimentos do Êxodo."
+    },
+    {
+      "livro": "Êxodo",
+      "abreviacao": "Êx",
+      "capitulos": 40,
+      "genero": "Pentateuco / Lei",
+      "autor": "Atribuído a Moisés",
+      "descricao": "Êxodo narra a libertação de Israel da escravidão no Egito e a formação da nação como povo da aliança. A história acompanha Moisés desde seu chamado por Deus até a confrontação com Faraó, as dez pragas, a saída do Egito e a travessia do Mar Vermelho. No Sinai, Deus estabelece sua aliança com Israel e entrega os mandamentos que deveriam orientar a vida do povo. O livro também descreve a construção do Tabernáculo, lugar destinado à presença de Deus no meio de Israel."
+    },
+    {
+      "livro": "Levítico",
+      "abreviacao": "Lv",
+      "capitulos": 27,
+      "genero": "Pentateuco / Lei",
+      "autor": "Atribuído a Moisés",
+      "descricao": "Levítico apresenta as leis que deveriam orientar a adoração e a vida religiosa de Israel diante de Deus. O livro descreve os sacrifícios, as funções dos sacerdotes, as regras de pureza, as festas religiosas e diversas determinações para a vida comunitária. Seu tema central é a santidade, mostrando que o povo que havia sido separado por Deus deveria viver de maneira diferente das demais nações. As instruções também estabelecem princípios de justiça, responsabilidade e relacionamento com Deus e com o próximo."
+    },
+    {
+      "livro": "Números",
+      "abreviacao": "Nm",
+      "capitulos": 36,
+      "genero": "Pentateuco / Lei",
+      "autor": "Atribuído a Moisés",
+      "descricao": "Números acompanha Israel durante sua longa caminhada entre o Sinai e as fronteiras da Terra Prometida. O livro começa com a organização e o recenseamento das tribos e apresenta a marcha do povo pelo deserto. Ao longo da jornada surgem murmurações, rebeliões, conflitos e episódios que revelam a falta de confiança dos israelitas nas promessas de Deus. Como consequência da incredulidade, aquela geração permanece no deserto por quarenta anos, enquanto uma nova geração se prepara para entrar na Terra Prometida."
+    },
+    {
+      "livro": "Deuteronômio",
+      "abreviacao": "Dt",
+      "capitulos": 34,
+      "genero": "Pentateuco / Lei",
+      "autor": "Atribuído a Moisés",
+      "descricao": "Deuteronômio reúne os discursos finais de Moisés antes da entrada de Israel na Terra Prometida. Diante da nova geração, Moisés relembra os acontecimentos do deserto, os mandamentos e a aliança estabelecida com Deus. Suas palavras procuram preparar o povo para viver na terra sem esquecer aquele que o libertou e sustentou. O livro enfatiza a escolha entre fidelidade e rebeldia, apresenta bênçãos e consequências da desobediência e termina com a morte de Moisés e a transferência da liderança para Josué."
+    },
+    {
+      "livro": "Josué",
+      "abreviacao": "Js",
+      "capitulos": 24,
+      "genero": "Histórico",
+      "autor": "Atribuído a Josué (com adições posteriores)",
+      "descricao": "Josué relata a entrada dos israelitas na Terra Prometida sob a liderança de Josué, sucessor de Moisés. O livro apresenta a travessia do Jordão, a conquista de Jericó, as campanhas militares contra diferentes povos e os desafios enfrentados por Israel durante a ocupação da terra. Depois das conquistas, o território é distribuído entre as tribos. Nos capítulos finais, Josué reúne o povo, relembra a fidelidade de Deus e conclama Israel a permanecer fiel à aliança."
+    },
+    {
+      "livro": "Juízes",
+      "abreviacao": "Jz",
+      "capitulos": 21,
+      "genero": "Histórico",
+      "autor": "Tradicionalmente atribuído a Samuel",
+      "descricao": "Juízes descreve o período entre a conquista da Terra Prometida e o estabelecimento da monarquia em Israel. O livro apresenta um ciclo repetido: o povo abandona a Deus, sofre opressão de inimigos, clama por socorro e Deus levanta um juiz para libertá-lo. Entre esses líderes estão Débora, Gideão, Jefté e Sansão. Mesmo após cada livramento, Israel volta à desobediência, revelando a deterioração espiritual e social da nação. O livro termina mostrando uma sociedade marcada pela desordem e pela ausência de uma liderança fiel."
+    },
+    {
+      "livro": "Rute",
+      "abreviacao": "Rt",
+      "capitulos": 4,
+      "genero": "Histórico",
+      "autor": "Desconhecido (tradicionalmente Samuel)",
+      "descricao": "Rute apresenta uma história familiar ambientada durante o período dos juízes. Após perder o marido, Rute decide permanecer ao lado de sua sogra Noemi e acompanha-a de volta a Belém, abandonando sua terra e seu povo. Em meio à pobreza e às dificuldades, Rute passa a trabalhar nos campos de Boaz, um parente de Noemi. A narrativa mostra a lealdade, a bondade e a providência de Deus conduzindo acontecimentos aparentemente comuns. Boaz se torna o resgatador da família, e Rute passa a fazer parte da linhagem que levaria ao rei Davi."
+    },
+    {
+      "livro": "1 Samuel",
+      "abreviacao": "1Sm",
+      "capitulos": 31,
+      "genero": "Histórico",
+      "autor": "Desconhecido (Samuel, Gade e Natã)",
+      "descricao": "1 Samuel registra uma das grandes transições da história de Israel: a passagem do período dos juízes para a monarquia. A narrativa começa com o nascimento e o chamado de Samuel, que se torna profeta e líder de Israel. O povo pede um rei, e Saul é escolhido, mas sua desobediência leva à rejeição de seu reinado. Paralelamente, Davi é escolhido por Deus e começa sua trajetória de ascensão. O livro acompanha o conflito entre Saul e Davi até a morte do primeiro rei de Israel."
+    },
+    {
+      "livro": "2 Samuel",
+      "abreviacao": "2Sm",
+      "capitulos": 24,
+      "genero": "Histórico",
+      "autor": "Desconhecido",
+      "descricao": "2 Samuel concentra-se no reinado de Davi e mostra tanto o período de grande prosperidade de Israel quanto as consequências dos pecados do próprio rei. Davi conquista Jerusalém, estabelece a cidade como capital e fortalece o reino por meio de vitórias militares. Deus estabelece com ele uma aliança relacionada à continuidade de sua descendência. Porém, o pecado de Davi com Bate-Seba provoca graves consequências dentro de sua própria família. O livro acompanha conflitos, rebeliões e perdas, mostrando como as decisões do rei afetaram sua casa e seu reino."
+    },
+    {
+      "livro": "1 Reis",
+      "abreviacao": "1Rs",
+      "capitulos": 22,
+      "genero": "Histórico",
+      "autor": "Desconhecido (frequentemente associado a Jeremias)",
+      "descricao": "1 Reis começa com os últimos dias de Davi e a ascensão de Salomão ao trono. O reinado de Salomão é marcado por grande prosperidade, sabedoria e pela construção do Templo em Jerusalém, mas também pelo crescimento de sua infidelidade a Deus. Após sua morte, o reino é dividido em Israel, ao norte, e Judá, ao sul. A narrativa passa a acompanhar os reis dos dois reinos e mostra como a idolatria e a desobediência se tornam problemas constantes. Nesse contexto surge o profeta Elias, que confronta o rei Acabe, Jezabel e os profetas de Baal."
+    },
+    {
+      "livro": "2 Reis",
+      "abreviacao": "2Rs",
+      "capitulos": 25,
+      "genero": "Histórico",
+      "autor": "Desconhecido",
+      "descricao": "2 Reis continua a história dos dois reinos de Israel depois dos acontecimentos narrados em 1 Reis. O livro destaca o ministério do profeta Eliseu, incluindo milagres, confrontos com reis e intervenções em favor de pessoas necessitadas. Apesar das advertências dos profetas, Israel e Judá continuam em grande parte seguindo caminhos de idolatria e desobediência. O Reino do Norte é finalmente conquistado pela Assíria, e posteriormente Jerusalém é destruída pelos babilônios. O livro termina com Judá no exílio, mostrando as consequências da longa infidelidade da nação."
+    },
+    {
+      "livro": "1 Crônicas",
+      "abreviacao": "1Cr",
+      "capitulos": 29,
+      "genero": "Histórico",
+      "autor": "Tradicionalmente atribuído a Esdras",
+      "descricao": "1 Crônicas começa apresentando genealogias que remontam a Adão e estabelecem a identidade e a continuidade do povo de Israel. A narrativa histórica concentra-se principalmente na tribo de Judá e no reinado de Davi. Diferentemente de Samuel, o livro dá grande destaque ao culto, aos sacerdotes, aos levitas e à organização necessária para o serviço do Templo. Davi é apresentado como aquele que prepara materiais, recursos e estruturas para que seu filho Salomão possa construir a Casa de Deus. A obra enfatiza a importância da adoração e da fidelidade à aliança."
+    },
+    {
+      "livro": "2 Crônicas",
+      "abreviacao": "2Cr",
+      "capitulos": 36,
+      "genero": "Histórico",
+      "autor": "Tradicionalmente atribuído a Esdras",
+      "descricao": "2 Crônicas continua a história concentrando-se especialmente no reino de Judá, começando com Salomão e a construção e dedicação do Templo. Os reis são avaliados principalmente por sua relação com Deus, com o Templo e com a verdadeira adoração. Alguns reinados são marcados por reformas espirituais, enquanto outros conduzem o povo à idolatria e à decadência. A narrativa culmina na invasão babilônica, na destruição de Jerusalém e no exílio. No final, o decreto de Ciro permite que os judeus retornem e reconstruam o Templo."
+    },
+    {
+      "livro": "Esdras",
+      "abreviacao": "Ed",
+      "capitulos": 10,
+      "genero": "Histórico",
+      "autor": "Esdras",
+      "descricao": "Esdras registra acontecimentos relacionados ao retorno dos judeus do exílio e à restauração de Jerusalém. Sob autorização dos reis persas, grupos de exilados retornam à sua terra e começam a reconstrução do Templo. O trabalho enfrenta oposição e períodos de interrupção, mas finalmente é concluído. Mais tarde, Esdras chega a Jerusalém e conduz uma profunda reforma espiritual, confrontando práticas que ameaçavam a identidade religiosa do povo. O livro destaca a restauração do culto e a necessidade de obedecer à Lei de Deus."
+    },
+    {
+      "livro": "Neemias",
+      "abreviacao": "Ne",
+      "capitulos": 13,
+      "genero": "Histórico",
+      "autor": "Neemias",
+      "descricao": "Neemias apresenta a reconstrução dos muros de Jerusalém e a reorganização da comunidade judaica depois do exílio. Neemias, que ocupava uma posição de confiança na corte persa, recebe notícias da situação de Jerusalém e pede autorização para retornar. Mesmo diante de ameaças, oposição e dificuldades internas, lidera a reconstrução das muralhas. Depois da obra física, o livro mostra esforços para restaurar a vida espiritual e social do povo. A leitura da Lei, a confissão dos pecados e a renovação da aliança tornam-se partes importantes desse processo de restauração."
+    },
+    {
+      "livro": "Ester",
+      "abreviacao": "Et",
+      "capitulos": 10,
+      "genero": "Histórico",
+      "autor": "Desconhecido (possivelmente Mardoqueu)",
+      "descricao": "Ester conta como uma jovem judia se torna rainha do Império Persa e, em uma situação de grande perigo, precisa usar sua posição para proteger seu povo. Hamã, um importante oficial do rei, desenvolve um plano para exterminar os judeus do império. Mardoqueu incentiva Ester a interceder, mesmo sabendo que poderia perder a própria vida ao se apresentar diante do rei sem ser chamada. A ameaça é revertida, Hamã é derrotado e os judeus são preservados. Embora o nome de Deus não apareça explicitamente, a narrativa destaca sua providência por trás dos acontecimentos."
+    },
+    {
+      "livro": "Jó",
+      "abreviacao": "Jó",
+      "capitulos": 42,
+      "genero": "Poético / Sapiencial",
+      "autor": "Desconhecido",
+      "descricao": "Jó aborda o sofrimento humano, a justiça de Deus e os limites da compreensão humana diante das circunstâncias da vida. Jó é apresentado como um homem íntegro que perde seus bens, seus filhos e sua saúde, iniciando uma profunda crise pessoal. Seus amigos procuram explicar seu sofrimento a partir da ideia de que todo sofrimento é consequência direta de pecado, mas seus argumentos não conseguem explicar a situação de Jó. Ao longo dos diálogos, surgem questões sobre justiça, sofrimento e soberania divina. No final, Deus responde a Jó, conduzindo-o a reconhecer a grandeza de Deus diante dos limites do conhecimento humano."
+    },
+    {
+      "livro": "Salmos",
+      "abreviacao": "Sl",
+      "capitulos": 150,
+      "genero": "Poético / Sapiencial",
+      "autor": "Vários autores (Davi, Asafe, Coré, Moisés, Salomão, etc.)",
+      "descricao": "Salmos reúne 150 poemas e cânticos que expressam diferentes experiências de fé diante de Deus. Há salmos de louvor, adoração, gratidão, arrependimento, confiança, súplica, lamento e celebração. Muitos estão relacionados a acontecimentos da vida de Davi e de outros servos de Deus, enquanto outros refletem a experiência coletiva de Israel. O livro mostra que a fé pode ser expressa tanto em momentos de alegria quanto em períodos de sofrimento e dúvida. Ao longo de suas páginas, Deus é apresentado como Criador, Rei, protetor, juiz, refúgio e pastor de seu povo."
+    },
+    {
+      "livro": "Provérbios",
+      "abreviacao": "Pv",
+      "capitulos": 31,
+      "genero": "Poético / Sapiencial",
+      "autor": "Salomão, Agur, Lemuel e outros",
+      "descricao": "Provérbios reúne ensinamentos de sabedoria destinados a orientar a vida cotidiana segundo princípios de temor a Deus, justiça e prudência. O livro aborda temas como família, educação dos filhos, trabalho, dinheiro, amizade, palavras, disciplina, relacionamentos e decisões. Grande parte dos ensinamentos é apresentada por meio de contrastes entre o sábio e o insensato, o justo e o ímpio. A sabedoria bíblica não é apresentada apenas como conhecimento, mas como uma maneira correta de viver diante de Deus e das pessoas. O livro começa afirmando que o temor do Senhor é o princípio do conhecimento."
+    },
+    {
+      "livro": "Eclesiastes",
+      "abreviacao": "Ec",
+      "capitulos": 12,
+      "genero": "Poético / Sapiencial",
+      "autor": "Atribuído a Salomão (o 'Pregador')",
+      "descricao": "Eclesiastes apresenta uma reflexão sobre a brevidade da vida e sobre a busca humana por significado. O Pregador examina riqueza, prazer, trabalho, sabedoria, poder e realizações, mostrando que nenhuma dessas coisas consegue oferecer sentido absoluto e permanente à existência. A obra também reconhece os limites humanos diante do tempo, da morte e dos acontecimentos que não podem ser controlados. Em vez de apresentar uma vida sem esperança, o livro conduz o leitor a reconhecer Deus como referência fundamental. Sua conclusão chama o ser humano a temer a Deus e guardar seus mandamentos."
+    },
+    {
+      "livro": "Cântico dos Cânticos",
+      "abreviacao": "Ct",
+      "capitulos": 8,
+      "genero": "Poético / Sapiencial",
+      "autor": "Salomão",
+      "descricao": "Cântico dos Cânticos é uma coleção de poemas que celebra o amor entre um homem e uma mulher. A obra utiliza imagens da natureza, da beleza e do desejo para retratar a atração, a admiração, a espera e a união entre os amantes. O livro apresenta o amor conjugal de forma intensa e poética, destacando sua beleza e exclusividade. Ao longo da tradição bíblica, também recebeu interpretações simbólicas relacionadas ao relacionamento entre Deus e seu povo. Em sua leitura literal, permanece uma celebração da beleza e da força do amor dentro do relacionamento conjugal."
+    },
+    {
+      "livro": "Isaías",
+      "abreviacao": "Is",
+      "capitulos": 66,
+      "genero": "Profético (Profetas Maiores)",
+      "autor": "Isaías",
+      "descricao": "Isaías reúne mensagens de juízo, advertência, esperança e restauração dirigidas principalmente a Judá e às nações ao seu redor. O profeta denuncia a idolatria, a injustiça e a falsa religiosidade do povo, anunciando consequências para sua infidelidade. Ao mesmo tempo, apresenta algumas das mais importantes promessas de restauração do Antigo Testamento, incluindo o futuro governo de um descendente de Davi e as profecias sobre o Servo do Senhor. O livro também aponta para a restauração de Jerusalém, a salvação de Deus e a esperança de uma nova realidade. Sua mensagem une julgamento e esperança, mostrando a soberania de Deus sobre a história."
+    },
+    {
+      "livro": "Jeremias",
+      "abreviacao": "Jr",
+      "capitulos": 52,
+      "genero": "Profético (Profetas Maiores)",
+      "autor": "Jeremias",
+      "descricao": "Jeremias acompanha o ministério de um profeta chamado para advertir Judá durante os anos que antecederam a destruição de Jerusalém. O profeta denuncia a idolatria, a injustiça e a falsa confiança do povo em sua segurança religiosa, anunciando que a Babilônia seria usada como instrumento de juízo. Jeremias enfrenta rejeição, perseguição, prisão e sofrimento por causa de sua mensagem. Apesar das advertências de julgamento, o livro também apresenta promessas de restauração e a esperança de uma Nova Aliança, na qual a Lei de Deus seria escrita no coração do seu povo."
+    },
+    {
+      "livro": "Lamentações",
+      "abreviacao": "Lm",
+      "capitulos": 5,
+      "genero": "Poético / Profético",
+      "autor": "Jeremias",
+      "descricao": "Lamentações reúne cinco poemas que expressam a dor provocada pela destruição de Jerusalém e do Templo. A cidade é retratada como uma mulher desolada depois da guerra, enquanto o povo enfrenta fome, morte, exílio e humilhação. Os poemas reconhecem que a tragédia está relacionada ao pecado e à infidelidade de Judá, mas não escondem a profundidade do sofrimento causado pela destruição. Em meio ao lamento aparece uma das declarações mais conhecidas de esperança na misericórdia de Deus. O livro termina ainda em tom de súplica, deixando evidente a necessidade de restauração."
+    },
+    {
+      "livro": "Ezequiel",
+      "abreviacao": "Ez",
+      "capitulos": 48,
+      "genero": "Profético (Profetas Maiores)",
+      "autor": "Ezequiel",
+      "descricao": "Ezequiel exerce seu ministério entre os judeus exilados na Babilônia e transmite mensagens por meio de discursos, ações simbólicas e visões extraordinárias. O profeta anuncia o julgamento de Jerusalém e explica que o exílio não significa que Deus tenha perdido o controle, mas está relacionado à infidelidade do povo. Entre suas visões estão a glória de Deus, o vale de ossos secos e a restauração de Israel. A segunda parte do livro concentra-se cada vez mais na esperança de renovação, incluindo um novo coração, um novo espírito e uma visão de um futuro Templo. A mensagem combina juízo, restauração e a soberania de Deus."
+    },
+    {
+      "livro": "Daniel",
+      "abreviacao": "Dn",
+      "capitulos": 12,
+      "genero": "Profético (Profetas Maiores)",
+      "autor": "Daniel",
+      "descricao": "Daniel apresenta a vida de um jovem judeu levado para o exílio na Babilônia e sua permanência fiel a Deus dentro de uma cultura estrangeira. As primeiras narrativas mostram Daniel e seus companheiros enfrentando provas de fidelidade, incluindo a fornalha ardente e a cova dos leões. A segunda parte apresenta visões simbólicas sobre reinos, conflitos e acontecimentos futuros. Em meio a essas revelações, destaca-se a mensagem de que os impérios humanos são temporários e que o governo de Deus prevalecerá. O livro combina histórias de fé com visões proféticas e apocalípticas."
+    },
+    {
+      "livro": "Oseias",
+      "abreviacao": "Os",
+      "capitulos": 14,
+      "genero": "Profético (Profetas Menores)",
+      "autor": "Oseias",
+      "descricao": "Oseias utiliza a própria experiência familiar do profeta como uma representação da relação entre Deus e Israel. Seu casamento com Gômer e a infidelidade dela tornam-se uma imagem da infidelidade espiritual de Israel, que havia abandonado a Deus para seguir outros deuses. O profeta denuncia a idolatria, a corrupção e a falta de conhecimento verdadeiro de Deus. Apesar da severidade das advertências, a mensagem não termina no julgamento. Deus continua chamando seu povo ao arrependimento e demonstrando seu desejo de restaurá-lo, revelando a profundidade de seu amor e misericórdia."
+    },
+    {
+      "livro": "Joel",
+      "abreviacao": "Jl",
+      "capitulos": 3,
+      "genero": "Profético (Profetas Menores)",
+      "autor": "Joel",
+      "descricao": "Joel começa descrevendo uma devastadora praga de gafanhotos que atinge a terra e destrói as plantações. O acontecimento é apresentado como uma oportunidade para o povo reconhecer sua condição espiritual e voltar-se para Deus. O profeta relaciona essa crise ao tema do Dia do Senhor, apresentando-o como um tempo de julgamento, mas também de salvação para aqueles que invocarem o nome de Deus. O livro termina com promessas de restauração e com a conhecida profecia sobre o derramamento do Espírito sobre pessoas de diferentes grupos e gerações."
+    },
+    {
+      "livro": "Amós",
+      "abreviacao": "Am",
+      "capitulos": 9,
+      "genero": "Profético (Profetas Menores)",
+      "autor": "Amós",
+      "descricao": "Amós era um pastor e agricultor de Judá chamado por Deus para profetizar contra o Reino do Norte, em um período de prosperidade econômica e decadência moral. O profeta denuncia a exploração dos pobres, a corrupção dos poderosos e uma religiosidade que mantinha seus rituais enquanto ignorava a justiça. Amós anuncia que a prosperidade não impediria o julgamento de Deus sobre a nação. Suas mensagens mostram que Deus não aceita uma adoração separada de uma vida justa. Apesar das advertências severas, o livro termina com uma promessa de restauração da casa de Davi."
+    },
+    {
+      "livro": "Obadias",
+      "abreviacao": "Ob",
+      "capitulos": 1,
+      "genero": "Profético (Profetas Menores)",
+      "autor": "Obadias",
+      "descricao": "Obadias apresenta uma mensagem de julgamento contra Edom, povo descendente de Esaú e relacionado historicamente a Israel. A acusação principal está ligada ao orgulho de Edom e à maneira como seus habitantes se alegraram e participaram dos acontecimentos durante a queda de Jerusalém. O profeta anuncia que a posição aparentemente segura de Edom não o livraria do julgamento divino. Ao mesmo tempo, a profecia afirma que o domínio final pertence ao Senhor e aponta para a restauração do povo de Deus. O livro enfatiza que a soberba e a violência não permanecerão impunes."
+    },
+    {
+      "livro": "Jonas",
+      "abreviacao": "Jn",
+      "capitulos": 4,
+      "genero": "Profético (Profetas Menores)",
+      "autor": "Tradicionalmente atribuído a Jonas",
+      "descricao": "Jonas conta a história de um profeta enviado por Deus para anunciar uma mensagem à cidade de Nínive, capital do império assírio. Em vez de obedecer, Jonas tenta fugir e embarca em direção contrária, provocando uma tempestade durante a viagem. Depois de ser preservado de forma extraordinária, ele finalmente vai a Nínive e anuncia o julgamento. Os habitantes se arrependem, e Deus demonstra misericórdia. A própria reação de Jonas torna-se parte central da narrativa, revelando o conflito entre o desejo humano de julgamento e a disposição de Deus em perdoar aqueles que se arrependem."
+    },
+    {
+      "livro": "Miqueias",
+      "abreviacao": "Mq",
+      "capitulos": 7,
+      "genero": "Profético (Profetas Menores)",
+      "autor": "Miqueias",
+      "descricao": "Miqueias profetiza durante um período de corrupção e injustiça em Judá e Israel. O livro denuncia líderes, sacerdotes e pessoas poderosas que exploravam os mais fracos enquanto mantinham uma aparência de religiosidade. Ao mesmo tempo, Miqueias anuncia o julgamento que viria sobre as cidades e sobre a própria Jerusalém. Em meio às advertências aparecem importantes promessas de esperança, incluindo a profecia sobre o governante que surgiria de Belém. O livro também apresenta uma síntese marcante da vida que Deus requer: praticar a justiça, amar a misericórdia e andar humildemente com Ele."
+    },
+    {
+      "livro": "Naum",
+      "abreviacao": "Na",
+      "capitulos": 3,
+      "genero": "Profético (Profetas Menores)",
+      "autor": "Naum",
+      "descricao": "Naum concentra sua mensagem na queda de Nínive, capital do poderoso Império Assírio. A cidade que havia sido alvo da pregação de Jonas volta a ocupar o centro da história, agora como uma potência marcada pela violência, crueldade e opressão. O profeta anuncia que sua força não impediria o julgamento de Deus. A linguagem do livro descreve a destruição da cidade e a derrota de seu poder militar. Para os povos que haviam sofrido sob o domínio assírio, a mensagem representava a afirmação de que Deus não ignoraria para sempre a violência das nações."
+    },
+    {
+      "livro": "Habacuque",
+      "abreviacao": "Hc",
+      "capitulos": 3,
+      "genero": "Profético (Profetas Menores)",
+      "autor": "Habacuque",
+      "descricao": "Habacuque apresenta um diálogo entre o profeta e Deus diante do problema da injustiça. O profeta questiona por que a violência e a corrupção permanecem sem uma intervenção aparente e se surpreende quando Deus anuncia que usará os babilônios para executar julgamento. Isso gera uma segunda série de perguntas sobre como uma nação ainda mais cruel poderia ser usada por Deus. A resposta divina conduz Habacuque a reconhecer que a justiça de Deus acontecerá no tempo determinado. O livro termina com uma oração de confiança, na qual o profeta declara sua disposição de confiar em Deus mesmo quando as circunstâncias forem adversas."
+    },
+    {
+      "livro": "Sofonias",
+      "abreviacao": "Sf",
+      "capitulos": 3,
+      "genero": "Profético (Profetas Menores)",
+      "autor": "Sofonias",
+      "descricao": "Sofonias anuncia o Dia do Senhor como um momento de julgamento contra Judá e contra diversas nações. O profeta denuncia idolatria, corrupção, violência e indiferença espiritual, mostrando que nem a posição religiosa nem a prosperidade protegeriam os culpados. Entretanto, a mensagem também apresenta uma esperança para aqueles que se humilharem diante de Deus. Um remanescente seria preservado e restaurado, e Jerusalém voltaria a experimentar a presença e a alegria do Senhor. O livro termina com uma das imagens mais consoladoras dos profetas: Deus reunindo, restaurando e alegrando-se com seu povo."
+    },
+    {
+      "livro": "Ageu",
+      "abreviacao": "Ag",
+      "capitulos": 2,
+      "genero": "Profético (Profetas Menores)",
+      "autor": "Ageu",
+      "descricao": "Ageu profetiza aos judeus que haviam retornado do exílio, mas que haviam deixado a reconstrução do Templo em segundo plano. Enquanto cuidavam de suas próprias casas e interesses, a Casa de Deus permanecia em ruínas. O profeta chama o povo a considerar seus caminhos e retomar a obra. Diante do desânimo e das dificuldades, Ageu transmite mensagens de encorajamento e reafirma a presença de Deus. O livro também aponta para uma esperança futura relacionada à ação de Deus entre as nações e à continuidade de sua promessa."
+    },
+    {
+      "livro": "Zacarias",
+      "abreviacao": "Zc",
+      "capitulos": 14,
+      "genero": "Profético (Profetas Menores)",
+      "autor": "Zacarias",
+      "descricao": "Zacarias profetiza no período posterior ao exílio, quando os judeus estavam reconstruindo o Templo e precisavam recuperar a esperança. Por meio de uma série de visões simbólicas, o profeta anuncia que Deus não havia abandonado seu povo e que a obra de restauração continuaria. As mensagens também tratam da purificação espiritual, da liderança de Israel e da restauração de Jerusalém. Na parte final, as profecias assumem um forte caráter escatológico, apresentando imagens relacionadas ao futuro rei, ao Messias, ao conflito entre as nações e ao estabelecimento definitivo do governo de Deus."
+    },
+    {
+      "livro": "Malaquias",
+      "abreviacao": "Ml",
+      "capitulos": 4,
+      "genero": "Profético (Profetas Menores)",
+      "autor": "Malaquias",
+      "descricao": "Malaquias apresenta uma série de confrontos entre Deus e o povo de Israel em um período posterior ao exílio. O profeta denuncia sacerdotes que ofereciam sacrifícios inadequados, pessoas que negligenciavam suas responsabilidades e famílias que quebravam seus compromissos. A mensagem mostra que o retorno do exílio não havia produzido automaticamente uma verdadeira renovação espiritual. Deus chama o povo novamente à fidelidade e anuncia que haverá um dia de julgamento. O livro termina com a promessa de que um mensageiro prepararia o caminho antes da manifestação do Senhor, encerrando o Antigo Testamento com expectativa."
+    }
+  ],
+  "testamento_novo": [
+    {
+      "livro": "Mateus",
+      "abreviacao": "Mt",
+      "capitulos": 28,
+      "genero": "Evangelho",
+      "autor": "Mateus (Levi)",
+      "descricao": "Mateus apresenta Jesus como o Messias prometido nas Escrituras e como o Rei que inaugura o Reino de Deus. O evangelho mostra repetidamente como acontecimentos da vida de Jesus se relacionam com as profecias do Antigo Testamento. Sua narrativa destaca o nascimento e a genealogia de Jesus, o início de seu ministério, seus milagres, o chamado dos discípulos e seus principais ensinamentos, incluindo o Sermão da Montanha. A oposição a Jesus aumenta até sua crucificação, mas a ressurreição confirma sua autoridade. O livro termina com a missão dada aos discípulos de anunciar o evangelho a todas as nações."
+    },
+    {
+      "livro": "Marcos",
+      "abreviacao": "Mc",
+      "capitulos": 16,
+      "genero": "Evangelho",
+      "autor": "João Marcos",
+      "descricao": "Marcos apresenta a vida e o ministério de Jesus de maneira rápida e dinâmica, dando grande destaque às suas ações, milagres e confrontos. Desde o início, Jesus aparece anunciando o Reino de Deus, chamando discípulos, expulsando demônios, curando enfermos e ensinando as multidões. Ao mesmo tempo, o evangelho mostra a crescente oposição que ele enfrenta e a dificuldade dos próprios discípulos em compreender sua missão. A narrativa conduz progressivamente à cruz, onde Jesus entrega sua vida, e à ressurreição. O livro enfatiza Jesus como o Filho de Deus e o Servo que sofre em favor de muitos."
+    },
+    {
+      "livro": "Lucas",
+      "abreviacao": "Lc",
+      "capitulos": 24,
+      "genero": "Evangelho",
+      "autor": "Lucas",
+      "descricao": "Lucas apresenta um relato cuidadosamente organizado sobre a vida, o ministério, a morte e a ressurreição de Jesus. O evangelho começa com os acontecimentos relacionados ao nascimento de João Batista e de Jesus e acompanha Jesus desde a Galileia até sua jornada para Jerusalém. Ao longo da narrativa, destaca-se sua compaixão pelos pobres, pecadores, enfermos, mulheres e pessoas socialmente desprezadas. Parábolas conhecidas, como a do bom samaritano e a do filho pródigo, aparecem neste evangelho. A obra termina com a ressurreição e prepara a continuidade da história em Atos dos Apóstolos."
+    },
+    {
+      "livro": "João",
+      "abreviacao": "Jo",
+      "capitulos": 21,
+      "genero": "Evangelho",
+      "autor": "João (o apóstolo)",
+      "descricao": "João apresenta Jesus de maneira profundamente teológica, destacando sua identidade como o Filho de Deus e o Verbo que se fez carne. O evangelho seleciona sinais e acontecimentos que conduzem o leitor a reconhecer quem Jesus é e a crer nele. Entre seus elementos característicos estão as declarações 'Eu Sou', os grandes discursos de Jesus e os encontros pessoais com diferentes pessoas. A narrativa acompanha sua oposição crescente, sua morte e sua ressurreição. Ao contrário de uma simples biografia, João organiza os acontecimentos para mostrar a glória de Cristo e conduzir o leitor à fé."
+    },
+    {
+      "livro": "Atos dos Apóstolos",
+      "abreviacao": "At",
+      "capitulos": 28,
+      "genero": "Histórico",
+      "autor": "Lucas",
+      "descricao": "Atos dos Apóstolos continua a narrativa iniciada no Evangelho de Lucas e registra o nascimento e a expansão da Igreja cristã. Após a ascensão de Jesus, os discípulos recebem o Espírito Santo no Pentecostes e começam a anunciar o evangelho em Jerusalém. A perseguição provoca a dispersão dos cristãos e contribui para a expansão da mensagem. Pedro ocupa papel importante nos primeiros capítulos, enquanto Paulo se torna o principal personagem da segunda metade, realizando viagens missionárias e anunciando Cristo em diferentes cidades. A narrativa acompanha o avanço do evangelho até sua chegada a Roma."
+    },
+    {
+      "livro": "Romanos",
+      "abreviacao": "Rm",
+      "capitulos": 16,
+      "genero": "Epístola (Carta Paulina)",
+      "autor": "Paulo",
+      "descricao": "Romanos apresenta uma exposição ampla das principais verdades do evangelho e da salvação em Cristo. Paulo começa mostrando a condição pecaminosa de toda a humanidade e explica que ninguém pode ser justificado por suas próprias obras. Em seguida, apresenta a justificação pela fé, a graça de Deus, a união com Cristo e a nova vida conduzida pelo Espírito. A carta também aborda a relação entre judeus e gentios no plano de Deus e trata da soberania divina. Na parte final, Paulo aplica esses ensinamentos à vida cristã, destacando amor, serviço, santidade e relacionamento com os irmãos."
+    },
+    {
+      "livro": "1 Coríntios",
+      "abreviacao": "1Co",
+      "capitulos": 16,
+      "genero": "Epístola (Carta Paulina)",
+      "autor": "Paulo",
+      "descricao": "1 Coríntios foi escrita para uma igreja marcada por divisões, conflitos e problemas relacionados à vida cristã. Paulo trata de disputas entre grupos, imoralidade sexual, questões relacionadas ao casamento, alimentos, liberdade cristã, participação na Ceia e uso dos dons espirituais. O apóstolo procura mostrar que a maturidade cristã deve produzir unidade, santidade e amor. O capítulo 13 apresenta uma das mais conhecidas descrições bíblicas do amor. Nos capítulos finais, Paulo ensina sobre a ressurreição dos mortos e encerra com orientações práticas para a comunidade."
+    },
+    {
+      "livro": "2 Coríntios",
+      "abreviacao": "2Co",
+      "capitulos": 13,
+      "genero": "Epístola (Carta Paulina)",
+      "autor": "Paulo",
+      "descricao": "2 Coríntios revela de maneira especialmente pessoal os sentimentos, sofrimentos e preocupações de Paulo em relação à igreja. O apóstolo responde às críticas de pessoas que questionavam sua autoridade e defende a autenticidade de seu ministério. Ao longo da carta, ele fala sobre consolação, sofrimento, reconciliação, generosidade e a responsabilidade de servir ao evangelho. Paulo mostra que o ministério cristão não é marcado apenas por triunfos, mas também por fraqueza e sofrimento. É nesse contexto que apresenta a ideia de que o poder de Deus se manifesta justamente em meio à fraqueza humana."
+    },
+    {
+      "livro": "Gálatas",
+      "abreviacao": "Gl",
+      "capitulos": 6,
+      "genero": "Epístola (Carta Paulina)",
+      "autor": "Paulo",
+      "descricao": "Gálatas defende a liberdade do evangelho diante daqueles que ensinavam que os cristãos precisavam adotar práticas da Lei judaica para serem aceitos por Deus. Paulo argumenta que a justificação acontece pela fé em Cristo e não pelas obras da Lei. Para defender essa mensagem, ele explica seu chamado apostólico e relembra acontecimentos de seu ministério. A liberdade cristã, porém, não significa viver segundo os desejos da carne, mas servir aos outros em amor. A carta termina apresentando o contraste entre as obras da carne e o fruto do Espírito."
+    },
+    {
+      "livro": "Efésios",
+      "abreviacao": "Ef",
+      "capitulos": 6,
+      "genero": "Epístola (Carta Paulina)",
+      "autor": "Paulo",
+      "descricao": "Efésios apresenta uma visão ampla da obra de Deus em Cristo e da identidade daqueles que pertencem à Igreja. Paulo fala sobre eleição, redenção, graça e a reconciliação entre judeus e gentios, mostrando que Cristo criou um novo povo unido. A Igreja é descrita como corpo de Cristo e como parte do propósito de Deus para a história. Depois de apresentar essas verdades, Paulo passa às consequências práticas: unidade, santidade, relacionamentos familiares, trabalho e vida cristã. A carta termina com a imagem da Armadura de Deus, chamando os cristãos a permanecerem firmes diante das batalhas espirituais."
+    },
+    {
+      "livro": "Filipenses",
+      "abreviacao": "Fp",
+      "capitulos": 4,
+      "genero": "Epístola (Carta Paulina)",
+      "autor": "Paulo",
+      "descricao": "Filipenses é uma carta de Paulo escrita durante um período de prisão e marcada por gratidão, alegria e confiança em Cristo. Paulo agradece aos cristãos de Filipos pelo apoio recebido e os encoraja a permanecerem unidos e firmes na fé. Mesmo enfrentando sofrimento, ele demonstra que sua alegria não depende das circunstâncias. A carta apresenta o exemplo de humildade de Cristo e chama os cristãos a imitarem essa atitude. Paulo também fala sobre contentamento, perseverança, preocupação, oração e a importância de manter a mente voltada para aquilo que é verdadeiro e digno."
+    },
+    {
+      "livro": "Colossenses",
+      "abreviacao": "Cl",
+      "capitulos": 4,
+      "genero": "Epístola (Carta Paulina)",
+      "autor": "Paulo",
+      "descricao": "Colossenses apresenta Cristo como absolutamente superior e suficiente para a salvação e para a vida cristã. Paulo combate ensinamentos que ameaçavam desviar os cristãos da centralidade de Jesus, mostrando que nele habita a plenitude de Deus e que todas as coisas foram criadas por meio dele. A união com Cristo deve produzir uma transformação prática no comportamento dos cristãos. Por isso, Paulo orienta os leitores a abandonar práticas antigas e desenvolver virtudes como compaixão, humildade, perdão e amor. A carta também apresenta orientações para a família, o trabalho, a oração e o testemunho cristão."
+    },
+    {
+      "livro": "1 Tessalonicenses",
+      "abreviacao": "1Ts",
+      "capitulos": 5,
+      "genero": "Epístola (Carta Paulina)",
+      "autor": "Paulo",
+      "descricao": "1 Tessalonicenses foi escrita para uma comunidade jovem na fé que havia enfrentado oposição depois de receber o evangelho. Paulo demonstra gratidão pela perseverança dos cristãos e relembra como o evangelho chegou até eles. A carta oferece orientações sobre santidade, amor fraternal, trabalho e vida comunitária. Um dos principais temas é a esperança na volta de Cristo e a ressurreição daqueles que morreram na fé. Paulo procura consolar os cristãos e ensiná-los a viver preparados para o Dia do Senhor, mantendo uma vida vigilante e fiel."
+    },
+    {
+      "livro": "2 Tessalonicenses",
+      "abreviacao": "2Ts",
+      "capitulos": 3,
+      "genero": "Epístola (Carta Paulina)",
+      "autor": "Paulo",
+      "descricao": "2 Tessalonicenses continua os ensinamentos de Paulo à igreja sobre perseverança, julgamento e a volta de Cristo. Alguns cristãos estavam confusos a respeito do Dia do Senhor e aparentemente acreditavam que ele já havia acontecido. Paulo esclarece que determinados acontecimentos ainda ocorreriam antes da manifestação final de Cristo. A carta também incentiva os cristãos perseguidos a permanecerem firmes e lembra que Deus fará justiça. No final, Paulo trata de um problema prático da comunidade: pessoas que haviam abandonado o trabalho e viviam de maneira desordenada, exortando-as à responsabilidade."
+    },
+    {
+      "livro": "1 Timóteo",
+      "abreviacao": "1Tm",
+      "capitulos": 6,
+      "genero": "Epístola Pastoral",
+      "autor": "Paulo",
+      "descricao": "1 Timóteo reúne orientações de Paulo para Timóteo sobre como conduzir a igreja e preservar a sã doutrina. O apóstolo trata de falsos ensinamentos, oração, comportamento durante as reuniões e qualificações para bispos e diáconos. Também apresenta orientações para diferentes grupos dentro da comunidade, incluindo viúvas, presbíteros e pessoas ricas. Paulo enfatiza que a liderança deve ser acompanhada por caráter íntegro e bom testemunho. A carta ainda adverte contra o amor ao dinheiro e incentiva Timóteo a permanecer fiel ao chamado que recebeu."
+    },
+    {
+      "livro": "2 Timóteo",
+      "abreviacao": "2Tm",
+      "capitulos": 4,
+      "genero": "Epístola Pastoral",
+      "autor": "Paulo",
+      "descricao": "2 Timóteo apresenta as palavras finais de Paulo a seu colaborador Timóteo em um período em que o apóstolo estava preso e consciente da proximidade de sua morte. Paulo encoraja Timóteo a permanecer firme, não se envergonhar do evangelho e suportar as dificuldades do ministério. Ele destaca a importância das Escrituras e alerta sobre o surgimento de falsos ensinadores. A carta também traz lembranças pessoais, referências a companheiros de trabalho e pedidos relacionados à situação de Paulo. No encerramento, o apóstolo afirma ter combatido o bom combate e guardado a fé."
+    },
+    {
+      "livro": "Tito",
+      "abreviacao": "Tt",
+      "capitulos": 3,
+      "genero": "Epístola Pastoral",
+      "autor": "Paulo",
+      "descricao": "Tito apresenta orientações de Paulo para a organização e o fortalecimento das igrejas na ilha de Creta. O apóstolo instrui Tito sobre a escolha de líderes que tenham bom caráter e sejam capazes de ensinar a verdade. A carta também combate falsos ensinamentos e comportamentos que estavam prejudicando a comunidade. Paulo enfatiza repetidamente a relação entre a graça de Deus e uma vida transformada, mostrando que a fé deve produzir boas obras. A igreja é chamada a demonstrar domínio próprio, bondade, submissão às autoridades e disposição para fazer o bem."
+    },
+    {
+      "livro": "Filemom",
+      "abreviacao": "Fm",
+      "capitulos": 1,
+      "genero": "Epístola (Carta Paulina)",
+      "autor": "Paulo",
+      "descricao": "Filemom é uma breve carta pessoal de Paulo relacionada à situação de Onésimo, que havia se tornado cristão durante o período em que esteve com o apóstolo. Paulo escreve a Filemom, proprietário de Onésimo, pedindo que ele receba o homem novamente, mas agora sob uma nova perspectiva: como irmão amado em Cristo. A carta não apresenta um tratado amplo, mas mostra como o evangelho transforma relações pessoais e sociais. Paulo coloca sua própria disposição de assumir possíveis dívidas de Onésimo, apelando ao amor e à reconciliação. É um retrato da aplicação prática da fé cristã a um conflito concreto."
+    },
+    {
+      "livro": "Hebreus",
+      "abreviacao": "Hb",
+      "capitulos": 13,
+      "genero": "Epístola Geral",
+      "autor": "Desconhecido (atribuída por alguns a Paulo, Apolos ou Barnabé)",
+      "descricao": "Hebreus apresenta Jesus Cristo como a revelação definitiva de Deus e como superior às principais figuras e instituições da antiga aliança. O autor mostra que Cristo é superior aos anjos, a Moisés e ao sacerdócio levítico, sendo o verdadeiro e perfeito Sumo Sacerdote. Sua morte é apresentada como o sacrifício definitivo, capaz de realizar aquilo que os antigos sacrifícios apenas simbolizavam. A carta também alerta contra o abandono da fé e chama os leitores à perseverança. No capítulo 11, exemplos de homens e mulheres do passado mostram como a fé conduz à confiança nas promessas de Deus."
+    },
+    {
+      "livro": "Tiago",
+      "abreviacao": "Tg",
+      "capitulos": 5,
+      "genero": "Epístola Geral",
+      "autor": "Tiago (irmão de Jesus)",
+      "descricao": "Tiago apresenta uma visão extremamente prática da vida cristã, mostrando que a fé verdadeira deve produzir atitudes concretas. A carta aborda temas como provações, sabedoria, favoritismo, domínio da língua, conflitos, riquezas, paciência e oração. Tiago adverte contra uma religiosidade apenas verbal e insiste que a fé deve ser demonstrada por obras. Ele também chama os cristãos a controlarem suas palavras e a tratarem os pobres com justiça. Ao longo da carta, a sabedoria que vem de Deus é contrastada com a ambição e os desejos que produzem conflitos."
+    },
+    {
+      "livro": "1 Pedro",
+      "abreviacao": "1Pe",
+      "capitulos": 5,
+      "genero": "Epístola Geral",
+      "autor": "Pedro",
+      "descricao": "1 Pedro foi dirigida a cristãos que viviam dispersos e enfrentavam oposição e sofrimento por causa de sua fé. Pedro começa lembrando a esperança da salvação e a herança reservada aos que pertencem a Cristo. A partir dessa identidade, ele chama os cristãos a viverem de maneira santa e a manterem um bom testemunho diante de uma sociedade que poderia hostilizá-los. A carta aborda sofrimento, submissão, relacionamentos familiares, liderança e cuidado com os irmãos. Cristo é apresentado como exemplo de perseverança no sofrimento e como aquele que sustenta seu povo."
+    },
+    {
+      "livro": "2 Pedro",
+      "abreviacao": "2Pe",
+      "capitulos": 3,
+      "genero": "Epístola Geral",
+      "autor": "Pedro",
+      "descricao": "2 Pedro procura fortalecer os cristãos diante de falsos mestres e de ensinamentos que distorciam a fé. Pedro começa lembrando os fundamentos da vida cristã e incentivando os leitores a crescerem em virtudes, conhecimento e maturidade espiritual. Em seguida, denuncia pessoas que exploravam a comunidade e viviam em imoralidade enquanto ensinavam ideias contrárias ao evangelho. A carta também responde àqueles que questionavam a promessa da volta de Cristo. Pedro reafirma que o Dia do Senhor virá e chama os cristãos a viverem em santidade enquanto aguardam os novos céus e a nova terra."
+    },
+    {
+      "livro": "1 João",
+      "abreviacao": "1Jo",
+      "capitulos": 5,
+      "genero": "Epístola Geral",
+      "autor": "João (o apóstolo)",
+      "descricao": "1 João apresenta fundamentos para a comunhão com Deus e para o discernimento entre a verdadeira e a falsa fé. O autor enfatiza que Jesus Cristo realmente veio em carne e que negar essa verdade é um grave erro. A carta apresenta sinais que caracterizam a vida de quem pertence a Deus: obediência, amor aos irmãos, rejeição do pecado e permanência na verdade. João também procura dar segurança aos cristãos quanto à sua relação com Deus e à vida eterna. O amor ocupa posição central, sendo apresentado não apenas como sentimento, mas como uma prática concreta na vida dos cristãos."
+    },
+    {
+      "livro": "2 João",
+      "abreviacao": "2Jo",
+      "capitulos": 1,
+      "genero": "Epístola Geral",
+      "autor": "João (o apóstolo)",
+      "descricao": "2 João é uma breve carta que combina dois temas fundamentais: permanecer na verdade e viver em amor. João demonstra alegria ao saber que alguns membros da comunidade estão andando de acordo com os mandamentos de Deus. Ao mesmo tempo, alerta contra pessoas que negavam que Jesus Cristo havia vindo em carne e que procuravam espalhar esse ensino. A comunidade deveria manter sua fidelidade à verdade sem oferecer apoio àqueles que deliberadamente propagavam uma doutrina contrária a Cristo. A carta mostra a necessidade de equilibrar amor cristão e discernimento espiritual."
+    },
+    {
+      "livro": "3 João",
+      "abreviacao": "3Jo",
+      "capitulos": 1,
+      "genero": "Epístola Geral",
+      "autor": "João (o apóstolo)",
+      "descricao": "3 João é uma carta pessoal que apresenta diferentes exemplos de comportamento dentro da comunidade cristã. João elogia Gaio por sua fidelidade e hospitalidade para com irmãos que viajavam para anunciar o evangelho. Em contraste, Diótrefes é apresentado como alguém que buscava exercer autoridade e rejeitava os enviados de João. O autor também menciona Demétrio como alguém que possuía bom testemunho. A pequena carta mostra como hospitalidade, humildade, liderança e fidelidade à verdade eram questões importantes na vida das primeiras comunidades cristãs."
+    },
+    {
+      "livro": "Judas",
+      "abreviacao": "Jd",
+      "capitulos": 1,
+      "genero": "Epístola Geral",
+      "autor": "Judas (irmão de Tiago)",
+      "descricao": "Judas escreve para alertar os cristãos sobre pessoas que haviam se infiltrado na comunidade e estavam distorcendo a graça de Deus para justificar comportamentos imorais. O autor lembra exemplos do Antigo Testamento e de outras tradições conhecidas por seus leitores para mostrar que Deus julga a rebeldia e a corrupção. Diante desse perigo, os cristãos são chamados a batalhar pela fé que receberam e a permanecer firmes na verdade. Ao mesmo tempo, Judas orienta os crentes a agir com misericórdia para com aqueles que estão em dúvida ou em perigo. A carta termina com uma poderosa declaração de confiança na capacidade de Deus de guardar seu povo."
+    },
+    {
+      "livro": "Apocalipse",
+      "abreviacao": "Ap",
+      "capitulos": 22,
+      "genero": "Profético / Apocalíptico",
+      "autor": "João",
+      "descricao": "Apocalipse apresenta uma série de visões recebidas por João que revelam acontecimentos relacionados à Igreja, ao julgamento e à consumação da história. O livro começa com mensagens de Cristo às sete igrejas da Ásia e depois apresenta uma sequência de visões envolvendo o trono de Deus, o Cordeiro, selos, trombetas, taças, poderes políticos e espirituais e o conflito final entre o bem e o mal. A linguagem é fortemente simbólica e apresenta imagens de grande significado teológico. Apesar das cenas de julgamento e conflito, a mensagem central é a vitória definitiva de Cristo, a derrota do mal, o julgamento final e a criação de novos céus e nova terra, onde Deus habitará com seu povo."
+    }
+  ]
+}
