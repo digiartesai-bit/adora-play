@@ -166,6 +166,34 @@
     background: rgba(3, 12, 20, 0.42);
 }
 
+.bible-chapter-description {
+    margin: 18px 0 4px;
+    padding: 14px 16px;
+    border-left: 3px solid #d4af35;
+    background: rgba(212, 175, 53, 0.08);
+    color: rgba(255, 255, 255, 0.72);
+    font-size: 13px;
+    line-height: 1.55;
+}
+
+.bible-chapter-description strong {
+    display: block;
+    color: #f2d778;
+    font-size: 17px;
+}
+
+.bible-chapter-description span {
+    display: block;
+    margin-top: 4px;
+    color: rgba(255, 255, 255, 0.62);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.bible-chapter-description p {
+    margin: 7px 0 0;
+}
+
 .bible-book-groups {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -206,7 +234,8 @@
 
 .bible-number-grid {
     grid-template-columns: repeat(auto-fill, minmax(58px, 1fr));
-    margin-top: 18px;
+    margin-top: 8px;
+    padding: 0 0 8px 0;
 }
 
 .bible-number-button {
