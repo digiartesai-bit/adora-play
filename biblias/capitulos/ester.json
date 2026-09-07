@@ -1,0 +1,52 @@
+{
+    "Ester 1": {
+        "titulo": "O banquete do rei e a queda de Vasti",
+        "tema_central": "O poder do rei e a destituição da rainha Vasti",
+        "descricao": "O rei Assuero realiza um grande banquete para demonstrar a riqueza e a glória de seu reino. Durante a celebração, ele ordena que a rainha Vasti apareça diante dos convidados, mas ela se recusa a obedecer. A atitude de Vasti provoca a ira do rei e seus conselheiros recomendam que ela seja destituída de sua posição, preparando o caminho para uma nova rainha."
+    },
+    "Ester 2": {
+        "titulo": "Ester é escolhida como rainha",
+        "tema_central": "A ascensão de Ester ao trono e a providência de Deus",
+        "descricao": "Depois da destituição de Vasti, o rei procura uma nova rainha entre as jovens do império. Ester, uma jovem judia criada por seu primo Mardoqueu, é levada ao palácio e conquista o favor de todos que a conhecem. Ela é escolhida por Assuero para ser rainha, sem revelar sua origem judaica. No mesmo período, Mardoqueu descobre uma conspiração contra o rei e o fato é registrado nos anais do reino."
+    },
+    "Ester 3": {
+        "titulo": "Hamã trama contra os judeus",
+        "tema_central": "O plano de Hamã para destruir o povo judeu",
+        "descricao": "Hamã é elevado pelo rei a uma posição de grande autoridade e todos devem se curvar diante dele. Mardoqueu, porém, recusa-se a prestar-lhe essa honra, provocando a ira de Hamã. Ao descobrir que Mardoqueu era judeu, Hamã decide não apenas puni-lo, mas destruir todos os judeus do império. Ele convence Assuero a autorizar um decreto para exterminar o povo judeu em uma data determinada."
+    },
+    "Ester 4": {
+        "titulo": "Ester decide interceder pelo seu povo",
+        "tema_central": "Coragem, jejum e disposição para interceder",
+        "descricao": "Ao saber do decreto contra os judeus, Mardoqueu demonstra profundo lamento e pede que Ester interceda diante do rei. Ester inicialmente explica que aproximar-se do rei sem ser chamada poderia resultar em sua morte. Mardoqueu a lembra de que sua posição como rainha pode ter sido providencial para aquele momento. Ester então decide arriscar a própria vida e convoca os judeus de Susã a jejuarem por ela."
+    },
+    "Ester 5": {
+        "titulo": "Ester se apresenta diante do rei",
+        "tema_central": "Sabedoria e coragem diante de uma situação de grande risco",
+        "descricao": "Depois do período de jejum, Ester se apresenta diante do rei e encontra favor aos seus olhos. Assuero estende o cetro e poupa sua vida, perguntando o que ela deseja. Ester convida o rei e Hamã para um banquete e, durante a ocasião, convida-os novamente para outro banquete no dia seguinte. Hamã sai satisfeito por sua posição, mas continua perturbado pela recusa de Mardoqueu em honrá-lo e prepara uma forca para executá-lo."
+    },
+    "Ester 6": {
+        "titulo": "Mardoqueu é honrado",
+        "tema_central": "A reversão inesperada da situação de Mardoqueu",
+        "descricao": "Naquela noite, o rei perde o sono e ordena que sejam lidos os registros históricos do reino. Ele descobre que Mardoqueu havia denunciado uma conspiração contra sua vida, mas nunca havia sido recompensado por isso. Quando Hamã chega para pedir a execução de Mardoqueu, o rei pergunta como deveria honrar alguém que lhe agradasse. Hamã pensa que a honra seria para ele, mas acaba sendo obrigado a conduzir Mardoqueu pelas ruas em uma demonstração pública de reconhecimento."
+    },
+    "Ester 7": {
+        "titulo": "A queda de Hamã",
+        "tema_central": "A denúncia de Ester e a condenação de Hamã",
+        "descricao": "No segundo banquete, Ester finalmente revela ao rei que é judia e que seu povo foi condenado à destruição. Ela identifica Hamã como o responsável pelo plano. Assuero fica indignado ao descobrir a trama e, ao retornar à sala, encontra Hamã junto ao leito de Ester. Interpretando a cena como uma tentativa de afronta, o rei ordena sua execução. Hamã é levado à mesma forca que havia preparado para Mardoqueu."
+    },
+    "Ester 8": {
+        "titulo": "Um novo decreto em favor dos judeus",
+        "tema_central": "A defesa dos judeus e a reversão da ameaça",
+        "descricao": "Após a morte de Hamã, Assuero entrega a Ester a casa e os bens de Hamã e concede a Mardoqueu a posição que pertencia ao inimigo. Como o decreto anterior não podia simplesmente ser revogado, Ester intercede novamente pelo seu povo. O rei autoriza a emissão de um novo decreto permitindo que os judeus se defendam de seus inimigos. A tristeza dos judeus dá lugar à alegria, e muitos habitantes do império passam a respeitar o povo judeu."
+    },
+    "Ester 9": {
+        "titulo": "A vitória dos judeus e a instituição do Purim",
+        "tema_central": "Livramento dos judeus e celebração da vitória",
+        "descricao": "Chega o dia estabelecido pelo decreto de Hamã, mas a situação é completamente revertida. Os judeus recebem autoridade para se defender de seus inimigos e prevalecem sobre aqueles que procuravam destruí-los. Em Susã, Ester pede um segundo dia de defesa e os dez filhos de Hamã são mortos. Depois da vitória, Mardoqueu estabelece a celebração anual do Purim, para que os judeus se lembrem dos dias em que sua tristeza foi transformada em alegria e seu luto em celebração."
+    },
+    "Ester 10": {
+        "titulo": "A grandeza de Mardoqueu",
+        "tema_central": "A exaltação de Mardoqueu e seu serviço ao povo",
+        "descricao": "O livro termina destacando a grandeza de Assuero e, especialmente, a posição alcançada por Mardoqueu. Ele se torna o segundo homem mais importante do império, trabalhando pelo bem de seu povo e buscando a paz entre os judeus. Sua trajetória encerra a narrativa mostrando a mudança completa de sua situação: de homem desprezado por Hamã a autoridade respeitada, cuja influência é usada em favor de seu povo."
+    }
+}

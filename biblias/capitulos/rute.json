@@ -1,0 +1,22 @@
+{
+    "Rute 1": {
+        "titulo": "Rute acompanha Noemi",
+        "tema_central": "Fidelidade de Rute e retorno de Noemi a Belém",
+        "descricao": "Durante um período de fome em Belém, Elimeleque e Noemi partem com seus dois filhos para Moabe. Após a morte de Elimeleque e dos filhos, Noemi decide voltar para Belém. Rute, sua nora moabita, demonstra profunda lealdade e escolhe acompanhá-la, deixando seu povo e sua terra para seguir o Deus de Israel. As duas chegam a Belém no início da colheita da cevada."
+    },
+    "Rute 2": {
+        "titulo": "Rute nos campos de Boaz",
+        "tema_central": "A providência de Deus por meio da bondade de Boaz",
+        "descricao": "Rute vai aos campos para recolher espigas e, pela providência de Deus, chega ao campo de Boaz, parente de Elimeleque. Boaz percebe sua fidelidade a Noemi e ordena que seus trabalhadores a tratem com bondade. Ele permite que Rute recolha espigas entre os ceifeiros e ainda lhe oferece proteção e alimento. Ao saber quem é Boaz, Noemi reconhece nele um possível resgatador da família."
+    },
+    "Rute 3": {
+        "titulo": "Rute pede proteção a Boaz",
+        "tema_central": "O pedido de Rute e a disposição de Boaz em cumprir seu papel de resgatador",
+        "descricao": "Noemi orienta Rute a procurar Boaz na eira e demonstrar seu desejo de que ele cumpra o papel de resgatador da família. Rute segue as instruções e pede que Boaz estenda sua proteção sobre ela. Boaz reconhece sua virtude e disposição, mas explica que existe outro parente com prioridade no direito de resgate. Ele promete resolver a questão e manda Rute voltar para Noemi com provisão."
+    },
+    "Rute 4": {
+        "titulo": "Boaz resgata Rute e nasce Obede",
+        "tema_central": "O resgate da família de Noemi e a origem da linhagem de Davi",
+        "descricao": "Boaz reúne os anciãos da cidade e apresenta ao parente mais próximo o direito de resgatar as terras de Elimeleque e casar-se com Rute. O homem recusa o direito quando percebe que isso envolveria assumir também a responsabilidade pela descendência de Elimeleque. Boaz então assume oficialmente o papel de resgatador, casa-se com Rute e ela dá à luz Obede. O nascimento traz alegria a Noemi, e Obede torna-se avô de Davi, inserindo Rute na linhagem real de Israel."
+    }
+}

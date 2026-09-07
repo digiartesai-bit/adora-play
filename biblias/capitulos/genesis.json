@@ -1,0 +1,252 @@
+{
+    "Genesis 1": {
+        "titulo": "A criação do mundo",
+        "tema_central": "A criação de todas as coisas por Deus.",
+        "descricao": "Deus cria os céus, a terra, a luz, os mares, a vegetação, os astros, os animais e, por fim, o ser humano à sua imagem e semelhança."
+    },
+    "Genesis 2": {
+        "titulo": "A criação do ser humano e o Jardim do Éden",
+        "tema_central": "A criação do ser humano, o Jardim do Éden e a criação da mulher.",
+        "descricao": "Deus conclui sua obra, forma o homem do pó da terra e o coloca no Jardim do Éden para cultivá-lo. Estabelece a ordem sobre a árvore do conhecimento do bem e do mal e, vendo que o homem está sozinho, cria a mulher."
+    },
+    "Genesis 3": {
+        "titulo": "A entrada do pecado no mundo",
+        "tema_central": "A entrada do pecado no mundo por meio da desobediência humana.",
+        "descricao": "A serpente engana a mulher, levando-a a comer do fruto que Deus havia proibido, e ela também oferece ao homem. Após desobedecerem, ambos percebem sua nudez e tentam esconder-se de Deus. O Senhor os confronta e anuncia as consequências do pecado, incluindo sofrimento, conflito e a expulsão do Jardim do Éden"
+    },
+    "Genesis 4": {
+        "titulo": "Caim e Abel",
+        "tema_central": "O pecado, a inveja e suas consequências, contrastados com a continuidade da humanidade e da busca por Deus.",
+        "descricao": "Caim e Abel, filhos de Adão e Eva, apresentam ofertas ao Senhor, mas Deus se agrada da oferta de Abel. Dominado pela inveja e pelo pecado, Caim mata seu irmão no campo. Deus o confronta e o condena a viver como fugitivo e errante pela terra, mas também coloca sobre ele um sinal para protegê-lo. O capítulo apresenta ainda a descendência de Caim e o nascimento de Sete, filho de Adão e Eva."
+    },
+    "Genesis 5": {
+        "titulo": "Genealogia de Adão a Noé",
+        "tema_central": "A continuidade da humanidade desde Adão até Noé e a presença de Deus em meio às gerações.",
+        "descricao": "O capítulo apresenta a genealogia de Adão até Noé, registrando os principais descendentes e a duração de suas vidas. Entre eles está Enoque, que se destaca por andar com Deus e não experimentar a morte da mesma maneira que os demais. Noé nasce como filho de Lameque, que lhe atribui um significado especial relacionado ao alívio do trabalho e do sofrimento da terra."
+    },
+    "Genesis 6": {
+        "titulo": "A corrupção da humanidade e a preparação para o dilúvio",
+        "tema_central": "A corrupção da humanidade, o juízo de Deus e a preservação de Noé por sua fidelidade.",
+        "descricao": "A humanidade se multiplica sobre a terra, mas a maldade e a corrupção crescem profundamente. Deus decide trazer o juízo sobre a humanidade por meio de um grande dilúvio, mas Noé encontra graça diante dele por ser justo em sua geração. Deus ordena que Noé construa uma arca para preservar sua família e os animais. Noé obedece às instruções de Deus e se prepara para o grande julgamento que se aproxima."
+    },
+    "Genesis 7": {
+        "titulo": "O dilúvio e a preservação de Noé",
+        "tema_central": "O juízo de Deus sobre a humanidade e a preservação de Noé e dos que estavam com ele na arca.",
+        "descricao": "Deus ordena que Noé entre na arca com sua família e leve consigo os animais escolhidos. Noé obedece, e depois de sete dias as águas do dilúvio começam a cobrir a terra. A chuva cai durante quarenta dias e quarenta noites, fazendo as águas subirem até cobrirem os montes. Todos os seres vivos que estavam fora da arca morrem, enquanto Noé, sua família e os animais são preservados dentro dela."
+    },
+    "Genesis 8": {
+        "titulo": "A saída do dilúvio e a nova aliança",
+        "tema_central": "A preservação de Noé, o fim do juízo e o recomeço da vida sobre a terra.",
+        "descricao": "Deus se lembra de Noé e faz as águas começarem a baixar. A arca repousa sobre os montes de Ararate, e Noé envia um corvo e depois uma pomba para verificar se as águas haviam diminuído. Quando a terra seca, Deus ordena que Noé, sua família e os animais saiam da arca. Noé então constrói um altar e oferece sacrifícios ao Senhor, que promete não voltar a destruir todos os seres vivos daquela maneira."
+    },
+    "Genesis 9": {
+        "titulo": "A nova aliança e a bênção de Noé",
+        "tema_central": "A promessa de Deus de não destruir a terra novamente e a bênção dada a Noé e seus filhos.",
+        "descricao": "Deus abençoa Noé e sua família e lhes ordena que sejam fecundos e encham a terra. Ele estabelece uma aliança com Noé, prometendo nunca mais destruir a terra por meio de um dilúvio, tendo o arco nas nuvens como sinal dessa aliança. Noé planta uma vinha, embriaga-se e acaba sendo visto em situação de nudez por seu filho Cam, enquanto Sem e Jafé demonstram respeito ao pai. O capítulo termina com as bênçãos e a maldição pronunciadas por Noé sobre seus filhos."
+    },
+    "Genesis 10": {
+        "titulo": "A descendencia de Noé e a dispersão das nações",
+        "tema_central": "A formação e a expansão dos povos e nações a partir dos descendentes de Noé.",
+        "descricao": "O capítulo apresenta a descendência dos três filhos de Noé: Sem, Cam e Jafé, mostrando como as famílias se espalharam pela terra após o dilúvio. São mencionados diversos povos, territórios e nações que surgiram dessas gerações. Entre os descendentes de Cam está Ninrode, descrito como poderoso na terra e associado ao início de importantes reinos. Ao final, a genealogia de Sem prepara a continuidade da linhagem que será apresentada nos capítulos seguintes."
+    },
+    "Genesis 11": {
+        "titulo": "A Torre de Babel e a dispersão das nações",
+        "tema_central": "A soberba humana, a dispersão dos povos e a continuidade da linhagem que levará até Abrão.",
+        "descricao": "Após o dilúvio, os povos ainda falavam uma só língua e se estabeleceram na terra de Sinar. Decididos a construir uma cidade e uma torre que alcançasse os céus, eles procuram tornar célebre o próprio nome. Deus confunde sua língua, fazendo com que deixem de se entender, e os espalha por toda a terra. O capítulo também apresenta a genealogia de Sem até Abrão, preparando a narrativa de sua chamada."
+    },
+    "Genesis 12": {
+        "titulo": "O chamado de Abrão e a promessa de Deus",
+        "tema_central": "O chamado de Abrão e a promessa de Deus de formar uma grande nação por meio dele.",
+        "descricao": "Deus chama Abrão para deixar sua terra, sua parentela e a casa de seu pai, prometendo fazer dele uma grande nação e abençoar todas as famílias da terra por meio dele. Abrão obedece e parte para Canaã com Sarai e Ló. Em Canaã, Deus aparece a Abrão e promete dar aquela terra à sua descendência, levando-o a construir altares ao Senhor. Depois, devido à fome, Abrão desce ao Egito, onde teme por sua vida e diz que Sarai é sua irmã, mas Deus intervém e preserva Sarai."
+    },
+    "Genesis 13": {
+        "titulo": "Abrão e Ló se separam",
+        "tema_central": "A separação entre Abrão e Ló e a reafirmação das promessas de Deus.",
+        "descricao": "Abrão retorna do Egito para Canaã com sua família e seus muitos bens. Como as riquezas de Abrão e Ló haviam aumentado, surgem conflitos entre seus pastores. Para evitar a contenda, Abrão permite que Ló escolha primeiro onde deseja estabelecer-se, e Ló escolhe as terras férteis do vale do Jordão, enquanto Abrão permanece em Canaã. Depois da separação, Deus reafirma a Abrão a promessa de dar aquela terra à sua descendência."
+    },
+    "Genesis 14": {
+        "titulo": "Abrão resgata Ló e é abençoado por Melquisedeque",
+        "tema_central": "A vitória de Abrão sobre os reis e o encontro com Melquisedeque.",
+        "descricao": "Uma guerra entre diferentes reis faz com que Sodoma e outras cidades sejam derrotadas, e Ló é levado como prisioneiro. Ao saber disso, Abrão reúne seus homens e parte para resgatá-lo, derrotando os inimigos e recuperando os bens e as pessoas capturadas. No retorno, Abrão encontra Melquisedeque, rei de Salém e sacerdote do Deus Altíssimo, que o abençoa. Abrão lhe entrega o dízimo de tudo e recusa ficar com os bens oferecidos pelo rei de Sodoma."
+    },
+    "Genesis 15": {
+        "titulo": "Deus faz uma aliança com Abrão",
+        "tema_central": "A promessa de Deus a Abrão e a aliança que confirma sua descendência e a posse da terra.",
+        "descricao": "Deus aparece a Abrão e promete protegê-lo e recompensá-lo, reafirmando que ele terá um descendente e uma descendência numerosa. Abrão crê na promessa, e sua fé lhe é atribuída como justiça. Deus então estabelece uma aliança com ele, revelando que seus descendentes seriam estrangeiros e sofreriam por um período, mas depois retornariam à terra que lhes seria dada."
+    },
+    "Genesis 16": {
+        "titulo": "Hagar e o nascimento de Ismael",
+        "tema_central": "A tentativa humana de cumprir a promessa de Deus e as consequências da decisão de Abrão e Sarai.",
+        "descricao": "Sarai, ainda sem filhos, entrega sua serva Hagar a Abrão para que tenha um filho. Hagar engravida, mas o relacionamento entre as duas se torna conflituoso, levando Hagar a fugir para o deserto. O anjo do Senhor a encontra, anuncia o nascimento de Ismael e promete multiplicar sua descendência. Hagar retorna, e Abrão se torna pai de Ismael."
+    },
+    "Genesis 17": {
+        "titulo": "Deus confirma sua aliança com Abraão",
+        "tema_central": "A confirmação da aliança de Deus com Abraão e a promessa do nascimento de Isaque.",
+        "descricao": "Deus aparece a Abrão, confirma sua aliança e muda seu nome para Abraão, prometendo torná-lo pai de muitas nações. Como sinal da aliança, estabelece a circuncisão para Abraão e todos os homens de sua casa. Sarai também recebe o nome Sara, e Deus anuncia que ela terá um filho chamado Isaque, por meio de quem a aliança será estabelecida. Deus também promete abençoar Ismael e fazer dele uma grande descendência."
+    },
+    "Genesis 18": {
+        "titulo": "A promessa de Isaque e a intercessão por Sodoma",
+        "tema_central": "A confirmação da promessa de um filho a Abraão e sua intercessão diante do juízo anunciado sobre Sodoma.",
+        "descricao": "O Senhor aparece a Abraão junto aos carvalhais de Manre, acompanhado de dois homens, e reafirma que Sara terá um filho apesar de sua idade avançada. Depois, Deus revela que o clamor contra Sodoma e Gomorra é grande e anuncia o julgamento sobre as cidades. Abraão então intercede diante do Senhor, pedindo misericórdia caso houvesse justos entre os habitantes de Sodoma."
+    },
+    "Genesis 19": {
+        "titulo": "A destruição de Sodoma e Gomorra",
+        "tema_central": "O juízo de Deus sobre Sodoma e Gomorra e o livramento de Ló e sua família.",
+        "descricao": "Dois anjos chegam a Sodoma e são recebidos por Ló, que os hospeda em sua casa. Os homens da cidade cercam o local, mas os anjos protegem Ló e anunciam a destruição iminente. Ló, sua esposa e suas filhas deixam a cidade, e Deus faz chover fogo e enxofre sobre Sodoma e Gomorra. Durante a fuga, a esposa de Ló olha para trás e se transforma em uma estátua de sal."
+    },
+    "Genesis 20": {
+        "titulo": "Abraão e Abimeleque",
+        "tema_central": "A proteção de Deus sobre Sara e a preservação da promessa feita a Abraão.",
+        "descricao": "Abraão viaja para Gerar e, temendo por sua vida, apresenta Sara como sua irmã. Abimeleque, rei de Gerar, manda buscar Sara, mas Deus aparece a ele em sonho e o adverte de que ela é mulher de Abraão. Abimeleque devolve Sara, repreende Abraão e lhe oferece presentes. Depois, Abraão ora por Abimeleque e por sua casa, e Deus restaura a capacidade de gerar filhos que havia sido interrompida."
+    },
+    "Genesis 21": {
+        "titulo": "O nascimento de Isaque e a expulsão de Hagar",
+        "tema_central": "O cumprimento da promessa de Deus com o nascimento de Isaque e a preservação de Ismael.",
+        "descricao": "Deus cumpre sua promessa e Sara dá à luz Isaque, filho de Abraão. Após o desmame do menino, Sara pede que Hagar e Ismael sejam expulsos, e Deus orienta Abraão a atender ao pedido, prometendo cuidar de Ismael. Hagar e seu filho partem para o deserto, onde Deus os sustenta e confirma que Ismael se tornará uma grande nação. O capítulo também registra a aliança de Abraão com Abimeleque e sua permanência na terra dos filisteus."
+    },
+    "Genesis 22": {
+        "titulo": "Abraão é provado e Deus provê o cordeiro",
+        "tema_central": "A fé e obediência de Abraão diante da prova e a provisão de Deus.",
+        "descricao": "Deus prova Abraão ordenando que ofereça Isaque como sacrifício. Abraão obedece e segue com o filho até o monte indicado por Deus, mas, no momento decisivo, o Senhor o impede de sacrificá-lo. Um carneiro é providenciado para ser oferecido em seu lugar. Após a prova, Deus reafirma sua promessa de multiplicar a descendência de Abraão e abençoar por meio dela todas as nações."
+    },
+    "Genesis 23": {
+        "titulo": "A morte de Sara e a compra da sepultura",
+        "tema_central": "A morte de Sara e a aquisição de um local de sepultamento para sua família na terra de Canaã.",
+        "descricao": "Sara morre aos cento e vinte e sete anos em Quiriate-Arba, em Canaã. Abraão lamenta sua morte e procura entre os habitantes da terra um local para sepultá-la. Ele negocia com Efrom, o heteu, e compra o campo e a caverna de Macpela, em Hebrom. Assim, Abraão adquire legalmente sua primeira propriedade na terra prometida para servir como sepultura de Sara."
+    },
+    "Genesis 24": {
+        "titulo": "Abraão encontra uma esposa para Isaque",
+        "tema_central": "A providência de Deus na escolha de Rebeca como esposa de Isaque.",
+        "descricao": "Abraão envia seu servo à sua terra de origem para encontrar uma esposa para Isaque. O servo ora pedindo a Deus um sinal, e Rebeca aparece junto ao poço, oferecendo água a ele e aos seus camelos. Reconhecendo a direção de Deus, o servo é recebido pela família de Rebeca e apresenta sua missão. Rebeca aceita partir com ele, encontra Isaque e torna-se sua esposa."
+    },
+    "Genesis 25": {
+        "titulo": "A morte de Abraão e o nascimento de Esaú e Jacó",
+        "tema_central": "A continuidade da descendência de Abraão por meio de Isaque e o início da história de Esaú e Jacó.",
+        "descricao": "Abraão tem outros filhos com Quetura, mas deixa sua herança principal para Isaque. Depois de viver cento e setenta e cinco anos, Abraão morre e é sepultado por Isaque e Ismael junto de Sara. Rebeca, esposa de Isaque, dá à luz Esaú e Jacó, que já demonstram conflito desde o ventre. Esaú, chegando do campo com fome, vende seu direito de primogenitura a Jacó em troca de comida."
+    },
+    "Genesis 26": {
+        "titulo": "Isaque e a confirmação da promessa",
+        "tema_central": "A fidelidade de Deus à aliança feita com Abraão e a prosperidade de Isaque na terra dos filisteus.",
+        "descricao": "Durante uma fome, Deus orienta Isaque a permanecer na terra e reafirma a aliança feita com Abraão. Isaque passa a viver em Gerar e, temendo por sua vida, apresenta Rebeca como sua irmã. Deus o prospera, mas sua riqueza provoca a inveja dos filisteus e conflitos pelos poços. Depois de novas disputas, Isaque encontra um lugar de paz e Deus aparece novamente para confirmar sua promessa."
+    },
+    "Genesis 27": {
+        "titulo": "Jacó recebe a bênção de Isaque",
+        "tema_central": "A bênção de Isaque passa a Jacó por meio de uma estratégia de Rebeca, provocando o conflito entre os irmãos.",
+        "descricao": "Isaque, já idoso e com a visão enfraquecida, decide abençoar Esaú antes de morrer. Rebeca orienta Jacó a se passar pelo irmão e preparar uma refeição para receber a bênção destinada ao primogênito. Jacó engana o pai e recebe a bênção, enquanto Esaú retorna e descobre o que aconteceu. Dominado pela ira, Esaú decide matar Jacó após a morte de Isaque, levando Rebeca a enviá-lo para a casa de seu irmão Labão."
+    },
+    "Genesis 28": {
+        "titulo": "Jacó parte e sonha com a escada",
+        "tema_central": "A confirmação da promessa de Deus a Jacó e sua presença durante a jornada.",
+        "descricao": "Jacó deixa sua família e parte para Padã-Arã, onde deverá encontrar uma esposa entre os parentes de sua mãe. Durante a viagem, ele passa a noite em Betel e sonha com uma escada que liga a terra ao céu, com anjos subindo e descendo por ela. Deus aparece e confirma a Jacó as promessas feitas a Abraão e Isaque, garantindo sua presença, proteção e descendência. Ao acordar, Jacó reconhece a santidade daquele lugar e faz um voto ao Senhor."
+    },
+    "Genesis 29": {
+        "titulo": "Jacó, Lia e Raquel",
+        "tema_central": "A chegada de Jacó à casa de Labão, seu amor por Raquel e os acontecimentos que formam sua família.",
+        "descricao": "Jacó chega à terra de seus parentes e encontra Raquel junto a um poço, apaixonando-se por ela. Ele concorda em trabalhar sete anos para Labão a fim de se casar com Raquel, mas é enganado e recebe Lia como esposa. Depois, Jacó também se casa com Raquel e continua trabalhando por ela. Lia começa a ter filhos, enquanto Raquel permanece estéril naquele período, dando início à formação da família de Jacó."
+    },
+    "Genesis 30": {
+        "titulo": "Os filhos de Jacó e sua prosperidade",
+        "tema_central": "A formação da família de Jacó e o crescimento de seus bens durante o trabalho com Labão.",
+        "descricao": "Raquel, desejando filhos, entrega sua serva Bila a Jacó, enquanto Lia também oferece sua serva Zilpa. Assim, Jacó tem novos filhos, aumentando sua família. Depois, Raquel concebe e dá à luz José. Jacó deseja retornar à sua terra, mas continua trabalhando para Labão e passa a prosperar grandemente, aumentando seus rebanhos por meio de acordos sobre os animais."
+    },
+    "Genesis 31": {
+        "titulo": "Jacó deixa a casa de Labão",
+        "tema_central": "A partida de Jacó da casa de Labão sob a direção de Deus e a proteção divina durante sua jornada.",
+        "descricao": "Jacó percebe que a atitude de Labão e de seus filhos mudou e Deus ordena que ele retorne à terra de seus pais. Com sua família e seus bens, Jacó parte secretamente de Padã-Arã, levando consigo Raquel e Lia. Labão o persegue, mas Deus o adverte em sonho para que não faça mal a Jacó. Após um confronto, Jacó e Labão fazem um acordo e estabelecem uma aliança antes de se separarem."
+    },
+    "Genesis 32": {
+        "titulo": "Jacó luta com Deus e encontra Esaú",
+        "tema_central": "O encontro de Jacó com Deus e sua preparação para reencontrar Esaú.",
+        "descricao": "Ao retornar para sua terra, Jacó recebe a notícia de que Esaú vem ao seu encontro com quatrocentos homens e fica com medo. Ele divide sua família e seus bens e clama a Deus por proteção. Durante a noite, Jacó luta com um homem até o amanhecer e recebe o nome de Israel após ser abençoado. No dia seguinte, ele encontra Esaú, que o recebe com abraço e reconciliação."
+    },
+    "Genesis 33": {
+        "titulo": "Jacó se reconcilia com Esaú",
+        "tema_central": "A reconciliação entre Jacó e Esaú e o retorno de Jacó à terra de Canaã.",
+        "descricao": "Jacó se aproxima de Esaú com sua família e se inclina diante dele, procurando demonstrar respeito. Para sua surpresa, Esaú corre ao seu encontro, abraça-o e os dois choram juntos. Esaú inicialmente recusa os presentes de Jacó, mas acaba aceitando-os. Depois da reconciliação, os irmãos seguem caminhos diferentes, e Jacó se estabelece em Siquém, onde constrói um altar ao Senhor."
+    },
+    "Genesis 34": {
+        "titulo": "Diná e o conflito em Siquém",
+        "tema_central": "A violência contra Diná e a vingança dos filhos de Jacó contra os habitantes de Siquém.",
+        "descricao": "Diná, filha de Lia e Jacó, sai para conhecer as mulheres da região e é violentada por Siquém, filho de Hamor. Siquém deseja casar-se com ela, e Hamor propõe uma aliança entre os dois povos. Os filhos de Jacó, porém, usam a circuncisão como condição para o casamento e, quando os homens da cidade estão vulneráveis, Simeão e Levi atacam Siquém e matam seus habitantes. Jacó reprova a atitude dos filhos, temendo as consequências para sua família."
+    },
+    "Genesis 35": {
+        "titulo": "Jacó retorna a Betel e recebe o nome Israel",
+        "tema_central": "A renovação da aliança de Deus com Jacó e os acontecimentos que marcam sua família.",
+        "descricao": "Deus ordena que Jacó suba a Betel e construa um altar. Jacó conduz sua família até lá, abandonando os ídolos estrangeiros, e Deus aparece novamente, confirmando o nome Israel e suas promessas. Durante a jornada, Raquel morre ao dar à luz Benjamim, e Isaque também morre em idade avançada, sendo sepultado por Esaú e Jacó. O capítulo registra ainda os doze filhos de Jacó."
+    },
+    "Genesis 36": {
+        "titulo": "A descendência de Esaú",
+        "tema_central": "A formação da descendência de Esaú e dos povos que surgiram de sua linhagem.",
+        "descricao": "O capítulo apresenta a genealogia de Esaú, também chamado Edom, mostrando seus filhos, netos e chefes de suas famílias. Esaú se estabelece na região montanhosa de Seir, separando-se da família de Jacó por causa da grande quantidade de seus bens. São registrados os principais chefes e reis que surgiram entre os edomitas antes de haver reis sobre Israel."
+    },
+    "Genesis 37": {
+        "titulo": "José é vendido pelos irmãos",
+        "tema_central": "O início da trajetória de José e a inveja de seus irmãos que o leva a ser vendido como escravo.",
+        "descricao": "José, filho amado de Jacó, recebe uma túnica especial e conta aos irmãos sonhos que parecem indicar que eles se curvariam diante dele. Seus irmãos passam a odiá-lo e, quando o encontram sozinho no campo, planejam matá-lo. Rúben tenta preservá-lo, mas José acaba sendo vendido a mercadores que seguem para o Egito. Para esconder o que fizeram, seus irmãos apresentam a Jacó a túnica de José manchada de sangue, levando-o a acreditar que seu filho morreu."
+    },
+    "Genesis 38": {
+        "titulo": "Judá e Tamar",
+        "tema_central": "A história de Judá e Tamar e a continuidade de sua descendência.",
+        "descricao": "Judá se afasta de seus irmãos e forma sua própria família, tendo três filhos. Tamar, sua nora, fica viúva duas vezes e espera receber Selá como marido, mas Judá não cumpre sua promessa. Disfarçada, Tamar encontra-se com Judá e engravida de gêmeos. Quando sua gravidez é descoberta, Judá reconhece que agiu de forma injusta, e Tamar dá à luz Perez e Zerá."
+    },
+    "Genesis 39": {
+        "titulo": "José na casa de Potifar",
+        "tema_central": "A fidelidade de José diante da tentação e sua perseverança mesmo sendo injustamente preso.",
+        "descricao": "José é levado ao Egito e vendido a Potifar, oficial de Faraó. Deus está com José, fazendo prosperar seu trabalho, até que a esposa de Potifar tenta seduzi-lo. José recusa a proposta por temor a Deus, mas é acusado injustamente e enviado à prisão. Mesmo preso, José encontra favor diante do responsável pela prisão e recebe confiança para cuidar dos demais presos."
+    },
+    "Genesis 40": {
+        "titulo": "José interpreta os sonhos na prisão",
+        "tema_central": "O dom de José para interpretar sonhos e a providência de Deus preparando seu futuro.",
+        "descricao": "Na prisão, José encontra o copeiro e o padeiro de Faraó, que têm sonhos perturbadores. José afirma que a interpretação pertence a Deus e explica o significado dos sonhos: o copeiro seria restaurado ao seu cargo, enquanto o padeiro seria condenado. Os acontecimentos se cumprem exatamente como José havia anunciado. Apesar de pedir ao copeiro que se lembrasse dele diante de Faraó, o homem se esquece de José após ser libertado."
+    },
+    "Genesis 41": {
+        "titulo": "José interpreta os sonhos de Faraó",
+        "tema_central": "A providência de Deus ao revelar o futuro do Egito e elevar José a uma posição de autoridade.",
+        "descricao": "Faraó tem dois sonhos que nenhum de seus sábios consegue interpretar, e o copeiro finalmente se lembra de José. Chamado diante de Faraó, José declara que a interpretação vem de Deus e revela que haverá sete anos de grande fartura seguidos por sete anos de fome. Impressionado com sua sabedoria, Faraó coloca José como governador do Egito para administrar os alimentos durante os anos de abundância. José organiza o armazenamento dos cereais e, quando a fome chega, o Egito passa a ter alimento para vender aos povos."
+    },
+    "Genesis 42": {
+        "titulo": "Os irmãos de José descem ao Egito",
+        "tema_central": "O reencontro de José com seus irmãos e o início do processo que levará à reconciliação da família.",
+        "descricao": "A fome chega a Canaã, levando Jacó a enviar seus filhos ao Egito para comprar alimento. José reconhece seus irmãos quando eles se apresentam diante dele, mas eles não o reconhecem. José os acusa de serem espiões e exige que tragam Benjamim para provar sua identidade, mantendo Simeão preso enquanto os demais retornam. Os irmãos começam a reconhecer que estão sofrendo as consequências do mal que fizeram a José, sem saber que ele está diante deles."
+    },
+    "Genesis 43": {
+        "titulo": "Benjamim vai ao Egito",
+        "tema_central": "O retorno dos irmãos de José ao Egito com Benjamim e a aproximação entre José e sua família.",
+        "descricao": "Quando o alimento comprado no Egito termina, Jacó é obrigado a permitir que Benjamim acompanhe seus irmãos na nova viagem. Judá se responsabiliza pela segurança do irmão, e eles levam presentes e dinheiro para apresentar ao governador do Egito. José os recebe em sua casa, manda libertar Simeão e prepara um banquete para eles. Ao ver Benjamim, José se emociona profundamente, mas mantém sua identidade em segredo."
+    },
+    "Genesis 44": {
+        "titulo": "José prova seus irmãos",
+        "tema_central": "A prova dos irmãos de José e a transformação de Judá, que demonstra disposição para se sacrificar por Benjamim.",
+        "descricao": "José ordena que seus servos coloquem seu cálice de prata no saco de Benjamim antes que os irmãos partam. Depois, manda persegui-los e acusa Benjamim de ter roubado o objeto. Os irmãos retornam e se colocam diante de José, enquanto Judá implora pela libertação de Benjamim. Ele explica o sofrimento que a perda do rapaz causaria a Jacó e oferece-se para permanecer como escravo em seu lugar."
+    },
+    "Genesis 45": {
+        "titulo": "José se revela aos seus irmãos",
+        "tema_central": "A reconciliação de José com seus irmãos e o reconhecimento da providência de Deus em sua história.",
+        "descricao": "José não consegue mais esconder sua identidade e revela aos irmãos que é aquele que eles haviam vendido como escravo. Seus irmãos ficam assustados, mas José os tranquiliza, afirmando que Deus o enviou ao Egito para preservar vidas durante a fome. Ele manda buscar Jacó e toda a família para que se estabeleçam no Egito. Quando Jacó recebe a notícia de que José está vivo, sua tristeza se transforma em alegria."
+    },
+    "Genesis 46": {
+        "titulo": "Jacó desce ao Egito",
+        "tema_central": "A mudança de Jacó e sua família para o Egito e a confirmação de Deus sobre a continuidade de sua promessa.",
+        "descricao": "Jacó parte para o Egito com toda a sua família para reencontrar José. No caminho, Deus fala com ele e confirma que não deve temer descer ao Egito, prometendo fazer dele uma grande nação naquele lugar. Jacó e seus descendentes chegam ao Egito, e José reencontra seu pai depois de muitos anos. A família de Israel se estabelece na região de Gósen, onde poderá viver e cuidar de seus rebanhos."
+    },
+    "Genesis 47": {
+        "titulo": "Israel se estabelece no Egito",
+        "tema_central": "A instalação da família de Jacó no Egito e a administração de José durante a grande fome.",
+        "descricao": "José apresenta parte de sua família a Faraó, que permite que eles habitem na região de Gósen. Jacó encontra-se com Faraó e declara ter vivido cento e trinta anos. Enquanto a fome continua, José administra os recursos do Egito, recebendo dinheiro, rebanhos, terras e, por fim, a própria força de trabalho do povo em troca de alimento. Jacó vive ainda dezessete anos no Egito e, próximo da morte, pede a José que o sepulte junto de seus antepassados."
+    },
+    "Genesis 48": {
+        "titulo": "Jacó abençoa Efraim e Manassés",
+        "tema_central": "A bênção de Jacó sobre os filhos de José e a continuidade da promessa através das gerações.",
+        "descricao": "Quando Jacó está próximo da morte, José leva seus filhos, Efraim e Manassés, para receberem a bênção do avô. Jacó relembra as promessas de Deus e adota os dois filhos de José como seus, tratando-os como seus próprios filhos. Apesar de José tentar posicionar Manassés, o primogênito, para receber a bênção principal, Jacó coloca sua mão direita sobre Efraim e anuncia que o menor será maior. Assim, Jacó abençoa os dois e reafirma a promessa de Deus sobre sua descendência."
+    },
+    "Genesis 49": {
+        "titulo": "Jacó abençoa seus filhos",
+        "tema_central": "As palavras finais de Jacó sobre seus filhos e o futuro das tribos de Israel.",
+        "descricao": "Jacó reúne seus doze filhos antes de morrer e declara sobre cada um palavras relacionadas ao seu caráter, às suas escolhas e ao futuro de suas descendências. Rúben, Simeão e Levi recebem palavras de repreensão por acontecimentos passados, enquanto Judá recebe uma bênção especial relacionada à liderança e ao governo. José também recebe palavras de grande bênção por sua trajetória e fidelidade. Depois de falar sobre todos os filhos, Jacó ordena que seja sepultado na caverna de Macpela, junto de seus antepassados."
+    },
+    "Genesis 50": {
+        "titulo": "A morte de Jacó e o perdão de José",
+        "tema_central": "O sepultamento de Jacó, o perdão de José aos irmãos e a continuidade da promessa de Deus.",
+        "descricao": "Jacó morre no Egito, e José organiza um grande cortejo para levá-lo a Canaã, onde ele é sepultado na caverna de Macpela. Depois da morte do pai, os irmãos de José temem que ele procure vingança pelo passado, mas José os tranquiliza e reafirma seu perdão. Ele reconhece que Deus transformou o mal que lhe fizeram em instrumento para preservar muitas vidas. José permanece no Egito até sua morte, deixando a promessa de que Deus visitará seu povo e o levará de volta à terra prometida."
+    }
+}

@@ -1,0 +1,752 @@
+{
+    "Salmos 1": {
+        "titulo": "O caminho dos justos e dos ímpios",
+        "tema_central": "A diferença entre a vida daqueles que seguem a Deus e o caminho dos que rejeitam sua vontade",
+        "descricao": "O salmo apresenta dois caminhos diante do ser humano: o caminho do justo e o caminho do ímpio. O justo é descrito como alguém que não se deixa conduzir pelo conselho dos perversos, mas encontra prazer na lei do Senhor e medita nela continuamente. Ele é comparado a uma árvore plantada junto às águas, que produz fruto no tempo certo e permanece firme. Em contraste, os ímpios são comparados à palha levada pelo vento e não permanecerão no juízo. O salmo conclui afirmando que o Senhor conhece e acompanha o caminho dos justos, enquanto o caminho dos ímpios conduz à perdição."
+    },
+    "Salmos 2": {
+        "titulo": "O Rei escolhido pelo Senhor",
+        "tema_central": "A soberania de Deus e o reinado do seu Ungido sobre as nações",
+        "descricao": "O salmo descreve as nações e seus governantes conspirando contra o Senhor e contra o seu Ungido, como se pudessem romper os limites estabelecidos por Deus. O Senhor, porém, permanece soberano e declara que estabeleceu seu Rei em Sião. O Rei fala sobre o decreto recebido de Deus e sua autoridade sobre as nações, que lhe serão dadas como herança. Os reis e juízes da terra são então chamados a agir com sabedoria, servir ao Senhor com temor e honrar o Filho. O salmo termina declarando que são bem-aventurados todos os que nele se refugiam."
+    },
+    "Salmos 3": {
+        "titulo": "Confiança em Deus diante dos inimigos",
+        "tema_central": "Fé e segurança em Deus mesmo quando cercado por adversários",
+        "descricao": "Davi clama ao Senhor diante do grande número de inimigos que se levantam contra ele. Muitos afirmam que Deus não o livrará, mas o salmista declara que o Senhor é seu escudo, sua glória e aquele que sustenta sua cabeça. Mesmo cercado por milhares, ele consegue deitar-se, dormir e acordar porque confia na proteção de Deus. Davi pede que o Senhor se levante, salve-o e derrote seus adversários. O salmo termina reconhecendo que a salvação pertence ao Senhor e que sua bênção está sobre o seu povo."
+    },
+    "Salmos 4": {
+        "titulo": "A paz daquele que confia em Deus",
+        "tema_central": "Confiança no Senhor, rejeição da vaidade e segurança em sua presença",
+        "descricao": "Davi clama ao Deus de sua justiça e pede que ele ouça sua oração, lembrando-se de como o Senhor já o havia socorrido. Ele repreende aqueles que amam a vaidade e buscam a falsidade, chamando-os a reconhecer o Senhor e a abandonar o pecado. O salmista ensina que, mesmo em tempos difíceis, é possível confiar em Deus e oferecer a ele um coração sincero. Enquanto muitos perguntam quem lhes mostrará o bem, Davi reconhece que a luz do rosto de Deus é sua verdadeira alegria. Por isso, pode descansar em paz e dormir tranquilo, pois somente o Senhor lhe dá segurança."
+    },
+    "Salmos 5": {
+        "titulo": "A oração pela manhã e o caminho da justiça",
+        "tema_central": "Buscar a Deus, rejeitar a maldade e confiar em sua proteção",
+        "descricao": "Davi apresenta ao Senhor sua oração pela manhã e demonstra confiança de que Deus ouve aqueles que o buscam. Ele reconhece que a maldade não pode permanecer diante da santidade divina e descreve o caráter dos que praticam mentira, violência e engano. Em contraste, deseja entrar na presença de Deus pela sua misericórdia e andar em seu caminho. Davi pede que o Senhor conduza os justos e os proteja daqueles que praticam a maldade. O salmo termina celebrando a alegria e a proteção daqueles que confiam no Senhor e encontram nele motivo para se alegrar."
+    },
+    "Salmos 6": {
+        "titulo": "Clamor por misericórdia",
+        "tema_central": "Arrependimento, sofrimento e confiança na misericórdia de Deus",
+        "descricao": "Davi clama ao Senhor em meio a uma profunda aflição, pedindo que não seja repreendido em sua ira nem castigado em seu furor. Ele descreve sua fraqueza física e emocional, dizendo que está profundamente abalado e cansado de tanto gemer. Sua oração é um pedido urgente de misericórdia, pois reconhece que precisa da intervenção de Deus. Davi também lamenta a presença de adversários que o cercam. No final, porém, sua atitude muda da angústia para a confiança: ele afirma que o Senhor ouviu sua súplica e acolheu sua oração, e declara que seus inimigos serão envergonhados."
+    },
+    "Salmos 7": {
+        "titulo": "Deus, o justo juiz",
+        "tema_central": "Clamor por justiça e confiança no julgamento correto de Deus",
+        "descricao": "Davi busca refúgio no Senhor enquanto é perseguido e acusado injustamente. Ele pede que Deus o examine e julgue sua integridade, declarando que não deseja ser tratado como culpado se tiver praticado aquilo de que é acusado. O salmista apresenta Deus como justo juiz, que conhece os corações e as intenções humanas. Ele afirma que a maldade carrega suas próprias consequências e descreve o ímpio como alguém que concebe o mal e acaba caindo na própria armadilha. O salmo termina com Davi louvando o Senhor por sua justiça e cantando ao nome do Deus Altíssimo."
+    },
+    "Salmos 8": {
+        "titulo": "A majestade de Deus e a dignidade do ser humano",
+        "tema_central": "A grandeza do Criador e o lugar do ser humano na criação",
+        "descricao": "Davi contempla a majestade de Deus revelada nos céus e na criação e se admira de que o Senhor dê atenção ao ser humano. Mesmo sendo pequeno diante da imensidão do universo, o homem foi criado com dignidade e recebeu uma posição de responsabilidade sobre as obras das mãos de Deus. O salmo menciona os animais, as aves e os seres do mar como parte dessa criação colocada sob seu domínio. A reflexão começa e termina exaltando a grandeza do nome do Senhor em toda a terra, destacando o contraste entre a imensidão de Deus e a posição especial concedida ao ser humano."
+    },
+    "Salmos 9": {
+        "titulo": "Louvor pela justiça de Deus",
+        "tema_central": "A justiça de Deus, sua proteção aos oprimidos e seu domínio sobre as nações",
+        "descricao": "O salmista louva o Senhor de todo o coração pelas suas obras maravilhosas e pelos livramentos concedidos. Deus é apresentado como aquele que julga com justiça, derrota os inimigos e permanece como refúgio para os oprimidos em tempos de angústia. Davi confia que o Senhor não abandona aqueles que o buscam e pede que os povos reconheçam sua autoridade. Ao mesmo tempo, clama para que Deus se levante contra a violência dos ímpios e impeça que o ser humano arrogante pense que pode agir sem prestar contas. O salmo combina louvor, confiança e súplica pela manifestação da justiça divina."
+    },
+    "Salmos 10": {
+        "titulo": "O clamor diante da injustiça",
+        "tema_central": "A aparente ausência de Deus e a esperança em sua justiça",
+        "descricao": "O salmista questiona por que Deus parece estar distante enquanto os ímpios perseguem e exploram os necessitados. Ele descreve detalhadamente o comportamento daquele que se orgulha de sua maldade, despreza a Deus, oprime os pobres e acredita que jamais será responsabilizado por seus atos. Diante dessa realidade, o salmista pede que o Senhor se levante, intervenha e faça justiça aos humildes. Ele confia que Deus vê a aflição dos necessitados e está atento ao sofrimento dos que não têm defesa. O salmo termina com a certeza de que o Senhor é Rei para sempre e que as nações não prevalecerão indefinidamente contra os necessitados."
+    },
+    "Salmos 11": {
+        "titulo": "O Senhor é o refúgio dos justos",
+        "tema_central": "Confiar em Deus quando a violência e a corrupção ameaçam a justiça",
+        "descricao": "Davi declara sua confiança no Senhor como seu refúgio, mesmo quando recebe o conselho de fugir diante do perigo. A situação é apresentada como um tempo em que os fundamentos da sociedade parecem destruídos e os perversos preparam suas armas contra os justos. O salmista, porém, afirma que o Senhor está no seu santo templo e que seus olhos observam e provam os filhos dos homens. Deus examina tanto o justo quanto o ímpio e odeia aqueles que amam a violência. O salmo termina com a certeza de que os retos contemplarão a face do Senhor."
+    },
+    "Salmos 12": {
+        "titulo": "A verdade de Deus em meio às palavras enganosas",
+        "tema_central": "A proteção de Deus diante da mentira, da corrupção e da falsidade humana",
+        "descricao": "O salmista lamenta porque os fiéis parecem desaparecer e a fidelidade se torna rara entre os seres humanos. As pessoas falam mentira umas às outras, usam palavras bajuladoras e possuem corações divididos. Diante dessa corrupção, o Senhor se levanta para defender os pobres e necessitados que sofrem por causa da opressão. Em contraste com as palavras humanas, que podem ser enganosas, as palavras do Senhor são comparadas à prata refinada, puras e confiáveis. Mesmo vivendo em uma sociedade dominada pela corrupção, o salmista encontra segurança na promessa de que Deus guardará os necessitados."
+    },
+    "Salmos 13": {
+        "titulo": "Da angústia à confiança",
+        "tema_central": "Esperar em Deus quando a resposta parece demorar",
+        "descricao": "Davi inicia o salmo com uma sequência de perguntas dolorosas, repetindo a sensação de que Deus está distante e que sua aflição permanece sem resposta. Ele fala de tristeza contínua, conflitos interiores e da ameaça de seus inimigos. Em vez de esconder sua angústia, apresenta-a diretamente diante de Deus e pede que o Senhor olhe para ele, responda e ilumine seus olhos. A oração termina em um tom diferente, pois Davi decide confiar na misericórdia do Senhor e se alegra na salvação que Deus proporciona. Mesmo antes de a circunstância mudar, sua confiança é renovada."
+    },
+    "Salmos 14": {
+        "titulo": "A corrupção da humanidade",
+        "tema_central": "A insensatez de rejeitar Deus e a necessidade de sua salvação",
+        "descricao": "O salmista descreve a corrupção humana começando pela afirmação do insensato de que não há Deus. A humanidade é apresentada como moralmente desviada, sem quem pratique verdadeiramente o bem por sua própria condição. Deus observa os seres humanos para ver se existe alguém que o busque, mas encontra uma humanidade afastada de seus caminhos. O salmo também denuncia aqueles que exploram o povo de Deus e vivem sem temor. Ao final, surge a esperança de que a salvação venha de Sião e restaure o povo, transformando o lamento em alegria."
+    },
+    "Salmos 15": {
+        "titulo": "Quem pode habitar na presença de Deus",
+        "tema_central": "Integridade, justiça e caráter daquele que deseja viver diante do Senhor",
+        "descricao": "Davi pergunta quem pode habitar no santo monte de Deus e responde descrevendo o caráter daquele que vive de maneira íntegra. A pessoa aprovada é aquela que pratica a justiça, fala a verdade de coração e não usa sua língua para prejudicar o próximo. Também rejeita a difamação, honra os que temem ao Senhor e mantém sua palavra mesmo quando isso lhe traz prejuízo. O salmo valoriza a integridade nas relações, a honestidade e a fidelidade aos compromissos. Conclui afirmando que aquele que vive dessa maneira permanecerá firme."
+    },
+    "Salmos 16": {
+        "titulo": "O Senhor é a minha herança",
+        "tema_central": "Confiança em Deus, alegria em sua presença e esperança de vida",
+        "descricao": "Davi declara que colocou sua confiança no Senhor e reconhece que não possui bem maior além de Deus. Ele rejeita a participação nos cultos e caminhos daqueles que seguem outros deuses e encontra no Senhor sua verdadeira herança e segurança. O salmista afirma que Deus o aconselha e está continuamente diante dele, por isso não será abalado. Seu coração se alegra e seu corpo repousa em segurança, porque confia que Deus não abandonará sua vida à morte nem permitirá que seu fiel veja a corrupção. O salmo termina celebrando a plenitude de alegria encontrada na presença de Deus e os prazeres permanentes à sua direita."
+    },
+    "Salmos 17": {
+        "titulo": "A oração do justo perseguido",
+        "tema_central": "Pedido de proteção, integridade e livramento diante dos inimigos",
+        "descricao": "Davi apresenta ao Senhor uma oração baseada em sua consciência de integridade e pede que Deus ouça sua causa e examine seu coração. Ele afirma ter procurado guardar-se dos caminhos violentos e permanecer fiel à Palavra de Deus. Diante de inimigos que o cercam com crueldade, pede que o Senhor o proteja como a menina dos olhos e o esconda à sombra de suas asas. Davi descreve seus adversários como pessoas dominadas pelo orgulho e pela violência e pede que Deus intervenha contra eles. Ao final, sua maior esperança não está apenas no livramento terreno, mas em contemplar a face de Deus e despertar satisfeito com sua presença."
+    },
+    "Salmos 18": {
+        "titulo": "O Senhor é a minha rocha e o meu libertador",
+        "tema_central": "A poderosa intervenção de Deus em favor daquele que confia nele",
+        "descricao": "Davi celebra o Senhor como sua rocha, fortaleza, libertador, escudo e alto refúgio, lembrando-se de como Deus o ouviu quando estava cercado pela morte e pela angústia. Em linguagem grandiosa, descreve a manifestação do Senhor com terremotos, fumaça, fogo, trovões e relâmpagos, apresentando a intervenção divina como uma poderosa resposta ao seu clamor. Davi reconhece que Deus o livrou porque conhecia sua fidelidade e o sustentou diante dos inimigos. O salmo também celebra a justiça, a força e a proteção concedidas por Deus ao seu ungido. No final, Davi reconhece que o Senhor concede grandes livramentos e demonstra misericórdia ao seu ungido e à sua descendência para sempre."
+    },
+    "Salmos 19": {
+        "titulo": "A glória de Deus e a perfeição de sua Palavra",
+        "tema_central": "A revelação de Deus na criação e em sua Palavra",
+        "descricao": "O salmo apresenta duas formas pelas quais a grandeza de Deus é percebida: a criação e sua Palavra. Os céus anunciam a glória de Deus, e o ciclo do sol demonstra a ordem e a grandeza estabelecidas pelo Criador. Em seguida, Davi passa a exaltar a lei do Senhor, descrevendo-a como perfeita, fiel, reta, pura e verdadeira, capaz de restaurar, dar sabedoria e alegrar o coração. Diante dessa Palavra, o salmista reconhece também seus próprios pecados e pede que Deus o livre das faltas ocultas e preserve seu coração da arrogância. O salmo termina com uma oração para que suas palavras e pensamentos sejam agradáveis ao Senhor, sua rocha e seu redentor."
+    },
+    "Salmos 20": {
+        "titulo": "O Senhor responde ao seu ungido",
+        "tema_central": "Confiança no poder de Deus em vez da força humana",
+        "descricao": "O salmo é uma oração em favor do rei no dia da batalha e da dificuldade. O povo pede que o Senhor responda, proteja, fortaleça e envie auxílio desde o santuário. Os desejos e ofertas do rei são apresentados diante de Deus, com confiança de que o Senhor concederá aquilo que está de acordo com sua vontade. A confiança não está em carros, cavalos ou poder militar, mas no nome do Senhor. O salmo termina com uma declaração coletiva de confiança: enquanto alguns confiam em recursos militares, o povo confia no Senhor e espera que ele conceda vitória e salvação ao seu ungido."
+    },
+    "Salmos 21": {
+        "titulo": "A alegria do rei pela vitória",
+        "tema_central": "A bênção, a força e a vitória concedidas por Deus ao seu ungido",
+        "descricao": "O salmo celebra a alegria do rei porque Deus respondeu aos seus pedidos e lhe concedeu vitória. O rei é descrito como alguém que recebeu de Deus desejos do coração, bênçãos, vida e uma coroa de ouro, tornando-se uma expressão da bondade divina. Sua confiança está firmada na misericórdia do Altíssimo e, por isso, não será abalado. A segunda parte do salmo se volta contra os inimigos do rei, afirmando que Deus os alcançará e destruirá sua oposição. O salmo termina com o povo exaltando a força do Senhor e cantando e louvando seu poder."
+    },
+    "Salmos 22": {
+        "titulo": "O clamor do abandonado e a esperança de louvor",
+        "tema_central": "Sofrimento profundo, confiança em Deus e esperança de redenção",
+        "descricao": "O salmo começa com um intenso clamor de alguém que se sente abandonado por Deus, perguntando por que sua oração parece não receber resposta. O salmista relembra a confiança das gerações anteriores, mas descreve sua própria humilhação, fraqueza e perseguição, usando imagens de inimigos que o cercam e zombam de sua fé. Ele volta a clamar para que Deus não permaneça distante e pede livramento. Na parte final, o tom muda para esperança: o salmista anuncia que Deus ouviu sua oração e imagina uma grande celebração diante de todos os povos. A salvação do Senhor alcançará as gerações futuras, e aqueles que ainda não nasceram ouvirão sobre aquilo que Deus fez."
+    },
+    "Salmos 23": {
+        "titulo": "O Senhor é o meu pastor",
+        "tema_central": "Cuidado, direção e presença de Deus em todos os caminhos",
+        "descricao": "Davi apresenta o Senhor como seu pastor, usando a imagem de alguém que conduz, alimenta, protege e cuida de suas ovelhas. Por causa desse cuidado, ele afirma que não lhe faltará aquilo de que realmente necessita. Deus o conduz a pastos verdes e águas tranquilas, restaura sua alma e guia seus passos por caminhos de justiça. Mesmo quando atravessa o vale da sombra da morte, Davi não teme, porque sabe que o Senhor está com ele e o protege. A imagem muda para a de um anfitrião que prepara uma mesa diante dos inimigos, unge a cabeça e oferece um cálice transbordante. O salmo termina com a certeza de que a bondade e a misericórdia acompanharão o salmista por toda a vida e de que ele habitará na casa do Senhor."
+    },
+    "Salmos 24": {
+        "titulo": "O Rei da glória",
+        "tema_central": "A soberania do Criador e as condições para entrar em sua presença",
+        "descricao": "O salmo começa afirmando que a terra e tudo o que nela existe pertencem ao Senhor, pois ele é o Criador e fundamento de toda a criação. Em seguida, pergunta quem pode subir ao monte do Senhor e permanecer em seu santo lugar. A resposta aponta para aquele que possui mãos limpas, coração puro, não se entrega à falsidade e não usa o nome de Deus de maneira enganosa. Essa pessoa receberá bênção e justiça do Deus da sua salvação. Na parte final, o salmo assume a forma de uma celebração, convocando as portas e os portões a se levantarem para receber o Rei da glória, apresentado como o Senhor poderoso e vitorioso."
+    },
+    "Salmos 25": {
+        "titulo": "Oração por direção e perdão",
+        "tema_central": "Confiança, arrependimento e busca pela orientação de Deus",
+        "descricao": "Davi eleva sua alma ao Senhor e declara que nele deposita sua confiança, pedindo que não seja envergonhado nem entregue aos seus inimigos. Ele reconhece que Deus é bom, justo e misericordioso e pede que lhe ensine seus caminhos, conduza-o na verdade e o instrua. O salmista também confessa seus pecados e pede que Deus não se lembre das transgressões de sua juventude, mas o trate segundo sua misericórdia. Ele afirma que o Senhor orienta aqueles que o temem e revela sua aliança aos que desejam conhecê-lo. O salmo termina com novos pedidos de perdão, proteção e livramento, mostrando uma confiança que combina dependência de Deus, arrependimento e esperança."
+    },
+    "Salmos 26": {
+        "titulo": "A integridade diante de Deus",
+        "tema_central": "Confiança na justiça de Deus e compromisso com uma vida íntegra",
+        "descricao": "Davi pede ao Senhor que o examine e prove, declarando sua confiança na própria integridade e na fidelidade de Deus. Ele afirma que não se associa aos homens falsos, perversos ou hipócritas e que rejeita a companhia daqueles que praticam o mal. O salmista demonstra amor pela casa de Deus e pelo lugar onde sua glória habita, desejando permanecer entre aqueles que o adoram. Em contraste com os pecadores, pede que não seja tratado como eles, pois deseja continuar andando em integridade. O salmo termina com uma declaração de confiança e com o compromisso de bendizer o Senhor na congregação."
+    },
+    "Salmos 27": {
+        "titulo": "O Senhor é a minha luz",
+        "tema_central": "Coragem, confiança e espera pela presença de Deus em meio às ameaças",
+        "descricao": "Davi declara que o Senhor é sua luz, salvação e fortaleza, por isso não precisa temer seus inimigos. Mesmo diante de um exército ou de uma guerra, sua maior preocupação é permanecer na presença de Deus e contemplar sua beleza. Ele pede que o Senhor o esconda no dia da adversidade e o conduza por um caminho seguro. O salmista também clama para não ser abandonado e demonstra confiança de que verá a bondade de Deus. O capítulo termina com uma exortação a esperar no Senhor, fortalecendo o coração e permanecendo firme."
+    },
+    "Salmos 28": {
+        "titulo": "Clamor e gratidão pelo livramento",
+        "tema_central": "O pedido de socorro a Deus e a confiança em sua resposta",
+        "descricao": "Davi clama ao Senhor para que não permaneça em silêncio diante de sua oração, pois teme ser tratado como aqueles que praticam a maldade. Ele pede que Deus ouça sua voz e não o arraste juntamente com os perversos, que falam de paz enquanto praticam o mal. Depois de apresentar seu pedido, o salmista passa a declarar que o Senhor ouviu sua súplica e se tornou sua força e seu escudo. Sua confiança pessoal transforma-se em oração pelo povo de Deus, pedindo que o Senhor seja sua força e o pastor que os conduz e sustenta."
+    },
+    "Salmos 29": {
+        "titulo": "A voz poderosa do Senhor",
+        "tema_central": "A majestade e o poder de Deus manifestados sobre toda a criação",
+        "descricao": "O salmo convoca os seres celestiais a atribuírem ao Senhor glória e força e a adorarem sua santidade. A maior parte do texto descreve a voz do Senhor como poderosa e majestosa, capaz de ecoar sobre as águas, quebrar cedros, fazer o deserto tremer e produzir sinais na criação. A repetição da expressão sobre a voz divina reforça sua autoridade absoluta sobre a natureza. O salmo termina apresentando o Senhor assentado como Rei para sempre e pedindo que ele conceda força e paz ao seu povo."
+    },
+    "Salmos 30": {
+        "titulo": "Lamento transformado em alegria",
+        "tema_central": "O livramento de Deus e a transformação da tristeza em celebração",
+        "descricao": "Davi louva o Senhor porque foi tirado de uma situação de grande perigo e porque seus inimigos não prevaleceram contra ele. Ele reconhece que a ira de Deus pode durar por um momento, enquanto sua graça permanece por toda a vida, comparando o sofrimento da noite com a alegria que chega pela manhã. O salmista também recorda um período em que se sentia seguro e confiava em sua estabilidade, mas percebeu sua dependência de Deus quando sua situação mudou. Depois de clamar, Deus transformou seu lamento em dança e sua tristeza em alegria. Por isso, Davi decide louvar o Senhor continuamente."
+    },
+    "Salmos 31": {
+        "titulo": "Em tuas mãos entrego o meu espírito",
+        "tema_central": "Refúgio em Deus diante da perseguição, angústia e sofrimento",
+        "descricao": "Davi coloca sua confiança no Senhor e pede que Deus seja sua rocha e fortaleza, capaz de livrá-lo das armadilhas de seus inimigos. Ele descreve uma situação de profunda angústia, sentindo-se cercado, esquecido e desprezado, mas continua reconhecendo Deus como aquele em quem pode confiar. Em um dos momentos mais conhecidos do salmo, entrega seu espírito nas mãos do Senhor e afirma que Deus é seu Deus. O texto alterna entre sofrimento e confiança, mostrando que a fé não elimina a dor, mas permite enfrentá-la na presença de Deus. Ao final, Davi chama os fiéis a amarem o Senhor, terem coragem e fortalecerem o coração enquanto esperam nele."
+    },
+    "Salmos 32": {
+        "titulo": "A alegria do perdão",
+        "tema_central": "Confissão do pecado, perdão de Deus e orientação para uma vida reta",
+        "descricao": "Davi apresenta a felicidade daquele cujo pecado é perdoado e cuja transgressão não é mais considerada contra ele. Ele relata como o silêncio diante de sua culpa produziu sofrimento, enquanto a confissão trouxe alívio e perdão. O salmo também apresenta Deus como aquele que protege e orienta o pecador arrependido, mostrando o caminho que deve seguir. Em contraste, aqueles que permanecem obstinados são comparados a animais que precisam ser controlados. O texto termina convocando os justos a se alegrarem no Senhor e a celebrarem sua misericórdia."
+    },
+    "Salmos 33": {
+        "titulo": "O Senhor governa sobre toda a criação",
+        "tema_central": "A soberania de Deus, o poder de sua Palavra e a confiança de seu povo",
+        "descricao": "O salmo convida os justos a louvarem o Senhor porque sua Palavra é reta e suas obras são realizadas com fidelidade. Deus é apresentado como o Criador que fez os céus pela sua palavra e estabeleceu os mares. Seu plano permanece firme mesmo quando as nações e seus governantes fazem seus próprios projetos. O salmista destaca que a segurança de um povo não está na força militar, no tamanho de seus exércitos ou na capacidade de seus recursos, mas no Senhor que observa e sustenta aqueles que nele esperam. O salmo termina com uma declaração de esperança e confiança na misericórdia de Deus."
+    },
+    "Salmos 34": {
+        "titulo": "Provem e vejam que o Senhor é bom",
+        "tema_central": "Louvor, temor do Senhor e confiança em sua proteção",
+        "descricao": "Davi começa declarando que bendirá o Senhor em todo tempo e convida os humildes a se alegrarem juntamente com ele. Ele testemunha que buscou a Deus e foi respondido e livrado de seus temores. O salmista então ensina que aqueles que temem ao Senhor encontram cuidado e que os que o buscam não ficam privados do que é necessário. O texto apresenta orientações práticas para quem deseja viver bem: guardar a língua do mal, afastar-se do pecado, praticar o bem e buscar a paz. O salmo também reconhece que o justo pode enfrentar muitas aflições, mas afirma que o Senhor está perto dos que têm o coração quebrantado e os livra de suas angústias."
+    },
+    "Salmos 35": {
+        "titulo": "Clamor contra os adversários",
+        "tema_central": "Pedido de justiça e livramento diante de acusações e perseguições injustas",
+        "descricao": "Davi pede que o Senhor intervenha contra aqueles que injustamente o perseguem, usando imagens de batalha para descrever seu pedido de defesa. Ele recorda que demonstrou bondade aos seus adversários quando estavam em dificuldade, mas agora recebe em troca hostilidade e acusações. O salmista lamenta profundamente essa injustiça e pede que Deus não permaneça distante. Ao longo da oração, Davi alterna pedidos de livramento, lembranças de sua inocência e promessas de louvar o Senhor quando a justiça for manifestada. O salmo termina contrastando os que desejam seu mal com aqueles que se alegram na justiça de Deus."
+    },
+    "Salmos 36": {
+        "titulo": "A maldade humana e a bondade de Deus",
+        "tema_central": "O contraste entre a corrupção dos ímpios e a grandeza da misericórdia divina",
+        "descricao": "O salmista descreve a condição do ímpio como alguém que não possui verdadeiro temor de Deus e que é enganado pelo próprio coração. Sua boca produz maldade e mentira, e ele não rejeita o caminho do pecado. Em contraste absoluto, Davi contempla a misericórdia do Senhor, que alcança os céus, sua fidelidade, justiça e juízos. A proteção de Deus é comparada à sombra de suas asas, onde seres humanos encontram abundância e vida. O salmista termina pedindo que Deus continue estendendo sua misericórdia aos que o conhecem e impedindo que a arrogância dos perversos prevaleça."
+    },
+    "Salmos 37": {
+        "titulo": "Não te indignes por causa dos malfeitores",
+        "tema_central": "Confiar em Deus e perseverar no bem diante da aparente prosperidade dos ímpios",
+        "descricao": "Davi aconselha a não invejar nem se irritar por causa daqueles que praticam o mal, pois sua prosperidade é passageira. Em vez de concentrar-se no sucesso dos perversos, o justo deve confiar no Senhor, fazer o bem, deleitar-se nele e entregar-lhe seus caminhos. O salmo contrasta repetidamente o destino dos justos e dos ímpios, mostrando que Deus sustenta os que nele confiam e que a maldade não permanecerá para sempre. Também destaca a importância da generosidade, da integridade e da paciência. A esperança central é que os justos receberão a terra e desfrutarão da paz, enquanto os ímpios serão finalmente eliminados."
+    },
+    "Salmos 38": {
+        "titulo": "O peso do pecado e o clamor por misericórdia",
+        "tema_central": "Arrependimento, sofrimento e dependência da misericórdia de Deus",
+        "descricao": "Davi apresenta uma oração marcada por profundo sofrimento físico e emocional, associando sua condição à consciência de seus pecados. Ele descreve feridas, fraqueza, angústia e o peso da culpa, reconhecendo que seus erros estão diante dele. Ao mesmo tempo, seus amigos se afastam e seus inimigos aproveitam sua fragilidade para buscar sua queda. Mesmo sem forças, Davi continua esperando no Senhor e pede que Deus não o abandone. O salmo é um clamor sincero de alguém que reconhece sua condição, confessa sua culpa e depende da intervenção divina."
+    },
+    "Salmos 39": {
+        "titulo": "A brevidade da vida",
+        "tema_central": "A fragilidade humana e a necessidade de esperar em Deus",
+        "descricao": "Davi decide vigiar seus caminhos e controlar suas palavras diante dos ímpios, mas seu silêncio aumenta a intensidade de sua angústia. Ele passa a refletir sobre a brevidade da vida humana e reconhece que seus dias são como uma medida muito pequena diante da eternidade de Deus. Também percebe como as pessoas acumulam riquezas sem saber quem ficará com elas. Diante dessa fragilidade, sua esperança não está nos bens nem na própria existência, mas no Senhor. Davi pede que Deus o livre de suas transgressões, desvie dele sua repreensão e lhe conceda algum alívio antes que sua vida termine."
+    },
+    "Salmos 40": {
+        "titulo": "Esperei com confiança no Senhor",
+        "tema_central": "A fidelidade de Deus, a obediência e a disposição de cumprir sua vontade",
+        "descricao": "Davi relata que esperou pacientemente pelo Senhor e que Deus se inclinou para ouvi-lo, tirando-o de um lugar de destruição e colocando seus pés sobre uma rocha firme. Como resposta ao livramento, ele entoa um novo cântico de louvor e reconhece que os sacrifícios exteriores não substituem a disposição de obedecer a Deus. O salmista declara seu desejo de anunciar a justiça e a fidelidade do Senhor publicamente. Na segunda parte, porém, volta a enfrentar dificuldades e pede que Deus se apresse em ajudá-lo. Mesmo em meio à necessidade, continua afirmando que o Senhor é seu auxílio e libertador."
+    },
+    "Salmos 41": {
+        "titulo": "Deus sustenta o necessitado",
+        "tema_central": "Compaixão pelos necessitados, confiança em Deus e sofrimento causado pela traição",
+        "descricao": "O salmo começa destacando a bênção daquele que considera o pobre e o necessitado, afirmando que o Senhor o sustenta nos dias difíceis. Davi então passa a falar de sua própria enfermidade e pede misericórdia, reconhecendo seu pecado e buscando cura. A situação se torna ainda mais dolorosa porque seus inimigos esperam sua morte e até um amigo íntimo em quem confiava se volta contra ele. Apesar disso, Davi declara que Deus o sustenta e o coloca em sua presença. O salmo termina com uma doxologia que bendiz o Senhor, o Deus de Israel, de eternidade a eternidade."
+    },
+    "Salmos 42": {
+        "titulo": "Como a corça anseia pelas águas",
+        "tema_central": "Sede pela presença de Deus em meio à tristeza e ao afastamento",
+        "descricao": "O salmista compara seu desejo por Deus à sede de uma corça pelas águas, expressando profunda necessidade da presença do Senhor. Ele está abatido e distante do lugar onde costumava adorar, enquanto pessoas ao seu redor perguntam onde está seu Deus. As lembranças de momentos de culto aumentam sua saudade e sua tristeza. Repetidamente, porém, ele conversa com a própria alma e a chama a esperar em Deus, apesar do abatimento. O salmo apresenta a tensão entre a dor presente e a esperança de voltar a louvar o Senhor, mostrando que a fé continua viva mesmo em meio à profunda tristeza."
+    },
+    "Salmos 43": {
+        "titulo": "Envia a tua luz e a tua verdade",
+        "tema_central": "Pedido de direção, justiça e retorno à presença de Deus",
+        "descricao": "O salmista pede que Deus o julgue, defenda sua causa contra uma nação infiel e o livre daqueles que praticam a mentira e a injustiça. Ele reconhece que Deus é sua fortaleza, mas não entende por que está sendo rejeitado e permanece em tristeza. Em seguida, faz um pedido central: que Deus envie sua luz e sua verdade para guiá-lo até o lugar de sua presença. Sua esperança é voltar ao altar de Deus e encontrá-lo como fonte de alegria. O salmo termina novamente com a pergunta dirigida à própria alma, chamando-a a esperar em Deus e confiar que ainda haverá louvor."
+    },
+    "Salmos 44": {
+        "titulo": "Quando o povo clama em meio à derrota",
+        "tema_central": "Memória das obras de Deus, perplexidade diante do sofrimento e clamor por intervenção",
+        "descricao": "O povo relembra como Deus realizou grandes obras no passado, dando aos antepassados a terra e derrotando seus inimigos. Essa memória torna a situação presente ainda mais difícil de compreender, pois agora o povo experimenta derrota, vergonha e dispersão. O salmista afirma que não esqueceu o Senhor nem abandonou sua aliança, apesar da calamidade. Ele pergunta por que Deus parece estar dormindo e pede que se levante para ajudá-los. O salmo termina apelando à misericórdia divina, pedindo que Deus aja não por causa do mérito do povo, mas por causa de sua própria bondade."
+    },
+    "Salmos 45": {
+        "titulo": "O rei e sua majestade",
+        "tema_central": "A celebração da majestade, justiça e honra do rei",
+        "descricao": "O salmo é apresentado como um cântico de celebração relacionado ao rei e começa com o entusiasmo do poeta diante da beleza e da majestade de suas palavras. O rei é descrito como poderoso, revestido de glória e defendendo a verdade, a humildade e a justiça. Seu trono é associado à retidão, e ele é apresentado recebendo honra e sendo acompanhado por uma celebração nupcial. A noiva é descrita com riqueza e beleza, sendo chamada a deixar para trás sua antiga casa e honrar o rei. O salmo termina celebrando a união e a honra futura dessa descendência real."
+    },
+    "Salmos 46": {
+        "titulo": "Deus é o nosso refúgio",
+        "tema_central": "A presença e a soberania de Deus em meio às crises e às convulsões do mundo",
+        "descricao": "O salmo declara que Deus é refúgio, força e socorro presente nas tribulações, por isso o povo não precisa temer mesmo quando a terra é abalada e as montanhas são lançadas ao mar. A presença de Deus é comparada a um rio que alegra a cidade de Deus e sustenta seu povo. As nações podem se enfurecer e os reinos podem ser abalados, mas a voz do Senhor permanece acima de tudo. O salmo apresenta Deus como aquele que faz cessar guerras e quebra armas, demonstrando seu domínio sobre os acontecimentos humanos. A mensagem culmina no chamado para aquietar-se e reconhecer que ele é Deus, exaltado entre as nações e sobre toda a terra."
+    },
+    "Salmos 47": {
+        "titulo": "Deus é o grande Rei sobre toda a terra",
+        "tema_central": "A soberania universal de Deus e sua exaltação entre os povos",
+        "descricao": "O salmo convoca todos os povos a baterem palmas e celebrarem a Deus com alegria, reconhecendo-o como o grande Rei sobre toda a terra. O Senhor é apresentado como aquele que submete povos e escolhe uma herança para Jacó, demonstrando sua autoridade sobre as nações. O texto destaca que Deus subiu entre aclamações e ao som de trombetas, sendo exaltado como Rei. A segunda parte amplia a visão para toda a terra, afirmando que Deus reina sobre as nações e está assentado em seu trono santo. O salmo termina convidando príncipes e povos a se reunirem para reconhecer que Deus é soberano."
+    },
+    "Salmos 48": {
+        "titulo": "A cidade do grande Rei",
+        "tema_central": "A proteção de Deus sobre Sião e sua grandeza entre os povos",
+        "descricao": "O salmo celebra o Senhor como grande e digno de louvor na cidade de Deus, o monte Sião. Jerusalém é apresentada como uma cidade bela e segura, porque Deus está em seu meio e a protege. Reis inimigos se reúnem contra ela, mas ficam aterrorizados e fogem diante da intervenção divina. A lembrança dessa proteção leva o povo a contemplar a bondade de Deus dentro do templo. O salmo termina convidando o povo a observar as fortificações de Sião e transmitir às gerações futuras que Deus será seu guia para sempre."
+    },
+    "Salmos 49": {
+        "titulo": "A riqueza não pode resgatar a vida",
+        "tema_central": "A transitoriedade das riquezas e a verdadeira esperança diante da morte",
+        "descricao": "O salmista convoca ricos e pobres, grandes e pequenos, a ouvirem uma reflexão sobre a verdadeira segurança da vida. Ele observa que ninguém pode escapar da morte simplesmente por possuir riquezas, pois o dinheiro não consegue comprar o resgate de uma vida nem impedir a sepultura. Os ricos podem acumular bens e construir grandes propriedades, mas, como todos os seres humanos, não permanecerão para sempre. Em contraste, o salmista declara que Deus pode resgatar sua vida do poder da morte. O salmo conclui lembrando que a riqueza e a honra, sem entendimento, não garantem um destino diferente do dos animais que perecem."
+    },
+    "Salmos 50": {
+        "titulo": "Deus julga seu povo",
+        "tema_central": "A verdadeira adoração, a gratidão e a necessidade de uma vida coerente com a aliança",
+        "descricao": "Deus é apresentado como aquele que convoca toda a terra para testemunhar seu julgamento sobre seu povo. Ele não repreende os israelitas simplesmente pela falta de sacrifícios, pois os sacrifícios já eram continuamente oferecidos, mas mostra que a verdadeira questão é a atitude do coração. Deus deseja ações de graças, cumprimento dos votos e confiança nele no dia da angústia. Ao ímpio, porém, reprova a incoerência de recitar seus mandamentos enquanto pratica roubo, adultério e difamação. O salmo termina mostrando que aquele que oferece ações de graças e ordena corretamente seu caminho experimentará a salvação de Deus."
+    },
+    "Salmos 51": {
+        "titulo": "Um coração puro",
+        "tema_central": "Arrependimento, confissão do pecado e restauração da comunhão com Deus",
+        "descricao": "Davi apresenta uma profunda oração de arrependimento após ser confrontado por seu pecado. Ele reconhece sua transgressão sem tentar justificá-la e suplica pela misericórdia de Deus, pedindo que suas iniquidades sejam apagadas e que seu coração seja purificado. Mais do que a remoção das consequências, Davi deseja a restauração de sua comunhão com o Senhor e pede que o Espírito Santo não seja retirado dele. Ele reconhece que Deus não se agrada de uma religiosidade apenas exterior, mas de um coração quebrantado e contrito. Ao final, pede restauração espiritual e manifesta seu desejo de voltar a ensinar aos transgressores os caminhos de Deus e a louvá-lo."
+    },
+    "Salmos 52": {
+        "titulo": "A confiança na misericórdia de Deus",
+        "tema_central": "O contraste entre a maldade humana e a segurança daqueles que confiam em Deus",
+        "descricao": "Davi confronta o homem que se orgulha de sua maldade e usa sua língua para destruir, enganar e causar sofrimento. Esse homem confia em suas riquezas e em sua própria força, mas rejeita a bondade de Deus. O salmista anuncia que sua aparente segurança não permanecerá e que Deus o arrancará de sua posição. Em contraste, Davi se compara a uma oliveira verdejante na casa de Deus, porque confia na misericórdia divina para sempre. O salmo termina com uma declaração de gratidão e esperança no nome do Senhor."
+    },
+    "Salmos 53": {
+        "titulo": "A corrupção do ser humano",
+        "tema_central": "A insensatez de rejeitar Deus e a necessidade de sua salvação",
+        "descricao": "O salmo apresenta novamente a realidade da corrupção humana, começando pela declaração do insensato de que não há Deus. Deus olha desde os céus para os seres humanos e encontra uma humanidade afastada, sem entendimento e sem verdadeira busca por ele. O texto denuncia aqueles que praticam a injustiça e devoram o povo como se comessem pão, sem demonstrar temor de Deus. A corrupção é apresentada como uma condição generalizada, mas o salmo também aponta para a esperança de que a salvação venha de Sião. Quando Deus restaurar seu povo, Jacó se alegrará e Israel celebrará."
+    },
+    "Salmos 54": {
+        "titulo": "Deus é o meu auxílio",
+        "tema_central": "Confiança na proteção de Deus diante da traição e da perseguição",
+        "descricao": "Davi clama ao Senhor para que o salve pelo seu nome e faça justiça contra aqueles que se levantaram contra ele. Seus inimigos não demonstram temor de Deus e procuram tirar sua vida, mas Davi reconhece que Deus é quem sustenta sua existência. Em vez de confiar em sua própria força, ele coloca sua causa nas mãos do Senhor. O salmista promete oferecer voluntariamente seus sacrifícios e louvar o nome de Deus, reconhecendo que o Senhor o livra de toda angústia. A oração termina com a certeza de que Deus responde ao clamor daqueles que nele confiam."
+    },
+    "Salmos 55": {
+        "titulo": "Quando a traição vem de um amigo",
+        "tema_central": "Angústia diante da traição e confiança de que Deus sustenta os que lançam sobre ele seus fardos",
+        "descricao": "Davi apresenta ao Senhor uma oração marcada por medo, inquietação e profunda angústia. Ele deseja fugir para longe da violência e da corrupção da cidade, mas a maior dor vem da traição de alguém que era seu companheiro e com quem compartilhava momentos de comunhão. Diante dessa decepção, Davi entrega sua causa a Deus e pede que ele julgue os violentos e enganadores. O salmista então afirma que deve lançar seu fardo sobre o Senhor, porque Deus sustenta aqueles que confiam nele. Mesmo cercado por ameaças, Davi decide permanecer dependente do Senhor e confiar em sua intervenção."
+    },
+    "Salmos 56": {
+        "titulo": "Em Deus eu confio",
+        "tema_central": "Fé em Deus diante do medo, da perseguição e da ameaça dos inimigos",
+        "descricao": "Davi clama ao Senhor enquanto é perseguido e pressionado por adversários que procuram prejudicá-lo. Ele reconhece seu medo, mas decide colocar sua confiança em Deus e afirma que não temerá aquilo que simples seres humanos podem fazer. Davi lembra que Deus conhece suas andanças, recolhe suas lágrimas e está atento ao seu sofrimento. Ele pede que o Senhor derrube seus inimigos e, ao mesmo tempo, demonstra certeza de que suas orações são ouvidas. O salmo termina com uma declaração de confiança e gratidão, pois Davi acredita que Deus preservará sua vida e o fará andar diante dele na luz dos vivos."
+    },
+    "Salmos 57": {
+        "titulo": "À sombra das tuas asas",
+        "tema_central": "Refúgio em Deus e louvor mesmo em meio ao perigo",
+        "descricao": "Davi busca refúgio em Deus enquanto está cercado por inimigos e compara sua situação à de alguém que precisa se esconder até que passe a calamidade. Apesar do perigo, ele demonstra confiança de que Deus cumprirá seus propósitos e enviará auxílio desde os céus. Os inimigos são descritos como pessoas cuja língua é semelhante a uma espada e cujas ações procuram destruir. Porém, Davi decide elevar-se acima das circunstâncias e louvar a Deus entre os povos. O salmo termina exaltando a misericórdia e a fidelidade do Senhor, que são apresentadas como maiores do que os céus."
+    },
+    "Salmos 58": {
+        "titulo": "O Deus que julga com justiça",
+        "tema_central": "A condenação da injustiça e a certeza de que Deus julgará os perversos",
+        "descricao": "O salmista denuncia governantes e autoridades que deveriam promover justiça, mas praticam violência e maldade. Ele descreve os ímpios como pessoas que se afastam de Deus desde cedo e usam sua influência para causar dano. Em linguagem poética intensa, pede que Deus interrompa a força e o poder daqueles que praticam a injustiça. O salmo expressa a confiança de que Deus intervirá e fará justiça, para que fique evidente que existe recompensa para o justo e que Deus exerce julgamento sobre a terra. A justiça divina é apresentada como resposta definitiva à aparente impunidade dos perversos."
+    },
+    "Salmos 59": {
+        "titulo": "Protege-me dos meus inimigos",
+        "tema_central": "Proteção divina diante de perseguição e confiança no poder de Deus",
+        "descricao": "Davi clama ao Senhor enquanto homens violentos se reúnem contra ele e procuram tirar sua vida. Ele afirma que está sendo perseguido sem ter cometido crime e pede que Deus veja sua situação e intervenha. Os inimigos são comparados a cães que vagueiam pela cidade, rosnando e procurando uma oportunidade para atacar. Davi pede que Deus não permita que eles prevaleçam e que sua derrota sirva de testemunho da autoridade divina. Apesar da ameaça, o salmista declara que cantará sobre a força e a misericórdia do Senhor, reconhecendo-o como seu alto refúgio."
+    },
+    "Salmos 60": {
+        "titulo": "Socorro diante da derrota",
+        "tema_central": "Dependência de Deus em tempos de conflito e confiança na vitória que vem dele",
+        "descricao": "O salmo começa com uma lamentação nacional, reconhecendo que o povo sofreu derrota e que Deus permitiu que enfrentasse tempos difíceis. O salmista pede que o Senhor restaure seu povo e cure as rupturas causadas pela adversidade. Em seguida, lembra uma declaração divina de domínio sobre as terras e os povos, reafirmando que a vitória não depende apenas das forças humanas. Davi reconhece que o auxílio humano é insuficiente e conclui pedindo que Deus esteja com seu povo nas batalhas. A confiança final está na certeza de que, com Deus, será possível realizar grandes feitos."
+    },
+    "Salmos 61": {
+        "titulo": "Leva-me à rocha que é mais alta do que eu",
+        "tema_central": "Refúgio em Deus, proteção e permanência diante de sua presença",
+        "descricao": "Davi clama ao Senhor a partir de uma situação de aflição e pede que Deus ouça sua oração. Sentindo-se distante e necessitado de proteção, ele pede para ser conduzido à rocha mais alta do que ele próprio, reconhecendo que Deus é seu refúgio e sua torre forte. O salmista recorda a proteção que já recebeu e deseja permanecer na presença de Deus para sempre. Também apresenta uma oração pelo rei, pedindo que Deus prolongue seus dias e o mantenha diante de sua presença. O salmo termina com a promessa de louvar continuamente o nome do Senhor e cumprir seus votos."
+    },
+    "Salmos 62": {
+        "titulo": "Somente em Deus a minha alma espera",
+        "tema_central": "Descanso em Deus e rejeição da confiança em poder, riquezas e violência",
+        "descricao": "O salmista declara que sua alma encontra descanso somente em Deus, de quem vem sua salvação, sua rocha e sua segurança. Apesar das ameaças de pessoas que procuram derrubá-lo, ele não se deixa dominar pelo medo e repete sua confiança no Senhor. O salmo também adverte contra colocar esperança em riquezas, violência ou posição social, pois essas coisas não oferecem segurança verdadeira. Deus é apresentado como aquele que possui poder e também como fonte de misericórdia. Por isso, o salmista conclui afirmando que Deus retribui a cada pessoa segundo suas obras."
+    },
+    "Salmos 63": {
+        "titulo": "Minha alma tem sede de ti",
+        "tema_central": "Desejo pela presença de Deus e confiança em sua fidelidade",
+        "descricao": "Davi expressa sua profunda sede espiritual por Deus enquanto está em uma terra seca e sem água. Mais do que qualquer necessidade física, ele deseja contemplar o poder e a glória do Senhor e reconhece que a misericórdia divina vale mais do que a própria vida. Mesmo durante a noite, lembra-se de Deus e medita nele, encontrando segurança à sombra de suas asas. Sua alma se apega ao Senhor, pois reconhece que é Deus quem o sustenta. O salmo termina contrastando a confiança de Davi com o destino daqueles que procuram destruí-lo, reafirmando sua esperança na justiça divina."
+    },
+    "Salmos 64": {
+        "titulo": "Protege-me das conspirações",
+        "tema_central": "Proteção contra planos secretos dos perversos e manifestação da justiça de Deus",
+        "descricao": "Davi pede que Deus preserve sua vida diante das conspirações de homens perversos que planejam secretamente contra ele. O salmista descreve a língua dos inimigos como uma arma usada para ferir por meio de palavras, acusações e calúnias. Eles acreditam que seus planos estão escondidos, mas Davi confia que Deus conhece suas intenções. O Senhor intervém de maneira inesperada contra aqueles que praticam o mal, fazendo com que suas próprias palavras se voltem contra eles. Ao contemplarem o julgamento divino, os justos reconhecem a justiça de Deus e encontram nele motivo para se alegrar."
+    },
+    "Salmos 65": {
+        "titulo": "Deus provê e abençoa a terra",
+        "tema_central": "A bondade de Deus no perdão, na criação e na provisão para toda a terra",
+        "descricao": "O salmo começa com louvor a Deus em Sião e destaca sua disposição de ouvir as orações e perdoar os pecados. Deus é apresentado como aquele que sustenta sua criação e estabelece os montes, acalma os mares e governa o movimento das nações. O texto também celebra sua provisão para a terra: Deus rega os campos, prepara o solo, faz crescer a vegetação e coroa o ano com sua bondade. Os campos, vales e rebanhos são descritos como participando dessa abundância. A criação inteira é retratada como testemunha da generosidade e do cuidado do Senhor."
+    },
+    "Salmos 66": {
+        "titulo": "Vinde e vede as obras de Deus",
+        "tema_central": "Louvor pelas obras de Deus, provações e resposta às orações",
+        "descricao": "O salmista convoca toda a terra a celebrar a Deus e a reconhecer a grandeza de suas obras. Ele recorda acontecimentos em que Deus conduziu seu povo através de situações difíceis e afirma que as provações serviram para refinar e testar o povo, como a prata é refinada. Depois de lembrar a ação divina na história, o salmista declara que clamou ao Senhor em oração e que Deus ouviu sua voz. Ele também reconhece a importância de não esconder a iniquidade no coração. O salmo termina com testemunho pessoal da misericórdia de Deus e com um convite para que outros ouçam aquilo que o Senhor fez."
+    },
+    "Salmos 67": {
+        "titulo": "Que Deus nos abençoe",
+        "tema_central": "A bênção de Deus e o desejo de que todas as nações o conheçam e o louvem",
+        "descricao": "O salmo começa retomando a bênção sacerdotal, pedindo que Deus seja misericordioso, faça resplandecer seu rosto sobre o povo e abençoe sua vida. Essa bênção, porém, não é apresentada apenas como benefício para Israel, mas como meio para que o caminho de Deus seja conhecido em toda a terra e sua salvação alcance todas as nações. Os povos são convidados a louvar e celebrar a Deus porque ele julga com justiça e governa as nações. O salmo termina novamente pedindo a bênção divina e mostrando que, por meio dela, a terra produzirá seus frutos e Deus continuará sendo reconhecido entre os povos."
+    },
+    "Salmos 68": {
+        "titulo": "Deus se levanta e vence os inimigos",
+        "tema_central": "A majestade de Deus, sua vitória e seu cuidado com os necessitados",
+        "descricao": "O salmo celebra a marcha vitoriosa de Deus e recorda sua atuação em favor de seu povo ao longo da história. O Senhor é apresentado como pai dos órfãos, defensor das viúvas e aquele que coloca os solitários em família, demonstrando seu cuidado pelos vulneráveis. O texto relembra a saída do Egito, a caminhada pelo deserto e a entrada na terra, além de celebrar a presença de Deus em Sião. Também descreve a vitória sobre os inimigos e a procissão do povo diante do santuário. O salmo termina exaltando o poder e a majestade de Deus e conclamando os reinos da terra a cantarem ao Senhor."
+    },
+    "Salmos 69": {
+        "titulo": "Salva-me, ó Deus",
+        "tema_central": "Sofrimento, perseguição e esperança no socorro de Deus",
+        "descricao": "Davi clama ao Senhor em meio a uma situação de sofrimento extremo, usando a imagem de águas profundas que ameaçam afogá-lo. Ele se sente exausto, humilhado e odiado sem causa, enfrentando acusações e hostilidade por causa de sua fidelidade a Deus. O salmista confessa seus pecados e pede que eles não se tornem motivo de vergonha para aqueles que esperam no Senhor. Ele clama por livramento e pede que Deus intervenha contra seus adversários. Apesar da angústia, Davi promete louvar o nome de Deus, reconhecendo que a gratidão e o louvor agradam mais ao Senhor do que um simples sacrifício."
+    },
+    "Salmos 70": {
+        "titulo": "Apressa-te em ajudar-me",
+        "tema_central": "Clamor urgente por socorro e proteção",
+        "descricao": "O salmo é uma oração curta e urgente na qual Davi pede que Deus se apresse em livrá-lo. Ele clama contra aqueles que procuram tirar sua vida e deseja que sejam frustrados e envergonhados em seus planos. Ao mesmo tempo, pede que aqueles que buscam a Deus possam se alegrar e dizer continuamente que o Senhor é grande. Diante de sua própria pobreza e necessidade, Davi não tenta esconder sua fragilidade e simplesmente declara que Deus é seu auxílio e libertador. A oração termina repetindo o pedido para que o Senhor não demore."
+    },
+    "Salmos 71": {
+        "titulo": "Não me abandones na velhice",
+        "tema_central": "Confiança contínua em Deus desde a juventude até a velhice",
+        "descricao": "O salmista busca refúgio em Deus e relembra que confia nele desde a juventude. Agora, diante da velhice, da fraqueza e da ameaça dos inimigos, pede que o Senhor não o abandone. Ele reconhece que Deus o sustentou desde o ventre e deseja continuar anunciando sua força e fidelidade às gerações futuras. Mesmo em meio às dificuldades, mantém a esperança de que Deus o restaurará e voltará a consolá-lo. O salmo termina com uma disposição renovada para louvar e anunciar a justiça e a salvação do Senhor durante todo o restante de sua vida."
+    },
+    "Salmos 72": {
+        "titulo": "O rei justo e seu reino",
+        "tema_central": "Justiça, paz e prosperidade sob o governo do rei escolhido por Deus",
+        "descricao": "O salmo apresenta uma oração pelo rei, pedindo que Deus lhe conceda justiça e capacidade para governar corretamente o povo. O governante ideal deve defender os pobres, socorrer os necessitados e esmagar o opressor, fazendo com que a justiça floresça juntamente com a paz. Seu domínio é descrito de maneira ampla, alcançando regiões distantes e sendo reconhecido pelos reis das nações. O rei também é associado à prosperidade da terra e à bênção que alcança todos os povos. O salmo termina bendizendo o Senhor Deus de Israel e exaltando suas obras, seguido por uma conclusão que encerra o segundo livro do Saltério."
+    },
+    "Salmos 73": {
+        "titulo": "Quando os ímpios parecem prosperar",
+        "tema_central": "A crise de fé diante da prosperidade dos perversos e a descoberta do verdadeiro bem em Deus",
+        "descricao": "O salmista começa afirmando que Deus é bom para Israel, mas confessa que quase perdeu a estabilidade de sua fé ao observar a prosperidade dos ímpios. Eles parecem viver sem grandes dificuldades, acumulam riquezas e agem com arrogância, enquanto o justo sofre. Essa aparente injustiça provoca inveja e confusão até que o salmista entra no santuário de Deus e passa a compreender o destino final dos perversos. Sua perspectiva muda ao perceber que a prosperidade deles é passageira, enquanto Deus permanece como sua herança. O salmo termina com uma das declarações mais profundas de confiança: mesmo que a carne e o coração desfaleçam, Deus é a força do coração e a porção do salmista para sempre."
+    },
+    "Salmos 74": {
+        "titulo": "Por que rejeitaste o teu povo?",
+        "tema_central": "Lamento pela destruição do santuário e apelo à memória da aliança e do poder de Deus",
+        "descricao": "O salmista lamenta a destruição do lugar de adoração e pergunta por que Deus parece ter rejeitado seu povo. Inimigos invadiram o santuário, destruíram seus símbolos e profanaram o local onde o nome de Deus era honrado. Diante dessa devastação, o povo não vê sinais evidentes da intervenção divina e clama para que Deus se lembre de sua aliança. O salmista então recorda os atos poderosos de Deus na criação e na história, incluindo seu domínio sobre o mar e sobre as forças da natureza. A oração termina pedindo que Deus não entregue seu povo à opressão e que se levante para defender sua própria causa."
+    },
+    "Salmos 75": {
+        "titulo": "Deus é o justo juiz",
+        "tema_central": "A soberania de Deus sobre o julgamento e a exaltação dos justos",
+        "descricao": "O salmo começa com uma declaração de gratidão pela proximidade do nome de Deus e por suas obras maravilhosas. Deus fala como juiz soberano, afirmando que ele estabelece o tempo determinado para o julgamento e mantém firmes os fundamentos da terra. O salmista adverte os arrogantes a não levantarem a voz contra Deus e lembra que a verdadeira exaltação não vem do oriente, do ocidente ou do deserto, mas do próprio Senhor. Deus é apresentado como aquele que julga, abatendo uns e exaltando outros. O salmo termina com a decisão de anunciar para sempre as obras do Deus de Jacó e com a afirmação de que ele quebrará o poder dos perversos e exaltará a força dos justos."
+    },
+    "Salmos 76": {
+        "titulo": "Deus é conhecido em Judá",
+        "tema_central": "A majestade de Deus e sua vitória sobre os inimigos",
+        "descricao": "O salmo celebra a presença e o poder de Deus em Judá e em Jerusalém, onde ele é conhecido e adorado. Deus é apresentado como aquele que quebra as armas dos guerreiros e faz cessar as batalhas, demonstrando que nenhuma força humana pode resistir à sua autoridade. Diante de sua repreensão, até os poderosos ficam imóveis e os inimigos são despojados de sua força. O salmista reconhece que a ira humana acaba contribuindo para que a majestade de Deus seja manifestada e convoca todos a fazerem votos e cumprirem-nos diante dele. O salmo termina lembrando que Deus é temível e que ele abate o orgulho dos governantes da terra."
+    },
+    "Salmos 77": {
+        "titulo": "Recordando as obras de Deus",
+        "tema_central": "Encontrar esperança na memória da fidelidade de Deus durante a angústia",
+        "descricao": "O salmista começa clamando intensamente a Deus em um período de profunda angústia e parece não encontrar descanso nem consolo. Ele questiona se o Senhor o rejeitou para sempre e se sua misericórdia teria chegado ao fim. Em meio à crise, decide recordar as obras realizadas por Deus no passado e meditar sobre seus feitos. Essa lembrança muda sua perspectiva, levando-o a contemplar a santidade, o poder e a fidelidade do Senhor. O salmo termina recordando a condução do povo através do mar e a liderança de Deus por meio de Moisés e Arão, mostrando que a memória das ações divinas fortalece a esperança."
+    },
+    "Salmos 78": {
+        "titulo": "A fidelidade de Deus e a infidelidade de Israel",
+        "tema_central": "Aprender com a história do povo e não repetir sua rebeldia contra Deus",
+        "descricao": "O salmo é uma longa reflexão histórica destinada a ensinar às novas gerações os feitos de Deus e os erros cometidos pelos antepassados. O povo é lembrado de como Deus realizou maravilhas no Egito, abriu o mar, guiou Israel pelo deserto e forneceu alimento e água, mas ainda assim os israelitas repetidamente duvidaram e se rebelaram. O salmista mostra que a infidelidade humana contrastava com a paciência e a misericórdia de Deus, que continuava demonstrando seu poder. A narrativa passa pela conquista da terra, pela rejeição de Efraim e pela escolha de Judá, Sião e Davi. O salmo termina destacando Davi como pastor escolhido para conduzir o povo com integridade e habilidade."
+    },
+    "Salmos 79": {
+        "titulo": "Clamor pela restauração de Jerusalém",
+        "tema_central": "Pedido de misericórdia diante da destruição e da profanação do povo de Deus",
+        "descricao": "O salmista descreve uma grande calamidade em que as nações invadiram a terra, profanaram o templo e transformaram Jerusalém em ruínas. Os mortos do povo foram deixados sem sepultura e os sobreviventes tornaram-se motivo de zombaria entre os povos vizinhos. Diante dessa situação, o salmista pergunta até quando Deus permitirá que sua ira permaneça e pede que não trate o povo apenas segundo seus pecados. Ele suplica por misericórdia, livramento e vingança contra as nações que desprezaram o nome do Senhor. O objetivo final do clamor é que Deus seja glorificado e que seu povo volte a louvá-lo de geração em geração."
+    },
+    "Salmos 80": {
+        "titulo": "Restaura-nos, ó Deus",
+        "tema_central": "Clamor pela restauração de Israel e pelo retorno do favor de Deus",
+        "descricao": "O salmista clama ao Pastor de Israel para que ouça seu povo e faça resplandecer sua face sobre ele. A oração surge em meio a uma situação de sofrimento nacional, na qual Deus parece ter permitido que seu povo enfrentasse oposição e lágrimas. Israel é comparado a uma videira que Deus tirou do Egito, plantou na terra e fez crescer, mas que depois teve suas cercas derrubadas e passou a ser destruída. O salmista pede que Deus volte a olhar para essa videira e restaure aquilo que suas mãos plantaram. Repetidamente aparece o pedido para que Deus restaure seu povo e faça resplandecer sobre ele a sua face, trazendo salvação."
+    },
+    "Salmos 81": {
+        "titulo": "Ouça o meu povo",
+        "tema_central": "Celebração da fidelidade de Deus e chamado à obediência",
+        "descricao": "O salmo começa convocando Israel a celebrar o Senhor com cânticos, instrumentos e alegria, lembrando que essa é uma ordenança para o povo. Em seguida, Deus recorda como libertou Israel do Egito e ouviu seu povo quando estava oprimido. Porém, apesar de sua intervenção, Israel não ouviu a voz do Senhor e seguiu seus próprios caminhos. Deus declara que desejava que seu povo o escutasse e andasse em seus caminhos, pois então teria submetido seus inimigos e sustentado Israel com o melhor alimento. O salmo termina mostrando que a bênção estava ligada à disposição de ouvir e obedecer ao Senhor."
+    },
+    "Salmos 82": {
+        "titulo": "Deus julga os governantes",
+        "tema_central": "Justiça para os vulneráveis e responsabilidade daqueles que exercem autoridade",
+        "descricao": "O salmo apresenta Deus em meio à assembleia divina, julgando aqueles que receberam autoridade para exercer justiça. Eles são repreendidos porque julgam injustamente, favorecem os perversos e deixam de defender os fracos, órfãos, necessitados e oprimidos. Embora sejam chamados de deuses e filhos do Altíssimo no contexto do julgamento, são lembrados de que continuam sujeitos ao julgamento de Deus e morrerão como os demais seres humanos. O salmista pede que o próprio Deus se levante para julgar a terra, pois todas as nações pertencem a ele. O texto enfatiza que toda autoridade deve estar submetida à justiça de Deus."
+    },
+    "Salmos 83": {
+        "titulo": "Não permaneças em silêncio",
+        "tema_central": "Clamor pela intervenção de Deus diante da união dos inimigos contra seu povo",
+        "descricao": "O salmista pede que Deus não permaneça em silêncio enquanto diversas nações se unem contra Israel. Os inimigos conspiram para eliminar o povo e tomar posse da terra, acreditando que podem apagar o nome de Israel da memória. O salmista recorda antigos inimigos derrotados por Deus e pede que o Senhor aja novamente contra aqueles que se levantam contra seu povo. As imagens de tempestade, fogo e perseguição expressam o desejo de que os adversários sejam confundidos e reconheçam que somente o Senhor é o Altíssimo sobre toda a terra. O objetivo do julgamento não é apenas a derrota dos inimigos, mas o reconhecimento do nome e da soberania de Deus."
+    },
+    "Salmos 84": {
+        "titulo": "Quão amáveis são os teus tabernáculos",
+        "tema_central": "Desejo pela presença de Deus e alegria de habitar em sua casa",
+        "descricao": "O salmista expressa profunda saudade e desejo pela casa do Senhor, considerando-a um lugar de beleza e comunhão. Até os pássaros são mencionados como encontrando lugar junto aos altares, enquanto os que habitam na casa de Deus são apresentados como felizes por poderem louvá-lo continuamente. O texto também celebra aqueles que encontram força no Senhor e atravessam o caminho em direção a Sião, mesmo passando pelo vale árido. Um dia nos átrios de Deus é considerado melhor do que muitos outros em qualquer lugar. O salmo termina declarando que Deus é sol e escudo, concede graça e glória e não nega o bem aos que andam em integridade."
+    },
+    "Salmos 85": {
+        "titulo": "Restaura-nos, Senhor",
+        "tema_central": "Restauração, perdão e esperança na manifestação da justiça e da paz",
+        "descricao": "O salmo começa recordando que Deus já demonstrou favor ao seu povo, perdoando sua iniquidade e afastando sua ira. Mesmo assim, o salmista clama novamente por restauração e pergunta se o Senhor permanecerá irado para sempre. Ele pede que Deus mostre sua misericórdia e conceda salvação. Em seguida, o salmista espera ouvir o que Deus falará, confiando que ele anunciará paz ao seu povo. A parte final descreve um cenário em que misericórdia e verdade se encontram, justiça e paz se abraçam, e a fidelidade brota da terra enquanto a justiça olha dos céus."
+    },
+    "Salmos 86": {
+        "titulo": "Ensina-me o teu caminho",
+        "tema_central": "Oração por misericórdia, proteção e um coração totalmente dedicado a Deus",
+        "descricao": "Davi apresenta ao Senhor uma oração de súplica, reconhecendo sua necessidade e pedindo que Deus incline seus ouvidos para ele. Ele afirma que confia no Senhor, que é bom, pronto para perdoar e abundante em misericórdia. Davi pede que Deus lhe ensine seu caminho para que possa andar na verdade e unir seu coração ao temor do nome divino. Também clama por proteção contra pessoas arrogantes e violentas que não consideram Deus. O salmo termina pedindo um sinal da bondade do Senhor que envergonhe seus inimigos e demonstre que Deus é aquele que ajuda e consola seus servos."
+    },
+    "Salmos 87": {
+        "titulo": "Sião, a cidade de Deus",
+        "tema_central": "A honra de Sião e a inclusão das nações entre aqueles que reconhecem Deus",
+        "descricao": "O salmo exalta Sião como a cidade estabelecida por Deus e mostra que o Senhor ama as portas de Jerusalém mais do que outras habitações de Jacó. Ele menciona nações tradicionalmente associadas à oposição a Israel, como Raabe, Babilônia, Filístia, Tiro e Etiópia, e anuncia que será dito delas que nasceram ali. Essa linguagem apresenta Sião como um lugar de pertencimento reconhecido por Deus, ultrapassando as fronteiras de Israel. O próprio Senhor registra os povos e declara sua relação com a cidade. O salmo termina com a imagem de cantores e músicos celebrando que todas as fontes estão em Sião."
+    },
+    "Salmos 88": {
+        "titulo": "O clamor desde as trevas",
+        "tema_central": "Uma oração de profunda angústia que permanece em busca de Deus",
+        "descricao": "O salmo é uma das expressões mais intensas de sofrimento do Saltério. O salmista clama dia e noite diante de Deus e descreve sua vida como próxima da sepultura, sentindo-se isolado e sem forças. Ele pergunta se Deus realiza maravilhas pelos mortos e se aqueles que descem à sepultura podem continuar louvando sua fidelidade. O sofrimento também é descrito como uma experiência de abandono, pois amigos e conhecidos parecem estar distantes. Diferentemente de muitos outros salmos, o texto não termina com uma resolução clara ou uma declaração de livramento, permanecendo na escuridão da angústia enquanto continua dirigindo-se a Deus."
+    },
+    "Salmos 89": {
+        "titulo": "A aliança com Davi",
+        "tema_central": "A fidelidade de Deus à aliança davídica em meio à aparente rejeição do rei",
+        "descricao": "O salmo começa celebrando a misericórdia e a fidelidade do Senhor e recorda a aliança estabelecida com Davi, na qual Deus prometeu firmar sua descendência e seu trono. O Senhor é exaltado como soberano sobre os céus, a criação e as forças do mar, sendo incomparável entre os seres celestiais. Porém, na segunda parte, o tom muda para lamento: o salmista afirma que Deus rejeitou e humilhou o rei, permitindo que sua coroa fosse lançada ao chão. Ele pergunta até quando essa situação permanecerá e clama para que Deus se lembre de sua aliança. O salmo termina apelando à fidelidade e à misericórdia de Deus."
+    },
+    "Salmos 90": {
+        "titulo": "Ensina-nos a contar os nossos dias",
+        "tema_central": "A eternidade de Deus e a brevidade da vida humana",
+        "descricao": "Moisés contempla a eternidade de Deus em contraste com a fragilidade e a brevidade da existência humana. Deus é apresentado como morada do seu povo de geração em geração, enquanto os seres humanos retornam ao pó e seus anos passam rapidamente. O salmista reconhece que o pecado está diante de Deus e que a vida humana é marcada por trabalho, sofrimento e transitoriedade. Diante disso, pede sabedoria para contar os dias e adquirir um coração sábio. A oração termina pedindo que Deus manifeste sua misericórdia, alegre seu povo depois dos dias de aflição e confirme a obra das mãos de seus servos."
+    },
+    "Salmos 91": {
+        "titulo": "Aquele que habita no esconderijo do Altíssimo",
+        "tema_central": "Proteção e confiança em Deus diante dos perigos",
+        "descricao": "O salmo apresenta aquele que habita no esconderijo do Altíssimo e permanece à sombra do Todo-Poderoso como alguém que encontra segurança em Deus. Diversos perigos são mencionados, incluindo armadilhas, doenças, terror noturno, flechas e calamidades, mas a confiança do salmista está na proteção divina. A imagem das asas de Deus expressa abrigo e segurança, enquanto seus anjos são apresentados como servos enviados para guardar aqueles que nele confiam. Na parte final, o próprio Deus fala e promete responder ao que o invoca, estar com ele na angústia, livrá-lo e honrá-lo. O salmo conclui com a promessa de vida e salvação para aquele que conhece e ama o nome do Senhor."
+    },
+    "Salmos 92": {
+        "titulo": "É bom dar graças ao Senhor",
+        "tema_central": "Louvor pela fidelidade de Deus e pela prosperidade daqueles que permanecem nele",
+        "descricao": "O salmo começa declarando que é bom dar graças ao Senhor e cantar louvores ao seu nome, anunciando sua misericórdia pela manhã e sua fidelidade durante a noite. As obras de Deus são apresentadas como grandes e profundas, enquanto os insensatos não conseguem compreender sua atuação. O salmista observa que os perversos podem florescer por algum tempo, mas seu fim é a destruição. Em contraste, os justos são comparados à palmeira e ao cedro, árvores que continuam florescendo mesmo na velhice. O objetivo dessa vida frutífera é declarar que o Senhor é reto, sua rocha e nele não há injustiça."
+    },
+    "Salmos 93": {
+        "titulo": "O Senhor reina",
+        "tema_central": "A soberania eterna de Deus sobre toda a criação",
+        "descricao": "O salmo apresenta o Senhor como Rei revestido de majestade e poder, cuja autoridade estabelece o mundo de maneira firme. As águas e os mares são descritos como forças poderosas que levantam sua voz, mas o Senhor é ainda mais poderoso do que o ruído das grandes águas. Seu trono está estabelecido desde a antiguidade e sua existência ultrapassa o tempo. O salmo termina destacando a fidelidade dos testemunhos de Deus e a santidade que convém à sua casa para sempre."
+    },
+    "Salmos 94": {
+        "titulo": "O Deus da justiça",
+        "tema_central": "Clamor contra a opressão e confiança no julgamento e na disciplina do Senhor",
+        "descricao": "O salmista clama ao Deus das vinganças para que se manifeste contra os arrogantes que oprimem seu povo. Os perversos se vangloriam, matam viúvas e órfãos e afirmam que o Senhor não vê seus atos. O salmista, porém, lembra que aquele que criou o ouvido certamente ouve e aquele que formou os olhos certamente vê. Ele reconhece que a disciplina do Senhor pode ensinar sabedoria e que Deus não abandonará seu povo. Mesmo quando quase cai, a misericórdia de Deus o sustenta. O salmo termina afirmando que Deus é sua fortaleza e que fará recair sobre os perversos a própria maldade."
+    },
+    "Salmos 95": {
+        "titulo": "Vinde, adoremos ao Senhor",
+        "tema_central": "Adoração, reconhecimento da soberania de Deus e advertência contra a incredulidade",
+        "descricao": "O salmo convida o povo a cantar e celebrar o Senhor, reconhecendo-o como a grande Rocha da salvação. Deus é apresentado como grande Rei acima de todos os deuses e como aquele que possui as profundezas da terra, os montes e o mar porque foi ele quem os criou. O povo é chamado a entrar em sua presença com ações de graças e a se prostrar diante de seu Criador e Pastor. Na segunda parte, porém, surge uma advertência baseada na experiência de Israel no deserto: o povo não deveria endurecer o coração como seus antepassados fizeram em Meribá e Massá. Por causa da incredulidade e desobediência, aquela geração não entrou no descanso prometido."
+    },
+    "Salmos 96": {
+        "titulo": "Cantai ao Senhor um cântico novo",
+        "tema_central": "A proclamação da glória de Deus entre todas as nações",
+        "descricao": "O salmo convoca toda a terra a cantar um novo cântico ao Senhor e anunciar diariamente sua salvação. As nações são chamadas a reconhecer que Deus é grande e digno de ser louvado acima de todos os deuses, apresentados como ídolos, enquanto o Senhor é o verdadeiro Criador dos céus. O povo é convidado a trazer ofertas e entrar nos seus átrios, proclamando entre as nações que o Senhor reina. Toda a criação é chamada a alegrar-se diante dele, pois ele vem para julgar a terra com justiça e fidelidade. O salmo amplia o louvor de Israel para uma celebração universal da soberania de Deus."
+    },
+    "Salmos 97": {
+        "titulo": "O Senhor reina com justiça",
+        "tema_central": "A majestade de Deus, o julgamento da idolatria e a alegria dos justos",
+        "descricao": "O salmo anuncia que o Senhor reina e convoca a terra e as muitas ilhas a se alegrarem. Sua presença é descrita com imagens de nuvens, fogo, relâmpagos e terremotos, destacando sua majestade e poder sobre toda a criação. Os ídolos são envergonhados e aqueles que os adoram são chamados a reconhecer a superioridade do Senhor. Sião e as cidades de Judá celebram os seus juízos, enquanto os que amam o Senhor são chamados a odiar o mal. O salmo termina afirmando que Deus preserva a vida dos seus fiéis e que luz e alegria estão destinadas aos justos."
+    },
+    "Salmos 98": {
+        "titulo": "Cantai ao Senhor um cântico novo",
+        "tema_central": "A vitória e a justiça de Deus celebradas por toda a criação",
+        "descricao": "O salmo convoca o povo a cantar um novo cântico porque o Senhor realizou maravilhas e manifestou sua salvação diante das nações. Sua mão direita e seu braço santo demonstraram poder, fidelidade e justiça. Israel é chamado a celebrar com instrumentos e música, enquanto o mar, os rios e os montes são poeticamente convocados a participar da alegria. O motivo dessa celebração é que Deus vem julgar a terra com justiça e retidão. O salmo apresenta, assim, a salvação e o julgamento de Deus como razões para uma celebração que envolve povos e toda a criação."
+    },
+    "Salmos 99": {
+        "titulo": "Santo é o Senhor nosso Deus",
+        "tema_central": "A santidade, justiça e soberania de Deus",
+        "descricao": "O salmo proclama que o Senhor reina e que os povos devem reconhecer sua grandeza e santidade. Ele é apresentado como Rei poderoso que ama a justiça e estabelece a retidão entre seu povo. O texto relembra Moisés, Arão e Samuel como homens que invocaram o Senhor e foram atendidos por ele. Deus respondeu, mas também se apresentou como aquele que disciplina as transgressões. O salmo termina repetindo o chamado para exaltar o Senhor e prostrar-se diante dele, pois ele é santo."
+    },
+    "Salmos 100": {
+        "titulo": "Servi ao Senhor com alegria",
+        "tema_central": "Adoração alegre e reconhecimento de que o Senhor é Deus e Pastor de seu povo",
+        "descricao": "O salmo é um breve convite universal para celebrar e servir ao Senhor com alegria. Todos os povos são chamados a entrar em sua presença com cânticos e reconhecer que ele é Deus, o Criador que fez o seu povo e a quem todos pertencem. A imagem do povo como ovelhas do seu pasto destaca o cuidado e a relação de pertencimento entre Deus e aqueles que o servem. O salmo termina destacando duas características fundamentais do Senhor: sua bondade e sua misericórdia permanecem para sempre, assim como sua fidelidade atravessa todas as gerações."
+    },
+    "Salmos 101": {
+        "titulo": "Compromisso com uma vida íntegra",
+        "tema_central": "A determinação de viver em santidade e governar com justiça diante de Deus",
+        "descricao": "Davi declara seu compromisso de cantar a misericórdia e a justiça do Senhor e de conduzir sua própria vida com integridade. Ele decide rejeitar práticas perversas, afastar-se da maldade, não tolerar a calúnia e manter distância daqueles que praticam o engano. Como rei, também estabelece princípios para sua administração, afirmando que dará atenção aos fiéis e não permitirá que pessoas falsas ou perversas permaneçam em sua presença. O salmo apresenta, assim, um propósito pessoal e público de buscar a retidão e eliminar a injustiça de seu ambiente."
+    },
+    "Salmos 102": {
+        "titulo": "O clamor do aflito",
+        "tema_central": "A fragilidade humana diante da eternidade e a esperança na compaixão de Deus",
+        "descricao": "O salmista apresenta a Deus uma oração em meio a profunda aflição, descrevendo sua vida como marcada pela solidão, sofrimento físico e tristeza. Ele sente que seus dias passam rapidamente e que sua existência se aproxima do fim, mas continua clamando ao Senhor. Em contraste com a fragilidade humana, Deus permanece para sempre e sua misericórdia alcança as gerações futuras. O salmo também anuncia a restauração de Sião, quando as nações reconhecerão o nome do Senhor. No final, o salmista volta a contemplar a eternidade de Deus e a transitoriedade da criação, encontrando segurança no fato de que o Senhor permanece."
+    },
+    "Salmos 103": {
+        "titulo": "Bendize, ó minha alma, ao Senhor",
+        "tema_central": "A misericórdia, o perdão e o cuidado de Deus para com seus filhos",
+        "descricao": "Davi chama sua própria alma a não esquecer os benefícios do Senhor e enumera suas obras: perdão dos pecados, cura, livramento, misericórdia e renovação. Deus é apresentado como compassivo e paciente, não tratando o ser humano conforme seus pecados nem mantendo para sempre sua ira. A fragilidade humana é comparada à erva e à flor do campo, enquanto a misericórdia do Senhor permanece sobre aqueles que o temem. O salmo amplia o louvor aos anjos, aos exércitos celestiais e a toda a criação, encerrando com um chamado para que tudo o que Deus criou bendiga seu santo nome."
+    },
+    "Salmos 104": {
+        "titulo": "A grandeza de Deus na criação",
+        "tema_central": "A sabedoria e o poder de Deus manifestados na ordem e na sustentação da criação",
+        "descricao": "O salmista contempla a majestade de Deus por meio das obras da criação, descrevendo sua luz, os céus, as águas, os montes e os limites estabelecidos para o mar. Deus é apresentado como aquele que faz brotar fontes, alimenta os animais, sustenta a vegetação e provê alimento para os seres humanos. O ciclo da natureza depende de sua ação, e até o mar é descrito como cheio de criaturas que vivem sob seu cuidado. O salmo termina celebrando a renovação da criação pelo sopro de Deus e declarando o desejo de que sua meditação lhe seja agradável."
+    },
+    "Salmos 105": {
+        "titulo": "Lembrai-vos das obras do Senhor",
+        "tema_central": "A fidelidade de Deus à sua aliança ao longo da história de Israel",
+        "descricao": "O salmo convoca o povo a buscar o Senhor, proclamar suas obras e lembrar-se continuamente das maravilhas que ele realizou. A narrativa recorda a aliança feita com Abraão, Isaque e Jacó e acompanha a história de José, enviado ao Egito antes de sua família. Depois, descreve como Deus multiplicou seu povo, enviou Moisés e Arão, realizou sinais no Egito e libertou Israel. O texto também recorda a condução pelo deserto, o fornecimento de alimento e água e a entrega da terra prometida. Toda a narrativa demonstra que Deus permaneceu fiel às suas promessas e agiu em favor do povo da aliança."
+    },
+    "Salmos 106": {
+        "titulo": "A infidelidade de Israel e a misericórdia de Deus",
+        "tema_central": "Confissão dos pecados de Israel e reconhecimento da misericórdia persistente do Senhor",
+        "descricao": "O salmo começa exaltando a bondade e a misericórdia do Senhor, mas logo apresenta uma extensa confissão dos pecados cometidos por Israel ao longo de sua história. O povo é lembrado de sua rebeldia no mar Vermelho, de sua murmuração, da idolatria com o bezerro de ouro, da cobiça, da participação no culto a Baal-Peor e da desobediência em Canaã. Apesar dessas repetidas transgressões, Deus muitas vezes interveio para livrá-los por causa de sua misericórdia e de sua aliança. O salmo termina com um pedido de salvação e reunião do povo entre as nações, seguido por uma declaração de louvor ao Senhor."
+    },
+    "Salmos 107": {
+        "titulo": "Dai graças ao Senhor, porque ele é bom",
+        "tema_central": "A misericórdia de Deus demonstrada no livramento de pessoas em diferentes situações",
+        "descricao": "O salmo convida os redimidos do Senhor a declarar sua bondade e misericórdia, apresentando diferentes situações de sofrimento e livramento. Viajantes perdidos no deserto encontram caminho e cidade; pessoas presas em trevas são libertadas; enfermos que sofrem por causa de seus pecados clamam e recebem cura; e aqueles que enfrentam tempestades no mar experimentam a intervenção de Deus. Em cada situação, o padrão se repete: pessoas em aflição clamam ao Senhor, ele as livra e elas são chamadas a agradecer. No final, o salmista mostra que Deus também transforma terras, rios e situações humanas, enquanto os sábios observam suas obras e compreendem sua misericórdia."
+    },
+    "Salmos 108": {
+        "titulo": "Firme está o meu coração",
+        "tema_central": "Confiança em Deus e pedido de vitória diante dos inimigos",
+        "descricao": "Davi declara que seu coração está firme e decide louvar a Deus entre os povos, reconhecendo a grandeza de sua misericórdia e fidelidade. Ele pede que Deus seja exaltado sobre os céus e manifeste sua glória sobre toda a terra. Depois, recorda a promessa de Deus sobre a terra e clama por vitória diante dos inimigos, reconhecendo que o auxílio humano é insuficiente. O salmo termina com confiança de que, com Deus, serão realizadas grandes conquistas e que ele é quem dará a vitória sobre os adversários."
+    },
+    "Salmos 109": {
+        "titulo": "Clamor diante dos acusadores",
+        "tema_central": "Pedido de justiça diante da perseguição e das acusações injustas",
+        "descricao": "O salmista clama porque pessoas perversas levantaram contra ele acusações e responderam ao seu amor com hostilidade. Ele descreve uma situação de extrema injustiça, na qual seus adversários o atacam apesar de ele ter buscado o bem. Em sua oração, apresenta a Deus pedidos severos de julgamento contra aquele que pratica o mal e contra sua descendência, refletindo a linguagem de justiça e retribuição característica dos salmos imprecatórios. Em contraste com a maldição desejada sobre os inimigos, o próprio salmista reconhece sua fragilidade e pede que Deus o ajude por causa de sua misericórdia. O encerramento transforma o sofrimento em confiança de que o Senhor defenderá o necessitado."
+    },
+    "Salmos 110": {
+        "titulo": "O Rei e Sacerdote",
+        "tema_central": "O reinado e o sacerdócio do escolhido por Deus",
+        "descricao": "O salmo apresenta uma declaração divina ao rei, colocando-o em posição de autoridade até que seus inimigos sejam submetidos. O Senhor promete estabelecer seu governo a partir de Sião, enquanto seu povo se apresenta voluntariamente no dia do seu poder. Em seguida, aparece uma declaração singular de que o escolhido é sacerdote para sempre segundo a ordem de Melquisedeque. O salmo também descreve a vitória desse rei sobre as nações e os governantes, mostrando-o exercendo juízo e autoridade. É um texto de forte caráter régio e messiânico, posteriormente retomado no Novo Testamento para falar de Cristo."
+    },
+    "Salmos 111": {
+        "titulo": "As grandes obras do Senhor",
+        "tema_central": "Louvor pelas obras, justiça e fidelidade de Deus",
+        "descricao": "O salmista declara que louvará o Senhor de todo o coração e destaca a grandeza de suas obras. Seus feitos são apresentados como dignos de serem estudados e lembrados, especialmente por causa de sua justiça, graça e misericórdia. Deus provê alimento ao seu povo, lembra-se de sua aliança e manifesta poder ao conceder a herança prometida. Seus mandamentos são descritos como firmes e dignos de confiança. O salmo conclui com a afirmação de que o temor do Senhor é o princípio da sabedoria e que aqueles que praticam seus preceitos demonstram entendimento."
+    },
+    "Salmos 112": {
+        "titulo": "A felicidade daquele que teme ao Senhor",
+        "tema_central": "As características e bênçãos de uma vida marcada pelo temor de Deus",
+        "descricao": "O salmo descreve a pessoa que teme ao Senhor e encontra grande prazer em seus mandamentos. Sua descendência é apresentada como abençoada, e sua vida é marcada por estabilidade, generosidade e justiça. Mesmo diante de más notícias, essa pessoa não vive dominada pelo medo, porque seu coração está firme e confia no Senhor. Ela distribui seus bens aos necessitados e permanece em sua retidão. Em contraste, o perverso vê o sucesso do justo e se irrita, enquanto seus próprios desejos acabam frustrados."
+    },
+    "Salmos 113": {
+        "titulo": "O Senhor exaltado sobre as nações",
+        "tema_central": "A grandeza de Deus e sua atenção aos humildes e necessitados",
+        "descricao": "O salmo começa com um chamado contínuo para que o nome do Senhor seja louvado, desde agora e para sempre. Deus é exaltado acima de todas as nações e sua glória está acima dos céus, mas sua grandeza não o impede de olhar para os humildes. Ele se inclina para contemplar os céus e a terra e levanta o necessitado do pó, colocando-o entre os príncipes. Também transforma a situação da mulher estéril, fazendo-a mãe de filhos e enchendo sua casa de alegria. O salmo destaca, assim, a grandeza de um Deus que governa sobre tudo e, ao mesmo tempo, cuida dos pequenos."
+    },
+    "Salmos 114": {
+        "titulo": "Quando Israel saiu do Egito",
+        "tema_central": "A presença poderosa de Deus na libertação e condução de Israel",
+        "descricao": "O salmo recorda a saída de Israel do Egito e apresenta Judá como santuário e Israel como domínio do Senhor. A criação é poeticamente personificada: o mar foge, o Jordão volta para trás e os montes saltam como carneiros diante da presença de Deus. O salmista pergunta o que fez o mar e o Jordão recuarem e os montes tremerem, respondendo que foi a presença do Senhor, o Deus de Jacó. Ele termina lembrando que Deus transforma a rocha em águas e o rochedo em fonte, celebrando seu poder manifestado durante o êxodo."
+    },
+    "Salmos 115": {
+        "titulo": "Não a nós, mas ao teu nome",
+        "tema_central": "A glória de Deus em contraste com a inutilidade dos ídolos",
+        "descricao": "O salmista pede que a glória seja atribuída ao nome do Senhor por causa de sua misericórdia e fidelidade, e não ao povo. Enquanto as nações perguntam onde está o Deus de Israel, o texto afirma que ele está nos céus e faz tudo conforme sua vontade. Em contraste, os ídolos das nações possuem aparência e órgãos, mas são incapazes de falar, ver, ouvir, cheirar, tocar ou andar. O povo é chamado a confiar no Senhor, que é auxílio e escudo, e a louvá-lo enquanto vive. O salmo termina com uma bênção sobre Israel, a casa de Arão e todos os que temem ao Senhor."
+    },
+    "Salmos 116": {
+        "titulo": "Amo o Senhor porque ele ouviu minha voz",
+        "tema_central": "Gratidão pelo livramento e compromisso de servir ao Senhor",
+        "descricao": "O salmista relata uma experiência de grande perigo em que a morte parecia cercá-lo, mas ele invocou o nome do Senhor e foi ouvido. Deus é descrito como misericordioso, justo e compassivo, aquele que preserva os simples e socorre os abatidos. Depois do livramento, o salmista pergunta como poderá retribuir ao Senhor por todos os seus benefícios e decide oferecer sacrifícios de ação de graças e cumprir seus votos. Ele reconhece o valor da vida dos fiéis diante de Deus e declara que continuará servindo ao Senhor. O salmo termina no ambiente de Jerusalém, entre o povo reunido para louvar."
+    },
+    "Salmos 117": {
+        "titulo": "Louvai ao Senhor, todas as nações",
+        "tema_central": "O chamado universal ao louvor pela misericórdia e fidelidade de Deus",
+        "descricao": "Este breve salmo convoca todas as nações e todos os povos a louvar o Senhor. O motivo apresentado é a grande misericórdia de Deus para com seu povo e a permanência de sua fidelidade. Apesar de sua brevidade, o texto possui alcance universal, mostrando que o louvor ao Senhor não está limitado a Israel. A declaração final reafirma que a fidelidade divina permanece para sempre."
+    },
+    "Salmos 118": {
+        "titulo": "A pedra que os construtores rejeitaram",
+        "tema_central": "A misericórdia de Deus, o livramento e a vitória concedida ao seu povo",
+        "descricao": "O salmo começa e termina com o chamado para dar graças ao Senhor porque sua misericórdia dura para sempre. O salmista recorda momentos de angústia em que clamou ao Senhor e recebeu resposta, declarando que não temerá porque Deus está com ele. A confiança é colocada acima da dependência de príncipes e forças humanas. O texto celebra a vitória concedida por Deus e apresenta a conhecida imagem da pedra rejeitada pelos construtores que se tornou a principal pedra. O salmo também descreve a entrada pelos portões da justiça e termina com uma celebração de gratidão pelo dia que o Senhor fez."
+    },
+    "Salmos 119": {
+        "titulo": "A excelência da Palavra de Deus",
+        "tema_central": "Amor, obediência e confiança na Palavra do Senhor",
+        "descricao": "O maior salmo do Saltério é uma longa meditação sobre a Palavra, os mandamentos, os estatutos, os testemunhos e os preceitos de Deus. Ao longo de suas muitas estrofes, o salmista expressa amor profundo pela Lei e reconhece que ela orienta seus passos, preserva sua vida e oferece sabedoria. Mesmo enfrentando perseguição, aflição e oposição, ele permanece apegado à Palavra e pede entendimento para obedecê-la. O salmo também apresenta confissões de fragilidade, pedidos de livramento e declarações de esperança nas promessas divinas. Seu conjunto forma uma oração de devoção, mostrando que a verdadeira segurança e direção encontram-se na fidelidade à Palavra do Senhor."
+    },
+    "Salmos 120": {
+        "titulo": "Clamor em meio à mentira",
+        "tema_central": "Pedido de livramento de um ambiente marcado pelo engano e pela violência",
+        "descricao": "O salmo inicia a coleção dos Cânticos de Romagem e apresenta um homem aflito que clama ao Senhor por causa de lábios mentirosos e de uma língua enganadora. Ele deseja saber o que será feito àqueles que usam palavras falsas para ferir e destruir. O salmista lamenta viver entre pessoas que odeiam a paz, enquanto ele procura promovê-la. Mesmo quando fala de paz, seus vizinhos parecem preferir a guerra. O salmo expressa, portanto, o desejo de afastar-se de um ambiente dominado pela mentira e pelo conflito e buscar a proteção de Deus."
+    },
+    "Salmos 121": {
+        "titulo": "O Senhor é quem te guarda",
+        "tema_central": "A proteção constante de Deus na caminhada de seu povo",
+        "descricao": "O salmista levanta os olhos para os montes e pergunta de onde virá seu socorro, encontrando a resposta no Senhor, Criador dos céus e da terra. Deus é apresentado como aquele que não permite que o pé do seu povo vacile e que nunca dorme enquanto o guarda. O Senhor protege tanto de dia quanto de noite, sendo comparado a uma sombra junto à pessoa que caminha. A proteção divina alcança todos os aspectos da jornada: saída, entrada e continuidade da vida. O salmo termina afirmando que o Senhor guardará seu povo agora e para sempre."
+    },
+    "Salmos 122": {
+        "titulo": "A alegria de ir à casa do Senhor",
+        "tema_central": "Alegria pela comunhão em Jerusalém e oração pela paz da cidade de Deus",
+        "descricao": "O salmista expressa alegria ao saber que irá à casa do Senhor e descreve Jerusalém como uma cidade firmemente estabelecida para onde sobem as tribos de Israel. Ali o povo se reúne para dar graças ao nome do Senhor e estão os tronos destinados ao julgamento e à casa de Davi. O salmista pede que Jerusalém tenha paz e que prosperem aqueles que a amam. Também deseja segurança para seus irmãos e amigos e afirma que buscará o bem da cidade por amor à casa do Senhor. O salmo combina, assim, peregrinação, adoração, unidade e oração pela paz."
+    },
+    "Salmos 123": {
+        "titulo": "Os olhos voltados para o Senhor",
+        "tema_central": "Dependência de Deus diante do desprezo e da oposição",
+        "descricao": "O salmista eleva seus olhos ao Senhor, comparando sua atitude à dos servos que observam a mão de seu senhor e da serva que espera a mão de sua senhora. A imagem expressa dependência, expectativa e confiança na intervenção divina. O povo pede misericórdia porque está profundamente saturado do desprezo e da zombaria dos que vivem em segurança e orgulho. Em vez de responder por suas próprias forças, o salmista espera que Deus intervenha e alivie a humilhação. O curto salmo concentra-se, portanto, na espera confiante pela misericórdia do Senhor."
+    },
+    "Salmos 124": {
+        "titulo": "Se o Senhor não estivesse conosco",
+        "tema_central": "Reconhecimento de que o livramento do povo veio do Senhor",
+        "descricao": "Davi conduz o povo a refletir sobre o que teria acontecido se o Senhor não estivesse ao seu lado quando os inimigos se levantaram contra ele. A ameaça é descrita como águas que poderiam ter inundado e destruído completamente o povo. O salmista reconhece que Deus não permitiu que Israel fosse entregue aos dentes dos adversários e compara o livramento a um pássaro que escapa da armadilha do caçador. A conclusão é uma declaração de confiança: o socorro do povo está no nome do Senhor, Criador dos céus e da terra."
+    },
+    "Salmos 125": {
+        "titulo": "Os que confiam no Senhor",
+        "tema_central": "Segurança dos que confiam em Deus e esperança de paz para seu povo",
+        "descricao": "O salmo compara aqueles que confiam no Senhor ao monte Sião, que não pode ser abalado e permanece para sempre. Assim como os montes cercam Jerusalém, o Senhor cerca seu povo continuamente, protegendo-o. O salmista pede que o domínio da maldade não permaneça sobre a terra dos justos, para que estes não sejam levados a praticar o mal. O texto termina com uma oração para que Deus faça o bem aos que são bons e retos de coração, enquanto aqueles que seguem caminhos tortuosos recebem o devido juízo. A esperança final é de paz sobre Israel."
+    },
+    "Salmos 126": {
+        "titulo": "A alegria da restauração",
+        "tema_central": "A esperança de que Deus transforme o sofrimento em alegria e restaure seu povo",
+        "descricao": "O salmo recorda o tempo em que o Senhor restaurou Sião e descreve a reação do povo como alguém que sonha diante de uma grande mudança. As nações reconheceram que Deus havia feito grandes coisas por Israel, e o próprio povo celebra essa intervenção. Ao mesmo tempo, o salmista clama para que o Senhor restaure novamente seu povo, comparando essa esperança às correntes de águas que voltam a encher o deserto. A imagem de semear com lágrimas e colher com alegria expressa a confiança de que o sofrimento presente não será o fim da história. O salmo termina afirmando que aqueles que saem chorando levando a semente voltarão com alegria trazendo seus feixes."
+    },
+    "Salmos 127": {
+        "titulo": "Se o Senhor não edificar a casa",
+        "tema_central": "A dependência de Deus no trabalho, na segurança e na construção da família",
+        "descricao": "O salmo ensina que os esforços humanos são insuficientes quando realizados sem a participação e a bênção do Senhor. Construir uma casa, guardar uma cidade ou trabalhar incansavelmente não produz verdadeira segurança se Deus não estiver envolvido. O texto também critica a ansiedade excessiva pelo sustento, lembrando que Deus concede descanso aos seus amados. Na segunda parte, os filhos são apresentados como herança do Senhor e como uma bênção comparada a flechas nas mãos de um guerreiro. A família aparece, assim, como uma dádiva de Deus e não apenas como resultado do esforço humano."
+    },
+    "Salmos 128": {
+        "titulo": "A bênção sobre quem teme ao Senhor",
+        "tema_central": "As bênçãos de uma vida familiar construída no temor de Deus",
+        "descricao": "O salmo descreve como feliz aquele que teme ao Senhor e anda em seus caminhos. O trabalho de suas mãos é apresentado como fonte de sustento e satisfação, enquanto sua família é retratada em imagens de fertilidade, crescimento e alegria ao redor da mesa. A esposa é comparada a uma videira frutífera no interior da casa e os filhos a plantas de oliveira ao redor da mesa. A bênção não se limita à esfera individual, pois o salmista também deseja que a prosperidade de Jerusalém e a paz sobre Israel acompanhem aqueles que temem ao Senhor. O texto apresenta uma visão de vida familiar marcada pela reverência a Deus e por sua bênção."
+    },
+    "Salmos 129": {
+        "titulo": "Muitas vezes me angustiaram",
+        "tema_central": "A perseverança do povo de Deus diante da perseguição e a derrota dos que o odeiam",
+        "descricao": "Israel relembra as muitas aflições sofridas desde sua juventude, mas declara que os inimigos nunca conseguiram destruí-lo. A imagem dos lavradores que passaram o arado sobre suas costas representa a intensidade da opressão e do sofrimento enfrentado. Apesar disso, o Senhor é apresentado como justo e como aquele que corta as cordas dos perversos. O salmista pede que aqueles que odeiam Sião não prosperem nem recebam a bênção normalmente desejada aos que passam por uma colheita. O salmo expressa resistência e confiança na justiça de Deus depois de uma longa história de sofrimento."
+    },
+    "Salmos 130": {
+        "titulo": "Das profundezas clamo a ti",
+        "tema_central": "Arrependimento, perdão e esperança na misericórdia do Senhor",
+        "descricao": "O salmista clama ao Senhor desde as profundezas de sua angústia e reconhece que, se Deus observasse todas as iniquidades, ninguém poderia permanecer diante dele. A esperança, porém, está no perdão que pertence ao Senhor e que conduz ao temor reverente. O salmista passa então da confissão pessoal para uma expectativa paciente, comparando sua espera pela intervenção de Deus àqueles que aguardam ansiosamente o amanhecer. No final, ele amplia a mensagem para toda a comunidade de Israel, convidando-a a esperar no Senhor, porque nele há misericórdia e abundante redenção."
+    },
+    "Salmos 131": {
+        "titulo": "Como uma criança desmamada",
+        "tema_central": "Humildade, quietude interior e confiança no Senhor",
+        "descricao": "Davi declara que não possui um coração orgulhoso nem busca ocupar-se de coisas grandes demais para ele. Em vez de alimentar ambições e inquietações, ele compara sua alma a uma criança desmamada que repousa tranquilamente junto à sua mãe. Essa imagem transmite uma confiança serena, na qual a pessoa deixa de exigir respostas imediatas e encontra descanso em Deus. O salmo termina transformando essa experiência pessoal em uma exortação coletiva: Israel deve esperar no Senhor desde agora e para sempre."
+    },
+    "Salmos 132": {
+        "titulo": "A promessa de Deus a Davi e a escolha de Sião",
+        "tema_central": "A aliança davídica, a escolha de Sião e a presença de Deus entre seu povo",
+        "descricao": "O salmo recorda o desejo de Davi de encontrar uma habitação para o Senhor e a busca da arca da aliança até que ela fosse estabelecida em Jerusalém. Deus, por sua vez, lembra a promessa feita a Davi de estabelecer sua descendência no trono e apresenta Sião como o lugar escolhido para sua habitação. A cidade é descrita como o lugar onde Deus fará florescer a força de Davi e preparará uma lâmpada para seu ungido. A linguagem une a memória de Davi, a presença de Deus em Sião e a esperança de continuidade da linhagem real."
+    },
+    "Salmos 133": {
+        "titulo": "A união dos irmãos",
+        "tema_central": "A beleza e a bênção da unidade entre o povo de Deus",
+        "descricao": "O salmista celebra como é bom e agradável que os irmãos vivam em união. Essa unidade é comparada ao óleo precioso derramado sobre a cabeça de Arão e que desce por sua barba e vestes, imagem de abundância e consagração. Também é comparada ao orvalho que desce sobre os montes de Sião, trazendo uma imagem de frescor e vida. O salmo conclui afirmando que é nesse ambiente de união que o Senhor ordena a bênção e a vida para sempre."
+    },
+    "Salmos 134": {
+        "titulo": "Bendizei ao Senhor",
+        "tema_central": "Adoração contínua e bênção entre os servos do Senhor",
+        "descricao": "O último dos Cânticos de Romagem começa convocando os servos do Senhor que permanecem durante a noite em sua casa a levantarem as mãos e bendizerem o Senhor. A cena remete aos ministros que serviam no templo e continuavam a adorar mesmo durante os períodos noturnos. Em resposta ao chamado de louvor, vem uma bênção dirigida ao povo: o Senhor, Criador dos céus e da terra, é quem abençoa desde Sião. O pequeno salmo encerra a coleção de peregrinação com uma imagem de adoração e bênção."
+    },
+    "Salmos 135": {
+        "titulo": "Louvai o nome do Senhor",
+        "tema_central": "A grandeza de Deus e a superioridade do Senhor sobre os ídolos e as nações",
+        "descricao": "O salmo convoca os servos do Senhor a louvarem seu nome e recorda que Deus escolheu Jacó e Israel como sua propriedade especial. Sua grandeza é demonstrada por seu domínio sobre os céus, a terra, os mares e os fenômenos da natureza. O texto também relembra os atos de Deus no Egito, sua ação contra reis e sua entrega da terra a Israel. Em contraste, os ídolos das nações são descritos como obras humanas incapazes de falar, ver, ouvir ou respirar. O salmo termina convocando Israel, os sacerdotes, os levitas e todos os que temem ao Senhor a bendizê-lo."
+    },
+    "Salmos 136": {
+        "titulo": "A sua misericórdia dura para sempre",
+        "tema_central": "A misericórdia permanente de Deus revelada em suas obras e na história de Israel",
+        "descricao": "O salmo é estruturado como uma grande declaração de gratidão, repetindo após cada afirmação que a misericórdia do Senhor dura para sempre. Começa celebrando Deus como Criador dos céus, da terra e dos grandes luminares e depois percorre a história da redenção de Israel. São lembradas as pragas do Egito, a libertação do povo, a passagem pelo mar Vermelho, a condução no deserto e a derrota de reis poderosos. O texto termina recordando que Deus se lembrou de seu povo em sua humilhação e o alimenta, ampliando a gratidão ao Deus que cuida de toda a criação. A repetição reforça que, por trás de cada obra divina, permanece a mesma misericórdia."
+    },
+    "Salmos 137": {
+        "titulo": "Junto aos rios da Babilônia",
+        "tema_central": "A dor do exílio, a saudade de Sião e o clamor por justiça",
+        "descricao": "O salmo expressa a profunda tristeza dos israelitas exilados na Babilônia, que se sentam junto aos rios e choram ao lembrar de Sião. Seus instrumentos de música permanecem pendurados, pois os opressores exigem que cantem canções de Jerusalém em uma terra estrangeira. O povo reafirma que não pode esquecer Jerusalém, mesmo vivendo longe de sua pátria. A parte final abandona o tom de saudade e apresenta um forte clamor contra Edom e Babilônia, pedindo que Deus faça justiça diante da violência praticada contra Jerusalém. O texto registra, sem suavizar, a dor, a revolta e o desejo de retribuição de um povo traumatizado pelo exílio."
+    },
+    "Salmos 138": {
+        "titulo": "Graças pela fidelidade do Senhor",
+        "tema_central": "Gratidão pela resposta de Deus e confiança em sua presença",
+        "descricao": "Davi agradece ao Senhor de todo o coração e declara que cantará diante dos deuses, voltando-se para o templo e louvando o nome de Deus por sua misericórdia e fidelidade. Ele reconhece que Deus respondeu quando clamou e fortaleceu sua alma. O salmista também afirma que reis da terra reconhecerão as palavras do Senhor quando perceberem sua grande glória. Mesmo que Davi ande em meio à angústia, confia que Deus preservará sua vida e enfrentará seus inimigos. O salmo termina com uma declaração de confiança de que o Senhor completará aquilo que começou em favor de seu servo."
+    },
+    "Salmos 139": {
+        "titulo": "Senhor, tu me sondas e me conheces",
+        "tema_central": "A presença, o conhecimento e a ação de Deus sobre a vida humana",
+        "descricao": "Davi contempla a profundidade do conhecimento que Deus possui sobre sua vida, reconhecendo que o Senhor conhece seus pensamentos, palavras, caminhos e intenções. Não existe lugar onde possa fugir da presença divina, pois Deus está nos céus, no abismo, na manhã ou nas extremidades do mar. O salmista também reconhece que Deus o conhecia desde sua formação no ventre materno e que seus dias estavam diante dele. Diante dessa realidade, pede que Deus sonde seu coração, revele qualquer caminho mau e o conduza pelo caminho eterno. O salmo une admiração pela presença divina, reconhecimento da criação humana e desejo de viver em retidão."
+    },
+    "Salmos 140": {
+        "titulo": "Livra-me dos homens violentos",
+        "tema_central": "Pedido de proteção contra pessoas perversas e confiança na justiça de Deus",
+        "descricao": "Davi pede ao Senhor que o livre de homens maus e violentos que planejam o mal, provocam conflitos e procuram prejudicá-lo. Ele descreve seus inimigos como pessoas que escondem armadilhas e usam palavras maliciosas para causar destruição. O salmista reconhece Deus como seu Senhor e como aquele que protege sua cabeça no dia da batalha. Em seguida, pede que os planos dos perversos não prosperem e que a própria violência deles recaia sobre eles. O salmo termina com confiança de que o Senhor defenderá a causa do aflito e fará justiça aos necessitados."
+    },
+    "Salmos 141": {
+        "titulo": "Guarda a minha boca",
+        "tema_central": "Vigilância espiritual, domínio das palavras e dependência da correção de Deus",
+        "descricao": "Davi clama ao Senhor para que sua oração seja recebida como incenso e seu pedido como uma oferta diante de Deus. Ele pede especialmente que o Senhor coloque uma guarda sobre sua boca e impeça seu coração de inclinar-se para práticas perversas. Em vez de aceitar os banquetes e caminhos dos ímpios, deseja receber a repreensão dos justos como um ato de bondade. O salmista também pede proteção contra as armadilhas dos malfeitores e manifesta esperança de que Deus faça justiça. O salmo destaca que a fidelidade a Deus envolve não apenas resistir ao mal exterior, mas também controlar palavras, desejos e atitudes."
+    },
+    "Salmos 142": {
+        "titulo": "Clamor da caverna",
+        "tema_central": "Buscar refúgio em Deus quando não há outro lugar de segurança",
+        "descricao": "Davi apresenta ao Senhor seu sofrimento e derrama diante dele toda a sua angústia, reconhecendo que Deus conhece seu caminho. Ele se encontra em uma situação de isolamento e perseguição, afirmando que não há ninguém à sua direita que se importe com ele e que nenhum refúgio humano está disponível. Mesmo assim, declara que o Senhor é sua porção na terra dos viventes. O salmista pede que Deus o livre de seus perseguidores, que são mais fortes do que ele. O salmo termina com esperança de que, depois do livramento, os justos se reúnam ao seu redor por causa da bondade de Deus."
+    },
+    "Salmos 143": {
+        "titulo": "Ensina-me a fazer a tua vontade",
+        "tema_central": "Clamor por misericórdia, direção e renovação diante da perseguição",
+        "descricao": "Davi pede ao Senhor que ouça sua oração e reconhece que nenhum ser humano pode ser considerado justo diante de Deus. Sua alma está abatida e ele se encontra em situação de perseguição, sentindo-se como alguém que habita em trevas. Para recuperar a esperança, recorda os feitos antigos de Deus e estende as mãos em busca dele como uma terra seca necessita de água. Davi pede que Deus lhe mostre o caminho que deve seguir, ensine sua vontade e conduza sua vida pelo caminho reto. O salmo termina pedindo livramento, proteção e a orientação do bom Espírito de Deus."
+    },
+    "Salmos 144": {
+        "titulo": "Bendito seja o Senhor, minha rocha",
+        "tema_central": "Dependência de Deus, livramento e bênção sobre o povo",
+        "descricao": "Davi louva o Senhor como sua rocha, aquele que prepara suas mãos para a batalha e o protege dos inimigos. Ele reconhece a pequenez humana diante da grandeza de Deus, comparando o ser humano a um sopro e seus dias a uma sombra passageira. O salmista pede que Deus incline os céus, intervenha e o livre das grandes águas e das mãos dos estrangeiros que praticam falsidade. Depois, expressa o desejo de que seus filhos, rebanhos e campos sejam abençoados e de que não haja invasão nem clamor nas ruas. O salmo termina declarando feliz o povo cujo Deus é o Senhor."
+    },
+    "Salmos 145": {
+        "titulo": "Grande é o Senhor e muito digno de louvor",
+        "tema_central": "A grandeza, bondade e misericórdia de Deus reconhecidas por todas as gerações",
+        "descricao": "Davi promete exaltar o Senhor todos os dias e transmitir às gerações futuras a memória de suas grandes obras. Deus é apresentado como grande, compassivo, misericordioso, paciente e rico em bondade. Seu domínio é eterno e suas obras revelam sua justiça e cuidado com toda a criação. O salmista destaca que Deus sustenta os que caem, alimenta os seres vivos, está perto dos que o invocam com sinceridade e preserva aqueles que o amam. O salmo termina ampliando o louvor para toda a humanidade e declarando que toda carne bendirá o santo nome do Senhor para todo o sempre."
+    },
+    "Salmos 146": {
+        "titulo": "Não confieis nos príncipes",
+        "tema_central": "A confiança no Deus eterno que faz justiça e socorre os necessitados",
+        "descricao": "O salmista começa convocando a própria alma a louvar o Senhor enquanto viver e adverte contra colocar a confiança definitiva em príncipes e seres humanos, cuja vida é passageira e cujos planos desaparecem com a morte. Feliz é aquele que tem o Deus de Jacó como auxílio e deposita sua esperança no Senhor, Criador dos céus e da terra. Deus é apresentado como aquele que faz justiça aos oprimidos, alimenta os famintos, liberta os presos, abre os olhos dos cegos e sustenta estrangeiros, órfãos e viúvas. Em contraste com a fragilidade dos governantes humanos, o Senhor reina para sempre."
+    },
+    "Salmos 147": {
+        "titulo": "Grande é o nosso Senhor",
+        "tema_central": "Louvor pelo poder de Deus, seu cuidado com Israel e sua autoridade sobre a criação",
+        "descricao": "O salmo convida o povo a louvar o Senhor porque ele é bom e agradável cantar seus louvores. Deus é apresentado como aquele que edifica Jerusalém, reúne os dispersos de Israel e cura os que têm o coração quebrantado. Sua grandeza é incompreensível, mas ele também conhece cada estrela e a chama pelo nome. O texto celebra sua provisão sobre a terra, fazendo a vegetação crescer e sustentando animais e pessoas. Na parte final, destaca-se o privilégio de Israel por receber a Palavra, estatutos e juízos de Deus, enquanto outras nações não receberam o mesmo conhecimento."
+    },
+    "Salmos 148": {
+        "titulo": "Louvai ao Senhor nos céus e na terra",
+        "tema_central": "Toda a criação convocada a louvar o Criador",
+        "descricao": "O salmo apresenta uma grande convocação universal ao louvor, começando nos céus e passando pelos anjos, exércitos celestiais, sol, lua e estrelas. A razão é que Deus criou todas essas coisas e estabeleceu seus limites. Em seguida, o chamado se estende à terra, aos mares, aos animais, às forças da natureza, aos reis, povos, jovens, idosos e crianças. Todos são chamados a louvar o nome do Senhor porque somente ele é exaltado e sua glória está acima da terra e dos céus. O salmo termina destacando que Deus exaltou a força de seu povo e aproximou Israel de si."
+    },
+    "Salmos 149": {
+        "titulo": "Cantai ao Senhor um cântico novo",
+        "tema_central": "Louvor, alegria do povo de Deus e juízo sobre as nações",
+        "descricao": "O salmo convoca Israel a cantar um novo cântico e alegrar-se em seu Criador e Rei. O povo é chamado a celebrar com dança, tamborins e instrumentos, reconhecendo que o Senhor se agrada de seu povo e adorna os humildes com salvação. Na segunda parte, o louvor se une à linguagem de julgamento, apresentando os fiéis participando da execução da sentença escrita contra as nações. Essa linguagem está ligada à vitória e ao juízo concedidos por Deus ao seu povo. O salmo termina reafirmando que essa honra pertence a todos os seus santos."
+    },
+    "Salmos 150": {
+        "titulo": "Tudo quanto tem fôlego louve ao Senhor",
+        "tema_central": "Louvor completo e universal à grandeza de Deus",
+        "descricao": "O último salmo encerra o Saltério com uma grande convocação ao louvor. O Senhor deve ser louvado em seu santuário e na manifestação de seu poder, tanto por suas obras grandiosas quanto por sua imensa grandeza. O texto apresenta uma sequência de instrumentos musicais, incluindo trombeta, saltério, harpa, tamborins, cordas, flautas e címbalos, formando uma imagem de celebração abundante. O chamado finalmente ultrapassa qualquer grupo específico e alcança tudo o que possui fôlego. Assim, o Saltério termina com uma declaração simples e abrangente: toda criatura que tem vida é chamada a louvar o Senhor."
+    }
+}
