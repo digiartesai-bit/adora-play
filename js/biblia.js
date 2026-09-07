@@ -77,7 +77,7 @@
         },
         nbv: {
             name: 'Nova Bíblia Viva',
-            description: 'É uma tradução em formato de equivalência dinâmica e funcional. Reestudada a partir dos textos originais (hebraico, aramaico e grego) para garantir fidelidade doutrinária, mantendo uma leitura extremamente fluida, moderna e de fácil compreensão, ideal para novos crentes e leitura devocional.'
+            description: 'É uma tradução em formato de equivalência dinâmica e funcional. Reestudada a partir dos textos originais (hebraico, aramaico e grego) para garantir fidelidade doutrinária, mantendo uma leitura extremamente fluida, moderna e de fácil compreensão, ideal para novos cristãos e leitura devocional.'
         },
         ntlh: {
             name: 'Nova Tradução na Linguagem de Hoje',
