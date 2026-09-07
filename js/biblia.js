@@ -14,6 +14,10 @@
     const versesGrid = document.getElementById('gradeVersiculos');
     const chaptersTitle = document.getElementById('tituloCapitulos');
     const versesTitle = document.getElementById('tituloVersiculos');
+    const chapterDescription = document.getElementById('descricaoCapituloBiblia');
+    const chapterTitle = document.getElementById('tituloCapituloBiblia');
+    const chapterTheme = document.getElementById('temaCapituloBiblia');
+    const chapterDescriptionText = document.getElementById('textoDescricaoCapituloBiblia');
     const subtitle = document.getElementById('bibliaSubtitulo');
     const fullVersionName = document.getElementById('nomeCompletoVersaoBiblia');
     const bookDetailsElement = document.getElementById('detalhesLivroBiblia');
@@ -61,6 +65,7 @@
     let selectedVersion = 'acf';
     const versionCache = new Map();
     let bookDetails = null;
+    const chapterDetailsCache = new Map();
     const bibleVersionDetails = {
         acf: {
             name: 'Tradução de João Ferreira de Almeida (Edição Corrigida e Fiel)',
@@ -139,6 +144,36 @@
 
     function hideBibleDescription() {
         document.getElementById('descricaoVersaoBiblia').hidden = true;
+    }
+
+    function hideChapterDescription() {
+        chapterDescription.hidden = true;
+    }
+
+    async function loadChapterDetails(book) {
+        const fileName = getBookFileName('', book.name);
+        if (chapterDetailsCache.has(fileName)) return chapterDetailsCache.get(fileName);
+        const response = await fetch(`biblias/capitulos/${fileName}.json`);
+        if (!response.ok) throw new Error(`Não foi possível carregar os capítulos de ${book.name}.`);
+        const details = await response.json();
+        chapterDetailsCache.set(fileName, details);
+        return details;
+    }
+
+    async function renderChapterDetails(book, chapterNumber) {
+        const details = await loadChapterDetails(book);
+        const chapterKey = `${normalizeBookName(book.name)} ${chapterNumber}`;
+        const selectedChapterDetails = Object.entries(details)
+            .find(([key]) => normalizeBookName(key) === chapterKey)?.[1];
+        if (!selectedChapterDetails) {
+            hideChapterDescription();
+            throw new Error(`Descrição do capítulo ${chapterKey} não encontrada.`);
+        }
+
+        chapterTitle.textContent = selectedChapterDetails.titulo;
+        chapterTheme.textContent = `Tema central: ${selectedChapterDetails.tema_central}`;
+        chapterDescriptionText.textContent = selectedChapterDetails.descricao;
+        chapterDescription.hidden = false;
     }
 
     function getBookFileName(version, bookName) {
@@ -521,11 +556,15 @@
 
     function selectChapter(chapterIndex) {
         hideBibleDescription();
+        hideChapterDescription();
         selectedChapter = chapterIndex;
         clearSelectedVerses();
         closeVerseStudy();
         const chapter = selectedBookData.chapters[chapterIndex];
         const verses = chapter.verses;
+        renderChapterDetails(selectedBook, chapter.chapter).catch(error => {
+            console.warn('Não foi possível carregar a descrição do capítulo:', error.message);
+        });
         versesTitle.textContent = `${selectedBook.name} ${chapter.chapter}: versículos`;
         versesGrid.replaceChildren();
         verses.forEach((verse, index) => {
@@ -764,6 +803,7 @@
         scrollTopButton.hidden = true;
         notesPanel.hidden = true;
         closeVerseStudy(true);
+        hideChapterDescription();
         renderBibleVersionDetails();
         subtitle.textContent = `${selectedVersion.toUpperCase()} selecionada. Escolha um livro para começar a leitura.`;
         setStep('book');
@@ -774,6 +814,7 @@
         selectedChapter = null;
         clearSelectedVerses();
         hideBibleDescription();
+        hideChapterDescription();
         chaptersPanel.hidden = false;
         versesPanel.hidden = true;
         scrollTopButton.hidden = true;
