@@ -1685,6 +1685,17 @@
     "capa_musica": "assets/capamusica/voltapramim.jpg",
     "categoria": "Louvor",
     "data_cadastro": "2026-08-30"
-  }
+  },
+    {
+    "id": 154,
+    "titulo": "O Teu Altar",
+    "artista": "AdoraPlay",
+    "album": "Adoração",
+    "audio": "https://pub-030873deecd54e338400b701408a6d69.r2.dev/adoracao/O_Teu_Altar.mp3",
+    "capa": "assets/capas/adoracao.jpg",
+    "capa_musica": "assets/capamusica/oteualtar.jpg",
+    "categoria": "Adoracao",
+    "data_cadastro": "2026-09-11"
+    }
 ]
 
