@@ -8,7 +8,7 @@
         "livro": "Gênesis",
         "capitulo": 1,
         "versiculos_estimados": 30,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 15
       },
       {
@@ -17,7 +17,7 @@
         "livro": "Gênesis",
         "capitulo": 2,
         "versiculos_estimados": 30,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 15
       },
       {
@@ -26,7 +26,7 @@
         "livro": "Gênesis",
         "capitulo": 3,
         "versiculos_estimados": 30,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 15
       }
     ]
@@ -40,7 +40,7 @@
         "livro": "Gênesis",
         "capitulo": 4,
         "versiculos_estimados": 30,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 15
       },
       {
@@ -49,7 +49,7 @@
         "livro": "Gênesis",
         "capitulo": 5,
         "versiculos_estimados": 30,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 15
       },
       {
@@ -58,7 +58,7 @@
         "livro": "Lucas",
         "capitulo": 1,
         "versiculos_estimados": 48,
-        "tempo_estimado_minutos": 8,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       }
     ]
@@ -72,7 +72,7 @@
         "livro": "Gênesis",
         "capitulo": 6,
         "versiculos_estimados": 30,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 15
       },
       {
@@ -81,7 +81,7 @@
         "livro": "Gênesis",
         "capitulo": 7,
         "versiculos_estimados": 30,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 15
       },
       {
@@ -90,7 +90,7 @@
         "livro": "Lucas",
         "capitulo": 2,
         "versiculos_estimados": 48,
-        "tempo_estimado_minutos": 8,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       }
     ]
