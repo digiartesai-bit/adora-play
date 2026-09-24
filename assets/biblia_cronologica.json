@@ -51,15 +51,6 @@
         "versiculos_estimados": 32,
         "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
-      },
-      {
-        "id_missao": "dia_2_m3",
-        "titulo": "Lucas - Capítulo 1",
-        "livro": "Lucas",
-        "capitulo": 1,
-        "versiculos_estimados": 80,
-        "tempo_estimado_minutos": 8,
-        "recompensa_bonus": 20
       }
     ]
   },
@@ -86,11 +77,11 @@
       },
       {
         "id_missao": "dia_3_m3",
-        "titulo": "Lucas - Capítulo 2",
+        "titulo": "Lucas - Capítulo 1",
         "livro": "Lucas",
-        "capitulo": 2,
-        "versiculos_estimados": 52,
-        "tempo_estimado_minutos": 6,
+        "capitulo": 1,
+        "versiculos_estimados": 80,
+        "tempo_estimado_minutos": 8,
         "recompensa_bonus": 20
       }
     ]
@@ -159,6 +150,15 @@
       },
       {
         "id_missao": "dia_5_m3",
+        "titulo": "Lucas - Capítulo 2",
+        "livro": "Lucas",
+        "capitulo": 2,
+        "versiculos_estimados": 52,
+        "tempo_estimado_minutos": 6,
+        "recompensa_bonus": 20
+      },
+      {
+        "id_missao": "dia_5_m4",
         "titulo": "Lucas - Capítulo 3",
         "livro": "Lucas",
         "capitulo": 3,
@@ -6481,24 +6481,6 @@
         "versiculos_estimados": 176,
         "tempo_estimado_minutos": 18,
         "recompensa_bonus": 20
-      },
-      {
-        "id_missao": "dia_190_m2",
-        "titulo": "Salmos - Capítulo 120",
-        "livro": "Salmos",
-        "capitulo": 120,
-        "versiculos_estimados": 7,
-        "tempo_estimado_minutos": 1,
-        "recompensa_bonus": 10
-      },
-      {
-        "id_missao": "dia_190_m3",
-        "titulo": "1 Coríntios - Capítulo 4",
-        "livro": "1 Coríntios",
-        "capitulo": 4,
-        "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
-        "recompensa_bonus": 15
       }
     ]
   },
@@ -6507,6 +6489,24 @@
     "missoes": [
       {
         "id_missao": "dia_191_m1",
+        "titulo": "Salmos - Capítulo 120",
+        "livro": "Salmos",
+        "capitulo": 120,
+        "versiculos_estimados": 7,
+        "tempo_estimado_minutos": 1,
+        "recompensa_bonus": 10
+      },
+      {
+        "id_missao": "dia_191_m2",
+        "titulo": "1 Coríntios - Capítulo 4",
+        "livro": "1 Coríntios",
+        "capitulo": 4,
+        "versiculos_estimados": 21,
+        "tempo_estimado_minutos": 3,
+        "recompensa_bonus": 15
+      },
+      {
+        "id_missao": "dia_191_m3",
         "titulo": "Salmos - Capítulo 121",
         "livro": "Salmos",
         "capitulo": 121,
@@ -6515,21 +6515,12 @@
         "recompensa_bonus": 10
       },
       {
-        "id_missao": "dia_191_m2",
+        "id_missao": "dia_191_m4",
         "titulo": "Salmos - Capítulo 122",
         "livro": "Salmos",
         "capitulo": 122,
         "versiculos_estimados": 9,
         "tempo_estimado_minutos": 1,
-        "recompensa_bonus": 10
-      },
-      {
-        "id_missao": "dia_191_m3",
-        "titulo": "1 Coríntios - Capítulo 5",
-        "livro": "1 Coríntios",
-        "capitulo": 5,
-        "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 10
       }
     ]
@@ -6598,6 +6589,15 @@
       },
       {
         "id_missao": "dia_193_m3",
+        "titulo": "1 Coríntios - Capítulo 5",
+        "livro": "1 Coríntios",
+        "capitulo": 5,
+        "versiculos_estimados": 13,
+        "tempo_estimado_minutos": 2,
+        "recompensa_bonus": 10
+      },
+      {
+        "id_missao": "dia_193_m4",
         "titulo": "1 Coríntios - Capítulo 6",
         "livro": "1 Coríntios",
         "capitulo": 6,
