@@ -265,6 +265,8 @@ function renderizarDesafiosQuiz(lista) {
 
 window.mostrarDesafios = function mostrarDesafios(tipo = 'abertos') {
     if (!desafiosSection) return;
+    const tipoValido = ['abertos', 'finalizados', 'individuais'].includes(tipo) ? tipo : 'abertos';
+    window.navegarPorRota?.(`/desafios/${tipoValido}`);
     document.getElementById('gamificacaoSection')?.style.setProperty('display', 'none');
     if (typeof homeSection !== 'undefined' && homeSection) homeSection.style.display = 'none';
     if (typeof bibliotecaSection !== 'undefined' && bibliotecaSection) bibliotecaSection.style.display = 'none';
@@ -272,13 +274,13 @@ window.mostrarDesafios = function mostrarDesafios(tipo = 'abertos') {
     if (window.quizSection) window.quizSection.style.display = 'none';
     if (window.quizDesafioSection) window.quizDesafioSection.style.display = 'none';
     desafiosSection.style.display = 'grid';
-    tipoDesafiosExibidoAtualmente = tipo;
+    tipoDesafiosExibidoAtualmente = tipoValido;
 
     const { abertos, finalizados } = separarDesafiosPorStatus(ultimosDesafiosRanking);
-    const rankingIndividual = tipo === 'individuais';
-    const lista = rankingIndividual ? ultimosIndividuaisRanking : tipo === 'finalizados' ? finalizados : abertos;
+    const rankingIndividual = tipoValido === 'individuais';
+    const lista = rankingIndividual ? ultimosIndividuaisRanking : tipoValido === 'finalizados' ? finalizados : abertos;
     const titulo = document.getElementById('desafiosSectionTitulo');
-    if (titulo) titulo.textContent = rankingIndividual ? 'Ranking do quiz' : tipo === 'finalizados' ? 'Desafios finalizados' : 'Desafios abertos';
+    if (titulo) titulo.textContent = rankingIndividual ? 'Ranking do quiz' : tipoValido === 'finalizados' ? 'Desafios finalizados' : 'Desafios abertos';
     if (listaDesafiosCompleta) {
         listaDesafiosCompleta.innerHTML = lista.length
             ? rankingIndividual ? lista.map(criarCardIndividualRanking).join('') : lista.map(criarCardDesafio).join('')
@@ -314,8 +316,13 @@ window.compartilharDesafioRanking = async function compartilharDesafioRanking(id
             await navigator.share(dados);
             return;
         }
+        if (window.compartilharLinkNoFacebook) {
+            window.compartilharLinkNoFacebook(link);
+            window.mostrarToast?.('Facebook aberto com o link preenchido. Revise e confirme a publicação por lá.', 'info');
+            return;
+        }
         await navigator.clipboard.writeText(link);
-        window.mostrarToast?.('Seu navegador não oferece o menu de compartilhamento. Link copiado!', 'info');
+        window.mostrarToast?.('Link copiado para compartilhar.', 'info');
     } catch (erro) {
         if (erro.name !== 'AbortError') window.mostrarToast?.('Não foi possível compartilhar o desafio.', 'erro');
     }
