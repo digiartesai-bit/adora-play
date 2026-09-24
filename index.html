@@ -9,7 +9,7 @@
     <link rel="manifest" href="manifest.json">
 
     <!-- Garante compatibilidade e cor da barra no Safari (iPhone) -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="#0d233a">
     <link class="apple-touch-icon" href="assets/icone-192.png">
 
@@ -26,8 +26,9 @@
     <!-- Fonte Google: Poppins -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css?v=2.3.15">
-    <link rel="stylesheet" href="css/biblia.css?v=1.0.4">
+    <link rel="stylesheet" href="css/style.css?v=2.3.16">
+    <link rel="stylesheet" href="css/biblia.css?v=1.0.5">
+    <link rel="stylesheet" href="css/quiz-unificado.css?v=1.0.1">
 </head>
 
 <body>
@@ -79,6 +80,11 @@
                             <span aria-hidden="true">B</span>
                             <span class="bible-label">Bíblia</span>
                         </button>
+                        <button class="btn-library" id="btnGamificacao" onclick="mostrarGamificacao()"
+                            aria-label="Abrir missões e pontuação" title="Missões e pontuação">
+                            <span aria-hidden="true">XP</span>
+                            <span class="library-label">Missões</span>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -117,9 +123,11 @@
                                 <span class="daily-verse-label">Versículo do dia</span>
                                 <strong id="versiculoDoDiaReferencia"></strong>
                                 <p id="versiculoDoDiaTexto"></p>
-                                <p class="daily-verse-reflection"><b>Reflita:</b> <span id="versiculoDoDiaReflita"></span></p>
+                                <p class="daily-verse-reflection"><b>Reflita:</b> <span
+                                        id="versiculoDoDiaReflita"></span></p>
                             </div>
-                            <button class="daily-verse-share" id="compartilharVersiculoDoDia" type="button" aria-label="Compartilhar versículo do dia" title="Compartilhar versículo do dia">
+                            <button class="daily-verse-share" id="compartilharVersiculoDoDia" type="button"
+                                aria-label="Compartilhar versículo do dia" title="Compartilhar versículo do dia">
                                 <span class="bible-share-icon" aria-hidden="true"><i></i><i></i><i></i></span>
                                 <span class="daily-verse-share-label">Compartilhar</span>
                             </button>
@@ -148,6 +156,39 @@
                     <div class="ranking-carousel" id="maisOuvidas"></div>
                 </section>
 
+                <section class="section-ranking quiz-ranking-section">
+                    <div class="section-header">
+                        <div>
+                            <h3>Ranking do quiz</h3>
+                            <small>Participação autorizada pelos jogadores</small>
+                        </div>
+                        <small>
+                            <button class="link-button" type="button" onclick="mostrarQuiz()">Jogar</button>
+                            <button class="link-button" id="quizSairRanking" type="button" hidden>Sair do
+                                Ranking</button></small>
+                    </div>
+                    <div class="quiz-ranking-columns">
+                        <div>
+                            <h4>Melhor Pontuação</h4>
+                            <small><button class="link-button" type="button" id="verTodosRankingIndividual"
+                                    onclick="mostrarDesafios('individuais')" hidden>Ver todos</button></small>
+                            <div id="rankingQuizIndividual" class="quiz-ranking-list"></div>
+                        </div>
+                        <div>
+                            <h4>Ultimo Desafio Aberto</h4>
+                            <small><button class="link-button" type="button" id="verTodosDesafiosAbertos"
+                                    onclick="mostrarDesafios('abertos')" hidden>Ver todos</button></small>
+                            <div id="rankingQuizAbertos" class="quiz-ranking-list"></div>
+                        </div>
+                        <div>
+                            <h4>Desafios Finalizados</h4>
+                            <small><button class="link-button" type="button" id="verTodosDesafiosFinalizados"
+                                    onclick="mostrarDesafios('finalizados')" hidden>Ver todos</button></small>
+                            <div id="rankingQuizFinalizados" class="quiz-ranking-list"></div>
+                        </div>
+                    </div>
+                </section>
+
                 <section class="section-albums">
                     <div class="section-header">
                         <div>
@@ -162,6 +203,41 @@
                         <div class="album-tracks-list" id="albumTracksList"></div>
                     </div>
                 </section>
+            </section>
+
+            <section class="section-gamificacao" id="gamificacaoSection" style="display:none;">
+                <div class="library-header">
+                    <div>
+                        <h2>Missões e evolução</h2>
+                        <p id="gamificacaoMensagem">Entre com Google para acompanhar seus pontos.</p>
+                    </div>
+                    <button class="link-button" type="button" onclick="mostrarHome()">Voltar</button>
+                </div>
+                <div class="gamificacao-resumo">
+                    <article><strong id="gamificacaoTotalPontos">0</strong><small>Pontos totais</small></article>
+                    <article><strong id="gamificacaoNivel">0</strong><small>Nível</small></article>
+                    <article><strong id="gamificacaoPontosQuiz">0</strong><small>Pontos de quiz</small></article>
+                    <article><strong id="gamificacaoMissoesConcluidas">0</strong><small>Missões concluídas</small></article>
+                    <article><strong id="gamificacaoDiasConcluidos">0</strong><small>Dias completos</small></article>
+                </div>
+                <div class="gamificacao-nivel-progresso">
+                    <div class="gamificacao-nivel-legenda">
+                        <strong id="gamificacaoNivelTexto">Nível 0</strong>
+                        <small id="gamificacaoProximoNivel">Próximo nível: 3 pontos</small>
+                    </div>
+                    <div class="gamificacao-barra"><span id="gamificacaoBarraNivel"></span></div>
+                </div>
+                <div class="gamificacao-heading">
+                    <h3>Missões diárias</h3>
+                    <small>Missões atrasadas continuam disponíveis.</small>
+                </div>
+                <div id="listaMissoesGamificacao" class="lista-missoes-gamificacao"></div>
+                <div id="leituraMissaoGamificacao" class="leitura-missao-gamificacao" hidden></div>
+                <div class="missao-leitura-timer" id="missaoLeituraTimer" hidden aria-live="polite">
+                    <span id="missaoLeituraTitulo"></span>
+                    <strong id="missaoLeituraTempo">00:00</strong>
+                    <button type="button" id="finalizarLeituraMissao" disabled>Aguardando tempo</button>
+                </div>
             </section>
 
             <section class="section-library" id="bibliotecaSection" style="display:none;">
@@ -255,28 +331,40 @@
                         <div class="bible-reading-reference" id="referenciaVersiculo"></div>
                         <div id="textoVersiculo"></div>
                         <nav class="bible-chapter-navigation" aria-label="Navegação entre capítulos">
-                            <button class="bible-back-button" id="capituloAnterior" type="button">Capítulo anterior</button>
-                            <button class="bible-back-button" id="capituloSeguinte" type="button">Próximo capítulo</button>
+                            <button class="bible-back-button" id="capituloAnterior" type="button">Capítulo
+                                anterior</button>
+                            <button class="bible-back-button" id="capituloSeguinte" type="button">Próximo
+                                capítulo</button>
                         </nav>
                     </article>
                 </section>
 
-                <button class="bible-scroll-top" id="voltarTopoBiblia" type="button" aria-label="Voltar ao topo" title="Voltar ao topo" hidden>↑</button>
-                <section class="bible-quick-actions" id="acoesRapidasBiblia" hidden aria-label="Ações dos versículos selecionados">
+                <button class="bible-scroll-top" id="voltarTopoBiblia" type="button" aria-label="Voltar ao topo"
+                    title="Voltar ao topo" hidden>↑</button>
+                <section class="bible-quick-actions" id="acoesRapidasBiblia" hidden
+                    aria-label="Ações dos versículos selecionados">
                     <div class="bible-note-editor" id="editorAnotacaoBiblia" hidden>
                         <textarea id="anotacaoRapidaBiblia" rows="2" placeholder="Escreva sua anotação..."></textarea>
                         <div class="bible-note-editor-actions">
                             <button id="salvarAnotacaoBiblia" type="button">Salvar anotação</button>
-                            <button id="limparSelecaoBiblia" type="button" aria-label="Fechar anotação" title="Fechar anotação">Fechar</button>
+                            <button id="limparSelecaoBiblia" type="button" aria-label="Fechar anotação"
+                                title="Fechar anotação">Fechar</button>
                         </div>
                     </div>
                     <div class="bible-quick-action-buttons">
                         <span class="bible-selection-count" id="quantidadeSelecaoBiblia"></span>
-                        <button id="compararSelecaoBiblia" type="button" aria-label="Comparar versões" title="Comparar versões">Comparar</button>
-                        <button id="compartilharSelecaoBiblia" type="button" aria-label="Compartilhar imagem" title="Compartilhar imagem"><span class="bible-share-icon" aria-hidden="true"><i></i><i></i><i></i></span><span class="bible-quick-action-label">Compartilhar</span></button>
-                        <button id="anotarSelecaoBiblia" type="button" aria-label="Anotar seleção" title="Anotar seleção">Anotar</button>
-                        <button id="marcarSelecaoBiblia" type="button" aria-label="Marcar seleção" title="Marcar seleção">Marcar</button>
-                        <button id="limparSelecaoBibliaMobile" type="button" aria-label="Limpar seleção" title="Limpar seleção">×</button>
+                        <button id="compararSelecaoBiblia" type="button" aria-label="Comparar versões"
+                            title="Comparar versões">Comparar</button>
+                        <button id="compartilharSelecaoBiblia" type="button" aria-label="Compartilhar imagem"
+                            title="Compartilhar imagem"><span class="bible-share-icon"
+                                aria-hidden="true"><i></i><i></i><i></i></span><span
+                                class="bible-quick-action-label">Compartilhar</span></button>
+                        <button id="anotarSelecaoBiblia" type="button" aria-label="Anotar seleção"
+                            title="Anotar seleção">Anotar</button>
+                        <button id="marcarSelecaoBiblia" type="button" aria-label="Marcar seleção"
+                            title="Marcar seleção">Marcar</button>
+                        <button id="limparSelecaoBibliaMobile" type="button" aria-label="Limpar seleção"
+                            title="Limpar seleção">×</button>
                     </div>
                 </section>
 
@@ -290,8 +378,175 @@
                     <div class="bible-notes-list" id="listaAnotacoes"></div>
                 </section>
             </section>
+
+            <section class="section-quiz quiz-view" id="quizSection" style="display:none;">
+                <div class="bible-header quiz-topo">
+                    <div>
+                        <div class="categoria">QUIZ BÍBLICO</div>
+                        <h1>Onde Está Escrito?</h1>
+                    </div>
+                    <button class="bible-close-button" id="fecharQuiz" type="button" aria-label="Fechar quiz"
+                        title="Fechar quiz">×</button>
+                </div>
+
+                <section class="card" id="quizCardPergunta">
+                    <div class="progresso" id="quizProgresso">Nível 1 — Pergunta 1</div>
+                    <p class="instrucao">Escolha a alternativa que indica corretamente onde o texto está escrito na
+                        Bíblia.</p>
+                    <div class="pergunta" id="quizPergunta"></div>
+                    <div class="alternativas" id="quizAlternativas"></div>
+                    <div class="feedback" id="quizFeedback" hidden></div>
+                    <div class="acoes">
+                        <button id="quizConfirmar" class="btn principal" type="button">Confirmar resposta</button>
+                        <button id="quizProxima" class="btn" type="button" hidden>Próxima pergunta</button>
+                        <button id="quizPausar" class="btn" type="button">Continuar depois</button>
+                        <button id="quizCriarDesafio" class="btn" type="button">Criar desafio</button>
+
+                    </div>
+                    <div class="quiz-extra-acoes">
+                    </div>
+                </section>
+
+                <section class="resultado card" id="quizResultado" hidden>
+                    <div class="categoria">RESULTADO</div>
+                    <h2>Quiz concluído</h2>
+                    <div class="pontuacao" id="quizPontuacao"></div>
+                    <p id="quizMensagemResultado"></p>
+
+                    <div id="quizConsentimentoRanking" hidden>
+                        <!-- 1. Caixa com o Termo (Apenas texto e rolagem, sem envolver o checkbox) -->
+                        <div class="termo-container"
+                            style="max-height: 140px; overflow-y: auto; border: 1px solid #ccc; padding: 12px; margin: 15px 0; font-size: 12px; text-align: left; background-color: #f9f9f9 !important; color: #333333 !important; border-radius: 4px; line-height: 1.4;">
+
+                            <strong
+                                style="display: block; margin-bottom: 6px; text-align: center; color: #111111 !important;">
+                                TERMO DE CONSENTIMENTO PARA USO DE IMAGEM, NOME E MAIORIDADE (v1.0)
+                            </strong>
+
+                            <p
+                                style="margin-bottom: 8px; color: #333333 !important; background: transparent !important;">
+                                Ao marcar a caixa de seleção abaixo, o usuário declara expressamente ser <strong>maior
+                                    de 18
+                                    (dezoito) anos</strong> e autoriza de forma livre, informada, inequívoca e gratuita
+                                a
+                                exibição pública de seu <strong>nome, avatar (foto) e pontuação</strong> no ranking
+                                digital
+                                da plataforma.
+                            </p>
+
+                            <p
+                                style="margin-bottom: 8px; color: #333333 !important; background: transparent !important;">
+                                <strong>1. Da Finalidade:</strong> Os dados e a imagem serão utilizados exclusivamente
+                                para
+                                compor a tabela de classificação (ranking) pública do site.
+                            </p>
+
+                            <p
+                                style="margin-bottom: 8px; color: #333333 !important; background: transparent !important;">
+                                <strong>2. Da Retratação:</strong> O usuário poderá, a qualquer momento e sem custos,
+                                retirar seus dados do ranking utilizando o botão correspondente disponível na interface
+                                ou
+                                solicitando via canal de suporte.
+                            </p>
+
+                            <p style="margin-bottom: 0; color: #333333 !important; background: transparent !important;">
+                                <strong>3. Isenção:</strong> A autorização é concedida a título gratuito, não gerando
+                                direitos a remuneração ou indenizações.
+                            </p>
+                        </div>
+
+                        <!-- 2. Checkbox embutido DIRETAMENTE no label (Garante que o clique em qualquer lugar do texto ative a caixinha) -->
+                        <label for="quizPermitirRanking"
+                            style="display: flex; align-items: center; gap: 8px; cursor: default !important; font-size: 13px; color: #333333 !important; text-align: left; margin-bottom: 15px; background: transparent !important; user-select: none;">
+
+                            <input id="quizPermitirRanking" type="checkbox"
+                                style="accent-color: #007bff; cursor: pointer !important; width: 18px; height: 18px; pointer-events: auto !important;">
+
+                            <span style="cursor: default !important; pointer-events: auto; color: #f8f4f4">
+                                Sou maior de 18 anos e li/concordo com os termos de consentimento acima.
+                            </span>
+                        </label>
+                    </div>
+
+                    <button class="btn principal" id="quizEntrarRanking" type="button" hidden>Entrar com Google para
+                        registrar meus pontos</button>
+                    <button class="btn" id="quizSalvarRanking" type="button">Salvar preferência e pontuação</button>
+                    <button class="btn" id="quizRetirarRanking" type="button" hidden>Retirar meus dados do
+                        ranking</button>
+                    <!-- O onclick agora esconde o resultado antes de chamar o mostrarQuiz -->
+                    <button class="btn principal" id="quizContinuar" type="button"
+                        onclick="document.getElementById('quizResultado').hidden = true; mostrarQuiz();"
+                        hidden>Continuar Quiz</button> <button class="btn principal" id="quizReiniciar"
+                        type="button">Reiniciar</button>
+                    <button class="btn" type="button" onclick="mostrarHome()">Voltar para a home</button>
+                </section>
+            </section>
+
+            <section class="section-quiz-desafio quiz-view" id="quizDesafioSection" style="display:none;">
+                <div class="bible-header quiz-topo">
+                    <div>
+                        <div class="categoria">DESAFIO BÍBLICO</div>
+                        <h1>Onde Está Escrito?</h1>
+                    </div>
+                    <button class="bible-close-button" id="fecharQuizDesafio" type="button" aria-label="Fechar desafio"
+                        title="Fechar desafio">×</button>
+                </div>
+
+                <section class="card" id="desafioAguardando" hidden>
+                    <p id="desafioMensagemAguardando">Entre com Google para participar deste desafio.</p>
+                    <button id="desafioAceitar" class="btn principal" type="button">Aceitar desafio</button>
+                    <button class="btn" type="button" onclick="mostrarHome()">Voltar para a home</button>
+                </section>
+
+                <section class="card" id="desafioJogo" hidden>
+                    <div class="cabecalho-jogo">
+                        <div class="progresso" id="desafioProgresso"></div>
+                        <div class="cronometro" id="desafioCronometro" aria-live="polite">01:00</div>
+                    </div>
+                    <div class="pergunta" id="desafioPergunta"></div>
+                    <div class="alternativas" id="desafioAlternativas"></div>
+                    <div class="feedback" id="desafioFeedback" hidden></div>
+                    <div class="acoes">
+                        <button id="desafioConfirmar" class="btn principal" type="button">Confirmar resposta</button>
+                        <button id="desafioProxima" class="btn" type="button" hidden>Próxima pergunta</button>
+                        <button id="desafioCancelar" class="btn" type="button">Cancelar desafio</button>
+                    </div>
+                </section>
+
+                <section class="card resultado" id="desafioResultado" hidden>
+                    <div class="categoria">RESULTADO DO DESAFIO</div>
+                    <h1>Desafio concluído</h1>
+                    <div class="pontuacao" id="desafioPontuacao"></div>
+                    <p id="desafioMensagemResultado"></p>
+                    <div id="desafioCompartilharDesafio" class="compartilhar-resultado" hidden>
+                        <p>Convide um amigo para superar sua pontuação!</p>
+                        <div class="link-copia">
+                            <input type="text" id="desafioLinkDesafio" readonly>
+                            <button id="desafioBtnCopiarLink" class="btn">Copiar</button>
+                        </div>
+                        <div class="botoes-sociais">
+                            <a id="desafioShareWhatsApp" class="btn-social zap" target="_blank">WhatsApp</a>
+                            <button id="desafioShareNativo" class="btn-social">Outros</button>
+                        </div>
+                    </div>
+                    <button class="btn principal" type="button" onclick="mostrarHome()">Voltar para a home</button>
+                </section>
+            </section>
+
+            <section class="section-quiz-lista" id="desafiosSection" style="display:none;">
+                <div class="library-header">
+                    <div>
+                        <h2 id="desafiosSectionTitulo">Desafios abertos</h2>
+                        <p>Lista completa desta categoria de desafios.</p>
+                    </div>
+                    <button class="link-button" type="button" onclick="mostrarHome()">Voltar</button>
+                </div>
+                <div class="quiz-ranking-list" id="listaDesafiosCompleta"></div>
+            </section>
         </main>
     </div>
+
+    <div class="toast-container" id="toastContainer" aria-live="polite"></div>
 
     <div class="mini-player" id="miniPlayer">
         <div class="mini-track">
@@ -337,15 +592,17 @@
     <script src="https://accounts.google.com/gsi/client" async></script>
     <script src="js/player.js?v=1.0.13"></script>
     <script src="js/visualizer.js"></script>
-    <script src="js/ranking.js?v=1.0.4"></script>
+    <script src="js/gamificacao.js?v=1.0.2"></script>
+    <script src="js/ranking.js?v=1.0.5"></script>
     <script src="js/recursos.js?v=1.0.19"></script>
-    <script src="js/app.js?v=1.0.22"></script>
+    <script src="js/app.js?v=1.0.23"></script>
     <script src="js/ajuda.js"></script>
     <script src="js/pesquisa.js?v=1.0.2"></script>
     <script src="js/compartilhamento-biblia.js?v=1.0.1"></script>
     <script src="js/versiculo-do-dia.js?v=1.0.5"></script>
     <script src="js/comparar-biblia.js?v=1.0.1"></script>
     <script src="js/biblia.js?v=1.0.18"></script>
+    <script src="js/quiz.js?v=1.0.1"></script>
     <script src="js/google-login.js?v=1.0.0"></script>
 </body>
 
