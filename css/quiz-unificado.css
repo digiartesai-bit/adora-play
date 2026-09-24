@@ -209,6 +209,11 @@
     background: rgba(84, 201, 138, 0.16);
 }
 
+.quiz-view .btn-social.facebook {
+    border-color: rgba(24, 119, 242, 0.55);
+    background: rgba(24, 119, 242, 0.22);
+}
+
 .quiz-view .btn {
     display: inline-block;
     margin-bottom: 10px;
