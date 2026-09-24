@@ -77,7 +77,7 @@
         },
         nbv: {
             name: 'Nova Bíblia Viva',
-            description: 'É uma tradução em formato de equivalência dinâmica e funcional. Reestudada a partir dos textos originais (hebraico, aramaico e grego) para garantir fidelidade doutrinária, mantendo uma leitura extremamente fluida, moderna e de fácil compreensão, ideal para novos cristãos e leitura devocional.'
+            description: 'É uma tradução em formato de equivalência dinâmica e funcional. Reestudada a partir dos textos originais (hebraico, aramaico e grego) para garantir fidelidade doutrinária, mantendo uma leitura extremamente fluida, moderna e de fácil compreensão, ideal para novos crentes e leitura devocional.'
         },
         ntlh: {
             name: 'Nova Tradução na Linguagem de Hoje',
@@ -894,12 +894,55 @@
 
     window.openBibleComparisonVersion = openComparisonVersion;
 
+    let bibleReadyPromise = Promise.resolve();
+
+    window.abrirBibliaPorRota = async function abrirBibliaPorRota({ livro, capitulo } = {}) {
+        if (!livro) {
+            showBooks();
+            return;
+        }
+
+        const livroNormalizado = String(livro).trim().toLowerCase();
+        const livroEncontrado = books.find((book) => {
+            const nome = normalizeBookName(book.name);
+            const abreviacao = normalizeBookName(book.abbrev);
+            return nome === livroNormalizado || abreviacao === livroNormalizado;
+        });
+
+        if (!livroEncontrado) {
+            showBooks();
+            return;
+        }
+
+        await bibleReadyPromise;
+
+        try {
+            await loadBook(livroEncontrado);
+            const capituloNumero = Number(capitulo);
+            if (Number.isInteger(capituloNumero)) {
+                const indiceCapitulo = selectedBookData.chapters.findIndex((chap) => Number(chap.chapter) === Number(capituloNumero));
+                if (indiceCapitulo >= 0) {
+                    selectChapter(indiceCapitulo);
+                    return;
+                }
+            }
+            showChapters();
+        } catch (error) {
+            console.warn('Não foi possível abrir a rota da Bíblia:', error.message);
+            showBooks();
+        }
+    };
+
     window.mostrarBiblia = function () {
         if (!section) return;
+        document.getElementById('gamificacaoSection')?.style.setProperty('display', 'none');
         homeSection.style.display = 'none';
         librarySection.style.display = 'none';
+        if (window.quizSection) window.quizSection.style.display = 'none';
+        if (window.quizDesafioSection) window.quizDesafioSection.style.display = 'none';
+        if (window.desafiosSection) window.desafiosSection.style.display = 'none';
         section.style.display = 'grid';
-        setBibleVersion(selectedVersion)
+        bibleReadyPromise = setBibleVersion(selectedVersion)
             .then(async () => {
                 if (getGoogleUser()?.google_id) await loadRemoteStudies();
                 showBooks();
@@ -908,6 +951,7 @@
                 console.error(error);
                 subtitle.textContent = 'Não foi possível carregar a versão bíblica selecionada.';
             });
+            return bibleReadyPromise;
     };
 
     document.getElementById('voltarLivros').addEventListener('click', showBooks);
