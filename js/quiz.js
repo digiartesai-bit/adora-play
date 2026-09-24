@@ -515,6 +515,7 @@ function mostrarResultado(completo) {
     });
 
     window.mostrarQuiz = function mostrarQuiz() {
+        window.navegarPorRota?.('/quiz');
         document.getElementById('gamificacaoSection')?.style.setProperty('display', 'none');
         if (homeSection) homeSection.style.display = 'none';
         if (bibliotecaSection) bibliotecaSection.style.display = 'none';
@@ -924,6 +925,7 @@ function mostrarResultado(completo) {
     window.pararTimerQuizDesafio = limparCronometro;
 
     window.mostrarQuizDesafio = function mostrarQuizDesafio(id) {
+        if (id) window.navegarPorRota?.(`/desafio/${encodeURIComponent(id)}`);
         document.getElementById('gamificacaoSection')?.style.setProperty('display', 'none');
         if (homeSection) homeSection.style.display = 'none';
         if (bibliotecaSection) bibliotecaSection.style.display = 'none';
