@@ -8,7 +8,7 @@
         "livro": "Gênesis",
         "capitulo": 1,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -17,7 +17,7 @@
         "livro": "Gênesis",
         "capitulo": 2,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -26,7 +26,7 @@
         "livro": "Gênesis",
         "capitulo": 3,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -40,7 +40,7 @@
         "livro": "Gênesis",
         "capitulo": 4,
         "versiculos_estimados": 26,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -49,7 +49,7 @@
         "livro": "Gênesis",
         "capitulo": 5,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -63,7 +63,7 @@
         "livro": "Gênesis",
         "capitulo": 6,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -72,7 +72,7 @@
         "livro": "Gênesis",
         "capitulo": 7,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -81,7 +81,7 @@
         "livro": "Lucas",
         "capitulo": 1,
         "versiculos_estimados": 80,
-        "tempo_estimado_minutos": 8,
+        "tempo_estimado_minutos": 6,
         "recompensa_bonus": 20
       }
     ]
@@ -95,7 +95,7 @@
         "livro": "Gênesis",
         "capitulo": 8,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -104,7 +104,7 @@
         "livro": "Gênesis",
         "capitulo": 9,
         "versiculos_estimados": 29,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -113,7 +113,7 @@
         "livro": "Gênesis",
         "capitulo": 10,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -122,7 +122,7 @@
         "livro": "Gênesis",
         "capitulo": 11,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -136,7 +136,7 @@
         "livro": "Jó",
         "capitulo": 1,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -154,7 +154,7 @@
         "livro": "Lucas",
         "capitulo": 2,
         "versiculos_estimados": 52,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -163,7 +163,7 @@
         "livro": "Lucas",
         "capitulo": 3,
         "versiculos_estimados": 38,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -177,7 +177,7 @@
         "livro": "Jó",
         "capitulo": 3,
         "versiculos_estimados": 26,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -186,7 +186,7 @@
         "livro": "Jó",
         "capitulo": 4,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -195,7 +195,7 @@
         "livro": "Lucas",
         "capitulo": 4,
         "versiculos_estimados": 44,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -209,7 +209,7 @@
         "livro": "Jó",
         "capitulo": 5,
         "versiculos_estimados": 27,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -218,7 +218,7 @@
         "livro": "Jó",
         "capitulo": 6,
         "versiculos_estimados": 30,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -227,7 +227,7 @@
         "livro": "Jó",
         "capitulo": 7,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -241,7 +241,7 @@
         "livro": "Jó",
         "capitulo": 8,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -250,7 +250,7 @@
         "livro": "Jó",
         "capitulo": 9,
         "versiculos_estimados": 35,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -259,7 +259,7 @@
         "livro": "Jó",
         "capitulo": 10,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -268,7 +268,7 @@
         "livro": "Lucas",
         "capitulo": 5,
         "versiculos_estimados": 39,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -291,7 +291,7 @@
         "livro": "Jó",
         "capitulo": 12,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -300,7 +300,7 @@
         "livro": "Lucas",
         "capitulo": 6,
         "versiculos_estimados": 49,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -314,7 +314,7 @@
         "livro": "Jó",
         "capitulo": 13,
         "versiculos_estimados": 28,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -323,7 +323,7 @@
         "livro": "Jó",
         "capitulo": 14,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -332,7 +332,7 @@
         "livro": "Lucas",
         "capitulo": 7,
         "versiculos_estimados": 50,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -346,7 +346,7 @@
         "livro": "Jó",
         "capitulo": 15,
         "versiculos_estimados": 35,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -355,7 +355,7 @@
         "livro": "Jó",
         "capitulo": 16,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -378,7 +378,7 @@
         "livro": "Jó",
         "capitulo": 18,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -387,7 +387,7 @@
         "livro": "Jó",
         "capitulo": 19,
         "versiculos_estimados": 29,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -396,7 +396,7 @@
         "livro": "Jó",
         "capitulo": 20,
         "versiculos_estimados": 29,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -405,7 +405,7 @@
         "livro": "Lucas",
         "capitulo": 8,
         "versiculos_estimados": 56,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       }
     ]
@@ -419,7 +419,7 @@
         "livro": "Jó",
         "capitulo": 21,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -428,7 +428,7 @@
         "livro": "Jó",
         "capitulo": 22,
         "versiculos_estimados": 30,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -437,7 +437,7 @@
         "livro": "Lucas",
         "capitulo": 9,
         "versiculos_estimados": 62,
-        "tempo_estimado_minutos": 7,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       }
     ]
@@ -460,7 +460,7 @@
         "livro": "Jó",
         "capitulo": 24,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -492,7 +492,7 @@
         "livro": "Jó",
         "capitulo": 27,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -501,7 +501,7 @@
         "livro": "Lucas",
         "capitulo": 10,
         "versiculos_estimados": 42,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       }
     ]
@@ -515,7 +515,7 @@
         "livro": "Jó",
         "capitulo": 28,
         "versiculos_estimados": 28,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -524,7 +524,7 @@
         "livro": "Jó",
         "capitulo": 29,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -533,7 +533,7 @@
         "livro": "Jó",
         "capitulo": 30,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -542,7 +542,7 @@
         "livro": "Lucas",
         "capitulo": 11,
         "versiculos_estimados": 54,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       }
     ]
@@ -556,7 +556,7 @@
         "livro": "Jó",
         "capitulo": 31,
         "versiculos_estimados": 40,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -565,7 +565,7 @@
         "livro": "Jó",
         "capitulo": 32,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -574,7 +574,7 @@
         "livro": "Lucas",
         "capitulo": 12,
         "versiculos_estimados": 59,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       }
     ]
@@ -588,7 +588,7 @@
         "livro": "Jó",
         "capitulo": 33,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -597,7 +597,7 @@
         "livro": "Jó",
         "capitulo": 34,
         "versiculos_estimados": 37,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -620,7 +620,7 @@
         "livro": "Jó",
         "capitulo": 36,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -629,7 +629,7 @@
         "livro": "Jó",
         "capitulo": 37,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -638,7 +638,7 @@
         "livro": "Lucas",
         "capitulo": 13,
         "versiculos_estimados": 35,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -652,7 +652,7 @@
         "livro": "Jó",
         "capitulo": 38,
         "versiculos_estimados": 41,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -661,7 +661,7 @@
         "livro": "Jó",
         "capitulo": 39,
         "versiculos_estimados": 30,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -670,7 +670,7 @@
         "livro": "Jó",
         "capitulo": 40,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -679,7 +679,7 @@
         "livro": "Lucas",
         "capitulo": 14,
         "versiculos_estimados": 35,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -693,7 +693,7 @@
         "livro": "Jó",
         "capitulo": 41,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -734,7 +734,7 @@
         "livro": "Gênesis",
         "capitulo": 14,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -743,7 +743,7 @@
         "livro": "Lucas",
         "capitulo": 15,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -757,7 +757,7 @@
         "livro": "Gênesis",
         "capitulo": 15,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -775,7 +775,7 @@
         "livro": "Lucas",
         "capitulo": 16,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -789,7 +789,7 @@
         "livro": "Gênesis",
         "capitulo": 17,
         "versiculos_estimados": 27,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -798,7 +798,7 @@
         "livro": "Gênesis",
         "capitulo": 18,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -807,7 +807,7 @@
         "livro": "Gênesis",
         "capitulo": 19,
         "versiculos_estimados": 38,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -816,7 +816,7 @@
         "livro": "Lucas",
         "capitulo": 17,
         "versiculos_estimados": 37,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -839,7 +839,7 @@
         "livro": "Gênesis",
         "capitulo": 21,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -848,7 +848,7 @@
         "livro": "Gênesis",
         "capitulo": 22,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -871,7 +871,7 @@
         "livro": "Gênesis",
         "capitulo": 24,
         "versiculos_estimados": 67,
-        "tempo_estimado_minutos": 7,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       },
       {
@@ -880,7 +880,7 @@
         "livro": "Lucas",
         "capitulo": 18,
         "versiculos_estimados": 43,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       }
     ]
@@ -894,7 +894,7 @@
         "livro": "Gênesis",
         "capitulo": 25,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -903,7 +903,7 @@
         "livro": "Gênesis",
         "capitulo": 26,
         "versiculos_estimados": 35,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -912,7 +912,7 @@
         "livro": "Lucas",
         "capitulo": 19,
         "versiculos_estimados": 48,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       }
     ]
@@ -926,7 +926,7 @@
         "livro": "Gênesis",
         "capitulo": 27,
         "versiculos_estimados": 46,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -935,7 +935,7 @@
         "livro": "Gênesis",
         "capitulo": 28,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -944,7 +944,7 @@
         "livro": "Gênesis",
         "capitulo": 29,
         "versiculos_estimados": 35,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -953,7 +953,7 @@
         "livro": "Gênesis",
         "capitulo": 30,
         "versiculos_estimados": 43,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       }
     ]
@@ -967,7 +967,7 @@
         "livro": "Gênesis",
         "capitulo": 31,
         "versiculos_estimados": 55,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -976,7 +976,7 @@
         "livro": "Gênesis",
         "capitulo": 32,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -985,7 +985,7 @@
         "livro": "Lucas",
         "capitulo": 20,
         "versiculos_estimados": 47,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -1008,7 +1008,7 @@
         "livro": "Gênesis",
         "capitulo": 34,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -1017,7 +1017,7 @@
         "livro": "Lucas",
         "capitulo": 21,
         "versiculos_estimados": 38,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -1031,7 +1031,7 @@
         "livro": "Gênesis",
         "capitulo": 35,
         "versiculos_estimados": 29,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -1040,7 +1040,7 @@
         "livro": "Gênesis",
         "capitulo": 36,
         "versiculos_estimados": 43,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -1049,7 +1049,7 @@
         "livro": "Lucas",
         "capitulo": 22,
         "versiculos_estimados": 71,
-        "tempo_estimado_minutos": 8,
+        "tempo_estimado_minutos": 6,
         "recompensa_bonus": 20
       }
     ]
@@ -1063,7 +1063,7 @@
         "livro": "Gênesis",
         "capitulo": 37,
         "versiculos_estimados": 36,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -1072,7 +1072,7 @@
         "livro": "Gênesis",
         "capitulo": 38,
         "versiculos_estimados": 30,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -1081,7 +1081,7 @@
         "livro": "Gênesis",
         "capitulo": 39,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -1090,7 +1090,7 @@
         "livro": "Gênesis",
         "capitulo": 40,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -1104,7 +1104,7 @@
         "livro": "Gênesis",
         "capitulo": 41,
         "versiculos_estimados": 57,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       },
       {
@@ -1113,7 +1113,7 @@
         "livro": "Gênesis",
         "capitulo": 42,
         "versiculos_estimados": 38,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -1122,7 +1122,7 @@
         "livro": "Lucas",
         "capitulo": 23,
         "versiculos_estimados": 56,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       }
     ]
@@ -1136,7 +1136,7 @@
         "livro": "Gênesis",
         "capitulo": 43,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -1145,7 +1145,7 @@
         "livro": "Gênesis",
         "capitulo": 44,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -1154,7 +1154,7 @@
         "livro": "Lucas",
         "capitulo": 24,
         "versiculos_estimados": 53,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       }
     ]
@@ -1177,7 +1177,7 @@
         "livro": "Gênesis",
         "capitulo": 46,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -1186,7 +1186,7 @@
         "livro": "Gênesis",
         "capitulo": 47,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -1200,7 +1200,7 @@
         "livro": "Gênesis",
         "capitulo": 48,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -1209,7 +1209,7 @@
         "livro": "Gênesis",
         "capitulo": 49,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -1227,7 +1227,7 @@
         "livro": "João",
         "capitulo": 1,
         "versiculos_estimados": 51,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       }
     ]
@@ -1241,7 +1241,7 @@
         "livro": "Êxodo",
         "capitulo": 1,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -1250,7 +1250,7 @@
         "livro": "Êxodo",
         "capitulo": 2,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -1259,7 +1259,7 @@
         "livro": "João",
         "capitulo": 2,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -1273,7 +1273,7 @@
         "livro": "Êxodo",
         "capitulo": 3,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -1282,7 +1282,7 @@
         "livro": "Êxodo",
         "capitulo": 4,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -1291,7 +1291,7 @@
         "livro": "João",
         "capitulo": 3,
         "versiculos_estimados": 36,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -1305,7 +1305,7 @@
         "livro": "Êxodo",
         "capitulo": 5,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -1323,7 +1323,7 @@
         "livro": "Êxodo",
         "capitulo": 7,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -1337,7 +1337,7 @@
         "livro": "Êxodo",
         "capitulo": 8,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -1346,7 +1346,7 @@
         "livro": "Êxodo",
         "capitulo": 9,
         "versiculos_estimados": 35,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -1364,7 +1364,7 @@
         "livro": "João",
         "capitulo": 4,
         "versiculos_estimados": 54,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       }
     ]
@@ -1387,7 +1387,7 @@
         "livro": "Êxodo",
         "capitulo": 12,
         "versiculos_estimados": 51,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       },
       {
@@ -1410,7 +1410,7 @@
         "livro": "Êxodo",
         "capitulo": 13,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -1419,7 +1419,7 @@
         "livro": "Êxodo",
         "capitulo": 14,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -1460,7 +1460,7 @@
         "livro": "João",
         "capitulo": 6,
         "versiculos_estimados": 71,
-        "tempo_estimado_minutos": 8,
+        "tempo_estimado_minutos": 6,
         "recompensa_bonus": 20
       }
     ]
@@ -1483,7 +1483,7 @@
         "livro": "Êxodo",
         "capitulo": 19,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -1501,7 +1501,7 @@
         "livro": "João",
         "capitulo": 7,
         "versiculos_estimados": 53,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       }
     ]
@@ -1515,7 +1515,7 @@
         "livro": "Êxodo",
         "capitulo": 21,
         "versiculos_estimados": 36,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -1524,7 +1524,7 @@
         "livro": "Êxodo",
         "capitulo": 22,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -1547,7 +1547,7 @@
         "livro": "Êxodo",
         "capitulo": 23,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -1588,7 +1588,7 @@
         "livro": "Êxodo",
         "capitulo": 27,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -1597,7 +1597,7 @@
         "livro": "João",
         "capitulo": 9,
         "versiculos_estimados": 41,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       }
     ]
@@ -1611,7 +1611,7 @@
         "livro": "Êxodo",
         "capitulo": 28,
         "versiculos_estimados": 43,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -1638,7 +1638,7 @@
         "livro": "João",
         "capitulo": 10,
         "versiculos_estimados": 42,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       }
     ]
@@ -1661,7 +1661,7 @@
         "livro": "Êxodo",
         "capitulo": 32,
         "versiculos_estimados": 35,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -1670,7 +1670,7 @@
         "livro": "Êxodo",
         "capitulo": 33,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -1684,7 +1684,7 @@
         "livro": "Êxodo",
         "capitulo": 34,
         "versiculos_estimados": 35,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -1693,7 +1693,7 @@
         "livro": "Êxodo",
         "capitulo": 35,
         "versiculos_estimados": 35,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -1748,7 +1748,7 @@
         "livro": "Êxodo",
         "capitulo": 38,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -1757,7 +1757,7 @@
         "livro": "Êxodo",
         "capitulo": 39,
         "versiculos_estimados": 43,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -1821,7 +1821,7 @@
         "livro": "Levítico",
         "capitulo": 4,
         "versiculos_estimados": 35,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -1839,7 +1839,7 @@
         "livro": "João",
         "capitulo": 14,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -1885,7 +1885,7 @@
         "livro": "Levítico",
         "capitulo": 8,
         "versiculos_estimados": 36,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -1894,7 +1894,7 @@
         "livro": "Levítico",
         "capitulo": 9,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -1944,7 +1944,7 @@
         "livro": "João",
         "capitulo": 16,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -1967,7 +1967,7 @@
         "livro": "Levítico",
         "capitulo": 15,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -1990,7 +1990,7 @@
         "livro": "Levítico",
         "capitulo": 16,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -2049,7 +2049,7 @@
         "livro": "Levítico",
         "capitulo": 21,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -2063,7 +2063,7 @@
         "livro": "Levítico",
         "capitulo": 22,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -2072,7 +2072,7 @@
         "livro": "Levítico",
         "capitulo": 23,
         "versiculos_estimados": 44,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -2081,7 +2081,7 @@
         "livro": "João",
         "capitulo": 19,
         "versiculos_estimados": 42,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       }
     ]
@@ -2095,7 +2095,7 @@
         "livro": "Levítico",
         "capitulo": 24,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -2104,7 +2104,7 @@
         "livro": "Levítico",
         "capitulo": 25,
         "versiculos_estimados": 55,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       },
       {
@@ -2113,7 +2113,7 @@
         "livro": "João",
         "capitulo": 20,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -2127,7 +2127,7 @@
         "livro": "Levítico",
         "capitulo": 26,
         "versiculos_estimados": 46,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -2136,7 +2136,7 @@
         "livro": "Levítico",
         "capitulo": 27,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -2145,7 +2145,7 @@
         "livro": "Números",
         "capitulo": 1,
         "versiculos_estimados": 54,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       }
     ]
@@ -2159,7 +2159,7 @@
         "livro": "Números",
         "capitulo": 2,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -2168,7 +2168,7 @@
         "livro": "Números",
         "capitulo": 3,
         "versiculos_estimados": 51,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       },
       {
@@ -2186,7 +2186,7 @@
         "livro": "João",
         "capitulo": 21,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -2200,7 +2200,7 @@
         "livro": "Números",
         "capitulo": 5,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -2218,7 +2218,7 @@
         "livro": "Mateus",
         "capitulo": 1,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -2232,7 +2232,7 @@
         "livro": "Números",
         "capitulo": 7,
         "versiculos_estimados": 89,
-        "tempo_estimado_minutos": 9,
+        "tempo_estimado_minutos": 8,
         "recompensa_bonus": 20
       },
       {
@@ -2250,7 +2250,7 @@
         "livro": "Mateus",
         "capitulo": 2,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -2264,7 +2264,7 @@
         "livro": "Números",
         "capitulo": 9,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -2273,7 +2273,7 @@
         "livro": "Números",
         "capitulo": 10,
         "versiculos_estimados": 36,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -2282,7 +2282,7 @@
         "livro": "Números",
         "capitulo": 11,
         "versiculos_estimados": 35,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -2296,7 +2296,7 @@
         "livro": "Números",
         "capitulo": 12,
         "versiculos_estimados": 16,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -2305,7 +2305,7 @@
         "livro": "Números",
         "capitulo": 13,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 20
       },
       {
@@ -2314,7 +2314,7 @@
         "livro": "Números",
         "capitulo": 14,
         "versiculos_estimados": 45,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -2337,7 +2337,7 @@
         "livro": "Números",
         "capitulo": 15,
         "versiculos_estimados": 41,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -2355,7 +2355,7 @@
         "livro": "Mateus",
         "capitulo": 4,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -2369,7 +2369,7 @@
         "livro": "Números",
         "capitulo": 17,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -2378,7 +2378,7 @@
         "livro": "Números",
         "capitulo": 18,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -2387,7 +2387,7 @@
         "livro": "Números",
         "capitulo": 19,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -2410,7 +2410,7 @@
         "livro": "Números",
         "capitulo": 21,
         "versiculos_estimados": 35,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -2433,7 +2433,7 @@
         "livro": "Números",
         "capitulo": 22,
         "versiculos_estimados": 41,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -2451,7 +2451,7 @@
         "livro": "Números",
         "capitulo": 24,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -2460,7 +2460,7 @@
         "livro": "Mateus",
         "capitulo": 6,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -2483,7 +2483,7 @@
         "livro": "Números",
         "capitulo": 26,
         "versiculos_estimados": 65,
-        "tempo_estimado_minutos": 7,
+        "tempo_estimado_minutos": 6,
         "recompensa_bonus": 20
       },
       {
@@ -2506,7 +2506,7 @@
         "livro": "Números",
         "capitulo": 27,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -2515,7 +2515,7 @@
         "livro": "Números",
         "capitulo": 28,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -2538,7 +2538,7 @@
         "livro": "Números",
         "capitulo": 30,
         "versiculos_estimados": 16,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -2547,7 +2547,7 @@
         "livro": "Números",
         "capitulo": 31,
         "versiculos_estimados": 54,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       },
       {
@@ -2556,7 +2556,7 @@
         "livro": "Mateus",
         "capitulo": 8,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -2570,7 +2570,7 @@
         "livro": "Números",
         "capitulo": 32,
         "versiculos_estimados": 42,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -2579,7 +2579,7 @@
         "livro": "Números",
         "capitulo": 33,
         "versiculos_estimados": 56,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       },
       {
@@ -2611,7 +2611,7 @@
         "livro": "Números",
         "capitulo": 35,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -2620,7 +2620,7 @@
         "livro": "Números",
         "capitulo": 36,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -2661,7 +2661,7 @@
         "livro": "Mateus",
         "capitulo": 10,
         "versiculos_estimados": 42,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       }
     ]
@@ -2684,7 +2684,7 @@
         "livro": "Deuteronômio",
         "capitulo": 5,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -2707,7 +2707,7 @@
         "livro": "Deuteronômio",
         "capitulo": 6,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -2716,7 +2716,7 @@
         "livro": "Deuteronômio",
         "capitulo": 7,
         "versiculos_estimados": 26,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -2748,7 +2748,7 @@
         "livro": "Deuteronômio",
         "capitulo": 10,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -2757,7 +2757,7 @@
         "livro": "Deuteronômio",
         "capitulo": 11,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 20
       },
       {
@@ -2780,7 +2780,7 @@
         "livro": "Deuteronômio",
         "capitulo": 12,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -2821,7 +2821,7 @@
         "livro": "Deuteronômio",
         "capitulo": 15,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -2830,7 +2830,7 @@
         "livro": "Mateus",
         "capitulo": 14,
         "versiculos_estimados": 36,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -2844,7 +2844,7 @@
         "livro": "Deuteronômio",
         "capitulo": 16,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -2862,7 +2862,7 @@
         "livro": "Deuteronômio",
         "capitulo": 18,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -2871,7 +2871,7 @@
         "livro": "Deuteronômio",
         "capitulo": 19,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -2894,7 +2894,7 @@
         "livro": "Deuteronômio",
         "capitulo": 21,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -2926,7 +2926,7 @@
         "livro": "Deuteronômio",
         "capitulo": 23,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -2949,7 +2949,7 @@
         "livro": "Deuteronômio",
         "capitulo": 24,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -2981,7 +2981,7 @@
         "livro": "Deuteronômio",
         "capitulo": 27,
         "versiculos_estimados": 26,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -2990,7 +2990,7 @@
         "livro": "Deuteronômio",
         "capitulo": 28,
         "versiculos_estimados": 68,
-        "tempo_estimado_minutos": 7,
+        "tempo_estimado_minutos": 6,
         "recompensa_bonus": 20
       },
       {
@@ -3040,7 +3040,7 @@
         "livro": "Mateus",
         "capitulo": 18,
         "versiculos_estimados": 35,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -3054,7 +3054,7 @@
         "livro": "Deuteronômio",
         "capitulo": 32,
         "versiculos_estimados": 52,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       },
       {
@@ -3086,7 +3086,7 @@
         "livro": "Deuteronômio",
         "capitulo": 34,
         "versiculos_estimados": 12,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -3104,7 +3104,7 @@
         "livro": "Josué",
         "capitulo": 2,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -3127,7 +3127,7 @@
         "livro": "Josué",
         "capitulo": 4,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -3145,7 +3145,7 @@
         "livro": "Mateus",
         "capitulo": 20,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -3168,7 +3168,7 @@
         "livro": "Josué",
         "capitulo": 7,
         "versiculos_estimados": 26,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -3191,7 +3191,7 @@
         "livro": "Josué",
         "capitulo": 8,
         "versiculos_estimados": 35,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -3209,7 +3209,7 @@
         "livro": "Josué",
         "capitulo": 10,
         "versiculos_estimados": 43,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       }
     ]
@@ -3223,7 +3223,7 @@
         "livro": "Josué",
         "capitulo": 11,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -3232,7 +3232,7 @@
         "livro": "Josué",
         "capitulo": 12,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -3255,7 +3255,7 @@
         "livro": "Josué",
         "capitulo": 13,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -3264,7 +3264,7 @@
         "livro": "Josué",
         "capitulo": 14,
         "versiculos_estimados": 15,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -3273,7 +3273,7 @@
         "livro": "Josué",
         "capitulo": 15,
         "versiculos_estimados": 63,
-        "tempo_estimado_minutos": 7,
+        "tempo_estimado_minutos": 6,
         "recompensa_bonus": 20
       },
       {
@@ -3314,7 +3314,7 @@
         "livro": "Mateus",
         "capitulo": 24,
         "versiculos_estimados": 51,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       }
     ]
@@ -3337,7 +3337,7 @@
         "livro": "Josué",
         "capitulo": 19,
         "versiculos_estimados": 51,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       },
       {
@@ -3360,7 +3360,7 @@
         "livro": "Josué",
         "capitulo": 21,
         "versiculos_estimados": 45,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -3369,7 +3369,7 @@
         "livro": "Josué",
         "capitulo": 22,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -3378,7 +3378,7 @@
         "livro": "Mateus",
         "capitulo": 25,
         "versiculos_estimados": 46,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       }
     ]
@@ -3401,7 +3401,7 @@
         "livro": "Josué",
         "capitulo": 24,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -3410,7 +3410,7 @@
         "livro": "Juízes",
         "capitulo": 1,
         "versiculos_estimados": 36,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -3419,7 +3419,7 @@
         "livro": "Mateus",
         "capitulo": 26,
         "versiculos_estimados": 75,
-        "tempo_estimado_minutos": 8,
+        "tempo_estimado_minutos": 7,
         "recompensa_bonus": 20
       }
     ]
@@ -3433,7 +3433,7 @@
         "livro": "Juízes",
         "capitulo": 2,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -3442,7 +3442,7 @@
         "livro": "Juízes",
         "capitulo": 3,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -3451,7 +3451,7 @@
         "livro": "Juízes",
         "capitulo": 4,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -3465,7 +3465,7 @@
         "livro": "Juízes",
         "capitulo": 5,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -3483,7 +3483,7 @@
         "livro": "Mateus",
         "capitulo": 27,
         "versiculos_estimados": 66,
-        "tempo_estimado_minutos": 7,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       }
     ]
@@ -3497,7 +3497,7 @@
         "livro": "Juízes",
         "capitulo": 7,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -3506,7 +3506,7 @@
         "livro": "Juízes",
         "capitulo": 8,
         "versiculos_estimados": 35,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -3556,7 +3556,7 @@
         "livro": "Marcos",
         "capitulo": 1,
         "versiculos_estimados": 45,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       }
     ]
@@ -3570,7 +3570,7 @@
         "livro": "Juízes",
         "capitulo": 12,
         "versiculos_estimados": 15,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -3579,7 +3579,7 @@
         "livro": "Juízes",
         "capitulo": 13,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -3611,7 +3611,7 @@
         "livro": "Juízes",
         "capitulo": 16,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -3634,7 +3634,7 @@
         "livro": "Juízes",
         "capitulo": 17,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -3643,7 +3643,7 @@
         "livro": "Juízes",
         "capitulo": 18,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -3652,7 +3652,7 @@
         "livro": "Marcos",
         "capitulo": 3,
         "versiculos_estimados": 35,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -3684,7 +3684,7 @@
         "livro": "Juízes",
         "capitulo": 21,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -3693,7 +3693,7 @@
         "livro": "Rute",
         "capitulo": 1,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -3707,7 +3707,7 @@
         "livro": "Rute",
         "capitulo": 2,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -3725,7 +3725,7 @@
         "livro": "Marcos",
         "capitulo": 4,
         "versiculos_estimados": 41,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       }
     ]
@@ -3739,7 +3739,7 @@
         "livro": "Rute",
         "capitulo": 4,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -3757,7 +3757,7 @@
         "livro": "Marcos",
         "capitulo": 5,
         "versiculos_estimados": 43,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       }
     ]
@@ -3771,7 +3771,7 @@
         "livro": "1 Samuel",
         "capitulo": 2,
         "versiculos_estimados": 36,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -3780,7 +3780,7 @@
         "livro": "1 Samuel",
         "capitulo": 3,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -3789,7 +3789,7 @@
         "livro": "Marcos",
         "capitulo": 6,
         "versiculos_estimados": 56,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       }
     ]
@@ -3803,7 +3803,7 @@
         "livro": "1 Samuel",
         "capitulo": 4,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -3812,7 +3812,7 @@
         "livro": "1 Samuel",
         "capitulo": 5,
         "versiculos_estimados": 12,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -3821,7 +3821,7 @@
         "livro": "1 Samuel",
         "capitulo": 6,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -3844,7 +3844,7 @@
         "livro": "1 Samuel",
         "capitulo": 8,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -3885,7 +3885,7 @@
         "livro": "1 Samuel",
         "capitulo": 11,
         "versiculos_estimados": 15,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -3908,7 +3908,7 @@
         "livro": "1 Samuel",
         "capitulo": 12,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -3917,7 +3917,7 @@
         "livro": "1 Samuel",
         "capitulo": 13,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -3926,7 +3926,7 @@
         "livro": "1 Samuel",
         "capitulo": 14,
         "versiculos_estimados": 52,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       }
     ]
@@ -3940,7 +3940,7 @@
         "livro": "1 Samuel",
         "capitulo": 15,
         "versiculos_estimados": 35,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -3949,7 +3949,7 @@
         "livro": "1 Samuel",
         "capitulo": 16,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -3990,7 +3990,7 @@
         "livro": "1 Samuel",
         "capitulo": 19,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -3999,7 +3999,7 @@
         "livro": "Marcos",
         "capitulo": 10,
         "versiculos_estimados": 52,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       }
     ]
@@ -4013,7 +4013,7 @@
         "livro": "1 Samuel",
         "capitulo": 20,
         "versiculos_estimados": 43,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -4022,7 +4022,7 @@
         "livro": "1 Samuel",
         "capitulo": 21,
         "versiculos_estimados": 15,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -4031,7 +4031,7 @@
         "livro": "Marcos",
         "capitulo": 11,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -4045,7 +4045,7 @@
         "livro": "1 Samuel",
         "capitulo": 22,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -4063,7 +4063,7 @@
         "livro": "1 Samuel",
         "capitulo": 24,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -4077,7 +4077,7 @@
         "livro": "1 Samuel",
         "capitulo": 25,
         "versiculos_estimados": 44,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -4086,7 +4086,7 @@
         "livro": "1 Samuel",
         "capitulo": 26,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -4095,7 +4095,7 @@
         "livro": "1 Samuel",
         "capitulo": 27,
         "versiculos_estimados": 12,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -4104,7 +4104,7 @@
         "livro": "Marcos",
         "capitulo": 12,
         "versiculos_estimados": 44,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       }
     ]
@@ -4118,7 +4118,7 @@
         "livro": "1 Samuel",
         "capitulo": 28,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -4127,7 +4127,7 @@
         "livro": "1 Samuel",
         "capitulo": 29,
         "versiculos_estimados": 11,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -4150,7 +4150,7 @@
         "livro": "1 Samuel",
         "capitulo": 30,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -4159,7 +4159,7 @@
         "livro": "1 Samuel",
         "capitulo": 31,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -4182,7 +4182,7 @@
         "livro": "2 Samuel",
         "capitulo": 2,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -4200,7 +4200,7 @@
         "livro": "Marcos",
         "capitulo": 14,
         "versiculos_estimados": 72,
-        "tempo_estimado_minutos": 8,
+        "tempo_estimado_minutos": 7,
         "recompensa_bonus": 20
       }
     ]
@@ -4214,7 +4214,7 @@
         "livro": "2 Samuel",
         "capitulo": 4,
         "versiculos_estimados": 12,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -4223,7 +4223,7 @@
         "livro": "2 Samuel",
         "capitulo": 5,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -4232,7 +4232,7 @@
         "livro": "2 Samuel",
         "capitulo": 6,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -4287,7 +4287,7 @@
         "livro": "2 Samuel",
         "capitulo": 9,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -4319,7 +4319,7 @@
         "livro": "2 Samuel",
         "capitulo": 12,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -4337,7 +4337,7 @@
         "livro": "Atos",
         "capitulo": 1,
         "versiculos_estimados": 26,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -4351,7 +4351,7 @@
         "livro": "2 Samuel",
         "capitulo": 14,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -4369,7 +4369,7 @@
         "livro": "2 Samuel",
         "capitulo": 16,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -4401,7 +4401,7 @@
         "livro": "2 Samuel",
         "capitulo": 18,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -4410,7 +4410,7 @@
         "livro": "2 Samuel",
         "capitulo": 19,
         "versiculos_estimados": 43,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       }
     ]
@@ -4424,7 +4424,7 @@
         "livro": "2 Samuel",
         "capitulo": 20,
         "versiculos_estimados": 26,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -4433,7 +4433,7 @@
         "livro": "2 Samuel",
         "capitulo": 21,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -4442,7 +4442,7 @@
         "livro": "Atos",
         "capitulo": 3,
         "versiculos_estimados": 26,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -4456,7 +4456,7 @@
         "livro": "2 Samuel",
         "capitulo": 22,
         "versiculos_estimados": 51,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       },
       {
@@ -4488,7 +4488,7 @@
         "livro": "2 Samuel",
         "capitulo": 24,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -4497,7 +4497,7 @@
         "livro": "1 Crônicas",
         "capitulo": 1,
         "versiculos_estimados": 54,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       },
       {
@@ -4506,7 +4506,7 @@
         "livro": "1 Crônicas",
         "capitulo": 2,
         "versiculos_estimados": 55,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       },
       {
@@ -4515,7 +4515,7 @@
         "livro": "Atos",
         "capitulo": 5,
         "versiculos_estimados": 42,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       }
     ]
@@ -4529,7 +4529,7 @@
         "livro": "1 Crônicas",
         "capitulo": 3,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -4538,7 +4538,7 @@
         "livro": "1 Crônicas",
         "capitulo": 4,
         "versiculos_estimados": 43,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -4561,7 +4561,7 @@
         "livro": "1 Crônicas",
         "capitulo": 6,
         "versiculos_estimados": 81,
-        "tempo_estimado_minutos": 9,
+        "tempo_estimado_minutos": 8,
         "recompensa_bonus": 20
       },
       {
@@ -4579,7 +4579,7 @@
         "livro": "Atos",
         "capitulo": 6,
         "versiculos_estimados": 15,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -4602,7 +4602,7 @@
         "livro": "1 Crônicas",
         "capitulo": 9,
         "versiculos_estimados": 44,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -4625,7 +4625,7 @@
         "livro": "1 Crônicas",
         "capitulo": 10,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -4652,7 +4652,7 @@
         "livro": "1 Crônicas",
         "capitulo": 13,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -4698,7 +4698,7 @@
         "livro": "1 Crônicas",
         "capitulo": 16,
         "versiculos_estimados": 43,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -4716,7 +4716,7 @@
         "livro": "Atos",
         "capitulo": 9,
         "versiculos_estimados": 43,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       }
     ]
@@ -4789,7 +4789,7 @@
         "livro": "1 Crônicas",
         "capitulo": 23,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -4803,7 +4803,7 @@
         "livro": "1 Crônicas",
         "capitulo": 24,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -4812,7 +4812,7 @@
         "livro": "1 Crônicas",
         "capitulo": 25,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -4835,7 +4835,7 @@
         "livro": "1 Crônicas",
         "capitulo": 26,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -4844,7 +4844,7 @@
         "livro": "1 Crônicas",
         "capitulo": 27,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -4867,7 +4867,7 @@
         "livro": "1 Crônicas",
         "capitulo": 28,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -4899,7 +4899,7 @@
         "livro": "Salmos",
         "capitulo": 2,
         "versiculos_estimados": 12,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -4926,7 +4926,7 @@
         "livro": "Atos",
         "capitulo": 13,
         "versiculos_estimados": 52,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       }
     ]
@@ -4940,7 +4940,7 @@
         "livro": "Salmos",
         "capitulo": 5,
         "versiculos_estimados": 12,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -4990,7 +4990,7 @@
         "livro": "Atos",
         "capitulo": 15,
         "versiculos_estimados": 41,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       }
     ]
@@ -5086,7 +5086,7 @@
         "livro": "Salmos",
         "capitulo": 16,
         "versiculos_estimados": 11,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -5095,7 +5095,7 @@
         "livro": "Atos",
         "capitulo": 17,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -5109,7 +5109,7 @@
         "livro": "Salmos",
         "capitulo": 17,
         "versiculos_estimados": 15,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -5127,7 +5127,7 @@
         "livro": "Salmos",
         "capitulo": 19,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -5150,7 +5150,7 @@
         "livro": "Salmos",
         "capitulo": 21,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -5173,7 +5173,7 @@
         "livro": "Salmos",
         "capitulo": 22,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -5200,7 +5200,7 @@
         "livro": "Atos",
         "capitulo": 19,
         "versiculos_estimados": 41,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       }
     ]
@@ -5214,7 +5214,7 @@
         "livro": "Salmos",
         "capitulo": 25,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -5223,7 +5223,7 @@
         "livro": "Salmos",
         "capitulo": 26,
         "versiculos_estimados": 12,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -5232,7 +5232,7 @@
         "livro": "Salmos",
         "capitulo": 27,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -5255,7 +5255,7 @@
         "livro": "Salmos",
         "capitulo": 29,
         "versiculos_estimados": 11,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -5278,7 +5278,7 @@
         "livro": "Salmos",
         "capitulo": 30,
         "versiculos_estimados": 12,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -5287,7 +5287,7 @@
         "livro": "Salmos",
         "capitulo": 31,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -5310,7 +5310,7 @@
         "livro": "Salmos",
         "capitulo": 32,
         "versiculos_estimados": 11,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -5319,7 +5319,7 @@
         "livro": "Salmos",
         "capitulo": 33,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -5328,7 +5328,7 @@
         "livro": "Salmos",
         "capitulo": 34,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -5360,7 +5360,7 @@
         "livro": "Salmos",
         "capitulo": 36,
         "versiculos_estimados": 12,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -5383,7 +5383,7 @@
         "livro": "Salmos",
         "capitulo": 38,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -5392,7 +5392,7 @@
         "livro": "Salmos",
         "capitulo": 39,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -5401,7 +5401,7 @@
         "livro": "Atos",
         "capitulo": 23,
         "versiculos_estimados": 35,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -5424,7 +5424,7 @@
         "livro": "Salmos",
         "capitulo": 41,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -5447,7 +5447,7 @@
         "livro": "Salmos",
         "capitulo": 42,
         "versiculos_estimados": 11,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -5488,7 +5488,7 @@
         "livro": "Salmos",
         "capitulo": 46,
         "versiculos_estimados": 11,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -5520,7 +5520,7 @@
         "livro": "Salmos",
         "capitulo": 48,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -5538,7 +5538,7 @@
         "livro": "Atos",
         "capitulo": 26,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -5552,7 +5552,7 @@
         "livro": "Salmos",
         "capitulo": 50,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -5570,7 +5570,7 @@
         "livro": "Atos",
         "capitulo": 27,
         "versiculos_estimados": 44,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       }
     ]
@@ -5611,7 +5611,7 @@
         "livro": "Salmos",
         "capitulo": 55,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -5625,7 +5625,7 @@
         "livro": "Salmos",
         "capitulo": 56,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -5634,7 +5634,7 @@
         "livro": "Salmos",
         "capitulo": 57,
         "versiculos_estimados": 11,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -5643,7 +5643,7 @@
         "livro": "Atos",
         "capitulo": 28,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -5657,7 +5657,7 @@
         "livro": "Salmos",
         "capitulo": 58,
         "versiculos_estimados": 11,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -5675,7 +5675,7 @@
         "livro": "Gálatas",
         "capitulo": 1,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -5689,7 +5689,7 @@
         "livro": "Salmos",
         "capitulo": 60,
         "versiculos_estimados": 12,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -5707,7 +5707,7 @@
         "livro": "Salmos",
         "capitulo": 62,
         "versiculos_estimados": 12,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -5721,7 +5721,7 @@
         "livro": "Salmos",
         "capitulo": 63,
         "versiculos_estimados": 11,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -5739,7 +5739,7 @@
         "livro": "Salmos",
         "capitulo": 65,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -5748,7 +5748,7 @@
         "livro": "Gálatas",
         "capitulo": 2,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -5794,7 +5794,7 @@
         "livro": "Salmos",
         "capitulo": 68,
         "versiculos_estimados": 35,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -5803,7 +5803,7 @@
         "livro": "Salmos",
         "capitulo": 69,
         "versiculos_estimados": 36,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -5812,7 +5812,7 @@
         "livro": "Gálatas",
         "capitulo": 4,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -5835,7 +5835,7 @@
         "livro": "Salmos",
         "capitulo": 71,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -5867,7 +5867,7 @@
         "livro": "Salmos",
         "capitulo": 74,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -5885,7 +5885,7 @@
         "livro": "Gálatas",
         "capitulo": 5,
         "versiculos_estimados": 26,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -5899,7 +5899,7 @@
         "livro": "Salmos",
         "capitulo": 76,
         "versiculos_estimados": 12,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -5931,7 +5931,7 @@
         "livro": "Salmos",
         "capitulo": 78,
         "versiculos_estimados": 72,
-        "tempo_estimado_minutos": 8,
+        "tempo_estimado_minutos": 7,
         "recompensa_bonus": 20
       },
       {
@@ -5940,7 +5940,7 @@
         "livro": "Salmos",
         "capitulo": 79,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -6004,7 +6004,7 @@
         "livro": "Salmos",
         "capitulo": 84,
         "versiculos_estimados": 12,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -6013,7 +6013,7 @@
         "livro": "Salmos",
         "capitulo": 85,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -6054,7 +6054,7 @@
         "livro": "1 Tessalonicenses",
         "capitulo": 3,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -6077,7 +6077,7 @@
         "livro": "Salmos",
         "capitulo": 89,
         "versiculos_estimados": 52,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       },
       {
@@ -6109,7 +6109,7 @@
         "livro": "Salmos",
         "capitulo": 92,
         "versiculos_estimados": 15,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -6141,7 +6141,7 @@
         "livro": "Salmos",
         "capitulo": 94,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -6150,7 +6150,7 @@
         "livro": "Salmos",
         "capitulo": 95,
         "versiculos_estimados": 11,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -6173,7 +6173,7 @@
         "livro": "Salmos",
         "capitulo": 96,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -6182,7 +6182,7 @@
         "livro": "Salmos",
         "capitulo": 97,
         "versiculos_estimados": 12,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -6223,7 +6223,7 @@
         "livro": "2 Tessalonicenses",
         "capitulo": 1,
         "versiculos_estimados": 12,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -6269,7 +6269,7 @@
         "livro": "Salmos",
         "capitulo": 103,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -6278,7 +6278,7 @@
         "livro": "Salmos",
         "capitulo": 104,
         "versiculos_estimados": 35,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -6287,7 +6287,7 @@
         "livro": "Salmos",
         "capitulo": 105,
         "versiculos_estimados": 45,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -6319,7 +6319,7 @@
         "livro": "Salmos",
         "capitulo": 107,
         "versiculos_estimados": 43,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -6328,7 +6328,7 @@
         "livro": "Salmos",
         "capitulo": 108,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -6342,7 +6342,7 @@
         "livro": "Salmos",
         "capitulo": 109,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -6360,7 +6360,7 @@
         "livro": "1 Coríntios",
         "capitulo": 1,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -6465,7 +6465,7 @@
         "livro": "1 Coríntios",
         "capitulo": 3,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -6479,7 +6479,7 @@
         "livro": "Salmos",
         "capitulo": 119,
         "versiculos_estimados": 176,
-        "tempo_estimado_minutos": 18,
+        "tempo_estimado_minutos": 16,
         "recompensa_bonus": 20
       }
     ]
@@ -6502,7 +6502,7 @@
         "livro": "1 Coríntios",
         "capitulo": 4,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -6593,7 +6593,7 @@
         "livro": "1 Coríntios",
         "capitulo": 5,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -6689,7 +6689,7 @@
         "livro": "Salmos",
         "capitulo": 135,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -6698,7 +6698,7 @@
         "livro": "Salmos",
         "capitulo": 136,
         "versiculos_estimados": 26,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -6753,7 +6753,7 @@
         "livro": "Salmos",
         "capitulo": 139,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -6762,7 +6762,7 @@
         "livro": "Salmos",
         "capitulo": 140,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -6771,7 +6771,7 @@
         "livro": "1 Coríntios",
         "capitulo": 10,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -6803,7 +6803,7 @@
         "livro": "Salmos",
         "capitulo": 143,
         "versiculos_estimados": 12,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -6817,7 +6817,7 @@
         "livro": "Salmos",
         "capitulo": 144,
         "versiculos_estimados": 15,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -6826,7 +6826,7 @@
         "livro": "Salmos",
         "capitulo": 145,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -6844,7 +6844,7 @@
         "livro": "1 Coríntios",
         "capitulo": 11,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -6867,7 +6867,7 @@
         "livro": "Salmos",
         "capitulo": 148,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -6876,7 +6876,7 @@
         "livro": "1 Coríntios",
         "capitulo": 12,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -6908,7 +6908,7 @@
         "livro": "Provérbios",
         "capitulo": 1,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -6922,7 +6922,7 @@
         "livro": "Provérbios",
         "capitulo": 2,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -6931,7 +6931,7 @@
         "livro": "Provérbios",
         "capitulo": 3,
         "versiculos_estimados": 35,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -6940,7 +6940,7 @@
         "livro": "1 Coríntios",
         "capitulo": 13,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -6963,7 +6963,7 @@
         "livro": "Provérbios",
         "capitulo": 5,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -6972,7 +6972,7 @@
         "livro": "Provérbios",
         "capitulo": 6,
         "versiculos_estimados": 35,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -7004,7 +7004,7 @@
         "livro": "Provérbios",
         "capitulo": 8,
         "versiculos_estimados": 36,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -7036,7 +7036,7 @@
         "livro": "Provérbios",
         "capitulo": 10,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -7045,7 +7045,7 @@
         "livro": "Provérbios",
         "capitulo": 11,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -7068,7 +7068,7 @@
         "livro": "Provérbios",
         "capitulo": 13,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -7077,7 +7077,7 @@
         "livro": "1 Coríntios",
         "capitulo": 16,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -7091,7 +7091,7 @@
         "livro": "Provérbios",
         "capitulo": 14,
         "versiculos_estimados": 35,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -7100,7 +7100,7 @@
         "livro": "Provérbios",
         "capitulo": 15,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -7109,7 +7109,7 @@
         "livro": "Provérbios",
         "capitulo": 16,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -7141,7 +7141,7 @@
         "livro": "Provérbios",
         "capitulo": 18,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -7173,7 +7173,7 @@
         "livro": "Provérbios",
         "capitulo": 21,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -7205,7 +7205,7 @@
         "livro": "Provérbios",
         "capitulo": 23,
         "versiculos_estimados": 35,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -7228,7 +7228,7 @@
         "livro": "Provérbios",
         "capitulo": 24,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -7301,7 +7301,7 @@
         "livro": "Provérbios",
         "capitulo": 30,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -7310,7 +7310,7 @@
         "livro": "Provérbios",
         "capitulo": 31,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -7319,7 +7319,7 @@
         "livro": "2 Coríntios",
         "capitulo": 5,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -7342,7 +7342,7 @@
         "livro": "Eclesiastes",
         "capitulo": 2,
         "versiculos_estimados": 26,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -7365,7 +7365,7 @@
         "livro": "Eclesiastes",
         "capitulo": 3,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -7392,7 +7392,7 @@
         "livro": "Eclesiastes",
         "capitulo": 6,
         "versiculos_estimados": 12,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -7456,7 +7456,7 @@
         "livro": "2 Coríntios",
         "capitulo": 8,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -7479,7 +7479,7 @@
         "livro": "Eclesiastes",
         "capitulo": 12,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -7488,7 +7488,7 @@
         "livro": "2 Coríntios",
         "capitulo": 9,
         "versiculos_estimados": 15,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -7520,7 +7520,7 @@
         "livro": "Cantares",
         "capitulo": 3,
         "versiculos_estimados": 11,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -7529,7 +7529,7 @@
         "livro": "Cantares",
         "capitulo": 4,
         "versiculos_estimados": 16,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -7543,7 +7543,7 @@
         "livro": "Cantares",
         "capitulo": 5,
         "versiculos_estimados": 16,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -7552,7 +7552,7 @@
         "livro": "Cantares",
         "capitulo": 6,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -7575,7 +7575,7 @@
         "livro": "Cantares",
         "capitulo": 7,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -7584,7 +7584,7 @@
         "livro": "Cantares",
         "capitulo": 8,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -7593,7 +7593,7 @@
         "livro": "2 Coríntios",
         "capitulo": 11,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -7607,7 +7607,7 @@
         "livro": "1 Reis",
         "capitulo": 1,
         "versiculos_estimados": 53,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       },
       {
@@ -7616,7 +7616,7 @@
         "livro": "1 Reis",
         "capitulo": 2,
         "versiculos_estimados": 46,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -7639,7 +7639,7 @@
         "livro": "1 Reis",
         "capitulo": 4,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -7666,7 +7666,7 @@
         "livro": "2 Coríntios",
         "capitulo": 12,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -7680,7 +7680,7 @@
         "livro": "1 Reis",
         "capitulo": 7,
         "versiculos_estimados": 51,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       },
       {
@@ -7689,7 +7689,7 @@
         "livro": "1 Reis",
         "capitulo": 8,
         "versiculos_estimados": 66,
-        "tempo_estimado_minutos": 7,
+        "tempo_estimado_minutos": 6,
         "recompensa_bonus": 20
       },
       {
@@ -7698,7 +7698,7 @@
         "livro": "2 Coríntios",
         "capitulo": 13,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -7730,7 +7730,7 @@
         "livro": "1 Reis",
         "capitulo": 11,
         "versiculos_estimados": 43,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       }
     ]
@@ -7744,7 +7744,7 @@
         "livro": "1 Reis",
         "capitulo": 12,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -7753,7 +7753,7 @@
         "livro": "1 Reis",
         "capitulo": 13,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -7762,7 +7762,7 @@
         "livro": "Romanos",
         "capitulo": 1,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -7776,7 +7776,7 @@
         "livro": "1 Reis",
         "capitulo": 14,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -7785,7 +7785,7 @@
         "livro": "1 Reis",
         "capitulo": 15,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -7794,7 +7794,7 @@
         "livro": "1 Reis",
         "capitulo": 16,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -7817,7 +7817,7 @@
         "livro": "1 Reis",
         "capitulo": 17,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -7826,7 +7826,7 @@
         "livro": "1 Reis",
         "capitulo": 18,
         "versiculos_estimados": 46,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -7835,7 +7835,7 @@
         "livro": "Romanos",
         "capitulo": 3,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -7849,7 +7849,7 @@
         "livro": "1 Reis",
         "capitulo": 19,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -7858,7 +7858,7 @@
         "livro": "1 Reis",
         "capitulo": 20,
         "versiculos_estimados": 43,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -7881,7 +7881,7 @@
         "livro": "1 Reis",
         "capitulo": 22,
         "versiculos_estimados": 53,
-        "tempo_estimado_minutos": 6,
+        "tempo_estimado_minutos": 5,
         "recompensa_bonus": 20
       },
       {
@@ -7899,7 +7899,7 @@
         "livro": "Romanos",
         "capitulo": 4,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -7913,7 +7913,7 @@
         "livro": "2 Reis",
         "capitulo": 2,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -7931,7 +7931,7 @@
         "livro": "2 Reis",
         "capitulo": 4,
         "versiculos_estimados": 44,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -7940,7 +7940,7 @@
         "livro": "Romanos",
         "capitulo": 5,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -7963,7 +7963,7 @@
         "livro": "2 Reis",
         "capitulo": 6,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -8004,7 +8004,7 @@
         "livro": "Romanos",
         "capitulo": 6,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -8018,7 +8018,7 @@
         "livro": "2 Reis",
         "capitulo": 10,
         "versiculos_estimados": 36,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -8027,7 +8027,7 @@
         "livro": "2 Reis",
         "capitulo": 11,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -8036,7 +8036,7 @@
         "livro": "Romanos",
         "capitulo": 7,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -8050,7 +8050,7 @@
         "livro": "2 Reis",
         "capitulo": 12,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -8059,7 +8059,7 @@
         "livro": "2 Reis",
         "capitulo": 13,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -8109,7 +8109,7 @@
         "livro": "2 Reis",
         "capitulo": 17,
         "versiculos_estimados": 41,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       }
     ]
@@ -8141,7 +8141,7 @@
         "livro": "Romanos",
         "capitulo": 9,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -8164,7 +8164,7 @@
         "livro": "2 Reis",
         "capitulo": 21,
         "versiculos_estimados": 26,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -8173,7 +8173,7 @@
         "livro": "Romanos",
         "capitulo": 10,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -8269,7 +8269,7 @@
         "livro": "2 Crônicas",
         "capitulo": 4,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -8278,7 +8278,7 @@
         "livro": "Romanos",
         "capitulo": 12,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -8292,7 +8292,7 @@
         "livro": "2 Crônicas",
         "capitulo": 5,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -8301,7 +8301,7 @@
         "livro": "2 Crônicas",
         "capitulo": 6,
         "versiculos_estimados": 42,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -8310,7 +8310,7 @@
         "livro": "Romanos",
         "capitulo": 13,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -8324,7 +8324,7 @@
         "livro": "2 Crônicas",
         "capitulo": 7,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -8342,7 +8342,7 @@
         "livro": "2 Crônicas",
         "capitulo": 9,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -8365,7 +8365,7 @@
         "livro": "2 Crônicas",
         "capitulo": 11,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -8383,7 +8383,7 @@
         "livro": "Romanos",
         "capitulo": 14,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -8397,7 +8397,7 @@
         "livro": "2 Crônicas",
         "capitulo": 13,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -8406,7 +8406,7 @@
         "livro": "2 Crônicas",
         "capitulo": 14,
         "versiculos_estimados": 15,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -8415,7 +8415,7 @@
         "livro": "Romanos",
         "capitulo": 15,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -8438,7 +8438,7 @@
         "livro": "2 Crônicas",
         "capitulo": 16,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -8461,7 +8461,7 @@
         "livro": "2 Crônicas",
         "capitulo": 18,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -8470,7 +8470,7 @@
         "livro": "2 Crônicas",
         "capitulo": 19,
         "versiculos_estimados": 11,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -8511,7 +8511,7 @@
         "livro": "2 Crônicas",
         "capitulo": 22,
         "versiculos_estimados": 12,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -8520,7 +8520,7 @@
         "livro": "Efésios",
         "capitulo": 1,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -8534,7 +8534,7 @@
         "livro": "2 Crônicas",
         "capitulo": 23,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -8552,7 +8552,7 @@
         "livro": "Efésios",
         "capitulo": 2,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -8575,7 +8575,7 @@
         "livro": "2 Crônicas",
         "capitulo": 26,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -8625,7 +8625,7 @@
         "livro": "Efésios",
         "capitulo": 3,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -8639,7 +8639,7 @@
         "livro": "2 Crônicas",
         "capitulo": 31,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -8648,7 +8648,7 @@
         "livro": "2 Crônicas",
         "capitulo": 32,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -8657,7 +8657,7 @@
         "livro": "Efésios",
         "capitulo": 4,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -8671,7 +8671,7 @@
         "livro": "2 Crônicas",
         "capitulo": 33,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -8680,7 +8680,7 @@
         "livro": "2 Crônicas",
         "capitulo": 34,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -8703,7 +8703,7 @@
         "livro": "2 Crônicas",
         "capitulo": 36,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -8712,7 +8712,7 @@
         "livro": "Obadias",
         "capitulo": 1,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -8721,7 +8721,7 @@
         "livro": "Efésios",
         "capitulo": 5,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -8744,7 +8744,7 @@
         "livro": "Joel",
         "capitulo": 2,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -8753,7 +8753,7 @@
         "livro": "Joel",
         "capitulo": 3,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -8762,7 +8762,7 @@
         "livro": "Efésios",
         "capitulo": 6,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -8776,7 +8776,7 @@
         "livro": "Amós",
         "capitulo": 1,
         "versiculos_estimados": 15,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -8785,7 +8785,7 @@
         "livro": "Amós",
         "capitulo": 2,
         "versiculos_estimados": 16,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -8808,7 +8808,7 @@
         "livro": "Amós",
         "capitulo": 3,
         "versiculos_estimados": 15,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -8817,7 +8817,7 @@
         "livro": "Amós",
         "capitulo": 4,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -8840,7 +8840,7 @@
         "livro": "Amós",
         "capitulo": 6,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -8872,7 +8872,7 @@
         "livro": "Amós",
         "capitulo": 8,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -8881,7 +8881,7 @@
         "livro": "Amós",
         "capitulo": 9,
         "versiculos_estimados": 15,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -8899,7 +8899,7 @@
         "livro": "Filipenses",
         "capitulo": 3,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -8931,7 +8931,7 @@
         "livro": "Jonas",
         "capitulo": 4,
         "versiculos_estimados": 11,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -8945,7 +8945,7 @@
         "livro": "Oséias",
         "capitulo": 1,
         "versiculos_estimados": 11,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -8954,7 +8954,7 @@
         "livro": "Oséias",
         "capitulo": 2,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -8963,7 +8963,7 @@
         "livro": "Filipenses",
         "capitulo": 4,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -9009,7 +9009,7 @@
         "livro": "Oséias",
         "capitulo": 5,
         "versiculos_estimados": 15,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -9018,7 +9018,7 @@
         "livro": "Oséias",
         "capitulo": 6,
         "versiculos_estimados": 11,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -9027,7 +9027,7 @@
         "livro": "Oséias",
         "capitulo": 7,
         "versiculos_estimados": 16,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -9036,7 +9036,7 @@
         "livro": "Colossenses",
         "capitulo": 2,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -9050,7 +9050,7 @@
         "livro": "Oséias",
         "capitulo": 8,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -9068,7 +9068,7 @@
         "livro": "Oséias",
         "capitulo": 10,
         "versiculos_estimados": 15,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -9082,7 +9082,7 @@
         "livro": "Oséias",
         "capitulo": 11,
         "versiculos_estimados": 12,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -9091,7 +9091,7 @@
         "livro": "Oséias",
         "capitulo": 12,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -9100,7 +9100,7 @@
         "livro": "Colossenses",
         "capitulo": 3,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -9155,7 +9155,7 @@
         "livro": "Miqueias",
         "capitulo": 2,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -9164,7 +9164,7 @@
         "livro": "Miqueias",
         "capitulo": 3,
         "versiculos_estimados": 12,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -9173,7 +9173,7 @@
         "livro": "Miqueias",
         "capitulo": 4,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -9205,7 +9205,7 @@
         "livro": "Filemom",
         "capitulo": 1,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -9228,7 +9228,7 @@
         "livro": "Isaías",
         "capitulo": 1,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -9251,7 +9251,7 @@
         "livro": "Isaías",
         "capitulo": 2,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -9301,7 +9301,7 @@
         "livro": "Isaías",
         "capitulo": 6,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -9310,7 +9310,7 @@
         "livro": "Isaías",
         "capitulo": 7,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -9324,7 +9324,7 @@
         "livro": "Isaías",
         "capitulo": 8,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -9333,7 +9333,7 @@
         "livro": "Isaías",
         "capitulo": 9,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -9356,7 +9356,7 @@
         "livro": "Isaías",
         "capitulo": 10,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -9397,7 +9397,7 @@
         "livro": "Isaías",
         "capitulo": 13,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -9406,7 +9406,7 @@
         "livro": "Isaías",
         "capitulo": 14,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -9429,7 +9429,7 @@
         "livro": "Isaías",
         "capitulo": 16,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -9438,7 +9438,7 @@
         "livro": "Isaías",
         "capitulo": 17,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -9470,7 +9470,7 @@
         "livro": "Isaías",
         "capitulo": 19,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -9479,7 +9479,7 @@
         "livro": "1 Pedro",
         "capitulo": 1,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -9511,7 +9511,7 @@
         "livro": "1 Pedro",
         "capitulo": 2,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -9525,7 +9525,7 @@
         "livro": "Isaías",
         "capitulo": 22,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -9543,7 +9543,7 @@
         "livro": "Isaías",
         "capitulo": 24,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -9557,7 +9557,7 @@
         "livro": "Isaías",
         "capitulo": 25,
         "versiculos_estimados": 12,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -9566,7 +9566,7 @@
         "livro": "Isaías",
         "capitulo": 26,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -9575,7 +9575,7 @@
         "livro": "Isaías",
         "capitulo": 27,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -9584,7 +9584,7 @@
         "livro": "1 Pedro",
         "capitulo": 3,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -9607,7 +9607,7 @@
         "livro": "Isaías",
         "capitulo": 29,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -9630,7 +9630,7 @@
         "livro": "Isaías",
         "capitulo": 30,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -9662,7 +9662,7 @@
         "livro": "Isaías",
         "capitulo": 33,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -9680,7 +9680,7 @@
         "livro": "1 Pedro",
         "capitulo": 5,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -9703,7 +9703,7 @@
         "livro": "Isaías",
         "capitulo": 36,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -9721,7 +9721,7 @@
         "livro": "2 Pedro",
         "capitulo": 1,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -9735,7 +9735,7 @@
         "livro": "Isaías",
         "capitulo": 38,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -9753,7 +9753,7 @@
         "livro": "2 Pedro",
         "capitulo": 2,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -9767,7 +9767,7 @@
         "livro": "Isaías",
         "capitulo": 40,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 20
       },
       {
@@ -9785,7 +9785,7 @@
         "livro": "Isaías",
         "capitulo": 42,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -9831,7 +9831,7 @@
         "livro": "Isaías",
         "capitulo": 45,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -9840,7 +9840,7 @@
         "livro": "Isaías",
         "capitulo": 46,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -9849,7 +9849,7 @@
         "livro": "Isaías",
         "capitulo": 47,
         "versiculos_estimados": 15,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -9858,7 +9858,7 @@
         "livro": "Hebreus",
         "capitulo": 1,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -9872,7 +9872,7 @@
         "livro": "Isaías",
         "capitulo": 48,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -9890,7 +9890,7 @@
         "livro": "Isaías",
         "capitulo": 50,
         "versiculos_estimados": 11,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -9904,7 +9904,7 @@
         "livro": "Isaías",
         "capitulo": 51,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -9913,7 +9913,7 @@
         "livro": "Isaías",
         "capitulo": 52,
         "versiculos_estimados": 15,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -9936,7 +9936,7 @@
         "livro": "Isaías",
         "capitulo": 53,
         "versiculos_estimados": 12,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -9968,7 +9968,7 @@
         "livro": "Isaías",
         "capitulo": 55,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -9977,7 +9977,7 @@
         "livro": "Isaías",
         "capitulo": 56,
         "versiculos_estimados": 12,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -9986,7 +9986,7 @@
         "livro": "Isaías",
         "capitulo": 57,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -10018,7 +10018,7 @@
         "livro": "Isaías",
         "capitulo": 59,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -10027,7 +10027,7 @@
         "livro": "Isaías",
         "capitulo": 60,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -10041,7 +10041,7 @@
         "livro": "Isaías",
         "capitulo": 61,
         "versiculos_estimados": 11,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -10050,7 +10050,7 @@
         "livro": "Isaías",
         "capitulo": 62,
         "versiculos_estimados": 12,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -10059,7 +10059,7 @@
         "livro": "Hebreus",
         "capitulo": 5,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -10082,7 +10082,7 @@
         "livro": "Isaías",
         "capitulo": 64,
         "versiculos_estimados": 12,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -10105,7 +10105,7 @@
         "livro": "Isaías",
         "capitulo": 65,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -10114,7 +10114,7 @@
         "livro": "Isaías",
         "capitulo": 66,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -10132,7 +10132,7 @@
         "livro": "Naum",
         "capitulo": 2,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -10196,7 +10196,7 @@
         "livro": "Hebreus",
         "capitulo": 8,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -10260,7 +10260,7 @@
         "livro": "Jeremias",
         "capitulo": 3,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -10283,7 +10283,7 @@
         "livro": "Jeremias",
         "capitulo": 4,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -10292,7 +10292,7 @@
         "livro": "Jeremias",
         "capitulo": 5,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -10324,7 +10324,7 @@
         "livro": "Jeremias",
         "capitulo": 7,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -10347,7 +10347,7 @@
         "livro": "Jeremias",
         "capitulo": 8,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -10365,7 +10365,7 @@
         "livro": "Jeremias",
         "capitulo": 10,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -10379,7 +10379,7 @@
         "livro": "Jeremias",
         "capitulo": 11,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -10420,7 +10420,7 @@
         "livro": "Jeremias",
         "capitulo": 14,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -10429,7 +10429,7 @@
         "livro": "Jeremias",
         "capitulo": 15,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -10452,7 +10452,7 @@
         "livro": "Jeremias",
         "capitulo": 16,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -10470,7 +10470,7 @@
         "livro": "Jeremias",
         "capitulo": 18,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -10516,7 +10516,7 @@
         "livro": "Jeremias",
         "capitulo": 21,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -10589,7 +10589,7 @@
         "livro": "Jeremias",
         "capitulo": 26,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -10598,7 +10598,7 @@
         "livro": "Jeremias",
         "capitulo": 27,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -10621,7 +10621,7 @@
         "livro": "Jeremias",
         "capitulo": 29,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -10662,7 +10662,7 @@
         "livro": "Jeremias",
         "capitulo": 32,
         "versiculos_estimados": 44,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -10680,7 +10680,7 @@
         "livro": "1 Timóteo",
         "capitulo": 5,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -10694,7 +10694,7 @@
         "livro": "Jeremias",
         "capitulo": 34,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -10712,7 +10712,7 @@
         "livro": "Jeremias",
         "capitulo": 36,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -10726,7 +10726,7 @@
         "livro": "Jeremias",
         "capitulo": 37,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -10744,7 +10744,7 @@
         "livro": "1 Timóteo",
         "capitulo": 6,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -10799,7 +10799,7 @@
         "livro": "Jeremias",
         "capitulo": 42,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -10808,7 +10808,7 @@
         "livro": "Jeremias",
         "capitulo": 43,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -10817,7 +10817,7 @@
         "livro": "Tito",
         "capitulo": 2,
         "versiculos_estimados": 15,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -10881,7 +10881,7 @@
         "livro": "Tito",
         "capitulo": 3,
         "versiculos_estimados": 15,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -10927,7 +10927,7 @@
         "livro": "Jeremias",
         "capitulo": 51,
         "versiculos_estimados": 64,
-        "tempo_estimado_minutos": 7,
+        "tempo_estimado_minutos": 6,
         "recompensa_bonus": 20
       },
       {
@@ -10936,7 +10936,7 @@
         "livro": "Jeremias",
         "capitulo": 52,
         "versiculos_estimados": 34,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -10945,7 +10945,7 @@
         "livro": "Lamentações",
         "capitulo": 1,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -10954,7 +10954,7 @@
         "livro": "Lamentações",
         "capitulo": 2,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -10968,7 +10968,7 @@
         "livro": "Lamentações",
         "capitulo": 3,
         "versiculos_estimados": 66,
-        "tempo_estimado_minutos": 7,
+        "tempo_estimado_minutos": 6,
         "recompensa_bonus": 20
       },
       {
@@ -10977,7 +10977,7 @@
         "livro": "Lamentações",
         "capitulo": 4,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -11000,7 +11000,7 @@
         "livro": "Lamentações",
         "capitulo": 5,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -11050,7 +11050,7 @@
         "livro": "2 Timóteo",
         "capitulo": 4,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -11082,7 +11082,7 @@
         "livro": "Ezequiel",
         "capitulo": 6,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -11114,7 +11114,7 @@
         "livro": "Ezequiel",
         "capitulo": 9,
         "versiculos_estimados": 11,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -11137,7 +11137,7 @@
         "livro": "Ezequiel",
         "capitulo": 10,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -11178,7 +11178,7 @@
         "livro": "Ezequiel",
         "capitulo": 13,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -11187,7 +11187,7 @@
         "livro": "Ezequiel",
         "capitulo": 14,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -11210,7 +11210,7 @@
         "livro": "Ezequiel",
         "capitulo": 16,
         "versiculos_estimados": 63,
-        "tempo_estimado_minutos": 7,
+        "tempo_estimado_minutos": 6,
         "recompensa_bonus": 20
       },
       {
@@ -11219,7 +11219,7 @@
         "livro": "Ezequiel",
         "capitulo": 17,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -11228,7 +11228,7 @@
         "livro": "1 João",
         "capitulo": 3,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -11242,7 +11242,7 @@
         "livro": "Ezequiel",
         "capitulo": 18,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -11251,7 +11251,7 @@
         "livro": "Ezequiel",
         "capitulo": 19,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -11260,7 +11260,7 @@
         "livro": "1 João",
         "capitulo": 4,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -11283,7 +11283,7 @@
         "livro": "Ezequiel",
         "capitulo": 21,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -11292,7 +11292,7 @@
         "livro": "1 João",
         "capitulo": 5,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -11306,7 +11306,7 @@
         "livro": "Ezequiel",
         "capitulo": 22,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -11347,7 +11347,7 @@
         "livro": "Ezequiel",
         "capitulo": 26,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -11365,7 +11365,7 @@
         "livro": "2 João",
         "capitulo": 1,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -11388,7 +11388,7 @@
         "livro": "Ezequiel",
         "capitulo": 29,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -11397,7 +11397,7 @@
         "livro": "3 João",
         "capitulo": 1,
         "versiculos_estimados": 15,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -11411,7 +11411,7 @@
         "livro": "Ezequiel",
         "capitulo": 30,
         "versiculos_estimados": 26,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -11429,7 +11429,7 @@
         "livro": "Ezequiel",
         "capitulo": 32,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -11443,7 +11443,7 @@
         "livro": "Ezequiel",
         "capitulo": 33,
         "versiculos_estimados": 33,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -11452,7 +11452,7 @@
         "livro": "Ezequiel",
         "capitulo": 34,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -11475,7 +11475,7 @@
         "livro": "Ezequiel",
         "capitulo": 35,
         "versiculos_estimados": 15,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -11516,7 +11516,7 @@
         "livro": "Ezequiel",
         "capitulo": 38,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -11589,7 +11589,7 @@
         "livro": "Ezequiel",
         "capitulo": 44,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -11598,7 +11598,7 @@
         "livro": "Apocalipse",
         "capitulo": 3,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -11612,7 +11612,7 @@
         "livro": "Ezequiel",
         "capitulo": 45,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -11621,7 +11621,7 @@
         "livro": "Ezequiel",
         "capitulo": 46,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -11630,7 +11630,7 @@
         "livro": "Ezequiel",
         "capitulo": 47,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -11639,7 +11639,7 @@
         "livro": "Apocalipse",
         "capitulo": 4,
         "versiculos_estimados": 11,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -11653,7 +11653,7 @@
         "livro": "Ezequiel",
         "capitulo": 48,
         "versiculos_estimados": 35,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -11662,7 +11662,7 @@
         "livro": "Daniel",
         "capitulo": 1,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -11703,7 +11703,7 @@
         "livro": "Apocalipse",
         "capitulo": 5,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -11717,7 +11717,7 @@
         "livro": "Daniel",
         "capitulo": 5,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -11790,7 +11790,7 @@
         "livro": "Daniel",
         "capitulo": 10,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -11799,7 +11799,7 @@
         "livro": "Daniel",
         "capitulo": 11,
         "versiculos_estimados": 45,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -11808,7 +11808,7 @@
         "livro": "Daniel",
         "capitulo": 12,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -11822,7 +11822,7 @@
         "livro": "Ageu",
         "capitulo": 1,
         "versiculos_estimados": 15,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -11831,7 +11831,7 @@
         "livro": "Ageu",
         "capitulo": 2,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -11840,7 +11840,7 @@
         "livro": "Apocalipse",
         "capitulo": 8,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -11854,7 +11854,7 @@
         "livro": "Zacarias",
         "capitulo": 1,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -11863,7 +11863,7 @@
         "livro": "Zacarias",
         "capitulo": 2,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -11872,7 +11872,7 @@
         "livro": "Apocalipse",
         "capitulo": 9,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -11895,7 +11895,7 @@
         "livro": "Zacarias",
         "capitulo": 4,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -11904,7 +11904,7 @@
         "livro": "Zacarias",
         "capitulo": 5,
         "versiculos_estimados": 11,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -11913,7 +11913,7 @@
         "livro": "Zacarias",
         "capitulo": 6,
         "versiculos_estimados": 15,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -11927,7 +11927,7 @@
         "livro": "Zacarias",
         "capitulo": 7,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -11936,7 +11936,7 @@
         "livro": "Zacarias",
         "capitulo": 8,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -11945,7 +11945,7 @@
         "livro": "Apocalipse",
         "capitulo": 10,
         "versiculos_estimados": 11,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -11968,7 +11968,7 @@
         "livro": "Zacarias",
         "capitulo": 10,
         "versiculos_estimados": 12,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -12000,7 +12000,7 @@
         "livro": "Zacarias",
         "capitulo": 12,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -12032,7 +12032,7 @@
         "livro": "Zacarias",
         "capitulo": 14,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -12041,7 +12041,7 @@
         "livro": "Ester",
         "capitulo": 1,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -12050,7 +12050,7 @@
         "livro": "Ester",
         "capitulo": 2,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -12064,7 +12064,7 @@
         "livro": "Ester",
         "capitulo": 3,
         "versiculos_estimados": 15,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -12096,7 +12096,7 @@
         "livro": "Ester",
         "capitulo": 5,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -12105,7 +12105,7 @@
         "livro": "Ester",
         "capitulo": 6,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -12146,7 +12146,7 @@
         "livro": "Ester",
         "capitulo": 9,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       }
     ]
@@ -12169,7 +12169,7 @@
         "livro": "Esdras",
         "capitulo": 1,
         "versiculos_estimados": 11,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -12201,7 +12201,7 @@
         "livro": "Esdras",
         "capitulo": 3,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -12210,7 +12210,7 @@
         "livro": "Esdras",
         "capitulo": 4,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -12219,7 +12219,7 @@
         "livro": "Apocalipse",
         "capitulo": 16,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -12242,7 +12242,7 @@
         "livro": "Esdras",
         "capitulo": 6,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -12283,7 +12283,7 @@
         "livro": "Esdras",
         "capitulo": 9,
         "versiculos_estimados": 15,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -12297,7 +12297,7 @@
         "livro": "Esdras",
         "capitulo": 10,
         "versiculos_estimados": 44,
-        "tempo_estimado_minutos": 5,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -12306,7 +12306,7 @@
         "livro": "Neemias",
         "capitulo": 1,
         "versiculos_estimados": 11,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -12324,7 +12324,7 @@
         "livro": "Apocalipse",
         "capitulo": 18,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -12338,7 +12338,7 @@
         "livro": "Neemias",
         "capitulo": 3,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -12347,7 +12347,7 @@
         "livro": "Neemias",
         "capitulo": 4,
         "versiculos_estimados": 23,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
@@ -12356,7 +12356,7 @@
         "livro": "Apocalipse",
         "capitulo": 19,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       }
     ]
@@ -12388,7 +12388,7 @@
         "livro": "Neemias",
         "capitulo": 7,
         "versiculos_estimados": 73,
-        "tempo_estimado_minutos": 8,
+        "tempo_estimado_minutos": 7,
         "recompensa_bonus": 20
       },
       {
@@ -12420,7 +12420,7 @@
         "livro": "Apocalipse",
         "capitulo": 20,
         "versiculos_estimados": 15,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       },
       {
@@ -12470,7 +12470,7 @@
         "livro": "Neemias",
         "capitulo": 13,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 4,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 20
       },
       {
@@ -12479,7 +12479,7 @@
         "livro": "Malaquias",
         "capitulo": 1,
         "versiculos_estimados": 14,
-        "tempo_estimado_minutos": 2,
+        "tempo_estimado_minutos": 1,
         "recompensa_bonus": 10
       }
     ]
@@ -12502,7 +12502,7 @@
         "livro": "Apocalipse",
         "capitulo": 22,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 15
       },
       {
