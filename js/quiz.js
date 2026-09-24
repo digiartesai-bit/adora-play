@@ -629,6 +629,7 @@ function mostrarResultado(completo) {
         const areaCompartilhar = $('desafioCompartilharDesafio');
         const inputLink = $('desafioLinkDesafio');
         const btnZap = $('desafioShareWhatsApp');
+        const btnFacebook = $('desafioShareFacebook');
         const btnNativo = $('desafioShareNativo');
         const btnCopiar = $('desafioBtnCopiarLink');
         if (!areaCompartilhar) return;
@@ -639,6 +640,9 @@ function mostrarResultado(completo) {
         areaCompartilhar.hidden = false;
         inputLink.value = link;
         btnZap.href = `https://api.whatsapp.com/send?text=${encodeURIComponent(texto + link)}`;
+        if (btnFacebook) {
+            btnFacebook.href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(link)}`;
+        }
 
         btnCopiar.onclick = () => {
             inputLink.select();
