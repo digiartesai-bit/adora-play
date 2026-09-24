@@ -412,7 +412,8 @@ function mostrarResultado(completo) {
         if (iniciado) return;
         iniciado = true;
         try {
-            const resposta = await fetch('/biblias/quiz/quiz.json');
+            const resposta = await fetch('biblias/quiz/quiz.json');
+            if (!resposta.ok) throw new Error(`HTTP ${resposta.status} ao carregar as perguntas do quiz.`);
             const dados = await resposta.json(); perguntas = dados.quiz?.perguntas || [];
             if (!perguntas.length) throw new Error('Nenhuma pergunta encontrada.');
             usuario = obterUsuarioQuiz();
@@ -841,7 +842,8 @@ function mostrarResultado(completo) {
     }
 
     async function carregarPerguntas() {
-        const resposta = await fetch('/biblias/quiz/quiz.json');
+        const resposta = await fetch('biblias/quiz/quiz.json');
+        if (!resposta.ok) throw new Error(`HTTP ${resposta.status} ao carregar as perguntas do desafio.`);
         const dados = await resposta.json();
         const porId = new Map((dados.quiz?.perguntas || []).map((item) => [String(item.id), item]));
         return desafio.perguntas_ids.map((id) => porId.get(String(id))).filter(Boolean);
