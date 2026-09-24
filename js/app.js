@@ -189,6 +189,12 @@ function navegarPorRota(rota, opcao = {}) {
     }
 }
 
+window.compartilharLinkNoFacebook = function compartilharLinkNoFacebook(link) {
+    if (!link) return;
+    const url = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(link)}`;
+    window.open(url, '_blank', 'noopener,noreferrer,width=720,height=640');
+};
+
 function obterRotaAtual() {
     const hashAtual = (window.location.hash || '').replace(/^#/, '').trim();
     const caminho = (window.location.pathname || '/').trim();
