@@ -19,11 +19,30 @@ const btnInstall = document.getElementById('btnInstall');
 const btnMenuMobile = document.getElementById('btnMenuMobile');
 const headerQuickActions = document.getElementById('headerQuickActions');
 
-let musicas = [];
-let albumSelecionado = null;
-let rankingData = [];
-let bibliotecaSomenteFavoritos = false;
+const appState = {
+    musicas: [],
+    albumSelecionado: null,
+    rankingData: [],
+    bibliotecaSomenteFavoritos: false,
+};
+
+function ocultarGamificacao() {
+    const gamificacaoSection = document.getElementById('gamificacaoSection');
+    if (gamificacaoSection) gamificacaoSection.style.display = 'none';
+}
+
+let musicas = appState.musicas;
+let albumSelecionado = appState.albumSelecionado;
+let rankingData = appState.rankingData;
+let bibliotecaSomenteFavoritos = appState.bibliotecaSomenteFavoritos;
 let deferredInstallPrompt = null;
+
+function sincronizarEstadoApp() {
+    appState.musicas = musicas;
+    appState.albumSelecionado = albumSelecionado;
+    appState.rankingData = rankingData;
+    appState.bibliotecaSomenteFavoritos = bibliotecaSomenteFavoritos;
+}
 
 function obterChaveMusica(musica) {
     return String(musica?.id ?? musica?.audio ?? musica?.titulo ?? '').trim();
@@ -74,13 +93,13 @@ function inicializarMenuMobile() {
         const alvo = event.target;
         if (!(alvo instanceof Element)) return;
 
-        if (window.innerWidth <= 680 && alvo.closest('button')) {
+        if (window.innerWidth <= 900 && alvo.closest('button')) {
             fecharMenu();
         }
     });
 
     window.addEventListener('resize', () => {
-        if (window.innerWidth > 680) {
+        if (window.innerWidth > 900) {
             fecharMenu();
         }
     });
@@ -153,11 +172,97 @@ window.addEventListener('appinstalled', () => {
 });
 
 
+function navegarPorRota(rota, opcao = {}) {
+    const rotaNormalizada = rota && rota.startsWith('/') ? rota : `/${rota || ''}`;
+    const urlAtual = new URL(window.location.href);
+    urlAtual.pathname = rotaNormalizada === '/' ? '/' : rotaNormalizada;
+    urlAtual.hash = '';
+
+    const destino = `${urlAtual.pathname}${urlAtual.search}`;
+
+    if (opcao.replace) {
+        history.replaceState({}, '', destino);
+    } else {
+        history.pushState({}, '', destino);
+    }
+}
+
+function obterRotaAtual() {
+    const hashAtual = (window.location.hash || '').replace(/^#/, '').trim();
+    const caminho = (window.location.pathname || '/').trim();
+    const rotaBase = caminho && caminho !== '/' ? caminho : hashAtual ? `/${hashAtual}` : '/';
+    return rotaBase.startsWith('/') ? rotaBase : `/${rotaBase}`;
+}
+
+function aplicarRotaAtual() {
+    const rota = obterRotaAtual();
+    const params = new URLSearchParams(window.location.search);
+
+    if (rota === '/biblioteca' || rota === '/biblioteca/favoritos') {
+        mostrarBiblioteca(rota === '/biblioteca/favoritos');
+        return;
+    }
+
+    if (rota === '/biblia' || rota.startsWith('/biblia/')) {
+        if (typeof window.mostrarBiblia === 'function') {
+            const pronta = window.mostrarBiblia();
+            if (typeof window.abrirBibliaPorRota === 'function') {
+                const partes = rota.split('/').filter(Boolean);
+                const livro = partes[1] || null;
+                const capitulo = partes[2] || null;
+                Promise.resolve(pronta).then(() => window.abrirBibliaPorRota({ livro, capitulo }));
+            }
+        }
+        return;
+    }
+
+    if (rota === '/quiz') {
+        if (typeof window.mostrarQuiz === 'function') window.mostrarQuiz();
+        return;
+    }
+
+    if (rota.startsWith('/desafio/')) {
+        const id = rota.split('/').filter(Boolean)[1];
+        if (id && typeof window.mostrarQuizDesafio === 'function') {
+            window.mostrarQuizDesafio(id);
+        }
+        return;
+    }
+
+    if (rota === '/desafios') {
+        if (typeof window.mostrarDesafios === 'function') {
+            window.mostrarDesafios(params.get('tipo') || 'abertos');
+        }
+        return;
+    }
+
+    if (rota === '/gamificacao') {
+        if (typeof window.mostrarGamificacao === 'function') window.mostrarGamificacao();
+        return;
+    }
+
+    if (rota === '/quiz/desafios') {
+        if (typeof window.mostrarDesafios === 'function') {
+            window.mostrarDesafios('abertos');
+        }
+        return;
+    }
+
+    mostrarHome();
+}
+
 function mostrarBiblioteca(comFavoritos = false) {
+    ocultarGamificacao();
     if (homeSection) homeSection.style.display = 'none';
     if (bibliotecaSection) bibliotecaSection.style.display = 'grid';
     if (bibliaSection) bibliaSection.style.display = 'none';
+    if (quizSection) quizSection.style.display = 'none';
+    if (quizDesafioSection) quizDesafioSection.style.display = 'none';
+    if (desafiosSection) desafiosSection.style.display = 'none';
+    const gamificacaoSection = document.getElementById('gamificacaoSection');
+    if (gamificacaoSection) gamificacaoSection.style.display = 'none';
     bibliotecaSomenteFavoritos = comFavoritos;
+    sincronizarEstadoApp();
 
     if (librarySectionTitle) {
         librarySectionTitle.textContent = comFavoritos ? 'Favoritos' : 'Biblioteca';
@@ -168,15 +273,26 @@ function mostrarBiblioteca(comFavoritos = false) {
     }
 
     albumSelecionado = null;
+    sincronizarEstadoApp();
+    navegarPorRota(comFavoritos ? '/biblioteca/favoritos' : '/biblioteca');
     renderizarBiblioteca();
 }
 
 function mostrarHome() {
+    ocultarGamificacao();
     if (homeSection) homeSection.style.display = 'grid';
     if (bibliotecaSection) bibliotecaSection.style.display = 'none';
     if (bibliaSection) bibliaSection.style.display = 'none';
+    if (quizSection) quizSection.style.display = 'none';
+    if (quizDesafioSection) quizDesafioSection.style.display = 'none';
+    if (desafiosSection) desafiosSection.style.display = 'none';
+    const gamificacaoSection = document.getElementById('gamificacaoSection');
+    if (gamificacaoSection) gamificacaoSection.style.display = 'none';
+    if (typeof window.pararTimerQuizDesafio === 'function') window.pararTimerQuizDesafio();
      // Reseta a seleção do álbum ao voltar para a home, fechando o carrossel aberto
     albumSelecionado = null;
+    sincronizarEstadoApp();
+    navegarPorRota('/');
     renderizarFaixasDoAlbum(null);
 }
 
@@ -203,6 +319,14 @@ function abrirMusicaCompartilhadaPorIdDaURL() {
     return true;
 }
 
+function abrirDesafioCompartilhadoPorIdDaURL() {
+    const params = new URLSearchParams(window.location.search);
+    const desafioId = params.get("desafio");
+    if (!desafioId || typeof window.mostrarQuizDesafio !== "function") return false;
+    window.mostrarQuizDesafio(desafioId);
+    return true;
+}
+
 
 function carregarDados() {
     fetch('musicas.json')
@@ -214,6 +338,7 @@ function carregarDados() {
 .then(data => {
     if (!Array.isArray(data)) throw new Error('musicas.json precisa conter uma lista de musicas');
     musicas = data;
+    sincronizarEstadoApp();
     window.musicas = data;
     const totalMusicas = Number(data.at(-1)?.id || data.length);
     const musicasHojeCount = document.getElementById('musicasHojeCount');
@@ -229,11 +354,16 @@ if (musicasHojeCount) {
 
     exibirHome();
     carregarRanking();
+    if (typeof carregarRankingQuiz === 'function') {
+        carregarRankingQuiz();
+    }
 
     const abriuViaLink = abrirMusicaCompartilhadaPorIdDaURL();
     if (!abriuViaLink && typeof inicializarPlayerComTop1 === 'function') {
         inicializarPlayerComTop1();
     }
+
+    abrirDesafioCompartilhadoPorIdDaURL();
 
     if (typeof inicializarPesquisa === 'function') {
         inicializarPesquisa();
@@ -362,11 +492,13 @@ function criarCardAlbum(musica) {
 function filtrarBibliotecaPorAlbum(album) {
     if (albumSelecionado === album && album !== null) {
         albumSelecionado = null;
+        sincronizarEstadoApp();
         renderizarBiblioteca();
         renderizarFaixasDoAlbum(null);
         return;
     }
     albumSelecionado = album;
+    sincronizarEstadoApp();
     renderizarBiblioteca();
     renderizarFaixasDoAlbum(album);
 }
@@ -463,6 +595,7 @@ function renderizarBiblioteca() {
 
 function renderizarRanking(ranking) {
     rankingData = Array.isArray(ranking) ? ranking : [];
+    sincronizarEstadoApp();
     if (!moreOuvidasContainer) return;
     moreOuvidasContainer.innerHTML = '';
 
@@ -542,6 +675,8 @@ window.renderizarFavoritosHorizontais = function() {
     renderizarFavoritosVisiveis();
 };
 
+window.navegarPorRota = navegarPorRota;
+window.aplicarRotaAtual = aplicarRotaAtual;
 window.mostrarBiblioteca = mostrarBiblioteca;
 window.mostrarHome = mostrarHome;
 window.filtrarBibliotecaPorAlbum = filtrarBibliotecaPorAlbum;
@@ -566,6 +701,30 @@ window.addEventListener('adoraplay:favoritos-atualizados', () => {
     if (albumSelecionado) renderizarFaixasDoAlbum(albumSelecionado);
 });
 
+window.addEventListener('popstate', () => {
+    aplicarRotaAtual();
+});
+
+function inicializarRouter() {
+    const rotaInicial = obterRotaAtual();
+    const params = new URLSearchParams(window.location.search);
+
+    if (rotaInicial === '/' && params.get('id')) {
+        setTimeout(() => abrirMusicaCompartilhadaPorIdDaURL(), 0);
+        return;
+    }
+
+    if (rotaInicial === '/' && params.get('desafio')) {
+        setTimeout(() => abrirDesafioCompartilhadoPorIdDaURL(), 0);
+        return;
+    }
+
+    window.addEventListener('load', () => {
+        aplicarRotaAtual();
+    }, { once: true });
+}
+
 inicializarMenuMobile();
 inicializarInstalacaoPWA();
+inicializarRouter();
 carregarDados();
