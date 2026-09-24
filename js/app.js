@@ -175,10 +175,12 @@ window.addEventListener('appinstalled', () => {
 function navegarPorRota(rota, opcao = {}) {
     const rotaNormalizada = rota && rota.startsWith('/') ? rota : `/${rota || ''}`;
     const urlAtual = new URL(window.location.href);
-    urlAtual.pathname = rotaNormalizada === '/' ? '/' : rotaNormalizada;
-    urlAtual.hash = '';
+    urlAtual.pathname = '/';
+    urlAtual.hash = rotaNormalizada === '/' ? '' : `#${rotaNormalizada}`;
 
-    const destino = `${urlAtual.pathname}${urlAtual.search}`;
+    const destino = `${urlAtual.pathname}${urlAtual.search}${urlAtual.hash}`;
+    const enderecoAtual = `${window.location.pathname}${window.location.search}${window.location.hash}`;
+    if (destino === enderecoAtual) return;
 
     if (opcao.replace) {
         history.replaceState({}, '', destino);
@@ -190,8 +192,9 @@ function navegarPorRota(rota, opcao = {}) {
 function obterRotaAtual() {
     const hashAtual = (window.location.hash || '').replace(/^#/, '').trim();
     const caminho = (window.location.pathname || '/').trim();
-    const rotaBase = caminho && caminho !== '/' ? caminho : hashAtual ? `/${hashAtual}` : '/';
-    return rotaBase.startsWith('/') ? rotaBase : `/${rotaBase}`;
+    const rotaBase = caminho && caminho !== '/' ? caminho : hashAtual || '/';
+    const rota = rotaBase.startsWith('/') ? rotaBase : `/${rotaBase}`;
+    return rota.length > 1 ? rota.replace(/\/+$/, '') : rota;
 }
 
 function aplicarRotaAtual() {
@@ -229,14 +232,15 @@ function aplicarRotaAtual() {
         return;
     }
 
-    if (rota === '/desafios') {
+    if (rota === '/desafios' || /^\/desafios\/(abertos|finalizados|individuais)$/.test(rota)) {
         if (typeof window.mostrarDesafios === 'function') {
-            window.mostrarDesafios(params.get('tipo') || 'abertos');
+            const tipoDaRota = rota.split('/')[2];
+            window.mostrarDesafios(tipoDaRota || params.get('tipo') || 'abertos');
         }
         return;
     }
 
-    if (rota === '/gamificacao') {
+    if (rota === '/gamificacao' || rota === '/missoes') {
         if (typeof window.mostrarGamificacao === 'function') window.mostrarGamificacao();
         return;
     }
@@ -245,6 +249,20 @@ function aplicarRotaAtual() {
         if (typeof window.mostrarDesafios === 'function') {
             window.mostrarDesafios('abertos');
         }
+        return;
+    }
+
+    if (rota === '/inicio' || rota === '/home') {
+        mostrarHome();
+        return;
+    }
+
+    if (rota === '/ranking' || rota === '/ranking/quiz') {
+        mostrarHome({ preservarRota: true });
+        window.requestAnimationFrame(() => {
+            const seletor = rota.endsWith('/quiz') ? '.quiz-ranking-section' : '.section-ranking';
+            document.querySelector(seletor)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
         return;
     }
 
@@ -278,7 +296,7 @@ function mostrarBiblioteca(comFavoritos = false) {
     renderizarBiblioteca();
 }
 
-function mostrarHome() {
+function mostrarHome(opcoes = {}) {
     ocultarGamificacao();
     if (homeSection) homeSection.style.display = 'grid';
     if (bibliotecaSection) bibliotecaSection.style.display = 'none';
@@ -292,7 +310,7 @@ function mostrarHome() {
      // Reseta a seleção do álbum ao voltar para a home, fechando o carrossel aberto
     albumSelecionado = null;
     sincronizarEstadoApp();
-    navegarPorRota('/');
+    if (!opcoes.preservarRota) navegarPorRota('/');
     renderizarFaixasDoAlbum(null);
 }
 
@@ -702,6 +720,10 @@ window.addEventListener('adoraplay:favoritos-atualizados', () => {
 });
 
 window.addEventListener('popstate', () => {
+    aplicarRotaAtual();
+});
+
+window.addEventListener('hashchange', () => {
     aplicarRotaAtual();
 });
 
