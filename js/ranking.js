@@ -173,13 +173,84 @@ function renderizarIndividuaisQuiz(lista) {
     if (verTodosBotao) verTodosBotao.hidden = lista.length <= 3;
 }
 
+const FAIXAS_NIVEL_TEMATICO = [
+    { nome: 'Neófito', significado: 'Iniciante, recém-chegado.' },
+    { nome: 'Vocacionado', significado: 'Chamado para a jornada.' },
+    { nome: 'Aprendiz', significado: 'Quem está absorvendo os primeiros ensinamentos.' },
+    { nome: 'Discípulo', significado: 'Aquele que segue e aprende ativamente.' },
+    { nome: 'Bereano', significado: 'Inspirado nos bereanos de Atos 17, que conferiam as Escrituras.' },
+    { nome: 'Prudente', significado: 'Reflete maturidade e bom senso.' },
+    { nome: 'Zeloso', significado: 'Demonstra dedicação e fervor.' },
+    { nome: 'Cooperador', significado: 'Já atua ativamente, ajudando na dinâmica da comunidade.' },
+    { nome: 'Despenseiro', significado: 'Guardião e administrador fiel dos conhecimentos adquiridos.' },
+    { nome: 'Arauto', significado: 'Aquele que proclama e difunde a mensagem.' },
+    { nome: 'Evangelista', significado: 'Focado em propagar a fé e os estudos.' },
+    { nome: 'Atalaia', significado: 'Guardião vigilante, que conhece bem a Palavra e alerta ou orienta os demais.' },
+    { nome: 'Apologista', significado: 'Defensor intelectual da fé.' },
+    { nome: 'Confessor', significado: 'Aquele que testemunha corajosamente a sua fé.' },
+    { nome: 'Reformador', significado: 'Marca uma fase de grande transformação e impacto.' },
+    { nome: 'Instrutor', significado: 'Capaz de ensinar e guiar os outros nas leituras.' },
+    { nome: 'Exegeta', significado: 'Especialista em aprofundar-se nos textos e significados.' },
+    { nome: 'Teólogo', significado: 'Domínio avançado do conhecimento bíblico.' },
+    { nome: 'Erudito', significado: 'Soma de profundidade, sabedoria e muita leitura.' },
+    { nome: 'Mestre da Palavra', significado: 'O topo da jornada, para os maiores pontuadores.' }
+];
+
+function faixaTematicaNivel(nivel) {
+    const nivelSeguro = Math.min(99, Math.max(0, Number(nivel) || 0));
+    return FAIXAS_NIVEL_TEMATICO[Math.floor(nivelSeguro / 5)];
+}
+
+function inicializarAjudaNivelTematico() {
+    if (document.getElementById('popoverNivelTematico')) return;
+    const popover = document.createElement('div');
+    popover.id = 'popoverNivelTematico';
+    popover.className = 'popover-nivel-tematico';
+    popover.hidden = true;
+    popover.setAttribute('role', 'tooltip');
+    document.body.appendChild(popover);
+
+    document.addEventListener('click', (evento) => {
+        const botao = evento.target.closest('.btn-ajuda-nivel-tematico');
+        if (!botao) {
+            popover.hidden = true;
+            return;
+        }
+        evento.stopPropagation();
+        if (!popover.hidden && popover.dataset.ancora === botao.dataset.faixa) {
+            popover.hidden = true;
+            return;
+        }
+        popover.dataset.ancora = botao.dataset.faixa;
+        popover.innerHTML = `<strong>${escaparTextoRanking(botao.dataset.titulo)}</strong><span>${escaparTextoRanking(botao.dataset.significado)}</span>`;
+        popover.hidden = false;
+        const rect = botao.getBoundingClientRect();
+        const largura = Math.min(280, window.innerWidth - 24);
+        popover.style.width = `${largura}px`;
+        popover.style.left = `${Math.max(12, Math.min(rect.left + window.scrollX - largura / 2, window.scrollX + window.innerWidth - largura - 12))}px`;
+        popover.style.top = `${rect.bottom + window.scrollY + 8}px`;
+    });
+    document.addEventListener('scroll', () => { popover.hidden = true; }, { passive: true });
+}
+
 function criarCardIndividualRanking(item, indice) {
+    const nivel = Number(item.nivel) || 0;
+    const faixa = faixaTematicaNivel(nivel);
+    const indiceFaixa = Math.floor(Math.min(99, Math.max(0, nivel)) / 5);
+    inicializarAjudaNivelTematico();
     return `
         <article class="quiz-ranking-item">
-            <span>${medalhaOuPosicao(indice)}</span>
+            <span class="quiz-ranking-medalha">${medalhaOuPosicao(indice)}</span>
             <img src="${escaparTextoRanking(item.foto || 'assets/icons/profile.svg')}" alt="" onerror="this.src='assets/icons/profile.svg'">
-            <strong>${escaparTextoRanking(item.nome || 'Jogador')}</strong>
-            <b>${item.pontuacao || 0}</b>
+            <div class="quiz-ranking-identidade">
+                <strong>${escaparTextoRanking(item.nome || 'Jogador')}</strong>
+                <small>Nível ${nivel} · ${escaparTextoRanking(faixa.nome)}
+                    <button type="button" class="btn-ajuda-nivel-tematico" aria-label="Significado de ${escaparTextoRanking(faixa.nome)}"
+                        data-faixa="${indiceFaixa}" data-titulo="${escaparTextoRanking(faixa.nome)}"
+                        data-significado="${escaparTextoRanking(faixa.significado)}">?</button>
+                </small>
+            </div>
+            <b class="quiz-ranking-xp">${Number(item.pontos_totais) || 0}<small>XP</small></b>
         </article>
     `;
 }
