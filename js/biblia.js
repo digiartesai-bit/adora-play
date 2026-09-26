@@ -554,7 +554,7 @@
         }
     }
 
-    function selectChapter(chapterIndex) {
+    function selectChapter(chapterIndex, { scrollToPanel = true } = {}) {
         hideBibleDescription();
         hideChapterDescription();
         selectedChapter = chapterIndex;
@@ -577,7 +577,9 @@
         notesPanel.hidden = true;
         subtitle.textContent = `${selectedVersion.toUpperCase()}: ${selectedBook.name} ${chapter.chapter} possui ${verses.length} versículos.`;
         setStep('verse');
-        window.scrollTo({ top: versesPanel.offsetTop - 16, behavior: 'smooth' });
+        if (scrollToPanel) {
+            window.scrollTo({ top: versesPanel.offsetTop - 16, behavior: 'smooth' });
+        }
     }
 
     function updateChapterNavigation() {
@@ -770,7 +772,9 @@
         await loadBook(book);
         const chapterIndex = selectedBookData.chapters.findIndex(chapter => chapter.chapter === study.chapter);
         if (chapterIndex < 0) return;
-        selectChapter(chapterIndex);
+        // No fluxo de comparação, evitamos a rolagem automática do capítulo:
+        // o destino final deve ser o versículo escolhido, não o topo do painel.
+        selectChapter(chapterIndex, { scrollToPanel: false });
         const chapter = selectedBookData.chapters[chapterIndex];
         const verseIndexes = (study.verses || [study.verse])
             .map((verseNumber) => chapter.verses.findIndex(verse => verse.verse === verseNumber))
@@ -864,7 +868,7 @@
             chapter => chapter.chapter === details.chapter
         );
         if (chapterIndex < 0) return;
-        selectChapter(chapterIndex);
+        selectChapter(chapterIndex, { scrollToPanel: false });
 
         const chapter = selectedBookData.chapters[chapterIndex];
         const ranges = details.verseRanges?.length
@@ -888,8 +892,10 @@
             verse.classList.toggle('is-selected', selectedVerseIndexes.has(index));
         });
         updateQuickActions();
-        document.getElementById(`versiculo-${chapter.verses[verseIndexes[0]].verse}`)
-            ?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        const versiculoDestino = document.getElementById(`versiculo-${chapter.verses[verseIndexes[0]].verse}`);
+        window.requestAnimationFrame(() => {
+            versiculoDestino?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        });
     }
 
     window.openBibleComparisonVersion = openComparisonVersion;
