@@ -59,6 +59,23 @@
         return chave ? localStorage.getItem(chave) : null;
     }
 
+    async function sincronizarInicioPlano(inicioPlano) {
+        const usuario = usuarioAtual();
+        if (!usuario?.google_id || !inicioPlano) return null;
+        const resposta = await fetch(`${API_URL}/api/gamificacao/plano/inicio`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ google_id: usuario.google_id, inicio_plano: inicioPlano })
+        });
+        if (!resposta.ok) throw new Error(`HTTP ${resposta.status} ao sincronizar o início do plano.`);
+        const dados = await resposta.json();
+        if (dados.inicio_plano) {
+            const chave = chaveInicioPlano();
+            if (chave) localStorage.setItem(chave, dados.inicio_plano);
+        }
+        return dados.inicio_plano || null;
+    }
+
     function escapar(valor) {
         return String(valor || '').replace(/[&<>"']/g, (caractere) => ({
             '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;'
@@ -202,7 +219,16 @@
                 throw new Error(erroApi?.error || `HTTP ${resposta.status}`);
             }
             painelAtual = await resposta.json();
-            painelAtual.inicio_plano = painelAtual.inicio_plano || inicioPlanoLocal();
+            const inicioLocal = inicioPlanoLocal();
+            if (inicioLocal) {
+                try {
+                    painelAtual.inicio_plano = await sincronizarInicioPlano(inicioLocal) || painelAtual.inicio_plano;
+                } catch (erro) {
+                    console.warn('Não foi possível sincronizar a data de início do plano:', erro.message);
+                }
+            }
+            const chave = chaveInicioPlano();
+            if (painelAtual.inicio_plano && chave) localStorage.setItem(chave, painelAtual.inicio_plano);
             renderizarPainel();
         } catch (erro) {
             mensagem.textContent = erro.message || 'Não foi possível carregar suas missões.';
@@ -229,6 +255,11 @@
             const chave = chaveInicioPlano();
             if (chave) localStorage.setItem(chave, inicio);
             if (painelAtual) painelAtual.inicio_plano = inicio;
+            sincronizarInicioPlano(inicio).then((inicioSincronizado) => {
+                if (!inicioSincronizado) return;
+                if (painelAtual) painelAtual.inicio_plano = inicioSincronizado;
+                renderizarPainel();
+            }).catch((erro) => console.warn('Não foi possível salvar o início do plano:', erro.message));
         }
         if (!concluida) window.iniciarTimerMissaoBiblia?.({ idMissao, minutos, titulo });
         if (!leitorMissao) return;
