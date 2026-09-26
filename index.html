@@ -26,9 +26,9 @@
     <!-- Fonte Google: Poppins -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css?v=2.3.16">
+    <link rel="stylesheet" href="css/style.css?v=2.3.17">
     <link rel="stylesheet" href="css/biblia.css?v=1.0.5">
-    <link rel="stylesheet" href="css/quiz-unificado.css?v=1.0.2">
+    <link rel="stylesheet" href="css/quiz-unificado.css?v=1.0.3">
 </head>
 
 <body>
@@ -169,7 +169,7 @@
                     </div>
                     <div class="quiz-ranking-columns">
                         <div>
-                            <h4>Melhor Pontuação</h4>
+                            <h4>Ranking geral</h4>
                             <small><button class="link-button" type="button" id="verTodosRankingIndividual"
                                     onclick="mostrarDesafios('individuais')" hidden>Ver todos</button></small>
                             <div id="rankingQuizIndividual" class="quiz-ranking-list"></div>
@@ -390,7 +390,10 @@
                 </div>
 
                 <section class="card" id="quizCardPergunta">
-                    <div class="progresso" id="quizProgresso">Nível 1 — Pergunta 1</div>
+                    <div class="quiz-progresso-linha">
+                        <div class="progresso" id="quizProgresso">Nível 1 — Pergunta 1</div>
+                        <strong id="quizPontosSessao">Pontos nesta sessão: 0</strong>
+                    </div>
                     <p class="instrucao">Escolha a alternativa que indica corretamente onde o texto está escrito na
                         Bíblia.</p>
                     <div class="pergunta" id="quizPergunta"></div>
@@ -593,17 +596,17 @@
     <script src="https://accounts.google.com/gsi/client" async></script>
     <script src="js/player.js?v=1.0.13"></script>
     <script src="js/visualizer.js"></script>
-    <script src="js/gamificacao.js?v=1.0.2"></script>
-    <script src="js/ranking.js?v=1.0.7"></script>
+    <script src="js/gamificacao.js?v=1.0.3"></script>
+    <script src="js/ranking.js?v=1.0.8"></script>
     <script src="js/recursos.js?v=1.0.19"></script>
-    <script src="js/app.js?v=1.0.26"></script>
+    <script src="js/app.js?v=1.0.27"></script>
     <script src="js/ajuda.js"></script>
     <script src="js/pesquisa.js?v=1.0.2"></script>
     <script src="js/compartilhamento-biblia.js?v=1.0.1"></script>
     <script src="js/versiculo-do-dia.js?v=1.0.5"></script>
     <script src="js/comparar-biblia.js?v=1.0.1"></script>
     <script src="js/biblia.js?v=1.0.18"></script>
-    <script src="js/quiz.js?v=1.0.4"></script>
+    <script src="js/quiz.js?v=1.0.5"></script>
     <script src="js/google-login.js?v=1.0.0"></script>
 </body>
 
