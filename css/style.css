@@ -1262,6 +1262,38 @@ button {
     font-size: 13px;
 }
 
+.desafio-consentimento-ranking {
+    display: grid;
+    gap: 12px;
+    margin: 18px 0;
+    padding: 16px;
+    border: 1px solid rgba(212, 175, 55, .3);
+    border-radius: 14px;
+    background: rgba(212, 175, 55, .07);
+}
+
+.desafio-consentimento-ranking p {
+    margin: 0;
+    color: rgba(244, 247, 251, .8);
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.desafio-consentimento-ranking label {
+    display: flex;
+    align-items: flex-start;
+    gap: 9px;
+    color: #f4f7fb;
+    font-size: 12px;
+    line-height: 1.45;
+}
+
+.desafio-consentimento-ranking input {
+    flex: 0 0 auto;
+    margin-top: 2px;
+    accent-color: #d4af37;
+}
+
 .quiz-ranking-item .quiz-ranking-xp {
     display: grid;
     justify-items: end;
