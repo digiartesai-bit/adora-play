@@ -1170,7 +1170,7 @@ button {
 
 .quiz-ranking-item {
     display: grid;
-    grid-template-columns: 24px 32px minmax(0, 1fr) auto;
+    grid-template-columns: 28px 42px minmax(0, 1fr) auto;
     align-items: center;
     gap: 8px;
     min-width: 0;
@@ -1194,6 +1194,84 @@ button {
     white-space: nowrap;
     font-size: 12px;
     padding:10px;
+}
+
+.quiz-ranking-medalha {
+    text-align: center;
+    font-size: 19px;
+}
+
+.quiz-ranking-identidade {
+    display: grid;
+    gap: 3px;
+    min-width: 0;
+}
+
+.quiz-ranking-identidade strong {
+    padding: 0;
+}
+
+.quiz-ranking-identidade small {
+    overflow: hidden;
+    color: rgba(244, 247, 251, .68);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 10px;
+}
+
+.btn-ajuda-nivel-tematico {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+    padding: 0;
+    border: 1px solid rgba(212, 175, 55, .55);
+    border-radius: 50%;
+    background: rgba(212, 175, 55, .12);
+    color: #d4af37;
+    font: inherit;
+    font-size: 10px;
+    line-height: 1;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.popover-nivel-tematico {
+    position: absolute;
+    z-index: 9999;
+    display: grid;
+    gap: 5px;
+    padding: 12px 14px;
+    border: 1px solid rgba(212, 175, 55, .28);
+    border-radius: 12px;
+    background: rgba(8, 24, 38, .96);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, .55);
+    color: #f4f7fb;
+    font-size: 12px;
+    line-height: 1.45;
+}
+
+.popover-nivel-tematico[hidden] {
+    display: none !important;
+}
+
+.popover-nivel-tematico strong {
+    color: #e0bb5d;
+    font-size: 13px;
+}
+
+.quiz-ranking-item .quiz-ranking-xp {
+    display: grid;
+    justify-items: end;
+    gap: 1px;
+    font-size: 15px;
+}
+
+.quiz-ranking-xp small {
+    color: rgba(244, 247, 251, .65);
+    font-size: 9px;
 }
 
 .quiz-ranking-item b {
