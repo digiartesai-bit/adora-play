@@ -446,7 +446,7 @@
             },
             {
                 "id": 41,
-                "pergunta": "Onde está escrito: \"Deleita-te no Senhor, e ele the concederá os desejos do teu coração\"?",
+                "pergunta": "Onde está escrito: \"Deleita-te no Senhor, e ele lhe concederá os desejos do teu coração\"?",
                 "alternativas": [
                     "Provérbios 16:3",
                     "Salmos 84:11",
@@ -479,14 +479,14 @@
             },
             {
                 "id": 44,
-                "pergunta": "Onde está escrito: \"Porque a palavra de Deus é viva e eficaz, e mais penetrante do que espada alguma de dois gumes\"?",
+                "pergunta": "Onde está escrito: \"Porque em um mesmo Espírito fomos todos nós batizados em um corpo, quer judeus, quer gregos, quer servos, quer livres\"?",
                 "alternativas": [
-                    "Efésios 6:17",
-                    "Hebreus 4:12",
-                    "Apocalipse 1:16",
-                    "Isaías 49:2"
+                    "1 Coríntios 12:13",
+                    "Romanos 6:4",
+                    "Gálatas 3:28",
+                    "Efésios 4:4"
                 ],
-                "resposta": 1
+                "resposta": 0
             },
             {
                 "id": 45,
@@ -512,14 +512,14 @@
             },
             {
                 "id": 47,
-                "pergunta": "Onde está escrito: \"E sabemos que todas as coisas cooperam para o bem daqueles que amam a Deus\"?",
+                "pergunta": "Onde está escrito: \"Noé, porém, achou graça aos olhos do Senhor\"?",
                 "alternativas": [
-                    "Gênesis 50:20",
-                    "Jeremias 29:11",
-                    "Romanos 8:28",
-                    "2 Coríntios 4:17"
+                    "Gênesis 5:29",
+                    "Gênesis 6:8",
+                    "Êxodo 2:25",
+                    "Salmos 1:1"
                 ],
-                "resposta": 2
+                "resposta": 1
             },
             {
                 "id": 48,
@@ -545,7 +545,7 @@
             },
             {
                 "id": 50,
-                "pergunta": "Onde está escrito: \"Aquele que habita no esconderijo do Altíssimo, à sombra do Onipotente the alojará\"?",
+                "pergunta": "Onde está escrito: \"Aquele que habita no esconderijo do Altíssimo, à sombra do Onipotente descansará\"?",
                 "alternativas": [
                     "Salmos 27:5",
                     "Salmos 32:7",
@@ -622,18 +622,18 @@
             },
             {
                 "id": 57,
-                "pergunta": "Onde está escrito: \"Lancem sobre ele toda a sua ansiedade, porque ele tem cuidado de vocês\"?",
+                "pergunta": "Onde está escrito: \"Ensina-nos a contar os nossos dias, para que alcancemos corações sábios\"?",
                 "alternativas": [
-                    "Salmos 55:22",
-                    "Filipenses 4:6",
-                    "1 Pedro 5:7",
-                    "Mateus 6:25"
+                    "Salmos 90:12",
+                    "Provérbios 9:10",
+                    "Eclesiastes 7:12",
+                    "Tiago 1:5"
                 ],
-                "resposta": 2
+                "resposta": 0
             },
             {
                 "id": 58,
-                "pergunta": "Onde está escrito: \"A paz te deixo, a minha paz te dou; não vo-la dou como a o mundo a dá\"?",
+                "pergunta": "Onde está escrito: \"A paz te deixo, a minha paz te dou; não vo-la dou como o mundo a dá\"?",
                 "alternativas": [
                     "João 14:27",
                     "João 16:33",
@@ -699,14 +699,14 @@
             },
             {
                 "id": 64,
-                "pergunta": "Onde está escrito: \"Assim que a fé é pelo ouvir, e o ouvir pela palavra de Deus\"?",
+                "pergunta": "Onde está escrito: \"Examinais as Escrituras, porque julgais ter nelas a vida eterna, e são elas mesmas que testificam de mim\"?",
                 "alternativas": [
-                    "Gálatas 3:2",
-                    "Hebreus 11:1",
-                    "Romanos 1:17",
-                    "Romanos 10:17"
+                    "Lucas 24:27",
+                    "João 5:39",
+                    "Atos 17:11",
+                    "2 Timóteo 3:15"
                 ],
-                "resposta": 3
+                "resposta": 1
             },
             {
                 "id": 65,
@@ -732,14 +732,14 @@
             },
             {
                 "id": 67,
-                "pergunta": "Onde está escrito: \"Porque pela graça sois salvos, por meio da fé; e isto não vem de vós, é dom de Deus\"?",
+                "pergunta": "Onde está escrito: \"Não pelas obras de justiça que houvéssemos feito, mas segundo a sua misericórdia, nos salvou\"?",
                 "alternativas": [
-                    "Tito 3:5",
                     "Efésios 2:8",
                     "Romanos 3:24",
+                    "Tito 3:5",
                     "2 Timóteo 1:9"
                 ],
-                "resposta": 1
+                "resposta": 2
             },
             {
                 "id": 68,
@@ -765,7 +765,7 @@
             },
             {
                 "id": 70,
-                "pergunta": "Onde está escrito: \"Não deixemos a nossa congregação, como é costume de alguns, antes exortemos-nos uns aos outros\"?",
+                "pergunta": "Onde está escrito: \"Não deixemos a nossa congregação, como é costume de alguns, antes exortemo-nos uns aos outros\"?",
                 "alternativas": [
                     "Atos 2:42",
                     "Hebreus 10:25",
@@ -798,7 +798,7 @@
             },
             {
                 "id": 73,
-                "pergunta": "Onde está escrito: \"O amor é patiente, é benigno; o amor não arde em ciúmes; o amor não se ufana, não se ensoberbece\"?",
+                "pergunta": "Onde está escrito: \"O amor é paciente, é benigno; o amor não arde em ciúmes; o amor não se ufana, não se ensoberbece\"?",
                 "alternativas": [
                     "1 Coríntios 13:4",
                     "Romanos 12:9",
@@ -941,7 +941,7 @@
             },
             {
                 "id": 86,
-                "pergunta": "Onde está escrito: \"Alegrai-vos na esperança, sede patientes na tribulação, orai na perseverança\"?",
+                "pergunta": "Onde está escrito: \"Alegrai-vos na esperança, sede pacientes na tribulação, orai na perseverança\"?",
                 "alternativas": [
                     "Romanos 12:12",
                     "1 Tessalonicenses 5:16",
@@ -1029,7 +1029,7 @@
             },
             {
                 "id": 94,
-                "pergunta": "Onde está escrito: \"Toda a amargura, e ira, e cólera, e gritaria, e blasphêmias sejam tiradas de vós, bem como toda a malícia\"?",
+                "pergunta": "Onde está escrito: \"Toda a amargura, e ira, e cólera, e gritaria, e blasfêmias sejam tiradas de vós, bem como toda a malícia\"?",
                 "alternativas": [
                     "Efésios 4:31",
                     "Colossenses 3:8",
@@ -1216,14 +1216,14 @@
             },
             {
                 "id": 111,
-                "pergunta": "Onde está escrito: \"Tomai também o capacete da salvação, e a espada do Espírito, que é a palavra de Deus\"?",
+                "pergunta": "Onde está escrito: \"E o Verbo se fez carne, e habitou entre nós\"?",
                 "alternativas": [
-                    "1 Tessalonicenses 5:8",
-                    "Hebreus 4:12",
-                    "Apocalipse 1:16",
-                    "Efésios 6:17"
+                    "João 1:1",
+                    "João 1:14",
+                    "Filipenses 2:7",
+                    "Hebreus 1:3"
                 ],
-                "resposta": 3
+                "resposta": 1
             },
             {
                 "id": 112,
@@ -1337,36 +1337,36 @@
             },
             {
                 "id": 122,
-                "pergunta": "Onde está escrito: \"Tudo posso naquele que me fortalece\"?",
+                "pergunta": "Onde está escrito: \"Aquietai-vos e sabei que eu sou Deus\"?",
                 "alternativas": [
-                    "Efésios 6:10",
-                    "2 Coríntios 12:9",
-                    "Isaías 40:31",
-                    "Filipenses 4:13"
+                    "Salmos 46:10",
+                    "Salmos 37:7",
+                    "Isaías 41:10",
+                    "Êxodo 14:14"
                 ],
-                "resposta": 3
+                "resposta": 0
             },
             {
                 "id": 123,
-                "pergunta": "Onde está escrito: \"E o meu Deus suprirá todas as vossas necessidades segundo as suas riquezas em glória em Cristo Jesus\"?",
+                "pergunta": "Onde está escrito: \"Confia no Senhor e faze o bem; habitarás na terra, e verdadeiramente serás alimentado\"?",
                 "alternativas": [
-                    "2 Coríntios 9:8",
-                    "Filipenses 4:19",
                     "Salmos 23:1",
-                    "Mateus 6:33"
+                    "Salmos 37:3",
+                    "Provérbios 3:5",
+                    "Isaías 26:3"
                 ],
                 "resposta": 1
             },
             {
                 "id": 124,
-                "pergunta": "Onde está escrito: \"Portanto, quer comais quer bebais, ou façais outra qualquer coisa, fazei tudo para glória de Deus\"?",
+                "pergunta": "Onde está escrito: \"Mas faça-se tudo decentemente e com ordem\"?",
                 "alternativas": [
+                    "1 Coríntios 14:40",
+                    "1 Coríntios 10:31",
                     "Colossenses 3:17",
-                    "Romanos 14:6",
-                    "Efésios 5:20",
-                    "1 Coríntios 10:31"
+                    "Romanos 12:1"
                 ],
-                "resposta": 3
+                "resposta": 0
             },
             {
                 "id": 125,
@@ -1414,7 +1414,7 @@
             },
             {
                 "id": 129,
-                "pergunta": "Onde está escrito: \"A minha graça te basta, porque o meu poder se perfecciona na fraqueza\"?",
+                "pergunta": "Onde está escrito: \"A minha graça te basta, porque o meu poder se aperfeiçoa na fraqueza\"?",
                 "alternativas": [
                     "2 Coríntios 12:9",
                     "Hebreus 4:16",
@@ -1513,12 +1513,12 @@
             },
             {
                 "id": 138,
-                "pergunta": "Onde está escrito: \"Porque a nossa luta não é contra a carne e o sangue\"?",
+                "pergunta": "Onde está escrito: \"O Senhor pelejará por vós, e vós vos calareis\"?",
                 "alternativas": [
-                    "2 Coríntios 10:3",
-                    "Efésios 6:12",
-                    "1 Pedro 5:8",
-                    "Colossenses 2:15"
+                    "Josué 1:9",
+                    "Êxodo 14:14",
+                    "Deuteronômio 20:4",
+                    "Salmos 46:10"
                 ],
                 "resposta": 1
             },
@@ -1535,201 +1535,201 @@
             },
             {
                 "id": 140,
-                "pergunta": "Onde está escrito: \"Regozijai-vos sempre no Senhor; outra vez digo, alegrai-vos\"?",
+                "pergunta": "Onde está escrito: \"Tenho-vos dito isto, para que em mim tenhais paz; no mundo tereis aflições, mas tende bom ânimo, eu venci o mundo\"?",
                 "alternativas": [
-                    "1 Tessalonicenses 5:16",
-                    "Filipenses 4:4",
-                    "Salmos 37:4",
-                    "Romanos 12:12"
+                    "João 14:27",
+                    "Romanos 8:37",
+                    "João 16:33",
+                    "1 João 5:4"
+                ],
+                "resposta": 2
+            },
+            {
+                "id": 141,
+                "pergunta": "Onde está escrito: \"E tudo quanto fizerdes, fazei-o de todo o coração, como ao Senhor, e não aos homens\"?",
+                "alternativas": [
+                    "Efésios 6:7",
+                    "Colossenses 3:23",
+                    "1 Coríntios 10:31",
+                    "Filipenses 2:14"
                 ],
                 "resposta": 1
             },
             {
-                "id": 141,
-                "pergunta": "Onde está escrito: \"Portanto, quer comais quer bebais, ou façais outra qualquer coisa, fazei tudo para glória de Deus\"?",
-                "alternativas": [
-                    "Colossenses 3:17",
-                    "Romanos 14:6",
-                    "1 Coríntios 10:31",
-                    "Efésios 5:20"
-                ],
-                "resposta": 2
-            },
-            {
                 "id": 142,
-                "pergunta": "Onde está escrito: \"Portanto, meus amados irmãos, sede firmes e constantes, sempre abundantes na obra do Senhor\"?",
+                "pergunta": "Onde está escrito: \"Sede fortes e corajosos, não temais, nem vos atemorizeis diante deles; porque o Senhor teu Deus é o que vai contigo\"?",
                 "alternativas": [
-                    "Gálatas 6:9",
-                    "Hebreus 6:11",
-                    "1 Coríntios 15:58",
-                    "2 Tessalonicenses 3:13"
+                    "Josué 1:9",
+                    "Deuteronômio 31:6",
+                    "Isaías 41:10",
+                    "Salmos 27:1"
                 ],
-                "resposta": 2
+                "resposta": 1
             },
             {
                 "id": 143,
-                "pergunta": "Onde está escrito: \"Vigiai, estai firmes na fé, portai-vos varonilmente, sede fortes\"?",
+                "pergunta": "Onde está escrito: \"Confessai as vossas culpas uns aos outros, e orai uns pelos outros, para que sareis\"?",
                 "alternativas": [
-                    "1 Coríntios 16:13",
-                    "Efésios 6:10",
-                    "1 Tessalonicenses 5:6",
-                    "2 Timóteo 2:3"
+                    "Tiago 5:16",
+                    "Gálatas 6:2",
+                    "1 João 1:9",
+                    "Efésios 6:18"
                 ],
                 "resposta": 0
             },
             {
                 "id": 144,
-                "pergunta": "Onde está escrito: \"Todas as vossas coisas sejam feitas com amor\"?",
+                "pergunta": "Onde está escrito: \"E, sobre tudo isto, revesti-vos de amor, que é o vínculo da perfeição\"?",
                 "alternativas": [
+                    "1 Coríntios 13:13",
                     "Colossenses 3:14",
                     "1 Pedro 4:8",
-                    "Gálatas 5:13",
-                    "1 Coríntios 16:14"
+                    "Efésios 4:2"
                 ],
-                "resposta": 3
+                "resposta": 2
             },
             {
                 "id": 145,
-                "pergunta": "Onde está escrito: \"Bendito seja o Deus e Pai de nosso Senhor Jesus Cristo, o Pai das misericórdias e o Deus de toda a consolação\"?",
+                "pergunta": "Onde está escrito: \"E eis que eu estou convosco todos os dias, até à consumação dos séculos\"?",
                 "alternativas": [
-                    "1 Pedro 1:3",
-                    "Efésios 1:3",
-                    "Romanos 15:5",
-                    "2 Coríntios 1:3"
+                    "Mateus 28:20",
+                    "João 14:18",
+                    "Hebreus 13:5",
+                    "Mateus 18:20"
                 ],
-                "resposta": 3
+                "resposta": 0
             },
             {
                 "id": 146,
-                "pergunta": "Onde está escrito: \"A minha graça te basta, porque o meu poder se perfecciona na fraqueza\"?",
+                "pergunta": "Onde está escrito: \"Tenho-vos dito isto, para que em mim tenhais paz; no mundo tereis aflições\"?",
                 "alternativas": [
-                    "Hebreus 4:16",
-                    "2 Coríntios 12:9",
-                    "Romanos 5:20",
-                    "2 Coríntios 9:8"
+                    "João 14:27",
+                    "João 16:33",
+                    "Romanos 5:3",
+                    "2 Coríntios 4:17"
                 ],
                 "resposta": 1
             },
             {
                 "id": 147,
-                "pergunta": "Onde está escrito: \"Examine-se, pois, o homem a si mesmo, e assim coma deste pão e beba deste cálice\"?",
+                "pergunta": "Onde está escrito: \"Aquele que tem os meus mandamentos e os guarda, esse é o que me ama\"?",
                 "alternativas": [
-                    "2 Coríntios 13:5",
-                    "1 Coríntios 11:28",
-                    "1 João 3:21",
-                    "Salmos 26:2"
-                ],
-                "resposta": 1
-            },
-            {
-                "id": 148,
-                "pergunta": "Onde está escrito: \"Examinai-vos a vós mesmos, se estais na fé; provai-vos a vós mesmos\"?",
-                "alternativas": [
-                    "2 Coríntios 13:5",
-                    "1 Coríntios 11:28",
-                    "Gálatas 6:4",
-                    "1 Tessalonicenses 5:21"
+                    "João 14:21",
+                    "João 15:10",
+                    "1 João 2:3",
+                    "Apocalipse 14:12"
                 ],
                 "resposta": 0
             },
             {
-                "id": 149,
-                "pergunta": "Onde está escrito: \"Porque em Cristo Jesus nem a circuncisão nem a incircuncisão tem valor algum, mas a fé que opera pelo amor\"?",
+                "id": 148,
+                "pergunta": "Onde está escrito: \"Se alguém quiser vir após mim, negue-se a si mesmo, tome a sua cruz e siga-me\"?",
                 "alternativas": [
-                    "Gálatas 6:15",
-                    "1 Coríntios 7:19",
-                    "Romanos 2:25",
-                    "Gálatas 5:6"
+                    "Mateus 16:24",
+                    "Marcos 8:34",
+                    "Lucas 9:23",
+                    "Todas as alternativas acima"
                 ],
                 "resposta": 3
             },
             {
-                "id": 150,
-                "pergunta": "Onde está escrito: \"Não vos enganeis: de Deus não se zomba; porque tudo o que o homem semear, isso também ceifará\"?",
+                "id": 149,
+                "pergunta": "Onde está escrito: \"E, sobre tudo isto, revesti-vos de amor, que é o vínculo da perfeição\"?",
                 "alternativas": [
-                    "Jó 4:8",
-                    "Gálatas 6:7",
-                    "Oséias 10:12",
-                    "Provérbios 22:8"
+                    "Colossenses 3:14",
+                    "1 Pedro 4:8",
+                    "Efésios 5:2",
+                    "Romanos 13:10"
+                ],
+                "resposta": 0
+            },
+            {
+                "id": 150,
+                "pergunta": "Onde está escrito: \"Aquele que encobre as suas transgressões nunca prosperará, mas o que as confessa e deixa alcançará misericórdia\"?",
+                "alternativas": [
+                    "Salmos 32:5",
+                    "Provérbios 28:13",
+                    "1 João 1:9",
+                    "Isaías 55:7"
                 ],
                 "resposta": 1
             },
             {
                 "id": 151,
-                "pergunta": "Onde está escrito: \"E não nos cansemos de fazer o bem, a seu tempo ceifaremos, se não houvermos desfalecido\"?",
+                "pergunta": "Onde está escrito: \"E não nos cansemos de fazer bem, porque a seu tempo ceifaremos, se não houvermos desfalecido\"?",
                 "alternativas": [
-                    "2 Tessalonicenses 3:13",
-                    "1 Coríntios 15:58",
+                    "Hebreus 12:1",
                     "Gálatas 6:9",
-                    "Hebreus 12:3"
+                    "2 Tessalonicenses 3:13",
+                    "1 Coríntios 15:58"
                 ],
-                "resposta": 2
+                "resposta": 1
             },
             {
                 "id": 152,
-                "pergunta": "Onde está escrito: \"Bendito o Deus e Pai de nosso Senhor Jesus Cristo, o qual nos abençoou com todas as bênçãos espirituais nos lugares celestiais em Cristo\"?",
+                "pergunta": "Onde está escrito: \"O Senhor é bom, uma fortaleza no dia da angústia, e conhece os que confiam nele\"?",
                 "alternativas": [
-                    "Efésios 1:3",
-                    "2 Coríntios 1:3",
-                    "1 Pedro 1:3",
-                    "Colossenses 1:3"
+                    "Naum 1:7",
+                    "Salmos 46:1",
+                    "Salmos 34:8",
+                    "Provérbios 18:10"
                 ],
                 "resposta": 0
             },
             {
                 "id": 153,
-                "pergunta": "Onde está escrito: \"Em quem temos a redenção pelo seu sangue, a remissão dos pecados, segundo as riquezas da sua graça\"?",
+                "pergunta": "Onde está escrito: \"E, assim como aos homens está ordenado morrerem uma vez, vindo depois disso o juízo\"?",
                 "alternativas": [
-                    "Efésios 1:7",
-                    "Colossenses 1:14",
-                    "Romanos 3:24",
-                    "Hebreus 9:12"
+                    "Romanos 6:23",
+                    "Hebreus 9:27",
+                    "Apocalipse 20:12",
+                    "Eclesiastes 12:14"
+                ],
+                "resposta": 1
+            },
+            {
+                "id": 154,
+                "pergunta": "Onde está escrito: \"Aquele que habita no esconderijo do Altíssimo, à sombra do Onipotente descansará\"?",
+                "alternativas": [
+                    "Salmos 91:1",
+                    "Salmos 121:5",
+                    "Salmos 27:5",
+                    "Salmos 46:1"
                 ],
                 "resposta": 0
             },
             {
-                "id": 154,
-                "pergunta": "Onde está escrito: \"Tendo iluminados os olhos do vosso entendimento, para que saibais qual seja a esperança da sua vocação\"?",
-                "alternativas": [
-                    "Colossenses 1:27",
-                    "1 Pedro 1:3",
-                    "Efésios 1:18",
-                    "Romanos 8:24"
-                ],
-                "resposta": 2
-            },
-            {
                 "id": 155,
-                "pergunta": "Onde está escrito: \"Mas a nossa cidade está nos céus, de onde também esperamos o Salvador, o Senhor Jesus Cristo\"?",
+                "pergunta": "Onde está escrito: \"Porque Deus não nos deu o espírito de temor, mas de fortaleza, e de amor, e de moderação\"?",
                 "alternativas": [
-                    "Hebreus 11:16",
-                    "João 14:2",
-                    "Filipenses 3:20",
-                    "Apocalipse 21:2"
+                    "Romanos 8:15",
+                    "2 Timóteo 1:7",
+                    "1 João 4:18",
+                    "Efésios 6:10"
                 ],
-                "resposta": 2
+                "resposta": 1
             },
             {
                 "id": 156,
-                "pergunta": "Onde está escrito: \"Regozijai-vos sempre no Senhor; outra vez digo, alegrai-vos\"?",
+                "pergunta": "Onde está escrito: \"O Senhor é o meu pastor; nada me faltará\"?",
                 "alternativas": [
-                    "1 Tessalonicenses 5:16",
-                    "Salmos 37:4",
-                    "Romanos 12:12",
-                    "Filipenses 4:4"
+                    "Salmos 23:1",
+                    "Salmos 34:10",
+                    "Salmos 84:11",
+                    "João 10:11"
                 ],
-                "resposta": 3
+                "resposta": 0
             },
             {
                 "id": 157,
-                "pergunta": "Onde está escrito: \"Não estejais inquietos por coisa alguma; antes, em tudo sejam os vossos pedidos conhecidos diante de Deus pela oração e súplica\"?",
+                "pergunta": "Onde está escrito: \"Lançando sobre ele toda a vossa ansiedade, porque ele tem cuidado de vós\"?",
                 "alternativas": [
                     "Filipenses 4:6",
                     "Mateus 6:25",
                     "1 Pedro 5:7",
                     "Salmos 55:22"
                 ],
-                "resposta": 0
+                "resposta": 2
             },
             {
                 "id": 158,
@@ -1755,14 +1755,14 @@
             },
             {
                 "id": 160,
-                "pergunta": "Onde está escrito: \"Ora, o meu Deus suprirá todas as vossas necessidades segundo as suas riquezas em glória em Cristo Jesus\"?",
+                "pergunta": "Onde está escrito: \"Não temas, porque eu sou contigo; não te assombres, porque eu sou teu Deus\"?",
                 "alternativas": [
-                    "2 Coríntios 9:8",
-                    "Salmos 23:1",
-                    "Mateus 6:33",
-                    "Filipenses 4:19"
+                    "Isaías 41:10",
+                    "Josué 1:9",
+                    "Salmos 46:1",
+                    "Jeremias 1:8"
                 ],
-                "resposta": 3
+                "resposta": 0
             },
             {
                 "id": 161,
@@ -1821,25 +1821,25 @@
             },
             {
                 "id": 166,
-                "pergunta": "Onde está escrito: \"Portanto, irmãos, rogo-vos pelas compaixões de Deus que apresenteis os vossos corpos em sacrifício vivo, santo e agradável a Deus\"?",
+                "pergunta": "Onde está escrito: \"Mas vós sereis chamados sacerdotes do Senhor, e vos chamarão ministros de nosso Deus\"?",
                 "alternativas": [
-                    "Romanos 12:1",
-                    "1 Coríntios 6:19",
-                    "Romanos 6:13",
-                    "Hebreus 13:15"
+                    "Êxodo 19:6",
+                    "Isaías 61:6",
+                    "1 Pedro 2:9",
+                    "Apocalipse 1:6"
                 ],
-                "resposta": 0
+                "resposta": 1
             },
             {
                 "id": 167,
-                "pergunta": "Onde está escrito: \"E não vos conformeis com este mundo, mas transformai-vos pela renovação da vossa mente\"?",
+                "pergunta": "Onde está escrito: \"Se alguém está em Cristo, nova criatura é; as coisas velhas já passaram; eis que tudo se fez novo\"?",
                 "alternativas": [
-                    "Romanos 12:2",
-                    "Colossenses 3:2",
-                    "1 João 2:15",
-                    "Tiago 4:4"
+                    "Gálatas 6:15",
+                    "Efésios 4:22",
+                    "2 Coríntios 5:17",
+                    "Romanos 6:4"
                 ],
-                "resposta": 0
+                "resposta": 2
             },
             {
                 "id": 168,
@@ -1898,14 +1898,14 @@
             },
             {
                 "id": 173,
-                "pergunta": "Onde está escrito: \"Alegrai-vos na esperança, sede patientes na tribulação, orai na perseverança\"?",
+                "pergunta": "Onde está escrito: \"Alegrai-vos sempre no Senhor; outra vez digo, alegrai-vos\"?",
                 "alternativas": [
-                    "1 Tessalonicenses 5:16",
                     "Filipenses 4:4",
-                    "Tiago 1:2",
+                    "Salmos 32:11",
+                    "1 Tessalonicenses 5:16",
                     "Romanos 12:12"
                 ],
-                "resposta": 3
+                "resposta": 0
             },
             {
                 "id": 174,
@@ -1953,7 +1953,7 @@
             },
             {
                 "id": 178,
-                "pergunta": "Onde está escrito: \"Não torneis a ninguém mal por mal; procuradiative as coisas honestas perante todos os homens\"?",
+                "pergunta": "Onde está escrito: \"Não torneis a ninguém mal por mal; procurai as coisas honestas perante todos os homens\"?",
                 "alternativas": [
                     "1 Tessalonicenses 5:15",
                     "1 Pedro 3:9",
@@ -2030,7 +2030,7 @@
             },
             {
                 "id": 185,
-                "pergunta": "Onde está escrito: \"Porque a lei toda se cumpre numa só palavra, nesta: Amaráes o teu próximo como a ti mesmo\"?",
+                "pergunta": "Onde está escrito: \"Porque a lei toda se cumpre numa só palavra, nesta: Amarás o teu próximo como a ti mesmo\"?",
                 "alternativas": [
                     "Romanos 13:9",
                     "Levítico 19:18",
@@ -2085,7 +2085,7 @@
             },
             {
                 "id": 190,
-                "pergunta": "Onde está escrito: \"Mas revesi-vos do Senhor Jesus Cristo, e não tenhais cuidado da carne em suas concupiscências\"?",
+                "pergunta": "Onde está escrito: \"Mas revesti-vos do Senhor Jesus Cristo, e não tenhais cuidado da carne em suas concupiscências\"?",
                 "alternativas": [
                     "Gálatas 3:27",
                     "Romanos 13:14",
@@ -2294,7 +2294,7 @@
             },
             {
                 "id": 209,
-                "pergunta": "O que significa a promessa de Filipenses 4:13: \"Tudo posso nalgquele que me fortalece\"?",
+                "pergunta": "O que significa a promessa de Filipenses 4:13: \"Tudo posso naquele que me fortalece\"?",
                 "alternativas": [
                     "Que Cristo concede o vigor e a resiliência necessários para enfrentar qualquer situação ou adversidade com fidelidade.",
                     "Que o cristão ganha superpoderes físicos e mentais para realizar qualquer capricho pessoal.",
@@ -2305,7 +2305,7 @@
             },
             {
                 "id": 210,
-                "pergunta": "O que significa o convite de Mateus 11:28: \"Vinde a mim, todos os que estais cansados e oprimidos, e eu the aliviarei\"?",
+                "pergunta": "O que significa o convite de Mateus 11:28: \"Vinde a mim, todos os que estais cansados e oprimidos, e eu o aliviarei\"?",
                 "alternativas": [
                     "Que Jesus garante uma vida livre de cansaço físico, estresse profissional ou doenças.",
                     "Que os problemas sociais e econômicos do mundo serão imediatamente resolvidos por milagre.",
@@ -2351,7 +2351,7 @@
                 "id": 214,
                 "pergunta": "O que significa a descrição de 2 Coríntios 5:17: \"Assim que, se alguém está em Cristo, nova criatura é; as coisas velhas já passaram; eis que tudo se fez novo\"?",
                 "alternativas": [
-                    "Quiz dizer que a pessoa ganha um corpo físico inteiramente novo e rejuvenescido de forma instantânea.",
+                    "Quis dizer que a pessoa ganha um corpo físico inteiramente novo e rejuvenescido de forma instantânea.",
                     "Que o passado de erros deixa de existir na memória das outras pessoas da sociedade.",
                     "Que as obrigações e responsabilidades terrenas anteriores são totalmente canceladas.",
                     "Que a conversão a Cristo opera uma transformação espiritual radical, gerando uma nova identidade e nova vida."
@@ -2549,7 +2549,7 @@
                 "id": 232,
                 "pergunta": "O que significa o mandamento de Efésios 5:18: \"E não vos embriagueis com vinho, em que há contenda, mas enchei-vos do Espírito\"?",
                 "alternativas": [
-                    "Querer dizer que o consumo de qualquer tipo de alimento sólido é proibido para os santos.",
+                    "Quer dizer que o consumo de qualquer tipo de alimento sólido é proibido para os santos.",
                     "Que o entusiasmo emocional exagerado equivale à presença do Espírito de Deus.",
                     "Que o cristão deve evitar os excessos que corrompem o corpo e buscar a habitação e o controle do Espírito Santo.",
                     "Que a alegria verdadeira só pode ser alcançada por meio de substâncias entorpecentes."
@@ -2558,7 +2558,7 @@
             },
             {
                 "id": 233,
-                "pergunta": "O que significa a exortação de Salmos 37:4: \"Deleita-te no Senhor, e ele the concederá os desejos do teu coração\"?",
+                "pergunta": "O que significa a exortação de Salmos 37:4: \"Deleita-te no Senhor, e ele lhe concederá os desejos do teu coração\"?",
                 "alternativas": [
                     "Que Deus cumpre obrigatoriamente todos os caprichos materiais e egoístas do homem.",
                     "Que o prazer mundano deve ser cultivado para que o coração encontre a verdadeira paz.",
@@ -2580,7 +2580,7 @@
             },
             {
                 "id": 235,
-                "pergunta": "O que significa o princípio de Mateus 7:12: \"Portanto, tudo o que quereis que os homens vos façam, fazei-o voi também a eles, porque esta é a lei e os profetas\"?",
+                "pergunta": "O que significa o princípio de Mateus 7:12: \"Portanto, tudo o que quereis que os homens vos façam, fazei-o vóz também a eles, porque esta é a lei e os profetas\"?",
                 "alternativas": [
                     "Que a regra de ouro da ética cristã baseia-se em tratar os outros com a mesma justiça e amor que desejamos receber.",
                     "Que devemos retribuir com a mesma moeda todas as ofensas e maldades que nos fazem.",
@@ -2659,12 +2659,12 @@
                 "id": 242,
                 "pergunta": "O que significa a exortação de Romanos 12:12: \"Alegrai-vos na esperança, sede pacientes na tribulação, perseverai na oração\"?",
                 "alternativas": [
-                    "Que a vida cristã é isenta de qualquer tipo de dor, sofrimento ou necessidade de perseverança.",
+                    "Que a vida cristã exige alegria firme na promessa futura, perseverança nas dificuldades e constância na oração.",
                     "Que a oração deve ser feita apenas nos momentos de grande desespero e calamidade pública.",
-                    "Que o cristão deve manter a alegria na promessa eterna, suportar as dificuldades com paciência e manter a constância na oração.",
-                    "Que a paciência substitui a necessidade de buscar soluções práticas para os problemas cotidianos."
+                    "Que a esperança humana elimina completamente a necessidade de enfrentar problemas reais.",
+                    "Que o cristão deve ignorar as tribulações fingindo que elas não existem."
                 ],
-                "resposta": 2
+                "resposta": 0
             },
             {
                 "id": 243,
@@ -2712,7 +2712,7 @@
             },
             {
                 "id": 247,
-                "pergunta": "O que significa o mandamento de Efésios 4:29: \"Não saia da vostra boca nenhuma palavra torpe, mas só a que seja boa para edificação\"?",
+                "pergunta": "O que significa o mandamento de Efésios 4:29: \"Não saia da vossa boca nenhuma palavra torpe, mas só a que seja boa para edificação\"?",
                 "alternativas": [
                     "Que a comunicação do cristão deve ser pura e construtiva, evitando insultos e palavras degradantes.",
                     "Que é proibido contar piadas, sorrir ou utilizar qualquer forma de humor no dia a dia.",
@@ -2745,7 +2745,7 @@
             },
             {
                 "id": 250,
-                "pergunta": "O que significa o convite de Isaías 1:18: \"Vinde então, e argüici-nos, diz o Senhor: ainda que os vossos pecados sejam como a escarlata, eles se tornarão brancos como a neve\"?",
+                "pergunta": "O que significa o convite de Isaías 1:18: \"Vinde então, e argui=me, diz o Senhor: ainda que os vossos pecados sejam como a escarlata, eles se tornarão brancos como a neve\"?",
                 "alternativas": [
                     "Que o ser humano pode pecar à vontade, pois a limpeza espiritual acontece de forma automática.",
                     "Que a cor vermelha das roupas usadas no ritual religioso simboliza a pureza da alma.",
