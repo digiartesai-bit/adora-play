@@ -26,7 +26,7 @@
     <!-- Fonte Google: Poppins -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css?v=2.3.17">
+    <link rel="stylesheet" href="css/style.css?v=2.3.18">
     <link rel="stylesheet" href="css/biblia.css?v=1.0.5">
     <link rel="stylesheet" href="css/quiz-unificado.css?v=1.0.3">
 </head>
@@ -474,6 +474,7 @@
                     <button class="btn principal" id="quizEntrarRanking" type="button" hidden>Entrar com Google para
                         registrar meus pontos</button>
                     <button class="btn" id="quizSalvarRanking" type="button">Salvar preferência e pontuação</button>
+                    <button class="btn" id="quizNaoPublicarRanking" type="button" hidden>Manter minha pontuação privada</button>
                     <button class="btn" id="quizRetirarRanking" type="button" hidden>Retirar meus dados do
                         ranking</button>
                     <!-- O onclick agora esconde o resultado antes de chamar o mostrarQuiz -->
@@ -521,6 +522,15 @@
                     <h1>Desafio concluído</h1>
                     <div class="pontuacao" id="desafioPontuacao"></div>
                     <p id="desafioMensagemResultado"></p>
+                    <div class="desafio-consentimento-ranking" id="desafioConsentimentoRanking" hidden>
+                        <p>Autorize a exibição do seu nome, foto e pontuação deste desafio no ranking público. A autorização é opcional e pode ser retirada depois.</p>
+                        <label><input id="desafioPermitirRanking" type="checkbox"> Sou maior de 18 anos e autorizo a publicação dos meus dados neste desafio.</label>
+                        <div class="acoes">
+                            <button id="desafioSalvarRanking" class="btn principal" type="button" disabled>Autorizar publicação</button>
+                            <button id="desafioManterAnonimo" class="btn" type="button">Manter anônimo</button>
+                        </div>
+                    </div>
+                    <button id="desafioRetirarRanking" class="btn" type="button" hidden>Retirar autorização do ranking</button>
                     <div id="desafioCompartilharDesafio" class="compartilhar-resultado" hidden>
                         <p>Convide um amigo para superar sua pontuação!</p>
                         <div class="link-copia">
@@ -597,7 +607,7 @@
     <script src="js/player.js?v=1.0.13"></script>
     <script src="js/visualizer.js"></script>
     <script src="js/gamificacao.js?v=1.0.3"></script>
-    <script src="js/ranking.js?v=1.0.8"></script>
+    <script src="js/ranking.js?v=1.0.9"></script>
     <script src="js/recursos.js?v=1.0.19"></script>
     <script src="js/app.js?v=1.0.27"></script>
     <script src="js/ajuda.js"></script>
@@ -606,7 +616,7 @@
     <script src="js/versiculo-do-dia.js?v=1.0.5"></script>
     <script src="js/comparar-biblia.js?v=1.0.1"></script>
     <script src="js/biblia.js?v=1.0.18"></script>
-    <script src="js/quiz.js?v=1.0.5"></script>
+    <script src="js/quiz.js?v=1.0.6"></script>
     <script src="js/google-login.js?v=1.0.0"></script>
 </body>
 
