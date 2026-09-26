@@ -50,6 +50,19 @@
     font-weight: 600;
 }
 
+.quiz-view .quiz-progresso-linha {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px 16px;
+}
+
+.quiz-view #quizPontosSessao {
+    color: #e0bb5d;
+    font-size: 13px;
+}
+
 .quiz-view .cabecalho-jogo {
     display: flex;
     align-items: center;
