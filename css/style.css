@@ -2410,3 +2410,35 @@ button {
         font-size: 11px;
     }
 }
+
+@media (max-width: 680px) {
+    .quiz-ranking-section .section-header > div {
+        flex: 1 1 100%;
+        text-align: center;
+    }
+
+    .quiz-ranking-section .section-header h3 {
+        text-align: center;
+    }
+
+    .quiz-ranking-section .section-header {
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .quiz-ranking-section .section-header > small:last-child {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-left: auto;
+    }
+
+    .quiz-ranking-section .section-header > small:last-child .link-button {
+        margin: 0;
+        padding: 6px 0;
+        line-height: 1.2;
+        white-space: nowrap;
+    }
+}
