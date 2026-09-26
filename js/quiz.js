@@ -43,6 +43,7 @@ function embaralharQuiz(lista) {
 (function () {
     const $ = (id) => document.getElementById(id);
     const progresso = $('quizProgresso');
+    const pontosSessao = $('quizPontosSessao');
     const pergunta = $('quizPergunta');
     const alternativas = $('quizAlternativas');
     const feedback = $('quizFeedback');
@@ -100,6 +101,22 @@ function embaralharQuiz(lista) {
                 body: JSON.stringify({ google_id: usuario.google_id, ...sessao })
             });
             if (!resposta.ok) throw new Error(`HTTP ${resposta.status}`);
+            if (sessao.acertos > 0) {
+                const respostaPontos = await fetch(`${API_URL_QUIZ}/api/gamificacao/quiz-individual`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        google_id: usuario.google_id,
+                        referencia: `solo:${sessao.fila.join(',')}`,
+                        acertos: sessao.acertos
+                    })
+                });
+                if (!respostaPontos.ok) {
+                    console.warn('Nao foi possivel registrar os pontos do quiz individual.');
+                } else {
+                    await window.carregarRankingQuiz?.();
+                }
+            }
             return true;
         } catch (erro) {
             console.warn('Nao foi possivel salvar sua pontuacao agora:', erro.message);
@@ -136,6 +153,7 @@ function embaralharQuiz(lista) {
         feedback.hidden = true;
         feedback.textContent = '';
         progresso.textContent = `Nivel ${Math.floor(sessao.indice / 20) + 1} - Pergunta ${(sessao.indice % 20) + 1} de 20`;
+        if (pontosSessao) pontosSessao.textContent = `Pontos nesta sessao: ${sessao.acertos}`;
         pergunta.textContent = atual.pergunta;
         alternativas.innerHTML = '';
         atual.alternativas.forEach((texto, indice) => {
@@ -162,6 +180,7 @@ function embaralharQuiz(lista) {
         const correta = respostaSelecionada === atual.resposta;
         respondido = true;
         if (correta) sessao.acertos++;
+        if (pontosSessao) pontosSessao.textContent = `Pontos nesta sessao: ${sessao.acertos}`;
         alternativas.querySelectorAll('.alternativa').forEach((opcao, indice) => {
             opcao.classList.add('desabilitada'); opcao.querySelector('input').disabled = true;
             if (indice === atual.resposta) opcao.classList.add('correta');
