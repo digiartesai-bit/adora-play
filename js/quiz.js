@@ -57,6 +57,7 @@ function embaralharQuiz(lista) {
     const reiniciar = $('quizReiniciar');
     const criarDesafio = $('quizCriarDesafio');
     const salvarRanking = $('quizSalvarRanking');
+    const naoPublicarRanking = $('quizNaoPublicarRanking');
     const retirarRanking = $('quizRetirarRanking');
     const permitirRanking = $('quizPermitirRanking');
     const consentimentoRanking = $('quizConsentimentoRanking');
@@ -328,6 +329,7 @@ function mostrarResultado(completo) {
         salvarRanking.hidden = !logado || rankingPermitido || !permitirRanking.checked;
         salvarRanking.disabled = !podeSalvar;
         salvarRanking.textContent = 'Publicar no ranking';
+        if (naoPublicarRanking) naoPublicarRanking.hidden = !logado || rankingPermitido;
 
         // 3. Botão de retirar do ranking
         retirarRanking.hidden = !logado || !rankingSalvo;
@@ -375,10 +377,10 @@ function mostrarResultado(completo) {
             return mostrarToast('Nao foi possivel publicar no ranking agora.', 'erro');
         }
 
-        rankingPermitido = true;
-        rankingSalvo = true;
+        rankingPermitido = permitir;
+        rankingSalvo = permitir;
 
-        mostrarToast('Publicado no ranking com sucesso!', 'sucesso');
+        mostrarToast(permitir ? 'Publicado no ranking com sucesso!' : 'Preferência salva. Sua pontuação ficará privada.', 'sucesso');
         atualizarPainelRanking();
         await window.carregarRankingQuiz?.();
     }
@@ -484,6 +486,11 @@ function mostrarResultado(completo) {
     pausar.addEventListener('click', parar);
     criarDesafio.addEventListener('click', iniciarDesafio);
     salvarRanking.addEventListener('click', () => salvarNoRanking(false));
+    naoPublicarRanking?.addEventListener('click', async () => {
+        permitirRanking.checked = false;
+        await salvarNoRanking();
+        atualizarPainelRanking();
+    });
     retirarRanking.addEventListener('click', retirarDoRanking);
     entrarRanking?.addEventListener('click', () => document.getElementById('googleSignInButton')?.click());
     sairRanking?.addEventListener('click', retirarDoRanking);
@@ -575,6 +582,11 @@ function mostrarResultado(completo) {
     const mensagemResultado = $('desafioMensagemResultado');
     const mensagemAguardando = $('desafioMensagemAguardando');
     const fechar = $('fecharQuizDesafio');
+    const consentimentoRankingDesafio = $('desafioConsentimentoRanking');
+    const permitirRankingDesafio = $('desafioPermitirRanking');
+    const salvarRankingDesafio = $('desafioSalvarRanking');
+    const manterAnonimoDesafio = $('desafioManterAnonimo');
+    const retirarRankingDesafio = $('desafioRetirarRanking');
 
     if (!jogo) return;
 
@@ -588,6 +600,7 @@ function mostrarResultado(completo) {
     let timer = null;
     let aceitarDepoisDoLogin = false;
     let desafioAnulado = false;
+    let respondeuConsentimentoDesafio = false;
 
     function formatarTempo(valor) {
         return `00:${String(Math.max(0, valor)).padStart(2, '0')}`;
@@ -679,8 +692,46 @@ function mostrarResultado(completo) {
         }
     }
 
+    function consentimentoAtualDoDesafio() {
+        if (usuario?.google_id === desafio?.desafiante_id) return Boolean(desafio?.desafiante_consentiu);
+        if (usuario?.google_id === desafio?.desafiado_id) return Boolean(desafio?.desafiado_consentiu);
+        return false;
+    }
+
+    function atualizarConsentimentoDesafio() {
+        const participante = usuario?.google_id === desafio?.desafiante_id || usuario?.google_id === desafio?.desafiado_id;
+        const consentiu = consentimentoAtualDoDesafio();
+        const podeResponder = participante && Boolean(sessao?.finalizada);
+        if (consentimentoRankingDesafio) consentimentoRankingDesafio.hidden = !podeResponder || consentiu || respondeuConsentimentoDesafio;
+        if (retirarRankingDesafio) retirarRankingDesafio.hidden = !podeResponder || !consentiu;
+        if (permitirRankingDesafio) permitirRankingDesafio.checked = false;
+        if (salvarRankingDesafio) salvarRankingDesafio.disabled = true;
+    }
+
+    async function salvarConsentimentoDesafio(permitir) {
+        if (!desafioId || !usuario?.google_id) return;
+        try {
+            const resposta = await fetch(`${API_URL_QUIZ}/api/quiz/desafios/${encodeURIComponent(desafioId)}/consentimento`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ google_id: usuario.google_id, permitir })
+            });
+            const dados = await resposta.json().catch(() => null);
+            if (!resposta.ok) throw new Error(dados?.error || `HTTP ${resposta.status}`);
+            if (usuario.google_id === desafio.desafiante_id) desafio.desafiante_consentiu = permitir ? 1 : 0;
+            if (usuario.google_id === desafio.desafiado_id) desafio.desafiado_consentiu = permitir ? 1 : 0;
+            respondeuConsentimentoDesafio = true;
+            atualizarConsentimentoDesafio();
+            window.mostrarToast?.(permitir ? 'Autorização salva. Seu nome e pontuação poderão aparecer neste desafio.' : 'Desafio mantido anônimo no ranking.', 'sucesso');
+            await window.carregarRankingQuiz?.();
+        } catch (erro) {
+            window.mostrarToast?.(erro.message || 'Não foi possível salvar sua autorização.', 'erro');
+        }
+    }
+
     async function mostrarResultado() {
         limparCronometro();
+        respondeuConsentimentoDesafio = false;
         jogo.hidden = true;
         resultado.hidden = false;
         pontuacao.textContent = `${sessao.acertos} acertos`;
@@ -698,12 +749,16 @@ function mostrarResultado(completo) {
             console.warn('Nao foi possivel atualizar o status do desafio:', erro.message);
         }
 
+        atualizarConsentimentoDesafio();
+
         const souDesafiante = usuario?.google_id === desafio.desafiante_id;
 
         if (desafio.status === 'finalizado' || desafio.status === 'concluido') {
             const nomeDesafiante = desafio.desafiante_nome || 'Desafiante';
             const nomeDesafiado = desafio.desafiado_nome || 'Desafiado';
             mensagemResultado.textContent = `Resultado final: ${nomeDesafiante} ${desafio.desafiante_pontuacao ?? 0} x ${desafio.desafiado_pontuacao ?? 0} ${nomeDesafiado}`;
+        } else if (desafio.status === 'aceito') {
+            mensagemResultado.textContent = 'Sua pontuação foi salva. Aguarde o outro participante concluir o desafio.';
         } else if (souDesafiante) {
             mensagemResultado.textContent = 'Sua pontuacao foi registrada! Agora compartilhe o desafio com um amigo.';
             exibirCompartilhamento();
@@ -712,9 +767,6 @@ function mostrarResultado(completo) {
         }
 
         await window.carregarRankingQuiz?.();
-        if (desafio.status === 'finalizado' || desafio.status === 'concluido') {
-            window.setTimeout(() => window.mostrarHome?.(), 1200);
-        }
     }
 
     async function avancar() {
@@ -892,7 +944,8 @@ function mostrarResultado(completo) {
                 sessao = {
                     fila: desafio.perguntas_ids,
                     indice: Math.min(Number(progressoSalvo.indice) || 0, desafio.perguntas_ids.length),
-                    acertos: Number(progressoSalvo.acertos) || 0
+                    acertos: Number(progressoSalvo.acertos) || 0,
+                    finalizada: Boolean(progressoSalvo.finalizada)
                 };
                 if (progressoSalvo.finalizada || sessao.indice >= desafio.perguntas_ids.length) return mostrarResultado();
                 jogo.hidden = false;
@@ -907,6 +960,12 @@ function mostrarResultado(completo) {
     }
 
     aceitar.addEventListener('click', aceitarDesafioAtual);
+    permitirRankingDesafio?.addEventListener('change', () => {
+        if (salvarRankingDesafio) salvarRankingDesafio.disabled = !permitirRankingDesafio.checked;
+    });
+    salvarRankingDesafio?.addEventListener('click', () => salvarConsentimentoDesafio(true));
+    manterAnonimoDesafio?.addEventListener('click', () => salvarConsentimentoDesafio(false));
+    retirarRankingDesafio?.addEventListener('click', () => salvarConsentimentoDesafio(false));
     confirmar.addEventListener('click', confirmarResposta);
     proxima.addEventListener('click', avancar);
     fechar?.addEventListener('click', async () => {
