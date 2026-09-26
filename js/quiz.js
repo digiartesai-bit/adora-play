@@ -895,6 +895,10 @@ function mostrarResultado(completo) {
             document.getElementById('googleSignInButton')?.click();
             return;
         }
+        if (usuario.google_id === desafio?.desafiante_id) {
+            mostrarToast('Você não pode aceitar o próprio desafio.', 'erro');
+            return;
+        }
         const resposta = await fetch(`${API_URL_QUIZ}/api/quiz/desafios/${encodeURIComponent(desafioId)}/aceitar`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
@@ -928,6 +932,13 @@ function mostrarResultado(completo) {
         desafio.perguntas = await carregarPerguntas();
         const souDesafiante = usuario?.google_id === desafio.desafiante_id;
         const souDesafiado = usuario?.google_id === desafio.desafiado_id;
+        aceitar.hidden = true;
+        cancelar.hidden = true;
+        if (['cancelado', 'finalizado', 'concluido'].includes(desafio.status)) {
+            aguardando.hidden = false;
+            mensagemAguardando.textContent = 'Este desafio já foi aceito ou cancelado.';
+            return;
+        }
         if (souDesafiante || souDesafiado) {
             const podeCancelar = souDesafiante && desafio.status === 'pendente';
             const podeDesistir = souDesafiado && desafio.status === 'aceito';
@@ -955,8 +966,15 @@ function mostrarResultado(completo) {
             return iniciarSessaoDesafio();
         }
         aguardando.hidden = false;
-        mensagemAguardando.textContent = usuario?.google_id ? 'Aceite o desafio para iniciar suas 15 perguntas.' : 'Entre com Google para aceitar este desafio.';
+        if (desafio.status !== 'pendente' || desafio.desafiado_id) {
+            mensagemAguardando.textContent = 'Este desafio já foi aceito ou cancelado.';
+            return;
+        }
+        mensagemAguardando.textContent = usuario?.google_id
+            ? 'Aceite o desafio para iniciar suas 15 perguntas.'
+            : 'Entre com Google para aceitar este desafio.';
         aceitar.textContent = usuario?.google_id ? 'Aceitar desafio' : 'Entrar e aceitar desafio';
+        aceitar.hidden = false;
     }
 
     aceitar.addEventListener('click', aceitarDesafioAtual);
