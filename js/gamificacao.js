@@ -99,6 +99,23 @@
         return `${String(minutos).padStart(2, '0')}:${String(restantes).padStart(2, '0')}`;
     }
 
+    function converterTempoEstimadoParaSegundos(valor) {
+        const tempo = String(valor ?? '').trim().replace(',', '.');
+        const formatoMinutosSegundos = tempo.match(/^(\d+):(\d{1,2})$/);
+        if (formatoMinutosSegundos) {
+            const minutos = Number(formatoMinutosSegundos[1]) || 0;
+            const segundos = Math.min(59, Number(formatoMinutosSegundos[2]) || 0);
+            return Math.max(1, minutos * 60 + segundos);
+        }
+
+        const [minutosTexto, fracao = ''] = tempo.split('.');
+        const minutos = Number.parseInt(minutosTexto, 10) || 0;
+        // Na notação decimal acordada, 3.5 significa 3 minutos e 50 segundos;
+        // 3.05 significa 3 minutos e 5 segundos.
+        const segundos = fracao ? Number((fracao + '00').slice(0, 2)) || 0 : 0;
+        return Math.max(1, minutos * 60 + segundos);
+    }
+
     function pararTimerMissao() {
         window.clearInterval(timerMissao);
         timerMissao = null;
@@ -113,7 +130,7 @@
     window.iniciarTimerMissaoBiblia = function iniciarTimerMissaoBiblia({ idMissao, minutos, titulo } = {}) {
         if (!idMissao || missaoTimerAtual?.idMissao === idMissao) return;
         pararTimerMissao();
-        missaoTimerAtual = { idMissao, segundos: Math.max(1, Number(minutos) || 1) * 60 };
+        missaoTimerAtual = { idMissao, segundos: converterTempoEstimadoParaSegundos(minutos) };
         timerTitulo.textContent = titulo || 'Missão de leitura';
         timerTempo.textContent = formatarTempoMissao(missaoTimerAtual.segundos);
         timerBotao.disabled = true;
