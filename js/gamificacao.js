@@ -200,7 +200,6 @@
         const doDia = missoes.filter((missao) => Number(missao.dia) === diaAtual);
         const atrasadas = missoes.filter((missao) => Number(missao.dia) < diaAtual && !missao.concluida);
         const exibidas = mostrarAtrasadas ? atrasadas : doDia;
-        const bonusDia = Number(exibidas[0]?.recompensa_bonus) || 0;
         const botaoAtrasadas = atrasadas.length
             ? `<button type="button" class="btn-acao-desafio" id="alternarMissoesAtrasadas">${mostrarAtrasadas ? 'Voltar para hoje' : `Missões atrasadas (${atrasadas.length})`}</button>`
             : '';
@@ -208,7 +207,7 @@
                 <article class="missao-gamificacao ${item.concluida ? 'is-concluida' : ''}">
                     <div>
                         <strong>${escapar(item.titulo)}</strong>
-                        <small>${Number(item.versiculos_estimados) || 0} versículos · ${Number(item.versiculos_estimados) || 0} pontos</small>
+                        <small>${Number(item.versiculos_estimados) || 0} versículos · ${Number(item.recompensa_bonus) || 0} pontos ao concluir</small>
                     </div>
                     <div class="missao-acoes">
                         ${item.concluida
@@ -216,7 +215,7 @@
                             : `<button type="button" class="link-button" onclick="window.abrirMissaoGamificacao('${escapar(item.livro)}', ${item.capitulo}, '${escapar(item.id_missao)}', ${Number(item.tempo_estimado_minutos) || 1}, '${escapar(item.titulo)}', false, ${Number(item.dia)})">Ler</button>`}
                     </div>
                 </article>`).join('');
-        const resumoDia = `${exibidas.filter((item) => item.concluida).length}/${exibidas.length} concluídas${bonusDia ? ` · bônus de ${bonusDia} pontos ao concluir todas` : ''}`;
+        const resumoDia = `${exibidas.filter((item) => item.concluida).length}/${exibidas.length} concluídas`;
         lista.innerHTML = `${botaoAtrasadas}<section class="dia-gamificacao"><div class="dia-gamificacao-header"><h3>${mostrarAtrasadas ? 'Missões atrasadas' : `Missões do dia ${diaAtual}`}</h3><small>${resumoDia}</small></div>${cards || `<p class="empty-state">${mostrarAtrasadas ? 'Nenhuma missão atrasada.' : 'Nenhuma missão prevista para hoje.'}</p>`}</section>`;
         document.getElementById('alternarMissoesAtrasadas')?.addEventListener('click', () => {
             mostrarAtrasadas = !mostrarAtrasadas;
