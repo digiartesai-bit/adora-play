@@ -1,5 +1,6 @@
 // Quiz Biblico e Desafio - integrados como secoes da SPA (sem paginas separadas)
 const API_URL_QUIZ = 'https://adoraplay-api.digiartesai.workers.dev';
+const QUIZ_CATALOGO_URL = 'biblias/quiz/quiz.json?v=260';
 
 const quizSection = document.getElementById('quizSection');
 const quizDesafioSection = document.getElementById('quizDesafioSection');
@@ -77,11 +78,21 @@ function embaralharQuiz(lista) {
     let iniciado = false;
 
     function sessaoInicial(ids = embaralharQuiz(perguntas.map((item) => item.id)), desafioId = null) {
-        return { fila: ids, indice: 0, acertos: 0, desafio_id: desafioId, finalizada: false };
+        return {
+            fila: ids,
+            indice: 0,
+            acertos: 0,
+            desafio_id: desafioId,
+            finalizada: false,
+            erros_pendentes: [],
+            fila_revisao: [],
+            indice_revisao: 0,
+            modo_revisao: false
+        };
     }
 
-    // Grava a pontuacao no banco apenas quando o quiz e finalizado/pausado, nunca a cada pergunta.
-    async function salvarSessaoFinal() {
+    // O estado e salvo a cada resposta para preservar erros e revisoes entre aparelhos.
+    async function salvarSessaoFinal({ atualizarRanking = true, registrarPontos = true } = {}) {
 
             async function registrarVitoriaQuizSolo() {
                 if (!usuario?.google_id || !sessao?.finalizada) return;
@@ -99,10 +110,19 @@ function embaralharQuiz(lista) {
         try {
             const resposta = await fetch(`${API_URL_QUIZ}/api/quiz/sessao`, {
                 method: 'PUT', headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ google_id: usuario.google_id, ...sessao })
+                body: JSON.stringify({
+                    google_id: usuario.google_id,
+                    ...sessao,
+                    estado: {
+                        erros_pendentes: sessao.erros_pendentes || [],
+                        fila_revisao: sessao.fila_revisao || [],
+                        indice_revisao: sessao.indice_revisao || 0,
+                        modo_revisao: Boolean(sessao.modo_revisao)
+                    }
+                })
             });
             if (!resposta.ok) throw new Error(`HTTP ${resposta.status}`);
-            if (sessao.acertos > 0) {
+            if (registrarPontos && sessao.acertos > 0) {
                 const respostaPontos = await fetch(`${API_URL_QUIZ}/api/gamificacao/quiz-individual`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
@@ -114,7 +134,7 @@ function embaralharQuiz(lista) {
                 });
                 if (!respostaPontos.ok) {
                     console.warn('Nao foi possivel registrar os pontos do quiz individual.');
-                } else {
+                } else if (atualizarRanking) {
                     await window.carregarRankingQuiz?.();
                 }
             }
@@ -137,7 +157,32 @@ function embaralharQuiz(lista) {
     }
 
     function obterPerguntaAtual() {
-        return perguntas.find((item) => String(item.id) === String(sessao.fila[sessao.indice]));
+        const id = sessao.modo_revisao
+            ? sessao.fila_revisao[sessao.indice_revisao]
+            : sessao.fila[sessao.indice];
+        return perguntas.find((item) => String(item.id) === String(id));
+    }
+
+    function avancarPerguntaAtual() {
+        if (sessao.modo_revisao) {
+            sessao.indice_revisao++;
+            if (sessao.indice_revisao >= sessao.fila_revisao.length) {
+                sessao.modo_revisao = false;
+                sessao.fila_revisao = [];
+                sessao.indice_revisao = 0;
+            }
+        } else {
+            sessao.indice++;
+        }
+
+        const checkpointDeNivel = sessao.acertos > 0 && sessao.acertos % 20 === 0;
+        const terminouPerguntasNovas = sessao.indice >= sessao.fila.length;
+        if (!sessao.modo_revisao && sessao.erros_pendentes.length && (checkpointDeNivel || terminouPerguntasNovas)) {
+            sessao.fila_revisao = [...new Set(sessao.erros_pendentes)];
+            sessao.erros_pendentes = [];
+            sessao.indice_revisao = 0;
+            sessao.modo_revisao = sessao.fila_revisao.length > 0;
+        }
     }
 
     function atualizarBotoes() {
@@ -153,7 +198,11 @@ function embaralharQuiz(lista) {
         respostaSelecionada = null;
         feedback.hidden = true;
         feedback.textContent = '';
-        progresso.textContent = `Nivel ${Math.floor(sessao.indice / 20) + 1} - Pergunta ${(sessao.indice % 20) + 1} de 20`;
+        const nivel = Math.min(13, Math.floor(sessao.acertos / 20) + 1);
+        const acertosNoNivel = Math.min(20, Math.max(0, sessao.acertos - ((nivel - 1) * 20)));
+        progresso.textContent = sessao.modo_revisao
+            ? `Nível ${nivel} · ${acertosNoNivel}/20 acertos · Revisão ${sessao.indice_revisao + 1} de ${sessao.fila_revisao.length}`
+            : `Nível ${nivel} · ${acertosNoNivel}/20 acertos · Pergunta ${sessao.indice + 1} de ${sessao.fila.length}`;
         if (pontosSessao) pontosSessao.textContent = `Pontos nesta sessao: ${sessao.acertos}`;
         pergunta.textContent = atual.pergunta;
         alternativas.innerHTML = '';
@@ -175,12 +224,14 @@ function embaralharQuiz(lista) {
         atualizarBotoes();
     }
 
-    function confirmarResposta() {
+    async function confirmarResposta() {
         if (respondido || respostaSelecionada === null) return;
         const atual = obterPerguntaAtual();
+        const eraRevisao = sessao.modo_revisao;
         const correta = respostaSelecionada === atual.resposta;
         respondido = true;
         if (correta) sessao.acertos++;
+        else if (!eraRevisao) sessao.erros_pendentes.push(atual.id);
         if (pontosSessao) pontosSessao.textContent = `Pontos nesta sessao: ${sessao.acertos}`;
         alternativas.querySelectorAll('.alternativa').forEach((opcao, indice) => {
             opcao.classList.add('desabilitada'); opcao.querySelector('input').disabled = true;
@@ -189,17 +240,15 @@ function embaralharQuiz(lista) {
         });
         feedback.hidden = false;
         feedback.textContent = correta ? 'Resposta correta! Muito bem.' : `Resposta incorreta. A alternativa correta e: ${atual.alternativas[atual.resposta]}`;
-        sessao.indice++;
+        avancarPerguntaAtual();
+        confirmar.disabled = true;
+        proxima.hidden = true;
+        await salvarSessaoFinal({ atualizarRanking: false, registrarPontos: false });
         atualizarBotoes();
     }
 
     function continuar() {
-        if (sessao.indice >= sessao.fila.length) return mostrarResultado(true);
-        if (sessao.indice % 20 === 0) {
-            const nivel = sessao.indice / 20;
-            const deseja = window.confirm(`Voce concluiu o nivel ${nivel}. Deseja continuar no nivel ${nivel + 1}?`);
-            if (!deseja) return parar();
-        }
+        if (!obterPerguntaAtual()) return mostrarResultado(true);
         renderizarPergunta();
     }
 
@@ -226,11 +275,11 @@ function embaralharQuiz(lista) {
     // Mensagem informativa
     mensagemResultado.textContent = completo 
         ? 'Parabéns! Você concluiu todas as perguntas.' 
-        : `Você parou no nível ${Math.floor(sessao.indice / 20) + 1}.`;
+        : `Você pausou no nível ${Math.min(13, Math.floor(sessao.acertos / 20) + 1)}. Seu progresso foi salvo.`;
 
     // Se estiver completo, garante que o estado no servidor reflita isso
-    if (completo && !sessao.finalizada) { 
-        sessao.finalizada = true; 
+    if (completo) {
+        sessao.finalizada = true;
         salvarSessaoFinal(); 
         registrarVitoriaQuizSolo();
     }
@@ -379,6 +428,7 @@ function mostrarResultado(completo) {
 
         rankingPermitido = permitir;
         rankingSalvo = permitir;
+        window.dispatchEvent(new CustomEvent('adoraplay:ranking-permissao', { detail: { permitido: permitir } }));
 
         mostrarToast(permitir ? 'Publicado no ranking com sucesso!' : 'Preferência salva. Sua pontuação ficará privada.', 'sucesso');
         atualizarPainelRanking();
@@ -399,6 +449,7 @@ function mostrarResultado(completo) {
 
         rankingPermitido = false;
         rankingSalvo = false;
+        window.dispatchEvent(new CustomEvent('adoraplay:ranking-permissao', { detail: { permitido: false } }));
         atualizarPainelRanking();
         await window.carregarRankingQuiz?.();
     }
@@ -433,7 +484,7 @@ function mostrarResultado(completo) {
         if (iniciado) return;
         iniciado = true;
         try {
-            const resposta = await fetch('biblias/quiz/quiz.json');
+            const resposta = await fetch(QUIZ_CATALOGO_URL, { cache: 'no-store' });
             if (!resposta.ok) throw new Error(`HTTP ${resposta.status} ao carregar as perguntas do quiz.`);
             const dados = await resposta.json(); perguntas = dados.quiz?.perguntas || [];
             if (!perguntas.length) throw new Error('Nenhuma pergunta encontrada.');
@@ -452,18 +503,28 @@ function mostrarResultado(completo) {
                                 sessao = {
                                     fila: filaValida,
                                     indice: Math.min(Number(saved.indice) || 0, filaValida.length),
-                                    acertos: saved.acertos || 0,
+                                    acertos: Number(saved.acertos) || 0,
                                     desafio_id: saved.desafio_id || null,
-                                    finalizada: Boolean(saved.finalizada)
+                                    finalizada: Boolean(saved.finalizada),
+                                    erros_pendentes: Array.isArray(saved.estado?.erros_pendentes)
+                                        ? saved.estado.erros_pendentes.filter(id => filaValida.some(perguntaId => String(perguntaId) === String(id)))
+                                        : [],
+                                    fila_revisao: Array.isArray(saved.estado?.fila_revisao)
+                                        ? saved.estado.fila_revisao.filter(id => filaValida.some(perguntaId => String(perguntaId) === String(id)))
+                                        : [],
+                                    indice_revisao: Math.max(0, Number(saved.estado?.indice_revisao) || 0),
+                                    modo_revisao: Boolean(saved.estado?.modo_revisao)
                                 };
 
                                 // CORREÇÃO: Não forçamos o mostrarResultado aqui.
                                 // Se estiver finalizada, deixamos o fluxo seguir para a tela de opções (mostrarResultado).
                                 // Se não estiver, renderizamos a pergunta onde parou.
-                                if (sessao.finalizada || sessao.indice >= sessao.fila.length) {
+                                const revisaoPendente = sessao.modo_revisao && sessao.indice_revisao < sessao.fila_revisao.length;
+                                if (sessao.finalizada || (sessao.indice >= sessao.fila.length && !revisaoPendente)) {
                                     return mostrarResultado(true);
                                 }
 
+                                if (sessao.acertos > 0) await salvarSessaoFinal();
                                 renderizarPergunta();
                                 return;
                             }
@@ -510,18 +571,12 @@ function mostrarResultado(completo) {
     reiniciar.addEventListener('click', async () => {
     if (!window.confirm('O jogo sera reiniciado e sua pontuacao ficara zerada. Deseja continuar?')) return;
 
-    // 1. Apaga ranking se houver
-    await apagarRanking();
-
-    // 2. Cria uma nova sessão (nova fila e índices zerados)
-    // Usamos sessao.desafio_id para manter o contexto caso fosse um desafio (embora no solo seja null)
+    // Reinicia apenas a sessão atual; não revoga a autorização compartilhada do ranking.
     sessao = sessaoInicial(undefined, sessao.desafio_id); 
 
-    // 3. SALVA O ESTADO ZERADO NO SERVIDOR imediatamente
-    // Isso é crucial para que, ao fechar e abrir, não volte o progresso antigo
+    // Salva a nova fila imediatamente para que ela seja a retomada deste aparelho/conta.
     await salvarSessaoFinal();
 
-    // 4. Atualiza a interface
     resultadoCard.hidden = true; 
     quizCard.hidden = false; 
     renderizarPergunta();
@@ -540,10 +595,17 @@ function mostrarResultado(completo) {
         rankingSalvo = false;
         atualizarPainelRanking();
     });
+    window.addEventListener('adoraplay:ranking-permissao', (evento) => {
+        rankingPermitido = Boolean(evento.detail?.permitido);
+        rankingSalvo = rankingPermitido;
+        permitirRanking.checked = rankingPermitido;
+        atualizarPainelRanking();
+    });
 
     window.mostrarQuiz = function mostrarQuiz() {
         window.navegarPorRota?.('/quiz');
         document.getElementById('gamificacaoSection')?.style.setProperty('display', 'none');
+        document.getElementById('jogosSection')?.style.setProperty('display', 'none');
         if (homeSection) homeSection.style.display = 'none';
         if (bibliotecaSection) bibliotecaSection.style.display = 'none';
         if (bibliaSection) bibliaSection.style.display = 'none';
@@ -917,7 +979,7 @@ function mostrarResultado(completo) {
     }
 
     async function carregarPerguntas() {
-        const resposta = await fetch('biblias/quiz/quiz.json');
+        const resposta = await fetch(QUIZ_CATALOGO_URL, { cache: 'no-store' });
         if (!resposta.ok) throw new Error(`HTTP ${resposta.status} ao carregar as perguntas do desafio.`);
         const dados = await resposta.json();
         const porId = new Map((dados.quiz?.perguntas || []).map((item) => [String(item.id), item]));
@@ -1029,6 +1091,7 @@ function mostrarResultado(completo) {
     window.mostrarQuizDesafio = function mostrarQuizDesafio(id) {
         if (id) window.navegarPorRota?.(`/desafio/${encodeURIComponent(id)}`);
         document.getElementById('gamificacaoSection')?.style.setProperty('display', 'none');
+        document.getElementById('jogosSection')?.style.setProperty('display', 'none');
         if (homeSection) homeSection.style.display = 'none';
         if (bibliotecaSection) bibliotecaSection.style.display = 'none';
         if (bibliaSection) bibliaSection.style.display = 'none';
