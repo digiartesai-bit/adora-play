@@ -26,7 +26,7 @@
     <!-- Fonte Google: Poppins -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css?v=2.3.19">
+    <link rel="stylesheet" href="css/style.css?v=2.3.20">
     <link rel="stylesheet" href="css/biblia.css?v=1.0.5">
     <link rel="stylesheet" href="css/quiz-unificado.css?v=1.0.3">
 </head>
@@ -80,10 +80,10 @@
                             <span aria-hidden="true">B</span>
                             <span class="bible-label">Bíblia</span>
                         </button>
-                        <button class="btn-library" id="btnGamificacao" onclick="mostrarGamificacao()"
-                            aria-label="Abrir missões e pontuação" title="Missões e pontuação">
+                        <button class="btn-library" id="btnJogos" onclick="mostrarJogos()"
+                            aria-label="Abrir jogos" title="Jogos">
                             <span aria-hidden="true">XP</span>
-                            <span class="library-label">Missões</span>
+                            <span class="library-label">Jogos</span>
                         </button>
                     </div>
                 </div>
@@ -163,7 +163,6 @@
                             <small>Participação autorizada pelos jogadores</small>
                         </div>
                         <small>
-                            <button class="link-button" type="button" onclick="mostrarQuiz()">Jogar</button>
                             <button class="link-button" id="quizSairRanking" type="button" hidden>Sair do
                                 Ranking</button></small>
                     </div>
@@ -205,6 +204,26 @@
                 </section>
             </section>
 
+            <section class="section-gamificacao jogos-section" id="jogosSection" style="display:none;">
+                <div class="library-header">
+                    <div>
+                        <h2>Jogos</h2>
+                        <p>Escolha uma atividade.</p>
+                    </div>
+                    <button class="link-button" type="button" onclick="mostrarHome()">Voltar</button>
+                </div>
+                <div class="jogos-opcoes">
+                    <button class="jogo-opcao" type="button" onclick="mostrarGamificacao()">
+                        <strong>XP Missões</strong>
+                        <small>Leia a Bíblia, conclua missões e acumule pontos.</small>
+                    </button>
+                    <button class="jogo-opcao" type="button" onclick="mostrarQuiz()">
+                        <strong>Quiz bíblico</strong>
+                        <small>Responda às perguntas e acompanhe seu progresso.</small>
+                    </button>
+                </div>
+            </section>
+
             <section class="section-gamificacao" id="gamificacaoSection" style="display:none;">
                 <div class="library-header">
                     <div>
@@ -220,6 +239,20 @@
                     <article><strong id="gamificacaoMissoesConcluidas">0</strong><small>Missões concluídas</small></article>
                     <article><strong id="gamificacaoDiasConcluidos">0</strong><small>Dias completos</small></article>
                 </div>
+                <section class="gamificacao-ranking-consentimento" id="gamificacaoRankingConsentimento" hidden>
+                    <div>
+                        <strong>Ranking geral</strong>
+                        <p id="gamificacaoRankingMensagem">Autorize a exibição dos seus pontos de missões e quiz no ranking.</p>
+                    </div>
+                    <div id="gamificacaoRankingPermitirArea">
+                        <label for="gamificacaoPermitirRanking">
+                            <input id="gamificacaoPermitirRanking" type="checkbox">
+                            Sou maior de 18 anos e autorizo a exibição pública do meu nome, foto e pontuação de missões e quiz.
+                        </label>
+                        <button class="btn principal" id="gamificacaoSalvarRanking" type="button" disabled>Autorizar exibição no ranking</button>
+                    </div>
+                    <button class="link-button" id="gamificacaoRetirarRanking" type="button" hidden>Retirar do ranking</button>
+                </section>
                 <div class="gamificacao-nivel-progresso">
                     <div class="gamificacao-nivel-legenda">
                         <strong id="gamificacaoNivelTexto">Nível 0</strong>
@@ -606,17 +639,17 @@
     <script src="https://accounts.google.com/gsi/client" async></script>
     <script src="js/player.js?v=1.0.13"></script>
     <script src="js/visualizer.js"></script>
-    <script src="js/gamificacao.js?v=1.0.5"></script>
-    <script src="js/ranking.js?v=1.0.9"></script>
+    <script src="js/gamificacao.js?v=1.0.6"></script>
+    <script src="js/ranking.js?v=1.0.10"></script>
     <script src="js/recursos.js?v=1.0.19"></script>
-    <script src="js/app.js?v=1.0.27"></script>
+    <script src="js/app.js?v=1.0.29"></script>
     <script src="js/ajuda.js"></script>
     <script src="js/pesquisa.js?v=1.0.2"></script>
     <script src="js/compartilhamento-biblia.js?v=1.0.1"></script>
     <script src="js/versiculo-do-dia.js?v=1.0.5"></script>
     <script src="js/comparar-biblia.js?v=1.0.1"></script>
     <script src="js/biblia.js?v=1.0.19"></script>
-    <script src="js/quiz.js?v=1.0.8"></script>
+    <script src="js/quiz.js?v=1.0.9"></script>
     <script src="js/google-login.js?v=1.0.0"></script>
 </body>
 
