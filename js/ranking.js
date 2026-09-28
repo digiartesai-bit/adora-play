@@ -339,6 +339,7 @@ window.mostrarDesafios = function mostrarDesafios(tipo = 'abertos') {
     const tipoValido = ['abertos', 'finalizados', 'individuais'].includes(tipo) ? tipo : 'abertos';
     window.navegarPorRota?.(`/desafios/${tipoValido}`);
     document.getElementById('gamificacaoSection')?.style.setProperty('display', 'none');
+    document.getElementById('jogosSection')?.style.setProperty('display', 'none');
     if (typeof homeSection !== 'undefined' && homeSection) homeSection.style.display = 'none';
     if (typeof bibliotecaSection !== 'undefined' && bibliotecaSection) bibliotecaSection.style.display = 'none';
     if (typeof bibliaSection !== 'undefined' && bibliaSection) bibliaSection.style.display = 'none';
