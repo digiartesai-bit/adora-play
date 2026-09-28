@@ -11,10 +11,17 @@
     const missoesConcluidas = document.getElementById('gamificacaoMissoesConcluidas');
     const diasConcluidos = document.getElementById('gamificacaoDiasConcluidos');
     const mensagem = document.getElementById('gamificacaoMensagem');
+    const rankingConsentimento = document.getElementById('gamificacaoRankingConsentimento');
+    const rankingMensagem = document.getElementById('gamificacaoRankingMensagem');
+    const rankingPermitirArea = document.getElementById('gamificacaoRankingPermitirArea');
+    const rankingCheckbox = document.getElementById('gamificacaoPermitirRanking');
+    const rankingSalvar = document.getElementById('gamificacaoSalvarRanking');
+    const rankingRetirar = document.getElementById('gamificacaoRetirarRanking');
 
     if (!section || !lista) return;
 
     let painelAtual = null;
+    let rankingPermitido = false;
     let timerMissao = null;
     let missaoTimerAtual = null;
     const timerElement = document.getElementById('missaoLeituraTimer');
@@ -23,6 +30,20 @@
     const timerBotao = document.getElementById('finalizarLeituraMissao');
     const leitorMissao = document.getElementById('leituraMissaoGamificacao');
     let mostrarAtrasadas = false;
+
+    function renderizarConsentimentoRanking() {
+        const usuario = usuarioAtual();
+        if (!rankingConsentimento) return;
+        rankingConsentimento.hidden = !usuario?.google_id;
+        if (!usuario?.google_id) return;
+        rankingMensagem.textContent = rankingPermitido
+            ? 'Sua autorização vale para os pontos de missões e quiz no ranking geral.'
+            : 'Autorize a exibição do seu nome, foto e pontuação de missões e quiz no ranking geral.';
+        rankingPermitirArea.hidden = rankingPermitido;
+        rankingRetirar.hidden = !rankingPermitido;
+        rankingCheckbox.checked = false;
+        rankingSalvar.disabled = true;
+    }
 
     function dataLocalISO(data = new Date()) {
         const partes = new Intl.DateTimeFormat('en-CA', {
@@ -227,6 +248,8 @@
         const usuario = usuarioAtual();
         if (!usuario?.google_id) {
             painelAtual = null;
+            rankingPermitido = false;
+            renderizarConsentimentoRanking();
             renderizarPainel();
             return;
         }
@@ -237,6 +260,8 @@
                 throw new Error(erroApi?.error || `HTTP ${resposta.status}`);
             }
             painelAtual = await resposta.json();
+            rankingPermitido = Boolean(await window.carregarPreferenciaRankingQuiz?.(usuario.google_id));
+            window.dispatchEvent(new CustomEvent('adoraplay:ranking-permissao', { detail: { permitido: rankingPermitido } }));
             const inicioLocal = inicioPlanoLocal();
             if (inicioLocal) {
                 try {
@@ -248,6 +273,7 @@
             const chave = chaveInicioPlano();
             if (painelAtual.inicio_plano && chave) localStorage.setItem(chave, painelAtual.inicio_plano);
             renderizarPainel();
+            renderizarConsentimentoRanking();
         } catch (erro) {
             mensagem.textContent = erro.message || 'Não foi possível carregar suas missões.';
             lista.innerHTML = '<p class="empty-state">A configuração das missões ainda não está disponível.</p>';
@@ -260,12 +286,55 @@
         if (typeof bibliotecaSection !== 'undefined' && bibliotecaSection) bibliotecaSection.style.display = 'none';
         if (typeof bibliaSection !== 'undefined' && bibliaSection) bibliaSection.style.display = 'none';
         if (window.quizSection) window.quizSection.style.display = 'none';
+        document.getElementById('jogosSection')?.style.setProperty('display', 'none');
         if (window.quizDesafioSection) window.quizDesafioSection.style.display = 'none';
         if (window.desafiosSection) window.desafiosSection.style.display = 'none';
         section.style.display = 'grid';
         if (typeof navegarPorRota === 'function') navegarPorRota('/gamificacao');
         carregarPainel();
     };
+
+    rankingCheckbox?.addEventListener('change', () => {
+        rankingSalvar.disabled = !rankingCheckbox.checked;
+    });
+
+    rankingSalvar?.addEventListener('click', async () => {
+        const usuario = usuarioAtual();
+        if (!usuario?.google_id || !rankingCheckbox.checked) return;
+        rankingSalvar.disabled = true;
+        const ok = await window.salvarPreferenciaRankingQuiz?.({
+            google_id: usuario.google_id,
+            acertos: 0,
+            permitir: true
+        });
+        if (!ok) {
+            rankingSalvar.disabled = false;
+            window.mostrarToast?.('Não foi possível salvar a autorização agora.', 'erro');
+            return;
+        }
+        rankingPermitido = true;
+        renderizarConsentimentoRanking();
+        window.dispatchEvent(new CustomEvent('adoraplay:ranking-permissao', { detail: { permitido: true } }));
+        window.mostrarToast?.('Autorização do ranking salva.', 'sucesso');
+        await window.carregarRankingQuiz?.();
+    });
+
+    rankingRetirar?.addEventListener('click', async () => {
+        const usuario = usuarioAtual();
+        if (!usuario?.google_id || !window.confirm('Retirar sua pontuação de missões e quiz do ranking geral?')) return;
+        rankingRetirar.disabled = true;
+        const ok = await window.retirarRankingQuiz?.({ google_id: usuario.google_id });
+        rankingRetirar.disabled = false;
+        if (!ok) {
+            window.mostrarToast?.('Não foi possível retirar a autorização agora.', 'erro');
+            return;
+        }
+        rankingPermitido = false;
+        renderizarConsentimentoRanking();
+        window.dispatchEvent(new CustomEvent('adoraplay:ranking-permissao', { detail: { permitido: false } }));
+        window.mostrarToast?.('Sua pontuação foi retirada do ranking geral.', 'sucesso');
+        await window.carregarRankingQuiz?.();
+    });
 
     window.abrirMissaoGamificacao = function abrirMissaoGamificacao(livro, capitulo, idMissao, minutos, titulo, concluida, diaMissao) {
         if (!painelAtual?.inicio_plano && Number(diaMissao) === 1) {
@@ -318,7 +387,7 @@
     };
 
     window.addEventListener('adoraplay:login', carregarPainel);
-    window.addEventListener('adoraplay:logout', () => { painelAtual = null; renderizarPainel(); });
+    window.addEventListener('adoraplay:logout', () => { painelAtual = null; rankingPermitido = false; renderizarConsentimentoRanking(); renderizarPainel(); });
     window.carregarPainelGamificacao = carregarPainel;
     renderizarPainel();
 }());
