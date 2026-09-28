@@ -18,6 +18,7 @@ const miniCardsNovidades = document.getElementById('miniCardsNovidades');
 const btnInstall = document.getElementById('btnInstall');
 const btnMenuMobile = document.getElementById('btnMenuMobile');
 const headerQuickActions = document.getElementById('headerQuickActions');
+const jogosSection = document.getElementById('jogosSection');
 
 const appState = {
     musicas: [],
@@ -230,6 +231,11 @@ function aplicarRotaAtual() {
         return;
     }
 
+    if (rota === '/jogos') {
+        mostrarJogos();
+        return;
+    }
+
     if (rota.startsWith('/desafio/')) {
         const id = rota.split('/').filter(Boolean)[1];
         if (id && typeof window.mostrarQuizDesafio === 'function') {
@@ -280,6 +286,7 @@ function mostrarBiblioteca(comFavoritos = false) {
     if (homeSection) homeSection.style.display = 'none';
     if (bibliotecaSection) bibliotecaSection.style.display = 'grid';
     if (bibliaSection) bibliaSection.style.display = 'none';
+    if (jogosSection) jogosSection.style.display = 'none';
     if (quizSection) quizSection.style.display = 'none';
     if (quizDesafioSection) quizDesafioSection.style.display = 'none';
     if (desafiosSection) desafiosSection.style.display = 'none';
@@ -302,11 +309,24 @@ function mostrarBiblioteca(comFavoritos = false) {
     renderizarBiblioteca();
 }
 
+function mostrarJogos() {
+    ocultarGamificacao();
+    if (homeSection) homeSection.style.display = 'none';
+    if (bibliotecaSection) bibliotecaSection.style.display = 'none';
+    if (bibliaSection) bibliaSection.style.display = 'none';
+    if (quizSection) quizSection.style.display = 'none';
+    if (window.quizDesafioSection) window.quizDesafioSection.style.display = 'none';
+    if (window.desafiosSection) window.desafiosSection.style.display = 'none';
+    if (jogosSection) jogosSection.style.display = 'grid';
+    navegarPorRota('/jogos');
+}
+
 function mostrarHome(opcoes = {}) {
     ocultarGamificacao();
     if (homeSection) homeSection.style.display = 'grid';
     if (bibliotecaSection) bibliotecaSection.style.display = 'none';
     if (bibliaSection) bibliaSection.style.display = 'none';
+    if (jogosSection) jogosSection.style.display = 'none';
     if (quizSection) quizSection.style.display = 'none';
     if (quizDesafioSection) quizDesafioSection.style.display = 'none';
     if (desafiosSection) desafiosSection.style.display = 'none';
@@ -705,6 +725,7 @@ window.renderizarFavoritosHorizontais = function() {
 window.navegarPorRota = navegarPorRota;
 window.aplicarRotaAtual = aplicarRotaAtual;
 window.mostrarBiblioteca = mostrarBiblioteca;
+window.mostrarJogos = mostrarJogos;
 window.mostrarHome = mostrarHome;
 window.filtrarBibliotecaPorAlbum = filtrarBibliotecaPorAlbum;
 window.tocarDestaque = tocarDestaque;
