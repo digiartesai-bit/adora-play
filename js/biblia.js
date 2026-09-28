@@ -942,6 +942,7 @@
     window.mostrarBiblia = function () {
         if (!section) return;
         document.getElementById('gamificacaoSection')?.style.setProperty('display', 'none');
+        document.getElementById('jogosSection')?.style.setProperty('display', 'none');
         homeSection.style.display = 'none';
         librarySection.style.display = 'none';
         if (window.quizSection) window.quizSection.style.display = 'none';
