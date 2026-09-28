@@ -318,6 +318,9 @@ function mostrarHome(opcoes = {}) {
     sincronizarEstadoApp();
     if (!opcoes.preservarRota) navegarPorRota('/');
     renderizarFaixasDoAlbum(null);
+    // Pontos de missões, quiz e desafios podem mudar enquanto a SPA está aberta.
+    // Atualiza o ranking ao retornar para a home sem exigir recarga da página.
+    window.carregarRankingQuiz?.();
 }
 
 
