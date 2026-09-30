@@ -8,8 +8,8 @@
         "livro": "Gênesis",
         "capitulo": 1,
         "versiculos_estimados": 31,
-        "tempo_estimado_minutos": 3.1,
-        "recompensa_bonus": 20
+        "tempo_estimado_minutos": 5.1,
+        "recompensa_bonus": 11
       },
       {
         "id_missao": "dia_1_m2",
@@ -17,8 +17,8 @@
         "livro": "Gênesis",
         "capitulo": 2,
         "versiculos_estimados": 25,
-        "tempo_estimado_minutos": 2.3,
-        "recompensa_bonus": 15
+        "tempo_estimado_minutos": 4.1,
+        "recompensa_bonus": 9
       },
       {
         "id_missao": "dia_1_m3",
@@ -26,8 +26,8 @@
         "livro": "Gênesis",
         "capitulo": 3,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 2.3,
-        "recompensa_bonus": 15
+        "tempo_estimado_minutos": 4,
+        "recompensa_bonus": 8
       }
     ]
   },
@@ -40,8 +40,8 @@
         "livro": "Gênesis",
         "capitulo": 4,
         "versiculos_estimados": 26,
-        "tempo_estimado_minutos": 2.4,
-        "recompensa_bonus": 15
+        "tempo_estimado_minutos": 4.2,
+        "recompensa_bonus": 9
       },
       {
         "id_missao": "dia_2_m2",
@@ -49,8 +49,8 @@
         "livro": "Gênesis",
         "capitulo": 5,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 3.1,
-        "recompensa_bonus": 20
+        "tempo_estimado_minutos": 5.2,
+        "recompensa_bonus": 11
       }
     ]
   },
@@ -63,8 +63,8 @@
         "livro": "Gênesis",
         "capitulo": 6,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 2.1,
-        "recompensa_bonus": 15
+        "tempo_estimado_minutos": 3.4,
+        "recompensa_bonus": 8
       },
       {
         "id_missao": "dia_3_m2",
@@ -72,8 +72,8 @@
         "livro": "Gênesis",
         "capitulo": 7,
         "versiculos_estimados": 24,
-        "tempo_estimado_minutos": 2.3,
-        "recompensa_bonus": 15
+        "tempo_estimado_minutos": 4,
+        "recompensa_bonus": 8
       },
       {
         "id_missao": "dia_3_m3",
@@ -81,8 +81,8 @@
         "livro": "Lucas",
         "capitulo": 1,
         "versiculos_estimados": 80,
-        "tempo_estimado_minutos": 8,
-        "recompensa_bonus": 30
+        "tempo_estimado_minutos": 13,
+        "recompensa_bonus": 27
       }
     ]
   },
@@ -95,8 +95,8 @@
         "livro": "Gênesis",
         "capitulo": 8,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 2.1,
-        "recompensa_bonus": 15
+        "tempo_estimado_minutos": 3.4,
+        "recompensa_bonus": 8
       },
       {
         "id_missao": "dia_4_m2",
@@ -113,7 +113,7 @@
         "livro": "Gênesis",
         "capitulo": 10,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 3.1,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       },
       {
@@ -122,7 +122,7 @@
         "livro": "Gênesis",
         "capitulo": 11,
         "versiculos_estimados": 32,
-        "tempo_estimado_minutos": 3.1,
+        "tempo_estimado_minutos": 4,
         "recompensa_bonus": 20
       }
     ]
@@ -136,7 +136,7 @@
         "livro": "Jó",
         "capitulo": 1,
         "versiculos_estimados": 22,
-        "tempo_estimado_minutos": 2.1,
+        "tempo_estimado_minutos": 3,
         "recompensa_bonus": 15
       },
       {
@@ -145,7 +145,7 @@
         "livro": "Jó",
         "capitulo": 2,
         "versiculos_estimados": 13,
-        "tempo_estimado_minutos": 1.4,
+        "tempo_estimado_minutos": 2,
         "recompensa_bonus": 10
       },
       {
@@ -154,7 +154,7 @@
         "livro": "Lucas",
         "capitulo": 2,
         "versiculos_estimados": 52,
-        "tempo_estimado_minutos": 5.2,
+        "tempo_estimado_minutos": 6,
         "recompensa_bonus": 20
       },
       {
