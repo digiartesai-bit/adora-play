@@ -633,7 +633,7 @@
         const verses = chapter.verses;
         const chapterRequestId = ++carregamentoCapituloId;
         const chapterIsCurrent = () => bibleAtiva && chapterRequestId === carregamentoCapituloId;
-        renderChapterDetails(selectedBook, chapter.chapter, sessaoBibliaController?.signal, chapterIsCurrent).catch(error => {
+        const detalhesCapituloProntos = renderChapterDetails(selectedBook, chapter.chapter, sessaoBibliaController?.signal, chapterIsCurrent).catch(error => {
             if (error.name === 'AbortError' || !chapterIsCurrent()) return;
             console.warn('Não foi possível carregar a descrição do capítulo:', error.message);
         });
@@ -653,6 +653,7 @@
             window.scrollTo({ top: versesPanel.offsetTop - 16, behavior: 'smooth' });
         }
         if (atualizarRota) atualizarRotaBiblia('capitulo');
+        return detalhesCapituloProntos;
     }
 
     function updateChapterNavigation() {
@@ -1038,14 +1039,17 @@
             if (Number.isInteger(capituloNumero)) {
                 const indiceCapitulo = selectedBookData.chapters.findIndex((chap) => Number(chap.chapter) === Number(capituloNumero));
                 if (indiceCapitulo >= 0) {
-                    selectChapter(indiceCapitulo, { atualizarRota: false });
+                    await selectChapter(indiceCapitulo, { atualizarRota: false, scrollToPanel: false });
                     const versiculoNumero = Number(versiculo);
                     if (Number.isInteger(versiculoNumero)) {
                         const indiceVersiculo = selectedBookData.chapters[indiceCapitulo].verses.findIndex((item) => (
                             Number(item.verse) <= versiculoNumero
                             && Number(item.verse_end || item.verse) >= versiculoNumero
                         ));
-                        if (indiceVersiculo >= 0) navigateToVerse(indiceVersiculo, { atualizarRota: false });
+                        if (indiceVersiculo >= 0) {
+                            await new Promise((resolver) => window.requestAnimationFrame(() => window.requestAnimationFrame(resolver)));
+                            navigateToVerse(indiceVersiculo, { atualizarRota: false });
+                        }
                         else atualizarRotaBiblia('capitulo', { replace: true });
                     } else if (versiculo !== null && versiculo !== undefined) {
                         atualizarRotaBiblia('capitulo', { replace: true });
