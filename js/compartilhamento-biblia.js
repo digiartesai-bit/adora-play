@@ -153,14 +153,12 @@
             linkCompartilhamento.searchParams.set('capitulo', details.chapter);
             linkCompartilhamento.searchParams.set('versiculos', (details.verses || [details.verse]).join(','));
             linkCompartilhamento.searchParams.set('versao', details.version || 'acf');
-            const textoCompartilhamento = `${details.reference} — ${details.version?.toUpperCase() || 'ACF'}`;
+            const textoCompartilhamento = `${details.reference} — ${details.version?.toUpperCase() || 'ACF'}\n${linkCompartilhamento.href}`;
             try {
                 if (navigator.canShare?.({ files: [file] })) {
                     await navigator.share({
                         files: [file],
-                        title: details.reference,
-                        text: textoCompartilhamento,
-                        url: linkCompartilhamento.href
+                        text: textoCompartilhamento
                     });
                     closeDialog(dialog);
                     return;
@@ -171,7 +169,7 @@
                 sendButton.disabled = false;
             }
             try {
-                await navigator.clipboard.writeText(`${textoCompartilhamento}\n${linkCompartilhamento.href}`);
+                await navigator.clipboard.writeText(textoCompartilhamento);
             } catch (error) {
                 console.warn('Não foi possível copiar o link de compartilhamento:', error);
             }
