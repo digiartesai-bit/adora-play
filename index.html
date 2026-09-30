@@ -5,6 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="theme-color" content="#081826">
+    <script>
+        const caminhoBase = location.hostname.endsWith('.github.io')
+            ? `/${location.pathname.split('/').filter(Boolean)[0] || ''}/`
+            : '/';
+        const elementoBase = document.createElement('base');
+        elementoBase.href = caminhoBase;
+        document.head.append(elementoBase);
+    </script>
     <!-- Vincula o arquivo de configuração do ícone -->
     <link rel="manifest" href="manifest.json">
 
@@ -26,7 +34,7 @@
     <!-- Fonte Google: Poppins -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/style.css?v=2.3.20">
+    <link rel="stylesheet" href="css/style.css?v=2.3.21">
     <link rel="stylesheet" href="css/biblia.css?v=1.0.5">
     <link rel="stylesheet" href="css/quiz-unificado.css?v=1.0.3">
 </head>
@@ -42,7 +50,7 @@
                     <div class="search-row">
                         <div class="search-input-wrapper">
                             <img src="assets/icons/search.svg" alt="Buscar" class="search-icon">
-                            <input id="search-input" type="text" placeholder="Buscar" autocomplete="off">
+                            <input id="search-input" type="text" placeholder="Buscar músicas" autocomplete="off">
                             <div id="resultados-busca-flutuante" class="resultados-sugestao"></div>
                         </div>
                     </div>
@@ -222,6 +230,32 @@
                         <small>Responda às perguntas e acompanhe seu progresso.</small>
                     </button>
                 </div>
+                <details class="jogos-como-jogar">
+                    <summary>Como jogar?</summary>
+                    <div class="jogos-instrucoes">
+                        <article>
+                            <h3>XP Missões</h3>
+                            <ul>
+                                <li>Entre com sua conta Google para salvar o progresso e sincronizá-lo entre aparelhos. As missões do dia e as atrasadas ficam disponíveis até serem concluídas.</li>
+                                <li>Abra a missão, leia o capítulo indicado e conclua a atividade quando o temporizador de leitura chegar a zero. A quantidade de versículos é informativa; os pontos recebidos são os mostrados como recompensa da missão.</li>
+                                <li>O temporizador não é uma contagem fixa, ele é baseado em uma média de leitura aproximada para cada capítulo.</li>
+                                <li>Os pontos são pessoais e continuam registrados apenas em sua área de usuário.</li>
+                                <li>Na área “Ranking geral”, autorize a exibição para publicar seu nome, foto e pontuação de missões e quiz. A autorização é opcional. Ao retirar a autorização, seus dados saem do ranking geral; os pontos continuam na sua conta.</li>
+                            </ul>
+                        </article>
+                        <article>
+                            <h3>Quiz bíblico</h3>
+                            <ul>
+                                <li>No quiz individual, cada resposta correta vale 1 ponto. O nível avança a cada 20 acertos; perguntas erradas podem voltar em uma rodada de revisão.</li>
+                                <li>O progresso individual é salvo para você continuar depois. Ao terminar, você pode autorizar ou não a exibição da pontuação no ranking.</li>
+                                <li>Um desafio contém 15 perguntas. Crie o desafio e compartilhe o link; a outra pessoa precisa entrar com Google e aceitá-lo. O criador não pode aceitar o próprio desafio.</li>
+                                <li>Quando os dois participantes terminam, vence quem tiver mais acertos e recebe 50 pontos de gamificação. Empate não gera pontos de vitória. Cada participante decide se autoriza a exibição do nome, foto e resultado daquele desafio.</li>
+                                <li>O criador pode cancelar enquanto o desafio estiver pendente. Depois de aceito, o participante desafiado pode desistir; a partida é anulada e o desafio volta a ficar pendente. Ao sair da partida em andamento, ela também pode ser anulada.</li>
+                                <li>Você pode manter o resultado do desafio anônimo ou retirar sua autorização depois. Retirar a autorização geral na área de Missões remove sua participação do ranking geral e dos rankings de desafios mais os pontos continuam na sua conta.</li>
+                            </ul>
+                        </article>
+                    </div>
+                </details>
             </section>
 
             <section class="section-gamificacao" id="gamificacaoSection" style="display:none;">
@@ -637,20 +671,20 @@
 
     <audio id="audioPlayer"></audio>
     <script src="https://accounts.google.com/gsi/client" async></script>
-    <script src="js/player.js?v=1.0.13"></script>
-    <script src="js/visualizer.js"></script>
-    <script src="js/gamificacao.js?v=1.0.6"></script>
-    <script src="js/ranking.js?v=1.0.10"></script>
-    <script src="js/recursos.js?v=1.0.19"></script>
-    <script src="js/app.js?v=1.0.29"></script>
-    <script src="js/ajuda.js"></script>
-    <script src="js/pesquisa.js?v=1.0.2"></script>
-    <script src="js/compartilhamento-biblia.js?v=1.0.1"></script>
-    <script src="js/versiculo-do-dia.js?v=1.0.5"></script>
-    <script src="js/comparar-biblia.js?v=1.0.1"></script>
-    <script src="js/biblia.js?v=1.0.19"></script>
-    <script src="js/quiz.js?v=1.0.9"></script>
-    <script src="js/google-login.js?v=1.0.0"></script>
+    <script defer src="js/player.js?v=1.0.13"></script>
+    <script defer src="js/visualizer.js?v=1.0.1"></script>
+    <script defer src="js/gamificacao.js?v=1.0.8"></script>
+    <script defer src="js/ranking.js?v=1.0.11"></script>
+    <script defer src="js/recursos.js?v=1.0.20"></script>
+    <script defer src="js/app.js?v=1.0.31"></script>
+    <script defer src="js/ajuda.js?v=1.0.1"></script>
+    <script defer src="js/pesquisa.js?v=1.0.3"></script>
+    <script defer src="js/compartilhamento-biblia.js?v=1.0.2"></script>
+    <script defer src="js/versiculo-do-dia.js?v=1.0.6"></script>
+    <script defer src="js/comparar-biblia.js?v=1.0.2"></script>
+    <script defer src="js/biblia.js?v=1.1.1"></script>
+    <script defer src="js/quiz.js?v=1.0.10"></script>
+    <script defer src="js/google-login.js?v=1.0.1"></script>
 </body>
 
 </html>
