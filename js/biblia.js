@@ -66,6 +66,11 @@
     const versionCache = new Map();
     let bookDetails = null;
     const chapterDetailsCache = new Map();
+    let bibleAtiva = false;
+    let sessaoBibliaController = null;
+    let carregamentoLivroController = null;
+    let carregamentoLivroId = 0;
+    let carregamentoCapituloId = 0;
     const bibleVersionDetails = {
         acf: {
             name: 'Tradução de João Ferreira de Almeida (Edição Corrigida e Fiel)',
@@ -111,17 +116,56 @@
             .toLowerCase();
     }
 
-    async function loadBookDetails() {
+    function slugLivro(book) {
+        return normalizeBookName(book.name).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    }
+
+    function atualizarRotaBiblia(nivel = 'biblia', { versiculo = null, replace = false } = {}) {
+        let rota = '/biblia';
+        if (nivel !== 'biblia' && selectedBook) {
+            rota += `/${encodeURIComponent(slugLivro(selectedBook))}`;
+        }
+        if ((nivel === 'capitulo' || nivel === 'versiculo') && selectedChapter !== null) {
+            const capitulo = selectedBookData?.chapters?.[selectedChapter]?.chapter;
+            if (capitulo !== undefined) rota += `/${capitulo}`;
+        }
+        if (nivel === 'versiculo' && versiculo !== null && versiculo !== undefined && Number.isInteger(Number(versiculo))) {
+            rota += `/${Number(versiculo)}`;
+        }
+        window.navegarPorRota?.(rota, { replace });
+    }
+
+    function rotaAtualContemVersiculo() {
+        const rota = window.location.pathname !== '/'
+            ? window.location.pathname
+            : window.location.hash.replace(/^#/, '');
+        return rota.split('/').filter(Boolean).length >= 4;
+    }
+
+    function limparBiblia() {
+        bibleAtiva = false;
+        carregamentoLivroId++;
+        carregamentoCapituloId++;
+        carregamentoLivroController?.abort();
+        carregamentoLivroController = null;
+        sessaoBibliaController?.abort();
+        sessaoBibliaController = null;
+    }
+
+    window.limparBiblia = limparBiblia;
+
+    async function loadBookDetails(signal) {
         if (bookDetails) return bookDetails;
-        const response = await fetch('biblias/livros.json');
+        const response = await fetch('biblias/livros.json', { signal });
         if (!response.ok) throw new Error('Não foi possível carregar as descrições dos livros.');
         const data = await response.json();
         bookDetails = [...(data.testamento_antigo || []), ...(data.testamento_novo || [])];
         return bookDetails;
     }
 
-    async function renderBookDetails(book) {
-        const details = await loadBookDetails();
+    async function renderBookDetails(book, signal, isCurrent) {
+        const details = await loadBookDetails(signal);
+        if (!isCurrent()) return;
         const aliases = {
             atos: 'Atos dos Apóstolos',
             cânticos: 'Cântico dos Cânticos'
@@ -150,18 +194,19 @@
         chapterDescription.hidden = true;
     }
 
-    async function loadChapterDetails(book) {
+    async function loadChapterDetails(book, signal) {
         const fileName = getBookFileName('', book.name);
         if (chapterDetailsCache.has(fileName)) return chapterDetailsCache.get(fileName);
-        const response = await fetch(`biblias/capitulos/${fileName}.json`);
+        const response = await fetch(`biblias/capitulos/${fileName}.json`, { signal });
         if (!response.ok) throw new Error(`Não foi possível carregar os capítulos de ${book.name}.`);
         const details = await response.json();
         chapterDetailsCache.set(fileName, details);
         return details;
     }
 
-    async function renderChapterDetails(book, chapterNumber) {
-        const details = await loadChapterDetails(book);
+    async function renderChapterDetails(book, chapterNumber, signal, isCurrent = () => true) {
+        const details = await loadChapterDetails(book, signal);
+        if (!isCurrent()) return;
         const chapterKey = `${normalizeBookName(book.name)} ${chapterNumber}`;
         const selectedChapterDetails = Object.entries(details)
             .find(([key]) => normalizeBookName(key) === chapterKey)?.[1];
@@ -196,7 +241,7 @@
         }
     }
 
-    async function requestBibleApi(path, method = 'GET', data = null) {
+    async function requestBibleApi(path, method = 'GET', data = null, signal = null) {
         const user = getGoogleUser();
         if (!user?.google_id) throw new Error('Entre com sua conta Google para sincronizar a Bíblia.');
 
@@ -205,6 +250,7 @@
             method,
             headers: { 'Content-Type': 'application/json' }
         };
+        if (signal) options.signal = signal;
 
         if (method === 'GET') {
             url.searchParams.set('google_id', user.google_id);
@@ -312,8 +358,11 @@
         };
     }
 
-    async function loadRemoteStudies() {
-        const remoteStudies = await requestBibleApi('/api/anotacoes');
+    async function loadRemoteStudies({ signal } = {}) {
+        if (!bibleAtiva) return;
+        const signalAtual = signal || sessaoBibliaController?.signal;
+        const remoteStudies = await requestBibleApi('/api/anotacoes', 'GET', null, signalAtual);
+        if (!bibleAtiva || signalAtual?.aborted) return;
         const studies = {};
 
         remoteStudies.forEach((remoteStudy) => {
@@ -484,10 +533,10 @@
         return `${match[1]}${match[2].charAt(0).toUpperCase()}${match[2].slice(1)}`;
     }
 
-    async function loadBookData(version, book) {
+    async function loadBookData(version, book, signal) {
         const cacheKey = `${version}:${book.abbrev}`;
         if (versionCache.has(cacheKey)) return versionCache.get(cacheKey);
-        const response = await fetch(`biblias/${version}/${getBookFileName(version, book.name)}.json`);
+        const response = await fetch(`biblias/${version}/${getBookFileName(version, book.name)}.json`, { signal });
         if (!response.ok) throw new Error(`Não foi possível carregar ${book.name} na versão ${version.toUpperCase()}.`);
         const data = await response.json();
         if (!Array.isArray(data.books) || data.books.length !== 1 || data.books[0].abbrev !== book.abbrev) {
@@ -498,6 +547,10 @@
     }
 
     function setBibleVersion(version) {
+        carregamentoLivroId++;
+        carregamentoLivroController?.abort();
+        carregamentoLivroController = null;
+        carregamentoCapituloId++;
         selectedVersion = version;
         versionSelect.value = version;
         renderBibleVersionDetails(version);
@@ -529,14 +582,26 @@
         });
     }
 
-    async function loadBook(book) {
+    async function loadBook(book, { atualizarRota = true } = {}) {
+        carregamentoLivroController?.abort();
+        const controller = new AbortController();
+        carregamentoLivroController = controller;
+        const carregamentoId = ++carregamentoLivroId;
+        const carregamentoAtual = () => bibleAtiva && carregamentoId === carregamentoLivroId;
         subtitle.textContent = `Carregando ${book.name}...`;
         try {
-            selectedBookData = await loadBookData(selectedVersion, book);
-            await renderBookDetails(book);
+            const dadosLivro = await loadBookData(selectedVersion, book, controller.signal);
+            if (!carregamentoAtual()) return false;
+            selectedBookData = dadosLivro;
             selectedBook = book;
             selectedChapter = null;
             clearSelectedVerses();
+            hideBibleDescription();
+            renderBookDetails(book, controller.signal, carregamentoAtual).catch((error) => {
+                if (error.name !== 'AbortError' && carregamentoAtual()) {
+                    console.warn('Não foi possível carregar os dados descritivos do livro:', error.message);
+                }
+            });
             chaptersTitle.textContent = `${book.name}: capítulos`;
             chaptersGrid.replaceChildren();
             selectedBookData.chapters.forEach((_, index) => {
@@ -548,13 +613,17 @@
             notesPanel.hidden = true;
             subtitle.textContent = `${book.name} selecionado. Escolha um capítulo para começar a leitura.`;
             setStep('chapter');
+            if (atualizarRota) atualizarRotaBiblia('livro');
+            return true;
         } catch (error) {
+            if (error.name === 'AbortError' || !carregamentoAtual()) return false;
             console.error(error);
             subtitle.textContent = `Não foi possível abrir ${book.name}. Abra o site por um servidor local.`;
+            return false;
         }
     }
 
-    function selectChapter(chapterIndex, { scrollToPanel = true } = {}) {
+    function selectChapter(chapterIndex, { scrollToPanel = true, atualizarRota = true } = {}) {
         hideBibleDescription();
         hideChapterDescription();
         selectedChapter = chapterIndex;
@@ -562,7 +631,10 @@
         closeVerseStudy();
         const chapter = selectedBookData.chapters[chapterIndex];
         const verses = chapter.verses;
-        renderChapterDetails(selectedBook, chapter.chapter).catch(error => {
+        const chapterRequestId = ++carregamentoCapituloId;
+        const chapterIsCurrent = () => bibleAtiva && chapterRequestId === carregamentoCapituloId;
+        renderChapterDetails(selectedBook, chapter.chapter, sessaoBibliaController?.signal, chapterIsCurrent).catch(error => {
+            if (error.name === 'AbortError' || !chapterIsCurrent()) return;
             console.warn('Não foi possível carregar a descrição do capítulo:', error.message);
         });
         versesTitle.textContent = `${selectedBook.name} ${chapter.chapter}: versículos`;
@@ -580,6 +652,7 @@
         if (scrollToPanel) {
             window.scrollTo({ top: versesPanel.offsetTop - 16, behavior: 'smooth' });
         }
+        if (atualizarRota) atualizarRotaBiblia('capitulo');
     }
 
     function updateChapterNavigation() {
@@ -608,11 +681,13 @@
         const currentBookIndex = books.findIndex(book => book.abbrev === selectedBook.abbrev);
         const adjacentBook = books[currentBookIndex + direction];
         if (!adjacentBook) return;
-        await loadBook(adjacentBook);
+        const carregouLivro = await loadBook(adjacentBook, { atualizarRota: false });
+        if (!carregouLivro) return;
         selectChapter(direction > 0 ? 0 : selectedBookData.chapters.length - 1);
     }
 
     function updateScrollTopButton() {
+        if (!bibleAtiva) return;
         const hasVerticalScroll = document.documentElement.scrollHeight > window.innerHeight;
         const hasScrolledPastReading = window.scrollY > versesPanel.offsetTop;
         scrollTopButton.hidden = versesPanel.hidden || !quickActions.hidden || !hasVerticalScroll || !hasScrolledPastReading;
@@ -667,9 +742,18 @@
         });
         updateQuickActions();
         document.getElementById(`versiculo-${selectedBookData.chapters[selectedChapter].verses[verseIndex].verse}`).scrollIntoView({ behavior: 'smooth', block: 'center' });
+        const routeAtualTemVersiculo = rotaAtualContemVersiculo();
+        if (selectedVerseIndexes.size) {
+            const primeiroIndice = Math.min(...selectedVerseIndexes);
+            const primeiroVersiculo = selectedBookData.chapters[selectedChapter].verses[primeiroIndice].verse;
+            atualizarRotaBiblia('versiculo', { versiculo: primeiroVersiculo, replace: routeAtualTemVersiculo });
+        } else {
+            atualizarRotaBiblia('capitulo', { replace: routeAtualTemVersiculo });
+        }
     }
 
-    function navigateToVerse(verseIndex) {
+    function navigateToVerse(verseIndex, { atualizarRota = true, scroll = true } = {}) {
+        selectedVerse = verseIndex;
         clearSelectedVerses();
         closeVerseStudy();
         versesGrid.querySelectorAll('.bible-number-button').forEach((button) => {
@@ -678,7 +762,13 @@
         text.querySelectorAll('.bible-verse').forEach((verse) => {
             verse.classList.remove('is-selected');
         });
-        document.getElementById(`versiculo-${selectedBookData.chapters[selectedChapter].verses[verseIndex].verse}`).scrollIntoView({ behavior: 'smooth', block: 'center' });
+        if (scroll) {
+            document.getElementById(`versiculo-${selectedBookData.chapters[selectedChapter].verses[verseIndex].verse}`).scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+        const verseNumber = selectedBookData.chapters[selectedChapter].verses[verseIndex].verse;
+        if (atualizarRota) {
+            atualizarRotaBiblia('versiculo', { versiculo: verseNumber, replace: rotaAtualContemVersiculo() });
+        }
     }
 
     async function toggleVerseHighlight(details, markButton) {
@@ -769,12 +859,13 @@
         const book = books.find(item => item.abbrev === study.bookAbbrev);
         if (!book || !Number.isInteger(study.chapter) || !Number.isInteger(study.verse)) return;
         await setBibleVersion(study.version || 'acf');
-        await loadBook(book);
+        const carregouLivro = await loadBook(book, { atualizarRota: false });
+        if (!carregouLivro) return;
         const chapterIndex = selectedBookData.chapters.findIndex(chapter => chapter.chapter === study.chapter);
         if (chapterIndex < 0) return;
         // No fluxo de comparação, evitamos a rolagem automática do capítulo:
         // o destino final deve ser o versículo escolhido, não o topo do painel.
-        selectChapter(chapterIndex, { scrollToPanel: false });
+        selectChapter(chapterIndex, { scrollToPanel: false, atualizarRota: false });
         const chapter = selectedBookData.chapters[chapterIndex];
         const verseIndexes = (study.verses || [study.verse])
             .map((verseNumber) => chapter.verses.findIndex(verse => verse.verse === verseNumber))
@@ -796,7 +887,11 @@
         document.getElementById(`versiculo-${chapter.verses[verseIndexes[0]].verse}`).scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
 
-    function showBooks() {
+    function showBooks({ atualizarRota = false } = {}) {
+        carregamentoLivroId++;
+        carregamentoLivroController?.abort();
+        carregamentoLivroController = null;
+        carregamentoCapituloId++;
         selectedBook = null;
         selectedBookData = null;
         selectedChapter = null;
@@ -811,10 +906,12 @@
         renderBibleVersionDetails();
         subtitle.textContent = `${selectedVersion.toUpperCase()} selecionada. Escolha um livro para começar a leitura.`;
         setStep('book');
+        if (atualizarRota) atualizarRotaBiblia('biblia');
     }
 
-    function showChapters() {
+    function showChapters({ atualizarRota = false } = {}) {
         if (!selectedBookData) return;
+        carregamentoCapituloId++;
         selectedChapter = null;
         clearSelectedVerses();
         hideBibleDescription();
@@ -826,6 +923,7 @@
         closeVerseStudy(true);
         subtitle.textContent = `Escolha um capítulo de ${selectedBook.name}.`;
         setStep('chapter');
+        if (atualizarRota) atualizarRotaBiblia('livro');
     }
 
     async function showNotes() {
@@ -849,6 +947,11 @@
 
     function closeBible() {
         selectedVerse = null;
+        if (typeof window.mostrarHome === 'function') {
+            window.mostrarHome();
+            return;
+        }
+        limparBiblia();
         showBooks();
         section.style.display = 'none';
         homeSection.style.display = 'grid';
@@ -896,51 +999,75 @@
         window.requestAnimationFrame(() => {
             versiculoDestino?.scrollIntoView({ behavior: 'smooth', block: 'center' });
         });
+        atualizarRotaBiblia('versiculo', {
+            versiculo: chapter.verses[verseIndexes[0]].verse,
+            replace: rotaAtualContemVersiculo()
+        });
     }
 
     window.openBibleComparisonVersion = openComparisonVersion;
 
     let bibleReadyPromise = Promise.resolve();
 
-    window.abrirBibliaPorRota = async function abrirBibliaPorRota({ livro, capitulo } = {}) {
+    window.abrirBibliaPorRota = async function abrirBibliaPorRota({ livro, capitulo, versiculo } = {}) {
         if (!livro) {
             showBooks();
+            atualizarRotaBiblia('biblia', { replace: true });
             return;
         }
 
-        const livroNormalizado = String(livro).trim().toLowerCase();
-        const livroEncontrado = books.find((book) => {
-            const nome = normalizeBookName(book.name);
-            const abreviacao = normalizeBookName(book.abbrev);
-            return nome === livroNormalizado || abreviacao === livroNormalizado;
-        });
+        const livroNormalizado = normalizeBookName(String(livro).trim()).replace(/[^a-z0-9]/g, '');
+        const livroEncontrado = books.find((book) => (
+            normalizeBookName(book.name).replace(/[^a-z0-9]/g, '') === livroNormalizado
+        )) || books.find((book) => (
+            normalizeBookName(book.abbrev).replace(/[^a-z0-9]/g, '') === livroNormalizado
+        ));
 
         if (!livroEncontrado) {
             showBooks();
+            atualizarRotaBiblia('biblia', { replace: true });
             return;
         }
 
         await bibleReadyPromise;
 
         try {
-            await loadBook(livroEncontrado);
+            const carregouLivro = await loadBook(livroEncontrado, { atualizarRota: false });
+            if (!carregouLivro) return;
             const capituloNumero = Number(capitulo);
             if (Number.isInteger(capituloNumero)) {
                 const indiceCapitulo = selectedBookData.chapters.findIndex((chap) => Number(chap.chapter) === Number(capituloNumero));
                 if (indiceCapitulo >= 0) {
-                    selectChapter(indiceCapitulo);
+                    selectChapter(indiceCapitulo, { atualizarRota: false });
+                    const versiculoNumero = Number(versiculo);
+                    if (Number.isInteger(versiculoNumero)) {
+                        const indiceVersiculo = selectedBookData.chapters[indiceCapitulo].verses.findIndex((item) => (
+                            Number(item.verse) <= versiculoNumero
+                            && Number(item.verse_end || item.verse) >= versiculoNumero
+                        ));
+                        if (indiceVersiculo >= 0) navigateToVerse(indiceVersiculo, { atualizarRota: false });
+                        else atualizarRotaBiblia('capitulo', { replace: true });
+                    } else if (versiculo !== null && versiculo !== undefined) {
+                        atualizarRotaBiblia('capitulo', { replace: true });
+                    }
                     return;
                 }
             }
-            showChapters();
+            showChapters({ atualizarRota: false });
+            atualizarRotaBiblia('livro', { replace: true });
         } catch (error) {
             console.warn('Não foi possível abrir a rota da Bíblia:', error.message);
             showBooks();
         }
     };
 
-    window.mostrarBiblia = function () {
-        if (!section) return;
+    window.mostrarBiblia = function ({ preservarEstado = false } = {}) {
+        if (!section) return Promise.resolve();
+        if (preservarEstado && bibleAtiva && section.style.display !== 'none') return bibleReadyPromise;
+        limparBiblia();
+        bibleAtiva = true;
+        const controller = new AbortController();
+        sessaoBibliaController = controller;
         document.getElementById('gamificacaoSection')?.style.setProperty('display', 'none');
         document.getElementById('jogosSection')?.style.setProperty('display', 'none');
         homeSection.style.display = 'none';
@@ -950,19 +1077,27 @@
         if (window.desafiosSection) window.desafiosSection.style.display = 'none';
         section.style.display = 'grid';
         bibleReadyPromise = setBibleVersion(selectedVersion)
-            .then(async () => {
-                if (getGoogleUser()?.google_id) await loadRemoteStudies();
+            .then(() => {
+                if (controller.signal.aborted || !bibleAtiva) return;
                 showBooks();
+                if (getGoogleUser()?.google_id) {
+                    loadRemoteStudies({ signal: controller.signal }).catch((error) => {
+                        if (error.name !== 'AbortError' && !controller.signal.aborted) {
+                            console.warn('NÃ£o foi possÃ­vel atualizar as anotaÃ§Ãµes:', error.message);
+                        }
+                    });
+                }
             })
             .catch((error) => {
+                if (error.name === 'AbortError' || controller.signal.aborted) return;
                 console.error(error);
                 subtitle.textContent = 'Não foi possível carregar a versão bíblica selecionada.';
             });
             return bibleReadyPromise;
     };
 
-    document.getElementById('voltarLivros').addEventListener('click', showBooks);
-    document.getElementById('voltarCapitulos').addEventListener('click', showChapters);
+    document.getElementById('voltarLivros').addEventListener('click', () => showBooks({ atualizarRota: true }));
+    document.getElementById('voltarCapitulos').addEventListener('click', () => showChapters({ atualizarRota: true }));
     document.getElementById('fecharBiblia').addEventListener('click', closeBible);
     quickCompareButton.addEventListener('click', () => window.bibleComparison.open(getSelectedVerseDetails()));
     quickShareButton.addEventListener('click', () => shareVerseImage(getSelectedVerseDetails(), quickShareButton));
@@ -989,14 +1124,17 @@
     renderBibleVersionDetails();
     versionSelect.addEventListener('change', () => {
         setBibleVersion(versionSelect.value)
-            .then(showBooks)
+            .then(() => {
+                showBooks();
+                atualizarRotaBiblia('biblia', { replace: true });
+            })
             .catch((error) => {
                 console.error(error);
                 subtitle.textContent = 'Não foi possível trocar a versão bíblica.';
             });
     });
-    steps.book.addEventListener('click', showBooks);
-    steps.chapter.addEventListener('click', showChapters);
+    steps.book.addEventListener('click', () => showBooks({ atualizarRota: true }));
+    steps.chapter.addEventListener('click', () => showChapters({ atualizarRota: true }));
     steps.verse.addEventListener('click', () => {
         if (selectedChapter !== null) {
             closeVerseStudy();
