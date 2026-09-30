@@ -173,21 +173,32 @@ window.addEventListener('appinstalled', () => {
 });
 
 
+let ultimaRotaAplicada = null;
+
 function navegarPorRota(rota, opcao = {}) {
     const rotaNormalizada = rota && rota.startsWith('/') ? rota : `/${rota || ''}`;
     const urlAtual = new URL(window.location.href);
-    urlAtual.pathname = '/';
-    urlAtual.hash = rotaNormalizada === '/' ? '' : `#${rotaNormalizada}`;
+    const rotaBibliaEmCaminho = rotaNormalizada === '/biblia' || rotaNormalizada.startsWith('/biblia/');
+    urlAtual.pathname = rotaBibliaEmCaminho ? rotaNormalizada : '/';
+    urlAtual.hash = rotaBibliaEmCaminho || rotaNormalizada === '/' ? '' : `#${rotaNormalizada}`;
 
     const destino = `${urlAtual.pathname}${urlAtual.search}${urlAtual.hash}`;
     const enderecoAtual = `${window.location.pathname}${window.location.search}${window.location.hash}`;
     if (destino === enderecoAtual) return;
+
+    const rotaAnterior = obterRotaAtual();
+    if (rotaAnterior === '/biblia' || rotaAnterior.startsWith('/biblia/')) {
+        if (rotaNormalizada !== '/biblia' && !rotaNormalizada.startsWith('/biblia/')) {
+            window.limparBiblia?.();
+        }
+    }
 
     if (opcao.replace) {
         history.replaceState({}, '', destino);
     } else {
         history.pushState({}, '', destino);
     }
+    ultimaRotaAplicada = destino;
 }
 
 window.compartilharLinkNoFacebook = function compartilharLinkNoFacebook(link) {
@@ -205,8 +216,16 @@ function obterRotaAtual() {
 }
 
 function aplicarRotaAtual() {
+    const chaveRota = `${window.location.pathname}${window.location.search}${window.location.hash}`;
+    if (chaveRota === ultimaRotaAplicada) return;
+    ultimaRotaAplicada = chaveRota;
+
     const rota = obterRotaAtual();
     const params = new URLSearchParams(window.location.search);
+
+    if (rota !== '/biblia' && !rota.startsWith('/biblia/')) {
+        window.limparBiblia?.();
+    }
 
     if (rota === '/biblioteca' || rota === '/biblioteca/favoritos') {
         mostrarBiblioteca(rota === '/biblioteca/favoritos');
@@ -215,12 +234,20 @@ function aplicarRotaAtual() {
 
     if (rota === '/biblia' || rota.startsWith('/biblia/')) {
         if (typeof window.mostrarBiblia === 'function') {
-            const pronta = window.mostrarBiblia();
+            const pronta = window.mostrarBiblia({ preservarEstado: true });
             if (typeof window.abrirBibliaPorRota === 'function') {
                 const partes = rota.split('/').filter(Boolean);
-                const livro = partes[1] || null;
-                const capitulo = partes[2] || null;
-                Promise.resolve(pronta).then(() => window.abrirBibliaPorRota({ livro, capitulo }));
+                let livro = null;
+                let capitulo = null;
+                let versiculo = null;
+                try {
+                    livro = partes[1] ? decodeURIComponent(partes[1]) : null;
+                    capitulo = partes[2] ? decodeURIComponent(partes[2]) : null;
+                    versiculo = partes[3] ? decodeURIComponent(partes[3]) : null;
+                } catch {
+                    return;
+                }
+                Promise.resolve(pronta).then(() => window.abrirBibliaPorRota({ livro, capitulo, versiculo }));
             }
         }
         return;
@@ -771,10 +798,24 @@ function inicializarRouter() {
         return;
     }
 
-    window.addEventListener('load', () => {
-        aplicarRotaAtual();
-    }, { once: true });
+    const aplicarRotaInicial = () => aplicarRotaAtual();
+    if (document.readyState === 'loading' || document.readyState === 'interactive') {
+        document.addEventListener('DOMContentLoaded', aplicarRotaInicial, { once: true });
+    } else {
+        aplicarRotaInicial();
+    }
 }
+
+window.addEventListener('pageshow', (evento) => {
+    if (!evento.persisted) return;
+    ultimaRotaAplicada = null;
+    aplicarRotaAtual();
+});
+
+window.addEventListener('pagehide', () => {
+    ultimaRotaAplicada = null;
+    window.limparBiblia?.();
+});
 
 inicializarMenuMobile();
 inicializarInstalacaoPWA();
