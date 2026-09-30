@@ -1,2 +1,2 @@
-/biblia /index.html 200
-/biblia/* /index.html 200
+/biblia /#/biblia 302
+/biblia/* /#/biblia/:splat 302
