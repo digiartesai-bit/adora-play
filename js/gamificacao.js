@@ -30,6 +30,8 @@
     const timerBotao = document.getElementById('finalizarLeituraMissao');
     const leitorMissao = document.getElementById('leituraMissaoGamificacao');
     let mostrarAtrasadas = false;
+    let carregamentoLeituraMissao = 0;
+    let controladorLeituraMissao = null;
 
     function renderizarConsentimentoRanking() {
         const usuario = usuarioAtual();
@@ -350,18 +352,45 @@
         }
         if (!concluida) window.iniciarTimerMissaoBiblia?.({ idMissao, minutos, titulo });
         if (!leitorMissao) return;
+        controladorLeituraMissao?.abort();
+        controladorLeituraMissao = new AbortController();
+        const sinal = controladorLeituraMissao.signal;
+        const carregamentoAtual = ++carregamentoLeituraMissao;
+        const aindaAtual = () => carregamentoAtual === carregamentoLeituraMissao && !sinal.aborted;
         leitorMissao.hidden = false;
         leitorMissao.innerHTML = `<h3>${escapar(titulo || `${livro} ${capitulo}`)}</h3><p>Carregando leitura…</p>`;
         const nomeArquivo = normalizarLivro(livro).replace(/^gn$/, 'genesis');
-        fetch(`biblias/acf/${nomeArquivo}.json`).then((resposta) => {
+        const normalizarChave = (valor) => String(valor || '').normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+        Promise.all([
+            fetch(`biblias/acf/${nomeArquivo}.json`, { signal: sinal }).then((resposta) => {
             if (!resposta.ok) throw new Error('Não foi possível carregar este capítulo.');
             return resposta.json();
-        }).then((dados) => {
+            }),
+            fetch(`biblias/capitulos/${nomeArquivo}.json`, { signal: sinal })
+                .then((resposta) => resposta.ok ? resposta.json() : null)
+                .catch((erro) => {
+                    if (erro.name === 'AbortError') throw erro;
+                    return null;
+                })
+        ]).then(([dados, resumos]) => {
+            if (!aindaAtual()) return;
             const capituloDados = dados.books?.[0]?.chapters?.find((item) => Number(item.chapter) === Number(capitulo));
             if (!capituloDados) throw new Error('Capítulo não encontrado.');
-            leitorMissao.innerHTML = `<h3>${escapar(livro)} ${capitulo}</h3>${capituloDados.verses.map((versiculo) => `<p class="versiculo-missao"><strong>${versiculo.verse}</strong> ${escapar(versiculo.text)}</p>`).join('')}`;
+            const chaveEsperada = `${normalizarChave(livro)} ${Number(capitulo)}`;
+            const resumo = resumos && Object.entries(resumos).find(([chave]) => normalizarChave(chave) === chaveEsperada)?.[1];
+            const descricao = resumo ? `
+                <section class="bible-chapter-description missao-chapter-description">
+                    <strong>${escapar(resumo.titulo)}</strong>
+                    <span>Tema central: ${escapar(resumo.tema_central)}</span>
+                    <p>${escapar(resumo.descricao)}</p>
+                </section>` : '';
+            leitorMissao.innerHTML = `<h3>${escapar(livro)} ${Number(capitulo)}</h3>${descricao}${capituloDados.verses.map((versiculo) => `<p class="versiculo-missao"><strong>${versiculo.verse}</strong> ${escapar(versiculo.text)}</p>`).join('')}`;
             leitorMissao.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }).catch((erro) => { leitorMissao.innerHTML = `<p class="empty-state">${escapar(erro.message)}</p>`; });
+        }).catch((erro) => {
+            if (!aindaAtual() || erro.name === 'AbortError') return;
+            leitorMissao.innerHTML = `<p class="empty-state">${escapar(erro.message)}</p>`;
+        });
     };
 
     window.concluirMissaoGamificacao = async function concluirMissaoGamificacao(idMissao, automatica = false) {
