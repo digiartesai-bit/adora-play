@@ -112,7 +112,7 @@
         const sendButton = document.createElement('button');
         sendButton.type = 'button';
         sendButton.className = 'bible-share-send';
-        sendButton.textContent = 'Compartilhar imagem';
+        sendButton.textContent = 'Compartilhar imagem e link';
         let selectedBackground = backgrounds[0];
         let canvas;
 
@@ -148,9 +148,22 @@
             const bytes = Uint8Array.from(atob(data.split(',')[1]), character => character.charCodeAt(0));
             const verseReference = details.verses?.join('-') || details.verse;
             const file = new File([bytes], `versiculo-${details.bookAbbrev}-${details.chapter}-${verseReference}.png`, { type: 'image/png' });
+            const linkCompartilhamento = new URL('https://share.adoraplay.com.br/compartilhar-biblia');
+            linkCompartilhamento.searchParams.set('livro', details.bookName);
+            linkCompartilhamento.searchParams.set('capitulo', details.chapter);
+            linkCompartilhamento.searchParams.set('versiculos', (details.verses || [details.verse]).join(','));
+            linkCompartilhamento.searchParams.set('referencia', details.reference);
+            linkCompartilhamento.searchParams.set('texto', details.text.slice(0, 1200));
+            linkCompartilhamento.searchParams.set('versao', details.version || 'acf');
+            const textoCompartilhamento = `${details.reference} — ${details.version?.toUpperCase() || 'ACF'}`;
             try {
                 if (navigator.canShare?.({ files: [file] })) {
-                    await navigator.share({ files: [file] });
+                    await navigator.share({
+                        files: [file],
+                        title: details.reference,
+                        text: textoCompartilhamento,
+                        url: linkCompartilhamento.href
+                    });
                     closeDialog(dialog);
                     return;
                 }
@@ -159,12 +172,18 @@
             } finally {
                 sendButton.disabled = false;
             }
+            try {
+                await navigator.clipboard.writeText(textoCompartilhamento);
+            } catch (error) {
+                console.warn('Não foi possível copiar o link de compartilhamento:', error);
+            }
             const link = document.createElement('a');
             link.href = data;
             link.download = file.name;
             document.body.appendChild(link);
             link.click();
             link.remove();
+            window.alert('A imagem foi baixada e o link da leitura foi copiado. Envie os dois para compartilhar a referência.');
         });
 
         panel.append(heading, choices, preview, sendButton);
