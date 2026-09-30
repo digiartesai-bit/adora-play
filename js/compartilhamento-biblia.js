@@ -152,8 +152,6 @@
             linkCompartilhamento.searchParams.set('livro', details.bookName);
             linkCompartilhamento.searchParams.set('capitulo', details.chapter);
             linkCompartilhamento.searchParams.set('versiculos', (details.verses || [details.verse]).join(','));
-            linkCompartilhamento.searchParams.set('referencia', details.reference);
-            linkCompartilhamento.searchParams.set('texto', details.text.slice(0, 1200));
             linkCompartilhamento.searchParams.set('versao', details.version || 'acf');
             const textoCompartilhamento = `${details.reference} — ${details.version?.toUpperCase() || 'ACF'}`;
             try {
@@ -173,7 +171,7 @@
                 sendButton.disabled = false;
             }
             try {
-                await navigator.clipboard.writeText(textoCompartilhamento);
+                await navigator.clipboard.writeText(`${textoCompartilhamento}\n${linkCompartilhamento.href}`);
             } catch (error) {
                 console.warn('Não foi possível copiar o link de compartilhamento:', error);
             }
