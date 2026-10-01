@@ -88,6 +88,7 @@
     }
 
     async function open(details) {
+        const compartilharLinkBiblia = Boolean(details.bookName && details.chapter && details.version);
         const dialog = document.createElement('div');
         dialog.className = 'bible-share-dialog';
         const panel = document.createElement('section');
@@ -95,7 +96,7 @@
         const heading = document.createElement('div');
         heading.className = 'bible-share-dialog-heading';
         const title = document.createElement('h3');
-        title.textContent = 'Compartilhar imagem';
+        title.textContent = compartilharLinkBiblia ? 'Compartilhar versículos' : 'Compartilhar versículo do dia';
         const closeButton = document.createElement('button');
         closeButton.type = 'button';
         closeButton.className = 'bible-inline-close';
@@ -112,7 +113,7 @@
         const sendButton = document.createElement('button');
         sendButton.type = 'button';
         sendButton.className = 'bible-share-send';
-        sendButton.textContent = 'Compartilhar imagem e link';
+        sendButton.textContent = compartilharLinkBiblia ? 'Compartilhar imagem e link' : 'Compartilhar imagem';
         let selectedBackground = backgrounds[0];
         let canvas;
 
@@ -147,19 +148,26 @@
             const data = canvas.toDataURL('image/png');
             const bytes = Uint8Array.from(atob(data.split(',')[1]), character => character.charCodeAt(0));
             const verseReference = details.verses?.join('-') || details.verse;
-            const file = new File([bytes], `versiculo-${details.bookAbbrev}-${details.chapter}-${verseReference}.png`, { type: 'image/png' });
-            const linkCompartilhamento = new URL('https://share.adoraplay.com.br/compartilhar-biblia');
-            linkCompartilhamento.searchParams.set('livro', details.bookName);
-            linkCompartilhamento.searchParams.set('capitulo', details.chapter);
-            linkCompartilhamento.searchParams.set('versiculos', (details.verses || [details.verse]).join(','));
-            linkCompartilhamento.searchParams.set('versao', details.version || 'acf');
-            const textoCompartilhamento = `${details.reference} — ${details.version?.toUpperCase() || 'ACF'}\n${linkCompartilhamento.href}`;
+            const nomeArquivo = compartilharLinkBiblia
+                ? `versiculo-${details.bookAbbrev}-${details.chapter}-${verseReference}.png`
+                : 'versiculo-do-dia.png';
+            const file = new File([bytes], nomeArquivo, { type: 'image/png' });
+            let linkCompartilhamento = null;
+            if (compartilharLinkBiblia) {
+                linkCompartilhamento = new URL('https://share.adoraplay.com.br/compartilhar-biblia');
+                linkCompartilhamento.searchParams.set('livro', details.bookName);
+                linkCompartilhamento.searchParams.set('capitulo', details.chapter);
+                linkCompartilhamento.searchParams.set('versiculos', details.verses.join(','));
+                linkCompartilhamento.searchParams.set('versao', details.version);
+            }
+            const textoCompartilhamento = compartilharLinkBiblia
+                ? `${details.reference} — ${details.version.toUpperCase()}\n${linkCompartilhamento.href}`
+                : '';
             try {
                 if (navigator.canShare?.({ files: [file] })) {
-                    await navigator.share({
-                        files: [file],
-                        text: textoCompartilhamento
-                    });
+                    await navigator.share(compartilharLinkBiblia
+                        ? { files: [file], text: textoCompartilhamento }
+                        : { files: [file] });
                     closeDialog(dialog);
                     return;
                 }
@@ -169,7 +177,7 @@
                 sendButton.disabled = false;
             }
             try {
-                await navigator.clipboard.writeText(textoCompartilhamento);
+                if (compartilharLinkBiblia) await navigator.clipboard.writeText(textoCompartilhamento);
             } catch (error) {
                 console.warn('Não foi possível copiar o link de compartilhamento:', error);
             }
@@ -179,7 +187,9 @@
             document.body.appendChild(link);
             link.click();
             link.remove();
-            window.alert('A imagem foi baixada e o link da leitura foi copiado. Envie os dois para compartilhar a referência.');
+            window.alert(compartilharLinkBiblia
+                ? 'A imagem foi baixada e o link da leitura foi copiado. Envie os dois para compartilhar a referência.'
+                : 'A imagem do versículo do dia foi baixada.');
         });
 
         panel.append(heading, choices, preview, sendButton);
