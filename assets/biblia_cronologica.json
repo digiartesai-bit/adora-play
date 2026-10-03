@@ -378,7 +378,7 @@
         "livro": "Jó",
         "capitulo": 18,
         "versiculos_estimados": 21,
-        "tempo_estimado_minutos": 3.30,
+        "tempo_estimado_minutos": 3.10,
         "recompensa_bonus": 7
       },
       {
@@ -387,7 +387,7 @@
         "livro": "Jó",
         "capitulo": 19,
         "versiculos_estimados": 29,
-        "tempo_estimado_minutos": 4.50,
+        "tempo_estimado_minutos": 4.15,
         "recompensa_bonus": 10
       },
       {
@@ -396,7 +396,7 @@
         "livro": "Jó",
         "capitulo": 20,
         "versiculos_estimados": 29,
-        "tempo_estimado_minutos": 4.50,
+        "tempo_estimado_minutos": 4.15,
         "recompensa_bonus": 10
       },
       {
@@ -405,7 +405,7 @@
         "livro": "Lucas",
         "capitulo": 8,
         "versiculos_estimados": 56,
-        "tempo_estimado_minutos": 9.20,
+        "tempo_estimado_minutos": 9.00,
         "recompensa_bonus": 19
       }
     ]
