@@ -284,6 +284,11 @@ function aplicarRotaAtual() {
         return;
     }
 
+    if (rota === '/ajustetempo') {
+        if (typeof window.mostrarAjusteTempo === 'function') window.mostrarAjusteTempo();
+        return;
+    }
+
     if (rota === '/quiz/desafios') {
         if (typeof window.mostrarDesafios === 'function') {
             window.mostrarDesafios('abertos');
