@@ -315,7 +315,7 @@ function mostrarResultado(completo) {
     // Mensagem informativa
     mensagemResultado.textContent = completo 
         ? 'Parabéns! Você concluiu todas as perguntas.' 
-        : `Você parou no nível ${Math.floor(sessao.indice / 20) + 1}.`;
+        : `Você parou no nível ${Math.min(13, Math.floor(sessao.acertos / 20) + 1)}.`;
 
     // Se estiver completo, garante que o estado no servidor reflita isso
     if (completo && !sessao.finalizada) { 
