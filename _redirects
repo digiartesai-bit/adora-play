@@ -1,3 +1,4 @@
 /biblia /#/biblia 302
 /biblia/* /#/biblia/:splat 302
-/ajustetempo /ajustetempo.html 302
+/ajustetempo /#/ajustetempo 302
+/ajustetempo.html /#/ajustetempo 302
