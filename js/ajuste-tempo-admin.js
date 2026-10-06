@@ -25,6 +25,19 @@
         element.dataset.kind = kind;
     }
 
+    window.mostrarAjusteTempo = function mostrarAjusteTempo() {
+        [
+            'homeSection', 'jogosSection', 'gamificacaoSection', 'bibliotecaSection',
+            'bibliaSection', 'quizSection', 'quizDesafioSection', 'desafiosSection'
+        ].forEach((id) => {
+            const section = document.getElementById(id);
+            if (section) section.style.display = 'none';
+        });
+        const adminSection = document.getElementById('adminTempoSection');
+        adminSection.hidden = false;
+        adminSection.style.display = 'block';
+    };
+
     async function api(path, options = {}) {
         const response = await fetch(`${API_URL}${path}`, {
             ...options,
