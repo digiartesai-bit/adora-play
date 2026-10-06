@@ -9,7 +9,7 @@
     const barraNivel = document.getElementById('gamificacaoBarraNivel');
     const pontosQuiz = document.getElementById('gamificacaoPontosQuiz');
     const missoesConcluidas = document.getElementById('gamificacaoMissoesConcluidas');
-    const diasConcluidos = document.getElementById('gamificacaoDiasConcluidos');
+    const totalMissoes = document.getElementById('gamificacaoTotalMissoes');
     const mensagem = document.getElementById('gamificacaoMensagem');
     const rankingConsentimento = document.getElementById('gamificacaoRankingConsentimento');
     const rankingMensagem = document.getElementById('gamificacaoRankingMensagem');
@@ -29,7 +29,6 @@
     const timerTempo = document.getElementById('missaoLeituraTempo');
     const timerBotao = document.getElementById('finalizarLeituraMissao');
     const leitorMissao = document.getElementById('leituraMissaoGamificacao');
-    let mostrarAtrasadas = false;
     let carregamentoLeituraMissao = 0;
     let controladorLeituraMissao = null;
 
@@ -47,56 +46,8 @@
         rankingSalvar.disabled = true;
     }
 
-    function dataLocalISO(data = new Date()) {
-        const partes = new Intl.DateTimeFormat('en-CA', {
-            timeZone: 'America/Sao_Paulo', year: 'numeric', month: '2-digit', day: '2-digit'
-        }).formatToParts(data);
-        const valores = Object.fromEntries(partes.map((parte) => [parte.type, parte.value]));
-        return `${valores.year}-${valores.month}-${valores.day}`;
-    }
-
-    function diaDoPlano(inicioPlano) {
-        if (!inicioPlano) return 1;
-        const textoInicio = String(inicioPlano);
-        const dataInicio = /^\d{4}-\d{2}-\d{2}$/.test(textoInicio)
-            ? textoInicio
-            : dataLocalISO(new Date(`${textoInicio.replace(' ', 'T')}Z`));
-        const [ano, mes, dia] = dataInicio.split('-').map(Number);
-        const [anoHoje, mesHoje, diaHoje] = dataLocalISO().split('-').map(Number);
-        const inicioUTC = Date.UTC(ano, mes - 1, dia);
-        const hojeUTC = Date.UTC(anoHoje, mesHoje - 1, diaHoje);
-        return Math.max(1, Math.floor((hojeUTC - inicioUTC) / 86400000) + 1);
-    }
-
     function usuarioAtual() {
         try { return JSON.parse(localStorage.getItem('adoraplayGoogleUser')); } catch { return null; }
-    }
-
-    function chaveInicioPlano() {
-        const usuario = usuarioAtual();
-        return usuario?.google_id ? `adoraplayPlanoBibliaInicio:${usuario.google_id}` : null;
-    }
-
-    function inicioPlanoLocal() {
-        const chave = chaveInicioPlano();
-        return chave ? localStorage.getItem(chave) : null;
-    }
-
-    async function sincronizarInicioPlano(inicioPlano) {
-        const usuario = usuarioAtual();
-        if (!usuario?.google_id || !inicioPlano) return null;
-        const resposta = await fetch(`${API_URL}/api/gamificacao/plano/inicio`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ google_id: usuario.google_id, inicio_plano: inicioPlano })
-        });
-        if (!resposta.ok) throw new Error(`HTTP ${resposta.status} ao sincronizar o início do plano.`);
-        const dados = await resposta.json();
-        if (dados.inicio_plano) {
-            const chave = chaveInicioPlano();
-            if (chave) localStorage.setItem(chave, dados.inicio_plano);
-        }
-        return dados.inicio_plano || null;
     }
 
     function escapar(valor) {
@@ -184,7 +135,7 @@
             lista.innerHTML = `
                 <div class="gamificacao-login-aviso">
                     <strong>Faça login para participar</strong>
-                    <p>Entre com Google para acumular XP, concluir missões diárias e acompanhar seu nível.</p>
+                    <p>Entre com Google para acumular XP, avançar no plano de leitura e acompanhar seu nível.</p>
                     <button type="button" class="btn principal" onclick="document.getElementById('googleSignInButton')?.click()">
                         Entrar com Google
                     </button>
@@ -196,7 +147,7 @@
             barraNivel.style.width = '0%';
             pontosQuiz.textContent = '0';
             missoesConcluidas.textContent = '0';
-            diasConcluidos.textContent = '0';
+            totalMissoes.textContent = '0';
             return;
         }
 
@@ -215,35 +166,27 @@
         barraNivel.style.width = `${Number.isFinite(progressoNivel) ? Math.min(100, Math.max(0, progressoNivel)) : 0}%`;
         pontosQuiz.textContent = resumo.pontos_quiz || 0;
         missoesConcluidas.textContent = resumo.missoes_concluidas || 0;
-        diasConcluidos.textContent = resumo.dias_concluidos || 0;
-        mensagem.textContent = 'As missões permanecem disponíveis até você concluí-las.';
+        const quantidadeMissoes = Number(resumo.total_missoes) || painelAtual?.missoes?.length || 0;
+        const quantidadeConcluidas = Number(resumo.missoes_concluidas) || 0;
+        totalMissoes.textContent = Math.max(0, quantidadeMissoes - quantidadeConcluidas);
+        mensagem.textContent = 'Conclua uma missão para liberar a próxima. Não há prazo.';
 
         const missoes = painelAtual?.missoes || [];
-        const diaAtual = diaDoPlano(painelAtual?.inicio_plano);
-        const doDia = missoes.filter((missao) => Number(missao.dia) === diaAtual);
-        const atrasadas = missoes.filter((missao) => Number(missao.dia) < diaAtual && !missao.concluida);
-        const exibidas = mostrarAtrasadas ? atrasadas : doDia;
-        const botaoAtrasadas = atrasadas.length
-            ? `<button type="button" class="btn-acao-desafio" id="alternarMissoesAtrasadas">${mostrarAtrasadas ? 'Voltar para hoje' : `Missões atrasadas (${atrasadas.length})`}</button>`
-            : '';
-        const cards = exibidas.map((item) => `
-                <article class="missao-gamificacao ${item.concluida ? 'is-concluida' : ''}">
-                    <div>
-                        <strong>${escapar(item.titulo)}</strong>
-                        <small>${Number(item.versiculos_estimados) || 0} versículos · ${Number(item.recompensa_bonus) || 0} pontos ao concluir</small>
-                    </div>
-                    <div class="missao-acoes">
-                        ${item.concluida
-                            ? '<span class="missao-status">Concluída</span>'
-                            : `<button type="button" class="link-button" onclick="window.abrirMissaoGamificacao('${escapar(item.livro)}', ${item.capitulo}, '${escapar(item.id_missao)}', ${Number(item.tempo_estimado_minutos) || 1}, '${escapar(item.titulo)}', false, ${Number(item.dia)})">Ler</button>`}
-                    </div>
-                </article>`).join('');
-        const resumoDia = `${exibidas.filter((item) => item.concluida).length}/${exibidas.length} concluídas`;
-        lista.innerHTML = `${botaoAtrasadas}<section class="dia-gamificacao"><div class="dia-gamificacao-header"><h3>${mostrarAtrasadas ? 'Missões atrasadas' : `Missões do dia ${diaAtual}`}</h3><small>${resumoDia}</small></div>${cards || `<p class="empty-state">${mostrarAtrasadas ? 'Nenhuma missão atrasada.' : 'Nenhuma missão prevista para hoje.'}</p>`}</section>`;
-        document.getElementById('alternarMissoesAtrasadas')?.addEventListener('click', () => {
-            mostrarAtrasadas = !mostrarAtrasadas;
-            renderizarPainel();
-        });
+        const concluidas = missoes.filter((missao) => missao.concluida).length;
+        const missaoAtual = missoes.find((missao) => !missao.concluida);
+        const card = missaoAtual ? `
+            <article class="missao-gamificacao">
+                <div>
+                    <strong>${escapar(missaoAtual.titulo)}</strong>
+                    <small>${Number(missaoAtual.versiculos_estimados) || 0} versículos · ${Number(missaoAtual.recompensa_bonus) || 0} pontos ao concluir</small>
+                </div>
+                <div class="missao-acoes">
+                    <button type="button" class="link-button" onclick="window.abrirMissaoGamificacao('${escapar(missaoAtual.livro)}', ${missaoAtual.capitulo}, '${escapar(missaoAtual.id_missao)}', ${Number(missaoAtual.tempo_estimado_minutos) || 1}, '${escapar(missaoAtual.titulo)}', false)">Ler</button>
+                </div>
+            </article>`
+            : `<p class="empty-state">${missoes.length ? 'Você concluiu todas as missões do plano.' : 'Nenhuma missão disponível.'}</p>`;
+        const tituloProgresso = missaoAtual ? `Missão ${concluidas + 1} de ${missoes.length}` : 'Plano concluído';
+        lista.innerHTML = `<section class="dia-gamificacao"><div class="dia-gamificacao-header"><h3>${tituloProgresso}</h3><small>${concluidas} concluídas</small></div>${card}</section>`;
     }
 
     async function carregarPainel() {
@@ -264,16 +207,6 @@
             painelAtual = await resposta.json();
             rankingPermitido = Boolean(await window.carregarPreferenciaRankingQuiz?.(usuario.google_id));
             window.dispatchEvent(new CustomEvent('adoraplay:ranking-permissao', { detail: { permitido: rankingPermitido } }));
-            const inicioLocal = inicioPlanoLocal();
-            if (inicioLocal) {
-                try {
-                    painelAtual.inicio_plano = await sincronizarInicioPlano(inicioLocal) || painelAtual.inicio_plano;
-                } catch (erro) {
-                    console.warn('Não foi possível sincronizar a data de início do plano:', erro.message);
-                }
-            }
-            const chave = chaveInicioPlano();
-            if (painelAtual.inicio_plano && chave) localStorage.setItem(chave, painelAtual.inicio_plano);
             renderizarPainel();
             renderizarConsentimentoRanking();
         } catch (erro) {
@@ -338,18 +271,7 @@
         await window.carregarRankingQuiz?.();
     });
 
-    window.abrirMissaoGamificacao = function abrirMissaoGamificacao(livro, capitulo, idMissao, minutos, titulo, concluida, diaMissao) {
-        if (!painelAtual?.inicio_plano && Number(diaMissao) === 1) {
-            const inicio = dataLocalISO();
-            const chave = chaveInicioPlano();
-            if (chave) localStorage.setItem(chave, inicio);
-            if (painelAtual) painelAtual.inicio_plano = inicio;
-            sincronizarInicioPlano(inicio).then((inicioSincronizado) => {
-                if (!inicioSincronizado) return;
-                if (painelAtual) painelAtual.inicio_plano = inicioSincronizado;
-                renderizarPainel();
-            }).catch((erro) => console.warn('Não foi possível salvar o início do plano:', erro.message));
-        }
+    window.abrirMissaoGamificacao = function abrirMissaoGamificacao(livro, capitulo, idMissao, minutos, titulo, concluida) {
         if (!concluida) window.iniciarTimerMissaoBiblia?.({ idMissao, minutos, titulo });
         if (!leitorMissao) return;
         controladorLeituraMissao?.abort();
@@ -408,7 +330,6 @@
                 leitorMissao.hidden = true;
                 leitorMissao.replaceChildren();
             }
-            mostrarAtrasadas = false;
             await carregarPainel();
         } catch (erro) {
             if (!automatica) window.mostrarToast?.(erro.message || 'Não foi possível concluir a missão.', 'erro');
