@@ -634,6 +634,21 @@ button {
     background: rgba(255,255,255,0.05);
 }
 
+.resultados-sugestao .sugestao-grupo-titulo {
+    display: block;
+    padding: 8px 18px 5px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    color: #aebdce;
+    cursor: default;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.resultados-sugestao .sugestao-grupo-titulo:hover {
+    background: transparent;
+}
+
 .resultados-sugestao .busca-estilo {
     font-size: 10px;
     background: rgba(212,175,55,0.15);
