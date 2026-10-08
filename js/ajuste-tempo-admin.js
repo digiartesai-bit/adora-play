@@ -1,8 +1,6 @@
 (function () {
-    const CLIENT_ID = '674847926774-7b1n759ots2bt8nkn9pmglmr6hpkee2e.apps.googleusercontent.com';
+    const ADMIN_EMAIL = 'digiartesai@gmail.com';
     const API_URL = 'https://adoraplay-api.digiartesai.workers.dev';
-    const loginSection = document.getElementById('adminTempoLogin');
-    const loginButton = document.getElementById('adminTempoEntrar');
     const panel = document.getElementById('adminTempoPainel');
     const search = document.getElementById('adminTempoBusca');
     const rows = document.getElementById('adminTempoLinhas');
@@ -10,7 +8,6 @@
     const message = document.getElementById('adminTempoMensagem');
     const refreshButton = document.getElementById('adminTempoAtualizar');
     const logoutButton = document.getElementById('adminTempoSair');
-    let tokenClient = null;
     let accessToken = null;
     let missions = [];
 
@@ -25,7 +22,35 @@
         element.dataset.kind = kind;
     }
 
-    window.mostrarAjusteTempo = function mostrarAjusteTempo() {
+    function lerSessaoAdmin() {
+        try {
+            const usuario = JSON.parse(localStorage.getItem('adoraplayGoogleUser'));
+            const sessao = JSON.parse(localStorage.getItem('adoraplayGoogleToken'));
+            if (usuario?.email?.toLowerCase() !== ADMIN_EMAIL) return null;
+            if (!sessao?.token || sessao.expira <= Date.now()) return null;
+            return sessao.token;
+        } catch {
+            return null;
+        }
+    }
+
+    function voltarParaHome() {
+        window.navegarPorRota?.('/', { replace: true });
+        window.mostrarHome?.({ preservarRota: true });
+    }
+
+    window.mostrarAjusteTempo = async function mostrarAjusteTempo() {
+        accessToken = lerSessaoAdmin();
+        if (!accessToken) return voltarParaHome();
+
+        try {
+            const data = await api('/api/admin/gamificacao/missoes');
+            missions = data.missoes || [];
+        } catch {
+            accessToken = null;
+            return voltarParaHome();
+        }
+
         [
             'homeSection', 'jogosSection', 'gamificacaoSection', 'bibliotecaSection',
             'bibliaSection', 'quizSection', 'quizDesafioSection', 'desafiosSection'
@@ -36,6 +61,8 @@
         const adminSection = document.getElementById('adminTempoSection');
         adminSection.hidden = false;
         adminSection.style.display = 'block';
+        panel.hidden = false;
+        renderMissions();
     };
 
     async function api(path, options = {}) {
@@ -81,80 +108,23 @@
         try {
             const data = await api('/api/admin/gamificacao/missoes');
             missions = data.missoes || [];
-            loginSection.hidden = true;
-            panel.hidden = false;
             renderMissions();
-            setMessage(message, 'Acesso administrativo autorizado.', 'success');
         } catch (error) {
             setMessage(status, error.message, 'error');
-            setMessage(message, error.message, 'error');
-            if (/inválida|expirada|restrito/i.test(error.message)) {
-                accessToken = null;
-                panel.hidden = true;
-                loginSection.hidden = false;
-            }
         } finally {
             refreshButton.disabled = false;
         }
     }
 
-    async function concluirLogin(response) {
-        if (response.error || !response.access_token) {
-            setMessage(message, 'Não foi possível entrar com Google.', 'error');
-            return;
-        }
-        accessToken = response.access_token;
-        loginButton.disabled = true;
-        setMessage(message, 'Verificando a conta Google...');
-        try {
-            const profileResponse = await fetch('https://www.googleapis.com/oauth2/v3/userinfo', {
-                headers: { Authorization: `Bearer ${accessToken}` }
-            });
-            if (!profileResponse.ok) throw new Error('Não foi possível validar a conta Google.');
-            const profile = await profileResponse.json();
-            if (profile.email?.toLowerCase() !== 'digiartesai@gmail.com' || profile.email_verified !== true) {
-                accessToken = null;
-                throw new Error('Esta página é restrita à conta administradora verificada.');
-            }
-            await carregarMissoes();
-        } catch (error) {
-            setMessage(message, error.message, 'error');
-        } finally {
-            loginButton.disabled = false;
-        }
-    }
-
-    function inicializarGoogle() {
-        if (!window.google?.accounts?.oauth2) {
-            window.setTimeout(inicializarGoogle, 100);
-            return;
-        }
-        tokenClient = window.google.accounts.oauth2.initTokenClient({
-            client_id: CLIENT_ID,
-            scope: 'openid email profile',
-            callback: concluirLogin
-        });
-        loginButton.addEventListener('click', () => {
-            setMessage(message, '');
-            tokenClient.requestAccessToken({ prompt: 'select_account' });
-        });
-    }
-
-    loginSection.hidden = false;
-    panel.hidden = true;
-    loginButton.addEventListener('click', () => setMessage(message, 'Abrindo login do Google...'), { once: true });
     search.addEventListener('input', renderMissions);
     refreshButton.addEventListener('click', carregarMissoes);
     logoutButton.addEventListener('click', () => {
-        if (accessToken && window.google?.accounts?.oauth2) {
-            window.google.accounts.oauth2.revoke(accessToken, () => {});
-        }
         accessToken = null;
         missions = [];
         rows.replaceChildren();
         panel.hidden = true;
-        loginSection.hidden = false;
-        setMessage(message, 'Sessão administrativa encerrada.');
+        document.getElementById('adminTempoSection').hidden = true;
+        voltarParaHome();
     });
     rows.addEventListener('click', async (event) => {
         const button = event.target.closest('.admin-tempo-save');
@@ -188,6 +158,4 @@
             button.disabled = false;
         }
     });
-
-    inicializarGoogle();
 }());
