@@ -1,0 +1,112 @@
+.tour-travado,
+.tour-travado body {
+    overflow: hidden !important;
+}
+
+.tour-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    touch-action: none;
+}
+
+.tour-destaque {
+    position: fixed;
+    z-index: 10001;
+    border-radius: 10px;
+    box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.72), 0 0 0 2px #d4af35;
+    pointer-events: none;
+    transition: top 0.2s, left 0.2s, width 0.2s, height 0.2s;
+}
+
+.tour-caixa {
+    position: fixed;
+    z-index: 10002;
+    width: min(320px, calc(100vw - 24px));
+    box-sizing: border-box;
+    padding: 16px;
+    border-radius: 12px;
+    background: #0d1b28;
+    color: #fff;
+    border: 1px solid #d4af35;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.tour-caixa h3 {
+    margin: 4px 0 6px;
+    font-size: 1.05rem;
+    color: #d4af35;
+}
+
+.tour-caixa p {
+    margin: 0 0 14px;
+    font-size: 0.92rem;
+    line-height: 1.4;
+}
+
+.tour-contador {
+    font-size: 0.75rem;
+    opacity: 0.7;
+}
+
+.tour-acoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.tour-acoes button {
+    font: inherit;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 8px 14px;
+}
+
+.tour-nao-exibir {
+    background: transparent;
+    border: 0;
+    color: #fff;
+    opacity: 0.75;
+    text-decoration: underline;
+    padding: 8px 0;
+}
+
+.tour-proximo {
+    background: #d4af35;
+    color: #050e16;
+    border: 0;
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    .tour-caixa {
+        width: min(250px, calc(100vw - 24px));
+        padding: 10px 12px;
+        border-radius: 10px;
+    }
+
+    .tour-caixa h3 {
+        margin: 2px 0 4px;
+        font-size: 0.9rem;
+    }
+
+    .tour-caixa p {
+        margin: 0 0 10px;
+        font-size: 0.78rem;
+        line-height: 1.35;
+    }
+
+    .tour-contador {
+        font-size: 0.65rem;
+    }
+
+    .tour-acoes button {
+        font-size: 0.75rem;
+        padding: 6px 10px;
+    }
+
+    .tour-nao-exibir {
+        padding: 6px 0;
+    }
+}
