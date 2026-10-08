@@ -162,6 +162,8 @@ function inicializarInstalacaoPWA() {
 window.addEventListener('beforeinstallprompt', (e) => {
     e.preventDefault();
     instaladorPrompt = e;
+    // O evento só dispara se o app não está instalado; a flag pode ser de uma instalação removida.
+    localStorage.removeItem('pwaInstalado');
     mostrarBotao();
 });
 
