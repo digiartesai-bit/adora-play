@@ -15,6 +15,29 @@
     }
 
     let bibliaAbertaPeloTour = false;
+    let tourAgendado = false;
+
+    function usuarioAtual() {
+        try {
+            return JSON.parse(localStorage.getItem('adoraplayGoogleUser'));
+        } catch {
+            return null;
+        }
+    }
+
+    function atualizarAvisoVisitante() {
+        const aviso = document.getElementById('guestLoginNotice');
+        if (aviso) aviso.hidden = Boolean(usuarioAtual()?.google_id);
+    }
+
+    function agendarTour() {
+        if (tourAgendado || !deveIniciar()) return;
+        tourAgendado = true;
+        window.setTimeout(() => {
+            if (deveIniciar() && !document.querySelector('.tour-caixa')) iniciar();
+            else tourAgendado = false;
+        }, 1200);
+    }
 
     // A Bíblia rola a página com animação; espera parar antes de medir o alvo.
     async function estabilizar(el) {
@@ -69,7 +92,7 @@
 
     const passos = [
         { alvo: '#search-input', titulo: 'Busca', texto: 'Pesquise músicas e livros da Bíblia por aqui.' },
-        { alvo: '#googleSignInButton, #googleUser', titulo: 'Sua conta', texto: 'Entre com o Google para salvar favoritos, anotações e participar do ranking.', menu: true },
+        { alvo: '#abrirPreferencias', titulo: 'Preferências', texto: 'Veja seus dados, controle a exibição no ranking, escolha a versão da Bíblia, instale o app ou encerre sua conta.', menu: true },
         { alvo: '#btnInstall.mostrar-btn', titulo: 'Instalar', texto: 'Instale o AdoraPlay no seu aparelho para abrir como um app.', menu: true },
         { alvo: '#btnBiblioteca', titulo: 'Biblioteca', texto: 'Todas as músicas e seus favoritos em um só lugar.', menu: true },
         { alvo: '#btnJogos', titulo: 'Jogos', texto: 'Missões de leitura, quiz e desafios com amigos.', menu: true },
@@ -194,6 +217,7 @@
     }
 
     function iniciar() {
+        if (!deveIniciar()) return;
         lista = passos.slice();
         indice = 0;
 
@@ -218,16 +242,29 @@
 
     function deveIniciar() {
         if (GRAVAR_FLAG && localStorage.getItem(CHAVE) === '1') return false;
+        if (!usuarioAtual()?.google_id) return false;
         const params = new URLSearchParams(window.location.search);
-        return !params.get('id') && !params.get('desafio');
+        const rota = (window.location.hash || '').replace(/^#/, '');
+        return !params.get('id') && !params.get('desafio') && rota !== '/preferencias';
     }
 
     window.iniciarTourAdoraPlay = iniciar;
 
     window.addEventListener('load', () => {
-        if (!deveIniciar()) return;
-        setTimeout(() => {
-            if (deveIniciar() && !document.querySelector('.tour-caixa')) iniciar();
-        }, 1200);
+        atualizarAvisoVisitante();
+        agendarTour();
+    });
+
+    window.addEventListener('adoraplay:login', () => {
+        atualizarAvisoVisitante();
+        agendarTour();
+    });
+    window.addEventListener('adoraplay:logout', atualizarAvisoVisitante);
+
+    document.getElementById('guestLoginNoticeFechar')?.addEventListener('click', () => {
+        document.getElementById('guestLoginNotice').hidden = true;
+    });
+    document.getElementById('guestLoginNoticeEntrar')?.addEventListener('click', () => {
+        document.getElementById('googleSignInButton')?.click();
     });
 })();
