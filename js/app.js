@@ -225,6 +225,12 @@ function aplicarRotaAtual() {
     const rota = obterRotaAtual();
     const params = new URLSearchParams(window.location.search);
 
+    if (rota === '/preferencias') {
+        window.mostrarPreferencias?.({ viaRota: true });
+        return;
+    }
+    window.fecharPreferencias?.();
+
     if (rota !== '/biblia' && !rota.startsWith('/biblia/')) {
         window.limparBiblia?.();
     }
