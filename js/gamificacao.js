@@ -155,7 +155,8 @@
         totalPontos.textContent = resumo.total_pontos || 0;
         const nivelAtual = Number(resumo.nivel) || 0;
         nivel.textContent = `${nivelAtual}/${resumo.nivel_maximo || 99}`;
-        nivelTexto.textContent = `Nível ${nivelAtual}`;
+        const estrelas = Math.min(5, Number(resumo.estrelas) || 0);
+        nivelTexto.textContent = `Nível ${nivelAtual}${estrelas ? ` ${'★'.repeat(estrelas)}` : ''}`;
         const pontosTotais = Number(resumo.total_pontos) || 0;
         const pontosNivelAtual = Number(resumo.pontos_nivel_atual) || 0;
         const pontosProximoNivel = Number(resumo.pontos_proximo_nivel);
@@ -169,7 +170,9 @@
         const quantidadeMissoes = Number(resumo.total_missoes) || painelAtual?.missoes?.length || 0;
         const quantidadeConcluidas = Number(resumo.missoes_concluidas) || 0;
         totalMissoes.textContent = Math.max(0, quantidadeMissoes - quantidadeConcluidas);
-        mensagem.textContent = 'Conclua uma missão para liberar a próxima. Não há prazo.';
+        mensagem.textContent = resumo.revisao
+            ? 'Ciclo de revisão: as missões não somam novos pontos, e seus pontos e estrelas ficam guardados.'
+            : 'Conclua uma missão para liberar a próxima. Não há prazo.';
 
         const missoes = painelAtual?.missoes || [];
         const concluidas = missoes.filter((missao) => missao.concluida).length;
@@ -178,13 +181,18 @@
             <article class="missao-gamificacao">
                 <div>
                     <strong>${escapar(missaoAtual.titulo)}</strong>
-                    <small>${Number(missaoAtual.versiculos_estimados) || 0} versículos · ${Number(missaoAtual.recompensa_bonus) || 0} pontos ao concluir</small>
+                    <small>${Number(missaoAtual.versiculos_estimados) || 0} versículos · ${resumo.revisao ? 'revisão, sem novos pontos' : `${Number(missaoAtual.recompensa_bonus) || 0} pontos ao concluir`}</small>
                 </div>
                 <div class="missao-acoes">
                     <button type="button" class="link-button" onclick="window.abrirMissaoGamificacao('${escapar(missaoAtual.livro)}', ${missaoAtual.capitulo}, '${escapar(missaoAtual.id_missao)}', ${Number(missaoAtual.tempo_estimado_minutos) || 1}, '${escapar(missaoAtual.titulo)}', false)">Ler</button>
                 </div>
             </article>`
-            : `<p class="empty-state">${missoes.length ? 'Você concluiu todas as missões do plano.' : 'Nenhuma missão disponível.'}</p>`;
+            : (missoes.length ? `
+                <div class="gamificacao-login-aviso">
+                    <strong>Plano concluído! ${'★'.repeat(Math.max(1, estrelas))}</strong>
+                    <p>Você concluiu as ${missoes.length} missões${estrelas >= 5 ? ' e já tem o máximo de 5 estrelas' : ' e ganhou uma estrela ao lado do seu nível'}. Um novo ciclo é de revisão: não rende novos pontos, e seus pontos e estrelas ficam guardados.</p>
+                    ${resumo.pode_reiniciar ? '<button type="button" class="btn principal" onclick="window.reiniciarPlanoGamificacao()">Iniciar novo ciclo</button>' : ''}
+                </div>` : '<p class="empty-state">Nenhuma missão disponível.</p>');
         const tituloProgresso = missaoAtual ? `Missão ${concluidas + 1} de ${missoes.length}` : 'Plano concluído';
         lista.innerHTML = `<section class="dia-gamificacao"><div class="dia-gamificacao-header"><h3>${tituloProgresso}</h3><small>${concluidas} concluídas</small></div>${card}</section>`;
     }
@@ -284,11 +292,17 @@
         const nomeArquivo = normalizarLivro(livro).replace(/^gn$/, 'genesis');
         const normalizarChave = (valor) => String(valor || '').normalize('NFD')
             .replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
-        Promise.all([
-            fetch(`biblias/acf/${nomeArquivo}.json`, { signal: sinal }).then((resposta) => {
+        const versaoLeitura = window.obterVersaoBiblia?.() || 'acf';
+        const carregarLivroMissao = async () => {
+            let resposta = await fetch(`biblias/${versaoLeitura}/${nomeArquivo}.json`, { signal: sinal });
+            if (!resposta.ok && versaoLeitura !== 'acf') {
+                resposta = await fetch(`biblias/acf/${nomeArquivo}.json`, { signal: sinal });
+            }
             if (!resposta.ok) throw new Error('Não foi possível carregar este capítulo.');
             return resposta.json();
-            }),
+        };
+        Promise.all([
+            carregarLivroMissao(),
             fetch(`biblias/capitulos/${nomeArquivo}.json`, { signal: sinal })
                 .then((resposta) => resposta.ok ? resposta.json() : null)
                 .catch((erro) => {
@@ -325,7 +339,8 @@
             const dados = await resposta.json().catch(() => null);
             if (!resposta.ok) throw new Error(dados?.error || `HTTP ${resposta.status}`);
             if (missaoTimerAtual?.idMissao === idMissao) pararTimerMissao();
-            window.mostrarToast?.(`Missão concluída! +${dados.pontos_ganhos} pontos.`, 'sucesso');
+            window.mostrarToast?.(dados.revisao ? 'Missão revisada.' : `Missão concluída! +${dados.pontos_ganhos} pontos.`, 'sucesso');
+            if (dados.plano_completo) window.mostrarToast?.('Parabéns! Você concluiu todas as missões e ganhou uma estrela.', 'sucesso');
             if (leitorMissao) {
                 leitorMissao.hidden = true;
                 leitorMissao.replaceChildren();
@@ -333,6 +348,25 @@
             await carregarPainel();
         } catch (erro) {
             if (!automatica) window.mostrarToast?.(erro.message || 'Não foi possível concluir a missão.', 'erro');
+        }
+    };
+
+    window.reiniciarPlanoGamificacao = async function reiniciarPlanoGamificacao() {
+        const usuario = usuarioAtual();
+        if (!usuario?.google_id) return;
+        if (!window.confirm('Iniciar um novo ciclo? Seus pontos e estrelas ficam guardados, mas as missões voltam ao início e passam a valer só como revisão, sem novos pontos.')) return;
+        try {
+            const resposta = await fetch(`${API_URL}/api/gamificacao/plano/reiniciar`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ google_id: usuario.google_id, inicio_plano: new Date().toLocaleDateString('sv-SE') })
+            });
+            const dados = await resposta.json().catch(() => null);
+            if (!resposta.ok) throw new Error(dados?.error || `HTTP ${resposta.status}`);
+            window.mostrarToast?.('Novo ciclo iniciado.', 'sucesso');
+            await carregarPainel();
+        } catch (erro) {
+            window.mostrarToast?.(erro.message || 'Não foi possível iniciar o novo ciclo.', 'erro');
         }
     };
 
