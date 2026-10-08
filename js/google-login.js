@@ -45,8 +45,11 @@
             };
 
             localStorage.setItem(STORAGE_KEY, JSON.stringify(user));
+            localStorage.setItem('adoraplayGoogleToken', JSON.stringify({
+                token: resposta.access_token,
+                expira: Date.now() + (Number(resposta.expires_in) || 3600) * 1000 - 60000
+            }));
             exibirUsuario(user);
-            window.dispatchEvent(new CustomEvent('adoraplay:login', { detail: user }));
 
             try {
                 const respostaLogin = await fetch(`${API_URL}/api/login-google`, {
@@ -63,6 +66,7 @@
             } catch (error) {
                 console.warn('Sessão Google iniciada, mas não foi possível sincronizar no Cloudflare:', error.message);
             }
+            window.dispatchEvent(new CustomEvent('adoraplay:login', { detail: user }));
         } catch (error) {
             console.error('Não foi possível concluir o login Google.', error);
         }
@@ -96,6 +100,7 @@
 
     signOut?.addEventListener('click', () => {
         localStorage.removeItem(STORAGE_KEY);
+        localStorage.removeItem('adoraplayGoogleToken');
         window.dispatchEvent(new Event('adoraplay:logout'));
         mostrarLogin();
     });
