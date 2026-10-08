@@ -116,6 +116,8 @@
         localStorage.removeItem(TOKEN_KEY);
         window.dispatchEvent(new Event('adoraplay:logout'));
         mostrarLogin();
+        window.navegarPorRota?.('/', { replace: true });
+        window.mostrarHome?.({ preservarRota: true });
     };
 
     // Deve ser chamada direto de um clique, senão o navegador bloqueia o popup do Google.
