@@ -7,8 +7,24 @@
     const userBox = document.getElementById('googleUser');
     const avatar = document.getElementById('googleUserAvatar');
     const userName = document.getElementById('googleUserName');
-    const signOut = document.getElementById('googleSignOut');
+    const TOKEN_KEY = 'adoraplayGoogleToken';
     let tokenClient;
+
+    function lerToken() {
+        try {
+            const sessao = JSON.parse(localStorage.getItem(TOKEN_KEY));
+            return sessao?.token && sessao.expira > Date.now() ? sessao.token : null;
+        } catch {
+            return null;
+        }
+    }
+
+    function salvarToken(resposta) {
+        localStorage.setItem(TOKEN_KEY, JSON.stringify({
+            token: resposta.access_token,
+            expira: Date.now() + (Number(resposta.expires_in) || 3600) * 1000 - 60000
+        }));
+    }
 
     function exibirUsuario(user) {
         if (!user || !user.name || !userBox) return;
@@ -45,10 +61,7 @@
             };
 
             localStorage.setItem(STORAGE_KEY, JSON.stringify(user));
-            localStorage.setItem('adoraplayGoogleToken', JSON.stringify({
-                token: resposta.access_token,
-                expira: Date.now() + (Number(resposta.expires_in) || 3600) * 1000 - 60000
-            }));
+            salvarToken(resposta);
             exibirUsuario(user);
 
             try {
@@ -98,12 +111,39 @@
         localStorage.removeItem(STORAGE_KEY);
     }
 
-    signOut?.addEventListener('click', () => {
+    window.sairDaContaGoogle = function sairDaContaGoogle() {
         localStorage.removeItem(STORAGE_KEY);
-        localStorage.removeItem('adoraplayGoogleToken');
+        localStorage.removeItem(TOKEN_KEY);
         window.dispatchEvent(new Event('adoraplay:logout'));
         mostrarLogin();
-    });
+    };
+
+    // Deve ser chamada direto de um clique, senão o navegador bloqueia o popup do Google.
+    window.adoraplayObterTokenGoogle = function adoraplayObterTokenGoogle() {
+        const guardado = lerToken();
+        if (guardado) return Promise.resolve(guardado);
+        return new Promise((resolve, reject) => {
+            if (!window.google?.accounts?.oauth2) return reject(new Error('Login do Google indisponível.'));
+            let usuario = null;
+            try {
+                usuario = JSON.parse(localStorage.getItem(STORAGE_KEY));
+            } catch {
+                usuario = null;
+            }
+            window.google.accounts.oauth2.initTokenClient({
+                client_id: CLIENT_ID,
+                scope: 'openid email profile',
+                callback: (resposta) => {
+                    if (resposta.error || !resposta.access_token) {
+                        return reject(new Error('Não foi possível confirmar sua sessão.'));
+                    }
+                    salvarToken(resposta);
+                    resolve(resposta.access_token);
+                },
+                error_callback: () => reject(new Error('Confirmação cancelada ou bloqueada pelo navegador.'))
+            }).requestAccessToken({ prompt: '', ...(usuario?.email ? { login_hint: usuario.email } : {}) });
+        });
+    };
 
     inicializarGoogle();
 })();
