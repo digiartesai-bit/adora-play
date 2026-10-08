@@ -1,7 +1,6 @@
 (function () {
     const CHAVE = 'tourConcluido';
-    // Em revisão: com false o tour reaparece sempre. Trocar para true ao finalizar.
-    const GRAVAR_FLAG = false;
+    const GRAVAR_FLAG = true;
 
     const pausa = (ms) => new Promise((r) => setTimeout(r, ms));
 
