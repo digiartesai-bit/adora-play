@@ -233,6 +233,12 @@ function inicializarAjudaNivelTematico() {
     document.addEventListener('scroll', () => { popover.hidden = true; }, { passive: true });
 }
 
+function estrelasRanking(quantidade) {
+    const total = Math.min(5, Math.max(0, Number(quantidade) || 0));
+    if (!total) return '';
+    return `<small class="ranking-estrelas" title="${total} ${total === 1 ? 'plano de leitura concluído' : 'planos de leitura concluídos'}">${'★'.repeat(total)}</small>`;
+}
+
 function criarCardIndividualRanking(item, indice) {
     const nivel = Number(item.nivel) || 0;
     const faixa = faixaTematicaNivel(nivel);
@@ -240,7 +246,7 @@ function criarCardIndividualRanking(item, indice) {
     inicializarAjudaNivelTematico();
     return `
         <article class="quiz-ranking-item">
-            <span class="quiz-ranking-medalha">${medalhaOuPosicao(indice)}</span>
+            <span class="quiz-ranking-medalha">${medalhaOuPosicao(indice)}${estrelasRanking(item.estrelas)}</span>
             <img src="${escaparTextoRanking(item.foto || 'assets/icons/profile.svg')}" alt="" onerror="this.src='assets/icons/profile.svg'">
             <div class="quiz-ranking-identidade">
                 <strong>${escaparTextoRanking(item.nome || 'Jogador')}</strong>
