@@ -1,11 +1,15 @@
 (function () {
     const ADMIN_EMAIL = 'digiartesai@gmail.com';
+    const CLIENT_ID = '674847926774-7b1n759ots2bt8nkn9pmglmr6hpkee2e.apps.googleusercontent.com';
     const API_URL = 'https://adoraplay-api.digiartesai.workers.dev';
     const panel = document.getElementById('adminTempoPainel');
     const search = document.getElementById('adminTempoBusca');
     const rows = document.getElementById('adminTempoLinhas');
     const status = document.getElementById('adminTempoStatus');
     const message = document.getElementById('adminTempoMensagem');
+    const loginSection = document.getElementById('adminTempoLogin');
+    const loginButton = document.getElementById('adminTempoEntrar');
+    const loginStatus = document.getElementById('adminTempoLoginStatus');
     const refreshButton = document.getElementById('adminTempoAtualizar');
     const logoutButton = document.getElementById('adminTempoSair');
     let accessToken = null;
@@ -34,23 +38,15 @@
         }
     }
 
-    function voltarParaHome() {
-        window.navegarPorRota?.('/', { replace: true });
-        window.mostrarHome?.({ preservarRota: true });
+    function usuarioSalvo() {
+        try {
+            return JSON.parse(localStorage.getItem('adoraplayGoogleUser'));
+        } catch {
+            return null;
+        }
     }
 
-    window.mostrarAjusteTempo = async function mostrarAjusteTempo() {
-        accessToken = lerSessaoAdmin();
-        if (!accessToken) return voltarParaHome();
-
-        try {
-            const data = await api('/api/admin/gamificacao/missoes');
-            missions = data.missoes || [];
-        } catch {
-            accessToken = null;
-            return voltarParaHome();
-        }
-
+    function mostrarPaginaAdmin() {
         [
             'homeSection', 'jogosSection', 'gamificacaoSection', 'bibliotecaSection',
             'bibliaSection', 'quizSection', 'quizDesafioSection', 'desafiosSection'
@@ -61,6 +57,81 @@
         const adminSection = document.getElementById('adminTempoSection');
         adminSection.hidden = false;
         adminSection.style.display = 'block';
+    }
+
+    function solicitarLogin(texto = 'Sua sessão administrativa expirou. Entre novamente para continuar.') {
+        accessToken = null;
+        panel.hidden = true;
+        loginSection.hidden = false;
+        setMessage(loginStatus, texto);
+    }
+
+    function autenticarAdminPorClique() {
+        if (!window.google?.accounts?.oauth2) {
+            setMessage(loginStatus, 'O login do Google ainda está carregando. Tente novamente.', 'error');
+            return;
+        }
+
+        loginButton.disabled = true;
+        setMessage(loginStatus, 'Aguardando confirmação do Google...');
+        window.google.accounts.oauth2.initTokenClient({
+            client_id: CLIENT_ID,
+            scope: 'openid email profile',
+            callback: async (resposta) => {
+                if (resposta.error || !resposta.access_token) {
+                    loginButton.disabled = false;
+                    return setMessage(loginStatus, 'Não foi possível renovar a sessão. Tente novamente.', 'error');
+                }
+
+                try {
+                    const perfilResposta = await fetch('https://www.googleapis.com/oauth2/v3/userinfo', {
+                        headers: { Authorization: `Bearer ${resposta.access_token}` }
+                    });
+                    if (!perfilResposta.ok) throw new Error('O Google não confirmou a conta.');
+                    const perfil = await perfilResposta.json();
+                    if (perfil.email?.toLowerCase() !== ADMIN_EMAIL || perfil.email_verified !== true) {
+                        throw new Error('Use a conta Google administradora do AdoraPlay.');
+                    }
+                    localStorage.setItem('adoraplayGoogleToken', JSON.stringify({
+                        token: resposta.access_token,
+                        expira: Date.now() + (Number(resposta.expires_in) || 3600) * 1000 - 60000
+                    }));
+                    await window.mostrarAjusteTempo();
+                } catch (error) {
+                    loginButton.disabled = false;
+                    setMessage(loginStatus, error.message, 'error');
+                }
+            },
+            error_callback: () => {
+                loginButton.disabled = false;
+                setMessage(loginStatus, 'A confirmação do Google foi cancelada ou bloqueada.', 'error');
+            }
+        }).requestAccessToken({ prompt: 'select_account', login_hint: ADMIN_EMAIL });
+    }
+
+    function voltarParaHome() {
+        window.navegarPorRota?.('/', { replace: true });
+        window.mostrarHome?.({ preservarRota: true });
+    }
+
+    window.mostrarAjusteTempo = async function mostrarAjusteTempo() {
+        if (usuarioSalvo()?.email?.toLowerCase() !== ADMIN_EMAIL) return voltarParaHome();
+        mostrarPaginaAdmin();
+        accessToken = lerSessaoAdmin();
+        if (!accessToken) return solicitarLogin();
+
+        try {
+            const data = await api('/api/admin/gamificacao/missoes');
+            missions = data.missoes || [];
+        } catch (error) {
+            accessToken = null;
+            if (error.status === 403) return voltarParaHome();
+            return solicitarLogin(error.status === 401
+                ? 'Sua sessão administrativa expirou. Entre novamente para continuar.'
+                : `${error.message} Você pode tentar entrar novamente.`);
+        }
+
+        loginSection.hidden = true;
         panel.hidden = false;
         renderMissions();
     };
@@ -76,7 +147,11 @@
             cache: 'no-store'
         });
         const data = await response.json().catch(() => ({}));
-        if (!response.ok) throw new Error(data.error || `Falha na solicitação (${response.status}).`);
+        if (!response.ok) {
+            const error = new Error(data.error || `Falha na solicitação (${response.status}).`);
+            error.status = response.status;
+            throw error;
+        }
         return data;
     }
 
@@ -116,6 +191,7 @@
         }
     }
 
+    loginButton.addEventListener('click', autenticarAdminPorClique);
     search.addEventListener('input', renderMissions);
     refreshButton.addEventListener('click', carregarMissoes);
     logoutButton.addEventListener('click', () => {
