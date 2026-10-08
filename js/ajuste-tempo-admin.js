@@ -7,13 +7,14 @@
     const rows = document.getElementById('adminTempoLinhas');
     const status = document.getElementById('adminTempoStatus');
     const message = document.getElementById('adminTempoMensagem');
-    const loginSection = document.getElementById('adminTempoLogin');
-    const loginButton = document.getElementById('adminTempoEntrar');
-    const loginStatus = document.getElementById('adminTempoLoginStatus');
+    let loginSection = document.getElementById('adminTempoLogin');
+    let loginButton = document.getElementById('adminTempoEntrar');
+    let loginStatus = document.getElementById('adminTempoLoginStatus');
     const refreshButton = document.getElementById('adminTempoAtualizar');
     const logoutButton = document.getElementById('adminTempoSair');
     let accessToken = null;
     let missions = [];
+    let loginListenerRegistered = false;
 
     function escapeHtml(value) {
         return String(value ?? '').replace(/[&<>"']/g, (character) => ({
@@ -22,8 +23,34 @@
     }
 
     function setMessage(element, text, kind = '') {
+        if (!element) return;
         element.textContent = text;
         element.dataset.kind = kind;
+    }
+
+    function garantirElementosLogin() {
+        if (!loginSection || !loginButton || !loginStatus) {
+            const secaoAdmin = document.getElementById('adminTempoSection');
+            if (!secaoAdmin || !panel) return false;
+            loginSection = document.createElement('section');
+            loginSection.id = 'adminTempoLogin';
+            loginSection.className = 'admin-tempo-access';
+            loginSection.hidden = true;
+            loginSection.innerHTML = `
+                <p>Sua sessão administrativa expirou. Entre novamente com a conta Google administradora para continuar.</p>
+                <button id="adminTempoEntrar" class="admin-tempo-button" type="button">Entrar novamente com Google</button>
+                <p id="adminTempoLoginStatus" class="admin-tempo-status" role="status" aria-live="polite"></p>`;
+            secaoAdmin.querySelector('.admin-tempo-content')?.insertBefore(loginSection, panel);
+            loginButton = loginSection.querySelector('#adminTempoEntrar');
+            loginStatus = loginSection.querySelector('#adminTempoLoginStatus');
+        }
+
+        if (!loginButton || !loginStatus) return false;
+        if (!loginListenerRegistered) {
+            loginButton.addEventListener('click', autenticarAdminPorClique);
+            loginListenerRegistered = true;
+        }
+        return true;
     }
 
     function lerSessaoAdmin() {
@@ -60,6 +87,7 @@
     }
 
     function solicitarLogin(texto = 'Sua sessão administrativa expirou. Entre novamente para continuar.') {
+        if (!garantirElementosLogin()) return voltarParaHome();
         accessToken = null;
         panel.hidden = true;
         loginSection.hidden = false;
@@ -191,7 +219,7 @@
         }
     }
 
-    loginButton.addEventListener('click', autenticarAdminPorClique);
+    garantirElementosLogin();
     search.addEventListener('input', renderMissions);
     refreshButton.addEventListener('click', carregarMissoes);
     logoutButton.addEventListener('click', () => {
