@@ -1126,6 +1126,17 @@
     window.addEventListener('resize', updateScrollTopButton);
     versionSelect.value = selectedVersion;
     renderBibleVersionDetails();
+    window.addEventListener('adoraplay:preferencias', (event) => {
+        const versao = event.detail?.versao_biblia;
+        if (!versao || versao === selectedVersion) return;
+        if (!bibleAtiva) {
+            selectedVersion = versao;
+            versionSelect.value = versao;
+            renderBibleVersionDetails(versao);
+        } else if (event.detail.origem === 'usuario') {
+            setBibleVersion(versao).then(() => showBooks());
+        }
+    });
     versionSelect.addEventListener('change', () => {
         setBibleVersion(versionSelect.value)
             .then(() => {
