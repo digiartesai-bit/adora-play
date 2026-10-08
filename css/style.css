@@ -39,6 +39,53 @@ button {
     margin-bottom: 22px;
 }
 
+.guest-login-notice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 12px;
+    padding: 9px 12px;
+    border: 1px solid rgba(212, 175, 55, 0.35);
+    border-radius: 10px;
+    background: rgba(212, 175, 55, 0.08);
+    color: #f4f7fb;
+    font-size: 0.82rem;
+}
+
+.guest-login-notice[hidden] {
+    display: none;
+}
+
+.guest-login-notice p {
+    margin: 0;
+}
+
+.guest-login-notice button {
+    flex: 0 0 auto;
+    border: 0;
+    border-radius: 8px;
+    padding: 6px 12px;
+    background: #d4af35;
+    color: #050e16;
+    font-weight: 600;
+}
+
+.guest-login-notice button:last-child {
+    padding: 2px 7px;
+    background: transparent;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 600px) {
+    .guest-login-notice {
+        justify-content: space-between;
+        gap: 8px;
+        font-size: 0.72rem;
+    }
+}
+
 .section-gamificacao {
     gap: 20px;
 }
@@ -1332,6 +1379,16 @@ button {
 .quiz-ranking-medalha {
     text-align: center;
     font-size: 19px;
+}
+
+.ranking-estrelas {
+    display: block;
+    margin-top: 1px;
+    color: #d4af35;
+    font-size: 7px;
+    letter-spacing: -1px;
+    line-height: 1;
+    white-space: nowrap;
 }
 
 .quiz-ranking-identidade {
