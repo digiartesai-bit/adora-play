@@ -84,6 +84,7 @@ function embaralharQuiz(lista) {
             acertos: 0,
             desafio_id: desafioId,
             finalizada: false,
+            revisao: false,
             erros_pendentes: [],
             fila_revisao: [],
             indice_revisao: 0,
@@ -122,7 +123,7 @@ function embaralharQuiz(lista) {
                 })
             });
             if (!resposta.ok) throw new Error(`HTTP ${resposta.status}`);
-            if (registrarPontos && sessao.acertos > 0) {
+            if (registrarPontos && sessao.finalizada && !sessao.desafio_id) {
                 const respostaPontos = await fetch(`${API_URL_QUIZ}/api/gamificacao/quiz-individual`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
@@ -137,6 +138,7 @@ function embaralharQuiz(lista) {
                 } else if (atualizarRanking) {
                     await window.carregarRankingQuiz?.();
                 }
+                await registrarVitoriaQuizSolo();
             }
             return true;
         } catch (erro) {
@@ -254,7 +256,7 @@ function embaralharQuiz(lista) {
 
     async function parar() {
         await salvarSessaoFinal();
-        if (usuario?.google_id && rankingPermitido) await salvarNoRanking(true);
+        if (usuario?.google_id && rankingPermitido && !sessao.revisao) await salvarNoRanking(true);
         mostrarResultado(false);
     }
 
@@ -313,9 +315,11 @@ function mostrarResultado(completo) {
     pontuacao.textContent = `${sessao.acertos} acertos`;
 
     // Mensagem informativa
-    mensagemResultado.textContent = completo 
-        ? 'Parabéns! Você concluiu todas as perguntas.' 
-        : `Você parou no nível ${Math.min(13, Math.floor(sessao.acertos / 20) + 1)}.`;
+    mensagemResultado.textContent = completo
+        ? (sessao.revisao
+            ? 'Quiz concluído em modo revisão. Esta tentativa não acrescenta pontos ao ranking.'
+            : 'Parabéns! Você concluiu o quiz e sua pontuação foi registrada.')
+        : `${sessao.revisao ? 'Revisão pausada; esta tentativa não soma pontos. ' : ''}Você parou no nível ${Math.min(13, Math.floor(sessao.acertos / 20) + 1)}.`;
 
     // Se estiver completo, garante que o estado no servidor reflita isso
     if (completo && !sessao.finalizada) { 
@@ -337,7 +341,7 @@ function mostrarResultado(completo) {
     if (btnReiniciar) {
         btnReiniciar.hidden = false;
         // Opcional: altera o texto para ficar mais intuitivo
-        btnReiniciar.textContent = completo ? 'Jogar novamente' : 'Reiniciar Quiz';
+        btnReiniciar.textContent = completo ? 'Jogar novamente (revisão)' : 'Reiniciar Quiz';
     }
 
     // 3. Botão Home: Sempre disponível
@@ -375,8 +379,8 @@ function mostrarResultado(completo) {
         // E o checkbox (permitirRanking) estiver marcado.
         const podeSalvar = logado && !rankingPermitido && permitirRanking.checked;
 
-        salvarRanking.hidden = !logado || rankingPermitido || !permitirRanking.checked;
-        salvarRanking.disabled = !podeSalvar;
+        salvarRanking.hidden = !logado || rankingPermitido || !permitirRanking.checked || Boolean(sessao?.revisao);
+        salvarRanking.disabled = !podeSalvar || Boolean(sessao?.revisao);
         salvarRanking.textContent = 'Publicar no ranking';
         if (naoPublicarRanking) naoPublicarRanking.hidden = !logado || rankingPermitido;
 
@@ -408,6 +412,9 @@ function mostrarResultado(completo) {
     } */
     async function salvarNoRanking() {
         if (!usuario?.google_id) return mostrarToast('Entre com Google para salvar sua pontuacao no ranking.', 'erro');
+        if (!sessao?.desafio_id && sessao?.revisao) {
+            return mostrarToast('Tentativas de revisão não alteram a pontuação do ranking.', 'info');
+        }
 
         const permitir = permitirRanking.checked;
         salvarRanking.disabled = true;
@@ -493,10 +500,12 @@ function mostrarResultado(completo) {
 
             // Tenta restaurar progresso salvo no servidor (solo)
             if (usuario?.google_id) {
+                let sessaoRevisao = false;
                 try {
                     const res = await fetch(`${API_URL_QUIZ}/api/quiz/sessao?google_id=${encodeURIComponent(usuario.google_id)}&desafio_id=`);
                     if (res.ok) {
                         const saved = await res.json();
+                        sessaoRevisao = Boolean(saved?.revisao);
                         if (saved && Array.isArray(saved.fila) && saved.fila.length) {
                             const filaValida = saved.fila.filter(id => perguntas.some(p => String(p.id) === String(id)));
                             if (filaValida.length) {
@@ -513,7 +522,8 @@ function mostrarResultado(completo) {
                                         ? saved.estado.fila_revisao.filter(id => filaValida.some(perguntaId => String(perguntaId) === String(id)))
                                         : [],
                                     indice_revisao: Math.max(0, Number(saved.estado?.indice_revisao) || 0),
-                                    modo_revisao: Boolean(saved.estado?.modo_revisao)
+                                    modo_revisao: Boolean(saved.estado?.modo_revisao),
+                                    revisao: Boolean(saved.revisao)
                                 };
 
                                 // CORREÇÃO: Não forçamos o mostrarResultado aqui.
@@ -531,6 +541,10 @@ function mostrarResultado(completo) {
                         }
                     }
                 } catch (e) { /* sem servidor - novo quiz */ }
+                sessao = sessaoInicial();
+                sessao.revisao = sessaoRevisao;
+                renderizarPergunta();
+                return;
             }
 
             sessao = sessaoInicial();
@@ -569,18 +583,21 @@ function mostrarResultado(completo) {
         resultadoCard.hidden = true; quizCard.hidden = false; renderizarPergunta();
     }); */
     reiniciar.addEventListener('click', async () => {
-    if (!window.confirm('O jogo sera reiniciado e sua pontuacao ficara zerada. Deseja continuar?')) return;
+        const estavaFinalizada = Boolean(sessao?.finalizada);
+        const seraRevisao = estavaFinalizada || Boolean(sessao?.revisao);
+        const mensagem = estavaFinalizada
+            ? 'O quiz será reiniciado para revisão. As novas tentativas não acrescentam pontos ao ranking. Continuar?'
+            : 'O quiz será reiniciado e o progresso desta tentativa será perdido. Continuar?';
+        if (!window.confirm(mensagem)) return;
 
-    // Reinicia apenas a sessão atual; não revoga a autorização compartilhada do ranking.
-    sessao = sessaoInicial(undefined, sessao.desafio_id); 
+        sessao = sessaoInicial(undefined, sessao.desafio_id);
+        sessao.revisao = seraRevisao;
+        await salvarSessaoFinal({ registrarPontos: false });
 
-    // Salva a nova fila imediatamente para que ela seja a retomada deste aparelho/conta.
-    await salvarSessaoFinal();
-
-    resultadoCard.hidden = true; 
-    quizCard.hidden = false; 
-    renderizarPergunta();
-});
+        resultadoCard.hidden = true;
+        quizCard.hidden = false;
+        renderizarPergunta();
+    });
     window.addEventListener('adoraplay:login', async (evento) => {
         usuario = evento.detail;
         rankingPermitido = false;
