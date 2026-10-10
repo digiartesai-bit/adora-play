@@ -134,7 +134,7 @@
                     "Tiago 2:17",
                     "Romanos 8:28"
                 ],
-                "resposta": 3
+                "resposta": 0
             },
             {
                 "id": 13,
@@ -145,7 +145,7 @@
                     "Josué 1:9",
                     "Jeremias 1:8"
                 ],
-                "resposta": 3
+                "resposta": 0
             },
             {
                 "id": 14,
@@ -255,7 +255,7 @@
                     "Efésios 6:17",
                     "Isaías 49:2"
                 ],
-                "resposta": 2
+                "resposta": 0
             },
             {
                 "id": 24,
@@ -266,7 +266,7 @@
                     "2 Pedro 1:21",
                     "Atos 17:11"
                 ],
-                "resposta": 2
+                "resposta": 0
             },
             {
                 "id": 25,
@@ -288,14 +288,14 @@
                     "Apocalipse 22:14",
                     "Salmos 1:1"
                 ],
-                "resposta": 3
+                "resposta": 0
             },
             {
                 "id": 27,
                 "pergunta": "Onde está escrito: \"Errais, não conhecendo as Escrituras nem o poder de Deus\"?",
                 "alternativas": [
                     "Mateus 22:29",
-                    "Marcos 12:24",
+                    "Marcos 12:12",
                     "João 5:39",
                     "Atos 18:24"
                 ],
@@ -332,7 +332,7 @@
                     "Tiago 1:18",
                     "Salmos 119:142"
                 ],
-                "resposta": 3
+                "resposta": 0
             },
             {
                 "id": 31,
@@ -354,7 +354,7 @@
                     "Romanos 14:23",
                     "1 João 5:4"
                 ],
-                "resposta": 2
+                "resposta": 0
             },
             {
                 "id": 33,
@@ -844,7 +844,7 @@
                 "id": 77,
                 "pergunta": "Onde está escrito: \"Deus é amor; e quem está em amor está em Deus, e Deus nele\"?",
                 "alternativas": [
-                    "1 João 4:8",
+                    "1 João 4:4",
                     "1 João 4:16",
                     "João 3:16",
                     "Romanos 8:39"
@@ -1586,7 +1586,7 @@
                     "1 Pedro 4:8",
                     "Efésios 4:2"
                 ],
-                "resposta": 2
+                "resposta": 1
             },
             {
                 "id": 145,
