@@ -1,981 +1,1539 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-
-    <meta name="theme-color" content="#f7f2e7">
-    <meta name="description" content="Uma mensagem de esperança, amor e fé para você.">
-
-    <title>Um Tesouro Para Você</title>
-
-    <style>
-        :root {
-            --fundo: #f7f2e7;
-            --card: #fffdf9;
-            --texto: #342d23;
-            --suave: #706657;
-            --dourado: #c89b3c;
-            --dourado-escuro: #8d6923;
-            --linha: #e5dac5;
-            --verde: #477052;
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            min-height: 100vh;
-            background: var(--fundo);
-            color: var(--texto);
-            font-family:
-                -apple-system,
-                BlinkMacSystemFont,
-                "Segoe UI",
-                Roboto,
-                Arial,
-                sans-serif;
-        }
-
-        button,
-        a {
-            font: inherit;
-        }
-
-        .app {
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-        }
-
-        .container {
-            width: 100%;
-            max-width: 560px;
-            min-height: 100vh;
-            padding: 18px 18px 40px;
-        }
-
-        /* TOPO */
-
-        .topo {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            min-height: 42px;
-            margin-bottom: 10px;
-        }
-
-        .identificacao {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .logo-mini {
-            width: 38px;
-            height: 38px;
-            border-radius: 50%;
-            background: #eee5d2;
-            border: 1px solid var(--linha);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden;
-        }
-
-        .logo-mini img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .igreja-mini {
-            font-size: 12px;
-            line-height: 1.3;
-            color: var(--suave);
-        }
-
-        .igreja-mini strong {
-            display: block;
-            color: var(--texto);
-            font-size: 13px;
-        }
-
-        .voltar {
-            display: none;
-            border: 0;
-            background: transparent;
-            color: var(--suave);
-            cursor: pointer;
-            padding: 8px 0;
-        }
-
-        .voltar.visivel {
-            display: block;
-        }
-
-        /* PROGRESSO */
-
-        .progresso {
-            width: 100%;
-            height: 4px;
-            background: #e8deca;
-            border-radius: 20px;
-            overflow: hidden;
-            margin-bottom: 10px;
-        }
-
-        .progresso-barra {
-            width: 0;
-            height: 100%;
-            background: var(--dourado);
-            transition: width .4s ease;
-        }
-
-        /* TELAS */
-
-        .tela {
-            display: none;
-            min-height: calc(100vh - 120px);
-            animation: entrar .35s ease;
-        }
-
-        .tela.ativa {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .centro {
-            text-align: center;
-            align-items: center;
-            justify-content: center;
-        }
-
-        @keyframes entrar {
-            from {
-                opacity: 0;
-                transform: translateY(12px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        /* TEXTOS */
-
-        h1 {
-            font-size: clamp(29px, 8vw, 40px);
-            line-height: 1.15;
-            color: #403322;
-            margin-bottom: 18px;
-        }
-
-        h2 {
-            font-size: 28px;
-            line-height: 1.2;
-            color: #403322;
-            margin-bottom: 20px;
-        }
-
-        h3 {
-            font-size: 20px;
-            margin-bottom: 10px;
-            color: #403322;
-        }
-
-        .subtitulo {
-            max-width: 470px;
-            color: var(--suave);
-            font-size: 18px;
-            line-height: 1.6;
-            margin-bottom: 28px;
-        }
-
-        .texto {
-            color: #51483a;
-            font-size: 17px;
-            line-height: 1.75;
-            margin-bottom: 8px;
-        }
-
-        .texto strong {
-            color: #392f20;
-        }
-
-        /* LOGO CENTRAL */
-
-        .logo-principal {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            background: #eee5d2;
-            border: 1px solid var(--linha);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden;
-            margin: 0 auto 24px;
-            box-shadow: 0 8px 25px rgba(70, 50, 20, .08);
-        }
-
-        .logo-principal img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        /* ÍCONE */
-
-        .simbolo {
-            width: 82px;
-            height: 82px;
-            border-radius: 50%;
-            background: var(--dourado);
-            color: #fff;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 39px;
-            margin: 10px auto 26px;
-            box-shadow: 0 8px 25px rgba(93, 69, 28, .16);
-        }
-
-        .icone-grande {
-            font-size: 52px;
-            margin-bottom: 10px;
-        }
-
-        /* CARDS */
-
-        .card {
-            width: 100%;
-            background: var(--card);
-            border: 1px solid var(--linha);
-            border-radius: 20px;
-            padding: 15px 20px;
-            margin: 8px 0 10px;
-            box-shadow: 0 7px 25px rgba(65, 48, 23, .06);
-        }
-
-        .versiculo {
-            width: 100%;
-            background: #f4ecda;
-            border-left: 4px solid var(--dourado);
-            border-radius: 0 14px 14px 0;
-            padding: 20px 17px;
-            margin: 22px 0;
-        }
-
-        .versiculo p {
-            font-family: Georgia, "Times New Roman", serif;
-            font-size: 18px;
-            line-height: 1.65;
-            font-style: italic;
-            color: #443a2b;
-            margin-bottom: 10px;
-        }
-
-        .referencia {
-            font-size: 14px;
-            font-weight: 700;
-            color: var(--dourado-escuro);
-        }
-
-        
-        .destaque1 {
-            font-size: 18px;
-            line-height: 1.45;
-            font-weight: 600;
-            color: #453720;
-            text-align: center;
-            margin: 20px 0;
-        }
-
-        /* AVISO */
-
-        .seguranca {
-            width: 100%;
-            border: 1px solid var(--linha);
-            background: rgba(255, 255, 255, .45);
-            border-radius: 14px;
-            padding: 14px 15px;
-            color: var(--suave);
-            font-size: 13px;
-            line-height: 1.5;
-            margin-top: 10px;
-        }
-
-        .seguranca strong {
-            color: var(--texto);
-        }
-
-        /* LISTA */
-
-        .lista {
-            list-style: none;
-            margin: 20px 0;
-        }
-
-        .lista li {
-            display: flex;
-            gap: 12px;
-            align-items: flex-start;
-            padding: 12px 0;
-            border-bottom: 1px solid var(--linha);
-            color: #51483a;
-            line-height: 1.55;
-        }
-
-        .lista li:last-child {
-            border-bottom: 0;
-        }
-
-        .check {
-            width: 24px;
-            height: 24px;
-            min-width: 24px;
-            border-radius: 50%;
-            background: #ead9ae;
-            color: #79591d;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 13px;
-            font-weight: bold;
-        }
-
-        /* ORAÇÃO */
-
-        .oracao {
-            background: #fffdf9;
-            border: 1px solid var(--linha);
-            border-radius: 18px;
-            padding: 22px 18px;
-            margin-top: 22px;
-        }
-
-        .oracao p {
-            font-family: Georgia, "Times New Roman", serif;
-            font-size: 17px;
-            line-height: 1.75;
-            color: #4c4232;
-        }
-
-        /* BOTÕES */
-
-        .acoes {
-            width: 100%;
-            margin-top: auto;
-            padding-top: 22px;
-        }
-
-        .botao {
-            display: flex;
-            width: 100%;
-            min-height: 54px;
-            align-items: center;
-            justify-content: center;
-            border: 0;
-            border-radius: 14px;
-            padding: 14px 20px;
-            background: var(--dourado);
-            color: #fff;
-            font-size: 17px;
-            font-weight: 700;
-            text-decoration: none;
-            cursor: pointer;
-            box-shadow: 0 5px 16px rgba(137, 99, 24, .18);
-            transition: transform .15s ease;
-        }
-
-        .botao:active {
-            transform: scale(.98);
-        }
-
-        .botao-whatsapp {
-            background: var(--verde);
-            margin-top: 10px;
-        }
-
-        .botao-secundario {
-            background: transparent;
-            color: var(--dourado-escuro);
-            border: 1px solid var(--linha);
-            box-shadow: none;
-            margin-top: 10px;
-        }
-
-        /* IGREJA */
-
-        .igreja-final {
-            text-align: center;
-            margin-top: 28px;
-        }
-
-        .igreja-final .logo-final {
-            width: 86px;
-            height: 86px;
-            border-radius: 50%;
-            background: #eee5d2;
-            border: 1px solid var(--linha);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto 16px;
-            font-size: 10px;
-            color: var(--suave);
-            text-align: center;
-        }
-
-        .igreja-final h3 {
-            margin-bottom: 5px;
-        }
-
-        .endereco {
-            color: var(--suave);
-            font-size: 15px;
-            line-height: 1.6;
-        }
-
-        .cultos {
-            background: #f4ecda;
-            border-radius: 15px;
-            padding: 17px;
-            margin-top: 18px;
-            text-align: left;
-        }
-
-        .cultos strong {
-            display: block;
-            margin-bottom: 9px;
-            color: #443a2b;
-        }
-
-        .culto {
-            display: flex;
-            justify-content: space-between;
-            padding: 7px 0;
-            border-bottom: 1px solid #e3d6bc;
-            color: #51483a;
-            font-size: 15px;
-        }
-
-        .culto:last-child {
-            border-bottom: 0;
-        }
-
-        .culto span:last-child {
-            font-weight: 700;
-            color: var(--dourado-escuro);
-        }
-
-        .rodape {
-            text-align: center;
-            font-size: 12px;
-            color: #958976;
-            margin-top: 28px;
-        }
-
-        .igreja-final .logo-final {
-            width: 86px;
-            height: 86px;
-            border-radius: 50%;
-            background: #eee5d2;
-            border: 1px solid var(--linha);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto 16px;
-            overflow: hidden;
-            /* Garante que a imagem respeite a borda redonda */
-        }
-
-        .igreja-final .logo-final img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        @media (max-width: 380px) {
-
-            .container {
-                padding-left: 14px;
-                padding-right: 14px;
-            }
-
-            h1 {
-                font-size: 28px;
-            }
-
-            h2 {
-                font-size: 25px;
-            }
-
-            .subtitulo {
-                font-size: 17px;
-            }
-
-            .texto {
-                font-size: 16px;
-            }
-
-            .card {
-                padding: 21px 16px;
-            }
-
-            .versiculo p {
-                font-size: 17px;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SOS para a Vida — Uma mensagem para você</title>
+
+  <meta
+    name="description"
+    content="Uma mensagem de esperança para sua vida."
+  >
+
+  <style>
+    :root {
+      --fundo: #f7f2e7;
+      --card: #fffdf9;
+      --texto: #342d23;
+      --suave: #706657;
+      --dourado: #c89b3c;
+      --dourado-escuro: #8d6923;
+      --linha: #e5dac5;
+      --verde: #477052;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: var(--fundo);
+      color: var(--texto);
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Arial,
+        sans-serif;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    button {
+      font: inherit;
+    }
+
+    .app {
+      width: 100%;
+      min-height: 100vh;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 560px;
+      margin: 0 auto;
+      padding: 18px 18px 40px;
+    }
+
+    /* TOPO */
+
+    .topo {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .identificacao {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+    }
+
+    .logo-mini {
+      width: 42px;
+      height: 42px;
+      object-fit: contain;
+      border-radius: 50%;
+      background: #fff;
+      padding: 3px;
+      border: 1px solid var(--linha);
+      flex-shrink: 0;
+    }
+
+    .igreja-mini {
+      min-width: 0;
+    }
+
+    .igreja-mini strong {
+      display: block;
+      font-size: 13px;
+      color: var(--texto);
+      letter-spacing: 0.4px;
+    }
+
+    .igreja-mini span {
+      display: block;
+      color: var(--suave);
+      font-size: 11px;
+    }
+
+    .voltar {
+      border: 0;
+      background: transparent;
+      color: var(--dourado-escuro);
+      font-size: 13px;
+      cursor: pointer;
+      padding: 8px 4px;
+      white-space: nowrap;
+      display: none;
+    }
+
+    /* PROGRESSO */
+
+    .progresso {
+      width: 100%;
+      height: 4px;
+      background: var(--linha);
+      border-radius: 20px;
+      overflow: hidden;
+      margin-bottom: 30px;
+    }
+
+    .progresso-barra {
+      width: 9%;
+      height: 100%;
+      background: var(--dourado);
+      border-radius: 20px;
+      transition: width 0.35s ease;
+    }
+
+    /* TELAS */
+
+    .tela {
+      display: none;
+      animation: aparecer 0.45s ease;
+    }
+
+    .tela.ativa {
+      display: block;
+    }
+
+    @keyframes aparecer {
+      from {
+        opacity: 0;
+        transform: translateY(8px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .centro {
+      text-align: center;
+    }
+
+    .subtitulo {
+      color: var(--suave);
+      font-size: 14px;
+      margin-bottom: 8px;
+      letter-spacing: 0.3px;
+    }
+
+    h1 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(30px, 8vw, 42px);
+      line-height: 1.15;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: var(--texto);
+    }
+
+    h2 {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(25px, 6vw, 34px);
+      line-height: 1.2;
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: var(--texto);
+    }
+
+    .texto {
+      color: var(--texto);
+      font-size: 16px;
+      margin-bottom: 18px;
+    }
+
+    .texto strong {
+      color: var(--dourado-escuro);
+      font-weight: 700;
+    }
+
+    /* LOGO / SIMBOLO */
+
+    .logo-principal {
+      width: 82px;
+      height: 82px;
+      object-fit: contain;
+      margin: 8px auto 20px;
+      display: block;
+      background: #fff;
+      border-radius: 50%;
+      padding: 6px;
+      border: 1px solid var(--linha);
+      box-shadow: 0 8px 24px rgba(52, 45, 35, 0.07);
+    }
+
+    .simbolo {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      background: var(--card);
+      border: 1px solid var(--linha);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
+      color: var(--dourado);
+      font-family: Georgia, serif;
+      font-size: 30px;
+      box-shadow: 0 8px 24px rgba(52, 45, 35, 0.06);
+    }
+
+    .icone-grande {
+      font-family: Georgia, serif;
+      font-size: 42px;
+      line-height: 1;
+      color: var(--dourado);
+      margin-bottom: 18px;
+    }
+
+    /* CARDS */
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--linha);
+      border-radius: 18px;
+      padding: 2px 20px;
+      margin: 20px 0;
+      box-shadow: 0 8px 25px rgba(52, 45, 35, 0.045);
+    }
+
+    .card p:last-child {
+      margin-bottom: 0;
+    }
+
+    .card-titulo {
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 19px;
+      font-weight: 600;
+      margin-bottom: 12px;
+      color: var(--texto);
+    }
+
+    /* DESTAQUE */
+
+    .destaque1 {
+      background: #f3ead6;
+      border-left: 4px solid var(--dourado);
+      border-radius: 12px;
+      padding: 17px 18px;
+      margin: 22px 0;
+      color: var(--texto);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 17px;
+      line-height: 1.6;
+    }
+
+    /* VERSICULO */
+
+    .versiculo {
+      background: #f0eadf;
+      border-radius: 18px;
+      padding: 22px 20px;
+      margin: 24px 0;
+      border: 1px solid var(--linha);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 17px;
+      line-height: 1.65;
+      text-align: center;
+      position: relative;
+    }
+
+    .versiculo::before {
+      content: "“";
+      display: block;
+      font-size: 42px;
+      color: var(--dourado);
+      line-height: 0.7;
+      margin-bottom: 8px;
+    }
+
+    .referencia {
+      display: block;
+      margin-top: 12px;
+      color: var(--dourado-escuro);
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+    }
+
+    /* LISTA */
+
+    .lista {
+      list-style: none;
+      margin: 5px 0;
+    }
+
+    .lista li {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--linha);
+      color: var(--texto);
+    }
+
+    .lista li:last-child {
+      border-bottom: 0;
+    }
+
+    .check {
+      width: 22px;
+      height: 22px;
+      flex: 0 0 22px;
+      border-radius: 50%;
+      background: #eee4d1;
+      color: var(--dourado-escuro);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      margin-top: 2px;
+    }
+
+    /* SEGURANÇA */
+
+    .seguranca {
+      background: #f8f4ec;
+      border: 1px solid var(--linha);
+      border-radius: 14px;
+      padding: 15px 16px;
+      margin: 22px 0;
+      color: var(--suave);
+      font-size: 13px;
+      text-align: center;
+    }
+
+    /* ORAÇÃO */
+
+    .oracao {
+      background: var(--card);
+      border: 1px solid var(--linha);
+      border-radius: 18px;
+      padding: 24px 20px;
+      margin: 22px 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 17px;
+      line-height: 1.75;
+      box-shadow: 0 8px 25px rgba(52, 45, 35, 0.045);
+    }
+
+    .oracao p {
+      margin-bottom: 15px;
+    }
+
+    .oracao p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* AÇÕES */
+
+    .acoes {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .botao {
+      width: 100%;
+      border: 0;
+      border-radius: 13px;
+      padding: 15px 18px;
+      background: var(--dourado);
+      color: #fff;
+      font-weight: 700;
+      font-size: 15px;
+      cursor: pointer;
+      transition:
+        transform 0.15s ease,
+        background 0.15s ease;
+      box-shadow: 0 7px 18px rgba(141, 105, 35, 0.18);
+    }
+
+    .botao:hover {
+      background: var(--dourado-escuro);
+    }
+
+    .botao:active {
+      transform: scale(0.98);
+    }
+
+    .botao-secundario {
+      background: transparent;
+      color: var(--dourado-escuro);
+      border: 1px solid var(--linha);
+      box-shadow: none;
+    }
+
+    .botao-secundario:hover {
+      background: #f1e9db;
+    }
+
+    .botao-whatsapp {
+      background: var(--verde);
+      box-shadow: 0 7px 18px rgba(71, 112, 82, 0.18);
+    }
+
+    .botao-whatsapp:hover {
+      background: #385c42;
+    }
+
+    /* IGREJA FINAL */
+
+    .igreja-final {
+      text-align: center;
+      margin-top: 25px;
+    }
+
+    .logo-final {
+      width: 78px;
+      height: 78px;
+      object-fit: contain;
+      background: #fff;
+      border-radius: 50%;
+      padding: 5px;
+      border: 1px solid var(--linha);
+      margin: 0 auto 16px;
+    }
+
+    .igreja-final h2 {
+      font-size: 25px;
+      margin-bottom: 7px;
+    }
+
+    .endereco {
+      color: var(--suave);
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .cultos {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin: 20px 0;
+    }
+
+    .culto {
+      background: var(--card);
+      border: 1px solid var(--linha);
+      border-radius: 12px;
+      padding: 11px 5px;
+    }
+
+    .culto strong {
+      display: block;
+      color: var(--dourado-escuro);
+      font-size: 12px;
+    }
+
+    .culto span {
+      display: block;
+      color: var(--suave);
+      font-size: 12px;
+    }
+
+    .rodape {
+      text-align: center;
+      color: var(--suave);
+      font-size: 11px;
+      margin-top: 28px;
+      padding-top: 18px;
+      border-top: 1px solid var(--linha);
+    }
+
+    /* PEQUENAS TELAS */
+
+    @media (max-width: 380px) {
+      .container {
+        padding-left: 14px;
+        padding-right: 14px;
+      }
+
+      .cultos {
+        grid-template-columns: 1fr;
+      }
+
+      .culto {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 14px;
+      }
+
+      .culto strong,
+      .culto span {
+        display: inline;
+      }
+    }
+  </style>
 </head>
 
 <body>
-    <div class="app">
-        <main class="container">
-            <!-- TOPO -->
-            <header class="topo">
-                <div class="identificacao">
-                    <div class="logo-mini">
-                        <img src="/mensagem/logo.jpg" alt="LOGO" width="192" height="192">
-                    </div>
-                    <div class="igreja-mini">
-                        <strong>DENOMINAÇÃO</strong>
-                        Uma mensagem para você
-                    </div>
-                </div>
-                <button class="voltar" id="btnVoltar" onclick="voltarTela()">
-                    ← Voltar
-                </button>
-            </header>
-            <!-- PROGRESSO -->
-            <div class="progresso">
-                <div class="progresso-barra" id="progressoBarra">
-                </div>
-            </div>
-            <!-- =====================================================
-             1 — ABERTURA
-        ====================================================== -->
-            <section class="tela ativa centro" id="inicio">
-                <div class="logo-principal">
-                    <img src="/mensagem/logo.jpg" alt="LOGO" width="192" height="192">
-                </div>
-                <h1>
-                    Um tesouro<br>
-                    gratuito para você
-                </h1>
-                <p class="subtitulo">
-                    Talvez você esperasse encontrar um mapa do tesouro ou alguma riquesa material. Mas o que você encontrou pode ter um valor muito maior para a sua vida.
-                </p>
-                <div class="card">
-                    <p class="texto">
-                        Pode ser que você tenha escaneado este QR Code apenas por curiosidade.
-                    </p>
-                    <p class="texto">
-                        E isso foi bom.
-                    </p>
-                    <p class="texto">
-                        Espere! Antes de ir embora, queremos deixar uma mensagem para você.
-                    </p>
-                </div>
-                <div class="seguranca">
-                    <strong>Fique tranquilo.</strong><br>
-                    Esta página não pede seus dados, não exige cadastro, e não solicita
-                    nenhum pagamento. </br> Pedimos apenas alguns minutos de sua <strong>atenção</strong>.
-                </div>
-                <div class="acoes">
-                    <button class="botao" onclick="irPara('vida')">
-                        Vamos descobrir juntos?
-                    </button>
-                </div>
-            </section>
-            
-            <!-- =====================================================
-     2 — TALVEZ VOCÊ JÁ TENHA SE SENTIDO ASSIM
-====================================================== -->
 
-<section class="tela" id="vida">
+  <main class="app">
 
-    <div class="icone-grande">
-        ...
-    </div>
+    <div class="container">
 
-    <h2>
-        Talvez você já tenha passado por isso.
-    </h2>
+      <!-- TOPO -->
+      <header class="topo">
 
-    <p class="texto">
-        Na vida, existem momentos que nem sempre conseguimos explicar o que estamos sentindo.
-    </p>
-    <p class="texto">
-            Você já deve ter ouvido alguém dizer:
-        </p>
+        <div class="identificacao">
+          <img
+            src="/mensagem/logo.jpg"
+            alt="Igreja do Evangelho Quadrangular"
+            class="logo-mini"
+          >
 
-    <div class="card">
-
-        <p class="texto">
-            Estou desanimado.</br>
-            Não sei mais o que fazer.</br>Parece que nada dá certo.</br>Estou preocupado com o que vai acontecer.</br>Queria que minha vida fosse diferente.
-        </p>
-
-    </div>
-
-    <p class="texto">
-        Ou, até alguma dessas frases já tenha passado pela sua própria cabeça.
-    </p>
-
-    <p class="texto">
-        E as vezes, mesmo estando cercado de pessoas, você já tenha se sentido sozinho.
-    </p>
-
-    <p class="texto">
-        Quando esses momentos chegam, uma pergunta pode surgir:
-    </p>
-
-    <p class="destaque1">
-        “Será que existe alguém que realmente se importa comigo?”
-    </p>
-
-    <div class="acoes">
-
-        <button
-            class="botao"
-            onclick="irPara('amor')">
-
-            Existe alguém que se importa?
-
-        </button>
-
-    </div>
-
-</section>
-            <!-- =====================================================
-             2 — AMOR DE DEUS
-        ====================================================== -->
-            <section class="tela" id="amor">
-                <div class="icone-grande">
-                    ♥
-                </div>
-                <h2>
-                    Existe alguém que ama você.
-                </h2>
-                <p class="texto">
-                    Essa frase pareçe simples.</br>
-                    Mas existe uma verdade profunda por trás dela.</br>
-                    <strong>Deus ama você.</strong> </br>
-                    Não apenas quando tudo está bem.</br>
-                    Não apenas quando você acerta.</br>
-                    Não apenas quando você se sente próximo dEle.</br>
-                    O amor de Deus não depende da sua perfeição.
-                </p>
-                <div class="versiculo">
-                    <p>
-                        “Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna.”
-                    </p>
-                    <div class="referencia">
-                        João 3:16
-                    </div>
-                </div>
-                <div class="acoes">
-                    <button class="botao" onclick="irPara('problema')">
-                        E o que pode nos afastar desse amor?
-                    </button>
-                </div>
-            </section>
-            
-<!-- =====================================================
-     3 — O PECADO E NOSSAS ESCOLHAS
-====================================================== -->
-
-<section class="tela" id="problema">
-
-    <div class="icone-grande">
-        ?
-    </div>
-
-    <h2>
-        Então, o que nos afasta de Deus?
-    </h2>
-
-    <p class="texto">
-        Deus nos criou, nos conhece e continua olhando para nós.
-        Ele não deixa de nos amar quando fazemos escolhas erradas. </br> Deus também nos deu a liberdade de escolher. E sabemos conscientemente que nossas escolhas têm consequências. </br> Quando escolhemos caminhos contrários à vontade de Deus, a Bíblia chama isso de <strong>distanciamento</strong>. </br> Esse distanciamento não significa que Deus nos abandonou e se esqueceu de nós.</br> Significa que nós escolhemos algo diferente daquilo que Ele deseja para nossa vida.
-    </p>
-
-    <div class="versiculo">
-
-        <p>
-            “Mas as vossas iniquidades fazem separação entre vós e o vosso Deus; e os vossos pecados encobrem o seu rosto de vós, para que não vos ouça."
-        </p>
-
-        <div class="referencia">
-            Isaías 59:2
+          <div class="igreja-mini">
+            <strong>DENOMINAÇÃO</strong>
+            <span>Uma mensagem para você</span>
+          </div>
         </div>
 
-    </div>
-
-    <p class="texto">
-        Deus nos mostra o caminho, nos chama para perto e nos oferece sua graça. Mas cada um de nós precisamos decidir como responder a esse chamado.</br>E quando percebemos que escolhemos o caminho errado, surge uma pergunta importante:
-        <strong>há um caminho de volta?</strong>
-    </p>
-
-    <div class="acoes">
-
         <button
-            class="botao"
-            onclick="irPara('jesus')">
-            Qual é esse caminho?
+          class="voltar"
+          id="btnVoltar"
+          onclick="voltar()"
+          aria-label="Voltar"
+        >
+          ← Voltar
         </button>
+
+      </header>
+
+      <!-- PROGRESSO -->
+      <div class="progresso">
+        <div
+          class="progresso-barra"
+          id="progressoBarra"
+        ></div>
+      </div>
+
+
+      <!-- =====================================================
+           TELA 1 — ABERTURA
+      ====================================================== -->
+
+      <section class="tela ativa" id="inicio">
+
+        <div class="centro">
+
+          <img
+            src="/mensagem/logo.jpg"
+            alt="DENOMINAÇÃO"
+            class="logo-principal"
+          >
+
+          <p class="subtitulo">
+            Uma mensagem de esperança para sua vida
+          </p>
+
+          <h1>
+            Porque você chegou aqui.
+          </h1>
+
+        </div>
+
+        <div class="card">
+
+          <p class="texto">
+             Pode ter sido por curiosidade, ou você tenha visto este QR Code e simplesmente quis descobrir o que havia do outro lado.</br> Seja qual for o motivo, fique mais alguns instantes.</br> Esta não é uma página para pedir seus dados, vender alguma coisa ou convencer você de nada.</br> É apenas uma mensagem para você.</br> Uma mensagem para fazer você parar por alguns minutos, respirar e olhar para uma coisa que muitas vezes deixamos de lado: <strong>a nossa própria vida.</strong></br> Aqui você vai descobrir algo que nunca tinha parado para pensar.
+          </p>
+
+        </div>
+
+        <div class="seguranca">
+          Você não precisa informar nome, telefone, e-mail ou qualquer outro dado
+          para continuar.
+        </div>
+
+        <div class="acoes">
+          <button
+            class="botao"
+            onclick="irPara('espelhamento')"
+          >
+            Vamos conversar
+          </button>
+        </div>
+
+      </section>
+
+
+      <!-- =====================================================
+           TELA 2 — ESPELHAMENTO
+      ====================================================== -->
+
+      <section class="tela" id="espelhamento">
+
+        <div class="icone-grande centro">•</div>
+
+        <h2>
+          Alguma coisa parece não estar bem.
+        </h2>
+
+        <div class="card">
+
+          <p class="texto">
+            A vida nem sempre acontece como planejamos.</br>
+            Às vezes está tudo bem,  outras vezes, alguma coisa muda.</br> Uma preocupação aparece, uma conversa que vira  discussão, alguém que amamos se afasta, uma perda que deixa aquele vazio.</br> Problemas financeiros apertam e a família passa por dificuldades, uma escolha errada que trouxe consequências desagradáveis.</br> E existem dias em que, mesmo sem saber exatamente por quê,
+            simplesmente sentimos que alguma coisa não está bem.
+          </p>
+
+        </div>
+
+        <div class="destaque1">
+
+          Mesmo assim, continuamos trabalhando, sorrindo, cuidando das coisas.<br> Mas, por dentro, talvez exista uma pergunta que ninguém conhece.
+
+        </div>
+
+        <div class="card centro">
+
+        <p class="texto">
+          Pode ser que você já tenha feito essa pergunta, ou não.</br> Mas provavelmente conhece alguém que já tenha feito.
+        </p>
+        </div>
+
+        <div class="acoes">
+          <button
+            class="botao"
+            onclick="irPara('pergunta')"
+          >
+            Será que a vida precisa ser assim?
+          </button>
+        </div>
+
+      </section>
+
+
+      <!-- =====================================================
+           TELA 3 — A PERGUNTA
+      ====================================================== -->
+
+      <section class="tela" id="pergunta">
+
+        <p class="subtitulo">
+
+        <h2>
+          Mas por que a vida é assim?
+        </h2>
+        </p>
+
+        <p class="texto">
+          Você já percebeu uma coisa?.
+        </p>
+
+        <p class="texto">
+          Não são apenas os grandes acontecimentos que tornam a vida difícil.</br> Às vezes são pequenas coisas que vão se acumulando e formam aquela famosa frase: <strong>"Virou uma bola de neve"</strong>.
+        </p>
+
+        <div class="card">
+
+          <p class="texto">
+            Uma palavra que machuca.</br>
+            Uma decisão tomada no impulso.</br>
+            Uma mágoa que permanece.</br>
+            Uma distância que começa entre duas pessoas.</br>
+            Um relacionamento que vai se desgastando.</br>
+            Uma escolha que parecia certa, mas trouxe consequências inesperadas.
+          </p>
+
+        </div>
+
+        <p class="texto">
+          E, pouco a pouco, algumas coisas vão ficando diferentes.
+
+        <ul class="lista">
+
+          <li>
+            <span class="check">•</span>
+            <span>Pessoas se afastam.</span>
+          </li>
+
+          <li>
+            <span class="check">•</span>
+            <span>Famílias se desentendem.</span>
+          </li>
+
+          <li>
+            <span class="check">•</span>
+            <span>Sonhos são deixados para trás.</span>
+          </li>
+
+          <li>
+            <span class="check">•</span>
+            <span>Esperanças diminuem.</span>
+          </li>
+
+        </ul>
+        </p>
+
+        <p class="texto">
+          E talvez você já tenha se perguntado:
+        </p>
+
+        <div class="destaque1">
+          Por que nós, seres humanos, temos tanta dificuldade de viver em paz?
+        </div>
+
+        <p class="texto">
+          Se todos desejamos ser amados, por que tantas vezes ferimos?</br> Se todos queremos ser felizes, por que tantas vezes fazemos escolhas que nos machucam? </br> Se queremos ter pessoas ao nosso lado, por que às vezes acabamos nos afastando delas?
+        </p>
+
+        <div class="card">
+
+          <p class="texto">
+            Talvez exista uma resposta mais profunda do que simplesmente dizer
+            que <strong>“no mundo as coisas são assim.</strong>
+             </p>
+
+        </div>
+        <p class="texto">Mais não. Talvez seja hora de olhar um pouco mais fundo."</p>
+
+        <div class="acoes">
+          <button
+            class="botao"
+            onclick="irPara('falta')"
+          >
+            Vamos olhar mais fundo
+          </button>
+        </div>
+
+      </section>
+
+
+      <!-- =====================================================
+           TELA 4 — O QUE FOI PERDIDO?
+      ====================================================== -->
+
+      <section class="tela" id="falta">
+
+        <div class="icone-grande centro">?</div>
+
+        <h2>
+          Pode estar faltando alguma coisa.
+        </h2>
+
+        <p class="texto">
+          Desde sempre, o ser humano procura algumas coisas:</p>
+
+        <div class="card">
+
+          <ul class="lista">
+
+            <li>
+              <span class="check">•</span>
+              <span>Paz.</span>
+            </li>
+
+            <li>
+              <span class="check">•</span>
+              <span>Amor.</span>
+            </li>
+
+            <li>
+              <span class="check">•</span>
+              <span>Segurança.</span>
+            </li>
+
+            <li>
+              <span class="check">•</span>
+              <span>Propósito.</span>
+            </li>
+
+            <li>
+              <span class="check">•</span>
+              <span>Esperança.</span>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <p class="texto">
+          Queremos ser compreendidos, queremos pertencer,
+          queremos amar e ser amados. </br> Mas, mesmo quando algumas dessas coisas estão presentes, muitas vezes ainda existe dentro de nós uma sensação difícil de explicar.
+        </p>
+
+        <div class="destaque1">
+          Como se alguma coisa estivesse faltando.
+        </div>
+
+        <p class="texto">
+          Será que é por isso que buscamos tantas respostas? </br> Buscamos nas pessoas, nos relacionamentos, no trabalho, nas conquistas, no dinheiro, nos prazeres, em tantas outras coisas. </br> E algumas delas podem até trazer momentos de felicidade.</br> Mas nenhuma consegue preencher completamente aquilo que existe dentro de nós.
+        </p>
+
+        <div class="card centro">
+
+          <p class="texto">
+            <strong>
+              E se essa falta tiver uma razão?</strong></br> E se o ser humano tiver sido criado para viver algo que vai muito além das coisas que podemos conquistar?
+          </p>
+
+        </div>
+
+        <div class="acoes">
+          <button
+            class="botao"
+            onclick="irPara('deus')"
+          >
+            E se Deus fizer parte dessa história?
+          </button>
+        </div>
+
+      </section>
+
+
+      <!-- =====================================================
+           TELA 5 — QUEM É DEUS?
+      ====================================================== -->
+
+      <section class="tela" id="deus">
+
+        <div class="simbolo">✦</div>
+
+        <p class="subtitulo centro">
+          Esta é uma pergunta que mereça ser feita
+        </p>
+
+        <h2>
+          Primeiro, vamos entender quem é Deus?
+        </h2>
+
+        <p class="texto">
+           Você com certeza já ouviu falar de Deus muitas vezes.</br> Talvez tenha crescido ouvindo sobre Ele.
+        </p>
+
+        <div class="card">
+
+          <p class="card-titulo">
+            Mas quem é Deus de verdade?
+          </p>
+
+          <p class="texto">
+            A Bíblia apresenta Deus como aquele que criou a vida e tudo o que existe. </br> Mas Ele não é apenas o Criador distante de tudo.
+          </p>
+
+        </div>
+
+        <div class="destaque1">
+          Deus conhece você.
+        </div>
+
+        <p class="texto">
+          Conhece sua história, suas alegrias, suas preocupações ,seus sonhos e até aquilo que você nunca conseguiu colocar em palavras.</br> Você não é apenas mais uma pessoa no meio de bilhões.
+        </br><strong>Para Deus, sua vida tem valor.</strong>
+        </p>
+
+        <div class="card">
+
+          <p class="texto">
+            E uma das coisas mais bonitas dessa história é descobrir que Deus não criou o ser humano para viver sozinho, sem direção ou sem propósito. </br><strong>Ele criou você para conhecê-Lo e caminhar com Ele. </strong>
+          </p>
+
+        </div>
+
+        <p class="texto">
+          Agora, aquela sensação de que alguma coisa está faltando comece a fazer mais sentido.</br> Porque, se fomos criados para caminhar com Deus...
+        </p>
+
+        <div class="acoes">
+          <button
+            class="botao"
+            onclick="irPara('distancia')"
+          >
+            O que acontece se nos afastamos dEle
+          </button>
+        </div>
+
+      </section>
+
+
+      <!-- =====================================================
+           TELA 6 — DISTÂNCIA
+      ====================================================== -->
+
+      <section class="tela" id="distancia">
+
+        <p class="subtitulo">
+          Nem sempre percebemos quando começa
+        </p>
+
+        <h2>
+          Quando começamos a nos afastar?
+        </h2>
+
+        <div class="card">
+
+          <p class="texto">
+            Nem sempre alguém decide, de uma hora para outra,
+            deixar Deus de lado.</br>Às vezes acontece aos poucos.</br>A vida fica corrida.</br>Outras coisas começam a ocupar nosso tempo.</br>Algumas preocupações tomam conta de nossos pensamentos.</br>Certas escolhas que parecem mais importantes naquele momento.
+          </p>
+
+        </div>
+
+        <p class="texto">
+          E, sem perceber, aquilo que antes tinha lugar na nossa vida vai ficando para depois.</br>Até que podemos continuar vivendo normalmente, trabalhando, cuidando da família, fazendo planos...</br>Mas aquela caminhada com Deus já não é mais a mesma.
+        </p>
+
+        <div class="card">
+
+          <p class="texto">
+            Você talvez, nunca tenha pensado nisso dessa maneira.</br>Não significa que Deus tenha deixado de estar presente.</br><strong>Mais nós, distraidamente  é que começado a caminhar para longe dEle.</strong>
+        </div>
+
+        <p class="texto">
+          E quanto maior fica essa distância, mais difícil é entender o que está acontecendo dentro de nós.
+        </p>
+
+        <div class="destaque1">
+
+          Mas existe algo importante nessa história:<br><strong> Deus não deixou de procurar o ser humano.</strong>
+
+        </div>
+
+        <p class="texto">
+          E é justamente aí que começa uma das partes mais importantes dessa mensagem.</br>Porque Deus não quer apenas que você saiba que Ele existe.
+        </p>
+
+        <div class="acoes">
+          <button
+            class="botao"
+            onclick="irPara('relacionamento')"
+          >
+            Ele quer se aproximar de você
+          </button>
+        </div>
+
+      </section>
+
+
+      <!-- =====================================================
+           TELA 7 — RELACIONAMENTO
+      ====================================================== -->
+
+      <section class="tela" id="relacionamento">
+
+        <div class="simbolo">✦</div>
+
+        <h2>
+          O que Deus quer de você?
+        </h2>
+
+        <p class="texto">
+          Essa pergunta já deve ter  passado pela sua cabeça.
+        </p>
+
+        <div class="card">
+
+          <p class="texto">
+            Se Deus realmente existe...
+          </br>
+            Se Ele conhece você...
+          </br>
+            Se Ele se importa com a sua vida...
+          </br>
+            <strong>
+              O que Ele espera de você?
+            </strong>
+          </p>
+
+        </div>
+
+        <p class="texto">
+          Talvez você imagine que Deus queira apenas que as pessoas sigam regras, frequentem uma igreja ou façam tudo certo.
+        </br>
+          Mas a história que a Bíblia apresenta é muito mais profunda.
+        </p>
+
+        <div class="destaque1 centro">
+          Deus quer relacionamento.
+        </div>
+
+        <p class="texto">
+          Ele quer que você O conheça.
+          Quer que você possa confiar nEle, conversar com Ele, aprender com Sua Palavra
+          e descobrir o propósito maior para sua vida.
+        </p>
+
+        <div class="card">
+
+          <p class="texto">
+            Não se trata de ser perfeito.
+          </br>
+            Não se trata de nunca errar.
+          </br>
+            E também não significa que todos os problemas vão desaparecer.
+          </p>
+
+        </div>
+
+        <p class="texto">
+          Significa descobrir que você não precisa enfrentar tudo isso sozinho.
+        </p>
+
+        <div class="destaque1">
+          Existe um Deus que deseja caminhar com você.
+        </div>
+
+        <p class="texto">
+          Mas então surge outra pergunta:
+        </p>
+
+        <div class="card centro">
+
+          <p class="texto">
+            <strong>
+              Se Deus quer se aproximar de nós,
+            </strong>
+          </p>
+
+        </div>
+
+        <div class="acoes">
+          <button
+            class="botao"
+            onclick="irPara('jesus')"
+          >
+            como podemos nos aproximar dEle?
+          </button>
+        </div>
+
+      </section>
+
+
+      <!-- =====================================================
+           TELA 8 — JESUS
+      ====================================================== -->
+
+      <section class="tela" id="jesus">
+
+        <div class="icone-grande centro">✦</div>
+
+        <h2>
+          Deus não ficou distante
+        </h2>
+
+        <p class="texto">
+          Se nós podemos nos afastar de Deus... será que precisamos encontrar sozinhos o caminho de volta?
+        </p>
+
+        <div class="card">
+
+          <p class="texto">
+            A Bíblia mostra algo surpreendente:
+          </br>
+            <strong>
+              Deus tomou a iniciativa.
+            </strong>
+          </p>
+
+        </div>
+
+        <p class="texto">
+          Ele não ficou esperando que o ser humano descobrisse sozinho como chegar até Ele.
+        </br>
+          Ao longo da história, Deus se revelou, falou por meio de pessoas.</br>
+          Deixou Sua Palavra.</br>
+          Mostrou Seu caráter.
+        </p>
+
+        <div class="destaque1">
+          E fez algo ainda maior:
+          <br>
+          <strong>
+            Ele veio ao encontro do ser humano.
+          </strong>
+        </div>
+
+        <p class="texto">
+          Não porque as pessoas fossem perfeitas.</br>Não porque todos tivessem suas vidas em ordem.
+        </br>
+          Mas porque Deus nos ama.
+        </br>
+          E esse amor não ficou apenas em palavras.
+        </p>
+
+        <div class="card centro">
+
+          <p class="texto">
+            Deus demonstrou Seu amor de uma maneira que mudou a história.<strong> Jesus.
+            </strong>
+          </p>
+
+        </div>
+
+        <p class="texto">
+          Ele veio para revelar quem Deus é e abrir o caminho
+          para que o ser humano possa voltar a se aproximar dEle.
+        </p>
+
+        <div class="versiculo">
+
+          Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna.
+
+          <span class="referencia">
+            João 3:16
+          </span>
+
+        </div>
+
+        <div class="destaque1">
+          Talvez esta seja a parte mais importante desta conversa.
+        </div>
+
+        <p class="texto">
+          Deus conhece você.
+          Deus se importa com você.
+        </p>
+
+        <div class="acoes">
+          <button
+            class="botao"
+            onclick="irPara('convite')"
+          >
+            Ele está chamando você
+          </button>
+        </div>
+
+      </section>
+
+
+      <!-- =====================================================
+           TELA 9 — CONVITE
+      ====================================================== -->
+
+      <section class="tela" id="convite">
+
+        <p class="subtitulo">
+
+        <h2>
+          Você pode responder a esse chamado
+        </h2>
+        </p>
+
+        <p class="texto">
+          Deus não quer apenas que você conheça uma informação sobre Ele.
+        </br>
+          Ele deseja que você O conheça de verdade.
+        </p>
+
+        <div class="card">
+
+          <p class="texto">
+            Jesus chamou pessoas comuns para segui-Lo.
+          </br>
+            Pessoas com histórias diferentes, dúvidas, problemas e também erros diferentes.
+          </br>
+            Ele não chamou pessoas perfeitas.
+          </br>
+            Ele chamou pessoas dispostas a começar uma nova caminhada.
+          </p>
+
+        </div>
+
+        <div class="versiculo">
+
+          O tempo está cumprido, e o Reino de Deus está próximo.
+          Arrependei-vos e crede no evangelho.
+
+          <span class="referencia">
+            Marcos 1:15
+          </span>
+
+        </div>
+
+        <p class="texto">
+          Arrependimento não significa apenas sentir culpa.</br>
+          Significa reconhecer que precisamos de Deus e decidir mudar a direção da nossa vida.
+        </p>
+
+        <div class="destaque1">
+          Talvez hoje seja o momento de começar essa caminhada.
+        </div>
+
+        <p class="texto">
+          Você pode falar com Deus exatamente como está.</br>Não precisa usar palavras bonitas.</br>
+          Não precisa fingir que está tudo bem.
+        </br>
+          Apenas seja sincero.
+        </p>
+
+        <div class="acoes">
+
+          <button
+            class="botao"
+            onclick="irPara('oracao')"
+          >
+            Quero falar com Deus
+          </button>
+
+        </div>
+
+      </section>
+
+
+      <!-- =====================================================
+           TELA 10 — ORAÇÃO
+      ====================================================== -->
+
+      <section class="tela" id="oracao">
+
+        <div class="icone-grande centro">+</div>
+
+        <p class="subtitulo centro">
+          Uma oração simples pode ser o começo
+        </p>
+
+        <h2 class="centro">
+          Fale com Deus
+        </h2>
+
+        <p class="texto">
+          Se você deseja, pode fazer esta oração.</br> Não como uma fórmula, mas como uma conversa sincera.
+        </p>
+
+        <div class="oracao">
+
+          <p>
+            Deus,
+          </br>
+            eu reconheço que preciso de Ti.
+          </br>
+            Muitas vezes tentei conduzir minha vida sozinho e acabei me afastando de Ti.
+          </br>
+            Quero conhecer-Te melhor
+            e aprender a caminhar contigo.
+          </br>
+            Eu creio que seu filho Jesus veio ao mundo revelar o Teu amor para me aproximar de Ti.
+          </br>
+            Perdoa se errei e me afastei de Ti,  transforma a minha vida e ajuda-me a seguir os Teus caminhos.
+          </br>
+            Entrego minha vida em Tuas mãos.
+          </br>
+            Amém.
+          </p>
+
+        </div>
+
+        <div class="destaque1 centro">
+          Se você ainda não se sente seguro em orar, buscar a Deus ou se vai ser ouvido.
+        </div>
+
+        <p class="texto">
+          Dê o próximo passo.</br>
+          Procure uma igreja cristã onde você possa aprender, tirar dúvidas e caminhar junto com outras pessoas que descobriram esse caminho de reconciliação.
+        </p>
+
+        <div class="acoes">
+
+          <button
+            class="botao"
+            onclick="irPara('final')"
+          >
+            Quero dar o próximo passo
+          </button>
+
+        </div>
+
+      </section>
+
+
+      <!-- =====================================================
+           TELA 11 — CONTATO / IGREJA
+      ====================================================== -->
+
+      <section class="tela" id="final">
+
+        <div class="igreja-final">
+
+          <img
+            src="/^mensagem/logo.jpg"
+            alt="DENOMINAÇÃO"
+            class="logo-final"
+          >
+
+          <p class="subtitulo">
+            Você não precisa caminhar sozinho
+          </p>
+
+          <h2>
+            Estamos aqui para ajudar você.
+          </h2>
+
+          <p class="texto">
+            Você já deu o passo mais difícil. Sua vontade de buscar a Deus.
+          </br>
+            Se alguma parte desta mensagem tocou você.
+          </br>
+            Se você esta passando por um momento difícil
+            e quer desabafar com alguém ou precise de uma oração.
+          </p>
+
+          <div class="card">
+
+            <p class="texto">
+              Você pode entrar em contato conosco.
+            </br>
+              <strong>
+                Podemos conversar.
+              </strong>
+            </p>
+
+          </div>
+
+          <div class="versiculo">
+
+            Eu vim para que tenham vida e a tenham em abundância.
+
+            <span class="referencia">
+              João 10:10
+            </span>
+
+          </div>
+
+          <div class="acoes">
+
+            <a
+              href="https://wa.me/5514000000000?text=Ol%C3%A1!%20Encontrei%20o%20QR%20Code%20com%20a%20mensagem%20sobre%20o%20amor%20de%20Deus%20e%20gostaria%20de%20conversar."
+              target="_blank"
+              rel="noopener noreferrer"
+              class="botao botao-whatsapp"
+              style="display:block;text-decoration:none;text-align:center;"
+            >
+              Quero conversar
+            </a>
+
+          </div>
+
+          <div class="card">
+
+            <p class="card-titulo">
+              DENOMINAÇÃO
+            </p>
+
+            <p class="endereco">
+              Rua X, 000<br>
+              BAIRRO<br>
+              CIDADE — SP
+            </p>
+
+            <div class="cultos">
+
+              <div class="culto">
+                <strong>Quarta</strong>
+                <span>20:00</span>
+              </div>
+
+              <div class="culto">
+                <strong>Sexta</strong>
+                <span>20:00</span>
+              </div>
+
+              <div class="culto">
+                <strong>Domingo</strong>
+                <span>19:00</span>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="seguranca">
+            Esta página não solicita dados pessoais, cadastro ou pagamento.</br>
+            Ela foi criada apenas para compartilhar uma mensagem de esperança.
+          </div>
+
+          <p class="rodape">
+            Uma mensagem de esperança para sua vida.
+            <br>
+            DENOMINAÇÃO — CIDADE
+          </p>
+
+        </div>
+
+      </section>
+
     </div>
-</section>
-            <!-- =====================================================
-             4 — JESUS
-        ====================================================== -->
-            <section class="tela" id="jesus">
-                <div class="icone-grande">
-                    ✝
-                </div>
-                <h2>
-                    Jesus é a resposta.
-                </h2>
-                <p class="texto">
-                    O cristianismo começa com aquilo que <strong>Deus fez por nós</strong>. </br> Deus enviou Jesus Cristo ao mundo.</br>Jesus viveu entre nós, ensinou a verdade e demonstrou o amor de Deus. </br> E entregou a própria vida na cruz.
-                </p>
-                <div class="versiculo">
-                    <p>
-                        “Mas Deus prova o seu amor para conosco, em que Cristo morreu por nós, sendo nós ainda pecadores.”
-                    </p>
-                    <div class="referencia">
-                        Romanos 5:8
-                    </div>
-                </div>
-                <p class="texto">
-                    A cruz não foi o fim.
-                </p>
-                <p class="texto">
-                    A mensagem do evangelho anuncia que <strong>Jesus ressuscitou</strong>.
-                </p>
-                <div class="acoes">
-                    <button class="botao" onclick="irPara('convite')">
-                        Mais o que isso significa para mim?
-                    </button>
-                </div>
-            </section>
-            <!-- =====================================================
-             5 — CONVITE
-        ====================================================== -->
-            <section class="tela" id="convite">
-                <div class="icone-grande">
-                    ♥
-                </div>
-                <h2>
-                    O convite é para você.
-                </h2>
-                <p class="texto">
-                    Jesus não chamou pessoas perfeitas. </br> Ele chamou pessoas que reconhecem que precisam de Deus e são pecadoras. </br>
-                    A fé cristã envolve confiar em Jesus Cristo, arrepender-se dos pecados e começar uma nova caminhada com Deus.
-                </p>
-                <div class="versiculo">
-                    <p>
-                        “Arrependei-vos, e crede no evangelho.”
-                    </p>
-                    <div class="referencia">
-                        Marcos 1:15
-                    </div>
-                </div>
-                <div class="card">
-                    <h3>
-                        Você pode começar agora.
-                    </h3>
-                    <p class="texto">
-                        Não precisa fazer uma promessa para ninguém. Não precisa pagar nada.
-                    Não precisa preencher formulário.</br> Apenas pare por alguns instantes e converse sinceramente com Deus.
-                    </p>
-                </div>
-                <div class="acoes">
-                    <button class="botao" onclick="irPara('oracao')">
-                        Queria aprender a falar com Deus.
-                    </button>
-                </div>
-            </section>
-            <!-- =====================================================
-             6 — ORAÇÃO
-        ====================================================== -->
-            <section class="tela" id="oracao">
-                <div class="icone-grande">
-                    🙏
-                </div>
-                <h2>
-                    Uma oração.
-                </h2>
-                <p class="texto">
-                    Se essas palavras representam o que você deseja dizer a Deus, você pode fazer esta oração.
-                </p>
-                <div class="oracao">
-                    <p>
-                        “Deus, eu reconheço que preciso de Ti.</br>
-                        Reconheço os meus erros e peço perdão.</br>Obrigado porque Tu me amas e enviaste Teu filho Jesus Cristo por mim. </br>Eu quero conhecer mais de Ti e aprender a viver segundo a Tua vontade.</br>
-                        Entrego minha vida em Tuas mãos.
-                        <strong>Amém.</strong>”
-                    </p>
-                </div>
-                <p class="destaque1">
-                    Você não precisa fazer essa caminhada sozinho, esta é uma estrada que muitos já atravessaram ou estão atravessando.</br>Mais juntos, teremos muito mais força nesta caminhada.
-                </p>
-                <div class="acoes">
-                    <button class="botao" onclick="irPara('final')">
-                        Quero continuar essa caminhada
-                    </button>
-                </div>
-            </section>
-            <!-- =====================================================
-             7 — FINAL + IGREJA
-        ====================================================== -->
-            <section class="tela" id="final">
-                <div class="simbolo">
-                    ✦
-                </div>
-                <h2>
-                    O tesouro que você encontrou.
-                </h2>
-                <div class="card">
-                    <p class="texto">
-                        O QR Code que você encontrou, poderia ter levado você a qualquer lugar.
-                    </p>
-                    <p class="texto">
-                        Mas você chegou até aqui. Melhor que qualquer tesouro encontrado na Terra.
-                    </p>
-                    <p class="destaque">
-                        Deus ama você.
-                    </p>
-                    <p class="texto">
-                        Jesus Cristo veio ao mundo, morreu e ressuscitou para oferecer reconciliação com Deus e uma nova vida.
-                    </p>
-                    <div class="versiculo">
-                        <p>
-                            “Eu vim para que tenham vida, e a tenham com abundância.”
-                        </p>
-                        <div class="referencia">
-                            João 10:10
-                        </div>
-                    </div>
-                </div>
-                <!-- IGREJA -->
-                <div class="igreja-final">
-                    <div class="logo-final">
-                        <img src="/mensagem/logo.jpg" alt="Logo" width="192" height="192">
-                    </div>
-                    <h3>
-                        DENOMINAÇÃO
-                    </h3>
-                    ...
-                    <p class="endereco">
-                        Rua X - 000 <br> BAIRO — CIDADE
-                    </p>
-                    <div class="cultos">
-                        <strong>
-                            Horários dos cultos </strong>
-                        <div class="culto">
-                            <span>DIA</span>
-                            <span>00:00</span>
-                        </div>
-                        <div class="culto">
-                            <span>DIA</span>
-                            <span>00:00</span>
-                        </div>
-                        <div class="culto">
-                            <span>DIA</span>
-                            <span>00:00</span>
-                        </div>
-                    </div>
-                    <a class="botao botao-whatsapp"
-                        href="https://wa.me/5514000000000?text=Ol%C3%A1!%20Encontrei%20o%20QR%20Code%20com%20a%20mensagem%20sobre%20o%20amor%20de%20Deus%20e%20gostaria%20de%20conversar."
-                        target="_blank" rel="noopener noreferrer">
-                        Fale conosco pelo whatsapp
-                    </a>
-                </div>
-                <p class="rodape">
-                    Uma mensagem de esperança.
-                </p>
-                <div class="acoes">
-                    <button class="botao botao-secundario" onclick="reiniciar()">
-                        Ler novamente
-                    </button>
-                </div>
-            </section>
-        </main>
-    </div>
-    <script>
-        const ordemTelas = [
-            "inicio",
-            "vida",
-            "amor",
-            "problema",
-            "jesus",
-            "convite",
-            "oracao",
-            "final"
-        ];
-        let telaAtual = 0;
-        const btnVoltar =
-            document.getElementById("btnVoltar");
-        const progressoBarra =
-            document.getElementById("progressoBarra");
-        function irPara(id) {
-            const novaTela =
-                document.getElementById(id);
-            if (!novaTela) return;
-            const indice =
-                ordemTelas.indexOf(id);
-            if (indice === -1) return;
-            document
-                .querySelectorAll(".tela")
-                .forEach(tela => {
-                    tela.classList.remove("ativa");
-                });
-            novaTela.classList.add("ativa");
-            telaAtual = indice;
-            atualizarInterface();
-            window.scrollTo({
-                top: 0,
-                behavior: "smooth"
-            });
-        }
-        function voltarTela() {
-            if (telaAtual <= 0) return;
-            irPara(
-                ordemTelas[telaAtual - 1]
-            );
-        }
-        function atualizarInterface() {
-            if (telaAtual === 0) {
-                btnVoltar.classList.remove("visivel");
-            } else {
-                btnVoltar.classList.add("visivel");
-            }
-            const total =
-                ordemTelas.length - 1;
-            const porcentagem =
-                total > 0
-                    ? (telaAtual / total) * 100
-                    : 0;
-            progressoBarra.style.width =
-                porcentagem + "%";
-        }
-        function reiniciar() {
-            irPara("inicio");
-        }
-        atualizarInterface();
-    </script>
+
+  </main>
+
+
+  <script>
+
+    /*
+      ============================================================
+      NAVEGAÇÃO
+      ============================================================
+    */
+
+    const ordemTelas = [
+      "inicio",
+      "espelhamento",
+      "pergunta",
+      "falta",
+      "deus",
+      "distancia",
+      "relacionamento",
+      "jesus",
+      "convite",
+      "oracao",
+      "final"
+    ];
+
+    let telaAtual = 0;
+
+
+    function irPara(id) {
+
+      const novoIndice = ordemTelas.indexOf(id);
+
+      if (novoIndice === -1) {
+        return;
+      }
+
+      document.querySelectorAll(".tela").forEach(function(tela) {
+        tela.classList.remove("ativa");
+      });
+
+      const destino = document.getElementById(id);
+
+      if (destino) {
+        destino.classList.add("ativa");
+      }
+
+      telaAtual = novoIndice;
+
+      atualizarInterface();
+
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    }
+
+
+    function voltar() {
+
+      if (telaAtual <= 0) {
+        return;
+      }
+
+      const anterior = ordemTelas[telaAtual - 1];
+
+      irPara(anterior);
+    }
+
+
+    function atualizarInterface() {
+
+      const total = ordemTelas.length;
+
+      const percentual =
+        ((telaAtual + 1) / total) * 100;
+
+      document.getElementById("progressoBarra").style.width =
+        percentual + "%";
+
+
+      const btnVoltar =
+        document.getElementById("btnVoltar");
+
+      if (telaAtual === 0) {
+        btnVoltar.style.display = "none";
+      } else {
+        btnVoltar.style.display = "block";
+      }
+
+    }
+
+
+    /*
+      ============================================================
+      BOTÃO VOLTAR DO ANDROID / NAVEGADOR
+      ============================================================
+    */
+
+    window.addEventListener("popstate", function() {
+
+      if (telaAtual > 0) {
+        const anterior = ordemTelas[telaAtual - 1];
+        irPara(anterior);
+      }
+
+    });
+
+
+    /*
+      ============================================================
+      INICIALIZAÇÃO
+      ============================================================
+    */
+
+    atualizarInterface();
+
+  </script>
+
 </body>
-</html9
+</html>
