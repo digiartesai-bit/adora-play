@@ -120,8 +120,8 @@
 }
 
 .admin-tempo-table-wrap {
-    max-height: 68vh;
-    overflow: auto;
+    max-height: none;
+    overflow: visible;
     border-top: 1px solid rgba(255, 255, 255, 0.16);
 }
 
