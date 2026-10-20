@@ -1065,11 +1065,12 @@
         }
     };
 
-    window.mostrarBiblia = function ({ preservarEstado = false } = {}) {
+    window.mostrarBiblia = function ({ preservarEstado = false, versao = null } = {}) {
         if (!section) return Promise.resolve();
         if (preservarEstado && bibleAtiva && section.style.display !== 'none') return bibleReadyPromise;
         limparBiblia();
         bibleAtiva = true;
+        if (versao && bibleVersionDetails[versao]) selectedVersion = versao;
         const controller = new AbortController();
         sessaoBibliaController = controller;
         document.getElementById('gamificacaoSection')?.style.setProperty('display', 'none');
