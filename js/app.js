@@ -242,7 +242,9 @@ function aplicarRotaAtual() {
 
     if (rota === '/biblia' || rota.startsWith('/biblia/')) {
         if (typeof window.mostrarBiblia === 'function') {
-            const pronta = window.mostrarBiblia({ preservarEstado: true });
+            const versaoSolicitada = params.get('versao');
+            const versoesPermitidas = ['acf', 'kjvl', 'nbv', 'ntlh', 'nvt', 'tb', 'nva'];
+            const pronta = window.mostrarBiblia({ preservarEstado: true, versao: versoesPermitidas.includes(versaoSolicitada) ? versaoSolicitada : null });
             if (typeof window.abrirBibliaPorRota === 'function') {
                 const partes = rota.split('/').filter(Boolean);
                 let livro = null;
