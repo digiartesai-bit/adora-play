@@ -14,11 +14,15 @@ function distanciaKm(a, b, c, d) {
   return 6371 * 2 * Math.atan2(Math.sqrt(x), Math.sqrt(1 - x));
 }
 
+function estimarDistanciaTrajetoKm(a, b, c, d) {
+  return distanciaKm(a, b, c, d) * 1.35;
+}
+
 function desenhar() {
   const cidade = cidadeSelect.value;
   const encontradas = igrejas.filter(i => !cidade || i.cidade === cidade);
   if (coordenadasUsuario) {
-    encontradas.forEach(i => i.distancia = distanciaKm(coordenadasUsuario.latitude, coordenadasUsuario.longitude, i.latitude, i.longitude));
+    encontradas.forEach(i => i.distancia = estimarDistanciaTrajetoKm(coordenadasUsuario.latitude, coordenadasUsuario.longitude, i.latitude, i.longitude));
     encontradas.sort((a, b) => a.distancia - b.distancia);
   }
   statusBusca.textContent = encontradas.length ? `${encontradas.length} igreja(s) encontrada(s).` : "Nenhuma igreja cadastrada nesta cidade.";
@@ -28,7 +32,11 @@ function desenhar() {
     const mapa = coordenadasUsuario
       ? `https://www.google.com/maps/dir/?api=1&origin=${coordenadasUsuario.latitude},${coordenadasUsuario.longitude}&destination=${encodeURIComponent(destino)}`
       : `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(endereco)}`;
-    const distancia = Number.isFinite(i.distancia) ? `<p class="distancia">${i.distancia < 1 ? `${Math.round(i.distancia * 1000)} m` : `${i.distancia.toFixed(1)} km`} de distância</p>` : "";
+    const distancia = Number.isFinite(i.distancia)
+      ? `<p class="distancia">${i.distancia < 1
+        ? `${Math.round(i.distancia * 1000)} m`
+        : `${i.distancia.toLocaleString("pt-BR", { minimumFractionDigits: 1, maximumFractionDigits: 1 })} km`} de trajeto (estimativa)</p>`
+      : "";
     return `<article class="igreja"><div class="cabecalho"><img src="${escapar(i.logo_url || "/convite/imagens/logo.jpeg")}" alt="" class="logo"><h2>${escapar(i.nome)}</h2></div><p>${escapar(endereco)}</p>${distancia}<div class="acoes"><a class="botao mapa" href="${mapa}" target="_blank" rel="noopener noreferrer">Ver rota</a><a class="botao" href="/convite/igreja.html?igreja=${encodeURIComponent(i.slug)}">Conhecer</a></div></article>`;
   }).join("");
 }
