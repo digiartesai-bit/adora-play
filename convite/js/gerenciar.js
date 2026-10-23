@@ -35,7 +35,7 @@ async function carregarLista() {
     let igrejas = [];
     const opcoes = lista => '<option value="">Selecione sua igreja</option>' + lista.map(i => `<option value="${escapar(i.slug)}">${escapar(i.nome)} — ${escapar(i.cidade)}${i.temporariamente_oculta ? " (temporariamente oculta)" : ""}</option>`).join("");
     if (ehAdministrador) {
-      const resposta = await fetch("/api/admin/igrejas", { headers: { Authorization: `Bearer ${tokenGoogle}` } });
+      const resposta = await fetch("/api/igrejas");
       if (!resposta.ok) throw new Error();
       igrejas = await resposta.json();
       const selecionada = seletor.value;
@@ -50,7 +50,7 @@ async function carregarLista() {
       if (listaMinhas.some(i => i.slug === selecionada)) seletorPastor.value = selecionada;
     }
   } catch {
-    statusEl.textContent = "Não foi possível carregar as igrejas da API (/api/igrejas). O Worker publicado pode estar desatualizado ou a rota /api/* pode não estar apontando para ele.";
+    statusEl.textContent = "Não foi possível carregar a lista pública de igrejas (/api/igrejas). Confira se o Worker está publicado e se a rota /api/* aponta para ele.";
   }
 }
 
@@ -64,7 +64,7 @@ async function carregarCadastro() {
   if (!slug) return;
   const headers = tokenGoogle ? { Authorization: `Bearer ${tokenGoogle}` } : {};
   const rota = ehAdministrador
-    ? `/api/admin/igrejas/${encodeURIComponent(slug)}`
+    ? `/api/igrejas/${encodeURIComponent(slug)}`
     : `/api/pastor/igrejas/${encodeURIComponent(slug)}`;
   const resposta = await fetch(rota, { headers });
   if (ehAdministrador) {
