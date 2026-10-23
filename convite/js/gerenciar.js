@@ -1,6 +1,7 @@
 const GOOGLE_CLIENT_ID = "674847926774-7b1n759ots2bt8nkn9pmglmr6hpkee2e.apps.googleusercontent.com";
-const WHATSAPP_PROJETO = "5514900000000";
+const WHATSAPP_PROJETO = "5514991223869";
 const seletor = document.getElementById("igreja");
+const seletorPastor = document.getElementById("igrejaPastor");
 const formulario = document.getElementById("formulario");
 const statusEl = document.getElementById("status");
 let tokenGoogle = null;
@@ -21,9 +22,9 @@ function criarItem(tipo, dados = {}, destinoId = null) {
   const container = document.createElement("div");
   container.className = `item ${tipo}`;
   if (tipo === "culto") {
-    container.innerHTML = `<label>Dia<input class="dia" maxlength="40" value="${escapar(dados.dia)}" placeholder="Domingo"></label><label>Horário<input class="horario" maxlength="40" value="${escapar(dados.horario)}" placeholder="19h"></label><button type="button" class="remover">Remover</button>`;
+    container.innerHTML = `<label>Dia<input class="dia" maxlength="40" value="${escapar(dados.dia)}" placeholder="Domingo"></label><label>HorÃ¡rio<input class="horario" maxlength="40" value="${escapar(dados.horario)}" placeholder="19h"></label><button type="button" class="remover">Remover</button>`;
   } else {
-    container.innerHTML = `<label>Evento<input class="nome" maxlength="120" value="${escapar(dados.nome)}"></label><label>Data<input class="data" maxlength="50" value="${escapar(dados.data)}" placeholder="Data ou recorrência"></label><label>Horário<input class="horario" maxlength="40" value="${escapar(dados.horario)}"></label><button type="button" class="remover">Remover</button>`;
+    container.innerHTML = `<label>Evento<input class="nome" maxlength="120" value="${escapar(dados.nome)}"></label><label>Data<input class="data" maxlength="50" value="${escapar(dados.data)}" placeholder="Data ou recorrÃªncia"></label><label>HorÃ¡rio<input class="horario" maxlength="40" value="${escapar(dados.horario)}"></label><button type="button" class="remover">Remover</button>`;
   }
   container.querySelector(".remover").addEventListener("click", () => container.remove());
   document.getElementById(destinoId || (tipo === "culto" ? "cultos" : "eventos")).append(container);
@@ -31,23 +32,25 @@ function criarItem(tipo, dados = {}, destinoId = null) {
 
 async function carregarLista() {
   try {
-    const resposta = await fetch("/api/igrejas");
-    if (!resposta.ok) throw new Error();
-    const igrejas = await resposta.json();
-    if (tokenGoogle && !ehAdministrador) {
+    let igrejas = [];
+    const opcoes = lista => '<option value="">Selecione sua igreja</option>' + lista.map(i => `<option value="${escapar(i.slug)}">${escapar(i.nome)} â€” ${escapar(i.cidade)}${i.temporariamente_oculta ? " (temporariamente oculta)" : ""}</option>`).join("");
+    if (ehAdministrador) {
+      const resposta = await fetch("/api/admin/igrejas", { headers: { Authorization: `Bearer ${tokenGoogle}` } });
+      if (!resposta.ok) throw new Error();
+      igrejas = await resposta.json();
+      const selecionada = seletor.value;
+      seletor.innerHTML = opcoes(igrejas);
+      if (igrejas.some(i => i.slug === selecionada)) seletor.value = selecionada;
+    } else if (tokenGoogle) {
       const minhas = await fetch("/api/pastor/igrejas", { headers: { Authorization: `Bearer ${tokenGoogle}` } });
-      if (minhas.ok) {
-        const conhecidas = new Set(igrejas.map(i => i.slug));
-        (await minhas.json()).forEach(i => {
-          if (!conhecidas.has(i.slug)) igrejas.push({ ...i, temporariamente_oculta: true });
-        });
-      }
+      if (!minhas.ok) throw new Error("NÃ£o foi possÃ­vel carregar as igrejas autorizadas para este login.");
+      const selecionada = seletorPastor.value;
+      const listaMinhas = await minhas.json();
+      seletorPastor.innerHTML = opcoes(listaMinhas.map(i => ({ ...i, temporariamente_oculta: !i.ativo })));
+      if (listaMinhas.some(i => i.slug === selecionada)) seletorPastor.value = selecionada;
     }
-    const selecionada = seletor.value;
-    seletor.innerHTML = '<option value="">Selecione sua igreja</option>' + igrejas.map(i => `<option value="${escapar(i.slug)}">${escapar(i.nome)} — ${escapar(i.cidade)}${i.temporariamente_oculta ? " (temporariamente oculta)" : ""}</option>`).join("");
-    if (igrejas.some(i => i.slug === selecionada)) seletor.value = selecionada;
   } catch {
-    statusEl.textContent = "Não foi possível carregar as igrejas.";
+    statusEl.textContent = "NÃ£o foi possÃ­vel carregar as igrejas da API (/api/igrejas). O Worker publicado pode estar desatualizado ou a rota /api/* pode nÃ£o estar apontando para ele.";
   }
 }
 
@@ -57,44 +60,37 @@ async function carregarCadastro() {
   document.getElementById("adminPastores").hidden = true;
   igrejaAtual = null;
   document.getElementById("mapaReferencia").value = "";
-  const slug = seletor.value;
+  const slug = (ehAdministrador ? seletor : seletorPastor).value;
   if (!slug) return;
   const headers = tokenGoogle ? { Authorization: `Bearer ${tokenGoogle}` } : {};
   const rota = ehAdministrador
-    ? `/api/igrejas/${encodeURIComponent(slug)}`
-    : tokenGoogle
-      ? `/api/pastor/igrejas/${encodeURIComponent(slug)}`
-      : `/api/igrejas/${encodeURIComponent(slug)}`;
-    const resposta = await fetch(rota, { headers });
+    ? `/api/admin/igrejas/${encodeURIComponent(slug)}`
+    : `/api/pastor/igrejas/${encodeURIComponent(slug)}`;
+  const resposta = await fetch(rota, { headers });
   if (ehAdministrador) {
     const admin = await fetch(`/api/admin/igrejas/${encodeURIComponent(slug)}/pastores`, { headers });
     if (admin.ok && resposta.ok) {
       document.getElementById("adminPastores").hidden = false;
       desenharPastores(await admin.json());
-      if (resposta.ok) {
-        igrejaAtual = await resposta.json();
-        document.getElementById("latitudeAdmin").value = igrejaAtual.latitude;
-        document.getElementById("longitudeAdmin").value = igrejaAtual.longitude;
-        document.getElementById("coordenadas").textContent = `Pino atual: ${igrejaAtual.latitude}, ${igrejaAtual.longitude}`;
-      }
-      statusEl.textContent = "Acesso de administração. Você pode autorizar responsáveis e corrigir as coordenadas.";
+      igrejaAtual = await resposta.json();
+      document.getElementById("latitudeAdmin").value = igrejaAtual.latitude;
+      document.getElementById("longitudeAdmin").value = igrejaAtual.longitude;
+      document.getElementById("adminNomeIgreja").textContent = igrejaAtual.nome;
+      document.getElementById("slugAdmin").value = igrejaAtual.slug;
+      document.getElementById("adminCoordenadas").textContent = `Coordenadas atuais: ${igrejaAtual.latitude}, ${igrejaAtual.longitude}`;
+      statusEl.textContent = "Acesso de administraÃ§Ã£o. VocÃª pode autorizar responsÃ¡veis e corrigir as coordenadas.";
       return;
     }
     if (!resposta.ok) {
       const erro = await resposta.json().catch(() => ({}));
       throw new Error(erro.error || "N\u00e3o foi poss\u00edvel carregar os dados da igreja.");
     }
-    igrejaAtual = await resposta.json();
-    document.getElementById("adminPastores").hidden = true;
-    formulario.hidden = true;
-    statusEl.textContent = admin.status === 403
-      ? "Voc\u00ea est\u00e1 conectada como administradora, mas esta vers\u00e3o do Worker ainda n\u00e3o liberou a gest\u00e3o de respons\u00e1veis. Atualize o Worker para administrar esta igreja."
-      : "Conta administradora conectada. Dados desta igreja carregados.";
-    return;
+    const erroAdmin = await admin.json().catch(() => ({}));
+    throw new Error(erroAdmin.error || "N\u00e3o foi poss\u00edvel carregar a administra\u00e7\u00e3o desta igreja.");
   }
   if (!resposta.ok) {
     const erro = await resposta.json().catch(() => ({}));
-    throw new Error(erro.error || "Não foi possível carregar os dados da igreja.");
+    throw new Error(erro.error || "NÃ£o foi possÃ­vel carregar os dados da igreja.");
   }
   igrejaAtual = await resposta.json();
   if (!document.getElementById("adminPastores").hidden) {
@@ -104,12 +100,13 @@ async function carregarCadastro() {
   document.getElementById("coordenadas").textContent = `Pino atual: ${igrejaAtual.latitude}, ${igrejaAtual.longitude}`;
   atualizarLinkRevisaoMapa();
   if (!tokenGoogle) return;
-  if (igrejaAtual.removida_em) {
-    const removidaEm = new Date(`${igrejaAtual.removida_em.replace(" ", "T")}Z`);
-    const excluirEm = new Date(removidaEm.getTime() + 30 * 24 * 60 * 60 * 1000);
-    document.getElementById("prazoReativacao").textContent = `Se não for publicada novamente, a exclusão definitiva está prevista para ${excluirEm.toLocaleString("pt-BR")}.`;
+  if (igrejaAtual.removida_em || !igrejaAtual.ativo) {
+    const prazo = igrejaAtual.removida_em
+      ? `Se nÃ£o for publicada novamente, a exclusÃ£o definitiva estÃ¡ prevista para ${new Date(new Date(`${igrejaAtual.removida_em.replace(" ", "T")}Z`).getTime() + 30 * 24 * 60 * 60 * 1000).toLocaleString("pt-BR")}.`
+      : "Esta igreja estÃ¡ inativa. Entre em contato com o administrador para conferir o prazo de reativaÃ§Ã£o.";
+    document.getElementById("prazoReativacao").textContent = prazo;
     document.getElementById("reativarCadastro").hidden = false;
-    statusEl.textContent = "Este cadastro está oculto, mas pode ser reativado pelo mesmo login dentro do prazo.";
+    statusEl.textContent = "Este cadastro estÃ¡ oculto, mas pode ser reativado pelo mesmo login dentro do prazo.";
     return;
   }
   formulario.elements.namedItem("endereco").value = igrejaAtual.endereco;
@@ -150,25 +147,27 @@ async function alterarPastor(metodo, email) {
   });
   const resultado = await resposta.json();
   if (!resposta.ok) {
-    statusEl.textContent = resultado.error || "Não foi possível alterar o acesso.";
+    statusEl.textContent = resultado.error || "NÃ£o foi possÃ­vel alterar o acesso.";
     return;
   }
   if (metodo === "POST") document.getElementById("emailPastor").value = "";
   const lista = await fetch(`/api/admin/igrejas/${encodeURIComponent(igrejaAtual.slug)}/pastores`, { headers: { Authorization: `Bearer ${tokenGoogle}` } });
   desenharPastores(await lista.json());
+  await carregarLista();
+  seletor.value = igrejaAtual.slug;
   statusEl.textContent = "Acessos da igreja atualizados.";
 }
 
 function atualizarLinkRevisaoMapa() {
   if (!igrejaAtual) return;
   const mapa = document.getElementById("mapaReferencia").value.trim();
-  const mensagem = `Olá, gostaria de solicitar a revisão do pino no mapa da igreja ${igrejaAtual.nome}. Endereço: ${igrejaAtual.endereco}, ${igrejaAtual.bairro}, ${igrejaAtual.cidade} - ${igrejaAtual.estado}.${mapa ? ` Localização correta: ${mapa}` : ""}`;
+  const mensagem = `OlÃ¡, gostaria de solicitar a revisÃ£o do pino no mapa da igreja ${igrejaAtual.nome}. EndereÃ§o: ${igrejaAtual.endereco}, ${igrejaAtual.bairro}, ${igrejaAtual.cidade} - ${igrejaAtual.estado}.${mapa ? ` LocalizaÃ§Ã£o correta: ${mapa}` : ""}`;
   document.getElementById("pedirCorrecao").href = `https://wa.me/${WHATSAPP_PROJETO}?text=${encodeURIComponent(mensagem)}`;
 }
 
 document.getElementById("entrar").addEventListener("click", () => {
   if (!window.google?.accounts?.oauth2) {
-    statusEl.textContent = "O login Google ainda está carregando. Tente novamente.";
+    statusEl.textContent = "O login Google ainda estÃ¡ carregando. Tente novamente.";
     return;
   }
   tokenClient ||= google.accounts.oauth2.initTokenClient({
@@ -176,7 +175,7 @@ document.getElementById("entrar").addEventListener("click", () => {
     scope: "openid email profile",
     callback: async resposta => {
       if (resposta.error || !resposta.access_token) {
-        statusEl.textContent = "Não foi possível entrar com Google.";
+        statusEl.textContent = "NÃ£o foi possÃ­vel entrar com Google.";
         return;
       }
       tokenGoogle = resposta.access_token;
@@ -184,10 +183,16 @@ document.getElementById("entrar").addEventListener("click", () => {
         const perfil = await fetch("https://www.googleapis.com/oauth2/v3/userinfo", { headers: { Authorization: `Bearer ${tokenGoogle}` } });
         const usuario = perfil.ok ? await perfil.json() : null;
         ehAdministrador = usuario?.email_verified === true && usuario.email?.toLowerCase() === "digiartesai@gmail.com";
-        document.getElementById("adminNovaIgreja").hidden = !ehAdministrador;
+        document.getElementById("areaAdmin").hidden = !ehAdministrador;
+        document.getElementById("areaPastor").hidden = ehAdministrador;
+        document.getElementById("formulario").hidden = true;
+        document.getElementById("reativarCadastro").hidden = true;
+        document.getElementById("descricaoPagina").textContent = ehAdministrador
+          ? "Admin: selecione a igreja, confira o slug, autorize o e-mail do pastor e revise as coordenadas."
+          : "Pastor: selecione sua igreja autorizada e preencha os dados para apresenta\u00e7\u00e3o p\u00fablica.";
         statusEl.textContent = ehAdministrador
-          ? "Conta administradora conectada. Você pode cadastrar igrejas e gerenciar os acessos."
-          : "Conta Google conectada. Se estiver autorizada para a igreja selecionada, o formulário será liberado.";
+          ? "Conta administradora conectada. Selecione uma igreja para ver o slug, autorizar o pastor e revisar as coordenadas."
+          : "Conta Google conectada. Se estiver autorizada para a igreja selecionada, o formulÃ¡rio serÃ¡ liberado.";
         await carregarLista();
         await carregarCadastro();
       } catch (erro) { statusEl.textContent = erro.message; }
@@ -197,6 +202,9 @@ document.getElementById("entrar").addEventListener("click", () => {
 });
 
 seletor.addEventListener("change", async () => {
+  try { await carregarCadastro(); } catch (erro) { statusEl.textContent = erro.message; }
+});
+seletorPastor.addEventListener("change", async () => {
   try { await carregarCadastro(); } catch (erro) { statusEl.textContent = erro.message; }
 });
 document.getElementById("mapaReferencia").addEventListener("input", atualizarLinkRevisaoMapa);
@@ -219,26 +227,49 @@ document.getElementById("salvarCoordenadas").addEventListener("click", async () 
     body: JSON.stringify({ latitude: document.getElementById("latitudeAdmin").value, longitude: document.getElementById("longitudeAdmin").value })
   });
   const resultado = await resposta.json();
-  statusEl.textContent = resposta.ok ? "Coordenadas atualizadas." : (resultado.error || "Não foi possível atualizar as coordenadas.");
+  statusEl.textContent = resposta.ok ? "Coordenadas atualizadas." : (resultado.error || "NÃ£o foi possÃ­vel atualizar as coordenadas.");
   if (resposta.ok) {
     igrejaAtual.latitude = resultado.latitude;
     igrejaAtual.longitude = resultado.longitude;
-    document.getElementById("coordenadas").textContent = `Pino atual: ${resultado.latitude}, ${resultado.longitude}`;
+    document.getElementById("adminCoordenadas").textContent = `Coordenadas atuais: ${resultado.latitude}, ${resultado.longitude}`;
+    await carregarLista();
+    seletor.value = igrejaAtual.slug;
   }
 });
 
+document.getElementById("salvarSlug").addEventListener("click", async () => {
+  if (!tokenGoogle || !igrejaAtual) return;
+  const slug = document.getElementById("slugAdmin").value.trim().toLowerCase();
+  const resposta = await fetch(`/api/admin/igrejas/${encodeURIComponent(igrejaAtual.slug)}/slug`, {
+    method: "PUT",
+    headers: { Authorization: `Bearer ${tokenGoogle}`, "Content-Type": "application/json" },
+    body: JSON.stringify({ slug })
+  });
+  const resultado = await resposta.json();
+  if (!resposta.ok) {
+    statusEl.textContent = resultado.error || "Não foi possível salvar o slug.";
+    return;
+  }
+  igrejaAtual.slug = resultado.slug;
+  await carregarLista();
+  seletor.value = resultado.slug;
+  await carregarCadastro();
+  statusEl.textContent = "Slug atualizado.";
+});
+
 document.getElementById("ocultarIgreja").addEventListener("click", async () => {
-  if (!tokenGoogle || !igrejaAtual || !window.confirm("Ocultar esta igreja da busca pública? O cadastro e o acesso deste login serão mantidos por 30 dias e poderão ser reativados nesse período. Depois disso, o cadastro e a logo serão apagados permanentemente.")) return;
+  if (!tokenGoogle || !igrejaAtual || !window.confirm("Ocultar esta igreja da busca pÃºblica? O cadastro e o acesso deste login serÃ£o mantidos por 30 dias e poderÃ£o ser reativados nesse perÃ­odo. Depois disso, o cadastro e a logo serÃ£o apagados permanentemente.")) return;
   const resposta = await fetch(`/api/pastor/igrejas/${encodeURIComponent(igrejaAtual.slug)}/ocultar`, {
     method: "POST",
     headers: { Authorization: `Bearer ${tokenGoogle}` }
   });
   const resultado = await resposta.json();
   if (!resposta.ok) {
-    statusEl.textContent = resultado.error || "Não foi possível ocultar a igreja.";
+    statusEl.textContent = resultado.error || "NÃ£o foi possÃ­vel ocultar a igreja.";
     return;
   }
   await carregarLista();
+  seletorPastor.value = igrejaAtual.slug;
   await carregarCadastro();
 });
 
@@ -250,12 +281,13 @@ document.getElementById("reativarIgreja").addEventListener("click", async () => 
   });
   const resultado = await resposta.json();
   if (!resposta.ok) {
-    statusEl.textContent = resultado.error || "Não foi possível publicar novamente.";
+    statusEl.textContent = resultado.error || "NÃ£o foi possÃ­vel publicar novamente.";
     return;
   }
   await carregarLista();
+  seletorPastor.value = igrejaAtual.slug;
   await carregarCadastro();
-  statusEl.textContent = "A igreja voltou à lista pública.";
+  statusEl.textContent = "A igreja voltou Ã  lista pÃºblica.";
 });
 
 async function prepararLogo(arquivo) {
@@ -273,7 +305,7 @@ async function prepararLogo(arquivo) {
     const blob = await new Promise(resolve => canvas.toBlob(resolve, "image/webp", qualidade));
     if (blob && blob.size <= 100 * 1024) return blob;
   }
-  throw new Error("Não foi possível reduzir a logo para menos de 100 KB.");
+  throw new Error("NÃ£o foi possÃ­vel reduzir a logo para menos de 100 KB.");
 }
 
 formulario.addEventListener("submit", async evento => {
@@ -285,12 +317,12 @@ formulario.addEventListener("submit", async evento => {
   const telefone = campo("telefone").replace(/\D/g, "");
   const whatsapp = campo("whatsapp").replace(/\D/g, "");
   if ([telefone, whatsapp].some(numero => numero && ![10, 11].includes(numero.length))) {
-    statusEl.textContent = "Digite cada contato com DDD e telefone, totalizando 10 ou 11 números.";
+    statusEl.textContent = "Digite cada contato com DDD e telefone, totalizando 10 ou 11 nÃºmeros.";
     return;
   }
   const corpo = { endereco: campo("endereco"), bairro: campo("bairro"), cidade: campo("cidade"), estado: campo("estado"), telefone: telefone ? `55${telefone}` : "", whatsapp: whatsapp ? `55${whatsapp}` : "", cultos, eventos };
   const headers = { Authorization: `Bearer ${tokenGoogle}`, "Content-Type": "application/json" };
-  statusEl.textContent = "Salvando…";
+  statusEl.textContent = "Salvandoâ€¦";
   try {
     const resposta = await fetch(`/api/pastor/igrejas/${encodeURIComponent(igrejaAtual.slug)}`, { method: "PUT", headers, body: JSON.stringify(corpo) });
     const resultado = await resposta.json();
@@ -303,7 +335,7 @@ formulario.addEventListener("submit", async evento => {
       form.append("logo", logoReduzida, `logo.${extensao}`);
       const upload = await fetch(`/api/pastor/igrejas/${encodeURIComponent(igrejaAtual.slug)}/logo`, { method: "POST", headers: { Authorization: `Bearer ${tokenGoogle}` }, body: form });
       const resultadoLogo = await upload.json();
-      if (!upload.ok) throw new Error(resultadoLogo.error || "Dados salvos, mas não foi possível enviar a logo.");
+      if (!upload.ok) throw new Error(resultadoLogo.error || "Dados salvos, mas nÃ£o foi possÃ­vel enviar a logo.");
       document.getElementById("logo").value = "";
     }
     statusEl.textContent = "Cadastro atualizado com sucesso.";
@@ -312,62 +344,8 @@ formulario.addEventListener("submit", async evento => {
   }
 });
 
-document.getElementById("novoAdicionarCulto").addEventListener("click", () => criarItem("culto", {}, "novosCultos"));
-document.getElementById("novoAdicionarEvento").addEventListener("click", () => criarItem("evento", {}, "novosEventos"));
-for (const nome of ["telefone", "whatsapp"]) {
-  const campoNovo = document.querySelector(`#novoCadastro [name="${nome}"]`);
-  campoNovo.addEventListener("input", evento => {
-    let numeros = evento.target.value.replace(/\D/g, "");
-    if (numeros.startsWith("55") && [12, 13].includes(numeros.length)) numeros = numeros.slice(2);
-    evento.target.value = numeros.slice(0, 11);
-  });
-}
-
-document.getElementById("novoCadastro").addEventListener("submit", async evento => {
-  evento.preventDefault();
-  if (!tokenGoogle || !ehAdministrador) return;
-  const novoForm = evento.currentTarget;
-  const valor = nome => novoForm.elements.namedItem(nome).value.trim();
-  const telefone = valor("telefone").replace(/\D/g, "");
-  const whatsapp = valor("whatsapp").replace(/\D/g, "");
-  const corpo = {
-    slug: valor("slug").toLowerCase(),
-    nome: valor("nome"),
-    endereco: valor("endereco"),
-    bairro: valor("bairro"),
-    cidade: valor("cidade"),
-    estado: valor("estado").toUpperCase() || "SP",
-    latitude: Number(valor("latitude")),
-    longitude: Number(valor("longitude")),
-    telefone: telefone ? `55${telefone}` : "",
-    whatsapp: whatsapp ? `55${whatsapp}` : "",
-    cultos: [...document.querySelectorAll("#novosCultos .item")]
-      .map(el => ({ dia: el.querySelector(".dia").value.trim(), horario: el.querySelector(".horario").value.trim() }))
-      .filter(culto => culto.dia && culto.horario),
-    eventos: [...document.querySelectorAll("#novosEventos .item")]
-      .map(el => ({ nome: el.querySelector(".nome").value.trim(), data: el.querySelector(".data").value.trim(), horario: el.querySelector(".horario").value.trim() }))
-      .filter(item => item.nome)
-  };
-
-  statusEl.textContent = "Cadastrando igreja…";
-  try {
-    const resposta = await fetch("/api/admin/igrejas", {
-      method: "POST",
-      headers: { Authorization: `Bearer ${tokenGoogle}`, "Content-Type": "application/json" },
-      body: JSON.stringify(corpo)
-    });
-    const resultado = await resposta.json();
-    if (!resposta.ok) throw new Error(resultado.error || "Não foi possível cadastrar a igreja.");
-    novoForm.reset();
-    document.getElementById("novosCultos").replaceChildren();
-    document.getElementById("novosEventos").replaceChildren();
-    await carregarLista();
-    seletor.value = corpo.slug;
-    await carregarCadastro();
-    statusEl.textContent = "Igreja cadastrada. Agora selecione-a para autorizar o e-mail do pastor.";
-  } catch (erro) {
-    statusEl.textContent = erro.message;
-  }
-});
-
 carregarLista();
+
+
+
+
