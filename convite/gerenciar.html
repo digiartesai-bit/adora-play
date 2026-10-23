@@ -6,7 +6,7 @@
   <title>Área da Igreja | Lance a Rede</title>
   <link rel="stylesheet" href="/convite/css/gerenciar.css">
   <script src="https://accounts.google.com/gsi/client" async></script>
-  <script src="/convite/js/gerenciar.js?v=1.0.1" defer></script>
+  <script src="/convite/js/gerenciar.js?v=1.0.2" defer></script>
 </head>
 <body>
   <main class="painel">
@@ -19,6 +19,16 @@
       <h2>Administração</h2>
       <label for="igreja">Igreja cadastrada</label>
       <select id="igreja"><option value="">Carregando igrejas…</option></select>
+      <section class="mapa" id="cadastroNovaIgreja">
+        <h3>Cadastrar nova igreja</h3>
+        <p>Informe o slug, o e-mail Google do pastor e as coordenadas. O pastor preencherá os demais dados no primeiro acesso.</p>
+        <form id="formNovaIgreja">
+          <label>Slug<input name="slug" required maxlength="80" pattern="[a-z0-9]+(?:-[a-z0-9]+)*" placeholder="igreja-nova-cidade"></label>
+          <label>E-mail Google do pastor<input name="email_pastor" type="email" required autocomplete="email"></label>
+          <div class="linha"><label>Latitude<input name="latitude" type="number" min="-90" max="90" step="any" required></label><label>Longitude<input name="longitude" type="number" min="-180" max="180" step="any" required></label></div>
+          <button class="salvar" type="submit">Cadastrar igreja</button>
+        </form>
+      </section>
       <section id="adminPastores" hidden>
         <h3 id="adminNomeIgreja"></h3>
         <label>Identificador (slug)<input id="slugAdmin" maxlength="80" pattern="[a-z0-9]+(?:-[a-z0-9]+)*" required></label>
@@ -42,6 +52,7 @@
       <button type="button" id="reativarIgreja">Publicar novamente</button>
     </section>
     <form id="formulario" hidden>
+      <label>Nome da igreja<input name="nome" required maxlength="180"></label>
       <label>Endereço<input name="endereco" required maxlength="250"></label>
       <label>Bairro<input name="bairro" maxlength="120"></label>
       <div class="linha"><label>Cidade<input name="cidade" required maxlength="100"></label><label>Estado<input name="estado" required maxlength="2"></label></div>
