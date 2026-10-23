@@ -17,6 +17,23 @@
     <select id="igreja"><option value="">Carregando igrejas…</option></select>
     <p id="status" role="status" aria-live="polite">Entre com a conta Google autorizada para editar.</p>
     <button id="entrar" type="button">Entrar com Google</button>
+    <section id="adminNovaIgreja" class="mapa" hidden>
+      <h2>Cadastrar nova igreja</h2>
+      <p>Use um slug novo. Depois do cadastro, selecione a igreja para autorizar o e-mail do pastor.</p>
+      <form id="novoCadastro">
+        <label>Identificador (slug)<input name="slug" required maxlength="80" pattern="[a-z0-9]+(?:-[a-z0-9]+)*" placeholder="igreja-nova-bocaina"></label>
+        <label>Nome da igreja<input name="nome" required maxlength="180"></label>
+        <label>Endereço<input name="endereco" required maxlength="250"></label>
+        <label>Bairro<input name="bairro" maxlength="120"></label>
+        <div class="linha"><label>Cidade<input name="cidade" required maxlength="100"></label><label>Estado<input name="estado" required maxlength="2" value="SP"></label></div>
+        <div class="linha"><label>Latitude<input name="latitude" type="number" step="any" required></label><label>Longitude<input name="longitude" type="number" step="any" required></label></div>
+        <label>Telefone para ligações (DDD + número)<span class="tel-input"><span class="ddi">+55</span><input name="telefone" type="tel" inputmode="numeric" maxlength="11" pattern="[0-9]{10,11}" placeholder="14900000000"></span></label>
+        <label>WhatsApp para mensagens (DDD + número)<span class="tel-input"><span class="ddi">+55</span><input name="whatsapp" type="tel" inputmode="numeric" maxlength="11" pattern="[0-9]{10,11}" placeholder="14900000000"></span></label>
+        <section><div class="titulo"><h3>Cultos</h3><button type="button" id="novoAdicionarCulto">Adicionar culto</button></div><div id="novosCultos"></div></section>
+        <section><div class="titulo"><h3>Eventos</h3><button type="button" id="novoAdicionarEvento">Adicionar evento</button></div><div id="novosEventos"></div></section>
+        <button class="salvar" type="submit">Cadastrar igreja</button>
+      </form>
+    </section>
     <section id="reativarCadastro" class="mapa" hidden>
       <h2>Igreja temporariamente fora da lista pública</h2>
       <p>Os dados continuam guardados e podem ser publicados novamente durante o prazo de 30 dias.</p>
