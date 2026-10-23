@@ -11,44 +11,35 @@
 <body>
   <main class="painel">
     <a href="/convite/buscaigreja.html">← Voltar para a busca</a>
-    <h1>Área da igreja</h1>
-    <p>Atualize os contatos, o endereço, os horários de culto, os eventos e a logo da sua igreja.</p>
-    <label for="igreja">Igreja</label>
-    <select id="igreja"><option value="">Carregando igrejas…</option></select>
+    <h1>Gerenciamento de igrejas</h1>
+    <p id="descricaoPagina">Entre com sua conta Google para continuar.</p>
     <p id="status" role="status" aria-live="polite">Entre com a conta Google autorizada para editar.</p>
     <button id="entrar" type="button">Entrar com Google</button>
-    <section id="adminNovaIgreja" class="mapa" hidden>
-      <h2>Cadastrar nova igreja</h2>
-      <p>Use um slug novo. Depois do cadastro, selecione a igreja para autorizar o e-mail do pastor.</p>
-      <form id="novoCadastro">
-        <label>Identificador (slug)<input name="slug" required maxlength="80" pattern="[a-z0-9]+(?:-[a-z0-9]+)*" placeholder="igreja-nova-bocaina"></label>
-        <label>Nome da igreja<input name="nome" required maxlength="180"></label>
-        <label>Endereço<input name="endereco" required maxlength="250"></label>
-        <label>Bairro<input name="bairro" maxlength="120"></label>
-        <div class="linha"><label>Cidade<input name="cidade" required maxlength="100"></label><label>Estado<input name="estado" required maxlength="2" value="SP"></label></div>
-        <div class="linha"><label>Latitude<input name="latitude" type="number" step="any" required></label><label>Longitude<input name="longitude" type="number" step="any" required></label></div>
-        <label>Telefone para ligações (DDD + número)<span class="tel-input"><span class="ddi">+55</span><input name="telefone" type="tel" inputmode="numeric" maxlength="11" pattern="[0-9]{10,11}" placeholder="14900000000"></span></label>
-        <label>WhatsApp para mensagens (DDD + número)<span class="tel-input"><span class="ddi">+55</span><input name="whatsapp" type="tel" inputmode="numeric" maxlength="11" pattern="[0-9]{10,11}" placeholder="14900000000"></span></label>
-        <section><div class="titulo"><h3>Cultos</h3><button type="button" id="novoAdicionarCulto">Adicionar culto</button></div><div id="novosCultos"></div></section>
-        <section><div class="titulo"><h3>Eventos</h3><button type="button" id="novoAdicionarEvento">Adicionar evento</button></div><div id="novosEventos"></div></section>
-        <button class="salvar" type="submit">Cadastrar igreja</button>
-      </form>
+    <section id="areaAdmin" hidden>
+      <h2>Administração</h2>
+      <label for="igreja">Igreja cadastrada</label>
+      <select id="igreja"><option value="">Carregando igrejas…</option></select>
+      <section id="adminPastores" hidden>
+        <h3 id="adminNomeIgreja"></h3>
+        <label>Identificador (slug)<input id="slugAdmin" maxlength="80" pattern="[a-z0-9]+(?:-[a-z0-9]+)*" required></label>
+        <button type="button" id="salvarSlug">Salvar slug</button>
+        <p id="adminCoordenadas"></p>
+        <div class="linha"><label>Latitude<input id="latitudeAdmin" type="number" step="any"></label><label>Longitude<input id="longitudeAdmin" type="number" step="any"></label></div>
+        <button type="button" id="salvarCoordenadas">Salvar coordenadas</button>
+        <ul id="listaPastores"></ul>
+        <label>E-mail Google do pastor<input id="emailPastor" type="email" autocomplete="email"></label>
+        <button id="autorizarPastor" type="button">Salvar e-mail do pastor</button>
+      </section>
+    </section>
+    <section id="areaPastor" hidden>
+      <label for="igrejaPastor">Igreja autorizada</label>
+      <select id="igrejaPastor"><option value="">Carregando igrejas…</option></select>
     </section>
     <section id="reativarCadastro" class="mapa" hidden>
       <h2>Igreja temporariamente fora da lista pública</h2>
       <p>Os dados continuam guardados e podem ser publicados novamente durante o prazo de 30 dias.</p>
       <p id="prazoReativacao"></p>
       <button type="button" id="reativarIgreja">Publicar novamente</button>
-    </section>
-    <section id="adminPastores" hidden>
-      <h2>Responsáveis autorizados</h2>
-      <p>Adicione ou remova o e-mail Google dos responsáveis que podem editar esta igreja.</p>
-      <h3>Coordenadas aprovadas</h3>
-      <div class="linha"><label>Latitude<input id="latitudeAdmin" type="number" step="any"></label><label>Longitude<input id="longitudeAdmin" type="number" step="any"></label></div>
-      <button type="button" id="salvarCoordenadas">Atualizar pino no mapa</button>
-      <ul id="listaPastores"></ul>
-      <label>E-mail Google do pastor<input id="emailPastor" type="email" autocomplete="email"></label>
-      <button id="autorizarPastor" type="button">Autorizar pastor</button>
     </section>
     <form id="formulario" hidden>
       <label>Endereço<input name="endereco" required maxlength="250"></label>
@@ -61,7 +52,7 @@
       <label>Logo da igreja (será reduzida para até 80 × 80 px e 100 KB)<input id="logo" type="file" accept="image/*"></label>
       <section class="mapa"><h2>Localização no mapa</h2><p id="coordenadas"></p><p>Para evitar erros de geolocalização pelo endereço, a posição só pode ser alterada pela equipe do projeto. Se possível, cole aqui um link do pino correto no Google Maps.</p><label>Link do local no mapa<input id="mapaReferencia" type="url" placeholder="https://maps.google.com/…"></label><a id="pedirCorrecao" target="_blank" rel="noopener noreferrer">Solicitar revisão do pino pelo WhatsApp</a></section>
       <button class="salvar" type="submit">Salvar alterações</button>
-      <button class="remover" id="ocultarIgreja" type="button">Ocultar igreja temporariamente</button>
+      <button class="remover" id="ocultarIgreja" type="button">Solicitar retirada temporária da lista</button>
     </form>
   </main>
 </body>
