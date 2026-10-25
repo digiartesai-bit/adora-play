@@ -37,6 +37,7 @@ async function carregarApresentacao() {
       <header class="cabecalho">
         <img class="logo" src="${escaparHtml(igreja.logo_url || "/convite/imagens/logo.jpeg")}" alt="Logo de ${escaparHtml(igreja.nome)}">
         <h1>${escaparHtml(igreja.nome)}</h1>
+        ${igreja.mensagem_pastor ? `<p class="mensagem-pastor">${escaparHtml(igreja.mensagem_pastor)}</p>` : ""}
         <p class="endereco">${escaparHtml(endereco)}</p>
       </header>
       <section class="secao"><h2>Horários dos cultos</h2>${listaHtml(cultos, culto => `${escaparHtml(culto.dia)} — ${escaparHtml(culto.horario)}`)}</section>
