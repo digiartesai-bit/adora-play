@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Área da Igreja | Lance a Rede</title>
+  <link rel="stylesheet" href="/convite/css/gerenciar.css">
+  <script src="https://accounts.google.com/gsi/client" async></script>
+  <script src="/convite/js/gerenciar.js?v=1.0.2" defer></script>
+</head>
+<body>
+  <main class="painel">
+    <a href="/convite/buscaigreja.html">← Voltar para a busca</a>
+    <h1>Gerenciamento de igrejas</h1>
+    <p id="descricaoPagina">Entre com sua conta Google para continuar.</p>
+    <p id="status" role="status" aria-live="polite">Entre com a conta Google autorizada para editar.</p>
+    <button id="entrar" type="button">Entrar com Google</button>
+    <section id="areaAdmin" hidden>
+      <h2>Administração</h2>
+      <label for="igreja">Igreja cadastrada</label>
+      <select id="igreja"><option value="">Carregando igrejas…</option></select>
+      <section class="mapa" id="cadastroNovaIgreja">
+        <h3>Cadastrar nova igreja</h3>
+        <p>Informe o slug, o e-mail Google do pastor e as coordenadas. O pastor preencherá os demais dados no primeiro acesso.</p>
+        <form id="formNovaIgreja">
+          <label>Slug<input name="slug" required maxlength="80" pattern="[a-z0-9]+(?:-[a-z0-9]+)*" placeholder="igreja-nova-cidade"></label>
+          <label>E-mail Google do pastor<input name="email_pastor" type="email" required autocomplete="email"></label>
+          <div class="linha"><label>Latitude<input name="latitude" type="number" min="-90" max="90" step="any" required></label><label>Longitude<input name="longitude" type="number" min="-180" max="180" step="any" required></label></div>
+          <button class="salvar" type="submit">Cadastrar igreja</button>
+        </form>
+      </section>
+      <section id="adminPastores" hidden>
+        <h3 id="adminNomeIgreja"></h3>
+        <label>Identificador (slug)<input id="slugAdmin" maxlength="80" pattern="[a-z0-9]+(?:-[a-z0-9]+)*" required></label>
+        <button type="button" id="salvarSlug">Salvar slug</button>
+        <p id="adminCoordenadas"></p>
+        <div class="linha"><label>Latitude<input id="latitudeAdmin" type="number" step="any"></label><label>Longitude<input id="longitudeAdmin" type="number" step="any"></label></div>
+        <button type="button" id="salvarCoordenadas">Salvar coordenadas</button>
+        <ul id="listaPastores"></ul>
+        <label>E-mail Google do pastor<input id="emailPastor" type="email" autocomplete="email"></label>
+        <button id="autorizarPastor" type="button">Salvar e-mail do pastor</button>
+      </section>
+    </section>
+    <section id="areaPastor" hidden>
+      <label for="igrejaPastor">Igreja autorizada</label>
+      <select id="igrejaPastor"><option value="">Carregando igrejas…</option></select>
+    </section>
+    <section id="reativarCadastro" class="mapa" hidden>
+      <h2>Igreja temporariamente fora da lista pública</h2>
+      <p>Os dados continuam guardados e podem ser publicados novamente durante o prazo de 30 dias.</p>
+      <p id="prazoReativacao"></p>
+      <button type="button" id="reativarIgreja">Publicar novamente</button>
+    </section>
+    <form id="formulario" hidden>
+      <label>Nome da igreja<input name="nome" required maxlength="180"></label>
+      <label>Endereço<input name="endereco" required maxlength="250"></label>
+      <label>Bairro<input name="bairro" maxlength="120"></label>
+      <div class="linha"><label>Cidade<input name="cidade" required maxlength="100"></label><label>Estado<input name="estado" required maxlength="2"></label></div>
+      <label>Telefone para ligações (DDD + número)<span class="tel-input"><span class="ddi">+55</span><input name="telefone" type="tel" inputmode="numeric" autocomplete="tel-national" maxlength="11" pattern="[0-9]{10,11}" placeholder="14900000000"></span></label>
+      <label>WhatsApp para mensagens (DDD + número)<span class="tel-input"><span class="ddi">+55</span><input name="whatsapp" type="tel" inputmode="numeric" autocomplete="tel-national" maxlength="11" pattern="[0-9]{10,11}" placeholder="14900000000"></span><small>Digite somente números, sem o código do país. Deixe em branco se não houver esse contato.</small></label>
+      <section><div class="titulo"><h2>Cultos</h2><button type="button" id="adicionarCulto">Adicionar culto</button></div><div id="cultos"></div></section>
+      <section><div class="titulo"><h2>Eventos</h2><button type="button" id="adicionarEvento">Adicionar evento</button></div><div id="eventos"></div></section>
+      <label>Logo da igreja (será reduzida para até 80 × 80 px e 100 KB)<input id="logo" type="file" accept="image/*"></label>
+      <section class="mapa"><h2>Localização no mapa</h2><p id="coordenadas"></p><p>Para evitar erros de geolocalização pelo endereço, a posição só pode ser alterada pela equipe do projeto. Se possível, cole aqui um link do pino correto no Google Maps.</p><label>Link do local no mapa<input id="mapaReferencia" type="url" placeholder="https://maps.google.com/…"></label><a id="pedirCorrecao" target="_blank" rel="noopener noreferrer">Solicitar revisão do pino pelo WhatsApp</a></section>
+      <button class="salvar" type="submit">Salvar alterações</button>
+      <button class="remover" id="ocultarIgreja" type="button">Solicitar retirada temporária da lista</button>
+    </form>
+  </main>
+</body>
+</html>
