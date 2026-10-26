@@ -43,7 +43,8 @@ function desenhar() {
 
 async function iniciar() {
   try {
-    const resposta = await fetch("/api/igrejas");
+    // Aponta diretamente para o Worker no Cloudflare, contornando o conflito de rotas do domínio principal
+    const resposta = await fetch("https://adoraplay-api.digiartesai.workers.dev/api/igrejas");
     if (!resposta.ok) throw new Error("API indisponível");
     igrejas = await resposta.json();
     [...new Set(igrejas.map(i => i.cidade))].sort((a, b) => a.localeCompare(b, "pt-BR")).forEach(cidade => {
@@ -62,6 +63,5 @@ async function iniciar() {
     statusBusca.textContent = "Não foi possível carregar as igrejas. Tente novamente mais tarde.";
   }
 }
-
 cidadeSelect.addEventListener("change", desenhar);
 iniciar();
