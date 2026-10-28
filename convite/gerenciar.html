@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Área da Igreja | Lance a Rede</title>
-  <link rel="stylesheet" href="/convite/css/gerenciar.css">
+  <link rel="stylesheet" href="/convite/css/gerenciar.css?v=1.2.0">
   <script src="https://accounts.google.com/gsi/client" async></script>
-  <script src="/convite/js/gerenciar.js?v=1.0.2" defer></script>
+  <script src="/convite/js/gerenciar.js?v=1.4.0" defer></script>
 </head>
 <body>
   <main class="painel">
@@ -15,6 +15,12 @@
     <p id="descricaoPagina">Entre com sua conta Google para continuar.</p>
     <p id="status" role="status" aria-live="polite">Entre com a conta Google autorizada para editar.</p>
     <button id="entrar" type="button">Entrar com Google</button>
+    <button id="sair" class="sair" type="button" hidden>Sair (logout)</button>
+    <section id="semCadastro" class="mapa aviso" hidden>
+      <h2>Você não possui cadastro ativo</h2>
+      <p>Esta conta Google não está vinculada a nenhuma igreja. Envie uma solicitação ao administrador pelo WhatsApp informando o e-mail usado no login.</p>
+      <a id="solicitarCadastro" class="botao-whats" target="_blank" rel="noopener noreferrer">Enviar solicitação pelo WhatsApp</a>
+    </section>
     <section id="areaAdmin" hidden>
       <h2>Administração</h2>
       <label for="igreja">Igreja cadastrada</label>
@@ -25,7 +31,7 @@
         <form id="formNovaIgreja">
           <label>Slug<input name="slug" required maxlength="80" pattern="[a-z0-9]+(?:-[a-z0-9]+)*" placeholder="igreja-nova-cidade"></label>
           <label>E-mail Google do pastor<input name="email_pastor" type="email" required autocomplete="email"></label>
-          <div class="linha"><label>Latitude<input name="latitude" type="number" min="-90" max="90" step="any" required></label><label>Longitude<input name="longitude" type="number" min="-180" max="180" step="any" required></label></div>
+          <div class="linha coords"><label>Latitude<span class="coord"><input name="latitude" data-coord="90" type="text" inputmode="text" autocomplete="off" required placeholder="-22.140656"><button type="button" class="sinal" aria-label="Alternar sinal negativo">±</button></span></label><label>Longitude<span class="coord"><input name="longitude" data-coord="180" type="text" inputmode="text" autocomplete="off" required placeholder="-48.528216"><button type="button" class="sinal" aria-label="Alternar sinal negativo">±</button></span></label></div>
           <button class="salvar" type="submit">Cadastrar igreja</button>
         </form>
       </section>
@@ -34,7 +40,7 @@
         <label>Identificador (slug)<input id="slugAdmin" maxlength="80" pattern="[a-z0-9]+(?:-[a-z0-9]+)*" required></label>
         <button type="button" id="salvarSlug">Salvar slug</button>
         <p id="adminCoordenadas"></p>
-        <div class="linha"><label>Latitude<input id="latitudeAdmin" type="number" step="any"></label><label>Longitude<input id="longitudeAdmin" type="number" step="any"></label></div>
+        <div class="linha coords"><label>Latitude<span class="coord"><input id="latitudeAdmin" data-coord="90" type="text" inputmode="text" autocomplete="off"><button type="button" class="sinal" aria-label="Alternar sinal negativo">±</button></span></label><label>Longitude<span class="coord"><input id="longitudeAdmin" data-coord="180" type="text" inputmode="text" autocomplete="off"><button type="button" class="sinal" aria-label="Alternar sinal negativo">±</button></span></label></div>
         <button type="button" id="salvarCoordenadas">Salvar coordenadas</button>
         <ul id="listaPastores"></ul>
         <label>E-mail Google do pastor<input id="emailPastor" type="email" autocomplete="email"></label>
@@ -52,6 +58,7 @@
       <button type="button" id="reativarIgreja">Publicar novamente</button>
     </section>
     <form id="formulario" hidden>
+      <p id="avisoAlteracoes" class="aviso-alteracoes" role="status" hidden>⚠ Você tem alterações não salvas. Clique em “Salvar alterações” para publicá-las.</p>
       <label>Nome da igreja<input name="nome" required maxlength="180"></label>
       <label>Endereço<input name="endereco" required maxlength="250"></label>
       <label>Bairro<input name="bairro" maxlength="120"></label>
@@ -59,9 +66,28 @@
       <label>Telefone para ligações (DDD + número)<span class="tel-input"><span class="ddi">+55</span><input name="telefone" type="tel" inputmode="numeric" autocomplete="tel-national" maxlength="11" pattern="[0-9]{10,11}" placeholder="14900000000"></span></label>
       <label>WhatsApp para mensagens (DDD + número)<span class="tel-input"><span class="ddi">+55</span><input name="whatsapp" type="tel" inputmode="numeric" autocomplete="tel-national" maxlength="11" pattern="[0-9]{10,11}" placeholder="14900000000"></span><small>Digite somente números, sem o código do país. Deixe em branco se não houver esse contato.</small></label>
       <section><div class="titulo"><h2>Cultos</h2><button type="button" id="adicionarCulto">Adicionar culto</button></div><div id="cultos"></div></section>
-      <section><div class="titulo"><h2>Eventos</h2><button type="button" id="adicionarEvento">Adicionar evento</button></div><div id="eventos"></div></section>
-      <label>Logo da igreja (será reduzida para até 80 × 80 px e 100 KB)<input id="logo" type="file" accept="image/*"></label>
-      <section class="mapa"><h2>Localização no mapa</h2><p id="coordenadas"></p><p>Para evitar erros de geolocalização pelo endereço, a posição só pode ser alterada pela equipe do projeto. Se possível, cole aqui um link do pino correto no Google Maps.</p><label>Link do local no mapa<input id="mapaReferencia" type="url" placeholder="https://maps.google.com/…"></label><a id="pedirCorrecao" target="_blank" rel="noopener noreferrer">Solicitar revisão do pino pelo WhatsApp</a></section>
+      <label>Mensagem de boas-vindas do pastor<textarea name="mensagem_pastor" id="mensagemPastor" rows="4" maxlength="280" placeholder="Escreva uma mensagem de boas-vindas para quem visitar a página da igreja."></textarea><small id="contadorMensagem">0 / 280 caracteres usados. Aparece abaixo do nome da igreja.</small></label>
+      <label>Facebook (opcional)<input name="facebook_url" type="url" maxlength="300" placeholder="https://www.facebook.com/suaigreja"></label>
+      <label>Instagram (opcional)<input name="instagram_url" type="url" maxlength="300" placeholder="https://www.instagram.com/suaigreja"></label>
+      <section class="logo-area">
+        <h2>Foto do pastor (opcional)</h2>
+        <div id="fotoPastorAtualBox" class="foto-pastor-atual" hidden><img id="fotoPastorAtual" alt="Prévia do enquadramento da foto do pastor"><span id="fotoPastorLegenda">Foto atual do pastor</span></div>
+        <div id="ajusteFotoPastor" class="ajuste-foto-pastor" hidden>
+          <label id="rotuloEnquadramentoHorizontal" for="enquadramentoHorizontal">Ajustar para esquerda ou direita<input id="enquadramentoHorizontal" type="range" min="0" max="100" value="50"></label>
+          <label id="rotuloEnquadramentoVertical" for="enquadramentoVertical" hidden>Ajustar para cima ou para baixo<input id="enquadramentoVertical" type="range" min="0" max="100" value="50"></label>
+          <small>Ajuste a posição do pastor dentro do recorte vertical 3:4.</small>
+        </div>
+        <label id="rotuloFotoPastor">Escolher foto (será reduzida para até 240 × 240 px e 250 KB)<input id="fotoPastor" type="file" accept="image/jpeg,image/png,image/webp"></label>
+        <small id="avisoFotoPastor" hidden>A nova foto substituirá a atual ao salvar.</small>
+        <button id="removerFotoPastor" type="button" class="remover" hidden>Remover foto atual</button>
+      </section>
+      <section class="logo-area">
+        <h2>Logo da igreja</h2>
+        <div id="logoAtualBox" class="logo-atual" hidden><img id="logoAtual" alt="Logo atual da igreja"><span id="logoLegenda">Logo atual</span></div>
+        <label id="rotuloLogo">Escolher logo (será reduzida para até 80 × 80 px e 100 KB)<input id="logo" type="file" accept="image/*"></label>
+        <small id="avisoLogo" hidden>Ao salvar, a nova logo substituirá a atual e a anterior será apagada.</small>
+      </section>
+      <section class="mapa"><h2>Localização no mapa</h2><p id="coordenadas"></p><p>Para evitar erros de geolocalização pelo endereço, a posição só pode ser alterada pela equipe do projeto. Se possível, cole aqui um link do pino correto no Google Maps.</p><label>Link do local no mapa<input id="mapaReferencia" type="url" placeholder="https://maps.google.com/…"></label><a id="pedirCorrecao" class="botao-whats" target="_blank" rel="noopener noreferrer">Solicitar revisão do pino pelo WhatsApp</a></section>
       <button class="salvar" type="submit">Salvar alterações</button>
       <button class="remover" id="ocultarIgreja" type="button">Solicitar retirada temporária da lista</button>
     </form>

@@ -1,156 +1,239 @@
+/* Navegação entre as seis etapas */
+const ordemTelas = [
+  "inicio",
+  "pergunta",
+  "deus",
+  "jesus",
+  "convite",
+  "final"
+];
 
+let telaAtual = 0;
 
-    /*
-      ============================================================
-      NAVEGAÇÃO
-      ============================================================
-    */
+function irPara(id) {
+  const novoIndice = ordemTelas.indexOf(id);
+  if (novoIndice < 0) return;
 
-    const ordemTelas = [
-      "inicio",
-      "espelhamento",
-      "pergunta",
-      "falta",
-      "deus",
-      "distancia",
-      "relacionamento",
-      "jesus",
-      "convite",
-      "oracao",
-      "final"
-    ];
+  document.querySelectorAll(".tela").forEach(tela => {
+    tela.classList.remove("ativa");
+  });
 
-    let telaAtual = 0;
+  const destino = document.getElementById(id);
+  if (!destino) return;
 
+  destino.classList.add("ativa");
+  telaAtual = novoIndice;
 
-    function irPara(id) {
+  atualizarInterface();
 
-      const novoIndice = ordemTelas.indexOf(id);
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+}
 
-      if (novoIndice === -1) {
-        return;
-      }
+function voltar() {
+  if (telaAtual > 0) {
+    irPara(ordemTelas[telaAtual - 1]);
+  }
+}
 
-      document.querySelectorAll(".tela").forEach(function(tela) {
-        tela.classList.remove("ativa");
-      });
+function atualizarInterface() {
+  const total = ordemTelas.length;
+  const barra = document.getElementById("progressoBarra");
+  const progresso = document.querySelector(".progresso");
+  const btnVoltar = document.getElementById("btnVoltar");
 
-      const destino = document.getElementById(id);
+  if (barra) {
+    barra.style.width =
+      `${((telaAtual + 1) / total) * 100}%`;
+  }
 
-      if (destino) {
-        destino.classList.add("ativa");
-      }
+  if (progresso) {
+    progresso.setAttribute(
+      "aria-valuenow",
+      String(telaAtual + 1)
+    );
+  }
 
-      telaAtual = novoIndice;
+  if (btnVoltar) {
+    btnVoltar.style.display =
+      telaAtual === 0 ? "none" : "block";
+  }
+}
 
-      atualizarInterface();
+/* Botão Voltar do navegador/Android */
+window.addEventListener("popstate", () => {
+  if (telaAtual > 0) {
+    irPara(ordemTelas[telaAtual - 1]);
+  }
+});
 
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-      });
+/* Inicialização */
+document.addEventListener("DOMContentLoaded", () => {
+  atualizarInterface();
+  carregarIgreja();
+});
+
+/* Carrega os dados da igreja selecionada */
+async function carregarIgreja() {
+  const slug =
+    new URLSearchParams(location.search).get("igreja");
+
+  const area = document.getElementById("detalhesIgreja");
+
+  if (!area) return;
+
+  if (!slug) {
+    area.innerHTML =
+      '<p class="texto">Selecione uma igreja participante para ver endereço, cultos e contato.</p>';
+    return;
+  }
+
+  try {
+    const resposta = await fetch(
+      `/api/igrejas/${encodeURIComponent(slug)}`
+    );
+
+    if (!resposta.ok) {
+      throw new Error("Igreja não encontrada.");
     }
 
+    const igreja = await resposta.json();
 
-    function voltar() {
+    document.title =
+      `${igreja.nome} | SOS para a Vida`;
 
-      if (telaAtual <= 0) {
-        return;
-      }
+    const nomeMini =
+      document.getElementById("nomeMini");
 
-      const anterior = ordemTelas[telaAtual - 1];
+    const rodape =
+      document.getElementById("igrejaRodape");
 
-      irPara(anterior);
+    if (nomeMini) {
+      nomeMini.textContent = igreja.nome;
     }
 
-
-    function atualizarInterface() {
-
-      const total = ordemTelas.length;
-
-      const percentual =
-        ((telaAtual + 1) / total) * 100;
-
-      document.getElementById("progressoBarra").style.width =
-        percentual + "%";
-
-
-      const btnVoltar =
-        document.getElementById("btnVoltar");
-
-      if (telaAtual === 0) {
-        btnVoltar.style.display = "none";
-      } else {
-        btnVoltar.style.display = "block";
-      }
-
+    if (rodape) {
+      rodape.textContent = igreja.nome;
     }
 
+    /* Atualiza os logos */
+    ["logoMini", "logoPrincipal", "logoFinal"].forEach(id => {
+      const img = document.getElementById(id);
 
-    /*
-      ============================================================
-      BOTÃO VOLTAR DO ANDROID / NAVEGADOR
-      ============================================================
-    */
+      if (img) {
+        img.src =
+          igreja.logo_url || "/convite/imagens/logo.jpeg";
 
-    window.addEventListener("popstate", function() {
-
-      if (telaAtual > 0) {
-        const anterior = ordemTelas[telaAtual - 1];
-        irPara(anterior);
+        img.alt = `Logo de ${igreja.nome}`;
       }
-
     });
 
+    /* Monta o endereço */
+    const endereco = [
+      igreja.endereco,
+      igreja.bairro,
+      [igreja.cidade, igreja.estado]
+        .filter(Boolean)
+        .join(" - ")
+    ]
+      .filter(Boolean)
+      .join(", ");
 
-    /*
-      ============================================================
-      INICIALIZAÇÃO
-      ============================================================
-    */
+    /* Lista de cultos */
+    const cultos =
+      Array.isArray(igreja.cultos) && igreja.cultos.length
+        ? `<h3>Cultos</h3>
+           <ul>
+             ${igreja.cultos.map(c =>
+               `<li>${escapar(c.dia)} — ${escapar(c.horario)}</li>`
+             ).join("")}
+           </ul>`
+        : "";
 
-    atualizarInterface();
+    /* Lista de eventos */
+    const eventos =
+      Array.isArray(igreja.eventos) && igreja.eventos.length
+        ? `<h3>Eventos</h3>
+           <ul>
+             ${igreja.eventos.map(e => {
+               const descricao =
+                 typeof e === "string"
+                   ? e
+                   : [e.nome, e.data, e.horario]
+                       .filter(Boolean)
+                       .join(" — ");
 
-    carregarIgreja();
+               return `<li>${escapar(descricao)}</li>`;
+             }).join("")}
+           </ul>`
+        : "";
 
-    async function carregarIgreja() {
-      const slug = new URLSearchParams(location.search).get("igreja");
-      const area = document.getElementById("detalhesIgreja");
-      if (!slug) {
-        area.innerHTML = '<p class="texto">Selecione uma igreja participante para ver endereço, cultos e contato.</p>';
-        return;
-      }
-      try {
-        const resposta = await fetch(`/api/igrejas/${encodeURIComponent(slug)}`);
-        if (!resposta.ok) throw new Error("Igreja não encontrada.");
-        const igreja = await resposta.json();
-        document.title = `${igreja.nome} | SOS para a Vida`;
-        document.getElementById("nomeMini").textContent = igreja.nome;
-        document.getElementById("igrejaRodape").textContent = igreja.nome;
-        ["logoMini", "logoPrincipal", "logoFinal"].forEach(id => {
-          const img = document.getElementById(id);
-          img.src = igreja.logo_url || "/convite/imagens/logo.jpeg";
-          img.alt = `Logo de ${igreja.nome}`;
-        });
-        const endereco = [igreja.endereco, igreja.bairro, `${igreja.cidade} - ${igreja.estado}`].filter(Boolean).join(", ");
-        const cultos = igreja.cultos.length
-          ? `<h3>Cultos</h3><ul>${igreja.cultos.map(c => `<li>${escapar(c.dia)} — ${escapar(c.horario)}</li>`).join("")}</ul>` : "";
-        const eventos = igreja.eventos.length
-          ? `<h3>Eventos</h3><ul>${igreja.eventos.map(e => `<li>${escapar(typeof e === "string" ? e : [e.nome, e.data, e.horario].filter(Boolean).join(" — "))}</li>`).join("")}</ul>` : "";
-        const destino = `${igreja.latitude},${igreja.longitude}`;
-        const rota = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(destino)}&travelmode=driving`;
-        const telefone = String(igreja.telefone || "").replace(/\D/g, "");
-        const whatsapp = String(igreja.whatsapp || "").replace(/\D/g, "");
-        const contatoLigacao = telefone ? `<a class="botao botao-whatsapp" href="tel:+${telefone}">Ligar</a>` : "";
-        const contatoWhatsapp = whatsapp ? `<a class="botao botao-whatsapp" href="https://wa.me/${whatsapp}" target="_blank" rel="noopener noreferrer">Enviar mensagem pelo WhatsApp</a>` : "";
-        area.innerHTML = `<h3>${escapar(igreja.nome)}</h3><p class="texto">${escapar(endereco)}</p>${cultos}${eventos}<a class="botao" href="${rota}" target="_blank" rel="noopener noreferrer">Ver rota</a>${contatoLigacao}${contatoWhatsapp}`;
-      } catch (erro) {
-        area.textContent = "Não foi possível carregar os dados desta igreja. Você pode escolher outra na busca.";
-      }
-    }
+    /* Link para o Google Maps */
+    const temCoordenadas =
+      igreja.latitude != null &&
+      igreja.longitude != null &&
+      igreja.latitude !== "" &&
+      igreja.longitude !== "";
 
-    function escapar(valor) {
-      return String(valor).replace(/[&<>"']/g, caractere => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[caractere]);
-    }
+    const rota = temCoordenadas
+      ? `https://www.google.com/maps/dir/?api=1&destination=${
+          encodeURIComponent(
+            `${igreja.latitude},${igreja.longitude}`
+          )
+        }&travelmode=driving`
+      : "";
 
-  
+    const linkRota = rota
+      ? `<a class="botao" href="${rota}"
+           target="_blank"
+           rel="noopener noreferrer">Ver rota</a>`
+      : "";
+
+    /* Telefone e WhatsApp */
+    const telefone =
+      String(igreja.telefone || "").replace(/\D/g, "");
+
+    const whatsapp =
+      String(igreja.whatsapp || "").replace(/\D/g, "");
+
+    const contatoLigacao = telefone
+      ? `<a class="botao botao-whatsapp"
+           href="tel:+${telefone}">Ligar</a>`
+      : "";
+
+    const contatoWhatsapp = whatsapp
+      ? `<a class="botao botao-whatsapp"
+           href="https://wa.me/${whatsapp}"
+           target="_blank"
+           rel="noopener noreferrer">WhatsApp</a>`
+      : "";
+
+    /* Exibe as informações */
+    area.innerHTML = `
+      <h3>${escapar(igreja.nome)}</h3>
+      <p class="texto">${escapar(endereco)}</p>
+      ${cultos}
+      ${eventos}
+      ${linkRota}
+      ${contatoLigacao}
+      ${contatoWhatsapp}
+    `;
+
+  } catch (erro) {
+    area.textContent =
+      "Não foi possível carregar os dados desta igreja. Você pode escolher outra na busca.";
+  }
+}
+
+/* Proteção de textos inseridos no HTML */
+function escapar(valor) {
+  return String(valor ?? "").replace(/[&<>"']/g, caractere => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;"
+  })[caractere]);
+}

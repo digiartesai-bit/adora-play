@@ -1,1 +1,563 @@
-*{box-sizing:border-box}body{margin:0;padding:20px;background:#f4f6f8;color:#243447;font-family:Arial,sans-serif;line-height:1.6}.cartao{max-width:560px;margin:0 auto;padding:24px;background:#fff;border-radius:14px;box-shadow:0 3px 14px #172b3b12}.voltar{display:inline-block;margin-bottom:20px;color:#28633c;font-weight:700;text-decoration:none}.voltar:hover{text-decoration:underline}.status{color:#526477}.cabecalho{text-align:center}.logo{width:96px;height:96px;object-fit:contain;display:block;margin:0 auto 14px;border-radius:50%;background:#f0f2f5;padding:7px}.cabecalho h1{margin:0;font-size:1.6rem;line-height:1.25}.endereco{text-align:center;color:#526477}.secao{margin-top:24px}.secao h2{margin:0 0 8px;font-size:1.12rem}.lista{margin:0;padding-left:22px}.lista li{margin:5px 0}.acoes{display:grid;gap:10px;margin-top:24px}.botao{display:block;padding:13px 16px;border-radius:8px;background:#245b83;color:#fff;text-align:center;text-decoration:none;font-weight:700}.botao:hover{filter:brightness(.93)}.botao.mapa{background:#32834b}.vazio{color:#667085}@media(max-width:420px){body{padding:12px}.cartao{padding:19px}.cabecalho h1{font-size:1.4rem}}
+
+/* =========================================
+   APRESENTAÇÃO DA IGREJA
+   Visual acolhedor, elegante e responsivo
+   ========================================= */
+
+:root {
+    --azul: #245b83;
+    --azul-escuro: #183d5b;
+    --verde: #28734b;
+    --verde-claro: #edf7f0;
+    --dourado: #c89b3c;
+    --dourado-claro: #f8efd9;
+    --texto: #243447;
+    --texto-suave: #617184;
+    --fundo: #f0f4f8;
+    --branco: #ffffff;
+    --borda: #e2e9ef;
+    --sombra: 0 8px 28px rgba(27, 53, 76, 0.08);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 28px 16px;
+    background:
+        radial-gradient(ellipse at 10% 5%, rgba(200, 155, 60, 0.12), transparent 30%),
+        radial-gradient(ellipse at 95% 35%, rgba(36, 91, 131, 0.09), transparent 32%),
+        var(--fundo);
+    color: var(--texto);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.65;
+}
+
+/* Cartão principal */
+
+.cartao {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 26px;
+    overflow: hidden;
+    background: var(--branco);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    border-radius: 22px;
+    box-shadow:
+        0 18px 55px rgba(27, 53, 76, 0.10),
+        0 2px 8px rgba(27, 53, 76, 0.04);
+}
+
+/* Detalhe dourado no topo do cartão */
+
+.cartao::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient(
+        90deg,
+        var(--verde),
+        var(--dourado),
+        var(--azul)
+    );
+}
+
+/* Link para voltar */
+
+.voltar {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 22px;
+    color: var(--verde);
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.voltar::before {
+    content: "‹";
+    font-size: 1.8rem;
+    line-height: 1;
+}
+
+.voltar:hover {
+    color: var(--azul-escuro);
+}
+
+/* Mensagens de carregamento e erro */
+
+.status {
+    padding: 16px;
+    color: var(--texto-suave);
+    text-align: center;
+    background: #f5f8fb;
+    border: 1px solid var(--borda);
+    border-radius: 12px;
+}
+
+/* Cabeçalho */
+
+.cabecalho {
+    position: relative;
+    padding: 24px 16px 28px;
+    margin-bottom: 24px;
+    overflow: hidden;
+    text-align: center;
+    background:
+        radial-gradient(circle at 90% 10%, rgba(200, 155, 60, 0.14), transparent 35%),
+        linear-gradient(145deg, #f7fafc, #ffffff 70%);
+    border: 1px solid #edf1f5;
+    border-radius: 18px;
+}
+
+.cabecalho::after {
+    content: "";
+    display: block;
+    width: 76px;
+    height: 3px;
+    margin: 20px auto 0;
+    background: linear-gradient(90deg, var(--verde), var(--dourado));
+    border-radius: 10px;
+}
+
+.logo {
+    display: block;
+    width: 112px;
+    height: 112px;
+    object-fit: contain;
+    margin: 0 auto 18px;
+    padding: 7px;
+    background: var(--branco);
+    border: 3px solid #f2e5c5;
+    border-radius: 50%;
+    box-shadow: 0 5px 18px rgba(27, 53, 76, 0.12);
+}
+
+.cabecalho h1 {
+    margin: 0;
+    color: var(--azul-escuro);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.85rem;
+    line-height: 1.25;
+    overflow-wrap: anywhere;
+}
+
+/* Seções */
+
+.secao {
+    position: relative;
+    margin-top: 20px;
+    padding: 22px;
+    background: #ffffff;
+    border: 1px solid var(--borda);
+    border-radius: 16px;
+    box-shadow: 0 4px 14px rgba(27, 53, 76, 0.035);
+}
+
+.secao h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 0 14px;
+    color: var(--azul-escuro);
+    font-size: 1.15rem;
+    line-height: 1.4;
+}
+
+/* Pequeno detalhe decorativo nos títulos */
+
+.secao h2::before {
+    content: "";
+    flex: 0 0 4px;
+    width: 4px;
+    height: 23px;
+    background: var(--dourado);
+    border-radius: 5px;
+}
+
+/* Mensagem do pastor */
+
+.secao-mensagem {
+    padding: 24px;
+    background:
+        radial-gradient(circle at 100% 0%, rgba(200, 155, 60, 0.10), transparent 45%),
+        linear-gradient(135deg, #fffdf8, #ffffff);
+    border: 1px solid #f0e4c9;
+    border-left: 5px solid var(--dourado);
+    box-shadow: 0 6px 20px rgba(153, 115, 39, 0.07);
+}
+
+.secao-mensagem h2::before {
+    background: var(--dourado);
+}
+
+.mensagem-pastor {
+    margin: 0;
+    padding: 0 0 0 4px;
+    color: #394b5d;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.05rem;
+    line-height: 1.85;
+    white-space: pre-line;
+    overflow-wrap: anywhere;
+}
+
+.secao-mensagem .mensagem-pastor::before {
+    content: "“";
+    display: inline;
+    color: var(--dourado);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.foto-pastor {
+    float: left;
+    width: clamp(96px, 28%, 160px);
+    aspect-ratio: 3 / 4;
+    height: auto;
+    margin: 4px 16px 10px 0;
+    border: 3px solid #e3ebe5;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(23, 43, 59, 0.12);
+}
+
+.secao-mensagem::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+/* Endereço */
+
+.secao-endereco {
+    background: linear-gradient(135deg, #f7faff, #ffffff);
+    border-color: #dce7f1;
+}
+
+.secao-endereco h2::before {
+    background: var(--azul);
+}
+
+.secao-endereco .endereco,
+.endereco {
+    margin: 0;
+    color: var(--texto-suave);
+    line-height: 1.75;
+    overflow-wrap: anywhere;
+}
+
+/* Horários dos cultos */
+
+.secao-cultos {
+    background: linear-gradient(135deg, #f7faff, #ffffff);
+    border-color: #dce7f1;
+}
+
+.lista {
+    margin: 0;
+    padding-left: 24px;
+}
+
+.lista li {
+    margin: 9px 0;
+    padding-left: 3px;
+    color: #394b5d;
+}
+
+.lista li::marker {
+    color: var(--azul);
+}
+
+.vazio {
+    margin: 0;
+    padding: 12px;
+    color: var(--texto-suave);
+    background: #f6f8fa;
+    border-radius: 8px;
+}
+
+/* Área de contatos */
+
+.secao-contatos {
+    background: linear-gradient(135deg, #f7fcf8, #ffffff);
+    border-color: #dcefe2;
+}
+
+.secao-contatos h2::before {
+    background: var(--verde);
+}
+
+.contato-numero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin: 8px 0 0;
+    padding: 8px 14px;
+    background: var(--verde-claro);
+    border: 1px solid #d6eadd;
+    border-radius: 12px;
+    text-align: center;
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.contato-numero:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(40, 115, 75, 0.08);
+}
+
+.contato-numero p {
+    margin: 0;
+}
+
+.contato-numero .rotulo-contato {
+    color: #426650;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.contato-numero .numero-contato {
+    color: #204b36;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    overflow-wrap: anywhere;
+}
+
+/* Botões de ação */
+
+.acoes {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 50px;
+    padding: 13px 18px;
+    color: #ffffff;
+    font-size: 0.98rem;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: center;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+    background: linear-gradient(135deg, var(--azul), #19496e);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 11px;
+    box-shadow: 0 4px 10px rgba(36, 91, 131, 0.15);
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        filter 0.2s ease;
+}
+
+.botao:hover {
+    filter: brightness(1.08);
+    transform: translateY(-2px);
+    box-shadow: 0 7px 16px rgba(36, 91, 131, 0.2);
+}
+
+.botao:active {
+    transform: translateY(0);
+}
+
+.botao:focus-visible,
+.voltar:focus-visible {
+    outline: 3px solid var(--dourado);
+    outline-offset: 3px;
+}
+
+/* Botão para abrir o mapa */
+
+.botao.mapa {
+    background: linear-gradient(135deg, #32834b, #22643a);
+    box-shadow: 0 4px 10px rgba(50, 131, 75, 0.16);
+}
+
+.botao.mapa:hover {
+    box-shadow: 0 7px 16px rgba(50, 131, 75, 0.23);
+}
+
+/* Botões de telefone e WhatsApp, quando dentro dos contatos */
+
+.contato-numero .botao {
+    margin-top: 5px;
+}
+
+/* Ícones SVG */
+.icone {
+    display: inline-block;
+    flex: 0 0 auto;
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+}
+
+/* Ícone junto ao título de cada seção */
+.secao h2 {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.secao h2 .icone {
+    width: 25px;
+    height: 25px;
+    color: var(--azul);
+}
+
+.secao-mensagem h2 .icone {
+    color: var(--dourado);
+}
+
+.secao-contatos h2 .icone {
+    color: var(--verde);
+}
+
+/* Ícones dentro dos botões */
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.botao .icone {
+    width: 21px;
+    height: 21px;
+}
+
+/* Ícones maiores nas seções */
+.secao-titulo-icone {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 42px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #eaf2fa;
+    color: var(--azul);
+}
+
+.secao-mensagem .secao-titulo-icone {
+    background: var(--dourado-claro);
+    color: #a77c24;
+}
+
+.secao-contatos .secao-titulo-icone {
+    background: var(--verde-claro);
+    color: var(--verde);
+}
+
+
+/* Telas pequenas */
+
+@media (max-width: 420px) {
+    body {
+        padding: 12px 9px;
+        font-size: 15px;
+    }
+
+    .cartao {
+        padding: 15px;
+        border-radius: 17px;
+    }
+
+    .voltar {
+        margin-bottom: 16px;
+    }
+
+    .cabecalho {
+        padding: 22px 12px;
+        margin-bottom: 18px;
+        border-radius: 14px;
+    }
+
+    .logo {
+        width: 94px;
+        height: 94px;
+        margin-bottom: 14px;
+    }
+
+    .cabecalho h1 {
+        font-size: 1.5rem;
+    }
+
+    .secao {
+        margin-top: 16px;
+        padding: 17px;
+        border-radius: 13px;
+    }
+
+    .secao h2 {
+        font-size: 1.05rem;
+    }
+
+    .mensagem-pastor {
+        font-size: 1rem;
+        line-height: 1.75;
+    }
+
+    .foto-pastor {
+        width: clamp(84px, 30%, 126px);
+        margin-right: 12px;
+    }
+
+    .contato-numero {
+        padding: 15px 10px;
+    }
+
+    .contato-numero .numero-contato {
+        font-size: 1.15rem;
+    }
+
+    .acoes {
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .botao {
+        min-height: 48px;
+        padding: 12px;
+        font-size: 0.94rem;
+    }
+}
+
+/* Respeita quem prefere menos animações */
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        transition: none !important;
+    }
+}
+.redes-sociais{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-top:22px;padding-top:16px;border-top:1px solid #e3e8ed}.botao-social{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-width:145px;padding:11px 18px;border-radius:999px;color:#fff;font-weight:700;text-decoration:none;box-shadow:0 3px 8px #172b3b20;transition:transform .15s ease,filter .15s ease}.botao-social:hover{transform:translateY(-2px);filter:brightness(.94)}.botao-social:focus-visible{outline:3px solid #c89b3c;outline-offset:3px}.botao-social span{display:inline-flex;width:23px;height:23px;align-items:center;justify-content:center;border:1.5px solid currentColor;border-radius:50%;font-size:1.05rem;line-height:1}.botao-social.facebook{background:#1877f2}.botao-social.instagram{background:linear-gradient(115deg,#6255c7 0%,#c13584 52%,#f77737 100%)}

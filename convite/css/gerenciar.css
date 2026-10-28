@@ -1,1 +1,253 @@
-*{box-sizing:border-box}body{margin:0;padding:20px;background:#f4f6f8;color:#243447;font:16px/1.5 Arial,sans-serif}.painel{max-width:680px;margin:auto;padding:22px;background:#fff;border-radius:14px}.painel>a{color:#245b83}h1{margin:18px 0 6px}label{display:block;margin:14px 0;font-weight:700}input,select{display:block;width:100%;margin-top:5px;padding:11px;border:1px solid #cbd3dc;border-radius:7px;font:inherit}button{padding:10px 14px;border:0;border-radius:7px;background:#245b83;color:#fff;font:inherit;font-weight:700;cursor:pointer}#status{padding:10px;background:#f4f6f8;border-radius:7px}form{margin-top:20px}.linha{display:grid;grid-template-columns:3fr 1fr;gap:12px}section{margin:24px 0}.titulo{display:flex;align-items:center;justify-content:space-between;gap:10px}h2{font-size:1.15rem}.item{display:grid;grid-template-columns:1fr 1fr auto;gap:8px;align-items:end;margin:8px 0}.item.evento{grid-template-columns:2fr 1fr 1fr auto}.remover{background:#8b3b3b;padding:9px}.remover#ocultarIgreja{display:block;width:100%;margin:10px 0}.mapa{padding:14px;background:#f4f6f8;border-radius:8px}.mapa p{margin:8px 0}.salvar{width:100%;background:#32834b;margin:16px 0}.tel-input{display:flex;align-items:center;gap:8px;margin-top:5px}.tel-input input{margin-top:0}.ddi{padding:10px 12px;border:1px solid #cbd3dc;border-radius:7px;background:#f4f6f8;font-weight:700}small{display:block;margin-top:5px;color:#526477;font-weight:400}@media(max-width:520px){.painel{padding:16px}.item,.item.evento{grid-template-columns:1fr 1fr}.item .remover{grid-column:2}.linha{grid-template-columns:1fr 90px}}
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background: #f4f6f8;
+    color: #243447;
+    font: 16px/1.5 Arial, sans-serif
+}
+
+.painel {
+    max-width: 680px;
+    margin: auto;
+    padding: 22px;
+    background: #fff;
+    border-radius: 14px
+}
+
+.painel>a {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #28633c;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 18px 0 6px
+}
+
+label {
+    display: block;
+    margin: 14px 0;
+    font-weight: 700
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding: 11px;
+    border: 1px solid #cbd3dc;
+    border-radius: 7px;
+    font: inherit;
+    resize: vertical
+}
+
+input,
+select {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding: 11px;
+    border: 1px solid #cbd3dc;
+    border-radius: 7px;
+    font: inherit
+}
+
+button {
+    padding: 10px 14px;
+    border: 0;
+    border-radius: 7px;
+    background: #245b83;
+    color: #fff;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer
+}
+
+#status {
+    padding: 10px;
+    background: #f4f6f8;
+    border-radius: 7px
+}
+
+form {
+    margin-top: 20px
+}
+
+.linha {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 12px
+}
+
+section {
+    margin: 24px 0
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px
+}
+
+h2 {
+    font-size: 1.15rem
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    gap: 8px;
+    align-items: end;
+    margin: 8px 0
+}
+
+.item.evento {
+    grid-template-columns: 2fr 1fr 1fr auto
+}
+
+.remover {
+    background: #8b3b3b;
+    padding: 9px
+}
+
+.remover#ocultarIgreja {
+    display: block;
+    width: 100%;
+    margin: 10px 0
+}
+
+.mapa {
+    padding: 14px;
+    background: #f4f6f8;
+    border-radius: 8px
+}
+
+.mapa p {
+    margin: 8px 0
+}
+
+.salvar {
+    width: 100%;
+    background: #32834b;
+    margin: 16px 0
+}
+
+.tel-input {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 5px
+}
+
+.tel-input input {
+    margin-top: 0
+}
+
+.ddi {
+    padding: 10px 12px;
+    border: 1px solid #cbd3dc;
+    border-radius: 7px;
+    background: #f4f6f8;
+    font-weight: 700
+}
+
+small {
+    display: block;
+    margin-top: 5px;
+    color: #526477;
+    font-weight: 400
+}
+
+.sair {
+    background: #8b3b3b;
+    margin: 10px 0
+}
+
+.botao-whats {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    background: #25a244;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center
+}
+
+.botao-whats:hover {
+    background: #1e8a39
+}
+
+.mapa .botao-whats {
+    display: block
+}
+
+.aviso {
+    border-left: 4px solid #d98a00
+}
+
+.aviso-alteracoes {
+    padding: 10px;
+    background: #fff4d6;
+    border-radius: 7px;
+    color: #6b4a00;
+    font-weight: 700
+}
+
+.logo-atual {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 8px 0
+}
+
+.logo-atual img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border: 1px solid #cbd3dc;
+    border-radius: 8px;
+    background: #fff
+}
+
+.coord {
+    display: flex;
+    gap: 6px;
+    margin-top: 5px
+}
+
+.coord input {
+    margin-top: 0
+}
+
+.sinal {
+    padding: 8px 12px
+}
+
+@media(max-width:520px) {
+    .painel {
+        padding: 16px
+    }
+
+    .item,
+    .item.evento {
+        grid-template-columns: 1fr 1fr
+    }
+
+    .item .remover {
+        grid-column: 2
+    }
+
+    .linha {
+        grid-template-columns: 1fr 90px
+    }
+}
+.foto-pastor-atual{display:flex;align-items:flex-start;gap:12px;margin:10px 0}.foto-pastor-atual #fotoPastorAtual{display:block;width:clamp(96px,28%,160px);height:auto;aspect-ratio:3/4;border-radius:10px;object-fit:cover;object-position:50% 50%;border:3px solid #e3ebe5;box-shadow:0 2px 8px rgba(23,43,59,.12);background:#fff}.ajuste-foto-pastor{max-width:360px;padding:12px;background:#f4f6f8;border-radius:8px}.ajuste-foto-pastor label{margin:8px 0}.ajuste-foto-pastor input[type=range]{padding:0;accent-color:#32834b}.logo-area .remover{margin-top:8px}
